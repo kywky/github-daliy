@@ -193,6 +193,12 @@ def _md_to_html(text: str) -> str:
         items = "".join(f"<li><strong>{label}</strong>：{body}</li>" for label, body in hits)
         return f"<ul>{items}</ul>"
 
+    if len(lines) == 3 and all(label is None for label, _ in parsed) and not any(re.match(r"^[-*•]\s", ln) for ln in lines):
+        items = "".join(
+            f"<li><strong>{lab}</strong>：{body}</li>" for lab, body in zip(LABELS, lines)
+        )
+        return f"<ul>{items}</ul>"
+
     def li(m):
         lines_ = [ln.lstrip("-*• ").strip() for ln in m.group(0).strip().split("\n") if ln.strip()]
         return "<ul>" + "".join(f"<li>{x}</li>" for x in lines_) + "</ul>"

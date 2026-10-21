@@ -14,8 +14,8 @@ CATEGORIES = {
     "C/C++":  {"queries": ["language:cpp", "language:c"], "color": "#5b6ee1", "sigil": "C"},
     "AI":     {"queries": ["topic:llm", "topic:ai-agents"], "color": "#8b5cf6", "sigil": "AI"},
     "Python": {"queries": ["language:python"], "color": "#f59e0b", "sigil": "Py"},
-    "GPU":    {"queries": ["topic:cuda", "gpu in:name,description"], "color": "#ef4444", "sigil": "GPU"},
-    "自动化":  {"queries": ["automation in:name,description", "topic:mcp-server"], "color": "#10b981", "sigil": "A"},
+    "GPU":    {"queries": ["topic:cuda", "topic:gpu", "gpu in:name,description"], "color": "#ef4444", "sigil": "GPU"},
+    "自动化":  {"queries": ["topic:automation", "topic:n8n", "topic:browser-automation", "topic:mcp-server"], "color": "#10b981", "sigil": "A"},
 }
 
 
@@ -127,21 +127,34 @@ def rank_score(r: dict) -> float:
     return r["stars"] / 1000.0
 
 
-def select_balanced(pool: dict[str, dict], total_limit: int, per_cat_quota: int = 2) -> list[dict]:
+def select_balanced(pool: dict[str, dict], total_limit: int, per_cat_quota: int = 2, max_per_cat: int = 3) -> list[dict]:
     by_cat: dict[str, list[dict]] = {c: [] for c in CATEGORIES}
     for r in pool.values():
         for c in r["categories"]:
             by_cat[c].append(r)
 
     chosen: dict[str, dict] = {}
-    for items in by_cat.values():
-        for r in sorted(items, key=rank_score, reverse=True)[:per_cat_quota]:
-            chosen[r["full_name"]] = r
+    cat_count: dict[str, int] = {c: 0 for c in CATEGORIES}
+
+    def add(r: dict) -> None:
+        if r["full_name"] in chosen:
+            return
+        chosen[r["full_name"]] = r
+        for c in r["categories"]:
+            cat_count[c] += 1
+
+    for c, items in by_cat.items():
+        for r in sorted(items, key=rank_score, reverse=True):
+            if cat_count[c] >= per_cat_quota or len(chosen) >= total_limit:
+                break
+            add(r)
 
     if len(chosen) < total_limit:
         for r in sorted(pool.values(), key=rank_score, reverse=True):
             if len(chosen) >= total_limit:
                 break
-            chosen.setdefault(r["full_name"], r)
+            if r["categories"] and all(cat_count[c] >= max_per_cat for c in r["categories"]):
+                continue
+            add(r)
 
     return sorted(chosen.values(), key=rank_score, reverse=True)[:total_limit]

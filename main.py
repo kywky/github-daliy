@@ -92,7 +92,7 @@ def main() -> int:
     p.add_argument("--days", type=int, default=7, help="只看最近 N 天创建的仓库，默认 7")
     p.add_argument("--min-stars", type=int, default=50, help="最少 star 数，默认 50")
     p.add_argument("--limit", type=int, default=10, help="最终取多少个，默认 10")
-    p.add_argument("--per-cat", type=int, default=20, help="每个分类每个 topic 拉多少，默认 20")
+    p.add_argument("--per-cat", type=int, default=50, help="每个分类每个 topic 拉多少，默认 50")
     args = p.parse_args()
 
     start, today = load_window(args.days)
