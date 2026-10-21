@@ -54,6 +54,8 @@ body {
   background: rgba(255,255,255,.07); border: 1px solid rgba(255,255,255,.14);
   color: #e0e7ff; backdrop-filter: blur(6px);
 }
+a.pill { text-decoration: none; transition: background .15s ease, border-color .15s ease; }
+a.pill:hover { background: rgba(255,255,255,.14); border-color: rgba(255,255,255,.28); }
 
 /* tabs */
 .tabbar-wrap { position: relative; margin-top: -34px; z-index: 2; }
@@ -326,6 +328,7 @@ def render(repos: list[dict], window_end: str, comparison: str | None) -> str:
       <span class="pill">{_window_note()}</span>
       <span class="pill">{len(repos)} 个项目</span>
       <span class="pill">{speed_note}</span>
+      <a class="pill" href="archive.html">历史存档 →</a>
     </div>
   </div>
 </header>
