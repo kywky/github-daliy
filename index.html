@@ -51,6 +51,8 @@ body {
   background: rgba(255,255,255,.07); border: 1px solid rgba(255,255,255,.14);
   color: #e0e7ff; backdrop-filter: blur(6px);
 }
+a.pill { text-decoration: none; transition: background .15s ease, border-color .15s ease; }
+a.pill:hover { background: rgba(255,255,255,.14); border-color: rgba(255,255,255,.28); }
 
 /* tabs */
 .tabbar-wrap { position: relative; margin-top: -34px; z-index: 2; }
@@ -164,74 +166,75 @@ footer .sep { margin: 0 8px; }
       <span class="pill">工具 90–365 天内新建 · AI 30 天内新建</span>
       <span class="pill">9 个项目</span>
       <span class="pill">暂无前一日快照，今日按总 star 排序</span>
+      <a class="pill" href="archive.html">历史存档 →</a>
     </div>
   </div>
 </header>
 
 <div class="wrap tabbar-wrap">
-  <div class="tabbar"><button class="tab active" data-cat="all">全部 <span class="count">9</span></button><button class="tab" data-cat="安卓"><span class="dot" style="background:#3ddc84"></span>安卓 <span class="count">2</span></button><button class="tab" data-cat="鸿蒙"><span class="dot" style="background:#e33e31"></span>鸿蒙 <span class="count">2</span></button><button class="tab" data-cat="Linux"><span class="dot" style="background:#f59e0b"></span>Linux <span class="count">2</span></button><button class="tab" data-cat="Windows"><span class="dot" style="background:#0ea5e9"></span>Windows <span class="count">3</span></button><button class="tab" data-cat="AI"><span class="dot" style="background:#8b5cf6"></span>AI <span class="count">1</span></button><button class="tab" data-cat="C"><span class="dot" style="background:#5b6ee1"></span>C <span class="count">1</span></button><button class="tab" data-cat="Python"><span class="dot" style="background:#3572A5"></span>Python <span class="count">1</span></button></div>
+  <div class="tabbar"><button class="tab active" data-cat="all">全部 <span class="count">9</span></button><button class="tab" data-cat="安卓"><span class="dot" style="background:#3ddc84"></span>安卓 <span class="count">2</span></button><button class="tab" data-cat="鸿蒙"><span class="dot" style="background:#e33e31"></span>鸿蒙 <span class="count">1</span></button><button class="tab" data-cat="Linux"><span class="dot" style="background:#f59e0b"></span>Linux <span class="count">2</span></button><button class="tab" data-cat="Windows"><span class="dot" style="background:#0ea5e9"></span>Windows <span class="count">2</span></button><button class="tab" data-cat="AI"><span class="dot" style="background:#8b5cf6"></span>AI <span class="count">1</span></button><button class="tab" data-cat="C"><span class="dot" style="background:#5b6ee1"></span>C <span class="count">1</span></button><button class="tab" data-cat="Python"><span class="dot" style="background:#3572A5"></span>Python <span class="count">1</span></button></div>
 </div>
 
 <main class="wrap">
 <div class="grid">
-<article class="card" data-cats="Linux,Windows">
-  <div class="card-head">
-    <span class="rank r1">1</span>
-    <div class="cats"><span class="cat" style="background:#f59e0b">Linux</span><span class="cat" style="background:#0ea5e9">Windows</span></div>
-    <span class="speed neutral">新收录</span>
-  </div>
-  <h3 class="title"><a href="https://github.com/boykopovar/AnyPS5"><span class="owner">boykopovar/</span>AnyPS5</a></h3>
-  <div class="desc">Tool for automatic PS5 executables porting to Linux and Windows</div>
-  <div class="summary"><ul><li><strong>解决什么</strong>：解决将 PS5 可执行文件自动移植到 Linux 和 Windows 平台的问题</li><li><strong>适合谁</strong>：适合希望在 PC 上运行 PS5 游戏或进行相关移植工作的开发者与玩家</li><li><strong>亮点</strong>：利用动态库和 Vulkan 技术实现 PS5 游戏的自动跨平台移植</li></ul></div>
-  <div class="topics"><span class="topic">#anyps5</span><span class="topic">#dynamic-library</span><span class="topic">#game-porting</span><span class="topic">#ps5</span><span class="topic">#ps5-tools</span><span class="topic">#spir-v</span></div>
-  <div class="card-foot">
-    <span class="lang"><span class="lang-dot" style="background:#f34b7d"></span>C++ · 成立于 2026-08-03</span>
-    <a class="gh-link" href="https://github.com/boykopovar/AnyPS5">GitHub ↗</a>
-  </div>
-</article>
 <article class="card" data-cats="AI">
   <div class="card-head">
-    <span class="rank r2">2</span>
+    <span class="rank r1">1</span>
     <div class="cats"><span class="cat" style="background:#8b5cf6">AI</span></div>
     <span class="speed neutral">新收录</span>
   </div>
-  <h3 class="title"><a href="https://github.com/Ebony-Vinyl/dsh-our-free-model"><span class="owner">Ebony-Vinyl/</span>dsh-our-free-model</a></h3>
-  <div class="desc">在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there, DeepSeek V4.1 Flash and Kimi K3 among them. Completely free, with no usage cap.</div>
-  <div class="summary"><ul><li><strong>解决什么</strong>：在 DeepSeek Hub (dsh) 中直接使用前沿 AI 模型，无需登录注册或 API Key，完全免费且不限量</li><li><strong>适合谁</strong>：需要在 dsh 中便捷使用免费 AI 模型的用户，特别是开发者或研究人员</li><li><strong>亮点</strong>：提供无需任何认证的前沿模型访问，完全免费且开放</li></ul></div>
-  <div class="topics"><span class="topic">#ai-agents</span><span class="topic">#deepseek</span><span class="topic">#deepseek-harness</span><span class="topic">#developer-tools</span><span class="topic">#dsh</span><span class="topic">#dsh-plugin</span></div>
+  <h3 class="title"><a href="https://github.com/yetone/magpie"><span class="owner">yetone/</span>magpie</a></h3>
+  <div class="desc">Every agent&#x27;s model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.</div>
+  <div class="summary"><ul><li><strong>解决什么</strong>：为开发者提供一个统一的界面来管理和使用不同的 AI 模型，包括 Codex on DeepSeek 和 Claude Code on Kimi</li><li><strong>适合谁</strong>：需要频繁切换和使用不同 AI 模型的开发者，特别是 macOS 用户</li><li><strong>亮点</strong>：通过菜单栏应用整合多个 AI 模型，方便快捷</li></ul></div>
+  <div class="topics"><span class="topic">#claude-code</span><span class="topic">#codex</span><span class="topic">#deepseek</span><span class="topic">#gemini-cli</span><span class="topic">#llm</span><span class="topic">#macos</span></div>
   <div class="card-foot">
-    <span class="lang"><span class="lang-dot" style="background:#f1e05a"></span>JavaScript · 成立于 2026-09-24</span>
-    <a class="gh-link" href="https://github.com/Ebony-Vinyl/dsh-our-free-model">GitHub ↗</a>
+    <span class="lang"><span class="lang-dot" style="background:#00ADD8"></span>Go · 成立于 2026-09-23</span>
+    <a class="gh-link" href="https://github.com/yetone/magpie">GitHub ↗</a>
+  </div>
+</article>
+<article class="card" data-cats="Linux">
+  <div class="card-head">
+    <span class="rank r2">2</span>
+    <div class="cats"><span class="cat" style="background:#f59e0b">Linux</span></div>
+    <span class="speed neutral">新收录</span>
+  </div>
+  <h3 class="title"><a href="https://github.com/genspark-ai/genoffice"><span class="owner">genspark-ai/</span>genoffice</a></h3>
+  <div class="desc">Free, open-source AI Office suite: Docs, Sheets, Slides, PDF, Markdown and HTML editors with a built-in AI agent, plus a `genoffice` CLI and agent skill so Claude Code, Codex and Cursor can create and edit real .docx/.xlsx/.pptx files locally. Bring your own key. macOS, Windows &amp; Linux.</div>
+  <div class="summary"><ul><li><strong>解决什么</strong>：提供免费开源的AI办公套件，包含文档、表格、幻灯片、PDF、Markdown和HTML编辑器，并内置AI代理，支持本地创建和编辑.docx/.xlsx/.pptx文件</li><li><strong>适合谁</strong>：需要本地运行AI办公软件的用户，特别是希望集成Claude Code、Codex和Cursor等AI工具进行文档编辑的场景</li><li><strong>亮点</strong>：集成了AI代理和CLI工具，允许AI模型在本地直接编辑真实Office文件格式</li></ul></div>
+  <div class="topics"><span class="topic">#ai</span><span class="topic">#ai-agent</span><span class="topic">#claude-code</span><span class="topic">#cli</span><span class="topic">#codex</span><span class="topic">#cursor</span></div>
+  <div class="card-foot">
+    <span class="lang"><span class="lang-dot" style="background:#3178c6"></span>TypeScript · 成立于 2026-07-31</span>
+    <a class="gh-link" href="https://github.com/genspark-ai/genoffice">GitHub ↗</a>
+  </div>
+</article>
+<article class="card" data-cats="Linux,Windows">
+  <div class="card-head">
+    <span class="rank r3">3</span>
+    <div class="cats"><span class="cat" style="background:#f59e0b">Linux</span><span class="cat" style="background:#0ea5e9">Windows</span></div>
+    <span class="speed neutral">新收录</span>
+  </div>
+  <h3 class="title"><a href="https://github.com/KnifeLemon/Filee"><span class="owner">KnifeLemon/</span>Filee</a></h3>
+  <div class="desc">Free, open-source file converter. Convert 255 formats offline by drag &amp; drop — images, PDF, Word, Excel, PowerPoint, HWP/HWPX, video, audio, e-books and archives. No upload, no Office needed.</div>
+  <div class="summary"><ul><li><strong>解决什么</strong>：这是一个免费开源的离线文件转换工具，支持拖拽操作，无需上传即可转换包括文档、音视频、图片等在内的255种格式。</li><li><strong>适合谁</strong>：适合需要在本地快速批量转换文件、无需安装Office软件且注重隐私的用户。</li><li><strong>亮点</strong>：基于 Avalonia 开发，支持255种格式且无需安装Office即可离线转换。</li></ul></div>
+  <div class="topics"><span class="topic">#audio-converter</span><span class="topic">#avalonia</span><span class="topic">#batch-conversion</span><span class="topic">#converter</span><span class="topic">#csharp</span><span class="topic">#document-converter</span></div>
+  <div class="card-foot">
+    <span class="lang"><span class="lang-dot" style="background:#178600"></span>C# · 成立于 2026-09-29</span>
+    <a class="gh-link" href="https://github.com/KnifeLemon/Filee">GitHub ↗</a>
   </div>
 </article>
 <article class="card" data-cats="Windows">
   <div class="card-head">
-    <span class="rank r3">3</span>
+    <span class="rank">4</span>
     <div class="cats"><span class="cat" style="background:#0ea5e9">Windows</span></div>
     <span class="speed neutral">新收录</span>
   </div>
-  <h3 class="title"><a href="https://github.com/Niko1221/Strata"><span class="owner">Niko1221/</span>Strata</a></h3>
-  <div class="desc">Qwen3.8-Flash-Next on any consumer hardware: one-click install for Windows / Linux. Strata inference engine, OpenAI/Anthropic API on localhost, optional image input.</div>
-  <div class="summary"><ul><li><strong>解决什么</strong>：在普通消费级硬件上运行 Qwen3.8-Flash-Next，提供 Windows/Linux 一键安装方案</li><li><strong>适合谁</strong>：需要本地部署大模型进行推理的用户，尤其适用于 Windows/Linux 环境</li><li><strong>亮点</strong>：实现大模型在消费级硬件上的一键部署和本地运行</li></ul></div>
-  
+  <h3 class="title"><a href="https://github.com/qingjian-team/qingjian"><span class="owner">qingjian-team/</span>qingjian</a></h3>
+  <div class="desc">青简 Qingjian：用 Rust 写的拼音输入法，候选词旁多一条正在学的语言的译词</div>
+  <div class="summary"><ul><li><strong>解决什么</strong>：这是一个基于 Rust 的拼音输入法，通过在候选词旁显示外语译词辅助语言学习</li><li><strong>适合谁</strong>：适合正在学习中文（拼音/双拼）及英语、日语等外语的用户</li><li><strong>亮点</strong>：将输入法与语言学习结合，利用 Rust 实现离线高效运行</li></ul></div>
+  <div class="topics"><span class="topic">#chinese</span><span class="topic">#chinese-input-method</span><span class="topic">#english-learning</span><span class="topic">#ime</span><span class="topic">#input-method</span><span class="topic">#japanese-learning</span></div>
   <div class="card-foot">
-    <span class="lang"><span class="lang-dot" style="background:#f34b7d"></span>C++ · 成立于 2026-09-24</span>
-    <a class="gh-link" href="https://github.com/Niko1221/Strata">GitHub ↗</a>
-  </div>
-</article>
-<article class="card" data-cats="安卓">
-  <div class="card-head">
-    <span class="rank">4</span>
-    <div class="cats"><span class="cat" style="background:#3ddc84">安卓</span></div>
-    <span class="speed neutral">新收录</span>
-  </div>
-  <h3 class="title"><a href="https://github.com/Gathin23/cleanyourtv"><span class="owner">Gathin23/</span>cleanyourtv</a></h3>
-  <div class="desc">Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.</div>
-  <div class="summary"><ul><li><strong>解决什么</strong>：解决 Android/Google TV 预装臃肿软件问题，提供 Apple TV 风格定制界面</li><li><strong>适合谁</strong>：适合拥有 Android TV、Google TV 或 Fire TV 等智能电视设备的用户</li><li><strong>亮点</strong>：支持远程 Wi-Fi 操作，无需连接线缆即可去臃肿并定制启动器</li></ul></div>
-  <div class="topics"><span class="topic">#adb</span><span class="topic">#adblock</span><span class="topic">#android-tv</span><span class="topic">#android-tv-launcher</span><span class="topic">#apple-tv</span><span class="topic">#bloatware-removal</span></div>
-  <div class="card-foot">
-    <span class="lang"><span class="lang-dot" style="background:#b07219"></span>Java · 成立于 2026-10-17</span>
-    <a class="gh-link" href="https://github.com/Gathin23/cleanyourtv">GitHub ↗</a>
+    <span class="lang"><span class="lang-dot" style="background:#dea584"></span>Rust · 成立于 2026-09-07</span>
+    <a class="gh-link" href="https://github.com/qingjian-team/qingjian">GitHub ↗</a>
   </div>
 </article>
 <article class="card" data-cats="安卓">
@@ -240,28 +243,28 @@ footer .sep { margin: 0 8px; }
     <div class="cats"><span class="cat" style="background:#3ddc84">安卓</span></div>
     <span class="speed neutral">新收录</span>
   </div>
-  <h3 class="title"><a href="https://github.com/DSH-APP/DSHA"><span class="owner">DSH-APP/</span>DSHA</a></h3>
-  <div class="desc">免 ROOT 免 Termux，在手机上跑 DeepSeek Harness。完整 Ubuntu 环境 + proroot 零 ptrace 开销 · AI 输出实时上屏 · ADB 直连 · 数据不丢</div>
-  <div class="summary"><ul><li><strong>解决什么</strong>：在无需 Root 或 Termux 的安卓手机上运行 DeepSeek Harness，提供完整的 Ubuntu 环境和低开销的 proroot 支持</li><li><strong>适合谁</strong>：希望在普通安卓设备上体验 AI 开发和研究的用户，特别是需要便携式深度学习环境的开发者</li><li><strong>亮点</strong>：通过 proroot 技术实现零 ptrace 开销，支持 ADB 直连和数据不丢失，提供流畅的 AI 应用体验</li></ul></div>
-  <div class="topics"><span class="topic">#android</span><span class="topic">#coding-agent</span><span class="topic">#deepseek</span><span class="topic">#deepseek-harness</span><span class="topic">#launcher</span><span class="topic">#llm</span></div>
+  <h3 class="title"><a href="https://github.com/Akshayykadam/PixelBoard"><span class="owner">Akshayykadam/</span>PixelBoard</a></h3>
+  <div class="desc">Unlock Google 11&#x27;s Gemini &quot;Rambler&quot; Natural Voice Dictation &amp; AI Writing Tools on ANY Android phone. No root required.</div>
+  <div class="summary"><ul><li><strong>解决什么</strong>：在非 Pixel 设备上解锁 Google 11 的 Gemini &quot;Rambler&quot; 自然语音听写与 AI 写作功能</li><li><strong>适合谁</strong>：任何希望在安卓手机上体验 Gboard AI 写作与语音听写功能的用户</li><li><strong>亮点</strong>：无需 Root 即可在任意安卓设备上使用</li></ul></div>
+  <div class="topics"><span class="topic">#ai-writing-tools</span><span class="topic">#android</span><span class="topic">#apk</span><span class="topic">#gboard</span><span class="topic">#gboard-ai</span><span class="topic">#gboard-mod</span></div>
   <div class="card-foot">
-    <span class="lang"><span class="lang-dot" style="background:#b07219"></span>Java · 成立于 2026-08-14</span>
-    <a class="gh-link" href="https://github.com/DSH-APP/DSHA">GitHub ↗</a>
+    <span class="lang"><span class="lang-dot" style="background:#b07219"></span>Java · 成立于 2026-09-17</span>
+    <a class="gh-link" href="https://github.com/Akshayykadam/PixelBoard">GitHub ↗</a>
   </div>
 </article>
-<article class="card" data-cats="鸿蒙,Linux,Windows">
+<article class="card" data-cats="安卓">
   <div class="card-head">
     <span class="rank">6</span>
-    <div class="cats"><span class="cat" style="background:#e33e31">鸿蒙</span><span class="cat" style="background:#f59e0b">Linux</span><span class="cat" style="background:#0ea5e9">Windows</span></div>
+    <div class="cats"><span class="cat" style="background:#3ddc84">安卓</span></div>
     <span class="speed neutral">新收录</span>
   </div>
-  <h3 class="title"><a href="https://github.com/metasequoiaime/msime"><span class="owner">metasequoiaime/</span>msime</a></h3>
-  <div class="desc">下一代跨平台水杉输入法（MSIME）：面向 Android、iOS、macOS、Linux、Windows 与 HarmonyOS 的多平台中文输入法，使用共享输入引擎与各平台原生宿主。</div>
-  <div class="summary"><ul><li><strong>解决什么</strong>：为 Android、iOS、macOS、Linux、Windows 与 HarmonyOS 平台提供统一的中文输入法体验</li><li><strong>适合谁</strong>：需要跨平台中文输入解决方案的开发者或用户</li><li><strong>亮点</strong>：基于共享输入引擎的多平台原生输入法实现</li></ul></div>
-  <div class="topics"><span class="topic">#android</span><span class="topic">#chinese</span><span class="topic">#cpp</span><span class="topic">#harmonyos</span><span class="topic">#ime</span><span class="topic">#input-method</span></div>
+  <h3 class="title"><a href="https://github.com/InlitX/GymMane"><span class="owner">InlitX/</span>GymMane</a></h3>
+  <div class="desc">Offline gym log for Android. No account, no ads, no internet.</div>
+  <div class="summary"><ul><li><strong>解决什么</strong>：解决安卓用户在无网络环境下记录健身数据的需求，提供无广告、无账号的隐私保护</li><li><strong>适合谁</strong>：适合注重隐私、厌恶广告且需要离线记录健身数据的安卓用户</li><li><strong>亮点</strong>：基于Flutter开发的完全离线健身记录工具，强调隐私与纯净体验</li></ul></div>
+  <div class="topics"><span class="topic">#android</span><span class="topic">#bodybuilding</span><span class="topic">#dart</span><span class="topic">#exercises</span><span class="topic">#f-droid</span><span class="topic">#fitness</span></div>
   <div class="card-foot">
-    <span class="lang"><span class="lang-dot" style="background:#dea584"></span>Rust · 成立于 2026-09-02</span>
-    <a class="gh-link" href="https://github.com/metasequoiaime/msime">GitHub ↗</a>
+    <span class="lang"><span class="lang-dot" style="background:#94a3b8"></span>Dart · 成立于 2026-08-05</span>
+    <a class="gh-link" href="https://github.com/InlitX/GymMane">GitHub ↗</a>
   </div>
 </article>
 <article class="card" data-cats="鸿蒙">
@@ -270,13 +273,13 @@ footer .sep { margin: 0 8px; }
     <div class="cats"><span class="cat" style="background:#e33e31">鸿蒙</span></div>
     <span class="speed neutral">新收录</span>
   </div>
-  <h3 class="title"><a href="https://github.com/harmony-on-android/HOA"><span class="owner">harmony-on-android/</span>HOA</a></h3>
-  <div class="desc">Run OpenHarmony hap on Android</div>
-  <div class="summary"><ul><li><strong>解决什么</strong>：在 Android 设备上运行 OpenHarmony HAP 应用</li><li><strong>适合谁</strong>：需要将 OpenHarmony 应用迁移到 Android 平台的开发者</li><li><strong>亮点</strong>：为 OpenHarmony 应用提供 Android 运行环境</li></ul></div>
-  <div class="topics"><span class="topic">#android</span><span class="topic">#harmonyos</span><span class="topic">#openharmony</span></div>
+  <h3 class="title"><a href="https://github.com/lkimuk/ReArk"><span class="owner">lkimuk/</span>ReArk</a></h3>
+  <div class="desc">An intelligent reverse engineering and AI-assisted analysis tool for HarmonyOS NEXT (HAP/APP/ABC), Android (APK/AAB), iOS (IPA), and native PE/ELF/Mach-O binaries.</div>
+  <div class="summary"><ul><li><strong>解决什么</strong>：针对鸿蒙 NEXT、Android、iOS 及原生二进制文件的智能逆向工程与 AI 辅助分析</li><li><strong>适合谁</strong>：适合安全研究人员、逆向工程师及恶意软件分析师使用</li><li><strong>亮点</strong>：集成 AI 技术支持多平台二进制文件（HAP/APK/IPA）的智能分析与反编译</li></ul></div>
+  <div class="topics"><span class="topic">#aab</span><span class="topic">#abc</span><span class="topic">#agentic-workflow</span><span class="topic">#ai-agent</span><span class="topic">#ai-analysis</span><span class="topic">#android</span></div>
   <div class="card-foot">
-    <span class="lang"><span class="lang-dot" style="background:#A97BFF"></span>Kotlin · 成立于 2026-05-15</span>
-    <a class="gh-link" href="https://github.com/harmony-on-android/HOA">GitHub ↗</a>
+    <span class="lang"><span class="lang-dot" style="background:#f34b7d"></span>C++ · 成立于 2026-05-29</span>
+    <a class="gh-link" href="https://github.com/lkimuk/ReArk">GitHub ↗</a>
   </div>
 </article>
 <article class="card" data-cats="C">
@@ -285,13 +288,13 @@ footer .sep { margin: 0 8px; }
     <div class="cats"><span class="cat" style="background:#5b6ee1">C</span></div>
     <span class="speed neutral">经典可读</span>
   </div>
-  <h3 class="title"><a href="https://github.com/antirez/linenoise"><span class="owner">antirez/</span>linenoise</a></h3>
-  <div class="desc">A small self-contained alternative to readline and libedit</div>
-  <div class="summary"><ul><li><strong>学什么</strong>：能学到简洁高效的命令行交互实现技巧，理解如何用少量代码构建实用功能</li><li><strong>适合谁</strong>：适合有一定 C 语言基础，想学习命令行工具开发的开发者</li><li><strong>怎么读</strong>：从 main 函数和基本命令处理模块入手，逐步深入理解事件循环和编辑器核心功能</li></ul></div>
+  <h3 class="title"><a href="https://github.com/antirez/sds"><span class="owner">antirez/</span>sds</a></h3>
+  <div class="desc">Simple Dynamic Strings library for C</div>
+  <div class="summary"><ul><li><strong>学什么</strong>：理解 C 语言中动态字符串的实现原理，掌握内存管理技巧</li><li><strong>适合谁</strong>：有一定 C 语言基础，希望深入理解底层内存管理的开发者</li><li><strong>怎么读</strong>：先阅读 sds.h 和 sds.c 两个核心文件，了解动态字符串的结构和操作方法</li></ul></div>
   
   <div class="card-foot">
-    <span class="lang"><span class="lang-dot" style="background:#555555"></span>C · 成立于 2010-03-20</span>
-    <a class="gh-link" href="https://github.com/antirez/linenoise">GitHub ↗</a>
+    <span class="lang"><span class="lang-dot" style="background:#555555"></span>C · 成立于 2014-02-06</span>
+    <a class="gh-link" href="https://github.com/antirez/sds">GitHub ↗</a>
   </div>
 </article>
 <article class="card" data-cats="Python">
@@ -300,13 +303,13 @@ footer .sep { margin: 0 8px; }
     <div class="cats"><span class="cat" style="background:#3572A5">Python</span></div>
     <span class="speed neutral">经典可读</span>
   </div>
-  <h3 class="title"><a href="https://github.com/bottlepy/bottle"><span class="owner">bottlepy/</span>bottle</a></h3>
-  <div class="desc">bottle.py is a fast and simple micro-framework for python web-applications.</div>
-  <div class="summary"><ul><li><strong>学什么</strong>：理解 WSGI 规范在单文件中的落地实现，掌握轻量级路由与模板引擎的设计思路</li><li><strong>适合谁</strong>：适合想要深入理解 Web 框架底层原理的 Python 初中级开发者</li><li><strong>怎么读</strong>：建议从路由分发和 WSGI 入口开始，逐步理解模板引擎与插件系统</li></ul></div>
-  <div class="topics"><span class="topic">#bottle</span><span class="topic">#python</span><span class="topic">#rest</span><span class="topic">#web-framework</span><span class="topic">#wsgi</span></div>
+  <h3 class="title"><a href="https://github.com/psf/requests"><span class="owner">psf/</span>requests</a></h3>
+  <div class="desc">A simple, yet elegant, HTTP library.</div>
+  <div class="summary"><ul><li><strong>学什么</strong>：掌握优雅的 API 设计范式、装饰器用法及异常处理机制</li><li><strong>适合谁</strong>：适合希望学习优秀代码结构、提升 Python 库开发能力的开发者</li><li><strong>怎么读</strong>：建议先阅读 `requests.py` 核心逻辑，再深入 `sessions.py` 和 `adapters.py` 模块</li></ul></div>
+  <div class="topics"><span class="topic">#client</span><span class="topic">#cookies</span><span class="topic">#forhumans</span><span class="topic">#http</span><span class="topic">#humans</span><span class="topic">#python</span></div>
   <div class="card-foot">
-    <span class="lang"><span class="lang-dot" style="background:#3572A5"></span>Python · 成立于 2009-06-30</span>
-    <a class="gh-link" href="https://github.com/bottlepy/bottle">GitHub ↗</a>
+    <span class="lang"><span class="lang-dot" style="background:#3572A5"></span>Python · 成立于 2011-02-13</span>
+    <a class="gh-link" href="https://github.com/psf/requests">GitHub ↗</a>
   </div>
 </article></div>
 </main>

@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>历史存档 · GitHub 每日精选</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+:root { --ink:#0b1220; --muted:#64748b; --line:#e6e8ee; --accent:#4f46e5; --bg:#f5f6fa; }
+body {
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC",
+               "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  background: var(--bg); color: var(--ink);
+  -webkit-font-smoothing: antialiased; min-height: 100vh;
+}
+.wrap { max-width: 880px; margin: 0 auto; padding: 0 20px; }
+.hero {
+  background:
+    radial-gradient(900px 320px at 10% -20%, rgba(139,92,246,.55), transparent 60%),
+    radial-gradient(700px 260px at 110% 10%, rgba(236,72,153,.42), transparent 55%),
+    linear-gradient(135deg, #0f172a 0%, #1e1b4b 60%, #312e81 100%);
+  color: #fff; padding: 46px 0 56px;
+}
+.eyebrow { font-size: 12px; letter-spacing: .16em; text-transform: uppercase; color: #a5b4fc; font-weight: 600; margin-bottom: 12px; }
+.hero h1 { font-size: 36px; font-weight: 800; letter-spacing: -1px; }
+.hero h1 .grad {
+  background: linear-gradient(90deg, #c4b5fd, #f0abfc, #fda4af);
+  -webkit-background-clip: text; background-clip: text; color: transparent;
+}
+.hero p { color: #c7d2fe; font-size: 14px; line-height: 1.7; margin-top: 12px; max-width: 560px; }
+.hero .meta { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 20px; }
+.pill {
+  font-size: 12px; padding: 6px 12px; border-radius: 999px; text-decoration: none;
+  background: rgba(255,255,255,.07); border: 1px solid rgba(255,255,255,.14); color: #e0e7ff;
+}
+a.pill:hover { background: rgba(255,255,255,.14); }
+main { padding: 30px 0 20px; }
+.list { display: grid; gap: 12px; }
+.day {
+  display: flex; align-items: center; gap: 16px; text-decoration: none; color: inherit;
+  background: #fff; border: 1px solid var(--line); border-radius: 14px;
+  padding: 16px 18px; transition: transform .16s ease, border-color .16s ease, box-shadow .16s ease;
+  box-shadow: 0 1px 2px rgba(15,23,42,.03), 0 12px 28px -24px rgba(15,23,42,.25);
+}
+.day:hover { transform: translateY(-2px); border-color: #d8dbf0; box-shadow: 0 16px 32px -24px rgba(49,46,129,.4); }
+.day-main { flex: 1; min-width: 0; }
+.date { font-size: 17px; font-weight: 800; display: flex; align-items: baseline; gap: 8px; }
+.date .week { font-size: 12px; font-weight: 600; color: var(--muted); }
+.preview {
+  font-size: 12.5px; color: var(--muted); margin-top: 5px;
+  overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+}
+.chips { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 9px; }
+.chip { font-size: 10.5px; padding: 2px 8px; border-radius: 999px; background: #f1f5f9; color: #475569; }
+.chip.strong { background: #eef2ff; color: #4338ca; font-weight: 700; }
+.chip.plat { background: #f8fafc; border: 1px solid #eef2f7; color: #64748b; }
+.go { flex: 0 0 auto; font-size: 13px; font-weight: 700; color: var(--accent); white-space: nowrap; }
+.empty { text-align: center; padding: 70px 20px; color: var(--muted); font-size: 14px; }
+footer { padding: 26px 20px 40px; text-align: center; color: #94a3b8; font-size: 12px; }
+</style>
+</head>
+<body>
+<header class="hero">
+  <div class="wrap">
+    <div class="eyebrow">Archive</div>
+    <h1>历史<span class="grad">存档</span></h1>
+    <p>每天的推荐都会原样保存在这里，按日期从新到旧排列。</p>
+    <div class="meta">
+      <span class="pill">已归档 1 天</span>
+      <a class="pill" href="index.html">回到今天 →</a>
+    </div>
+  </div>
+</header>
+<main class="wrap">
+<div class="list">
+<a class="day" href="day/2026-10-21.html">
+  <div class="day-main">
+    <div class="date">2026-10-21<span class="week">周三</span></div>
+    <div class="preview">yetone/magpie · genspark-ai/genoffice · KnifeLemon/Filee 等 9 个</div>
+    <div class="chips"><span class="chip strong">9 个项目</span><span class="chip">工具 6</span><span class="chip">AI 1</span><span class="chip">经典 2</span><span class="chip plat">安卓</span><span class="chip plat">鸿蒙</span><span class="chip plat">Linux</span><span class="chip plat">Windows</span></div>
+  </div>
+  <span class="go">查看 →</span>
+</a></div>
+</main>
+<footer>github-daily · 每天自动整理并归档</footer>
+</body>
+</html>
