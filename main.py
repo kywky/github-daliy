@@ -11,7 +11,7 @@ sys.path.insert(0, str(Path(__file__).parent))
 from env import load_dotenv  # noqa: E402
 load_dotenv()
 
-from github import fetch_by_categories, select_balanced  # noqa: E402
+from github import fetch_by_categories, select_daily  # noqa: E402
 from render import render  # noqa: E402
 from summarize import summarize  # noqa: E402
 
@@ -77,16 +77,6 @@ def save_shown(shown: dict[str, str], repos: list[dict], today: date) -> None:
     SHOWN.write_text(json.dumps(shown, ensure_ascii=False, indent=2, sort_keys=True))
 
 
-def drop_recently_shown(pool: dict[str, dict], shown: dict[str, str], today: date) -> dict[str, dict]:
-    cutoff = today - timedelta(days=SHOWN_COOLDOWN_DAYS)
-    fresh = {}
-    for name, r in pool.items():
-        last = shown.get(name)
-        if last is None or date.fromisoformat(last) < cutoff:
-            fresh[name] = r
-    return fresh
-
-
 def main() -> int:
     p = argparse.ArgumentParser(description="生成每日 GitHub 好项目静态页")
     p.add_argument("--days", type=int, default=7, help="只看最近 N 天创建的仓库，默认 7")
@@ -98,8 +88,8 @@ def main() -> int:
     start, today = load_window(args.days)
     token = os.environ.get("GITHUB_TOKEN") or None
 
-    print(f"→ 抓取: created>{start} stars>={args.min_stars} per_cat={args.per_cat}" + (" [GITHUB_TOKEN]" if token else " [未认证]"))
-    pool = fetch_by_categories(start.isoformat(), args.min_stars, args.per_cat, token=token)
+    print(f"→ 抓取: stars>={args.min_stars} per_cat={args.per_cat}" + (" [GITHUB_TOKEN]" if token else " [未认证]"))
+    pool = fetch_by_categories(today, args.min_stars, args.per_cat, token=token)
     print(f"  ✓ 候选池 {len(pool)} 个")
 
     prev_date, prev_stars = load_previous_snapshot(today)
@@ -109,16 +99,7 @@ def main() -> int:
         print("  · 首次运行无历史快照，本次按总 star 排序；明天起即可显示日增")
     attach_speed(pool, prev_date, prev_stars, today)
 
-    repos = select_balanced(drop_recently_shown(pool, load_shown(), today), args.limit, per_cat_quota=2)
-    if len(repos) < args.limit:
-        seen_names = {r["full_name"] for r in repos}
-        for r in select_balanced(pool, args.limit, per_cat_quota=2):
-            if len(repos) >= args.limit:
-                break
-            if r["full_name"] not in seen_names:
-                repos.append(r)
-                seen_names.add(r["full_name"])
-        repos.sort(key=lambda r: r.get("stars_per_day") if r.get("stars_per_day") is not None else r["stars"] / 1000.0, reverse=True)
+    repos = select_daily(pool, load_shown(), today, total_limit=args.limit, per_cat_quota=2, cooldown_days=SHOWN_COOLDOWN_DAYS)
     print(f"  · 五方向保底分配后选出 {len(repos)} 个")
 
     print(f"→ 生成摘要: {os.environ.get('LLM_BASE_URL','(未配置)')} / {os.environ.get('LLM_MODEL','(未配置)')}" if os.environ.get("LLM_API_KEY") else "→ 未配置 LLM_API_KEY，摘要使用原始描述")

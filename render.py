@@ -296,7 +296,7 @@ def render(repos: list[dict], window_start: str, window_end: str, comparison: st
   <div class="wrap">
     <div class="eyebrow">Daily Digest</div>
     <h1>GitHub <span class="grad">每日精选</span></h1>
-    <p class="lead">从近 7 天新崛起的一批项目里，按 C/C++、AI、Python、GPU、自动化五个方向各挑 2 个，再看它们昨天的涨星表现。</p>
+    <p class="lead">以近 7 天新崛起项目为主（GPU / 自动化放宽至 30 天），按 C/C++、AI、Python、GPU、自动化五个方向各挑 2 个，再结合涨星速度排序。</p>
     <div class="meta">
       <span class="pill">{window_start} → {window_end}</span>
       <span class="pill">{len(repos)} 个项目</span>

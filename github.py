@@ -4,6 +4,7 @@ import time
 import urllib.error
 import urllib.parse
 import urllib.request
+from datetime import date, timedelta
 
 
 API_ROOT = "https://api.github.com"
@@ -11,25 +12,27 @@ UA = "github-daily/0.1"
 
 
 CATEGORIES = {
-    "C/C++":  {"queries": ["language:cpp", "language:c"], "color": "#5b6ee1", "sigil": "C"},
-    "AI":     {"queries": ["topic:llm", "topic:ai-agents"], "color": "#8b5cf6", "sigil": "AI"},
-    "Python": {"queries": ["language:python"], "color": "#f59e0b", "sigil": "Py"},
-    "GPU":    {"queries": ["topic:cuda", "topic:gpu", "gpu in:name,description"], "color": "#ef4444", "sigil": "GPU"},
-    "自动化":  {"queries": ["topic:automation", "topic:n8n", "topic:browser-automation", "topic:mcp-server"], "color": "#10b981", "sigil": "A"},
+    "C/C++":  {"queries": ["language:cpp", "language:c"], "days": 7, "color": "#5b6ee1", "sigil": "C"},
+    "AI":     {"queries": ["topic:llm", "topic:ai-agents"], "days": 7, "color": "#8b5cf6", "sigil": "AI"},
+    "Python": {"queries": ["language:python"], "days": 7, "color": "#f59e0b", "sigil": "Py"},
+    "GPU":    {"queries": ["topic:cuda", "topic:gpu", "gpu in:name,description", "topic:llm-inference"], "days": 30, "color": "#ef4444", "sigil": "GPU"},
+    "自动化":  {"queries": ["topic:automation", "topic:browser-automation", "topic:mcp-server"], "days": 30, "color": "#10b981", "sigil": "A"},
 }
 
 
 BLOCK_NAME = re.compile(
     r"(?:^|[/_-])(awesome|tutorials?|roadmap|interview|cheatsheet|cheats|guide|course|"
     r"cheat|aimbot|crack|keygen|spoof|hwid|wallhack|executor|piracy|"
-    r"triggerbot|spinbot|ragehack|hacks?)(?:$|[/_-])",
+    r"triggerbot|spinbot|ragehack|hacks?|jailbreak|fairplay|kahoot|answer-?tool|answer-?key)(?:$|[/_-])",
     re.I,
 )
 BLOCK_DESC = re.compile(
-    r"\b(cheat|cracked|keygen|aimbot|wallhack|triggerbot|spinbot|ragehack|hack|hwid.?spoofer|dma|"
-    r"unlock.?premium|piracy|bypass.?drm|executor)\b",
+    r"\b(cheat|cracked|keygen|aimbot|wallhack|triggerbot|spinbot|ragehack|hacks?|hwid.?spoofer|dma|"
+    r"unlock.?premium|piracy|bypass.?drm|executor|jailbreak|fairplay|kahoot|exam.?answers?|"
+    r"answer.?key|answer.?tool|drm.?circumvention)\b",
     re.I,
 )
+BLOCK_DESC_CN = re.compile(r"破解|作弊|外挂|刷题|代刷|越狱|破甲|激活码|盗版")
 
 
 def _get(url: str, token: str | None = None) -> dict:
@@ -94,16 +97,20 @@ def is_low_quality(r: dict) -> bool:
         return True
     if BLOCK_DESC.search(r["description"]):
         return True
+    if BLOCK_DESC_CN.search(r["description"]):
+        return True
     return False
 
 
-def fetch_by_categories(created_after: str, min_stars: int, per_cat_limit: int, token: str | None = None) -> dict[str, dict]:
+def fetch_by_categories(today: date, min_stars: int, per_cat_limit: int, token: str | None = None) -> dict[str, dict]:
     pool: dict[str, dict] = {}
     sleep_between = 8 if not token else 2
     for cat, cfg in CATEGORIES.items():
+        days = cfg.get("days", 7)
+        created_after = (today - timedelta(days=days)).isoformat()
         for base in cfg["queries"]:
             q = f"{base} created:>{created_after} stars:>={min_stars}"
-            print(f"  · {cat} / {base}")
+            print(f"  · {cat} / {base}（>{days}d）")
             items = _search_retry(q, per_cat_limit, token)
             kept = 0
             for raw in items:
@@ -127,7 +134,17 @@ def rank_score(r: dict) -> float:
     return r["stars"] / 1000.0
 
 
-def select_balanced(pool: dict[str, dict], total_limit: int, per_cat_quota: int = 2, max_per_cat: int = 3) -> list[dict]:
+def select_daily(pool: dict[str, dict], shown: dict[str, str], today: date, total_limit: int = 10,
+                 per_cat_quota: int = 2, max_per_cat: int = 3, cooldown_days: int = 3) -> list[dict]:
+    cutoff = today - timedelta(days=cooldown_days)
+
+    def last_shown(r: dict) -> date:
+        value = shown.get(r["full_name"])
+        return date.fromisoformat(value) if value else date.min
+
+    def is_fresh(r: dict) -> bool:
+        return last_shown(r) < cutoff
+
     by_cat: dict[str, list[dict]] = {c: [] for c in CATEGORIES}
     for r in pool.values():
         for c in r["categories"]:
@@ -144,17 +161,26 @@ def select_balanced(pool: dict[str, dict], total_limit: int, per_cat_quota: int 
             cat_count[c] += 1
 
     for c, items in by_cat.items():
-        for r in sorted(items, key=rank_score, reverse=True):
+        candidates = sorted(items, key=lambda r: (0 if is_fresh(r) else 1, last_shown(r), -rank_score(r)))
+        for r in candidates:
             if cat_count[c] >= per_cat_quota or len(chosen) >= total_limit:
                 break
+            add(r)
+
+    for only_fresh in (True, False):
+        for r in sorted(pool.values(), key=rank_score, reverse=True):
+            if len(chosen) >= total_limit:
+                break
+            if only_fresh and not is_fresh(r):
+                continue
+            if r["categories"] and all(cat_count[c] >= max_per_cat for c in r["categories"]):
+                continue
             add(r)
 
     if len(chosen) < total_limit:
         for r in sorted(pool.values(), key=rank_score, reverse=True):
             if len(chosen) >= total_limit:
                 break
-            if r["categories"] and all(cat_count[c] >= max_per_cat for c in r["categories"]):
-                continue
             add(r)
 
     return sorted(chosen.values(), key=rank_score, reverse=True)[:total_limit]
