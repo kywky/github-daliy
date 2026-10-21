@@ -1,0 +1,258 @@
+{
+  "generated_at": "2026-10-21T00:27:44.594472+00:00",
+  "window_start": "2026-10-14",
+  "window_end": "2026-10-21",
+  "snapshot_compared": null,
+  "repos": [
+    {
+      "full_name": "deepseek-ai/DeepInfer",
+      "url": "https://github.com/deepseek-ai/DeepInfer",
+      "description": "DeepInfer: High-performance, large-scale inference framework for DeepSeek models",
+      "stars": 12206,
+      "forks": 1111,
+      "language": "Python",
+      "topics": [],
+      "created_at": "2026-10-16",
+      "homepage": "",
+      "archived": false,
+      "fork": false,
+      "has_license": true,
+      "categories": [
+        "Python"
+      ],
+      "summary": "- **解决什么**：该项目旨在解决大规模深度学习模型的高性能推理问题，提供高效、可扩展的推理框架。\n- **适合谁**：适合需要处理大规模深度学习模型推理任务的开发者，特别是在需要快速响应和高效资源利用的场景中。\n- **亮点**：提供高性能、大规模的深度学习模型推理框架，支持DeepSeek模型的高效推理。"
+    },
+    {
+      "full_name": "Leonxlnx/earshot",
+      "url": "https://github.com/Leonxlnx/earshot",
+      "description": "Ears for coding agents: let AI hear, review and make sound. CPU-only, open source.",
+      "stars": 1947,
+      "forks": 112,
+      "language": "Python",
+      "topics": [
+        "ai-agents",
+        "audio",
+        "claude-code",
+        "mcp",
+        "sound-design"
+      ],
+      "created_at": "2026-10-15",
+      "homepage": "",
+      "archived": false,
+      "fork": false,
+      "has_license": true,
+      "categories": [
+        "AI",
+        "Python"
+      ],
+      "summary": "- **解决什么**：该项目旨在通过AI技术，使计算机能够“听”到代码，进行代码审查和生成声音，从而辅助编程和声音设计。\n- **适合谁**：适合AI研究者、编程爱好者、声音设计师以及需要代码审查和声音生成功能的开发者。\n- **亮点**：**CPU-only, open source**，该项目完全基于CPU运行且开源，对资源要求较低，易于访问和使用。"
+    },
+    {
+      "full_name": "Supermedo/uncharted_pc",
+      "url": "https://github.com/Supermedo/uncharted_pc",
+      "description": "Uncharted: The Nathan Drake Collection running natively on Windows - by SuperMedo",
+      "stars": 1721,
+      "forks": 91,
+      "language": "C++",
+      "topics": [],
+      "created_at": "2026-10-15",
+      "homepage": "",
+      "archived": false,
+      "fork": false,
+      "has_license": true,
+      "categories": [
+        "C/C++"
+      ],
+      "summary": "- **解决什么**：该项目旨在解决在Windows操作系统上原生运行《Uncharted: The Nathan Drake Collection》游戏的问题。\n- **适合谁**：适合喜欢玩《Uncharted》系列游戏的Windows用户，特别是那些希望在没有额外硬件支持的情况下体验游戏的人。\n- **亮点**：提供原生Windows版本，无需额外模拟器或修改，简化了游戏体验。"
+    },
+    {
+      "full_name": "xiaoyang111222/cn-math-taxonomy",
+      "url": "https://github.com/xiaoyang111222/cn-math-taxonomy",
+      "description": "中小学知识图谱 + 前置诊断：数学（一–九年级、高中必修与选择性必修）+ 小学英语，课标对齐、人教版，999 知识点、4143 题、自适应诊断",
+      "stars": 1574,
+      "forks": 342,
+      "language": "Python",
+      "topics": [
+        "chinese",
+        "curriculum",
+        "diagnostic",
+        "edtech",
+        "education",
+        "elementary-school",
+        "english",
+        "high-school",
+        "junior-high-school",
+        "k12",
+        "knowledge-graph",
+        "math",
+        "mathematics",
+        "middle-school",
+        "open-data",
+        "primary-school"
+      ],
+      "created_at": "2026-10-18",
+      "homepage": "https://math.pansgo.com/",
+      "archived": false,
+      "fork": false,
+      "has_license": true,
+      "categories": [
+        "Python"
+      ],
+      "summary": "- **解决什么**：该项目旨在解决中小学数学和英语教学中的知识体系构建、诊断评估和个性化学习需求。\n- **适合谁**：适用于中小学教师、学生和家长，特别是在数学和英语教学过程中需要知识图谱辅助教学和诊断评估的用户。\n- **亮点**：**提供全面的知识图谱和自适应诊断系统，助力学生个性化学习，提高教学效率**。"
+    },
+    {
+      "full_name": "feder-cr/git-ai",
+      "url": "https://github.com/feder-cr/git-ai",
+      "description": "Git designed for AI agents.",
+      "stars": 1268,
+      "forks": 123,
+      "language": "Go",
+      "topics": [
+        "ai-agents",
+        "coding-agents",
+        "git",
+        "golang",
+        "scion",
+        "version-control"
+      ],
+      "created_at": "2026-10-15",
+      "homepage": "https://www.anthropic.com/engineering/redesigning-source-control",
+      "archived": false,
+      "fork": false,
+      "has_license": true,
+      "categories": [
+        "AI"
+      ],
+      "summary": "- **解决什么**：该项目旨在解决AI代理在版本控制系统中进行代码管理的问题，提供专为AI设计的Git版本控制系统。\n- **适合谁**：适用于需要AI代理进行代码管理的开发者、研究者和企业，特别是在自动化测试、代码审查和持续集成场景中。\n- **亮点**：**提供AI友好的Git版本控制系统**，简化AI代理的代码管理流程。"
+    },
+    {
+      "full_name": "aicodeking/leanrea",
+      "url": "https://github.com/aicodeking/leanrea",
+      "description": "One 8 KB skill that replaces REA (Reverse Engineer Anything): plain CLI tools, no MCP. Benchmarked: 38% faster, 35% cheaper.",
+      "stars": 1175,
+      "forks": 177,
+      "language": "Python",
+      "topics": [],
+      "created_at": "2026-10-17",
+      "homepage": "",
+      "archived": false,
+      "fork": false,
+      "has_license": true,
+      "categories": [
+        "Python"
+      ],
+      "summary": "- **解决什么**：该项目旨在解决快速进行代码逆向工程的问题，通过一个轻量级的Python工具实现，无需额外的MCP（Memory Card Patch）。\n- **适合谁**：适合需要高效进行代码逆向工程的专业人士，如安全研究员、逆向工程师等。\n- **亮点**：**38%速度提升，35%成本降低**，以极小的体积（仅8KB）提供强大的逆向工程功能。"
+    },
+    {
+      "full_name": "LiCinCan/blender-ai-mcp-addon",
+      "url": "https://github.com/LiCinCan/blender-ai-mcp-addon",
+      "description": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with OpenAI, ChatGPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon and plugin, copilot for 3D, bpy Python scripting, MCP integration.",
+      "stars": 936,
+      "forks": 384,
+      "language": "Python",
+      "topics": [
+        "ai-assistant",
+        "blender",
+        "blender-addon",
+        "blender-ai",
+        "blender-automation",
+        "blender-extension",
+        "blender-mcp",
+        "blender-plugin",
+        "blender-python",
+        "blender-scripting",
+        "bpy",
+        "chatgpt",
+        "gpt",
+        "llm",
+        "mcp",
+        "mcp-for-blender",
+        "mcp-server",
+        "model-context-protocol",
+        "opencode",
+        "python"
+      ],
+      "created_at": "2026-10-15",
+      "homepage": "",
+      "archived": false,
+      "fork": false,
+      "has_license": true,
+      "categories": [
+        "AI",
+        "Python",
+        "自动化"
+      ],
+      "summary": "- **解决什么**：该项目旨在解决Blender用户在3D建模和动画制作中，如何更高效地利用AI技术，提供视觉聊天、场景工具和多功能工作流程。\n- **适合谁**：适合Blender用户、3D艺术家、动画师以及需要自动化和AI辅助工具进行创意工作的专业人士。\n- **亮点**：提供与OpenAI、ChatGPT等AI服务的集成，实现Blender的自动化和智能化操作。"
+    },
+    {
+      "full_name": "OverkillLabs3/driveclub-recomp",
+      "url": "https://github.com/OverkillLabs3/driveclub-recomp",
+      "description": "DriveClub (PS4, version 1.28) running natively on Windows",
+      "stars": 454,
+      "forks": 21,
+      "language": "C++",
+      "topics": [],
+      "created_at": "2026-10-16",
+      "homepage": "",
+      "archived": false,
+      "fork": false,
+      "has_license": true,
+      "categories": [
+        "C/C++"
+      ],
+      "summary": "- **解决什么**：该项目旨在解决将PS4游戏《DriveClub》版本1.28在Windows操作系统上原生运行的问题。\n- **适合谁**：适合对游戏逆向工程、游戏移植或Windows平台游戏体验感兴趣的程序员和游戏爱好者。\n- **亮点**：**实现PS4游戏在Windows上原生运行**，为玩家提供跨平台游戏体验。"
+    },
+    {
+      "full_name": "justrach/nanoui",
+      "url": "https://github.com/justrach/nanoui",
+      "description": "Desktop apps in Zig, with native UI drawn on the GPU or a web frontend",
+      "stars": 368,
+      "forks": 10,
+      "language": "Zig",
+      "topics": [],
+      "created_at": "2026-10-18",
+      "homepage": "",
+      "archived": false,
+      "fork": false,
+      "has_license": true,
+      "categories": [
+        "GPU"
+      ],
+      "summary": "- **解决什么**：该项目旨在解决使用Zig语言开发桌面应用程序的问题，提供了一种在GPU或Web前端上绘制原生UI的解决方案。\n- **适合谁**：适合对Zig语言感兴趣的开发者，尤其是那些想要构建高性能桌面应用程序并希望利用GPU加速的用户。\n- **亮点**：**提供GPU加速的桌面应用程序开发体验**，结合了Zig语言的性能和灵活性。"
+    },
+    {
+      "full_name": "kanaworksai-hue/audio-studio-mcp",
+      "url": "https://github.com/kanaworksai-hue/audio-studio-mcp",
+      "description": "Local AI BGM and sound effects for Claude Code and any MCP client. Stable Audio 3 on Apple Silicon (MLX) and Windows NVIDIA GPUs (PyTorch). No cloud, no API key.",
+      "stars": 349,
+      "forks": 23,
+      "language": "Python",
+      "topics": [
+        "apple-silicon",
+        "audio-generation",
+        "claude-code",
+        "cuda",
+        "game-audio",
+        "mcp",
+        "mcp-server",
+        "mlx",
+        "music-generation",
+        "pytorch",
+        "sound-effects",
+        "stable-audio",
+        "windows"
+      ],
+      "created_at": "2026-10-18",
+      "homepage": "https://kanaworksai-hue.github.io/audio-studio-mcp/",
+      "archived": false,
+      "fork": false,
+      "has_license": true,
+      "categories": [
+        "Python",
+        "GPU",
+        "自动化"
+      ],
+      "summary": "- **解决什么**：该项目旨在为Claude Code和其他MCP客户端提供本地AI背景音乐和音效生成服务，无需依赖云端或API密钥。\n- **适合谁**：适合游戏开发者、音频工程师以及需要高质量本地AI音效生成功能的个人或团队。\n- **亮点**：支持Apple Silicon（MLX）和Windows NVIDIA GPU（PyTorch），提供稳定高效的本地音效生成解决方案。"
+    }
+  ]
+}
