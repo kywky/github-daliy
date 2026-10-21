@@ -171,13 +171,33 @@ document.querySelectorAll('.tab').forEach(function (tab) {
 """
 
 
+LABELS = ("解决什么", "适合谁", "亮点")
+
+
+def _label_of(line: str) -> tuple[str, str] | tuple[None, None]:
+    clean = re.sub(r"^[-*•]\s+", "", line).replace("**", "").strip()
+    for lab in LABELS:
+        for sep in ("：", ":"):
+            if clean.startswith(lab + sep):
+                return lab, clean[len(lab) + 1:].strip()
+    return None, None
+
+
 def _md_to_html(text: str) -> str:
     esc = html.escape(text).strip()
+    lines = [ln.strip() for ln in esc.splitlines() if ln.strip()]
+
+    parsed = [_label_of(ln) for ln in lines]
+    hits = [(label, body) for label, body in parsed if label]
+    if len(hits) >= 2:
+        items = "".join(f"<li><strong>{label}</strong>：{body}</li>" for label, body in hits)
+        return f"<ul>{items}</ul>"
 
     def li(m):
-        lines = [ln.lstrip('- ').strip() for ln in m.group(0).strip().split("\n") if ln.strip()]
-        return "<ul>" + "".join(f"<li>{x}</li>" for x in lines) + "</ul>"
+        lines_ = [ln.lstrip("-*• ").strip() for ln in m.group(0).strip().split("\n") if ln.strip()]
+        return "<ul>" + "".join(f"<li>{x}</li>" for x in lines_) + "</ul>"
 
+    esc = re.sub(r"^[ \t]*[*•][ \t]+", "- ", esc, flags=re.M)
     if re.search(r"(?:^- .+(?:\n|$))+", esc, flags=re.M):
         esc = re.sub(r"(?:^- .+(?:\n|$))+", li, esc, flags=re.M)
     else:

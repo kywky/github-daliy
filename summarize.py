@@ -11,10 +11,10 @@ RETRY_WAITS = [0, 5, 10]
 FALLBACK_MODELS = ["glm-4-flash-250414", "glm-z1-flash"]
 
 
-PROMPT_TEMPLATE = """请用中文简洁总结这个 GitHub 项目，回答 3 个问题（每点 1-2 句，用无序列表，加粗小标题）：
-- **解决什么**：项目要解决的具体问题
-- **适合谁**：目标用户或典型使用场景
-- **亮点**：一句话说明它独特/值得关注之处
+PROMPT_TEMPLATE = """请用中文简洁总结这个 GitHub 项目。严格按以下三行格式输出，不要序号、不要 markdown 符号、不要额外解释：
+解决什么：<项目要解决的具体问题，1-2 句>
+适合谁：<目标用户或典型使用场景，1-2 句>
+亮点：<一句话说明它独特或值得关注之处>
 
 项目信息：
 名称: {full_name}
@@ -49,7 +49,7 @@ def _post(prompt: str, key: str, base_url: str, model: str) -> tuple[str | None,
             print(f"    · {model} 限流，{wait}s 后重试")
             time.sleep(wait)
         try:
-            with urllib.request.urlopen(req, timeout=90) as resp:
+            with urllib.request.urlopen(req, timeout=120) as resp:
                 data = json.loads(resp.read().decode("utf-8"))
             text = (data["choices"][0]["message"]["content"] or "").strip()
             if not text:
@@ -70,7 +70,7 @@ def _post(prompt: str, key: str, base_url: str, model: str) -> tuple[str | None,
             return None, "error"
         except Exception as exc:
             print(f"    ! {model} 调用异常: {exc}")
-            return None, "error"
+            continue
     return None, "rate"
 
 
