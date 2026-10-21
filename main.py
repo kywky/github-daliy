@@ -79,9 +79,9 @@ def save_shown(shown: dict[str, str], repos: list[dict], today: date) -> None:
 
 def main() -> int:
     p = argparse.ArgumentParser(description="生成每日 GitHub 好项目静态页")
-    p.add_argument("--days", type=int, default=7, help="只看最近 N 天创建的仓库，默认 7")
+    p.add_argument("--days", type=int, default=7, help="主时间窗天数，默认 7；各分类另有独立窗口")
     p.add_argument("--min-stars", type=int, default=50, help="最少 star 数，默认 50")
-    p.add_argument("--limit", type=int, default=10, help="最终取多少个，默认 10")
+    p.add_argument("--limit", type=int, default=13, help="最终取多少个，默认 13")
     p.add_argument("--per-cat", type=int, default=50, help="每个分类每个 topic 拉多少，默认 50")
     args = p.parse_args()
 
@@ -99,8 +99,8 @@ def main() -> int:
         print("  · 首次运行无历史快照，本次按总 star 排序；明天起即可显示日增")
     attach_speed(pool, prev_date, prev_stars, today)
 
-    repos = select_daily(pool, load_shown(), today, total_limit=args.limit, per_cat_quota=2, cooldown_days=SHOWN_COOLDOWN_DAYS)
-    print(f"  · 五方向保底分配后选出 {len(repos)} 个")
+    repos = select_daily(pool, load_shown(), today, total_limit=args.limit, cooldown_days=SHOWN_COOLDOWN_DAYS)
+    print(f"  · 六方向保底分配后选出 {len(repos)} 个")
 
     print(f"→ 生成摘要: {os.environ.get('LLM_BASE_URL','(未配置)')} / {os.environ.get('LLM_MODEL','(未配置)')}" if os.environ.get("LLM_API_KEY") else "→ 未配置 LLM_API_KEY，摘要使用原始描述")
     for i, r in enumerate(repos, 1):

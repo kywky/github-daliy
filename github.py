@@ -12,27 +12,71 @@ UA = "github-daily/0.1"
 
 
 CATEGORIES = {
-    "C/C++":  {"queries": ["language:cpp", "language:c"], "days": 7, "color": "#5b6ee1", "sigil": "C"},
-    "AI":     {"queries": ["topic:llm", "topic:ai-agents"], "days": 7, "color": "#8b5cf6", "sigil": "AI"},
-    "Python": {"queries": ["language:python"], "days": 7, "color": "#f59e0b", "sigil": "Py"},
-    "GPU":    {"queries": ["topic:cuda", "topic:gpu", "gpu in:name,description", "topic:llm-inference"], "days": 30, "color": "#ef4444", "sigil": "GPU"},
-    "自动化":  {"queries": ["topic:automation", "topic:browser-automation", "topic:mcp-server"], "days": 30, "color": "#10b981", "sigil": "A"},
+    "C/C++":  {
+        "queries": [("language:cpp", 7), ("language:c", 7)],
+        "color": "#5b6ee1", "sigil": "C", "quota": 2,
+    },
+    "AI":     {
+        "queries": [("topic:llm", 7), ("topic:ai-agents", 7)],
+        "color": "#8b5cf6", "sigil": "AI", "quota": 2,
+    },
+    "Python": {
+        "queries": [("language:python", 7)],
+        "color": "#f59e0b", "sigil": "Py", "quota": 2,
+    },
+    "GPU":    {
+        "queries": [
+            ("topic:cuda", 30), ("topic:gpu", 30),
+            ("gpu in:name,description", 30), ("topic:llm-inference", 30),
+        ],
+        "color": "#ef4444", "sigil": "GPU", "quota": 2,
+    },
+    "自动化":  {
+        "queries": [
+            ("topic:automation", 30), ("topic:browser-automation", 30),
+            ("topic:mcp-server", 30), ("topic:productivity", 30),
+            ("topic:workflow-automation", 30), ("topic:home-automation", 30),
+            ("topic:home-assistant", 30),
+        ],
+        "color": "#10b981", "sigil": "A", "quota": 2,
+    },
+    "安卓/鸿蒙": {
+        "queries": [
+            ("android tool in:name,description", 90), ("topic:android-app", 90),
+            ("topic:termux", 90), ("topic:shizuku", 90), ("topic:adb", 90),
+            ("topic:harmonyos", 180),
+        ],
+        "color": "#ec4899", "sigil": "鸿", "quota": 3,
+    },
 }
+
+MOBILE_CAT = "安卓/鸿蒙"
+MOBILE_LIB = re.compile(r"sdk\b|framework\b|library\b|开发套件|开发框架", re.I)
+HARMONY = re.compile(r"harmony\s*os|openharmony|open\s+harmony|\bohos\b|鸿蒙|arkts|arkui", re.I)
 
 
 BLOCK_NAME = re.compile(
     r"(?:^|[/_-])(awesome|tutorials?|roadmap|interview|cheatsheet|cheats|guide|course|"
     r"cheat|aimbot|crack|keygen|spoof|hwid|wallhack|executor|piracy|"
-    r"triggerbot|spinbot|ragehack|hacks?|jailbreak|fairplay|kahoot|answer-?tool|answer-?key)(?:$|[/_-])",
+    r"triggerbot|spinbot|ragehack|hacks?|jailbreak|fairplay|kahoot|answer-?tool|answer-?key|"
+    r"ehviewer|exhentai|nhentai|jmcomic|bika|hentai|poc)(?:$|[/_-])",
     re.I,
 )
 BLOCK_DESC = re.compile(
-    r"\b(cheat|cracked|keygen|aimbot|wallhack|triggerbot|spinbot|ragehack|hacks?|hwid.?spoofer|dma|"
-    r"unlock.?premium|piracy|bypass.?drm|executor|jailbreak|fairplay|kahoot|exam.?answers?|"
-    r"answer.?key|answer.?tool|drm.?circumvention)\b",
+    r"(?<![a-z0-9])(?:cheats?|cracked|keygen|aimbot|wallhack|triggerbot|spinbot|ragehack|hacks?|"
+    r"hwid.?spoofer|dma|unlock.?premium|piracy|bypass.?drm|executor|jailbreak|fairplay|kahoot|"
+    r"exam.?answers?|answer.?key|answer.?tool|drm.?circumvention|"
+    r"cve-\d{4}-\d+|exploit\s+(?:poc|research|code|chain)|"
+    r"nsfw|porn|pornography|hentai|exhentai|nhentai|jmcomic|bika|18\+|adult.?content|"
+    r"mod\s+(?:menu|apk|version)|modded\s+apk|cracked\s+apk|hacked\s+apk|premium\s+unlocked|"
+    r"unlimited\s+(?:coins|gems|money|diamonds)|free\s+download|official\s+installer|"
+    r"setup\s+guide|installation\s+guide|install\s+guide|how\s+to\s+install)(?![a-z0-9])",
     re.I,
 )
-BLOCK_DESC_CN = re.compile(r"破解|作弊|外挂|刷题|代刷|越狱|破甲|激活码|盗版")
+BLOCK_DESC_CN = re.compile(
+    r"破解|作弊|外挂|刷题|代刷|越狱|破甲|激活码|盗版|禁漫|里番|色情|成人漫画|18禁|"
+    r"修改版|无限金币|会员解锁|解锁会员|内置菜单|安装教程|下载安装|免费下载|官方下载"
+)
 
 
 def _get(url: str, token: str | None = None) -> dict:
@@ -102,13 +146,17 @@ def is_low_quality(r: dict) -> bool:
     return False
 
 
+def is_harmony(r: dict) -> bool:
+    text = " ".join([r["full_name"], r["description"], *r["topics"]])
+    return bool(HARMONY.search(text))
+
+
 def fetch_by_categories(today: date, min_stars: int, per_cat_limit: int, token: str | None = None) -> dict[str, dict]:
     pool: dict[str, dict] = {}
     sleep_between = 8 if not token else 2
     for cat, cfg in CATEGORIES.items():
-        days = cfg.get("days", 7)
-        created_after = (today - timedelta(days=days)).isoformat()
-        for base in cfg["queries"]:
+        for base, days in cfg["queries"]:
+            created_after = (today - timedelta(days=days)).isoformat()
             q = f"{base} created:>{created_after} stars:>={min_stars}"
             print(f"  · {cat} / {base}（>{days}d）")
             items = _search_retry(q, per_cat_limit, token)
@@ -116,6 +164,8 @@ def fetch_by_categories(today: date, min_stars: int, per_cat_limit: int, token: 
             for raw in items:
                 r = _shape(raw)
                 if is_low_quality(r):
+                    continue
+                if cat == MOBILE_CAT and MOBILE_LIB.search(r["full_name"] + " " + r["description"]):
                     continue
                 kept += 1
                 key = r["full_name"]
@@ -134,8 +184,8 @@ def rank_score(r: dict) -> float:
     return r["stars"] / 1000.0
 
 
-def select_daily(pool: dict[str, dict], shown: dict[str, str], today: date, total_limit: int = 10,
-                 per_cat_quota: int = 2, max_per_cat: int = 3, cooldown_days: int = 3) -> list[dict]:
+def select_daily(pool: dict[str, dict], shown: dict[str, str], today: date, total_limit: int = 13,
+                 max_per_cat: int = 3, cooldown_days: int = 3) -> list[dict]:
     cutoff = today - timedelta(days=cooldown_days)
 
     def last_shown(r: dict) -> date:
@@ -161,9 +211,16 @@ def select_daily(pool: dict[str, dict], shown: dict[str, str], today: date, tota
             cat_count[c] += 1
 
     for c, items in by_cat.items():
+        quota = CATEGORIES[c].get("quota", 2)
         candidates = sorted(items, key=lambda r: (0 if is_fresh(r) else 1, last_shown(r), -rank_score(r)))
+        if c == MOBILE_CAT and len(chosen) < total_limit:
+            # 鸿蒙生态项目稀缺，先保底一个鸿蒙小工具，剩余名额再按热度补安卓
+            for r in candidates:
+                if is_harmony(r):
+                    add(r)
+                    break
         for r in candidates:
-            if cat_count[c] >= per_cat_quota or len(chosen) >= total_limit:
+            if cat_count[c] >= quota or len(chosen) >= total_limit:
                 break
             add(r)
 

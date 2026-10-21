@@ -67,6 +67,7 @@ body {
   flex: 0 0 auto; border: 0; background: transparent; color: #475569;
   font: inherit; font-size: 13.5px; font-weight: 600; padding: 9px 16px;
   border-radius: 10px; cursor: pointer; display: inline-flex; align-items: center; gap: 7px;
+  white-space: nowrap;
   transition: background .15s ease, color .15s ease;
 }
 .tab:hover { background: #f1f5f9; color: var(--ink); }
@@ -281,7 +282,7 @@ def render(repos: list[dict], window_start: str, window_end: str, comparison: st
 </article>""")
 
     grid = f'<div class="grid">{"".join(cards)}</div>' if cards else '<div class="empty">今天没有符合条件的新项目，明天再来看看。</div>'
-    speed_note = f"对比 {comparison} 快照计算日增" if comparison else "首次运行，今日按总 star 排序"
+    speed_note = f"对比 {comparison} 快照计算日增" if comparison else "暂无前一日快照，今日按总 star 排序"
 
     return f"""<!doctype html>
 <html lang="zh-CN">
@@ -298,7 +299,7 @@ def render(repos: list[dict], window_start: str, window_end: str, comparison: st
   <div class="wrap">
     <div class="eyebrow">Daily Digest</div>
     <h1>GitHub <span class="grad">每日精选</span></h1>
-    <p class="lead">以近 7 天新崛起项目为主（GPU / 自动化放宽至 30 天），按 C/C++、AI、Python、GPU、自动化五个方向各挑 2 个，再结合涨星速度排序。</p>
+    <p class="lead">以近 7 天新崛起项目为主（GPU / 自动化放宽至 30 天，安卓 / 鸿蒙放宽至 90–180 天）；C/C++、AI、Python、GPU、自动化各挑 2 个，自动化侧重工作与生活效率，另加 3 个安卓 / 鸿蒙小工具，共 13 个，再结合涨星速度排序。</p>
     <div class="meta">
       <span class="pill">{window_start} → {window_end}</span>
       <span class="pill">{len(repos)} 个项目</span>
