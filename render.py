@@ -288,7 +288,7 @@ def render(repos: list[dict], window_start: str, window_end: str, comparison: st
 </main>
 
 <footer>
-  github-daily · 每天自动整理<span class="sep">·</span>数据来源 GitHub API<span class="sep">·</span>摘要由 GLM-4-Flash 生成
+  github-daily · 每天自动整理<span class="sep">·</span>数据来源 GitHub API<span class="sep">·</span>摘要由 AI 生成
 </footer>
 
 <script>{TAB_JS}</script>
