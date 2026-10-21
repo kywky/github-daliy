@@ -1,0 +1,253 @@
+{
+  "generated_at": "2026-10-21T15:18:00.598160+00:00",
+  "window_start": "2025-10-21",
+  "window_end": "2026-10-21",
+  "snapshot_compared": null,
+  "repos": [
+    {
+      "full_name": "boykopovar/AnyPS5",
+      "url": "https://github.com/boykopovar/AnyPS5",
+      "description": "Tool for automatic PS5 executables porting to Linux and Windows",
+      "stars": 46108,
+      "forks": 4247,
+      "language": "C++",
+      "topics": [
+        "anyps5",
+        "dynamic-library",
+        "game-porting",
+        "ps5",
+        "ps5-tools",
+        "spir-v",
+        "vulkan"
+      ],
+      "created_at": "2026-08-03",
+      "homepage": "https://boykopovar.github.io/AnyPS5/",
+      "archived": false,
+      "fork": false,
+      "has_license": true,
+      "categories": [
+        "Linux",
+        "Windows"
+      ],
+      "summary": "解决将 PS5 可执行文件自动移植到 Linux 和 Windows 平台的问题\n适合希望在 PC 上运行 PS5 游戏或进行相关移植工作的开发者与玩家\n利用动态库和 Vulkan 技术实现 PS5 游戏的自动跨平台移植"
+    },
+    {
+      "full_name": "Ebony-Vinyl/dsh-our-free-model",
+      "url": "https://github.com/Ebony-Vinyl/dsh-our-free-model",
+      "description": "在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there, DeepSeek V4.1 Flash and Kimi K3 among them. Completely free, with no usage cap.",
+      "stars": 33216,
+      "forks": 830,
+      "language": "JavaScript",
+      "topics": [
+        "ai-agents",
+        "deepseek",
+        "deepseek-harness",
+        "developer-tools",
+        "dsh",
+        "dsh-plugin",
+        "free-model",
+        "llm",
+        "model-provider",
+        "openai-compatible"
+      ],
+      "created_at": "2026-09-24",
+      "homepage": "",
+      "archived": false,
+      "fork": false,
+      "has_license": true,
+      "categories": [
+        "AI"
+      ],
+      "summary": "解决什么：在 DeepSeek Hub (dsh) 中直接使用前沿 AI 模型，无需登录注册或 API Key，完全免费且不限量\n适合谁：需要在 dsh 中便捷使用免费 AI 模型的用户，特别是开发者或研究人员\n亮点：提供无需任何认证的前沿模型访问，完全免费且开放"
+    },
+    {
+      "full_name": "Niko1221/Strata",
+      "url": "https://github.com/Niko1221/Strata",
+      "description": "Qwen3.8-Flash-Next on any consumer hardware: one-click install for Windows / Linux. Strata inference engine, OpenAI/Anthropic API on localhost, optional image input.",
+      "stars": 29683,
+      "forks": 3152,
+      "language": "C++",
+      "topics": [],
+      "created_at": "2026-09-24",
+      "homepage": "",
+      "archived": false,
+      "fork": false,
+      "has_license": true,
+      "categories": [
+        "Windows"
+      ],
+      "summary": "解决什么：在普通消费级硬件上运行 Qwen3.8-Flash-Next，提供 Windows/Linux 一键安装方案\n适合谁：需要本地部署大模型进行推理的用户，尤其适用于 Windows/Linux 环境\n亮点：实现大模型在消费级硬件上的一键部署和本地运行"
+    },
+    {
+      "full_name": "Gathin23/cleanyourtv",
+      "url": "https://github.com/Gathin23/cleanyourtv",
+      "description": "Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
+      "stars": 16937,
+      "forks": 1849,
+      "language": "Java",
+      "topics": [
+        "adb",
+        "adblock",
+        "android-tv",
+        "android-tv-launcher",
+        "apple-tv",
+        "bloatware-removal",
+        "claude-code",
+        "debloat",
+        "fire-tv",
+        "google-tv",
+        "launcher",
+        "privacy",
+        "smart-tv",
+        "sony-bravia",
+        "tcl",
+        "vibe-coding",
+        "xiaomi"
+      ],
+      "created_at": "2026-10-17",
+      "homepage": "https://cleanyour.tv",
+      "archived": false,
+      "fork": false,
+      "has_license": true,
+      "categories": [
+        "安卓"
+      ],
+      "summary": "解决 Android/Google TV 预装臃肿软件问题，提供 Apple TV 风格定制界面\n适合拥有 Android TV、Google TV 或 Fire TV 等智能电视设备的用户\n支持远程 Wi-Fi 操作，无需连接线缆即可去臃肿并定制启动器"
+    },
+    {
+      "full_name": "DSH-APP/DSHA",
+      "url": "https://github.com/DSH-APP/DSHA",
+      "description": "免 ROOT 免 Termux，在手机上跑 DeepSeek Harness。完整 Ubuntu 环境 + proroot 零 ptrace 开销 · AI 输出实时上屏 · ADB 直连 · 数据不丢",
+      "stars": 1883,
+      "forks": 114,
+      "language": "Java",
+      "topics": [
+        "android",
+        "coding-agent",
+        "deepseek",
+        "deepseek-harness",
+        "launcher",
+        "llm",
+        "proot",
+        "proroot",
+        "shizuku",
+        "webui"
+      ],
+      "created_at": "2026-08-14",
+      "homepage": "",
+      "archived": false,
+      "fork": false,
+      "has_license": true,
+      "categories": [
+        "安卓"
+      ],
+      "summary": "解决什么：在无需 Root 或 Termux 的安卓手机上运行 DeepSeek Harness，提供完整的 Ubuntu 环境和低开销的 proroot 支持\n适合谁：希望在普通安卓设备上体验 AI 开发和研究的用户，特别是需要便携式深度学习环境的开发者\n亮点：通过 proroot 技术实现零 ptrace 开销，支持 ADB 直连和数据不丢失，提供流畅的 AI 应用体验"
+    },
+    {
+      "full_name": "metasequoiaime/msime",
+      "url": "https://github.com/metasequoiaime/msime",
+      "description": "下一代跨平台水杉输入法（MSIME）：面向 Android、iOS、macOS、Linux、Windows 与 HarmonyOS 的多平台中文输入法，使用共享输入引擎与各平台原生宿主。",
+      "stars": 920,
+      "forks": 66,
+      "language": "Rust",
+      "topics": [
+        "android",
+        "chinese",
+        "cpp",
+        "harmonyos",
+        "ime",
+        "input-method",
+        "inputmethodkit",
+        "ios",
+        "linux",
+        "macos",
+        "pinyin",
+        "rust",
+        "windows"
+      ],
+      "created_at": "2026-09-02",
+      "homepage": "https://msime.app/",
+      "archived": false,
+      "fork": false,
+      "has_license": true,
+      "categories": [
+        "鸿蒙",
+        "Linux",
+        "Windows"
+      ],
+      "summary": "解决什么：为 Android、iOS、macOS、Linux、Windows 与 HarmonyOS 平台提供统一的中文输入法体验\n适合谁：需要跨平台中文输入解决方案的开发者或用户\n亮点：基于共享输入引擎的多平台原生输入法实现"
+    },
+    {
+      "full_name": "harmony-on-android/HOA",
+      "url": "https://github.com/harmony-on-android/HOA",
+      "description": "Run OpenHarmony hap on Android",
+      "stars": 801,
+      "forks": 31,
+      "language": "Kotlin",
+      "topics": [
+        "android",
+        "harmonyos",
+        "openharmony"
+      ],
+      "created_at": "2026-05-15",
+      "homepage": "",
+      "archived": false,
+      "fork": false,
+      "has_license": false,
+      "categories": [
+        "鸿蒙"
+      ],
+      "summary": "解决什么：在 Android 设备上运行 OpenHarmony HAP 应用\n适合谁：需要将 OpenHarmony 应用迁移到 Android 平台的开发者\n亮点：为 OpenHarmony 应用提供 Android 运行环境"
+    },
+    {
+      "full_name": "antirez/linenoise",
+      "url": "https://github.com/antirez/linenoise",
+      "description": "A small self-contained alternative to readline and libedit",
+      "stars": 4363,
+      "forks": 742,
+      "language": "C",
+      "topics": [],
+      "created_at": "2010-03-20",
+      "homepage": "",
+      "archived": false,
+      "fork": false,
+      "has_license": true,
+      "categories": [
+        "C"
+      ],
+      "kind": "learn",
+      "note": "几百行的 readline 替代，命令行交互的教科书级小实现",
+      "star_delta": null,
+      "stars_per_day": null,
+      "summary": "学什么：能学到简洁高效的命令行交互实现技巧，理解如何用少量代码构建实用功能\n适合谁：适合有一定 C 语言基础，想学习命令行工具开发的开发者\n怎么读：从 main 函数和基本命令处理模块入手，逐步深入理解事件循环和编辑器核心功能"
+    },
+    {
+      "full_name": "bottlepy/bottle",
+      "url": "https://github.com/bottlepy/bottle",
+      "description": "bottle.py is a fast and simple micro-framework for python web-applications.",
+      "stars": 8798,
+      "forks": 1517,
+      "language": "Python",
+      "topics": [
+        "bottle",
+        "python",
+        "rest",
+        "web-framework",
+        "wsgi"
+      ],
+      "created_at": "2009-06-30",
+      "homepage": "http://bottlepy.org/",
+      "archived": false,
+      "fork": false,
+      "has_license": true,
+      "categories": [
+        "Python"
+      ],
+      "kind": "learn",
+      "note": "单文件微框架，几千行读懂 WSGI 路由与模板",
+      "star_delta": null,
+      "stars_per_day": null,
+      "summary": "理解 WSGI 规范在单文件中的落地实现，掌握轻量级路由与模板引擎的设计思路\n适合想要深入理解 Web 框架底层原理的 Python 初中级开发者\n建议从路由分发和 WSGI 入口开始，逐步理解模板引擎与插件系统"
+    }
+  ]
+}
