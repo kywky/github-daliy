@@ -12,47 +12,50 @@ UA = "github-daily/0.1"
 
 
 CATEGORIES = {
-    "C/C++":  {
-        "queries": [("language:cpp", 7), ("language:c", 7)],
-        "color": "#5b6ee1", "sigil": "C", "quota": 2,
-    },
-    "AI":     {
-        "queries": [("topic:llm", 7), ("topic:ai-agents", 7)],
-        "color": "#8b5cf6", "sigil": "AI", "quota": 2,
-    },
-    "Python": {
-        "queries": [("language:python", 7)],
-        "color": "#f59e0b", "sigil": "Py", "quota": 2,
-    },
-    "GPU":    {
-        "queries": [
-            ("topic:cuda", 30), ("topic:gpu", 30),
-            ("gpu in:name,description", 30), ("topic:llm-inference", 30),
-        ],
-        "color": "#ef4444", "sigil": "GPU", "quota": 2,
-    },
-    "自动化":  {
-        "queries": [
-            ("topic:automation", 30), ("topic:browser-automation", 30),
-            ("topic:mcp-server", 30), ("topic:productivity", 30),
-            ("topic:workflow-automation", 30), ("topic:home-automation", 30),
-            ("topic:home-assistant", 30),
-        ],
-        "color": "#10b981", "sigil": "A", "quota": 2,
-    },
-    "安卓/鸿蒙": {
+    "安卓": {
         "queries": [
             ("android tool in:name,description", 90), ("topic:android-app", 90),
             ("topic:termux", 90), ("topic:shizuku", 90), ("topic:adb", 90),
-            ("topic:harmonyos", 180),
+            ("topic:f-droid", 90),
         ],
-        "color": "#ec4899", "sigil": "鸿", "quota": 3,
+        "color": "#3ddc84", "sigil": "安", "quota": 1, "group": "tool",
     },
+    "鸿蒙": {
+        "queries": [
+            ("topic:harmonyos", 180), ("harmonyos in:name,description", 180),
+            ("openharmony in:name,description", 180), ("topic:arkts", 365),
+        ],
+        "color": "#e33e31", "sigil": "鸿", "quota": 1, "group": "tool",
+    },
+    "Linux": {
+        "queries": [
+            ("topic:cli", 90), ("cli tool in:name,description", 90),
+            ("linux tool in:name,description", 90), ("topic:linux", 90),
+        ],
+        "color": "#f59e0b", "sigil": "L", "quota": 1, "group": "tool",
+    },
+    "Windows": {
+        "queries": [
+            ("windows tool in:name,description", 90), ("windows app in:name,description", 90),
+            ("topic:windows", 90), ("for windows in:description", 90),
+        ],
+        "color": "#0ea5e9", "sigil": "W", "quota": 1, "group": "tool",
+    },
+    "AI": {
+        "queries": [
+            ("topic:llm", 30), ("topic:ai-agents", 30), ("llm in:name,description", 30),
+        ],
+        "color": "#8b5cf6", "sigil": "AI", "quota": 1, "group": "ai",
+    },
+    # 学习栏不走搜索，候选来自 classic.py 的经典清单
+    "C":       {"queries": [], "color": "#5b6ee1", "sigil": "C", "quota": 1, "group": "learn"},
+    "C++":     {"queries": [], "color": "#f34b7d", "sigil": "++", "quota": 1, "group": "learn"},
+    "Python":  {"queries": [], "color": "#3572A5", "sigil": "Py", "quota": 1, "group": "learn"},
 }
 
-MOBILE_CAT = "安卓/鸿蒙"
-MOBILE_LIB = re.compile(r"sdk\b|framework\b|library\b|开发套件|开发框架", re.I)
-HARMONY = re.compile(r"harmony\s*os|openharmony|open\s+harmony|\bohos\b|鸿蒙|arkts|arkui", re.I)
+TOOL_CATS = tuple(c for c, cfg in CATEGORIES.items() if cfg.get("group") == "tool")
+SEARCH_CATS = tuple(c for c, cfg in CATEGORIES.items() if cfg["queries"])
+TOOL_LIB = re.compile(r"sdk\b|framework\b|library\b|开发套件|开发框架", re.I)
 
 
 BLOCK_NAME = re.compile(
@@ -146,15 +149,20 @@ def is_low_quality(r: dict) -> bool:
     return False
 
 
-def is_harmony(r: dict) -> bool:
-    text = " ".join([r["full_name"], r["description"], *r["topics"]])
-    return bool(HARMONY.search(text))
+def fetch_repo(name: str, token: str | None = None) -> dict | None:
+    """按 full_name 取单个仓库的实时数据，经典清单用它同步 star 和描述。"""
+    try:
+        return _shape(_get(f"{API_ROOT}/repos/{urllib.parse.quote(name)}", token=token))
+    except Exception as e:
+        print(f"    ! 读取 {name} 失败: {e}")
+        return None
 
 
 def fetch_by_categories(today: date, min_stars: int, per_cat_limit: int, token: str | None = None) -> dict[str, dict]:
     pool: dict[str, dict] = {}
     sleep_between = 8 if not token else 2
-    for cat, cfg in CATEGORIES.items():
+    for cat in SEARCH_CATS:
+        cfg = CATEGORIES[cat]
         for base, days in cfg["queries"]:
             created_after = (today - timedelta(days=days)).isoformat()
             q = f"{base} created:>{created_after} stars:>={min_stars}"
@@ -165,7 +173,7 @@ def fetch_by_categories(today: date, min_stars: int, per_cat_limit: int, token: 
                 r = _shape(raw)
                 if is_low_quality(r):
                     continue
-                if cat == MOBILE_CAT and MOBILE_LIB.search(r["full_name"] + " " + r["description"]):
+                if cat in TOOL_CATS and TOOL_LIB.search(r["full_name"] + " " + r["description"]):
                     continue
                 kept += 1
                 key = r["full_name"]
@@ -184,8 +192,9 @@ def rank_score(r: dict) -> float:
     return r["stars"] / 1000.0
 
 
-def select_daily(pool: dict[str, dict], shown: dict[str, str], today: date, total_limit: int = 13,
-                 max_per_cat: int = 3, cooldown_days: int = 3) -> list[dict]:
+def select_daily(pool: dict[str, dict], shown: dict[str, str], today: date, total_limit: int = 7,
+                 max_per_tool: int = 2, cooldown_days: int = 3) -> list[dict]:
+    """四平台工具各保底 1 个 + 热门 AI 1 个，剩下 2 个名额补给候选最好的工具栏。"""
     cutoff = today - timedelta(days=cooldown_days)
 
     def last_shown(r: dict) -> date:
@@ -195,30 +204,26 @@ def select_daily(pool: dict[str, dict], shown: dict[str, str], today: date, tota
     def is_fresh(r: dict) -> bool:
         return last_shown(r) < cutoff
 
-    by_cat: dict[str, list[dict]] = {c: [] for c in CATEGORIES}
+    by_cat: dict[str, list[dict]] = {c: [] for c in SEARCH_CATS}
     for r in pool.values():
         for c in r["categories"]:
-            by_cat[c].append(r)
+            if c in by_cat:
+                by_cat[c].append(r)
 
     chosen: dict[str, dict] = {}
-    cat_count: dict[str, int] = {c: 0 for c in CATEGORIES}
+    cat_count: dict[str, int] = {c: 0 for c in SEARCH_CATS}
 
     def add(r: dict) -> None:
         if r["full_name"] in chosen:
             return
         chosen[r["full_name"]] = r
         for c in r["categories"]:
-            cat_count[c] += 1
+            if c in cat_count:
+                cat_count[c] += 1
 
     for c, items in by_cat.items():
-        quota = CATEGORIES[c].get("quota", 2)
+        quota = CATEGORIES[c].get("quota", 1)
         candidates = sorted(items, key=lambda r: (0 if is_fresh(r) else 1, last_shown(r), -rank_score(r)))
-        if c == MOBILE_CAT and len(chosen) < total_limit:
-            # 鸿蒙生态项目稀缺，先保底一个鸿蒙小工具，剩余名额再按热度补安卓
-            for r in candidates:
-                if is_harmony(r):
-                    add(r)
-                    break
         for r in candidates:
             if cat_count[c] >= quota or len(chosen) >= total_limit:
                 break
@@ -230,7 +235,8 @@ def select_daily(pool: dict[str, dict], shown: dict[str, str], today: date, tota
                 break
             if only_fresh and not is_fresh(r):
                 continue
-            if r["categories"] and all(cat_count[c] >= max_per_cat for c in r["categories"]):
+            tools = [c for c in r["categories"] if c in TOOL_CATS]
+            if not tools or all(cat_count[c] >= max_per_tool for c in tools):
                 continue
             add(r)
 

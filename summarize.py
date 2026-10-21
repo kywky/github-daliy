@@ -26,6 +26,20 @@ Topics: {topics}
 """
 
 
+LEARN_PROMPT_TEMPLATE = """这是一个值得精读的经典开源项目，请用中文按以下三行格式输出，不要序号、不要 markdown 符号、不要额外解释：
+学什么：<读源码能学到的具体能力，1-2 句>
+适合谁：<什么水平或什么需求的读者最适合读，1-2 句>
+怎么读：<建议的入手模块或阅读顺序，1 句>
+
+项目信息：
+名称: {full_name}
+语言: {language}
+Stars: {stars}
+推荐语: {note}
+描述: {description}
+"""
+
+
 def _fallback(repo: dict) -> str:
     if repo.get("description"):
         return f"原始描述：{repo['description']}\n\n（摘要生成失败，本次展示原文）"
@@ -81,14 +95,23 @@ def summarize(repo: dict) -> str:
     base_url = os.environ.get("LLM_BASE_URL", DEFAULT_BASE_URL)
     model = os.environ.get("LLM_MODEL", DEFAULT_MODEL)
 
-    prompt = PROMPT_TEMPLATE.format(
-        full_name=repo["full_name"],
-        language=repo["language"] or "-",
-        stars=repo["stars"],
-        categories=", ".join(repo.get("categories") or []) or "-",
-        topics=", ".join(repo["topics"]) or "-",
-        description=repo["description"] or "-",
-    )
+    if repo.get("kind") == "learn":
+        prompt = LEARN_PROMPT_TEMPLATE.format(
+            full_name=repo["full_name"],
+            language=repo["language"] or "-",
+            stars=repo["stars"],
+            note=repo.get("note") or "-",
+            description=repo["description"] or "-",
+        )
+    else:
+        prompt = PROMPT_TEMPLATE.format(
+            full_name=repo["full_name"],
+            language=repo["language"] or "-",
+            stars=repo["stars"],
+            categories=", ".join(repo.get("categories") or []) or "-",
+            topics=", ".join(repo["topics"]) or "-",
+            description=repo["description"] or "-",
+        )
 
     models = [model]
     if "bigmodel" in base_url:

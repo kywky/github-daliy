@@ -173,22 +173,23 @@ document.querySelectorAll('.tab').forEach(function (tab) {
 
 
 LABELS = ("解决什么", "适合谁", "亮点")
+LEARN_LABELS = ("学什么", "适合谁", "怎么读")
 
 
-def _label_of(line: str) -> tuple[str, str] | tuple[None, None]:
+def _label_of(line: str, labels: tuple[str, ...]) -> tuple[str, str] | tuple[None, None]:
     clean = re.sub(r"^[-*•]\s+", "", line).replace("**", "").strip()
-    for lab in LABELS:
+    for lab in labels:
         for sep in ("：", ":"):
             if clean.startswith(lab + sep):
                 return lab, clean[len(lab) + 1:].strip()
     return None, None
 
 
-def _md_to_html(text: str) -> str:
+def _md_to_html(text: str, labels: tuple[str, ...] = LABELS) -> str:
     esc = html.escape(text).strip()
     lines = [ln.strip() for ln in esc.splitlines() if ln.strip()]
 
-    parsed = [_label_of(ln) for ln in lines]
+    parsed = [_label_of(ln, labels) for ln in lines]
     hits = [(label, body) for label, body in parsed if label]
     if len(hits) >= 2:
         items = "".join(f"<li><strong>{label}</strong>：{body}</li>" for label, body in hits)
@@ -196,7 +197,7 @@ def _md_to_html(text: str) -> str:
 
     if len(lines) == 3 and all(label is None for label, _ in parsed) and not any(re.match(r"^[-*•]\s", ln) for ln in lines):
         items = "".join(
-            f"<li><strong>{lab}</strong>：{body}</li>" for lab, body in zip(LABELS, lines)
+            f"<li><strong>{lab}</strong>：{body}</li>" for lab, body in zip(labels, lines)
         )
         return f"<ul>{items}</ul>"
 
@@ -219,7 +220,25 @@ def _cat_color(name: str) -> str:
     return cfg["color"] if cfg else "#64748b"
 
 
-def render(repos: list[dict], window_start: str, window_end: str, comparison: str | None) -> str:
+def _window_note() -> str:
+    from github import CATEGORIES
+    groups: dict[str, list[int]] = {}
+    for cfg in CATEGORIES.values():
+        for _, days in cfg["queries"]:
+            groups.setdefault(cfg.get("group", "other"), []).append(days)
+    names = {"tool": "工具", "ai": "AI"}
+    parts = []
+    for key in ("tool", "ai"):
+        days = groups.get(key)
+        if not days:
+            continue
+        lo, hi = min(days), max(days)
+        label = names[key]
+        parts.append(f"{label} {lo}–{hi} 天内新建" if lo != hi else f"{label} {lo} 天内新建")
+    return " · ".join(parts)
+
+
+def render(repos: list[dict], window_end: str, comparison: str | None) -> str:
     cat_counts: dict[str, int] = {}
     for r in repos:
         for c in r.get("categories", []):
@@ -249,7 +268,10 @@ def render(repos: list[dict], window_start: str, window_end: str, comparison: st
         )
 
         spd = r.get("stars_per_day")
-        if spd is None:
+        is_learn = r.get("kind") == "learn"
+        if is_learn:
+            speed_html = '<span class="speed neutral">经典可读</span>'
+        elif spd is None:
             speed_html = '<span class="speed neutral">新收录</span>'
         elif spd > 0:
             speed_html = f'<span class="speed">↑ {spd:g}★/天</span>'
@@ -273,7 +295,7 @@ def render(repos: list[dict], window_start: str, window_end: str, comparison: st
   </div>
   <h3 class="title"><a href="{html.escape(r['url'])}"><span class="owner">{html.escape(owner)}/</span>{html.escape(repo_name)}</a></h3>
   {desc_html}
-  <div class="summary">{_md_to_html(r.get('summary', ''))}</div>
+  <div class="summary">{_md_to_html(r.get('summary', ''), LEARN_LABELS if is_learn else LABELS)}</div>
   {f'<div class="topics">{topics}</div>' if topics else ''}
   <div class="card-foot">
     <span class="lang"><span class="lang-dot" style="background:{lang_color}"></span>{html.escape(lang)} · 成立于 {html.escape(r['created_at'])}</span>
@@ -299,9 +321,9 @@ def render(repos: list[dict], window_start: str, window_end: str, comparison: st
   <div class="wrap">
     <div class="eyebrow">Daily Digest</div>
     <h1>GitHub <span class="grad">每日精选</span></h1>
-    <p class="lead">以近 7 天新崛起项目为主（GPU / 自动化放宽至 30 天，安卓 / 鸿蒙放宽至 90–180 天）；C/C++、AI、Python、GPU、自动化各挑 2 个，自动化侧重工作与生活效率，另加 3 个安卓 / 鸿蒙小工具，共 13 个，再结合涨星速度排序。</p>
+    <p class="lead">每天 6 个安卓 / 鸿蒙 / Linux / Windows 实用小工具，1 个当下热门的 AI 项目，再从 C、C++、Python 里随机挑 2 个值得精读的经典小项目；工具与 AI 结合涨星速度排序。</p>
     <div class="meta">
-      <span class="pill">{window_start} → {window_end}</span>
+      <span class="pill">{_window_note()}</span>
       <span class="pill">{len(repos)} 个项目</span>
       <span class="pill">{speed_note}</span>
     </div>
