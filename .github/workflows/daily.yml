@@ -3,15 +3,18 @@ name: daily-digest
 on:
   schedule:
     - cron: "0 0 * * *"
+  push:
+    branches: [main]
+    paths:
+      - "**.py"
+      - ".github/workflows/daily.yml"
   workflow_dispatch:
 
 permissions:
   contents: write
-  pages: write
-  id-token: write
 
 concurrency:
-  group: pages
+  group: daily-digest
   cancel-in-progress: false
 
 jobs:
@@ -36,14 +39,21 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data dist
-          git diff --staged --quiet && exit 0
-          git commit -m "chore: daily update $(date -u +%F)"
-          git push
+          git add data
+          git diff --staged --quiet || git commit -m "chore: data $(date -u +%F)"
+          git push origin HEAD:main
 
-      - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: dist
-      - id: deployment
-        uses: actions/deploy-pages@v4
+      - name: Publish to gh-pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          rm -rf /tmp/site && mkdir -p /tmp/site
+          cp -r dist/. /tmp/site/
+          cd /tmp/site
+          git init -q -b gh-pages
+          git add -A
+          git -c user.name="github-actions[bot]" \
+              -c user.email="41898282+github-actions[bot]@users.noreply.github.com" \
+              commit -qm "deploy: $(date -u +%F)"
+          git push -q --force \
+            "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" gh-pages
