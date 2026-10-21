@@ -2,6 +2,7 @@ import argparse
 import json
 import os
 import sys
+import time
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
@@ -124,6 +125,7 @@ def main() -> int:
     for i, r in enumerate(repos, 1):
         print(f"  [{i}/{len(repos)}] {r['full_name']}")
         r["summary"] = summarize(r)
+        time.sleep(1)
 
     DIST.mkdir(exist_ok=True)
     (DIST / "repos.json").write_text(json.dumps({
