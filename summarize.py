@@ -7,8 +7,8 @@ import urllib.request
 
 DEFAULT_BASE_URL = "https://api.openai.com/v1"
 DEFAULT_MODEL = "gpt-4o-mini"
-RETRY_WAITS = [0, 5, 12]
-FALLBACK_MODELS = ["glm-4.5-flash", "glm-4-flash"]
+RETRY_WAITS = [0, 5, 10]
+FALLBACK_MODELS = ["glm-4-flash-250414", "glm-z1-flash"]
 
 
 PROMPT_TEMPLATE = """请用中文简洁总结这个 GitHub 项目，回答 3 个问题（每点 1-2 句，用无序列表，加粗小标题）：
@@ -38,7 +38,7 @@ def _post(prompt: str, key: str, base_url: str, model: str) -> tuple[str | None,
         "model": model,
         "messages": [{"role": "user", "content": prompt}],
         "temperature": 0.4,
-        "max_tokens": 400,
+        "max_tokens": 2048,
     }).encode("utf-8")
     req = urllib.request.Request(url, data=body, method="POST")
     req.add_header("Content-Type", "application/json")
@@ -49,9 +49,13 @@ def _post(prompt: str, key: str, base_url: str, model: str) -> tuple[str | None,
             print(f"    · {model} 限流，{wait}s 后重试")
             time.sleep(wait)
         try:
-            with urllib.request.urlopen(req, timeout=60) as resp:
+            with urllib.request.urlopen(req, timeout=90) as resp:
                 data = json.loads(resp.read().decode("utf-8"))
-            return data["choices"][0]["message"]["content"].strip(), "ok"
+            text = (data["choices"][0]["message"]["content"] or "").strip()
+            if not text:
+                print(f"    ! {model} 返回空内容")
+                return None, "empty"
+            return text, "ok"
         except urllib.error.HTTPError as e:
             detail = ""
             try:
@@ -94,6 +98,6 @@ def summarize(repo: dict) -> str:
         text, kind = _post(prompt, key, base_url, m)
         if text:
             return text
-        if kind != "rate":
+        if kind not in ("rate", "empty"):
             break
     return _fallback(repo)
