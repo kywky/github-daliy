@@ -270,13 +270,13 @@ def render(repos: list[dict], window_start: str, window_end: str, comparison: st
     <div class="cats">{cat_html}</div>
     {speed_html}
   </div>
-  <h3 class="title"><a href="{html.escape(r['url'])}" target="_blank" rel="noreferrer"><span class="owner">{html.escape(owner)}/</span>{html.escape(repo_name)}</a></h3>
+  <h3 class="title"><a href="{html.escape(r['url'])}"><span class="owner">{html.escape(owner)}/</span>{html.escape(repo_name)}</a></h3>
   {desc_html}
   <div class="summary">{_md_to_html(r.get('summary', ''))}</div>
   {f'<div class="topics">{topics}</div>' if topics else ''}
   <div class="card-foot">
     <span class="lang"><span class="lang-dot" style="background:{lang_color}"></span>{html.escape(lang)} · 成立于 {html.escape(r['created_at'])}</span>
-    <a class="gh-link" href="{html.escape(r['url'])}" target="_blank" rel="noreferrer">GitHub ↗</a>
+    <a class="gh-link" href="{html.escape(r['url'])}">GitHub ↗</a>
   </div>
 </article>""")
 
@@ -288,6 +288,8 @@ def render(repos: list[dict], window_start: str, window_end: str, comparison: st
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://github.com">
+<link rel="dns-prefetch" href="https://github.com">
 <title>GitHub 每日精选 · {window_end}</title>
 <style>{CSS}</style>
 </head>
