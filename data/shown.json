@@ -1,4 +1,5 @@
 {
+  "AGenUI/AGenUI": "2026-10-23",
   "ARahim3/DigUp": "2026-10-23",
   "Akshayykadam/PixelBoard": "2026-10-21",
   "Chevey339/kelivo": "2026-10-23",
@@ -18,6 +19,7 @@
   "Niko1221/Strata": "2026-10-21",
   "OrchestratorInc/agent-orchestrator": "2026-10-23",
   "Panniantong/Agent-Reach": "2026-10-23",
+  "StartLuxLabs/StartLux-Decision": "2026-10-23",
   "aicodeking/leanrea": "2026-10-23",
   "antirez/linenoise": "2026-10-21",
   "antirez/sds": "2026-10-21",
@@ -29,8 +31,10 @@
   "electerm/electerm": "2026-10-23",
   "filippocalippo/StykAnimate-App": "2026-10-22",
   "genspark-ai/genoffice": "2026-10-21",
+  "gkd-kit/gkd": "2026-10-23",
   "harkhowalia-1/MacSubsystemForAndroid": "2026-10-23",
   "harmony-on-android/HOA": "2026-10-21",
+  "holjab/AutoMorph": "2026-10-23",
   "humblemuzzu/dumbtv": "2026-10-23",
   "jhaizhou-ops/d2r-mobile": "2026-10-23",
   "laurent22/joplin": "2026-10-23",
@@ -55,11 +59,17 @@
   "ranxianglei/billion-context": "2026-10-23",
   "renbaoshuo/expo-harmony": "2026-10-23",
   "rohit267/net-merge": "2026-10-23",
+  "rtk-ai/rtk": "2026-10-23",
   "rushiranpise/Shizuku-Next": "2026-10-23",
+  "rustdesk/rustdesk": "2026-10-23",
+  "skywind3000/kcp": "2026-10-23",
   "sol5766/dshm": "2026-10-23",
   "termux/termux-app": "2026-10-23",
   "thx853068675-dev/quietstart": "2026-10-22",
   "tw93/Mole": "2026-10-23",
   "waligoraamodio288-rgb/hongguo-desktop-releases": "2026-10-23",
-  "yetone/magpie": "2026-10-21"
+  "webadderallorg/Recordly": "2026-10-23",
+  "xiaobaigroup/ClashBox": "2026-10-23",
+  "yetone/magpie": "2026-10-21",
+  "yt-dlp/yt-dlp": "2026-10-23"
 }

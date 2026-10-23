@@ -2,9 +2,13 @@
   "callstack/agent-device": "2026-10-23",
   "clash-verge-rev/clash-verge-rev": "2026-10-23",
   "electerm/electerm": "2026-10-23",
+  "gkd-kit/gkd": "2026-10-23",
   "laurent22/joplin": "2026-10-23",
   "microsoft/PowerToys": "2026-10-23",
   "morluto/rea": "2026-10-23",
   "n8n-io/n8n": "2026-10-23",
-  "termux/termux-app": "2026-10-23"
+  "rustdesk/rustdesk": "2026-10-23",
+  "termux/termux-app": "2026-10-23",
+  "xiaobaigroup/ClashBox": "2026-10-23",
+  "yt-dlp/yt-dlp": "2026-10-23"
 }
