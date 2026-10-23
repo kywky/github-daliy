@@ -1,0 +1,1109 @@
+{
+  "generated_at": "2026-10-23T14:27:23.011420+00:00",
+  "total": 29,
+  "occurrences": 29,
+  "projects": [
+    {
+      "full_name": "n8n-io/n8n",
+      "url": "https://github.com/n8n-io/n8n",
+      "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+      "summary": "这是一个 Fair-code 许可的工作流自动化平台，具备原生 AI 能力，支持 400+ 集成\n适合需要低代码/无代码自动化、数据流集成和自托管部署的开发者或团队\n独特之处在于结合了可视化构建与自定义代码，支持自托管或云端部署",
+      "stars": 208392,
+      "language": "TypeScript",
+      "topics": [
+        "ai",
+        "apis",
+        "automation",
+        "cli",
+        "data-flow",
+        "development",
+        "integration-framework",
+        "integrations",
+        "ipaas",
+        "low-code",
+        "low-code-platform",
+        "mcp",
+        "mcp-client",
+        "mcp-server",
+        "n8n",
+        "no-code",
+        "self-hosted",
+        "typescript",
+        "workflow",
+        "workflow-automation"
+      ],
+      "categories": [
+        "Linux"
+      ],
+      "platforms": [
+        "Linux"
+      ],
+      "pick": "top",
+      "slot": "Linux",
+      "kind": "search",
+      "created_at": "2019-06-22",
+      "first_date": "2026-10-23",
+      "last_date": "2026-10-23",
+      "dates": [
+        "2026-10-23"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "microsoft/PowerToys",
+      "url": "https://github.com/microsoft/PowerToys",
+      "description": "Microsoft PowerToys is a collection of utilities that supercharge productivity and customization on Windows",
+      "summary": "解决什么：为 Windows 系统提供一系列实用工具以提升用户的生产力和自定义能力\n适合谁：Windows 用户，特别是需要提高日常工作效率和桌面管理的用户\n亮点：Microsoft 官方推出的增强 Windows 功能和效率的工具集",
+      "stars": 139632,
+      "language": "C",
+      "topics": [
+        "advanced-paste",
+        "color-picker",
+        "command-palette",
+        "desktop",
+        "fancyzones",
+        "keyboard-manager",
+        "microsoft-powertoys",
+        "powerrename",
+        "powertoys",
+        "windows",
+        "windows-10",
+        "windows-11"
+      ],
+      "categories": [
+        "Windows"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "pick": "top",
+      "slot": "Windows",
+      "kind": "search",
+      "created_at": "2019-05-01",
+      "first_date": "2026-10-23",
+      "last_date": "2026-10-23",
+      "dates": [
+        "2026-10-23"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "laurent22/joplin",
+      "url": "https://github.com/laurent22/joplin",
+      "description": "Joplin - the privacy-focused note taking app with sync capabilities for Windows, macOS, Linux, Android and iOS.",
+      "summary": "提供跨平台、注重隐私的笔记应用及其同步功能\n适合需要跨平台同步和隐私保护的 Evernote 用户\n支持多种云存储同步，开源且跨平台",
+      "stars": 56849,
+      "language": "TypeScript",
+      "topics": [
+        "android",
+        "dropbox",
+        "electron",
+        "enex-files",
+        "evernote",
+        "javascript",
+        "joplin",
+        "nextcloud",
+        "nodejs",
+        "note-taking",
+        "notesnook",
+        "obsidian",
+        "onedrive",
+        "react-native",
+        "standardnotes",
+        "synchronisation",
+        "web-clipper",
+        "webdav"
+      ],
+      "categories": [
+        "安卓",
+        "Linux",
+        "Windows"
+      ],
+      "platforms": [
+        "安卓"
+      ],
+      "pick": "top",
+      "slot": "安卓",
+      "kind": "search",
+      "created_at": "2017-01-16",
+      "first_date": "2026-10-23",
+      "last_date": "2026-10-23",
+      "dates": [
+        "2026-10-23"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "OrchestratorInc/agent-orchestrator",
+      "url": "https://github.com/OrchestratorInc/agent-orchestrator",
+      "description": "Open-source (Apache-2.0) orchestrator for Claude Code, Codex & 30+ coding agents. Plan, run and supervise agent teams from task to merged PR. Desktop (macOS, Windows, Linux) + iPhone & Android apps.",
+      "summary": "协调多个 AI 编码代理，管理从任务到合并 PR 的开发工作流\n适合使用 Claude Code、Codex 等 AI 编码工具的软件开发人员\n支持 30+ 编码代理，拥有桌面及移动端应用，且近期涨星速度最快",
+      "stars": 13511,
+      "language": "Go",
+      "topics": [
+        "agent-fleet",
+        "agent-ide",
+        "agent-orchestration",
+        "agent-swarm",
+        "agentic-coding",
+        "ai-agents",
+        "ai-coding",
+        "claude-code",
+        "codex",
+        "codex-cli",
+        "coding-agents",
+        "developer-tools",
+        "git-worktrees",
+        "mobile",
+        "multi-agent",
+        "orchestration",
+        "orchestrator",
+        "parallel-agents",
+        "parallel-coding",
+        "skills"
+      ],
+      "categories": [
+        "安卓",
+        "Linux",
+        "Windows"
+      ],
+      "platforms": [
+        "安卓"
+      ],
+      "pick": "growth",
+      "slot": "安卓",
+      "kind": "search",
+      "created_at": "2026-02-13",
+      "first_date": "2026-10-23",
+      "last_date": "2026-10-23",
+      "dates": [
+        "2026-10-23"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "Kludex/starlette",
+      "url": "https://github.com/Kludex/starlette",
+      "description": "The little ASGI framework that shines. 🌟",
+      "summary": "掌握 ASGI 协议规范、中间件链式处理机制以及依赖注入的设计模式\n适合希望理解 ASGI 协议、中间件机制以及 Python 异步编程最佳实践的中高级开发者\n建议从 `app.py` 入口开始，依次阅读 `routing.py` 路由解析和 `middleware.py` 中间件处理逻辑",
+      "stars": 12682,
+      "language": "Python",
+      "topics": [
+        "asgi",
+        "async",
+        "http",
+        "python",
+        "websockets"
+      ],
+      "categories": [
+        "Python"
+      ],
+      "platforms": [
+        "Python"
+      ],
+      "pick": null,
+      "slot": null,
+      "kind": "learn",
+      "created_at": "2018-06-25",
+      "first_date": "2026-10-23",
+      "last_date": "2026-10-23",
+      "dates": [
+        "2026-10-23"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "lua/lua",
+      "url": "https://github.com/lua/lua",
+      "description": "A copy of the Lua development repository, as seen by the Lua team. Mirrored irregularly. All communication should be through the Lua mailing list https://www.lua.org/lua-l.html",
+      "summary": "深入理解 C 语言实现解释器的核心逻辑，掌握虚拟机栈操作与内存管理技巧\n适合想深入理解解释器原理、提升 C 语言编程能力或进行算法研究的开发者\n建议从 main 函数开始，顺着虚拟机核心逻辑与内存管理模块逐步深入",
+      "stars": 10392,
+      "language": "C",
+      "topics": [],
+      "categories": [
+        "C"
+      ],
+      "platforms": [
+        "C"
+      ],
+      "pick": null,
+      "slot": null,
+      "kind": "learn",
+      "created_at": "2012-09-14",
+      "first_date": "2026-10-23",
+      "last_date": "2026-10-23",
+      "dates": [
+        "2026-10-23"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "callstack/agent-device",
+      "url": "https://github.com/callstack/agent-device",
+      "description": "Mobile app automation and verification for AI coding agents. CLI, MCP server, and typed Node.js API for iOS, Android, HarmonyOS, TV, web, macOS, and Linux.",
+      "summary": "为 AI 编码代理提供跨平台移动应用自动化与验证能力\n适合需要自动化测试 React Native、Flutter 等移动应用的开发者\n支持 iOS、Android、鸿蒙等多平台，提供 CLI、MCP 服务器及 Node.js API",
+      "stars": 5124,
+      "language": "TypeScript",
+      "topics": [
+        "adb",
+        "agentic-ai",
+        "agents",
+        "ai-agents",
+        "android-emulator",
+        "automation",
+        "e2e-testing",
+        "expo",
+        "flutter",
+        "ios-simulator",
+        "mcp",
+        "mobile",
+        "mobile-testing",
+        "performance-optimization",
+        "react-native",
+        "testing",
+        "xcuitest"
+      ],
+      "categories": [
+        "鸿蒙",
+        "Linux"
+      ],
+      "platforms": [
+        "鸿蒙"
+      ],
+      "pick": "top",
+      "slot": "鸿蒙",
+      "kind": "search",
+      "created_at": "2026-01-30",
+      "first_date": "2026-10-23",
+      "last_date": "2026-10-23",
+      "dates": [
+        "2026-10-23"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "waligoraamodio288-rgb/hongguo-desktop-releases",
+      "url": "https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases",
+      "description": "红果短剧｜Windows 10/11 桌面版 + Android TV 测试版。真人剧、漫剧、AI 剧；电视 APK 4.08 MB，Android 5.0+ / ARM64，支持遥控、续播与换一部；免费使用，由渠道有数独立维护。",
+      "summary": "将红果短剧应用移植至 Windows 桌面和 Android TV 平台，支持多种类型短剧观看\n适合在 Windows 电脑或 Android TV 上免费观看真人剧、漫剧及 AI 剧的用户\n轻量级 TV 版本（4MB）支持遥控操作，近期涨星迅速",
+      "stars": 4439,
+      "language": "",
+      "topics": [
+        "ai-drama",
+        "android",
+        "android-tv",
+        "apk",
+        "arm64",
+        "desktop-app",
+        "hongguo",
+        "tv-app",
+        "video-player",
+        "windows"
+      ],
+      "categories": [
+        "Windows"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "pick": "growth",
+      "slot": "Windows",
+      "kind": "search",
+      "created_at": "2026-09-14",
+      "first_date": "2026-10-23",
+      "last_date": "2026-10-23",
+      "dates": [
+        "2026-10-23"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "Chevey339/kelivo",
+      "url": "https://github.com/Chevey339/kelivo",
+      "description": "A Flutter LLM Chat Client. Support Mobile & Desktop.",
+      "summary": "解决什么：解决跨平台 LLM 聊天应用开发难题，支持移动端与桌面端\n适合谁：适合 Flutter 开发者及需要跨平台 AI 聊天应用的用户\n亮点：近期涨星最快，基于 Flutter 跨平台开发，支持鸿蒙系统",
+      "stars": 4300,
+      "language": "Dart",
+      "topics": [
+        "ai",
+        "android",
+        "chatbot",
+        "chatbox",
+        "flutter",
+        "flutter-apps",
+        "harmony",
+        "harmonyos",
+        "ios",
+        "llm",
+        "openharmony"
+      ],
+      "categories": [
+        "鸿蒙"
+      ],
+      "platforms": [
+        "鸿蒙"
+      ],
+      "pick": "growth",
+      "slot": "鸿蒙",
+      "kind": "search",
+      "created_at": "2025-08-29",
+      "first_date": "2026-10-23",
+      "last_date": "2026-10-23",
+      "dates": [
+        "2026-10-23"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "Leonxlnx/earshot",
+      "url": "https://github.com/Leonxlnx/earshot",
+      "description": "Ears for coding agents: let AI hear, review and make sound. CPU-only, open source.",
+      "summary": "使 AI 编码代理具备听觉能力，能够感知、审查并生成声音\n适合开发 Claude Code 等智能体或需要音频交互功能的开发者\nCPU 纯本地运行的开源音频能力，专为编码智能体设计",
+      "stars": 2360,
+      "language": "Python",
+      "topics": [
+        "ai-agents",
+        "audio",
+        "claude-code",
+        "mcp",
+        "sound-design"
+      ],
+      "categories": [
+        "AI"
+      ],
+      "platforms": [
+        "AI"
+      ],
+      "pick": "ai",
+      "slot": "AI",
+      "kind": "search",
+      "created_at": "2026-10-15",
+      "first_date": "2026-10-23",
+      "last_date": "2026-10-23",
+      "dates": [
+        "2026-10-23"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "aicodeking/leanrea",
+      "url": "https://github.com/aicodeking/leanrea",
+      "description": "One 8 KB skill that replaces REA (Reverse Engineer Anything): plain CLI tools, no MCP. Benchmarked: 38% faster, 35% cheaper.",
+      "summary": "解决什么：通过一个简单的命令行工具实现任何逆向工程任务，无需复杂的图形界面\n适合谁：需要快速进行逆向工程分析的安全研究人员和开发者\n亮点：轻量级 CLI 工具，性能优越，极大简化逆向工程流程",
+      "stars": 1627,
+      "language": "Python",
+      "topics": [],
+      "categories": [
+        "Linux"
+      ],
+      "platforms": [
+        "Linux"
+      ],
+      "pick": "growth",
+      "slot": "Linux",
+      "kind": "search",
+      "created_at": "2026-10-17",
+      "first_date": "2026-10-23",
+      "last_date": "2026-10-23",
+      "dates": [
+        "2026-10-23"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "nlohmann/json",
+      "url": "https://github.com/nlohmann/json",
+      "description": "JSON for Modern C++",
+      "summary": "掌握 C++ 模板编程技巧、异常安全设计以及如何优雅地处理 JSON 序列化与反序列化逻辑\n适合希望提升 C++ 模板编程能力、理解单文件库架构以及学习异常安全设计的开发者\n从 basic_json 类的模板定义入手，逐步追踪序列化与反序列化的实现路径",
+      "stars": 50791,
+      "language": "C++",
+      "topics": [
+        "bson",
+        "cbor",
+        "header-only",
+        "json",
+        "json-diff",
+        "json-merge-patch",
+        "json-parser",
+        "json-patch",
+        "json-pointer",
+        "json-serialization",
+        "messagepack",
+        "msgpack",
+        "rfc-6901",
+        "rfc-6902",
+        "rfc-7049",
+        "rfc-7159",
+        "rfc-8259",
+        "stl-containers",
+        "ubjson"
+      ],
+      "categories": [
+        "C++"
+      ],
+      "platforms": [
+        "C++"
+      ],
+      "pick": null,
+      "slot": null,
+      "kind": "learn",
+      "created_at": "2013-07-04",
+      "first_date": "2026-10-22",
+      "last_date": "2026-10-22",
+      "dates": [
+        "2026-10-22"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "Gathin23/cleanyourtv",
+      "url": "https://github.com/Gathin23/cleanyourtv",
+      "description": "Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
+      "summary": "通过 Wi-Fi 远程清理安卓或 Google TV 上的预装软件和广告\n拥有 Android TV、Fire TV 或其他智能电视设备的用户\n提供类似 Apple TV 的简洁界面体验",
+      "stars": 20095,
+      "language": "Java",
+      "topics": [
+        "adb",
+        "adblock",
+        "android-tv",
+        "android-tv-launcher",
+        "apple-tv",
+        "bloatware-removal",
+        "claude-code",
+        "debloat",
+        "fire-tv",
+        "google-tv",
+        "launcher",
+        "privacy",
+        "smart-tv",
+        "sony-bravia",
+        "tcl",
+        "vibe-coding",
+        "xiaomi"
+      ],
+      "categories": [
+        "安卓"
+      ],
+      "platforms": [
+        "安卓"
+      ],
+      "pick": null,
+      "slot": null,
+      "kind": "search",
+      "created_at": "2026-10-17",
+      "first_date": "2026-10-22",
+      "last_date": "2026-10-22",
+      "dates": [
+        "2026-10-22"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "pallets/click",
+      "url": "https://github.com/pallets/click",
+      "description": "Python composable command line interface toolkit",
+      "summary": "学什么：理解 Python 装饰器在构建命令行接口中的应用，掌握模块化设计思想\n适合谁：有一定 Python 基础，需要构建 CLI 工具的开发者\n怎么读：先阅读 core 命名空间下的装饰器和命令定义模块，再扩展到插件和扩展功能",
+      "stars": 17797,
+      "language": "Python",
+      "topics": [
+        "cli",
+        "click",
+        "pallets",
+        "python"
+      ],
+      "categories": [
+        "Python"
+      ],
+      "platforms": [
+        "Python"
+      ],
+      "pick": null,
+      "slot": null,
+      "kind": "learn",
+      "created_at": "2014-04-24",
+      "first_date": "2026-10-22",
+      "last_date": "2026-10-22",
+      "dates": [
+        "2026-10-22"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "Louis-CFM/coucou",
+      "url": "https://github.com/Louis-CFM/coucou",
+      "description": "A tiny friend in your Mac's notch and on your iPhone that keeps an eye on your AI coding agents: Claude Code, Codex, Cursor, Gemini CLI, Antigravity and more. Approve from the notch or your Lock Screen.",
+      "summary": "监控 Mac 动态岛和 iPhone 上的 AI 编码代理，支持在锁屏或动态岛进行操作审批\n使用 Claude、Cursor 等 AI 编码工具的开发者\n可在 Mac 动态岛和 iPhone 锁屏上实时监控并批准 AI 编码代理的运行",
+      "stars": 6034,
+      "language": "Swift",
+      "topics": [
+        "ai-agents",
+        "anthropic",
+        "antigravity",
+        "claude",
+        "claude-code",
+        "codex",
+        "cursor",
+        "dynamic-island",
+        "gemini-cli",
+        "ios",
+        "iphon",
+        "linux",
+        "macos",
+        "macos-app",
+        "menubar-app",
+        "notch",
+        "open-source",
+        "swift",
+        "swiftui",
+        "windows"
+      ],
+      "categories": [
+        "Linux",
+        "Windows",
+        "AI"
+      ],
+      "platforms": [
+        "Linux",
+        "Windows",
+        "AI"
+      ],
+      "pick": null,
+      "slot": null,
+      "kind": "search",
+      "created_at": "2026-09-27",
+      "first_date": "2026-10-22",
+      "last_date": "2026-10-22",
+      "dates": [
+        "2026-10-22"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "Ephemeral-AI-Lab/layerfs",
+      "url": "https://github.com/Ephemeral-AI-Lab/layerfs",
+      "description": "Ephemeral Workspaces, durable shared history. LayerFS gives every agent a complete, writable filesystem Workspace over shared committed history, without copying the base. Agents work in parallel, commit what changed as deduplicated checkpoints, then branch, rewind or merge. Try it with LayerFS × DSH.",
+      "summary": "解决什么：为 AI 代理提供可写工作区，同时保持共享历史记录的持久性，避免每次复制基础文件。\n适合谁：适合需要并行运行 AI 代理、进行版本控制和分支管理的开发者和研究人员。\n亮点：基于 Rust 和 FUSE 的层叠文件系统，支持去重快照、分支、回滚和合并。",
+      "stars": 1700,
+      "language": "Rust",
+      "topics": [
+        "agent-infrastructure",
+        "ai-agents",
+        "checkpoint",
+        "content-addressable-storage",
+        "copy-on-write",
+        "deduplication",
+        "deepseek",
+        "filesystem",
+        "fuse",
+        "linux",
+        "llm",
+        "mcts",
+        "rust",
+        "sandbox",
+        "sqlite",
+        "version-control"
+      ],
+      "categories": [
+        "Linux"
+      ],
+      "platforms": [
+        "Linux"
+      ],
+      "pick": null,
+      "slot": null,
+      "kind": "search",
+      "created_at": "2026-08-10",
+      "first_date": "2026-10-22",
+      "last_date": "2026-10-22",
+      "dates": [
+        "2026-10-22"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "filippocalippo/StykAnimate-App",
+      "url": "https://github.com/filippocalippo/StykAnimate-App",
+      "description": "Free, open-source stick figure animation app for Windows, Linux and the browser. Opens Pivot and Stick Nodes projects.",
+      "summary": "解决什么：提供免费的火柴人动画制作工具，支持跨平台运行，并能打开 Pivot Animator 和 Stick Nodes 的项目文件\n适合谁：适合需要在 Windows、Linux 或浏览器中制作火柴人动画的用户，以及需要导入旧项目格式的创作者\n亮点：免费开源且支持跨平台，兼容 Pivot 和 Stick Nodes 项目格式",
+      "stars": 508,
+      "language": "JavaScript",
+      "topics": [
+        "2d-animation",
+        "animation",
+        "animation-software",
+        "electron",
+        "pivot-animator",
+        "stick-figure",
+        "stickman",
+        "webgpu"
+      ],
+      "categories": [
+        "Windows"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "pick": null,
+      "slot": null,
+      "kind": "search",
+      "created_at": "2026-09-09",
+      "first_date": "2026-10-22",
+      "last_date": "2026-10-22",
+      "dates": [
+        "2026-10-22"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "mihirgupta0900/tv-home",
+      "url": "https://github.com/mihirgupta0900/tv-home",
+      "description": "Debloat a slow, ad-filled Android TV over Wi-Fi and give it a fast Apple TV-style home screen. One prompt for Claude Code, or do it by hand.",
+      "summary": "解决什么：为安卓电视去广告并优化界面，使其更快速、简洁，类似苹果电视风格\n适合谁：安卓电视用户，希望提升电视使用体验，减少广告干扰\n亮点：通过 Wi-Fi 快速去广告并定制化主屏幕，支持 Claude Code 自动化操作",
+      "stars": 377,
+      "language": "Java",
+      "topics": [
+        "adb",
+        "android-tv",
+        "claude-code",
+        "debloat",
+        "google-tv",
+        "launcher"
+      ],
+      "categories": [
+        "安卓"
+      ],
+      "platforms": [
+        "安卓"
+      ],
+      "pick": null,
+      "slot": null,
+      "kind": "search",
+      "created_at": "2026-10-18",
+      "first_date": "2026-10-22",
+      "last_date": "2026-10-22",
+      "dates": [
+        "2026-10-22"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "thx853068675-dev/quietstart",
+      "url": "https://github.com/thx853068675-dev/quietstart",
+      "description": "HarmonyOS 原生页面控件识别辅助工具。按提示对页面识别与学习，自动生成规则。",
+      "summary": "解决什么：帮助开发者识别和自动生成 HarmonyOS 页面控件识别规则，简化开发流程\n适合谁：HarmonyOS 开发者，需要快速构建或优化页面自动化测试脚本\n亮点：自动学习并生成页面识别规则，提升 HarmonyOS 应用测试效率",
+      "stars": 214,
+      "language": "",
+      "topics": [],
+      "categories": [
+        "鸿蒙"
+      ],
+      "platforms": [
+        "鸿蒙"
+      ],
+      "pick": null,
+      "slot": null,
+      "kind": "search",
+      "created_at": "2026-09-16",
+      "first_date": "2026-10-22",
+      "last_date": "2026-10-22",
+      "dates": [
+        "2026-10-22"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "HuolalaTech/hadice",
+      "url": "https://github.com/HuolalaTech/hadice",
+      "description": "Desktop debugging tool for HarmonyOS Next and Android developers. 为鸿蒙和安卓开发者准备的桌面端调试工具.",
+      "summary": "解决什么：为鸿蒙和安卓开发者提供桌面端调试工具，方便进行网络分析、截图和代码检查\n适合谁：需要调试鸿蒙或安卓应用的开发者，尤其是在桌面环境中工作\n亮点：基于 Wails 构建，能将 Web 技术（TypeScript）与原生应用能力结合，实现高效的调试功能",
+      "stars": 81,
+      "language": "TypeScript",
+      "topics": [
+        "android",
+        "desktop-app",
+        "desktop-application",
+        "desktop-tool",
+        "harmony",
+        "harmonyos",
+        "harmonyos-next",
+        "inspection",
+        "network-analysis",
+        "network-monitoring",
+        "screenshot",
+        "wails",
+        "wails-app",
+        "wails-v3",
+        "wails3"
+      ],
+      "categories": [
+        "安卓",
+        "鸿蒙"
+      ],
+      "platforms": [
+        "安卓",
+        "鸿蒙"
+      ],
+      "pick": null,
+      "slot": null,
+      "kind": "search",
+      "created_at": "2026-09-09",
+      "first_date": "2026-10-22",
+      "last_date": "2026-10-22",
+      "dates": [
+        "2026-10-22"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "psf/requests",
+      "url": "https://github.com/psf/requests",
+      "description": "A simple, yet elegant, HTTP library.",
+      "summary": "学什么：掌握优雅的 API 设计范式、装饰器用法及异常处理机制\n适合谁：适合希望学习优秀代码结构、提升 Python 库开发能力的开发者\n怎么读：建议先阅读 `requests.py` 核心逻辑，再深入 `sessions.py` 和 `adapters.py` 模块",
+      "stars": 54534,
+      "language": "Python",
+      "topics": [
+        "client",
+        "cookies",
+        "forhumans",
+        "http",
+        "humans",
+        "python",
+        "python-requests",
+        "requests"
+      ],
+      "categories": [
+        "Python"
+      ],
+      "platforms": [
+        "Python"
+      ],
+      "pick": null,
+      "slot": null,
+      "kind": "learn",
+      "created_at": "2011-02-13",
+      "first_date": "2026-10-21",
+      "last_date": "2026-10-21",
+      "dates": [
+        "2026-10-21"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "yetone/magpie",
+      "url": "https://github.com/yetone/magpie",
+      "description": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
+      "summary": "解决什么：为开发者提供一个统一的界面来管理和使用不同的 AI 模型，包括 Codex on DeepSeek 和 Claude Code on Kimi\n适合谁：需要频繁切换和使用不同 AI 模型的开发者，特别是 macOS 用户\n亮点：通过菜单栏应用整合多个 AI 模型，方便快捷",
+      "stars": 18705,
+      "language": "Go",
+      "topics": [
+        "claude-code",
+        "codex",
+        "deepseek",
+        "gemini-cli",
+        "llm",
+        "macos"
+      ],
+      "categories": [
+        "AI"
+      ],
+      "platforms": [
+        "AI"
+      ],
+      "pick": null,
+      "slot": null,
+      "kind": "search",
+      "created_at": "2026-09-23",
+      "first_date": "2026-10-21",
+      "last_date": "2026-10-21",
+      "dates": [
+        "2026-10-21"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "genspark-ai/genoffice",
+      "url": "https://github.com/genspark-ai/genoffice",
+      "description": "Free, open-source AI Office suite: Docs, Sheets, Slides, PDF, Markdown and HTML editors with a built-in AI agent, plus a `genoffice` CLI and agent skill so Claude Code, Codex and Cursor can create and edit real .docx/.xlsx/.pptx files locally. Bring your own key. macOS, Windows & Linux.",
+      "summary": "解决什么：提供免费开源的AI办公套件，包含文档、表格、幻灯片、PDF、Markdown和HTML编辑器，并内置AI代理，支持本地创建和编辑.docx/.xlsx/.pptx文件\n适合谁：需要本地运行AI办公软件的用户，特别是希望集成Claude Code、Codex和Cursor等AI工具进行文档编辑的场景\n亮点：集成了AI代理和CLI工具，允许AI模型在本地直接编辑真实Office文件格式",
+      "stars": 10293,
+      "language": "TypeScript",
+      "topics": [
+        "ai",
+        "ai-agent",
+        "claude-code",
+        "cli",
+        "codex",
+        "cursor",
+        "docx",
+        "excel",
+        "libreoffice-alternative",
+        "local-first",
+        "markdown-editor",
+        "microsoft-office-alternative",
+        "office-suite",
+        "pdf-editor",
+        "pdf-to-word",
+        "powerpoint",
+        "pptx",
+        "skills",
+        "spreadsheet",
+        "xlsx"
+      ],
+      "categories": [
+        "Linux"
+      ],
+      "platforms": [
+        "Linux"
+      ],
+      "pick": null,
+      "slot": null,
+      "kind": "search",
+      "created_at": "2026-07-31",
+      "first_date": "2026-10-21",
+      "last_date": "2026-10-21",
+      "dates": [
+        "2026-10-21"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "KnifeLemon/Filee",
+      "url": "https://github.com/KnifeLemon/Filee",
+      "description": "Free, open-source file converter. Convert 255 formats offline by drag & drop — images, PDF, Word, Excel, PowerPoint, HWP/HWPX, video, audio, e-books and archives. No upload, no Office needed.",
+      "summary": "这是一个免费开源的离线文件转换工具，支持拖拽操作，无需上传即可转换包括文档、音视频、图片等在内的255种格式。\n适合需要在本地快速批量转换文件、无需安装Office软件且注重隐私的用户。\n基于 Avalonia 开发，支持255种格式且无需安装Office即可离线转换。",
+      "stars": 8873,
+      "language": "C#",
+      "topics": [
+        "audio-converter",
+        "avalonia",
+        "batch-conversion",
+        "converter",
+        "csharp",
+        "document-converter",
+        "docx-to-pdf",
+        "dotnet",
+        "drag-and-drop",
+        "file-conversion",
+        "file-converter",
+        "heic-converter",
+        "hwp",
+        "hwpx",
+        "image-converter",
+        "linux",
+        "macos",
+        "pdf-converter",
+        "video-converter",
+        "windows"
+      ],
+      "categories": [
+        "Linux",
+        "Windows"
+      ],
+      "platforms": [
+        "Linux",
+        "Windows"
+      ],
+      "pick": null,
+      "slot": null,
+      "kind": "search",
+      "created_at": "2026-09-29",
+      "first_date": "2026-10-21",
+      "last_date": "2026-10-21",
+      "dates": [
+        "2026-10-21"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "qingjian-team/qingjian",
+      "url": "https://github.com/qingjian-team/qingjian",
+      "description": "青简 Qingjian：用 Rust 写的拼音输入法，候选词旁多一条正在学的语言的译词",
+      "summary": "这是一个基于 Rust 的拼音输入法，通过在候选词旁显示外语译词辅助语言学习\n适合正在学习中文（拼音/双拼）及英语、日语等外语的用户\n将输入法与语言学习结合，利用 Rust 实现离线高效运行",
+      "stars": 6995,
+      "language": "Rust",
+      "topics": [
+        "chinese",
+        "chinese-input-method",
+        "english-learning",
+        "ime",
+        "input-method",
+        "japanese-learning",
+        "language-learning",
+        "language-model",
+        "macos",
+        "offline",
+        "pinyin",
+        "rust",
+        "shuangpin",
+        "windows"
+      ],
+      "categories": [
+        "Windows"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "pick": null,
+      "slot": null,
+      "kind": "search",
+      "created_at": "2026-09-07",
+      "first_date": "2026-10-21",
+      "last_date": "2026-10-21",
+      "dates": [
+        "2026-10-21"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "antirez/sds",
+      "url": "https://github.com/antirez/sds",
+      "description": "Simple Dynamic Strings library for C",
+      "summary": "学什么：理解 C 语言中动态字符串的实现原理，掌握内存管理技巧\n适合谁：有一定 C 语言基础，希望深入理解底层内存管理的开发者\n怎么读：先阅读 sds.h 和 sds.c 两个核心文件，了解动态字符串的结构和操作方法",
+      "stars": 5582,
+      "language": "C",
+      "topics": [],
+      "categories": [
+        "C"
+      ],
+      "platforms": [
+        "C"
+      ],
+      "pick": null,
+      "slot": null,
+      "kind": "learn",
+      "created_at": "2014-02-06",
+      "first_date": "2026-10-21",
+      "last_date": "2026-10-21",
+      "dates": [
+        "2026-10-21"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "Akshayykadam/PixelBoard",
+      "url": "https://github.com/Akshayykadam/PixelBoard",
+      "description": "Unlock Google 11's Gemini \"Rambler\" Natural Voice Dictation & AI Writing Tools on ANY Android phone. No root required.",
+      "summary": "解决什么：在非 Pixel 设备上解锁 Google 11 的 Gemini \"Rambler\" 自然语音听写与 AI 写作功能\n适合谁：任何希望在安卓手机上体验 Gboard AI 写作与语音听写功能的用户\n亮点：无需 Root 即可在任意安卓设备上使用",
+      "stars": 1080,
+      "language": "Java",
+      "topics": [
+        "ai-writing-tools",
+        "android",
+        "apk",
+        "gboard",
+        "gboard-ai",
+        "gboard-mod",
+        "gboards",
+        "gemini",
+        "gemini-ai",
+        "google-keyboard",
+        "keyboard",
+        "no-root",
+        "pixel-features",
+        "pixel11",
+        "rambler",
+        "voice-typing",
+        "voice-typing-app"
+      ],
+      "categories": [
+        "安卓"
+      ],
+      "platforms": [
+        "安卓"
+      ],
+      "pick": null,
+      "slot": null,
+      "kind": "search",
+      "created_at": "2026-09-17",
+      "first_date": "2026-10-21",
+      "last_date": "2026-10-21",
+      "dates": [
+        "2026-10-21"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "InlitX/GymMane",
+      "url": "https://github.com/InlitX/GymMane",
+      "description": "Offline gym log for Android. No account, no ads, no internet.",
+      "summary": "解决安卓用户在无网络环境下记录健身数据的需求，提供无广告、无账号的隐私保护\n适合注重隐私、厌恶广告且需要离线记录健身数据的安卓用户\n基于Flutter开发的完全离线健身记录工具，强调隐私与纯净体验",
+      "stars": 1027,
+      "language": "Dart",
+      "topics": [
+        "android",
+        "bodybuilding",
+        "dart",
+        "exercises",
+        "f-droid",
+        "fitness",
+        "flutter",
+        "gym",
+        "gym-app",
+        "health",
+        "privacy",
+        "workout",
+        "workout-app",
+        "workout-tracker"
+      ],
+      "categories": [
+        "安卓"
+      ],
+      "platforms": [
+        "安卓"
+      ],
+      "pick": null,
+      "slot": null,
+      "kind": "search",
+      "created_at": "2026-08-05",
+      "first_date": "2026-10-21",
+      "last_date": "2026-10-21",
+      "dates": [
+        "2026-10-21"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "lkimuk/ReArk",
+      "url": "https://github.com/lkimuk/ReArk",
+      "description": "An intelligent reverse engineering and AI-assisted analysis tool for HarmonyOS NEXT (HAP/APP/ABC), Android (APK/AAB), iOS (IPA), and native PE/ELF/Mach-O binaries.",
+      "summary": "针对鸿蒙 NEXT、Android、iOS 及原生二进制文件的智能逆向工程与 AI 辅助分析\n适合安全研究人员、逆向工程师及恶意软件分析师使用\n集成 AI 技术支持多平台二进制文件（HAP/APK/IPA）的智能分析与反编译",
+      "stars": 716,
+      "language": "C++",
+      "topics": [
+        "aab",
+        "abc",
+        "agentic-workflow",
+        "ai-agent",
+        "ai-analysis",
+        "android",
+        "apk",
+        "binary-analysis",
+        "decompiler",
+        "disassembler",
+        "hap",
+        "harmonyos",
+        "harmonyos-next",
+        "malware-analysis",
+        "reverse-engineering",
+        "security-tools",
+        "static-analysis"
+      ],
+      "categories": [
+        "鸿蒙"
+      ],
+      "platforms": [
+        "鸿蒙"
+      ],
+      "pick": null,
+      "slot": null,
+      "kind": "search",
+      "created_at": "2026-05-29",
+      "first_date": "2026-10-21",
+      "last_date": "2026-10-21",
+      "dates": [
+        "2026-10-21"
+      ],
+      "times": 1
+    }
+  ]
+}
