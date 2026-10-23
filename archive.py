@@ -328,7 +328,7 @@ def _project_card(r: dict) -> str:
     <span class="pick {cls}">{label}</span>
     {times}
   </div>
-  <h3 class="ptitle"><a href="{html.escape(r.get('url', ''))}"><span class="owner">{html.escape(owner)}/</span>{html.escape(short)}</a></h3>
+  <h3 class="ptitle"><a href="{html.escape(r.get('url', ''))}" target="_blank" rel="noopener noreferrer"><span class="owner">{html.escape(owner)}/</span>{html.escape(short)}</a></h3>
   {body}
   {f'<div class="pcats">{cat_html}{topic_html}</div>' if (cat_html or topic_html) else ''}
   <div class="pfoot">

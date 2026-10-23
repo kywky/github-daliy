@@ -317,7 +317,7 @@ def render(repos: list[dict], window_end: str, comparison: str | None) -> str:
     <div class="cats">{cat_html}</div>
     {speed_html}
   </div>
-  <h3 class="title"><a href="{html.escape(r['url'])}"><span class="owner">{html.escape(owner)}/</span>{html.escape(repo_name)}</a></h3>
+  <h3 class="title"><a href="{html.escape(r['url'])}" target="_blank" rel="noopener noreferrer"><span class="owner">{html.escape(owner)}/</span>{html.escape(repo_name)}</a></h3>
   {desc_html}
   <div class="summary">{_md_to_html(r.get('summary', ''), LEARN_LABELS if is_learn else LABELS)}</div>
   {f'<div class="topics">{topics}</div>' if topics else ''}
@@ -325,7 +325,7 @@ def render(repos: list[dict], window_end: str, comparison: str | None) -> str:
     <span class="lang"><span class="lang-dot" style="background:{lang_color}"></span>{html.escape(lang)} · 成立于 {html.escape(r['created_at'])}</span>
     <span class="foot-right">
       <span class="stars">★ {_fmt_stars(r['stars'])}</span>
-      <a class="gh-link" href="{html.escape(r['url'])}">GitHub ↗</a>
+      <a class="gh-link" href="{html.escape(r['url'])}" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
     </span>
   </div>
 </article>""")
