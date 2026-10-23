@@ -1,9 +1,11 @@
 {
+  "ARahim3/DigUp": "2026-10-23",
   "Akshayykadam/PixelBoard": "2026-10-21",
   "DSH-APP/DSHA": "2026-10-21",
+  "DaveGamble/cJSON": "2026-10-23",
   "Ebony-Vinyl/dsh-our-free-model": "2026-10-21",
   "Ephemeral-AI-Lab/layerfs": "2026-10-22",
-  "Gathin23/cleanyourtv": "2026-10-22",
+  "Gathin23/cleanyourtv": "2026-10-23",
   "HuolalaTech/hadice": "2026-10-22",
   "InlitX/GymMane": "2026-10-21",
   "KnifeLemon/Filee": "2026-10-21",
@@ -21,8 +23,14 @@
   "mihirgupta0900/tv-home": "2026-10-22",
   "nlohmann/json": "2026-10-22",
   "pallets/click": "2026-10-22",
+  "pallets/werkzeug": "2026-10-23",
+  "pinganbbOvO/ai-companion-kit": "2026-10-23",
   "psf/requests": "2026-10-21",
   "qingjian-team/qingjian": "2026-10-21",
+  "renbaoshuo/expo-harmony": "2026-10-23",
+  "rohit267/net-merge": "2026-10-23",
+  "rushiranpise/Shizuku-Next": "2026-10-23",
+  "sol5766/dshm": "2026-10-23",
   "thx853068675-dev/quietstart": "2026-10-22",
   "yetone/magpie": "2026-10-21"
 }
