@@ -57,6 +57,50 @@ TOOL_CATS = tuple(c for c, cfg in CATEGORIES.items() if cfg.get("group") == "too
 SEARCH_CATS = tuple(c for c, cfg in CATEGORIES.items() if cfg["queries"])
 TOOL_LIB = re.compile(r"sdk\b|framework\b|library\b|开发套件|开发框架", re.I)
 
+# 人气榜不带时间窗，按总 star 从高到低，每天往下轮换
+TOP_QUERIES = {
+    "安卓": [
+        "topic:android-app", "topic:f-droid", "topic:termux",
+        "android app in:name,description",
+    ],
+    "鸿蒙": [
+        "topic:harmonyos", "topic:harmonyos-app",
+        "harmonyos app in:name,description", "openharmony app in:name,description",
+    ],
+    "Linux": [
+        "topic:linux", "topic:cli", "linux app in:name,description",
+    ],
+    "Windows": [
+        "topic:windows", "topic:windows-app", "windows app in:name,description",
+    ],
+}
+
+TOP_BLOCK_NAME = re.compile(
+    r"(?:^|[/_-])(awesome|docs?|documentation|website|site|blog|guides?|books?|"
+    r"tutorials?|courses?|cheatsheets?|examples?|samples?|templates?|dotfiles|resources?)"
+    r"(?:$|[/_-])",
+    re.I,
+)
+TOP_BLOCK_DESC = re.compile(
+    r"awesome[- ]list|curated list|collection of (?:awesome|resources|links|tools|projects)|"
+    r"tutorial|course|roadmap|interview|cheat ?sheet|in one page|documentation|handbook|"
+    r"activator|activation scripts?|kmspico|windows activation|office activation|piracy|"
+    r"operating system|linux kernel|bootloader|firmware|driver|distro|"
+    r"programming language|compiler|toolchain|runtime|build system|"
+    r"browser extension|vs ?code extension",
+    re.I,
+)
+TOP_BLOCK_REPOS = {
+    "torvalds/linux", "microsoft/WSL", "github/docs", "github/explore",
+    "openharmony/docs", "microsoft/vscode-docs", "flutter/website",
+    "facebook/react-native-website", "jlevy/the-art-of-command-line",
+    "massgravel/Microsoft-Activation-Scripts", "fastlane/fastlane",
+    "flutter/flutter", "facebook/react-native", "microsoft/dotnet",
+    "nodejs/node", "golang/go", "rust-lang/rust", "JetBrains/kotlin",
+    "dart-lang/sdk", "electron/electron", "tauri-apps/tauri",
+}
+HARMONY_HINTS = ("harmonyos", "openharmony", "arkts", "鸿蒙", "ohos")
+
 
 BLOCK_NAME = re.compile(
     r"(?:^|[/_-])(awesome|tutorials?|roadmap|interview|cheatsheet|cheats|guide|course|"
@@ -186,64 +230,168 @@ def fetch_by_categories(today: date, min_stars: int, per_cat_limit: int, token: 
     return pool
 
 
+def is_app_like(r: dict, cat: str) -> bool:
+    if r["full_name"] in TOP_BLOCK_REPOS:
+        return False
+    if TOP_BLOCK_NAME.search(r["full_name"]):
+        return False
+    text = r["full_name"] + " " + r["description"]
+    if TOP_BLOCK_DESC.search(text):
+        return False
+    if cat == "鸿蒙":
+        hint_text = (text + " " + " ".join(r.get("topics") or [])).lower()
+        if not any(h in hint_text for h in HARMONY_HINTS):
+            return False
+    return True
+
+
+def fetch_top_by_platform(min_stars: int, per_query: int, token: str | None = None) -> dict[str, dict]:
+    """按总 star 搜四个平台的应用，供每日人气榜轮换。"""
+    pool: dict[str, dict] = {}
+    sleep_between = 8 if not token else 2
+    for cat in TOOL_CATS:
+        for base in TOP_QUERIES[cat]:
+            q = f"{base} stars:>={min_stars}"
+            print(f"  · 人气榜 {cat} / {base}")
+            items = _search_retry(q, per_query, token)
+            kept = 0
+            for raw in items:
+                r = _shape(raw)
+                if is_low_quality(r):
+                    continue
+                if TOOL_LIB.search(r["full_name"] + " " + r["description"]):
+                    continue
+                if not is_app_like(r, cat):
+                    continue
+                kept += 1
+                key = r["full_name"]
+                if key not in pool:
+                    r["categories"] = [cat]
+                    pool[key] = r
+                elif cat not in pool[key]["categories"]:
+                    pool[key]["categories"].append(cat)
+            print(f"    ✓ {len(items)} 条 / 过滤后 {kept} 条")
+            time.sleep(sleep_between)
+    return pool
+
+
 def rank_score(r: dict) -> float:
     if r.get("stars_per_day") is not None:
         return float(r["stars_per_day"])
     return r["stars"] / 1000.0
 
 
-def select_daily(pool: dict[str, dict], shown: dict[str, str], today: date, total_limit: int = 7,
-                 max_per_tool: int = 2, cooldown_days: int = 3) -> list[dict]:
-    """四平台工具各保底 1 个 + 热门 AI 1 个，剩下 2 个名额补给候选最好的工具栏。"""
+def _last_shown(r: dict, shown: dict[str, str]) -> date:
+    value = shown.get(r["full_name"])
+    return date.fromisoformat(value) if value else date.min
+
+
+def _top_shown_date(r: dict, top_shown: dict[str, str]) -> date:
+    value = top_shown.get(r["full_name"])
+    return date.fromisoformat(value) if value else date.min
+
+
+def pick_top(top_pool: dict[str, dict], cat: str, shown: dict[str, str],
+             top_shown: dict[str, str], today: date, cooldown_days: int = 3,
+             exclude: set[str] | None = None) -> dict | None:
+    """总 star 从高到低轮换；已上过人气榜的排到后面。"""
+    exclude = exclude or set()
     cutoff = today - timedelta(days=cooldown_days)
+    candidates = [
+        r for r in top_pool.values()
+        if cat in r["categories"] and r["full_name"] not in exclude
+    ]
+    candidates.sort(key=lambda r: r["stars"], reverse=True)
+    if not candidates:
+        return None
 
-    def last_shown(r: dict) -> date:
-        value = shown.get(r["full_name"])
-        return date.fromisoformat(value) if value else date.min
+    fresh = [
+        r for r in candidates
+        if r["full_name"] not in top_shown and _last_shown(r, shown) < cutoff
+    ]
+    if fresh:
+        return fresh[0]
 
-    def is_fresh(r: dict) -> bool:
-        return last_shown(r) < cutoff
+    reusable = [r for r in candidates if _last_shown(r, shown) < cutoff]
+    if reusable:
+        return min(reusable, key=lambda r: _top_shown_date(r, top_shown))
+    return candidates[0]
 
-    by_cat: dict[str, list[dict]] = {c: [] for c in SEARCH_CATS}
-    for r in pool.values():
-        for c in r["categories"]:
-            if c in by_cat:
-                by_cat[c].append(r)
 
+def growth_score(r: dict, today: date) -> float:
+    spd = r.get("stars_per_day")
+    if spd is not None:
+        return max(float(spd), 0.0)
+    age = max(1, (today - date.fromisoformat(r["created_at"])).days)
+    return r["stars"] / age
+
+
+def pick_growth(pool: dict[str, dict], cat: str, shown: dict[str, str], today: date,
+                cooldown_days: int = 3, exclude: set[str] | None = None) -> dict | None:
+    exclude = exclude or set()
+    cutoff = today - timedelta(days=cooldown_days)
+    candidates = [
+        r for r in pool.values()
+        if cat in r["categories"] and r["full_name"] not in exclude
+    ]
+    if not candidates:
+        return None
+    fresh = [r for r in candidates if _last_shown(r, shown) < cutoff]
+    usable = fresh or candidates
+    return max(usable, key=lambda r: (growth_score(r, today), r["stars"]))
+
+
+def select_tools(pool: dict[str, dict], top_pool: dict[str, dict], shown: dict[str, str],
+                 top_shown: dict[str, str], today: date, per_platform: int = 2,
+                 cooldown_days: int = 3) -> list[dict]:
+    """每个平台：1 个人气榜 + 1 个涨星最快，再按需补齐。"""
     chosen: dict[str, dict] = {}
-    cat_count: dict[str, int] = {c: 0 for c in SEARCH_CATS}
+    slot_counts = {c: 0 for c in TOOL_CATS}
+    result: list[dict] = []
 
-    def add(r: dict) -> None:
-        if r["full_name"] in chosen:
-            return
+    def add(r: dict | None, cat: str, pick: str) -> bool:
+        if not r or r["full_name"] in chosen:
+            return False
+        r["pick"] = pick
+        r["slot"] = cat
         chosen[r["full_name"]] = r
-        for c in r["categories"]:
-            if c in cat_count:
-                cat_count[c] += 1
+        slot_counts[cat] += 1
+        result.append(r)
+        return True
 
-    for c, items in by_cat.items():
-        quota = CATEGORIES[c].get("quota", 1)
-        candidates = sorted(items, key=lambda r: (0 if is_fresh(r) else 1, last_shown(r), -rank_score(r)))
-        for r in candidates:
-            if cat_count[c] >= quota or len(chosen) >= total_limit:
+    for cat in TOOL_CATS:
+        add(pick_top(top_pool, cat, shown, top_shown, today, cooldown_days, exclude=chosen),
+            cat, "top")
+        add(pick_growth(pool, cat, shown, today, cooldown_days, exclude=chosen),
+            cat, "growth")
+
+        while slot_counts[cat] < per_platform:
+            extra = pick_growth(pool, cat, shown, today, cooldown_days, exclude=chosen)
+            kind = "growth"
+            if extra is None:
+                extra = pick_top(top_pool, cat, shown, top_shown, today,
+                                 cooldown_days, exclude=chosen)
+                kind = "top"
+            if extra is None:
                 break
-            add(r)
+            add(extra, cat, kind)
 
-    for only_fresh in (True, False):
-        for r in sorted(pool.values(), key=rank_score, reverse=True):
-            if len(chosen) >= total_limit:
-                break
-            if only_fresh and not is_fresh(r):
-                continue
-            tools = [c for c in r["categories"] if c in TOOL_CATS]
-            if not tools or all(cat_count[c] >= max_per_tool for c in tools):
-                continue
-            add(r)
+    return result
 
-    if len(chosen) < total_limit:
-        for r in sorted(pool.values(), key=rank_score, reverse=True):
-            if len(chosen) >= total_limit:
-                break
-            add(r)
 
-    return sorted(chosen.values(), key=rank_score, reverse=True)[:total_limit]
+def pick_ai(pool: dict[str, dict], shown: dict[str, str], today: date,
+            cooldown_days: int = 3, exclude: set[str] | None = None) -> list[dict]:
+    exclude = exclude or set()
+    cutoff = today - timedelta(days=cooldown_days)
+    candidates = [
+        r for r in pool.values()
+        if "AI" in r["categories"] and r["full_name"] not in exclude
+    ]
+    if not candidates:
+        return []
+    fresh = [r for r in candidates if _last_shown(r, shown) < cutoff]
+    usable = fresh or candidates
+    best = max(usable, key=lambda r: (rank_score(r), r["stars"]))
+    best["pick"] = "ai"
+    best["slot"] = "AI"
+    return [best]

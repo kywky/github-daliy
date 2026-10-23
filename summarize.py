@@ -20,10 +20,18 @@ PROMPT_TEMPLATE = """请用中文简洁总结这个 GitHub 项目。严格按以
 名称: {full_name}
 语言: {language}
 Stars: {stars}
+推荐位: {position}
 分类: {categories}
 Topics: {topics}
 描述: {description}
 """
+
+
+POSITION_LABELS = {
+    "top": "人气最高（按总 star 榜单逐日轮换）",
+    "growth": "近期涨星最快",
+    "ai": "近期热门 AI 项目",
+}
 
 
 LEARN_PROMPT_TEMPLATE = """这是一个值得精读的经典开源项目，请用中文按以下三行格式输出，不要序号、不要 markdown 符号、不要额外解释：
@@ -108,6 +116,7 @@ def summarize(repo: dict) -> str:
             full_name=repo["full_name"],
             language=repo["language"] or "-",
             stars=repo["stars"],
+            position=POSITION_LABELS.get(repo.get("pick"), "每日精选"),
             categories=", ".join(repo.get("categories") or []) or "-",
             topics=", ".join(repo["topics"]) or "-",
             description=repo["description"] or "-",

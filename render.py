@@ -114,6 +114,7 @@ main { padding: 30px 0 10px; }
   background: #ecfdf5; color: #047857; white-space: nowrap;
 }
 .speed.neutral { background: #f1f5f9; color: #64748b; }
+.speed.top { background: #fffbeb; color: #b45309; }
 .title { font-size: 18px; font-weight: 700; line-height: 1.35; margin-bottom: 6px; word-break: break-word; }
 .title a { color: var(--ink); text-decoration: none; }
 .title a:hover { color: var(--accent); }
@@ -136,11 +137,14 @@ main { padding: 30px 0 10px; }
 
 .card-foot {
   display: flex; align-items: center; justify-content: space-between; gap: 10px;
+  flex-wrap: wrap;
   margin-top: 14px; padding-top: 12px; border-top: 1px solid #f1f5f9;
   font-size: 12px; color: var(--muted);
 }
 .lang { display: inline-flex; align-items: center; gap: 6px; min-width: 0; }
 .lang-dot { width: 9px; height: 9px; border-radius: 50%; flex: 0 0 auto; }
+.foot-right { display: flex; align-items: center; gap: 10px; margin-left: auto; }
+.stars { font-weight: 700; color: #475569; white-space: nowrap; }
 .gh-link {
   color: var(--accent); text-decoration: none; font-weight: 700; font-size: 12.5px;
   padding: 5px 10px; border-radius: 8px; background: #eef2ff; white-space: nowrap;
@@ -222,21 +226,21 @@ def _cat_color(name: str) -> str:
     return cfg["color"] if cfg else "#64748b"
 
 
+def _fmt_stars(n: int) -> str:
+    return f"{n / 1000:.1f}k" if n >= 1000 else str(n)
+
+
 def _window_note() -> str:
     from github import CATEGORIES
-    groups: dict[str, list[int]] = {}
-    for cfg in CATEGORIES.values():
-        for _, days in cfg["queries"]:
-            groups.setdefault(cfg.get("group", "other"), []).append(days)
-    names = {"tool": "工具", "ai": "AI"}
-    parts = []
-    for key in ("tool", "ai"):
-        days = groups.get(key)
-        if not days:
-            continue
-        lo, hi = min(days), max(days)
-        label = names[key]
-        parts.append(f"{label} {lo}–{hi} 天内新建" if lo != hi else f"{label} {lo} 天内新建")
+    tool_days = [d for cfg in CATEGORIES.values() if cfg.get("group") == "tool" for _, d in cfg["queries"]]
+    ai_days = [d for cfg in CATEGORIES.values() if cfg.get("group") == "ai" for _, d in cfg["queries"]]
+    parts = ["人气榜全时段按总 star 逐日轮换"]
+    if tool_days:
+        lo, hi = min(tool_days), max(tool_days)
+        parts.append(f"新秀 {lo}–{hi} 天内新建" if lo != hi else f"新秀 {lo} 天内新建")
+    if ai_days:
+        lo, hi = min(ai_days), max(ai_days)
+        parts.append(f"AI {lo}–{hi} 天内新建" if lo != hi else f"AI {lo} 天内新建")
     return " · ".join(parts)
 
 
@@ -271,8 +275,11 @@ def render(repos: list[dict], window_end: str, comparison: str | None) -> str:
 
         spd = r.get("stars_per_day")
         is_learn = r.get("kind") == "learn"
+        pick = r.get("pick")
         if is_learn:
             speed_html = '<span class="speed neutral">经典可读</span>'
+        elif pick == "top":
+            speed_html = '<span class="speed top">人气榜</span>'
         elif spd is None:
             speed_html = '<span class="speed neutral">新收录</span>'
         elif spd > 0:
@@ -301,7 +308,10 @@ def render(repos: list[dict], window_end: str, comparison: str | None) -> str:
   {f'<div class="topics">{topics}</div>' if topics else ''}
   <div class="card-foot">
     <span class="lang"><span class="lang-dot" style="background:{lang_color}"></span>{html.escape(lang)} · 成立于 {html.escape(r['created_at'])}</span>
-    <a class="gh-link" href="{html.escape(r['url'])}">GitHub ↗</a>
+    <span class="foot-right">
+      <span class="stars">★ {_fmt_stars(r['stars'])}</span>
+      <a class="gh-link" href="{html.escape(r['url'])}">GitHub ↗</a>
+    </span>
   </div>
 </article>""")
 
@@ -323,7 +333,7 @@ def render(repos: list[dict], window_end: str, comparison: str | None) -> str:
   <div class="wrap">
     <div class="eyebrow">Daily Digest</div>
     <h1>GitHub <span class="grad">每日精选</span></h1>
-    <p class="lead">每天 6 个安卓 / 鸿蒙 / Linux / Windows 实用小工具，1 个当下热门的 AI 项目，再从 C、C++、Python 里随机挑 2 个值得精读的经典小项目；工具与 AI 结合涨星速度排序。</p>
+    <p class="lead">每天安卓 / 鸿蒙 / Linux / Windows 各 2 个好玩或实用的应用：一个人气最高，一个涨星最快；再加 1 个热门 AI 项目和 2 个 C / C++ / Python 经典小项目。</p>
     <div class="meta">
       <span class="pill">{_window_note()}</span>
       <span class="pill">{len(repos)} 个项目</span>
