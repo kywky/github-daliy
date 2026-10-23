@@ -111,6 +111,7 @@ main { padding: 30px 0 10px; }
   background: #ecfdf5; color: #047857; white-space: nowrap;
 }
 .speed.neutral { background: #f1f5f9; color: #64748b; }
+.speed.top { background: #fffbeb; color: #b45309; }
 .title { font-size: 18px; font-weight: 700; line-height: 1.35; margin-bottom: 6px; word-break: break-word; }
 .title a { color: var(--ink); text-decoration: none; }
 .title a:hover { color: var(--accent); }
@@ -133,11 +134,14 @@ main { padding: 30px 0 10px; }
 
 .card-foot {
   display: flex; align-items: center; justify-content: space-between; gap: 10px;
+  flex-wrap: wrap;
   margin-top: 14px; padding-top: 12px; border-top: 1px solid #f1f5f9;
   font-size: 12px; color: var(--muted);
 }
 .lang { display: inline-flex; align-items: center; gap: 6px; min-width: 0; }
 .lang-dot { width: 9px; height: 9px; border-radius: 50%; flex: 0 0 auto; }
+.foot-right { display: flex; align-items: center; gap: 10px; margin-left: auto; }
+.stars { font-weight: 700; color: #475569; white-space: nowrap; }
 .gh-link {
   color: var(--accent); text-decoration: none; font-weight: 700; font-size: 12.5px;
   padding: 5px 10px; border-radius: 8px; background: #eef2ff; white-space: nowrap;
@@ -161,10 +165,10 @@ footer .sep { margin: 0 8px; }
   <div class="wrap">
     <div class="eyebrow">Daily Digest</div>
     <h1>GitHub <span class="grad">每日精选</span></h1>
-    <p class="lead">每天 6 个安卓 / 鸿蒙 / Linux / Windows 实用小工具，1 个当下热门的 AI 项目，再从 C、C++、Python 里随机挑 2 个值得精读的经典小项目；工具与 AI 结合涨星速度排序。</p>
+    <p class="lead">每天安卓 / 鸿蒙 / Linux / Windows 各 2 个好玩或实用的应用：一个人气最高，一个涨星最快；再加 1 个热门 AI 项目和 2 个 C / C++ / Python 经典小项目。</p>
     <div class="meta">
-      <span class="pill">工具 90–365 天内新建 · AI 30 天内新建</span>
-      <span class="pill">9 个项目</span>
+      <span class="pill">人气榜全时段按总 star 逐日轮换 · 新秀 90–365 天内新建 · AI 30 天内新建</span>
+      <span class="pill">11 个项目</span>
       <span class="pill">对比 2026-10-22 快照计算日增</span>
       <a class="pill" href="archive.html">历史存档 →</a>
     </div>
@@ -172,144 +176,209 @@ footer .sep { margin: 0 8px; }
 </header>
 
 <div class="wrap tabbar-wrap">
-  <div class="tabbar"><button class="tab active" data-cat="all">全部 <span class="count">9</span></button><button class="tab" data-cat="安卓"><span class="dot" style="background:#3ddc84"></span>安卓 <span class="count">2</span></button><button class="tab" data-cat="鸿蒙"><span class="dot" style="background:#e33e31"></span>鸿蒙 <span class="count">1</span></button><button class="tab" data-cat="Linux"><span class="dot" style="background:#f59e0b"></span>Linux <span class="count">2</span></button><button class="tab" data-cat="Windows"><span class="dot" style="background:#0ea5e9"></span>Windows <span class="count">4</span></button><button class="tab" data-cat="AI"><span class="dot" style="background:#8b5cf6"></span>AI <span class="count">2</span></button><button class="tab" data-cat="C"><span class="dot" style="background:#5b6ee1"></span>C <span class="count">1</span></button><button class="tab" data-cat="Python"><span class="dot" style="background:#3572A5"></span>Python <span class="count">1</span></button></div>
+  <div class="tabbar"><button class="tab active" data-cat="all">全部 <span class="count">11</span></button><button class="tab" data-cat="安卓"><span class="dot" style="background:#3ddc84"></span>安卓 <span class="count">2</span></button><button class="tab" data-cat="鸿蒙"><span class="dot" style="background:#e33e31"></span>鸿蒙 <span class="count">2</span></button><button class="tab" data-cat="Linux"><span class="dot" style="background:#f59e0b"></span>Linux <span class="count">4</span></button><button class="tab" data-cat="Windows"><span class="dot" style="background:#0ea5e9"></span>Windows <span class="count">3</span></button><button class="tab" data-cat="AI"><span class="dot" style="background:#8b5cf6"></span>AI <span class="count">1</span></button><button class="tab" data-cat="C"><span class="dot" style="background:#5b6ee1"></span>C <span class="count">1</span></button><button class="tab" data-cat="Python"><span class="dot" style="background:#3572A5"></span>Python <span class="count">1</span></button></div>
 </div>
 
 <main class="wrap">
 <div class="grid">
-<article class="card" data-cats="AI">
+<article class="card" data-cats="安卓,Linux">
   <div class="card-head">
     <span class="rank r1">1</span>
-    <div class="cats"><span class="cat" style="background:#8b5cf6">AI</span></div>
-    <span class="speed">↑ 742★/天</span>
+    <div class="cats"><span class="cat" style="background:#3ddc84">安卓</span><span class="cat" style="background:#f59e0b">Linux</span></div>
+    <span class="speed top">人气榜</span>
   </div>
-  <h3 class="title"><a href="https://github.com/lemomo-ai/lemo-opuscar"><span class="owner">lemomo-ai/</span>lemo-opuscar</a></h3>
-  <div class="desc">A toolbox of film styles made in code for Claude Code: 59 ready to use, and your own. Each style is a style prompt plus a demo film made entirely in code by Claude Opus 5.5, with no video model. By Lemomo. · 一套用代码做片的风格工具箱：59 种现成风格，也能做出你自己的</div>
-  <div class="summary"><ul><li><strong>解决什么</strong>：为 Claude Code 提供一套用代码实现的 59 种现成电影风格工具箱</li><li><strong>适合谁</strong>：适合使用 Claude Code 的创作者及 AI 视频制作者</li><li><strong>亮点</strong>：所有演示影片均由 Claude Opus 5.5 纯代码生成，无需视频模型</li></ul></div>
-  <div class="topics"><span class="topic">#agent-skills</span><span class="topic">#ai-agents</span><span class="topic">#ai-short-film</span><span class="topic">#ai-video</span><span class="topic">#animation</span><span class="topic">#canvas</span></div>
+  <h3 class="title"><a href="https://github.com/termux/termux-app"><span class="owner">termux/</span>termux-app</a></h3>
+  <div class="desc">Termux - a terminal emulator application for Android OS extendible by variety of packages.</div>
+  <div class="summary"><ul><li><strong>解决什么</strong>：为 Android 系统提供强大的终端模拟器，解决在手机上运行 Linux 命令行环境的需求</li><li><strong>适合谁</strong>：适合需要在移动设备上进行开发、运维或学习 Linux 命令的开发者与极客</li><li><strong>亮点</strong>：亮点是高度可扩展，通过包管理器提供丰富的 Linux 工具集</li></ul></div>
+  <div class="topics"><span class="topic">#android</span><span class="topic">#hacktoberfest</span><span class="topic">#linux</span><span class="topic">#terminal</span><span class="topic">#termux</span></div>
   <div class="card-foot">
-    <span class="lang"><span class="lang-dot" style="background:#f1e05a"></span>JavaScript · 成立于 2026-09-26</span>
-    <a class="gh-link" href="https://github.com/lemomo-ai/lemo-opuscar">GitHub ↗</a>
-  </div>
-</article>
-<article class="card" data-cats="Windows">
-  <div class="card-head">
-    <span class="rank r2">2</span>
-    <div class="cats"><span class="cat" style="background:#0ea5e9">Windows</span></div>
-    <span class="speed">↑ 136★/天</span>
-  </div>
-  <h3 class="title"><a href="https://github.com/ranxianglei/billion-context"><span class="owner">ranxianglei/</span>billion-context</a></h3>
-  <div class="desc">A context-compression plugin for month-long single sessions (billions of tokens) ,small context windows (a 100K context is enough) and token savings (5x fewer tokens) .上下文压缩插件，月级长会话会话， 兼顾小窗口(100k上下文足矣)省token(省5倍token) . billion-context is all you need</div>
-  <div class="summary"><ul><li><strong>解决什么</strong>：解决月级长会话的上下文压缩与token节省问题</li><li><strong>适合谁</strong>：适合需要处理海量对话历史并节省成本的Windows用户</li><li><strong>亮点</strong>：仅需100k上下文即可处理数十亿token，实现5倍token节省</li></ul></div>
-  <div class="topics"><span class="topic">#dsh-plugin</span></div>
-  <div class="card-foot">
-    <span class="lang"><span class="lang-dot" style="background:#3178c6"></span>TypeScript · 成立于 2026-08-06</span>
-    <a class="gh-link" href="https://github.com/ranxianglei/billion-context">GitHub ↗</a>
-  </div>
-</article>
-<article class="card" data-cats="Linux,Windows">
-  <div class="card-head">
-    <span class="rank r3">3</span>
-    <div class="cats"><span class="cat" style="background:#f59e0b">Linux</span><span class="cat" style="background:#0ea5e9">Windows</span></div>
-    <span class="speed">↑ 133★/天</span>
-  </div>
-  <h3 class="title"><a href="https://github.com/nano-muse/nanoMuse"><span class="owner">nano-muse/</span>nanoMuse</a></h3>
-  <div class="desc">nanoMuse: an open-source personal agent for every device you own. One agent with a name and a look of its own that does things, keeps working while the app is closed, remembers you, and asks before anything you cannot undo. On Android, iPhone and iPad, Windows / macOS / Linux and in the browser; your phone&#x27;s screen and your computer as its hands.</div>
-  <div class="summary"><ul><li><strong>解决什么</strong>：为跨设备用户提供统一的个人代理体验，具备后台运行、记忆用户和接管设备操作的能力</li><li><strong>适合谁</strong>：适合拥有多设备（手机、电脑、浏览器）并希望获得统一智能助手体验的用户</li><li><strong>亮点</strong>：开源跨平台个人代理，能控制设备屏幕并在后台持续工作</li></ul></div>
-  <div class="topics"><span class="topic">#agent-skills</span><span class="topic">#ai-agent</span><span class="topic">#android</span><span class="topic">#computer-use</span><span class="topic">#cross-device</span><span class="topic">#desktop-app</span></div>
-  <div class="card-foot">
-    <span class="lang"><span class="lang-dot" style="background:#F05138"></span>Swift · 成立于 2026-09-23</span>
-    <a class="gh-link" href="https://github.com/nano-muse/nanoMuse">GitHub ↗</a>
-  </div>
-</article>
-<article class="card" data-cats="Linux,Windows,AI">
-  <div class="card-head">
-    <span class="rank">4</span>
-    <div class="cats"><span class="cat" style="background:#f59e0b">Linux</span><span class="cat" style="background:#0ea5e9">Windows</span><span class="cat" style="background:#8b5cf6">AI</span></div>
-    <span class="speed">↑ 100★/天</span>
-  </div>
-  <h3 class="title"><a href="https://github.com/mw00/project-maya"><span class="owner">mw00/</span>project-maya</a></h3>
-  <div class="desc">Project Maya - run GLM-5.3-Flash (321B MoE) and DeepSeek-V4.1-Flash-1017 (748B MoE) privately on your own GPU(s), from one card to 16, NVIDIA or AMD, Linux or Windows. Engine, server, dashboard, OpenAI- and Anthropic-compatible API, quant tools.</div>
-  <div class="summary"><ul><li><strong>解决什么</strong>：在本地 GPU 上运行 GLM-5.3 和 DeepSeek-V4.1 等大型 MoE 模型，提供推理引擎和 API 服务器</li><li><strong>适合谁</strong>：拥有 NVIDIA 或 AMD GPU（1 到 16 张）的用户，希望在本地自托管大型 MoE 模型</li><li><strong>亮点</strong>：提供完整的推理引擎、服务器、仪表板以及 OpenAI/Anthropic 兼容的 API</li></ul></div>
-  <div class="topics"><span class="topic">#cuda</span><span class="topic">#deepseek</span><span class="topic">#deepseek-v4</span><span class="topic">#glm</span><span class="topic">#glm-5</span><span class="topic">#llm</span></div>
-  <div class="card-foot">
-    <span class="lang"><span class="lang-dot" style="background:#f34b7d"></span>C++ · 成立于 2026-10-06</span>
-    <a class="gh-link" href="https://github.com/mw00/project-maya">GitHub ↗</a>
+    <span class="lang"><span class="lang-dot" style="background:#b07219"></span>Java · 成立于 2015-10-23</span>
+    <span class="foot-right">
+      <span class="stars">★ 63.2k</span>
+      <a class="gh-link" href="https://github.com/termux/termux-app">GitHub ↗</a>
+    </span>
   </div>
 </article>
 <article class="card" data-cats="安卓">
   <div class="card-head">
-    <span class="rank">5</span>
+    <span class="rank r2">2</span>
     <div class="cats"><span class="cat" style="background:#3ddc84">安卓</span></div>
-    <span class="speed">↑ 34★/天</span>
+    <span class="speed neutral">新收录</span>
   </div>
-  <h3 class="title"><a href="https://github.com/MeshLive/meshlive-android"><span class="owner">MeshLive/</span>meshlive-android</a></h3>
-  <div class="desc">Encrypted voice and video calls, live audio and video streams between phones over a Bluetooth mesh. No internet needed.</div>
-  <div class="summary"><ul><li><strong>解决什么</strong>：通过蓝牙网状网络在手机之间进行加密语音和视频通话以及直播音频和视频流，无需互联网</li><li><strong>适合谁</strong>：需要抗审查、离线通信或在灾难响应等情况下进行通信的用户</li><li><strong>亮点</strong>：利用蓝牙网状网络实现无需互联网的端到端加密通信</li></ul></div>
-  <div class="topics"><span class="topic">#android</span><span class="topic">#android-app</span><span class="topic">#anti-censorship</span><span class="topic">#bluetooth</span><span class="topic">#bluetooth-low-energy</span><span class="topic">#censorship-resistance</span></div>
+  <h3 class="title"><a href="https://github.com/humblemuzzu/dumbtv"><span class="owner">humblemuzzu/</span>dumbtv</a></h3>
+  <div class="desc">Take the ads, tracking and clutter out of your Fire TV over ADB, no root. Every step can be undone. Comes with its own open-source home screen.</div>
+  <div class="summary"><ul><li><strong>解决什么</strong>：通过 ADB 移除 Fire TV 上的广告、追踪和杂乱内容，无需 Root 权限</li><li><strong>适合谁</strong>：适合想要清理 Fire TV 广告、追求隐私保护或使用开源启动器的用户</li><li><strong>亮点</strong>：支持每一步撤销操作，自带开源启动器，且近期涨星迅速</li></ul></div>
+  <div class="topics"><span class="topic">#ad-blocking</span><span class="topic">#adb</span><span class="topic">#android-tv</span><span class="topic">#debloat</span><span class="topic">#dns-filter</span><span class="topic">#fire-os</span></div>
   <div class="card-foot">
-    <span class="lang"><span class="lang-dot" style="background:#A97BFF"></span>Kotlin · 成立于 2026-10-10</span>
-    <a class="gh-link" href="https://github.com/MeshLive/meshlive-android">GitHub ↗</a>
+    <span class="lang"><span class="lang-dot" style="background:#b07219"></span>Java · 成立于 2026-10-18</span>
+    <span class="foot-right">
+      <span class="stars">★ 1.3k</span>
+      <a class="gh-link" href="https://github.com/humblemuzzu/dumbtv">GitHub ↗</a>
+    </span>
   </div>
 </article>
-<article class="card" data-cats="安卓,Windows">
+<article class="card" data-cats="鸿蒙,Windows">
   <div class="card-head">
-    <span class="rank">6</span>
-    <div class="cats"><span class="cat" style="background:#3ddc84">安卓</span><span class="cat" style="background:#0ea5e9">Windows</span></div>
-    <span class="speed">↑ 29★/天</span>
+    <span class="rank r3">3</span>
+    <div class="cats"><span class="cat" style="background:#e33e31">鸿蒙</span><span class="cat" style="background:#0ea5e9">Windows</span></div>
+    <span class="speed top">人气榜</span>
   </div>
-  <h3 class="title"><a href="https://github.com/harkhowalia-1/MacSubsystemForAndroid"><span class="owner">harkhowalia-1/</span>MacSubsystemForAndroid</a></h3>
-  <div class="desc">Run Android apps on your Mac like Mac apps: each in its own window with its own Dock icon, on Apple silicon. Notifications, game controllers, privacy controls. Free &amp; open source (LineageOS + QEMU + scrcpy).</div>
-  <div class="summary"><ul><li><strong>解决什么</strong>：在 Apple Silicon Mac 上原生运行 Android 应用，每个应用拥有独立窗口和 Dock 图标</li><li><strong>适合谁</strong>：需要 Android 应用或游戏的 Apple Silicon Mac 用户，希望体验原生集成而非模拟器</li><li><strong>亮点</strong>：基于 LineageOS + QEMU + scrcpy 开源方案，支持通知、手柄及隐私控制</li></ul></div>
-  <div class="topics"><span class="topic">#android</span><span class="topic">#android-apps</span><span class="topic">#android-emulator</span><span class="topic">#android-on-mac</span><span class="topic">#apk</span><span class="topic">#apple-silicon</span></div>
+  <h3 class="title"><a href="https://github.com/electerm/electerm"><span class="owner">electerm/</span>electerm</a></h3>
+  <div class="desc">📻Free and open-sourced terminal/ssh/sftp/ftp/telnet/serialport/RDP/VNC/Spice client(Linux, Mac, Windows, Android, HarmonyOS, iOS)</div>
+  <div class="summary"><ul><li><strong>解决什么</strong>：一个免费开源的终端模拟器，支持多种远程连接协议如SSH、SFTP、FTP等，可在多个操作系统上使用</li><li><strong>适合谁</strong>：需要远程访问和管理服务器的开发者、系统管理员和IT专业人员</li><li><strong>亮点</strong>：跨平台支持多种协议的终端客户端</li></ul></div>
+  <div class="topics"><span class="topic">#ai</span><span class="topic">#android</span><span class="topic">#electerm</span><span class="topic">#electron</span><span class="topic">#ftp</span><span class="topic">#harmonyos</span></div>
   <div class="card-foot">
-    <span class="lang"><span class="lang-dot" style="background:#F05138"></span>Swift · 成立于 2026-10-15</span>
-    <a class="gh-link" href="https://github.com/harkhowalia-1/MacSubsystemForAndroid">GitHub ↗</a>
+    <span class="lang"><span class="lang-dot" style="background:#f1e05a"></span>JavaScript · 成立于 2017-10-07</span>
+    <span class="foot-right">
+      <span class="stars">★ 15.4k</span>
+      <a class="gh-link" href="https://github.com/electerm/electerm">GitHub ↗</a>
+    </span>
   </div>
 </article>
 <article class="card" data-cats="鸿蒙">
   <div class="card-head">
-    <span class="rank">7</span>
+    <span class="rank">4</span>
     <div class="cats"><span class="cat" style="background:#e33e31">鸿蒙</span></div>
     <span class="speed neutral">新收录</span>
   </div>
-  <h3 class="title"><a href="https://github.com/jhaizhou-ops/d2r-mobile"><span class="owner">jhaizhou-ops/</span>d2r-mobile</a></h3>
-  <div class="desc">Open-source compatibility layer for Diablo II: Resurrected with the Reign of the Warlock expansion. Runs your own Switch copy natively on iPhone, iPad, Mac, Android and HarmonyOS — full touch controls, 60 fps, new endgame modes. Bring your own game files. 开源的《暗黑破坏神 II：狱火重生》术士君临 iOS / macOS / 安卓 / 鸿蒙兼容层</div>
-  <div class="summary"><ul><li><strong>解决什么</strong>：提供了一个开源兼容层，让《暗黑破坏神 II：狱火重生》可在 iPhone、iPad、Mac、Android 和 HarmonyOS 等多平台原生运行</li><li><strong>适合谁</strong>：适合拥有 Switch 版游戏文件，希望在 iPhone、iPad、Mac 或 HarmonyOS 设备上体验 60fps 游戏乐趣的玩家</li><li><strong>亮点</strong>：支持全触控操作、60fps 画面及术士君临扩展，并支持在 HarmonyOS 上原生运行</li></ul></div>
-  <div class="topics"><span class="topic">#android</span><span class="topic">#compatibility-layer</span><span class="topic">#diablo-2-resurrected</span><span class="topic">#diablo2</span><span class="topic">#game-port</span><span class="topic">#harmonyos</span></div>
+  <h3 class="title"><a href="https://github.com/d2r-mobile/d2r-mobile"><span class="owner">d2r-mobile/</span>d2r-mobile</a></h3>
+  <div class="desc">Diablo II: Resurrected on iPhone, iPad, Apple silicon Mac, Android and HarmonyOS. Offline play with touch or a controller. One-tap Runewords, 100-level Greater Rifts and Reign of the Warlock. Native ARM, Metal and Vulkan. Open source; bring your own Switch game files. 暗黑2重制版.</div>
+  <div class="summary"><ul><li><strong>解决什么</strong>：在 iPhone、iPad、Apple silicon Mac 和 Android 以及鸿蒙系统上玩暗黑2重制版，支持离线触摸或控制器操作，提供一键符文词缀、100级大裂谷和巫师统治等特性</li><li><strong>适合谁</strong>：喜欢在移动设备上体验暗黑2重制版的玩家，特别是拥有苹果或安卓设备的用户</li><li><strong>亮点</strong>：原生ARM、Metal和Vulkan支持，开源且可自定义导入Switch游戏文件</li></ul></div>
+  <div class="topics"><span class="topic">#agent-skills</span><span class="topic">#apple-silicon</span><span class="topic">#arm64</span><span class="topic">#claude-code</span><span class="topic">#codex</span><span class="topic">#compatibility-layer</span></div>
   <div class="card-foot">
     <span class="lang"><span class="lang-dot" style="background:#555555"></span>C · 成立于 2026-10-12</span>
-    <a class="gh-link" href="https://github.com/jhaizhou-ops/d2r-mobile">GitHub ↗</a>
+    <span class="foot-right">
+      <span class="stars">★ 275</span>
+      <a class="gh-link" href="https://github.com/d2r-mobile/d2r-mobile">GitHub ↗</a>
+    </span>
+  </div>
+</article>
+<article class="card" data-cats="Linux">
+  <div class="card-head">
+    <span class="rank">5</span>
+    <div class="cats"><span class="cat" style="background:#f59e0b">Linux</span></div>
+    <span class="speed top">人气榜</span>
+  </div>
+  <h3 class="title"><a href="https://github.com/morluto/rea"><span class="owner">morluto/</span>rea</a></h3>
+  <div class="desc">Reverse engineer anything with agents, from app behavior down to native binaries.</div>
+  <div class="summary"><ul><li><strong>解决什么</strong>：解决原生二进制文件逆向工程困难的问题，利用 AI 代理从应用行为到底层代码进行分析</li><li><strong>适合谁</strong>：适合安全研究人员、逆向工程师及需要利用 AI 辅助进行二进制分析的开发者</li><li><strong>亮点</strong>：拥有极高人气，通过 MCP 协议连接 Claude 等模型，将 AI 代理能力深度集成到 Ghidra 和 Hopper 等逆向工具中</li></ul></div>
+  <div class="topics"><span class="topic">#agent-skills</span><span class="topic">#ai-agents</span><span class="topic">#binary-analysis</span><span class="topic">#claude-code</span><span class="topic">#cli</span><span class="topic">#codex</span></div>
+  <div class="card-foot">
+    <span class="lang"><span class="lang-dot" style="background:#3178c6"></span>TypeScript · 成立于 2026-04-14</span>
+    <span class="foot-right">
+      <span class="stars">★ 367.7k</span>
+      <a class="gh-link" href="https://github.com/morluto/rea">GitHub ↗</a>
+    </span>
+  </div>
+</article>
+<article class="card" data-cats="Linux">
+  <div class="card-head">
+    <span class="rank">6</span>
+    <div class="cats"><span class="cat" style="background:#f59e0b">Linux</span></div>
+    <span class="speed neutral">新收录</span>
+  </div>
+  <h3 class="title"><a href="https://github.com/Panniantong/Agent-Reach"><span class="owner">Panniantong/</span>Agent-Reach</a></h3>
+  <div class="desc">Give your AI agent eyes to see the entire internet. Read &amp; search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.</div>
+  <div class="summary"><ul><li><strong>解决什么</strong>：为 AI 代理提供访问整个互联网的能力，使其能无 API 费用地阅读和搜索多平台内容</li><li><strong>适合谁</strong>：适合需要 AI 自动化搜索和抓取数据的开发者或研究人员</li><li><strong>亮点</strong>：支持多平台抓取且零 API 费用，是近期涨星最快的 AI 代理基础设施工具</li></ul></div>
+  <div class="topics"><span class="topic">#agent-infrastructure</span><span class="topic">#ai-agent</span><span class="topic">#ai-search</span><span class="topic">#automation</span><span class="topic">#bilibili</span><span class="topic">#claude-code</span></div>
+  <div class="card-foot">
+    <span class="lang"><span class="lang-dot" style="background:#3572A5"></span>Python · 成立于 2026-02-24</span>
+    <span class="foot-right">
+      <span class="stars">★ 101.1k</span>
+      <a class="gh-link" href="https://github.com/Panniantong/Agent-Reach">GitHub ↗</a>
+    </span>
+  </div>
+</article>
+<article class="card" data-cats="Linux,Windows">
+  <div class="card-head">
+    <span class="rank">7</span>
+    <div class="cats"><span class="cat" style="background:#f59e0b">Linux</span><span class="cat" style="background:#0ea5e9">Windows</span></div>
+    <span class="speed top">人气榜</span>
+  </div>
+  <h3 class="title"><a href="https://github.com/clash-verge-rev/clash-verge-rev"><span class="owner">clash-verge-rev/</span>clash-verge-rev</a></h3>
+  <div class="desc">A modern GUI client based on Tauri, designed to run in Windows, macOS and Linux for tailored proxy experience</div>
+  <div class="summary"><p>原始描述：A modern GUI client based on Tauri, designed to run in Windows, macOS and Linux for tailored proxy experience
+
+（摘要生成失败，本次展示原文）</p></div>
+  <div class="topics"><span class="topic">#clash</span><span class="topic">#clash-meta</span><span class="topic">#clash-verge</span><span class="topic">#linux</span><span class="topic">#mac</span><span class="topic">#mihomo</span></div>
+  <div class="card-foot">
+    <span class="lang"><span class="lang-dot" style="background:#dea584"></span>Rust · 成立于 2023-11-21</span>
+    <span class="foot-right">
+      <span class="stars">★ 153.3k</span>
+      <a class="gh-link" href="https://github.com/clash-verge-rev/clash-verge-rev">GitHub ↗</a>
+    </span>
+  </div>
+</article>
+<article class="card" data-cats="Windows">
+  <div class="card-head">
+    <span class="rank">8</span>
+    <div class="cats"><span class="cat" style="background:#0ea5e9">Windows</span></div>
+    <span class="speed neutral">新收录</span>
+  </div>
+  <h3 class="title"><a href="https://github.com/tw93/Mole"><span class="owner">tw93/</span>Mole</a></h3>
+  <div class="desc">🐹 Keep your Mac and PC clean, light, and running like new. Fast open-source CLI, plus native Mac and Windows apps.</div>
+  <div class="summary"><ul><li><strong>解决什么</strong>：清理 Mac 和 PC 系统垃圾，优化运行性能</li><li><strong>适合谁</strong>：希望保持 Mac 和 Windows 系统轻量高效的用户</li><li><strong>亮点</strong>：跨平台开源，支持 CLI 和原生应用，近期涨星最快</li></ul></div>
+  <div class="topics"><span class="topic">#analyzer</span><span class="topic">#appcleaner</span><span class="topic">#clean</span><span class="topic">#cleaner</span><span class="topic">#cleanmymac</span><span class="topic">#command-line</span></div>
+  <div class="card-foot">
+    <span class="lang"><span class="lang-dot" style="background:#94a3b8"></span>Shell · 成立于 2025-09-23</span>
+    <span class="foot-right">
+      <span class="stars">★ 72.4k</span>
+      <a class="gh-link" href="https://github.com/tw93/Mole">GitHub ↗</a>
+    </span>
+  </div>
+</article>
+<article class="card" data-cats="AI">
+  <div class="card-head">
+    <span class="rank">9</span>
+    <div class="cats"><span class="cat" style="background:#8b5cf6">AI</span></div>
+    <span class="speed">↑ 258★/天</span>
+  </div>
+  <h3 class="title"><a href="https://github.com/Folkbench/folkbench"><span class="owner">Folkbench/</span>folkbench</a></h3>
+  <div class="desc">AI API 中转站评测排行与切换工具：实测可用率、延迟与价格 · Open-source AI API relay benchmark, rankings &amp; switcher for Claude Code / Codex</div>
+  <div class="summary"><ul><li><strong>解决什么</strong>：为开发者提供评测和切换 AI API 的工具，帮助找到性能最优且成本最低的服务</li><li><strong>适合谁</strong>：需要使用多个 AI 模型或 API 的开发者，寻求高效评估和选择最佳服务的场景</li><li><strong>亮点</strong>：开源的 AI API 中转站评测排行与切换工具，集成多种模型和 API 进行综合评估</li></ul></div>
+  <div class="topics"><span class="topic">#ai</span><span class="topic">#api-relay</span><span class="topic">#api-relay-pricing</span><span class="topic">#benchmark</span><span class="topic">#benchmarks</span><span class="topic">#claude</span></div>
+  <div class="card-foot">
+    <span class="lang"><span class="lang-dot" style="background:#dea584"></span>Rust · 成立于 2026-10-02</span>
+    <span class="foot-right">
+      <span class="stars">★ 2.7k</span>
+      <a class="gh-link" href="https://github.com/Folkbench/folkbench">GitHub ↗</a>
+    </span>
   </div>
 </article>
 <article class="card" data-cats="C">
   <div class="card-head">
-    <span class="rank">8</span>
+    <span class="rank">10</span>
     <div class="cats"><span class="cat" style="background:#5b6ee1">C</span></div>
     <span class="speed neutral">经典可读</span>
   </div>
-  <h3 class="title"><a href="https://github.com/nothings/stb"><span class="owner">nothings/</span>stb</a></h3>
-  <div class="desc">stb single-file public domain libraries for C/C++</div>
-  <div class="summary"><ul><li><strong>学什么</strong>：学习如何在单个头文件中实现复杂功能，掌握 C 语言内存管理与接口设计的精髓</li><li><strong>适合谁</strong>：适合 C/C++ 开发者，特别是想提升代码风格、学习底层内存管理及接口设计的初级到中级工程师</li><li><strong>怎么读</strong>：建议从 stb_image 入手，感受其简洁的 API 设计，再逐步阅读 stb_truetype 等其他模块</li></ul></div>
-  
+  <h3 class="title"><a href="https://github.com/munificent/craftinginterpreters"><span class="owner">munificent/</span>craftinginterpreters</a></h3>
+  <div class="desc">Repository for the book &quot;Crafting Interpreters&quot;</div>
+  <div class="summary"><ul><li><strong>学什么</strong>：深入理解解释器底层实现原理，掌握从词法分析到虚拟机执行的全流程开发能力</li><li><strong>适合谁</strong>：适合有一定编程基础，想要深入理解编译原理及构建解释器的开发者</li><li><strong>怎么读</strong>：建议跟随书籍章节顺序，从词法分析入手，逐步构建解析器与虚拟机</li></ul></div>
+  <div class="topics"><span class="topic">#book</span><span class="topic">#bytecode</span><span class="topic">#c</span><span class="topic">#compiler</span><span class="topic">#interpreter</span><span class="topic">#java</span></div>
   <div class="card-foot">
-    <span class="lang"><span class="lang-dot" style="background:#555555"></span>C · 成立于 2014-05-25</span>
-    <a class="gh-link" href="https://github.com/nothings/stb">GitHub ↗</a>
+    <span class="lang"><span class="lang-dot" style="background:#94a3b8"></span>HTML · 成立于 2017-01-15</span>
+    <span class="foot-right">
+      <span class="stars">★ 11.1k</span>
+      <a class="gh-link" href="https://github.com/munificent/craftinginterpreters">GitHub ↗</a>
+    </span>
   </div>
 </article>
 <article class="card" data-cats="Python">
   <div class="card-head">
-    <span class="rank">9</span>
+    <span class="rank">11</span>
     <div class="cats"><span class="cat" style="background:#3572A5">Python</span></div>
     <span class="speed neutral">经典可读</span>
   </div>
   <h3 class="title"><a href="https://github.com/Kludex/starlette"><span class="owner">Kludex/</span>starlette</a></h3>
   <div class="desc">The little ASGI framework that shines. 🌟</div>
-  <div class="summary"><ul><li><strong>学什么</strong>：学习 Python 异步编程（ASGI 协议）、路由匹配机制以及中间件的设计与实现</li><li><strong>适合谁</strong>：适合想深入了解 Python Web 框架底层原理、学习异步编程及中间件模式的中高级开发者</li><li><strong>怎么读</strong>：建议从路由匹配和 ASGI 协议实现入手，再深入中间件机制</li></ul></div>
+  <div class="summary"><ul><li><strong>学什么</strong>：能学到 ASGI 框架设计思路和异步编程中路由与中间件的应用</li><li><strong>适合谁</strong>：适合有一定 Python 基础和异步编程经验的开发者，想了解轻量级框架的实现</li><li><strong>怎么读</strong>：先从基础路由和中间件模块入手，逐步深入理解框架的整体架构</li></ul></div>
   <div class="topics"><span class="topic">#asgi</span><span class="topic">#async</span><span class="topic">#http</span><span class="topic">#python</span><span class="topic">#websockets</span></div>
   <div class="card-foot">
     <span class="lang"><span class="lang-dot" style="background:#3572A5"></span>Python · 成立于 2018-06-25</span>
-    <a class="gh-link" href="https://github.com/Kludex/starlette">GitHub ↗</a>
+    <span class="foot-right">
+      <span class="stars">★ 12.7k</span>
+      <a class="gh-link" href="https://github.com/Kludex/starlette">GitHub ↗</a>
+    </span>
   </div>
 </article></div>
 </main>
