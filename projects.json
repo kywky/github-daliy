@@ -1,36 +1,23 @@
 {
-  "generated_at": "2026-10-23T14:27:23.011420+00:00",
+  "generated_at": "2026-10-23T14:39:36.321909+00:00",
   "total": 29,
   "occurrences": 29,
   "projects": [
     {
-      "full_name": "n8n-io/n8n",
-      "url": "https://github.com/n8n-io/n8n",
-      "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
-      "summary": "这是一个 Fair-code 许可的工作流自动化平台，具备原生 AI 能力，支持 400+ 集成\n适合需要低代码/无代码自动化、数据流集成和自托管部署的开发者或团队\n独特之处在于结合了可视化构建与自定义代码，支持自托管或云端部署",
-      "stars": 208392,
-      "language": "TypeScript",
+      "full_name": "yt-dlp/yt-dlp",
+      "url": "https://github.com/yt-dlp/yt-dlp",
+      "description": "A feature-rich command-line audio/video downloader",
+      "summary": "原始描述：A feature-rich command-line audio/video downloader\n\n（摘要生成失败，本次展示原文）",
+      "stars": 200775,
+      "language": "Python",
       "topics": [
-        "ai",
-        "apis",
-        "automation",
         "cli",
-        "data-flow",
-        "development",
-        "integration-framework",
-        "integrations",
-        "ipaas",
-        "low-code",
-        "low-code-platform",
-        "mcp",
-        "mcp-client",
-        "mcp-server",
-        "n8n",
-        "no-code",
-        "self-hosted",
-        "typescript",
-        "workflow",
-        "workflow-automation"
+        "downloader",
+        "python",
+        "sponsorblock",
+        "youtube-dl",
+        "youtube-downloader",
+        "yt-dlp"
       ],
       "categories": [
         "Linux"
@@ -41,7 +28,7 @@
       "pick": "top",
       "slot": "Linux",
       "kind": "search",
-      "created_at": "2019-06-22",
+      "created_at": "2020-10-26",
       "first_date": "2026-10-23",
       "last_date": "2026-10-23",
       "dates": [
@@ -50,27 +37,35 @@
       "times": 1
     },
     {
-      "full_name": "microsoft/PowerToys",
-      "url": "https://github.com/microsoft/PowerToys",
-      "description": "Microsoft PowerToys is a collection of utilities that supercharge productivity and customization on Windows",
-      "summary": "解决什么：为 Windows 系统提供一系列实用工具以提升用户的生产力和自定义能力\n适合谁：Windows 用户，特别是需要提高日常工作效率和桌面管理的用户\n亮点：Microsoft 官方推出的增强 Windows 功能和效率的工具集",
-      "stars": 139632,
-      "language": "C",
+      "full_name": "rustdesk/rustdesk",
+      "url": "https://github.com/rustdesk/rustdesk",
+      "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
+      "summary": "解决什么：提供开源远程桌面方案，支持自建服务器，作为 TeamViewer 的替代品。\n适合谁：需要自建远程控制服务、寻求 TeamViewer 替代方案的个人或企业用户。\n亮点：基于 Rust 开发，支持全平台及 Wayland，完全开源且支持自建服务器。",
+      "stars": 126704,
+      "language": "Rust",
       "topics": [
-        "advanced-paste",
-        "color-picker",
-        "command-palette",
-        "desktop",
-        "fancyzones",
-        "keyboard-manager",
-        "microsoft-powertoys",
-        "powerrename",
-        "powertoys",
-        "windows",
-        "windows-10",
-        "windows-11"
+        "android",
+        "anydesk",
+        "dart",
+        "flatpak",
+        "flutter",
+        "flutter-apps",
+        "ios",
+        "linux",
+        "macos",
+        "p2p",
+        "rdp",
+        "remote-control",
+        "remote-desktop",
+        "rust",
+        "rust-lang",
+        "teamviewer",
+        "vnc",
+        "wayland",
+        "windows"
       ],
       "categories": [
+        "Linux",
         "Windows"
       ],
       "platforms": [
@@ -79,7 +74,7 @@
       "pick": "top",
       "slot": "Windows",
       "kind": "search",
-      "created_at": "2019-05-01",
+      "created_at": "2020-09-28",
       "first_date": "2026-10-23",
       "last_date": "2026-10-23",
       "dates": [
@@ -88,36 +83,66 @@
       "times": 1
     },
     {
-      "full_name": "laurent22/joplin",
-      "url": "https://github.com/laurent22/joplin",
-      "description": "Joplin - the privacy-focused note taking app with sync capabilities for Windows, macOS, Linux, Android and iOS.",
-      "summary": "提供跨平台、注重隐私的笔记应用及其同步功能\n适合需要跨平台同步和隐私保护的 Evernote 用户\n支持多种云存储同步，开源且跨平台",
-      "stars": 56849,
-      "language": "TypeScript",
+      "full_name": "rtk-ai/rtk",
+      "url": "https://github.com/rtk-ai/rtk",
+      "description": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
+      "summary": "通过减少 60-90% 的 LLM Token 消耗来降低 AI 编码成本\n需要使用 AI 编码工具以降低成本的开发者\n单二进制文件，零依赖，显著降低 LLM Token 消耗",
+      "stars": 84361,
+      "language": "Rust",
       "topics": [
-        "android",
-        "dropbox",
-        "electron",
-        "enex-files",
-        "evernote",
-        "javascript",
-        "joplin",
-        "nextcloud",
-        "nodejs",
-        "note-taking",
-        "notesnook",
-        "obsidian",
-        "onedrive",
-        "react-native",
-        "standardnotes",
-        "synchronisation",
-        "web-clipper",
-        "webdav"
+        "agentic-coding",
+        "ai-coding",
+        "anthropic",
+        "claude-code",
+        "cli",
+        "command-line-tool",
+        "cost-reduction",
+        "developer-tools",
+        "llm",
+        "open-source",
+        "productivity",
+        "rust",
+        "token-optimization"
       ],
       "categories": [
-        "安卓",
-        "Linux",
-        "Windows"
+        "Linux"
+      ],
+      "platforms": [
+        "Linux"
+      ],
+      "pick": "growth",
+      "slot": "Linux",
+      "kind": "search",
+      "created_at": "2026-01-22",
+      "first_date": "2026-10-23",
+      "last_date": "2026-10-23",
+      "dates": [
+        "2026-10-23"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "gkd-kit/gkd",
+      "url": "https://github.com/gkd-kit/gkd",
+      "description": "基于无障碍，高级选择器，订阅规则的自定义屏幕点击安卓应用 | An Android APP with custom screen tapping based on Accessibility, Advanced Selectors, and Subscription Rules",
+      "summary": "解决安卓应用中繁琐的重复点击操作，通过无障碍服务和订阅规则实现自动化\n适合需要自动化处理安卓应用繁琐重复操作（如每日签到、领券）的用户\n亮点在于支持自定义订阅规则与高级选择器，基于 Jetpack Compose 开发，自动化能力强大",
+      "stars": 43264,
+      "language": "Kotlin",
+      "topics": [
+        "accessibility",
+        "android",
+        "auto",
+        "click",
+        "compose",
+        "compose-multiplatform",
+        "jetpack-compose",
+        "kotlin",
+        "kotlin-js",
+        "kotlin-multiplatform",
+        "webassembly"
+      ],
+      "categories": [
+        "安卓"
       ],
       "platforms": [
         "安卓"
@@ -125,7 +150,7 @@
       "pick": "top",
       "slot": "安卓",
       "kind": "search",
-      "created_at": "2017-01-16",
+      "created_at": "2023-07-04",
       "first_date": "2026-10-23",
       "last_date": "2026-10-23",
       "dates": [
@@ -134,46 +159,74 @@
       "times": 1
     },
     {
-      "full_name": "OrchestratorInc/agent-orchestrator",
-      "url": "https://github.com/OrchestratorInc/agent-orchestrator",
-      "description": "Open-source (Apache-2.0) orchestrator for Claude Code, Codex & 30+ coding agents. Plan, run and supervise agent teams from task to merged PR. Desktop (macOS, Windows, Linux) + iPhone & Android apps.",
-      "summary": "协调多个 AI 编码代理，管理从任务到合并 PR 的开发工作流\n适合使用 Claude Code、Codex 等 AI 编码工具的软件开发人员\n支持 30+ 编码代理，拥有桌面及移动端应用，且近期涨星速度最快",
-      "stars": 13511,
-      "language": "Go",
+      "full_name": "webadderallorg/Recordly",
+      "url": "https://github.com/webadderallorg/Recordly",
+      "description": "Create polished demo videos without editing skills. Mac/Windows/Linux",
+      "summary": "解决无需专业剪辑技能即可制作精美演示视频的问题\n适合 Mac、Windows 和 Linux 用户制作演示视频\n近期涨星迅速，无需编辑技能即可生成精美视频",
+      "stars": 34873,
+      "language": "TypeScript",
       "topics": [
-        "agent-fleet",
-        "agent-ide",
-        "agent-orchestration",
-        "agent-swarm",
-        "agentic-coding",
-        "ai-agents",
-        "ai-coding",
-        "claude-code",
-        "codex",
-        "codex-cli",
-        "coding-agents",
-        "developer-tools",
-        "git-worktrees",
-        "mobile",
-        "multi-agent",
-        "orchestration",
-        "orchestrator",
-        "parallel-agents",
-        "parallel-coding",
-        "skills"
+        "electron",
+        "free",
+        "linux",
+        "macos",
+        "open-source",
+        "screen-recorder",
+        "screen-studio",
+        "windows"
       ],
       "categories": [
-        "安卓",
         "Linux",
         "Windows"
       ],
       "platforms": [
-        "安卓"
+        "Windows"
       ],
       "pick": "growth",
-      "slot": "安卓",
+      "slot": "Windows",
       "kind": "search",
-      "created_at": "2026-02-13",
+      "created_at": "2026-03-12",
+      "first_date": "2026-10-23",
+      "last_date": "2026-10-23",
+      "dates": [
+        "2026-10-23"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "skywind3000/kcp",
+      "url": "https://github.com/skywind3000/kcp",
+      "description": ":zap: KCP - A Fast and Reliable ARQ Protocol",
+      "summary": "学什么：学习如何在 UDP 之上实现可靠传输，理解 ARQ 协议与拥塞控制机制\n适合谁：适合有一定 C 语言基础，想了解底层网络协议实现与可靠传输机制的入门开发者\n怎么读：先看头文件理解数据结构，再深入 ikcp.c 核心逻辑与定时器机制",
+      "stars": 16942,
+      "language": "C",
+      "topics": [
+        "accelerator",
+        "ack",
+        "arq",
+        "c",
+        "kcp",
+        "kcptun",
+        "low-latency",
+        "protocol",
+        "quic",
+        "rtc",
+        "rtt",
+        "socket",
+        "srt",
+        "tunnel",
+        "udp"
+      ],
+      "categories": [
+        "C"
+      ],
+      "platforms": [
+        "C"
+      ],
+      "pick": null,
+      "slot": null,
+      "kind": "learn",
+      "created_at": "2014-12-26",
       "first_date": "2026-10-23",
       "last_date": "2026-10-23",
       "dates": [
@@ -185,7 +238,7 @@
       "full_name": "Kludex/starlette",
       "url": "https://github.com/Kludex/starlette",
       "description": "The little ASGI framework that shines. 🌟",
-      "summary": "掌握 ASGI 协议规范、中间件链式处理机制以及依赖注入的设计模式\n适合希望理解 ASGI 协议、中间件机制以及 Python 异步编程最佳实践的中高级开发者\n建议从 `app.py` 入口开始，依次阅读 `routing.py` 路由解析和 `middleware.py` 中间件处理逻辑",
+      "summary": "掌握 ASGI 协议规范、异步 I/O 处理流程及中间件管道的构建方式\n适合希望深入理解 Python 异步 Web 开发原理及 ASGI 协议细节的后端开发者\n从核心应用类开始，逐步深入路由解析与中间件管道处理逻辑",
       "stars": 12682,
       "language": "Python",
       "topics": [
@@ -213,59 +266,26 @@
       "times": 1
     },
     {
-      "full_name": "lua/lua",
-      "url": "https://github.com/lua/lua",
-      "description": "A copy of the Lua development repository, as seen by the Lua team. Mirrored irregularly. All communication should be through the Lua mailing list https://www.lua.org/lua-l.html",
-      "summary": "深入理解 C 语言实现解释器的核心逻辑，掌握虚拟机栈操作与内存管理技巧\n适合想深入理解解释器原理、提升 C 语言编程能力或进行算法研究的开发者\n建议从 main 函数开始，顺着虚拟机核心逻辑与内存管理模块逐步深入",
-      "stars": 10392,
-      "language": "C",
-      "topics": [],
-      "categories": [
-        "C"
-      ],
-      "platforms": [
-        "C"
-      ],
-      "pick": null,
-      "slot": null,
-      "kind": "learn",
-      "created_at": "2012-09-14",
-      "first_date": "2026-10-23",
-      "last_date": "2026-10-23",
-      "dates": [
-        "2026-10-23"
-      ],
-      "times": 1
-    },
-    {
-      "full_name": "callstack/agent-device",
-      "url": "https://github.com/callstack/agent-device",
-      "description": "Mobile app automation and verification for AI coding agents. CLI, MCP server, and typed Node.js API for iOS, Android, HarmonyOS, TV, web, macOS, and Linux.",
-      "summary": "为 AI 编码代理提供跨平台移动应用自动化与验证能力\n适合需要自动化测试 React Native、Flutter 等移动应用的开发者\n支持 iOS、Android、鸿蒙等多平台，提供 CLI、MCP 服务器及 Node.js API",
-      "stars": 5124,
-      "language": "TypeScript",
+      "full_name": "xiaobaigroup/ClashBox",
+      "url": "https://github.com/xiaobaigroup/ClashBox",
+      "description": "HarmonyOS NEXT的代理软件",
+      "summary": "原始描述：HarmonyOS NEXT的代理软件\n\n（摘要生成失败，本次展示原文）",
+      "stars": 4639,
+      "language": "",
       "topics": [
-        "adb",
-        "agentic-ai",
-        "agents",
-        "ai-agents",
-        "android-emulator",
-        "automation",
-        "e2e-testing",
-        "expo",
-        "flutter",
-        "ios-simulator",
-        "mcp",
-        "mobile",
-        "mobile-testing",
-        "performance-optimization",
-        "react-native",
-        "testing",
-        "xcuitest"
+        "arkts",
+        "arkui",
+        "clash",
+        "flclash",
+        "harmonyos",
+        "harmonyos-next",
+        "proxy",
+        "vless",
+        "vpn",
+        "vpn-client"
       ],
       "categories": [
-        "鸿蒙",
-        "Linux"
+        "鸿蒙"
       ],
       "platforms": [
         "鸿蒙"
@@ -273,7 +293,7 @@
       "pick": "top",
       "slot": "鸿蒙",
       "kind": "search",
-      "created_at": "2026-01-30",
+      "created_at": "2025-02-22",
       "first_date": "2026-10-23",
       "last_date": "2026-10-23",
       "dates": [
@@ -282,91 +302,25 @@
       "times": 1
     },
     {
-      "full_name": "waligoraamodio288-rgb/hongguo-desktop-releases",
-      "url": "https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases",
-      "description": "红果短剧｜Windows 10/11 桌面版 + Android TV 测试版。真人剧、漫剧、AI 剧；电视 APK 4.08 MB，Android 5.0+ / ARM64，支持遥控、续播与换一部；免费使用，由渠道有数独立维护。",
-      "summary": "将红果短剧应用移植至 Windows 桌面和 Android TV 平台，支持多种类型短剧观看\n适合在 Windows 电脑或 Android TV 上免费观看真人剧、漫剧及 AI 剧的用户\n轻量级 TV 版本（4MB）支持遥控操作，近期涨星迅速",
-      "stars": 4439,
-      "language": "",
-      "topics": [
-        "ai-drama",
-        "android",
-        "android-tv",
-        "apk",
-        "arm64",
-        "desktop-app",
-        "hongguo",
-        "tv-app",
-        "video-player",
-        "windows"
-      ],
-      "categories": [
-        "Windows"
-      ],
-      "platforms": [
-        "Windows"
-      ],
-      "pick": "growth",
-      "slot": "Windows",
-      "kind": "search",
-      "created_at": "2026-09-14",
-      "first_date": "2026-10-23",
-      "last_date": "2026-10-23",
-      "dates": [
-        "2026-10-23"
-      ],
-      "times": 1
-    },
-    {
-      "full_name": "Chevey339/kelivo",
-      "url": "https://github.com/Chevey339/kelivo",
-      "description": "A Flutter LLM Chat Client. Support Mobile & Desktop.",
-      "summary": "解决什么：解决跨平台 LLM 聊天应用开发难题，支持移动端与桌面端\n适合谁：适合 Flutter 开发者及需要跨平台 AI 聊天应用的用户\n亮点：近期涨星最快，基于 Flutter 跨平台开发，支持鸿蒙系统",
-      "stars": 4300,
-      "language": "Dart",
-      "topics": [
-        "ai",
-        "android",
-        "chatbot",
-        "chatbox",
-        "flutter",
-        "flutter-apps",
-        "harmony",
-        "harmonyos",
-        "ios",
-        "llm",
-        "openharmony"
-      ],
-      "categories": [
-        "鸿蒙"
-      ],
-      "platforms": [
-        "鸿蒙"
-      ],
-      "pick": "growth",
-      "slot": "鸿蒙",
-      "kind": "search",
-      "created_at": "2025-08-29",
-      "first_date": "2026-10-23",
-      "last_date": "2026-10-23",
-      "dates": [
-        "2026-10-23"
-      ],
-      "times": 1
-    },
-    {
-      "full_name": "Leonxlnx/earshot",
-      "url": "https://github.com/Leonxlnx/earshot",
-      "description": "Ears for coding agents: let AI hear, review and make sound. CPU-only, open source.",
-      "summary": "使 AI 编码代理具备听觉能力，能够感知、审查并生成声音\n适合开发 Claude Code 等智能体或需要音频交互功能的开发者\nCPU 纯本地运行的开源音频能力，专为编码智能体设计",
-      "stars": 2360,
+      "full_name": "StartLuxLabs/StartLux-Decision",
+      "url": "https://github.com/StartLuxLabs/StartLux-Decision",
+      "description": "Open decision models from 0.8B to 27B: a calibrated probability for every option in one pass, and a short thought only when unsure. Engine for vLLM, llama.cpp and MLX.",
+      "summary": "解决什么：提供从 0.8B 到 27B 的开放决策模型，在单次通过中为每个选项提供校准概率\n适合谁：适合需要分类和决策制定的 AI 应用，支持 vLLM、llama.cpp 和 MLX 引擎\n亮点：仅在不确定时生成简短推理，支持多种推理引擎",
+      "stars": 1399,
       "language": "Python",
       "topics": [
-        "ai-agents",
-        "audio",
-        "claude-code",
-        "mcp",
-        "sound-design"
+        "agents",
+        "calibration",
+        "classification",
+        "decision-making",
+        "gguf",
+        "inference",
+        "llama-cpp",
+        "llm",
+        "mlx",
+        "open-weights",
+        "reasoning",
+        "vllm"
       ],
       "categories": [
         "AI"
@@ -377,7 +331,7 @@
       "pick": "ai",
       "slot": "AI",
       "kind": "search",
-      "created_at": "2026-10-15",
+      "created_at": "2026-09-29",
       "first_date": "2026-10-23",
       "last_date": "2026-10-23",
       "dates": [
@@ -386,23 +340,62 @@
       "times": 1
     },
     {
-      "full_name": "aicodeking/leanrea",
-      "url": "https://github.com/aicodeking/leanrea",
-      "description": "One 8 KB skill that replaces REA (Reverse Engineer Anything): plain CLI tools, no MCP. Benchmarked: 38% faster, 35% cheaper.",
-      "summary": "解决什么：通过一个简单的命令行工具实现任何逆向工程任务，无需复杂的图形界面\n适合谁：需要快速进行逆向工程分析的安全研究人员和开发者\n亮点：轻量级 CLI 工具，性能优越，极大简化逆向工程流程",
-      "stars": 1627,
+      "full_name": "AGenUI/AGenUI",
+      "url": "https://github.com/AGenUI/AGenUI",
+      "description": "Native A2UI Renderer for iOS/Android/HarmonyOS. High performance streaming Generative UI. Custom Components, Styles and more.",
+      "summary": "解决跨平台原生渲染高性能流式生成 UI 的问题\n适合需要开发高性能流式生成 UI 的 AI 应用或鸿蒙开发者\n近期涨星最快的鸿蒙项目，支持跨平台原生渲染与自定义组件",
+      "stars": 1208,
+      "language": "C++",
+      "topics": [
+        "a2ui",
+        "agent-ui",
+        "agenui",
+        "ai-agents",
+        "ai-generative-ui",
+        "cross-platform",
+        "generative-ui",
+        "harmonyos",
+        "llm-ui",
+        "native-rendering",
+        "native-ui",
+        "server-driven-ui",
+        "streaming-ui"
+      ],
+      "categories": [
+        "鸿蒙"
+      ],
+      "platforms": [
+        "鸿蒙"
+      ],
+      "pick": "growth",
+      "slot": "鸿蒙",
+      "kind": "search",
+      "created_at": "2026-03-22",
+      "first_date": "2026-10-23",
+      "last_date": "2026-10-23",
+      "dates": [
+        "2026-10-23"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "holjab/AutoMorph",
+      "url": "https://github.com/holjab/AutoMorph",
+      "description": "A self-hosted tool for automatically patching and distributing Android packages, built on Morphe Desktop.",
+      "summary": "解决什么：基于 Morphe Desktop 的自托管工具，用于自动修补和分发安卓应用包\n适合谁：需要批量处理和分发安卓应用包的管理员或开发者\n亮点：基于 Morphe Desktop，近期涨星速度最快的安卓自动化工具之一",
+      "stars": 110,
       "language": "Python",
       "topics": [],
       "categories": [
-        "Linux"
+        "安卓"
       ],
       "platforms": [
-        "Linux"
+        "安卓"
       ],
       "pick": "growth",
-      "slot": "Linux",
+      "slot": "安卓",
       "kind": "search",
-      "created_at": "2026-10-17",
+      "created_at": "2026-10-20",
       "first_date": "2026-10-23",
       "last_date": "2026-10-23",
       "dates": [
