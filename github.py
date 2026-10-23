@@ -116,13 +116,13 @@ BLOCK_DESC = re.compile(
     r"cve-\d{4}-\d+|exploit\s+(?:poc|research|code|chain)|"
     r"nsfw|porn|pornography|hentai|exhentai|nhentai|jmcomic|bika|18\+|adult.?content|"
     r"mod\s+(?:menu|apk|version)|modded\s+apk|cracked\s+apk|hacked\s+apk|premium\s+unlocked|"
-    r"unlimited\s+(?:coins|gems|money|diamonds)|free\s+download|official\s+installer|"
+    r"unlimited\s+(?:coins|gems|money|diamonds)|official\s+installer|"
     r"setup\s+guide|installation\s+guide|install\s+guide|how\s+to\s+install)(?![a-z0-9])",
     re.I,
 )
 BLOCK_DESC_CN = re.compile(
     r"破解|作弊|外挂|刷题|代刷|越狱|破甲|激活码|盗版|禁漫|里番|色情|成人漫画|18禁|"
-    r"修改版|无限金币|会员解锁|解锁会员|内置菜单|安装教程|下载安装|免费下载|官方下载"
+    r"修改版|无限金币|会员解锁|解锁会员|内置菜单|安装教程|下载安装|官方下载"
 )
 
 

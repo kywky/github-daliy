@@ -1,5 +1,6 @@
 import html
 import re
+from datetime import date
 
 
 LANG_COLORS = {
@@ -244,13 +245,23 @@ def _window_note() -> str:
     return " · ".join(parts)
 
 
+def _tab_cats(r: dict, tool_cats: tuple[str, ...]) -> list[str]:
+    if r.get("pick") == "ai":
+        return ["AI"]
+    slot = r.get("slot")
+    if r.get("pick") in ("top", "growth") and slot in tool_cats:
+        return [slot]
+    return r.get("categories") or []
+
+
 def render(repos: list[dict], window_end: str, comparison: str | None) -> str:
+    from github import CATEGORIES, TOOL_CATS
+
     cat_counts: dict[str, int] = {}
     for r in repos:
-        for c in r.get("categories", []):
+        for c in _tab_cats(r, TOOL_CATS):
             cat_counts[c] = cat_counts.get(c, 0) + 1
 
-    from github import CATEGORIES
     tab_categories = list(CATEGORIES.keys())
 
     tabs = [f'<button class="tab active" data-cat="all">全部 <span class="count">{len(repos)}</span></button>']
@@ -280,6 +291,10 @@ def render(repos: list[dict], window_end: str, comparison: str | None) -> str:
             speed_html = '<span class="speed neutral">经典可读</span>'
         elif pick == "top":
             speed_html = '<span class="speed top">人气榜</span>'
+        elif spd is None and pick == "growth" and r.get("created_at"):
+            days = max((date.fromisoformat(window_end) - date.fromisoformat(r["created_at"])).days, 1)
+            spd = r["stars"] / days
+            speed_html = f'<span class="speed">↑ {spd:g}★/天</span>'
         elif spd is None:
             speed_html = '<span class="speed neutral">新收录</span>'
         elif spd > 0:
@@ -293,7 +308,7 @@ def render(repos: list[dict], window_end: str, comparison: str | None) -> str:
         lang_color = LANG_COLORS.get(lang, "#94a3b8")
         topics = "".join(f'<span class="topic">#{html.escape(t)}</span>' for t in r["topics"][:6])
         desc_html = f'<div class="desc">{html.escape(r["description"])}</div>' if r.get("description") else ""
-        data_cats = ",".join(cats)
+        data_cats = ",".join(_tab_cats(r, TOOL_CATS))
 
         cards.append(f"""
 <article class="card" data-cats="{html.escape(data_cats)}">
@@ -339,6 +354,7 @@ def render(repos: list[dict], window_end: str, comparison: str | None) -> str:
       <span class="pill">{len(repos)} 个项目</span>
       <span class="pill">{speed_note}</span>
       <a class="pill" href="archive.html">历史存档 →</a>
+      <a class="pill" href="projects.html">项目总表 →</a>
     </div>
   </div>
 </header>
