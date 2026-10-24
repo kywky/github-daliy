@@ -1,8 +1,387 @@
 {
-  "generated_at": "2026-10-23T14:39:36.321909+00:00",
-  "total": 29,
-  "occurrences": 29,
+  "generated_at": "2026-10-24T04:14:51.531904+00:00",
+  "total": 39,
+  "occurrences": 40,
   "projects": [
+    {
+      "full_name": "2dust/v2rayN",
+      "url": "https://github.com/2dust/v2rayN",
+      "description": "A GUI client for Windows, Linux and macOS, support Xray and sing-box and others",
+      "summary": "为 Windows、Linux 和 macOS 提供图形化代理客户端，解决多协议配置繁琐的问题\n需要 GUI 管理多种代理协议（如 V2Ray、Xray）的 Windows 用户\n支持多种协议且在 Windows 平台上拥有极高人气",
+      "stars": 118955,
+      "language": "C#",
+      "topics": [
+        "proxy",
+        "shadowsocks",
+        "socks5",
+        "trojan",
+        "v2fly",
+        "v2ray",
+        "vless",
+        "vmess",
+        "windows",
+        "xray",
+        "xtls"
+      ],
+      "categories": [
+        "Windows"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "pick": "top",
+      "slot": "Windows",
+      "kind": "search",
+      "created_at": "2019-07-30",
+      "first_date": "2026-10-24",
+      "last_date": "2026-10-24",
+      "dates": [
+        "2026-10-24"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "google-gemini/gemini-cli",
+      "url": "https://github.com/google-gemini/gemini-cli",
+      "description": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
+      "summary": "将 Google Gemini 的强大 AI 能力直接带入终端，解决命令行环境下的 AI 辅助需求\n适合需要在命令行环境中快速调用 AI 能力或使用 MCP 协议的开发者\n开源 Gemini 命令行客户端，支持 MCP 协议，拥有极高的人气",
+      "stars": 107568,
+      "language": "TypeScript",
+      "topics": [
+        "ai",
+        "ai-agents",
+        "cli",
+        "gemini",
+        "gemini-api",
+        "mcp-client",
+        "mcp-server"
+      ],
+      "categories": [
+        "Linux"
+      ],
+      "platforms": [
+        "Linux"
+      ],
+      "pick": "top",
+      "slot": "Linux",
+      "kind": "search",
+      "created_at": "2025-04-17",
+      "first_date": "2026-10-24",
+      "last_date": "2026-10-24",
+      "dates": [
+        "2026-10-24"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "JunkFood02/Seal",
+      "url": "https://github.com/JunkFood02/Seal",
+      "description": "🦭 Video/Audio Downloader for Android, based on yt-dlp",
+      "summary": "帮助用户在安卓设备上下载 YouTube 等平台的视频和音频\n需要在安卓设备上下载视频和音频的普通用户\n基于 yt-dlp 强大后端，采用 Jetpack Compose 和 Material Design 打造的现代美观界面",
+      "stars": 29970,
+      "language": "Kotlin",
+      "topics": [
+        "android",
+        "f-droid",
+        "jetpack-compose",
+        "kotlin",
+        "material-design",
+        "youtube-dl",
+        "youtube-downloader",
+        "yt-dlp"
+      ],
+      "categories": [
+        "安卓"
+      ],
+      "platforms": [
+        "安卓"
+      ],
+      "pick": "top",
+      "slot": "安卓",
+      "kind": "search",
+      "created_at": "2022-04-15",
+      "first_date": "2026-10-24",
+      "last_date": "2026-10-24",
+      "dates": [
+        "2026-10-24"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "DuarteSantos8/openGym",
+      "url": "https://github.com/DuarteSantos8/openGym",
+      "description": "Open-source gym & body-weight tracker, now in the App Store (iPhone + Apple Watch) and as an Android APK. Plan routines, log workouts, see which muscles are trained, import from Strong/Hevy/FitNotes. Self-host it or use it on the phone alone.",
+      "summary": "原始描述：Open-source gym & body-weight tracker, now in the App Store (iPhone + Apple Watch) and as an Android APK. Plan routines, log workouts, see which muscles are trained, import from Strong/Hevy/FitNotes. Self-host it or use it on the phone alone.\n\n（摘要生成失败，本次展示原文）",
+      "stars": 15271,
+      "language": "JavaScript",
+      "topics": [
+        "apple-watch",
+        "bodyweight",
+        "docker",
+        "fitness",
+        "fitness-tracker",
+        "gym",
+        "health",
+        "ios",
+        "mcp",
+        "nodejs",
+        "passkeys",
+        "progressive-web-applications",
+        "pwa",
+        "react",
+        "self-hosted",
+        "self-hosting",
+        "vite",
+        "webauthn",
+        "weightlifting",
+        "workout-tracker"
+      ],
+      "categories": [
+        "安卓"
+      ],
+      "platforms": [
+        "安卓"
+      ],
+      "pick": "growth",
+      "slot": "安卓",
+      "kind": "search",
+      "created_at": "2026-07-18",
+      "first_date": "2026-10-24",
+      "last_date": "2026-10-24",
+      "dates": [
+        "2026-10-24"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "Kludex/starlette",
+      "url": "https://github.com/Kludex/starlette",
+      "description": "The little ASGI framework that shines. 🌟",
+      "summary": "深入理解 ASGI 协议规范与异步编程模型，掌握高性能 Web 框架的中间件设计模式\n适合有一定 Python 基础，想要深入理解 ASGI 协议或希望优化 Web 服务性能的后端开发者\n建议从 `routing.py` 入手理解路由机制，再深入 `middleware.py` 学习中间件实现",
+      "stars": 12684,
+      "language": "Python",
+      "topics": [
+        "asgi",
+        "async",
+        "http",
+        "python",
+        "websockets"
+      ],
+      "categories": [
+        "Python"
+      ],
+      "platforms": [
+        "Python"
+      ],
+      "pick": null,
+      "slot": null,
+      "kind": "learn",
+      "created_at": "2018-06-25",
+      "first_date": "2026-10-23",
+      "last_date": "2026-10-24",
+      "dates": [
+        "2026-10-24",
+        "2026-10-23"
+      ],
+      "times": 2
+    },
+    {
+      "full_name": "Tencent/libco",
+      "url": "https://github.com/Tencent/libco",
+      "description": "libco is a coroutine library which is widely used in wechat  back-end service. It has been running on tens of thousands of machines since 2013.",
+      "summary": "学什么：掌握用户态线程的上下文切换原理及栈管理机制\n适合谁：适合有一定 C++ 基础，想深入理解协程上下文切换原理的后端开发者\n怎么读：建议先阅读 `coctx_swap` 汇编实现，再深入理解协程的调度与切换逻辑",
+      "stars": 8693,
+      "language": "C++",
+      "topics": [],
+      "categories": [
+        "C"
+      ],
+      "platforms": [
+        "C"
+      ],
+      "pick": null,
+      "slot": null,
+      "kind": "learn",
+      "created_at": "2016-10-12",
+      "first_date": "2026-10-24",
+      "last_date": "2026-10-24",
+      "dates": [
+        "2026-10-24"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "Zitann/HarmonyOS-Haps",
+      "url": "https://github.com/Zitann/HarmonyOS-Haps",
+      "description": "⚡️鸿蒙Next Hap安装包合集，如果您觉得有帮助，还请点亮一下 Star 🌟 哦~ 万分感谢！",
+      "summary": "提供鸿蒙Next系统的HAP安装包合集，方便用户下载安装\n适合鸿蒙开发者及系统爱好者获取安装资源\n汇集了大量鸿蒙Next HAP资源，是当前人气最高的相关项目之一",
+      "stars": 3616,
+      "language": "Python",
+      "topics": [
+        "harmonyos",
+        "harmonyos-next"
+      ],
+      "categories": [
+        "鸿蒙"
+      ],
+      "platforms": [
+        "鸿蒙"
+      ],
+      "pick": "top",
+      "slot": "鸿蒙",
+      "kind": "search",
+      "created_at": "2024-11-15",
+      "first_date": "2026-10-24",
+      "last_date": "2026-10-24",
+      "dates": [
+        "2026-10-24"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "xevrion/hatchzip",
+      "url": "https://github.com/xevrion/hatchzip",
+      "description": "Extract huge archives in place: the archive shrinks as your files hatch, so you only need room for the output. ZIP, 7z, tar, split archives.",
+      "summary": "解决什么：允许在原地解压大文件，无需额外磁盘空间\n适合谁：适合磁盘空间有限但需解压超大压缩包的用户\n亮点：支持 ZIP/TAR/7z 等多种格式，具备崩溃安全特性，边解压边释放空间",
+      "stars": 1087,
+      "language": "Rust",
+      "topics": [
+        "7z",
+        "archive",
+        "cli",
+        "crash-safe",
+        "disk-space",
+        "extract",
+        "extractor",
+        "gui",
+        "rust",
+        "tar",
+        "unzip",
+        "zip"
+      ],
+      "categories": [
+        "Linux"
+      ],
+      "platforms": [
+        "Linux"
+      ],
+      "pick": "growth",
+      "slot": "Linux",
+      "kind": "search",
+      "created_at": "2026-10-21",
+      "first_date": "2026-10-24",
+      "last_date": "2026-10-24",
+      "dates": [
+        "2026-10-24"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "Revivedx/SavageWindRecomp",
+      "url": "https://github.com/Revivedx/SavageWindRecomp",
+      "description": "Work-in-progress static recompilation of The Legend of Zelda: Breath of the Wild (Switch, v1.8.2) for Windows and Linux. Bring your own dump: no game files, keys or dumping tools included.",
+      "summary": "解决什么：将《塞尔达传说：旷野之息》在 Windows 和 Linux 上进行静态重编译移植\n适合谁：适合希望在 PC 端运行该游戏的玩家\n亮点：近期涨星最快的 Switch 游戏重编译项目，需自行提供游戏文件",
+      "stars": 1086,
+      "language": "C",
+      "topics": [],
+      "categories": [
+        "Linux",
+        "Windows"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "pick": "growth",
+      "slot": "Windows",
+      "kind": "search",
+      "created_at": "2026-10-16",
+      "first_date": "2026-10-24",
+      "last_date": "2026-10-24",
+      "dates": [
+        "2026-10-24"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "opensec-git/Pi-Bolt",
+      "url": "https://github.com/opensec-git/Pi-Bolt",
+      "description": "⚡ Pi, the coding agent, compiled ahead of time to one native executable. 10× faster to start, 7× less CPU and 4.5× less memory than Pi on Node. Linux, macOS, Windows, ARM64 and Android (Termux).",
+      "summary": "将 Pi 编码代理编译为原生可执行文件，解决启动慢、资源占用高的问题\n适合在 Linux、macOS、Windows、Android Termux 等多平台运行 AI 编码代理的开发者\nAOT 编译为原生可执行文件，启动快 10 倍，资源占用大幅降低",
+      "stars": 477,
+      "language": "TypeScript",
+      "topics": [
+        "ahead-of-time",
+        "ai-agent",
+        "ai-coding-assistant",
+        "android",
+        "arm64",
+        "bun",
+        "cli",
+        "coding-agent",
+        "developer-tools",
+        "linux",
+        "llm",
+        "macos",
+        "performance",
+        "pi",
+        "pi-coding-agent",
+        "terminal",
+        "termux",
+        "typescript",
+        "windows"
+      ],
+      "categories": [
+        "安卓",
+        "Linux",
+        "AI"
+      ],
+      "platforms": [
+        "AI"
+      ],
+      "pick": "ai",
+      "slot": "AI",
+      "kind": "search",
+      "created_at": "2026-10-02",
+      "first_date": "2026-10-24",
+      "last_date": "2026-10-24",
+      "dates": [
+        "2026-10-24"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "LZZLHY/amcl",
+      "url": "https://github.com/LZZLHY/amcl",
+      "description": "AMCL — 首款鸿蒙版全量Java版我的世界启动器",
+      "summary": "解决什么：首款在鸿蒙系统上运行全量Java版我的世界的启动器，填补了生态空白\n适合谁：鸿蒙系统用户及Minecraft玩家\n亮点：作为首款全量Java版启动器，近期涨星速度极快",
+      "stars": 121,
+      "language": "C++",
+      "topics": [
+        "arkts",
+        "harmony-next",
+        "harmonyos",
+        "launcher",
+        "minecraft",
+        "mobileglues",
+        "openjdk"
+      ],
+      "categories": [
+        "鸿蒙"
+      ],
+      "platforms": [
+        "鸿蒙"
+      ],
+      "pick": "growth",
+      "slot": "鸿蒙",
+      "kind": "search",
+      "created_at": "2026-05-09",
+      "first_date": "2026-10-24",
+      "last_date": "2026-10-24",
+      "dates": [
+        "2026-10-24"
+      ],
+      "times": 1
+    },
     {
       "full_name": "yt-dlp/yt-dlp",
       "url": "https://github.com/yt-dlp/yt-dlp",
@@ -227,37 +606,6 @@
       "slot": null,
       "kind": "learn",
       "created_at": "2014-12-26",
-      "first_date": "2026-10-23",
-      "last_date": "2026-10-23",
-      "dates": [
-        "2026-10-23"
-      ],
-      "times": 1
-    },
-    {
-      "full_name": "Kludex/starlette",
-      "url": "https://github.com/Kludex/starlette",
-      "description": "The little ASGI framework that shines. 🌟",
-      "summary": "掌握 ASGI 协议规范、异步 I/O 处理流程及中间件管道的构建方式\n适合希望深入理解 Python 异步 Web 开发原理及 ASGI 协议细节的后端开发者\n从核心应用类开始，逐步深入路由解析与中间件管道处理逻辑",
-      "stars": 12682,
-      "language": "Python",
-      "topics": [
-        "asgi",
-        "async",
-        "http",
-        "python",
-        "websockets"
-      ],
-      "categories": [
-        "Python"
-      ],
-      "platforms": [
-        "Python"
-      ],
-      "pick": null,
-      "slot": null,
-      "kind": "learn",
-      "created_at": "2018-06-25",
       "first_date": "2026-10-23",
       "last_date": "2026-10-23",
       "dates": [
