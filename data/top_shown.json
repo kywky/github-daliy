@@ -9,9 +9,13 @@
   "google-gemini/gemini-cli": "2026-10-24",
   "laurent22/joplin": "2026-10-23",
   "microsoft/PowerToys": "2026-10-23",
+  "microsoft/terminal": "2026-10-25",
   "morluto/rea": "2026-10-23",
   "n8n-io/n8n": "2026-10-23",
+  "nihui/opencv-mobile": "2026-10-25",
+  "pppscn/SmsForwarder": "2026-10-25",
   "rustdesk/rustdesk": "2026-10-23",
+  "sherlock-project/sherlock": "2026-10-25",
   "termux/termux-app": "2026-10-23",
   "xiaobaigroup/ClashBox": "2026-10-23",
   "yt-dlp/yt-dlp": "2026-10-23"
