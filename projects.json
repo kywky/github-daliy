@@ -1,8 +1,436 @@
 {
-  "generated_at": "2026-10-25T04:27:02.615539+00:00",
-  "total": 49,
-  "occurrences": 51,
+  "generated_at": "2026-10-26T04:21:17.144959+00:00",
+  "total": 57,
+  "occurrences": 62,
   "projects": [
+    {
+      "full_name": "OpenHands/OpenHands",
+      "url": "https://github.com/OpenHands/OpenHands",
+      "description": "🙌 OpenHands: AI-Driven Development",
+      "summary": "利用大语言模型自动化软件开发任务，解决繁琐的编码工作\n适合希望通过 AI 智能体辅助完成代码编写和调试的开发者\n支持 ChatGPT 和 Claude 等多种大模型，提供强大的 AI 开发辅助能力",
+      "stars": 91854,
+      "language": "TypeScript",
+      "topics": [
+        "agent",
+        "artificial-intelligence",
+        "chatgpt",
+        "claude-ai",
+        "cli",
+        "developer-tools",
+        "gpt",
+        "llm",
+        "openai"
+      ],
+      "categories": [
+        "Linux"
+      ],
+      "platforms": [
+        "Linux"
+      ],
+      "pick": "top",
+      "slot": "Linux",
+      "kind": "search",
+      "created_at": "2024-03-13",
+      "first_date": "2026-10-26",
+      "last_date": "2026-10-26",
+      "dates": [
+        "2026-10-26"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "ventoy/Ventoy",
+      "url": "https://github.com/ventoy/Ventoy",
+      "description": "A new bootable USB solution.",
+      "summary": "解决传统 U 盘制作繁琐、无法直接挂载 ISO 文件进行多系统引导的问题\n适合需要制作多系统启动盘、进行系统安装或维护的技术人员及普通用户\n支持直接拖拽 ISO 文件到 U 盘即可引导，无需格式化，兼容多系统架构",
+      "stars": 80351,
+      "language": "C",
+      "topics": [
+        "arm64",
+        "auto-install",
+        "bootable-usb",
+        "bsd",
+        "chromeos",
+        "iso-files",
+        "legacy",
+        "linux",
+        "multiboot",
+        "persistence",
+        "secure-boot",
+        "uefi",
+        "unattended",
+        "unix",
+        "usb",
+        "windows",
+        "x86",
+        "x86-64"
+      ],
+      "categories": [
+        "Linux",
+        "Windows"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "pick": "top",
+      "slot": "Windows",
+      "kind": "search",
+      "created_at": "2020-03-10",
+      "first_date": "2026-10-26",
+      "last_date": "2026-10-26",
+      "dates": [
+        "2026-10-26"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "boykopovar/AnyPS5",
+      "url": "https://github.com/boykopovar/AnyPS5",
+      "description": "Tool for automatic PS5 executables porting to Linux and Windows",
+      "summary": "自动将 PS5 可执行文件移植到 Linux 和 Windows 平台\n旨在让 Linux 和 Windows 用户在 PC 上运行 PS5 游戏\n近期涨星最快的 PS5 游戏移植工具",
+      "stars": 48294,
+      "language": "C++",
+      "topics": [
+        "anyps5",
+        "dynamic-library",
+        "game-porting",
+        "ps5",
+        "ps5-tools",
+        "spir-v",
+        "vulkan"
+      ],
+      "categories": [
+        "Linux",
+        "Windows"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "pick": "growth",
+      "slot": "Windows",
+      "kind": "search",
+      "created_at": "2026-08-03",
+      "first_date": "2026-10-26",
+      "last_date": "2026-10-26",
+      "dates": [
+        "2026-10-26"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "BeyondDimension/SteamTools",
+      "url": "https://github.com/BeyondDimension/SteamTools",
+      "description": "🛠「Watt Toolkit」是一个开源跨平台的多功能 Steam 工具箱。",
+      "summary": "解决 Steam 平台功能缺失及体验优化问题，提供一站式多功能工具箱\n适合需要跨平台优化 Steam 体验、追求功能丰富的玩家用户\n基于 Avalonia 开发的开源跨平台工具，功能全面且社区热度极高",
+      "stars": 27284,
+      "language": "C#",
+      "topics": [
+        "android-app",
+        "avalonia",
+        "avaloniaui",
+        "cross-platform",
+        "crossplatform",
+        "csharp",
+        "dotnet",
+        "dotnetcore",
+        "ios-app",
+        "linux-app",
+        "macos-app",
+        "mvvm",
+        "steam",
+        "steamtools",
+        "windows-app",
+        "wpf",
+        "xaml"
+      ],
+      "categories": [
+        "安卓",
+        "Windows"
+      ],
+      "platforms": [
+        "安卓"
+      ],
+      "pick": "top",
+      "slot": "安卓",
+      "kind": "search",
+      "created_at": "2020-12-15",
+      "first_date": "2026-10-26",
+      "last_date": "2026-10-26",
+      "dates": [
+        "2026-10-26"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "Kludex/starlette",
+      "url": "https://github.com/Kludex/starlette",
+      "description": "The little ASGI framework that shines. 🌟",
+      "summary": "学什么：理解 ASGI 框架设计，学习异步编程中路由与中间件的应用\n适合谁：Python 中级开发者，对 Web 框架和异步编程感兴趣\n怎么读：先阅读核心路由和中间件模块，再逐步深入其他功能",
+      "stars": 12685,
+      "language": "Python",
+      "topics": [
+        "asgi",
+        "async",
+        "http",
+        "python",
+        "websockets"
+      ],
+      "categories": [
+        "Python"
+      ],
+      "platforms": [
+        "Python"
+      ],
+      "pick": null,
+      "slot": null,
+      "kind": "learn",
+      "created_at": "2018-06-25",
+      "first_date": "2026-10-23",
+      "last_date": "2026-10-26",
+      "dates": [
+        "2026-10-26",
+        "2026-10-25",
+        "2026-10-24",
+        "2026-10-23"
+      ],
+      "times": 4
+    },
+    {
+      "full_name": "KnifeLemon/Filee",
+      "url": "https://github.com/KnifeLemon/Filee",
+      "description": "Free, open-source file converter. Convert 263 formats offline by drag & drop — images, PDF, Word, Excel, PowerPoint, HWP/HWPX, video, audio, e-books and archives. No upload, no Office needed.",
+      "summary": "解决什么：一个免费开源的文件转换工具，支持离线转换263种格式，无需上传文件或安装Office\n适合谁：需要跨平台进行多种文件格式转换的用户，尤其适合Linux和Windows系统用户\n亮点：支持拖放操作，无需上传文件，转换格式丰富",
+      "stars": 12407,
+      "language": "C#",
+      "topics": [
+        "audio-converter",
+        "avalonia",
+        "batch-conversion",
+        "converter",
+        "csharp",
+        "document-converter",
+        "docx-to-pdf",
+        "dotnet",
+        "drag-and-drop",
+        "file-conversion",
+        "file-converter",
+        "heic-converter",
+        "hwp",
+        "hwpx",
+        "image-converter",
+        "linux",
+        "macos",
+        "pdf-converter",
+        "video-converter",
+        "windows"
+      ],
+      "categories": [
+        "Linux",
+        "Windows"
+      ],
+      "platforms": [
+        "Linux"
+      ],
+      "pick": "growth",
+      "slot": "Linux",
+      "kind": "search",
+      "created_at": "2026-09-29",
+      "first_date": "2026-10-21",
+      "last_date": "2026-10-26",
+      "dates": [
+        "2026-10-26",
+        "2026-10-21"
+      ],
+      "times": 2
+    },
+    {
+      "full_name": "doctest/doctest",
+      "url": "https://github.com/doctest/doctest",
+      "description": "The fastest feature-rich C++11/14/17/20/23 single-header testing framework",
+      "summary": "学什么：能学到C++宏和模板的高级用法，以及如何设计轻量级、功能丰富的库\n适合谁：适合有一定C++基础，想深入理解语言特性并希望构建类似工具的开发者\n怎么读：先从框架的宏和模板实现入手，逐步理解其测试机制和扩展方式",
+      "stars": 6901,
+      "language": "C++",
+      "topics": [
+        "c-plus-plus",
+        "cpp",
+        "cpp11",
+        "cpp14",
+        "cpp17",
+        "cpp20",
+        "cpp23",
+        "doctest",
+        "header-only",
+        "single-file",
+        "tdd",
+        "testing",
+        "testing-framework",
+        "unit-testing"
+      ],
+      "categories": [
+        "C++"
+      ],
+      "platforms": [
+        "C++"
+      ],
+      "pick": null,
+      "slot": null,
+      "kind": "learn",
+      "created_at": "2014-08-05",
+      "first_date": "2026-10-26",
+      "last_date": "2026-10-26",
+      "dates": [
+        "2026-10-26"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "reactnativecn/react-native-update",
+      "url": "https://github.com/reactnativecn/react-native-update",
+      "description": "🚀 Blazing fast hot updates (OTA) for React Native — Hermes-optimized diff patches, crash rollback, staged rollout. A CodePush alternative for iOS / Android / HarmonyOS.",
+      "summary": "解决 React Native 应用极速 OTA 热更新、崩溃回滚及分阶段发布的问题\n适合需要 CodePush 替代方案、支持 iOS/Android/HarmonyOS 的 React Native 开发者\n支持 Hermes 优化的差异补丁，提供 CodePush 的多平台替代方案",
+      "stars": 1985,
+      "language": "TypeScript",
+      "topics": [
+        "codepush",
+        "codepush-alternative",
+        "expo",
+        "harmonyos",
+        "hermes",
+        "hot-update",
+        "hotfix",
+        "ota",
+        "over-the-air",
+        "react-native"
+      ],
+      "categories": [
+        "鸿蒙"
+      ],
+      "platforms": [
+        "鸿蒙"
+      ],
+      "pick": "top",
+      "slot": "鸿蒙",
+      "kind": "search",
+      "created_at": "2016-02-06",
+      "first_date": "2026-10-26",
+      "last_date": "2026-10-26",
+      "dates": [
+        "2026-10-26"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "rddmwmddr/android-ad-cleaner",
+      "url": "https://github.com/rddmwmddr/android-ad-cleaner",
+      "description": "关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。",
+      "summary": "解决国产安卓手机系统内广告、热搜及营销推送泛滥的问题\n适合不想 root 且希望一键还原纯净系统的安卓用户\n支持 AI 智能体一键执行，无需 root 即可深度去广告",
+      "stars": 1017,
+      "language": "Python",
+      "topics": [
+        "adb",
+        "ai-agent",
+        "android",
+        "coloros",
+        "debloat",
+        "hyperos",
+        "magicos",
+        "originos"
+      ],
+      "categories": [
+        "安卓"
+      ],
+      "platforms": [
+        "安卓"
+      ],
+      "pick": "growth",
+      "slot": "安卓",
+      "kind": "search",
+      "created_at": "2026-10-24",
+      "first_date": "2026-10-26",
+      "last_date": "2026-10-26",
+      "dates": [
+        "2026-10-26"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "lkimuk/ReArk",
+      "url": "https://github.com/lkimuk/ReArk",
+      "description": "An intelligent reverse engineering and AI-assisted analysis tool for HarmonyOS NEXT (HAP/APP/ABC), Android (APK/AAB), iOS (IPA), and native PE/ELF/Mach-O binaries.",
+      "summary": "解决 HarmonyOS NEXT、Android、iOS 等多平台二进制文件智能逆向与 AI 辅助分析难题\n适合安全研究人员、逆向工程师及恶意软件分析师\n鸿蒙生态近期涨星最快的工具，支持多平台二进制分析与 AI 辅助",
+      "stars": 732,
+      "language": "C++",
+      "topics": [
+        "aab",
+        "abc",
+        "agentic-workflow",
+        "ai-agent",
+        "ai-analysis",
+        "android",
+        "apk",
+        "binary-analysis",
+        "decompiler",
+        "disassembler",
+        "hap",
+        "harmonyos",
+        "harmonyos-next",
+        "malware-analysis",
+        "reverse-engineering",
+        "security-tools",
+        "static-analysis"
+      ],
+      "categories": [
+        "鸿蒙"
+      ],
+      "platforms": [
+        "鸿蒙"
+      ],
+      "pick": "growth",
+      "slot": "鸿蒙",
+      "kind": "search",
+      "created_at": "2026-05-29",
+      "first_date": "2026-10-21",
+      "last_date": "2026-10-26",
+      "dates": [
+        "2026-10-26",
+        "2026-10-21"
+      ],
+      "times": 2
+    },
+    {
+      "full_name": "chenxiachan/textfold",
+      "url": "https://github.com/chenxiachan/textfold",
+      "description": "Fold papers, web pages, files, and AI replies into five levels of detail. Zoom from an overview to the original text.",
+      "summary": "解决什么：将论文、网页、文件和 AI 回复折叠成五个详细级别，从概览到原始文本进行缩放\n适合谁：研究人员、学生和开发者，需要快速浏览和理解大量文本信息\n亮点：提供独特的语义缩放功能，方便用户高效阅读和分析研究资料",
+      "stars": 688,
+      "language": "Python",
+      "topics": [
+        "arxiv",
+        "llm",
+        "local-first",
+        "open-source",
+        "paper-reader",
+        "research-papers",
+        "semantic-zoom",
+        "translation"
+      ],
+      "categories": [
+        "AI"
+      ],
+      "platforms": [
+        "AI"
+      ],
+      "pick": "ai",
+      "slot": "AI",
+      "kind": "search",
+      "created_at": "2026-10-04",
+      "first_date": "2026-10-26",
+      "last_date": "2026-10-26",
+      "dates": [
+        "2026-10-26"
+      ],
+      "times": 1
+    },
     {
       "full_name": "microsoft/terminal",
       "url": "https://github.com/microsoft/terminal",
@@ -180,39 +608,6 @@
         "2026-10-25"
       ],
       "times": 1
-    },
-    {
-      "full_name": "Kludex/starlette",
-      "url": "https://github.com/Kludex/starlette",
-      "description": "The little ASGI framework that shines. 🌟",
-      "summary": "掌握 ASGI 协议规范、异步上下文管理及中间件链式处理机制\n适合有一定 Python 基础，想深入了解 Web 框架底层实现或正在学习 FastAPI 的开发者\n建议从 `middleware.py` 和 `routing.py` 入手，再阅读 `app.py` 了解整体架构",
-      "stars": 12682,
-      "language": "Python",
-      "topics": [
-        "asgi",
-        "async",
-        "http",
-        "python",
-        "websockets"
-      ],
-      "categories": [
-        "Python"
-      ],
-      "platforms": [
-        "Python"
-      ],
-      "pick": null,
-      "slot": null,
-      "kind": "learn",
-      "created_at": "2018-06-25",
-      "first_date": "2026-10-23",
-      "last_date": "2026-10-25",
-      "dates": [
-        "2026-10-25",
-        "2026-10-24",
-        "2026-10-23"
-      ],
-      "times": 3
     },
     {
       "full_name": "nihui/opencv-mobile",
@@ -1573,54 +1968,6 @@
       "times": 1
     },
     {
-      "full_name": "KnifeLemon/Filee",
-      "url": "https://github.com/KnifeLemon/Filee",
-      "description": "Free, open-source file converter. Convert 255 formats offline by drag & drop — images, PDF, Word, Excel, PowerPoint, HWP/HWPX, video, audio, e-books and archives. No upload, no Office needed.",
-      "summary": "这是一个免费开源的离线文件转换工具，支持拖拽操作，无需上传即可转换包括文档、音视频、图片等在内的255种格式。\n适合需要在本地快速批量转换文件、无需安装Office软件且注重隐私的用户。\n基于 Avalonia 开发，支持255种格式且无需安装Office即可离线转换。",
-      "stars": 8873,
-      "language": "C#",
-      "topics": [
-        "audio-converter",
-        "avalonia",
-        "batch-conversion",
-        "converter",
-        "csharp",
-        "document-converter",
-        "docx-to-pdf",
-        "dotnet",
-        "drag-and-drop",
-        "file-conversion",
-        "file-converter",
-        "heic-converter",
-        "hwp",
-        "hwpx",
-        "image-converter",
-        "linux",
-        "macos",
-        "pdf-converter",
-        "video-converter",
-        "windows"
-      ],
-      "categories": [
-        "Linux",
-        "Windows"
-      ],
-      "platforms": [
-        "Linux",
-        "Windows"
-      ],
-      "pick": null,
-      "slot": null,
-      "kind": "search",
-      "created_at": "2026-09-29",
-      "first_date": "2026-10-21",
-      "last_date": "2026-10-21",
-      "dates": [
-        "2026-10-21"
-      ],
-      "times": 1
-    },
-    {
       "full_name": "qingjian-team/qingjian",
       "url": "https://github.com/qingjian-team/qingjian",
       "description": "青简 Qingjian：用 Rust 写的拼音输入法，候选词旁多一条正在学的语言的译词",
@@ -1761,49 +2108,6 @@
       "slot": null,
       "kind": "search",
       "created_at": "2026-08-05",
-      "first_date": "2026-10-21",
-      "last_date": "2026-10-21",
-      "dates": [
-        "2026-10-21"
-      ],
-      "times": 1
-    },
-    {
-      "full_name": "lkimuk/ReArk",
-      "url": "https://github.com/lkimuk/ReArk",
-      "description": "An intelligent reverse engineering and AI-assisted analysis tool for HarmonyOS NEXT (HAP/APP/ABC), Android (APK/AAB), iOS (IPA), and native PE/ELF/Mach-O binaries.",
-      "summary": "针对鸿蒙 NEXT、Android、iOS 及原生二进制文件的智能逆向工程与 AI 辅助分析\n适合安全研究人员、逆向工程师及恶意软件分析师使用\n集成 AI 技术支持多平台二进制文件（HAP/APK/IPA）的智能分析与反编译",
-      "stars": 716,
-      "language": "C++",
-      "topics": [
-        "aab",
-        "abc",
-        "agentic-workflow",
-        "ai-agent",
-        "ai-analysis",
-        "android",
-        "apk",
-        "binary-analysis",
-        "decompiler",
-        "disassembler",
-        "hap",
-        "harmonyos",
-        "harmonyos-next",
-        "malware-analysis",
-        "reverse-engineering",
-        "security-tools",
-        "static-analysis"
-      ],
-      "categories": [
-        "鸿蒙"
-      ],
-      "platforms": [
-        "鸿蒙"
-      ],
-      "pick": null,
-      "slot": null,
-      "kind": "search",
-      "created_at": "2026-05-29",
       "first_date": "2026-10-21",
       "last_date": "2026-10-21",
       "dates": [

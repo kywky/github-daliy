@@ -1,0 +1,405 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://github.com">
+<link rel="dns-prefetch" href="https://github.com">
+<title>GitHub 每日精选 · 2026-10-26</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+:root {
+  --ink: #0b1220;
+  --muted: #64748b;
+  --line: #e6e8ee;
+  --accent: #4f46e5;
+  --bg: #f5f6fa;
+}
+html { scroll-behavior: smooth; }
+body {
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC",
+               "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  background: var(--bg);
+  color: var(--ink);
+  -webkit-font-smoothing: antialiased;
+  min-height: 100vh;
+}
+.wrap { max-width: 1080px; margin: 0 auto; padding: 0 20px; }
+
+/* hero */
+.hero {
+  background:
+    radial-gradient(1200px 400px at 15% -20%, rgba(139,92,246,.55), transparent 60%),
+    radial-gradient(900px 300px at 110% 10%, rgba(236,72,153,.45), transparent 55%),
+    linear-gradient(135deg, #0f172a 0%, #1e1b4b 60%, #312e81 100%);
+  color: #fff;
+  padding: 52px 0 76px;
+}
+.hero .eyebrow {
+  font-size: 12px; letter-spacing: .16em; text-transform: uppercase;
+  color: #a5b4fc; font-weight: 600; margin-bottom: 14px;
+}
+.hero h1 { font-size: 40px; font-weight: 800; letter-spacing: -1px; line-height: 1.1; }
+.hero h1 .grad {
+  background: linear-gradient(90deg, #c4b5fd, #f0abfc, #fda4af);
+  -webkit-background-clip: text; background-clip: text; color: transparent;
+}
+.hero .lead { color: #c7d2fe; font-size: 15px; margin-top: 14px; max-width: 620px; line-height: 1.7; }
+.hero .meta { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 22px; }
+.pill {
+  font-size: 12px; padding: 6px 12px; border-radius: 999px;
+  background: rgba(255,255,255,.07); border: 1px solid rgba(255,255,255,.14);
+  color: #e0e7ff; backdrop-filter: blur(6px);
+}
+a.pill { text-decoration: none; transition: background .15s ease, border-color .15s ease; }
+a.pill:hover { background: rgba(255,255,255,.14); border-color: rgba(255,255,255,.28); }
+
+/* tabs */
+.tabbar-wrap { position: relative; margin-top: -34px; z-index: 2; }
+.tabbar {
+  display: flex; gap: 6px; padding: 6px; background: #fff; border-radius: 14px;
+  border: 1px solid var(--line); overflow-x: auto; scrollbar-width: none;
+  box-shadow: 0 10px 30px -18px rgba(15,23,42,.35);
+}
+.tabbar::-webkit-scrollbar { display: none; }
+.tab {
+  flex: 0 0 auto; border: 0; background: transparent; color: #475569;
+  font: inherit; font-size: 13.5px; font-weight: 600; padding: 9px 16px;
+  border-radius: 10px; cursor: pointer; display: inline-flex; align-items: center; gap: 7px;
+  white-space: nowrap;
+  transition: background .15s ease, color .15s ease;
+}
+.tab:hover { background: #f1f5f9; color: var(--ink); }
+.tab.active { background: #0f172a; color: #fff; }
+.tab .count {
+  font-size: 11px; padding: 1px 7px; border-radius: 999px;
+  background: rgba(148,163,184,.22); color: inherit;
+}
+.tab.active .count { background: rgba(255,255,255,.18); }
+.dot { width: 8px; height: 8px; border-radius: 50%; display: inline-block; }
+
+/* cards */
+main { padding: 30px 0 10px; }
+.grid { display: grid; gap: 18px; grid-template-columns: 1fr; }
+@media (min-width: 820px) { .grid { grid-template-columns: 1fr 1fr; } }
+.card {
+  background: #fff; border: 1px solid var(--line); border-radius: 16px;
+  padding: 20px 20px 16px; display: flex; flex-direction: column;
+  box-shadow: 0 1px 2px rgba(15,23,42,.03), 0 12px 28px -22px rgba(15,23,42,.22);
+  transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+}
+.card:hover {
+  transform: translateY(-3px); border-color: #d8dbf0;
+  box-shadow: 0 2px 4px rgba(15,23,42,.04), 0 22px 40px -24px rgba(49,46,129,.35);
+}
+.card-head { display: flex; align-items: center; gap: 8px; margin-bottom: 12px; }
+.rank {
+  flex: 0 0 auto; width: 30px; height: 30px; border-radius: 9px;
+  display: grid; place-items: center; font-size: 13px; font-weight: 800;
+  background: #f1f5f9; color: #64748b;
+}
+.rank.r1 { background: linear-gradient(140deg, #fbbf24, #f59e0b); color: #fff; }
+.rank.r2 { background: linear-gradient(140deg, #cbd5e1, #94a3b8); color: #fff; }
+.rank.r3 { background: linear-gradient(140deg, #fdba74, #ea580c); color: #fff; }
+.cats { display: flex; flex-wrap: wrap; gap: 5px; flex: 1; min-width: 0; }
+.cat {
+  font-size: 10.5px; font-weight: 700; letter-spacing: .02em;
+  padding: 3px 9px; border-radius: 999px; color: #fff; white-space: nowrap;
+}
+.speed {
+  font-size: 12px; font-weight: 700; padding: 3px 9px; border-radius: 999px;
+  background: #ecfdf5; color: #047857; white-space: nowrap;
+}
+.speed.neutral { background: #f1f5f9; color: #64748b; }
+.speed.top { background: #fffbeb; color: #b45309; }
+.title { font-size: 18px; font-weight: 700; line-height: 1.35; margin-bottom: 6px; word-break: break-word; }
+.title a { color: var(--ink); text-decoration: none; }
+.title a:hover { color: var(--accent); }
+.title .owner { color: #94a3b8; font-weight: 500; }
+.desc { font-size: 13px; line-height: 1.6; color: var(--muted); margin-bottom: 12px; }
+
+.summary {
+  background: #f8fafc; border: 1px solid #eef2f7; border-left: 3px solid var(--accent);
+  border-radius: 10px; padding: 12px 14px; font-size: 13px; line-height: 1.75;
+  color: #334155; flex: 1;
+}
+.summary ul { list-style: none; padding: 0; margin: 0; display: grid; gap: 6px; }
+.summary li { position: relative; padding-left: 18px; }
+.summary li::before {
+  content: ''; position: absolute; left: 3px; top: .62em; width: 5px; height: 5px;
+  border-radius: 50%; background: #c7d2fe;
+}
+.summary strong { color: var(--ink); font-weight: 700; }
+.summary p { margin: 0; }
+
+.card-foot {
+  display: flex; align-items: center; justify-content: space-between; gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 14px; padding-top: 12px; border-top: 1px solid #f1f5f9;
+  font-size: 12px; color: var(--muted);
+}
+.lang { display: inline-flex; align-items: center; gap: 6px; min-width: 0; }
+.lang-dot { width: 9px; height: 9px; border-radius: 50%; flex: 0 0 auto; }
+.foot-right { display: flex; align-items: center; gap: 10px; margin-left: auto; }
+.stars { font-weight: 700; color: #475569; white-space: nowrap; }
+.gh-link {
+  color: var(--accent); text-decoration: none; font-weight: 700; font-size: 12.5px;
+  padding: 5px 10px; border-radius: 8px; background: #eef2ff; white-space: nowrap;
+  transition: background .15s ease;
+}
+.gh-link:hover { background: #e0e7ff; }
+
+.topics { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 10px; }
+.topic {
+  font-size: 10.5px; color: #64748b; background: #f8fafc; border: 1px solid #eef2f7;
+  padding: 2px 7px; border-radius: 6px;
+}
+
+.empty { text-align: center; padding: 70px 20px; color: var(--muted); font-size: 14px; }
+footer { padding: 34px 20px 40px; text-align: center; color: #94a3b8; font-size: 12px; }
+footer .sep { margin: 0 8px; }
+</style>
+</head>
+<body>
+<!-- archive-banner -->
+<div style="background:#0f172a;color:#cbd5e1;font-size:13px;text-align:center;padding:10px 16px;line-height:1.6">2026-10-26 存档 · <a href="../index.html" style="color:#c7d2fe;font-weight:600">回到今天</a><span style="color:#475569;margin:0 8px">/</span><a href="../projects.html" style="color:#c7d2fe;font-weight:600">项目总表</a><span style="color:#475569;margin:0 8px">/</span><a href="../archive.html" style="color:#c7d2fe;font-weight:600">全部存档</a></div>
+<header class="hero">
+  <div class="wrap">
+    <div class="eyebrow">Daily Digest</div>
+    <h1>GitHub <span class="grad">每日精选</span></h1>
+    <p class="lead">每天安卓 / 鸿蒙 / Linux / Windows 各 2 个好玩或实用的应用：一个人气最高，一个涨星最快；再加 1 个热门 AI 项目和 2 个 C / C++ / Python 经典小项目。</p>
+    <div class="meta">
+      <span class="pill">人气榜全时段按总 star 逐日轮换 · 新秀 90–365 天内新建 · AI 30 天内新建</span>
+      <span class="pill">11 个项目</span>
+      <span class="pill">对比 2026-10-25 快照计算日增</span>
+      <a class="pill" href="../archive.html">历史存档 →</a>
+      <a class="pill" href="projects.html">项目总表 →</a>
+    </div>
+  </div>
+</header>
+
+<div class="wrap tabbar-wrap">
+  <div class="tabbar"><button class="tab active" data-cat="all">全部 <span class="count">11</span></button><button class="tab" data-cat="安卓"><span class="dot" style="background:#3ddc84"></span>安卓 <span class="count">2</span></button><button class="tab" data-cat="鸿蒙"><span class="dot" style="background:#e33e31"></span>鸿蒙 <span class="count">2</span></button><button class="tab" data-cat="Linux"><span class="dot" style="background:#f59e0b"></span>Linux <span class="count">2</span></button><button class="tab" data-cat="Windows"><span class="dot" style="background:#0ea5e9"></span>Windows <span class="count">2</span></button><button class="tab" data-cat="AI"><span class="dot" style="background:#8b5cf6"></span>AI <span class="count">1</span></button><button class="tab" data-cat="C++"><span class="dot" style="background:#f34b7d"></span>C++ <span class="count">1</span></button><button class="tab" data-cat="Python"><span class="dot" style="background:#3572A5"></span>Python <span class="count">1</span></button></div>
+</div>
+
+<main class="wrap">
+<div class="grid">
+<article class="card" data-cats="安卓">
+  <div class="card-head">
+    <span class="rank r1">1</span>
+    <div class="cats"><span class="cat" style="background:#3ddc84">安卓</span><span class="cat" style="background:#0ea5e9">Windows</span></div>
+    <span class="speed top">人气榜</span>
+  </div>
+  <h3 class="title"><a href="https://github.com/BeyondDimension/SteamTools" target="_blank" rel="noopener noreferrer"><span class="owner">BeyondDimension/</span>SteamTools</a></h3>
+  <div class="desc">🛠「Watt Toolkit」是一个开源跨平台的多功能 Steam 工具箱。</div>
+  <div class="summary"><ul><li><strong>解决什么</strong>：解决 Steam 平台功能缺失及体验优化问题，提供一站式多功能工具箱</li><li><strong>适合谁</strong>：适合需要跨平台优化 Steam 体验、追求功能丰富的玩家用户</li><li><strong>亮点</strong>：基于 Avalonia 开发的开源跨平台工具，功能全面且社区热度极高</li></ul></div>
+  <div class="topics"><span class="topic">#android-app</span><span class="topic">#avalonia</span><span class="topic">#avaloniaui</span><span class="topic">#cross-platform</span><span class="topic">#crossplatform</span><span class="topic">#csharp</span></div>
+  <div class="card-foot">
+    <span class="lang"><span class="lang-dot" style="background:#178600"></span>C# · 成立于 2020-12-15</span>
+    <span class="foot-right">
+      <span class="stars">★ 27.3k</span>
+      <a class="gh-link" href="https://github.com/BeyondDimension/SteamTools" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+    </span>
+  </div>
+</article>
+<article class="card" data-cats="安卓">
+  <div class="card-head">
+    <span class="rank r2">2</span>
+    <div class="cats"><span class="cat" style="background:#3ddc84">安卓</span></div>
+    <span class="speed">↑ 835★/天</span>
+  </div>
+  <h3 class="title"><a href="https://github.com/rddmwmddr/android-ad-cleaner" target="_blank" rel="noopener noreferrer"><span class="owner">rddmwmddr/</span>android-ad-cleaner</a></h3>
+  <div class="desc">关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。</div>
+  <div class="summary"><ul><li><strong>解决什么</strong>：解决国产安卓手机系统内广告、热搜及营销推送泛滥的问题</li><li><strong>适合谁</strong>：适合不想 root 且希望一键还原纯净系统的安卓用户</li><li><strong>亮点</strong>：支持 AI 智能体一键执行，无需 root 即可深度去广告</li></ul></div>
+  <div class="topics"><span class="topic">#adb</span><span class="topic">#ai-agent</span><span class="topic">#android</span><span class="topic">#coloros</span><span class="topic">#debloat</span><span class="topic">#hyperos</span></div>
+  <div class="card-foot">
+    <span class="lang"><span class="lang-dot" style="background:#3572A5"></span>Python · 成立于 2026-10-24</span>
+    <span class="foot-right">
+      <span class="stars">★ 1.0k</span>
+      <a class="gh-link" href="https://github.com/rddmwmddr/android-ad-cleaner" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+    </span>
+  </div>
+</article>
+<article class="card" data-cats="鸿蒙">
+  <div class="card-head">
+    <span class="rank r3">3</span>
+    <div class="cats"><span class="cat" style="background:#e33e31">鸿蒙</span></div>
+    <span class="speed top">人气榜</span>
+  </div>
+  <h3 class="title"><a href="https://github.com/reactnativecn/react-native-update" target="_blank" rel="noopener noreferrer"><span class="owner">reactnativecn/</span>react-native-update</a></h3>
+  <div class="desc">🚀 Blazing fast hot updates (OTA) for React Native — Hermes-optimized diff patches, crash rollback, staged rollout. A CodePush alternative for iOS / Android / HarmonyOS.</div>
+  <div class="summary"><ul><li><strong>解决什么</strong>：解决 React Native 应用极速 OTA 热更新、崩溃回滚及分阶段发布的问题</li><li><strong>适合谁</strong>：适合需要 CodePush 替代方案、支持 iOS/Android/HarmonyOS 的 React Native 开发者</li><li><strong>亮点</strong>：支持 Hermes 优化的差异补丁，提供 CodePush 的多平台替代方案</li></ul></div>
+  <div class="topics"><span class="topic">#codepush</span><span class="topic">#codepush-alternative</span><span class="topic">#expo</span><span class="topic">#harmonyos</span><span class="topic">#hermes</span><span class="topic">#hot-update</span></div>
+  <div class="card-foot">
+    <span class="lang"><span class="lang-dot" style="background:#3178c6"></span>TypeScript · 成立于 2016-02-06</span>
+    <span class="foot-right">
+      <span class="stars">★ 2.0k</span>
+      <a class="gh-link" href="https://github.com/reactnativecn/react-native-update" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+    </span>
+  </div>
+</article>
+<article class="card" data-cats="鸿蒙">
+  <div class="card-head">
+    <span class="rank">4</span>
+    <div class="cats"><span class="cat" style="background:#e33e31">鸿蒙</span></div>
+    <span class="speed">↑ 9★/天</span>
+  </div>
+  <h3 class="title"><a href="https://github.com/lkimuk/ReArk" target="_blank" rel="noopener noreferrer"><span class="owner">lkimuk/</span>ReArk</a></h3>
+  <div class="desc">An intelligent reverse engineering and AI-assisted analysis tool for HarmonyOS NEXT (HAP/APP/ABC), Android (APK/AAB), iOS (IPA), and native PE/ELF/Mach-O binaries.</div>
+  <div class="summary"><ul><li><strong>解决什么</strong>：解决 HarmonyOS NEXT、Android、iOS 等多平台二进制文件智能逆向与 AI 辅助分析难题</li><li><strong>适合谁</strong>：适合安全研究人员、逆向工程师及恶意软件分析师</li><li><strong>亮点</strong>：鸿蒙生态近期涨星最快的工具，支持多平台二进制分析与 AI 辅助</li></ul></div>
+  <div class="topics"><span class="topic">#aab</span><span class="topic">#abc</span><span class="topic">#agentic-workflow</span><span class="topic">#ai-agent</span><span class="topic">#ai-analysis</span><span class="topic">#android</span></div>
+  <div class="card-foot">
+    <span class="lang"><span class="lang-dot" style="background:#f34b7d"></span>C++ · 成立于 2026-05-29</span>
+    <span class="foot-right">
+      <span class="stars">★ 732</span>
+      <a class="gh-link" href="https://github.com/lkimuk/ReArk" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+    </span>
+  </div>
+</article>
+<article class="card" data-cats="Linux">
+  <div class="card-head">
+    <span class="rank">5</span>
+    <div class="cats"><span class="cat" style="background:#f59e0b">Linux</span></div>
+    <span class="speed top">人气榜</span>
+  </div>
+  <h3 class="title"><a href="https://github.com/OpenHands/OpenHands" target="_blank" rel="noopener noreferrer"><span class="owner">OpenHands/</span>OpenHands</a></h3>
+  <div class="desc">🙌 OpenHands: AI-Driven Development</div>
+  <div class="summary"><ul><li><strong>解决什么</strong>：利用大语言模型自动化软件开发任务，解决繁琐的编码工作</li><li><strong>适合谁</strong>：适合希望通过 AI 智能体辅助完成代码编写和调试的开发者</li><li><strong>亮点</strong>：支持 ChatGPT 和 Claude 等多种大模型，提供强大的 AI 开发辅助能力</li></ul></div>
+  <div class="topics"><span class="topic">#agent</span><span class="topic">#artificial-intelligence</span><span class="topic">#chatgpt</span><span class="topic">#claude-ai</span><span class="topic">#cli</span><span class="topic">#developer-tools</span></div>
+  <div class="card-foot">
+    <span class="lang"><span class="lang-dot" style="background:#3178c6"></span>TypeScript · 成立于 2024-03-13</span>
+    <span class="foot-right">
+      <span class="stars">★ 91.9k</span>
+      <a class="gh-link" href="https://github.com/OpenHands/OpenHands" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+    </span>
+  </div>
+</article>
+<article class="card" data-cats="Linux">
+  <div class="card-head">
+    <span class="rank">6</span>
+    <div class="cats"><span class="cat" style="background:#f59e0b">Linux</span><span class="cat" style="background:#0ea5e9">Windows</span></div>
+    <span class="speed">↑ 660★/天</span>
+  </div>
+  <h3 class="title"><a href="https://github.com/KnifeLemon/Filee" target="_blank" rel="noopener noreferrer"><span class="owner">KnifeLemon/</span>Filee</a></h3>
+  <div class="desc">Free, open-source file converter. Convert 263 formats offline by drag &amp; drop — images, PDF, Word, Excel, PowerPoint, HWP/HWPX, video, audio, e-books and archives. No upload, no Office needed.</div>
+  <div class="summary"><ul><li><strong>解决什么</strong>：一个免费开源的文件转换工具，支持离线转换263种格式，无需上传文件或安装Office</li><li><strong>适合谁</strong>：需要跨平台进行多种文件格式转换的用户，尤其适合Linux和Windows系统用户</li><li><strong>亮点</strong>：支持拖放操作，无需上传文件，转换格式丰富</li></ul></div>
+  <div class="topics"><span class="topic">#audio-converter</span><span class="topic">#avalonia</span><span class="topic">#batch-conversion</span><span class="topic">#converter</span><span class="topic">#csharp</span><span class="topic">#document-converter</span></div>
+  <div class="card-foot">
+    <span class="lang"><span class="lang-dot" style="background:#178600"></span>C# · 成立于 2026-09-29</span>
+    <span class="foot-right">
+      <span class="stars">★ 12.4k</span>
+      <a class="gh-link" href="https://github.com/KnifeLemon/Filee" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+    </span>
+  </div>
+</article>
+<article class="card" data-cats="Windows">
+  <div class="card-head">
+    <span class="rank">7</span>
+    <div class="cats"><span class="cat" style="background:#f59e0b">Linux</span><span class="cat" style="background:#0ea5e9">Windows</span></div>
+    <span class="speed top">人气榜</span>
+  </div>
+  <h3 class="title"><a href="https://github.com/ventoy/Ventoy" target="_blank" rel="noopener noreferrer"><span class="owner">ventoy/</span>Ventoy</a></h3>
+  <div class="desc">A new bootable USB solution.</div>
+  <div class="summary"><ul><li><strong>解决什么</strong>：解决传统 U 盘制作繁琐、无法直接挂载 ISO 文件进行多系统引导的问题</li><li><strong>适合谁</strong>：适合需要制作多系统启动盘、进行系统安装或维护的技术人员及普通用户</li><li><strong>亮点</strong>：支持直接拖拽 ISO 文件到 U 盘即可引导，无需格式化，兼容多系统架构</li></ul></div>
+  <div class="topics"><span class="topic">#arm64</span><span class="topic">#auto-install</span><span class="topic">#bootable-usb</span><span class="topic">#bsd</span><span class="topic">#chromeos</span><span class="topic">#iso-files</span></div>
+  <div class="card-foot">
+    <span class="lang"><span class="lang-dot" style="background:#555555"></span>C · 成立于 2020-03-10</span>
+    <span class="foot-right">
+      <span class="stars">★ 80.4k</span>
+      <a class="gh-link" href="https://github.com/ventoy/Ventoy" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+    </span>
+  </div>
+</article>
+<article class="card" data-cats="Windows">
+  <div class="card-head">
+    <span class="rank">8</span>
+    <div class="cats"><span class="cat" style="background:#f59e0b">Linux</span><span class="cat" style="background:#0ea5e9">Windows</span></div>
+    <span class="speed">↑ 349★/天</span>
+  </div>
+  <h3 class="title"><a href="https://github.com/boykopovar/AnyPS5" target="_blank" rel="noopener noreferrer"><span class="owner">boykopovar/</span>AnyPS5</a></h3>
+  <div class="desc">Tool for automatic PS5 executables porting to Linux and Windows</div>
+  <div class="summary"><ul><li><strong>解决什么</strong>：自动将 PS5 可执行文件移植到 Linux 和 Windows 平台</li><li><strong>适合谁</strong>：旨在让 Linux 和 Windows 用户在 PC 上运行 PS5 游戏</li><li><strong>亮点</strong>：近期涨星最快的 PS5 游戏移植工具</li></ul></div>
+  <div class="topics"><span class="topic">#anyps5</span><span class="topic">#dynamic-library</span><span class="topic">#game-porting</span><span class="topic">#ps5</span><span class="topic">#ps5-tools</span><span class="topic">#spir-v</span></div>
+  <div class="card-foot">
+    <span class="lang"><span class="lang-dot" style="background:#f34b7d"></span>C++ · 成立于 2026-08-03</span>
+    <span class="foot-right">
+      <span class="stars">★ 48.3k</span>
+      <a class="gh-link" href="https://github.com/boykopovar/AnyPS5" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+    </span>
+  </div>
+</article>
+<article class="card" data-cats="AI">
+  <div class="card-head">
+    <span class="rank">9</span>
+    <div class="cats"><span class="cat" style="background:#8b5cf6">AI</span></div>
+    <span class="speed">↑ 111★/天</span>
+  </div>
+  <h3 class="title"><a href="https://github.com/chenxiachan/textfold" target="_blank" rel="noopener noreferrer"><span class="owner">chenxiachan/</span>textfold</a></h3>
+  <div class="desc">Fold papers, web pages, files, and AI replies into five levels of detail. Zoom from an overview to the original text.</div>
+  <div class="summary"><ul><li><strong>解决什么</strong>：将论文、网页、文件和 AI 回复折叠成五个详细级别，从概览到原始文本进行缩放</li><li><strong>适合谁</strong>：研究人员、学生和开发者，需要快速浏览和理解大量文本信息</li><li><strong>亮点</strong>：提供独特的语义缩放功能，方便用户高效阅读和分析研究资料</li></ul></div>
+  <div class="topics"><span class="topic">#arxiv</span><span class="topic">#llm</span><span class="topic">#local-first</span><span class="topic">#open-source</span><span class="topic">#paper-reader</span><span class="topic">#research-papers</span></div>
+  <div class="card-foot">
+    <span class="lang"><span class="lang-dot" style="background:#3572A5"></span>Python · 成立于 2026-10-04</span>
+    <span class="foot-right">
+      <span class="stars">★ 688</span>
+      <a class="gh-link" href="https://github.com/chenxiachan/textfold" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+    </span>
+  </div>
+</article>
+<article class="card" data-cats="C++">
+  <div class="card-head">
+    <span class="rank">10</span>
+    <div class="cats"><span class="cat" style="background:#f34b7d">C++</span></div>
+    <span class="speed neutral">经典可读</span>
+  </div>
+  <h3 class="title"><a href="https://github.com/doctest/doctest" target="_blank" rel="noopener noreferrer"><span class="owner">doctest/</span>doctest</a></h3>
+  <div class="desc">The fastest feature-rich C++11/14/17/20/23 single-header testing framework</div>
+  <div class="summary"><ul><li><strong>学什么</strong>：能学到C++宏和模板的高级用法，以及如何设计轻量级、功能丰富的库</li><li><strong>适合谁</strong>：适合有一定C++基础，想深入理解语言特性并希望构建类似工具的开发者</li><li><strong>怎么读</strong>：先从框架的宏和模板实现入手，逐步理解其测试机制和扩展方式</li></ul></div>
+  <div class="topics"><span class="topic">#c-plus-plus</span><span class="topic">#cpp</span><span class="topic">#cpp11</span><span class="topic">#cpp14</span><span class="topic">#cpp17</span><span class="topic">#cpp20</span></div>
+  <div class="card-foot">
+    <span class="lang"><span class="lang-dot" style="background:#f34b7d"></span>C++ · 成立于 2014-08-05</span>
+    <span class="foot-right">
+      <span class="stars">★ 6.9k</span>
+      <a class="gh-link" href="https://github.com/doctest/doctest" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+    </span>
+  </div>
+</article>
+<article class="card" data-cats="Python">
+  <div class="card-head">
+    <span class="rank">11</span>
+    <div class="cats"><span class="cat" style="background:#3572A5">Python</span></div>
+    <span class="speed neutral">经典可读</span>
+  </div>
+  <h3 class="title"><a href="https://github.com/Kludex/starlette" target="_blank" rel="noopener noreferrer"><span class="owner">Kludex/</span>starlette</a></h3>
+  <div class="desc">The little ASGI framework that shines. 🌟</div>
+  <div class="summary"><ul><li><strong>学什么</strong>：理解 ASGI 框架设计，学习异步编程中路由与中间件的应用</li><li><strong>适合谁</strong>：Python 中级开发者，对 Web 框架和异步编程感兴趣</li><li><strong>怎么读</strong>：先阅读核心路由和中间件模块，再逐步深入其他功能</li></ul></div>
+  <div class="topics"><span class="topic">#asgi</span><span class="topic">#async</span><span class="topic">#http</span><span class="topic">#python</span><span class="topic">#websockets</span></div>
+  <div class="card-foot">
+    <span class="lang"><span class="lang-dot" style="background:#3572A5"></span>Python · 成立于 2018-06-25</span>
+    <span class="foot-right">
+      <span class="stars">★ 12.7k</span>
+      <a class="gh-link" href="https://github.com/Kludex/starlette" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+    </span>
+  </div>
+</article></div>
+</main>
+
+<footer>
+  github-daily · 每天自动整理<span class="sep">·</span>数据来源 GitHub API<span class="sep">·</span>摘要由 AI 生成
+</footer>
+
+<script>
+document.querySelectorAll('.tab').forEach(function (tab) {
+  tab.addEventListener('click', function () {
+    document.querySelectorAll('.tab').forEach(function (t) { t.classList.remove('active'); });
+    tab.classList.add('active');
+    var cat = tab.getAttribute('data-cat');
+    document.querySelectorAll('.card').forEach(function (card) {
+      var cats = (card.getAttribute('data-cats') || '').split(',');
+      card.style.display = (cat === 'all' || cats.indexOf(cat) !== -1) ? '' : 'none';
+    });
+  });
+});
+</script>
+</body>
+</html>
