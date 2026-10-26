@@ -1,6 +1,8 @@
 {
   "2dust/v2rayN": "2026-10-24",
+  "BeyondDimension/SteamTools": "2026-10-26",
   "JunkFood02/Seal": "2026-10-24",
+  "OpenHands/OpenHands": "2026-10-26",
   "Zitann/HarmonyOS-Haps": "2026-10-24",
   "callstack/agent-device": "2026-10-23",
   "clash-verge-rev/clash-verge-rev": "2026-10-23",
@@ -14,9 +16,11 @@
   "n8n-io/n8n": "2026-10-23",
   "nihui/opencv-mobile": "2026-10-25",
   "pppscn/SmsForwarder": "2026-10-25",
+  "reactnativecn/react-native-update": "2026-10-26",
   "rustdesk/rustdesk": "2026-10-23",
   "sherlock-project/sherlock": "2026-10-25",
   "termux/termux-app": "2026-10-23",
+  "ventoy/Ventoy": "2026-10-26",
   "xiaobaigroup/ClashBox": "2026-10-23",
   "yt-dlp/yt-dlp": "2026-10-23"
 }
