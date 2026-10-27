@@ -1,8 +1,436 @@
 {
-  "generated_at": "2026-10-26T04:21:17.144959+00:00",
-  "total": 57,
-  "occurrences": 62,
+  "generated_at": "2026-10-27T04:43:43.877860+00:00",
+  "total": 67,
+  "occurrences": 73,
   "projects": [
+    {
+      "full_name": "morluto/rea",
+      "url": "https://github.com/morluto/rea",
+      "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+      "summary": "解决什么：利用 AI 代理对应用行为及原生二进制文件进行全方位逆向工程\n适合谁：适合逆向工程师、安全研究人员及开发者使用\n亮点：结合 MCP 协议与多种逆向工具，近期涨星极快",
+      "stars": 392669,
+      "language": "TypeScript",
+      "topics": [
+        "agent-skills",
+        "ai-agents",
+        "binary-analysis",
+        "claude-code",
+        "cli",
+        "codex",
+        "cordis",
+        "decompiler",
+        "developer-tools",
+        "dsh",
+        "dsh-plugin",
+        "ghidra",
+        "hopper",
+        "llm",
+        "mcp",
+        "model-context-protocol",
+        "rea",
+        "reverse-engineering",
+        "static-analysis",
+        "touhou"
+      ],
+      "categories": [
+        "Linux"
+      ],
+      "platforms": [
+        "Linux"
+      ],
+      "pick": "growth",
+      "slot": "Linux",
+      "kind": "search",
+      "created_at": "2026-04-14",
+      "first_date": "2026-10-27",
+      "last_date": "2026-10-27",
+      "dates": [
+        "2026-10-27"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "clash-verge-rev/clash-verge-rev",
+      "url": "https://github.com/clash-verge-rev/clash-verge-rev",
+      "description": "A modern GUI client based on Tauri, designed to run in Windows, macOS and Linux for tailored proxy experience",
+      "summary": "原始描述：A modern GUI client based on Tauri, designed to run in Windows, macOS and Linux for tailored proxy experience\n\n（摘要生成失败，本次展示原文）",
+      "stars": 154149,
+      "language": "Rust",
+      "topics": [
+        "clash",
+        "clash-meta",
+        "clash-verge",
+        "linux",
+        "mac",
+        "mihomo",
+        "tauri-app",
+        "windows"
+      ],
+      "categories": [
+        "Linux",
+        "Windows"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "pick": "growth",
+      "slot": "Windows",
+      "kind": "search",
+      "created_at": "2023-11-21",
+      "first_date": "2026-10-27",
+      "last_date": "2026-10-27",
+      "dates": [
+        "2026-10-27"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "Panniantong/Agent-Reach",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "summary": "解决什么：让 AI 代理能够浏览整个互联网，通过命令行读取和搜索推特、Reddit、YouTube、GitHub、哔哩哔哩、小红书等网站，无需 API 费用\n适合谁：需要自动化信息收集和 AI 搜索功能的开发者或研究人员，特别是需要整合多平台数据的用户\n亮点：一个命令行工具即可访问多个主流网站，无需支付 API 费用",
+      "stars": 103927,
+      "language": "Python",
+      "topics": [
+        "agent-infrastructure",
+        "ai-agent",
+        "ai-search",
+        "automation",
+        "bilibili",
+        "claude-code",
+        "cli",
+        "cursor",
+        "free-api",
+        "llm-tools",
+        "mcp",
+        "python",
+        "reddit-scraper",
+        "twitter-scraper",
+        "web-scraper",
+        "xiaohongshu",
+        "youtube-transcript"
+      ],
+      "categories": [
+        "Linux"
+      ],
+      "platforms": [
+        "Linux"
+      ],
+      "pick": "top",
+      "slot": "Linux",
+      "kind": "search",
+      "created_at": "2026-02-24",
+      "first_date": "2026-10-27",
+      "last_date": "2026-10-27",
+      "dates": [
+        "2026-10-27"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "tw93/Mole",
+      "url": "https://github.com/tw93/Mole",
+      "description": "🐹 Keep your Mac and PC clean, light, and running like new. Fast open-source CLI, plus native Mac and Windows apps.",
+      "summary": "旨在解决 Mac 和 Windows 系统臃肿、应用残留及性能下降问题\n适合追求系统轻量运行、需要清理垃圾文件或卸载残留应用的 Mac 和 Windows 用户\n跨平台支持，集成了快速 CLI 工具与原生 GUI 应用，开源免费",
+      "stars": 73017,
+      "language": "Shell",
+      "topics": [
+        "analyzer",
+        "appcleaner",
+        "clean",
+        "cleaner",
+        "cleanmymac",
+        "command-line",
+        "daisydisk",
+        "istat",
+        "mac",
+        "macos",
+        "macos-app",
+        "native",
+        "optimize",
+        "pearcleaner",
+        "sensei",
+        "shell",
+        "swift",
+        "swiftui",
+        "uninstall",
+        "windows"
+      ],
+      "categories": [
+        "Windows"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "pick": "top",
+      "slot": "Windows",
+      "kind": "search",
+      "created_at": "2025-09-23",
+      "first_date": "2026-10-27",
+      "last_date": "2026-10-27",
+      "dates": [
+        "2026-10-27"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "Gathin23/cleanyourtv",
+      "url": "https://github.com/Gathin23/cleanyourtv",
+      "description": "Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
+      "summary": "解决什么：通过无线方式精简安卓或谷歌电视上的冗余应用，打造类似苹果电视风格的首页\n适合谁：安卓电视或谷歌电视用户，希望移除预装应用、提升系统流畅度和隐私保护\n亮点：无需连接线即可移除冗余应用，快速实现电视系统轻量化定制",
+      "stars": 39688,
+      "language": "Python",
+      "topics": [
+        "adb",
+        "adblock",
+        "android-tv",
+        "android-tv-launcher",
+        "apple-tv",
+        "bloatware-removal",
+        "claude-code",
+        "debloat",
+        "fire-tv",
+        "google-tv",
+        "launcher",
+        "privacy",
+        "smart-tv",
+        "sony-bravia",
+        "tcl",
+        "vibe-coding",
+        "xiaomi"
+      ],
+      "categories": [
+        "安卓"
+      ],
+      "platforms": [
+        "安卓"
+      ],
+      "pick": "growth",
+      "slot": "安卓",
+      "kind": "search",
+      "created_at": "2026-10-17",
+      "first_date": "2026-10-22",
+      "last_date": "2026-10-27",
+      "dates": [
+        "2026-10-27",
+        "2026-10-22"
+      ],
+      "times": 2
+    },
+    {
+      "full_name": "android/nowinandroid",
+      "url": "https://github.com/android/nowinandroid",
+      "description": "A fully functional Android app built entirely with Kotlin and Jetpack Compose",
+      "summary": "解决什么：一个使用 Kotlin 和 Jetpack Compose 完全构建的 Android 应用示例\n适合谁：Android 开发者学习 Jetpack Compose 和 Kotlin 实践\n亮点：功能完整且流行的 Jetpack Compose 示例应用",
+      "stars": 21968,
+      "language": "Kotlin",
+      "topics": [
+        "android",
+        "jetpack-compose",
+        "kotlin",
+        "sample"
+      ],
+      "categories": [
+        "安卓"
+      ],
+      "platforms": [
+        "安卓"
+      ],
+      "pick": "top",
+      "slot": "安卓",
+      "kind": "search",
+      "created_at": "2022-04-19",
+      "first_date": "2026-10-27",
+      "last_date": "2026-10-27",
+      "dates": [
+        "2026-10-27"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "catchorg/Catch2",
+      "url": "https://github.com/catchorg/Catch2",
+      "description": "A modern, C++-native, test framework for unit-tests, TDD and BDD - using C++14, C++17 and later (C++11 support is in v2.x branch, and C++03 on the Catch1.x branch)",
+      "summary": "学什么：学习宏的高级用法与模板元编程，掌握现代 C++ 框架如何通过声明式 API 实现自注册机制\n适合谁：适合希望提升 C++ 编程深度、学习框架设计模式以及进行工程化测试开发的开发者\n怎么读：建议从测试用例的宏定义和断言机制入手，逐步追踪测试运行器的执行流程",
+      "stars": 21537,
+      "language": "C++",
+      "topics": [
+        "bdd",
+        "cpp",
+        "cpp14",
+        "framework",
+        "no-dependencies",
+        "tdd",
+        "test-framework",
+        "testing"
+      ],
+      "categories": [
+        "C++"
+      ],
+      "platforms": [
+        "C++"
+      ],
+      "pick": null,
+      "slot": null,
+      "kind": "learn",
+      "created_at": "2010-11-08",
+      "first_date": "2026-10-27",
+      "last_date": "2026-10-27",
+      "dates": [
+        "2026-10-27"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "cstack/db_tutorial",
+      "url": "https://github.com/cstack/db_tutorial",
+      "description": "Writing a sqlite clone from scratch in C",
+      "summary": "掌握从零构建数据库存储引擎的核心原理，包括 B-Tree 结构、磁盘 I/O 操作及 SQL 语句解析\n适合具备 C 语言基础，想深入理解数据库底层实现原理的开发者\n建议先阅读 B-Tree 核心模块和磁盘 I/O 实现，再逐步理解整体架构",
+      "stars": 10537,
+      "language": "C",
+      "topics": [
+        "database"
+      ],
+      "categories": [
+        "C"
+      ],
+      "platforms": [
+        "C"
+      ],
+      "pick": null,
+      "slot": null,
+      "kind": "learn",
+      "created_at": "2017-08-31",
+      "first_date": "2026-10-27",
+      "last_date": "2026-10-27",
+      "dates": [
+        "2026-10-27"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "callstack/agent-device",
+      "url": "https://github.com/callstack/agent-device",
+      "description": "Mobile app automation and verification for AI coding agents. CLI, MCP server, and typed Node.js API for iOS, Android, HarmonyOS, TV, web, macOS, and Linux.",
+      "summary": "为 AI 编码代理提供跨平台的移动应用自动化测试与验证能力\n适用于 AI 编码代理开发者及需要跨平台移动自动化测试的团队\n支持多平台（iOS/Android/鸿蒙）并提供 CLI、MCP 和 Node.js API 等多种访问方式",
+      "stars": 5158,
+      "language": "TypeScript",
+      "topics": [
+        "adb",
+        "agentic-ai",
+        "agents",
+        "ai-agents",
+        "android-emulator",
+        "automation",
+        "e2e-testing",
+        "expo",
+        "flutter",
+        "ios-simulator",
+        "mcp",
+        "mobile",
+        "mobile-testing",
+        "performance-optimization",
+        "react-native",
+        "testing",
+        "xcuitest"
+      ],
+      "categories": [
+        "鸿蒙",
+        "Linux"
+      ],
+      "platforms": [
+        "鸿蒙"
+      ],
+      "pick": "growth",
+      "slot": "鸿蒙",
+      "kind": "search",
+      "created_at": "2026-01-30",
+      "first_date": "2026-10-27",
+      "last_date": "2026-10-27",
+      "dates": [
+        "2026-10-27"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "jhaizhou-ops/d2r-mobile",
+      "url": "https://github.com/jhaizhou-ops/d2r-mobile",
+      "description": "Open-source compatibility layer for Diablo II: Resurrected with the Reign of the Warlock expansion. Runs your own Switch copy natively on iPhone, iPad, Mac, Android and HarmonyOS — full touch controls, 60 fps, new endgame modes. Bring your own game files. 开源的《暗黑破坏神 II：狱火重生》术士君临 iOS / macOS / 安卓 / 鸿蒙兼容层",
+      "summary": "解决什么：为《暗黑破坏神 II：狱火重生》提供一个开源兼容层，让玩家能在 iPhone、iPad、Mac、Android 和鸿蒙系统上原生运行游戏，支持全触控和 60fps\n适合谁：喜欢在移动设备或非 Switch 平台上玩《暗黑破坏神 II：狱火重生》的玩家\n亮点：开源兼容层，支持自带游戏文件，实现多平台原生运行",
+      "stars": 4716,
+      "language": "C",
+      "topics": [
+        "android",
+        "compatibility-layer",
+        "diablo-2-resurrected",
+        "diablo2",
+        "game-port",
+        "harmonyos",
+        "ios",
+        "ipad",
+        "iphone",
+        "mac",
+        "macos",
+        "metal",
+        "reign-of-the-warlock",
+        "vulkan"
+      ],
+      "categories": [
+        "鸿蒙"
+      ],
+      "platforms": [
+        "鸿蒙"
+      ],
+      "pick": "top",
+      "slot": "鸿蒙",
+      "kind": "search",
+      "created_at": "2026-10-12",
+      "first_date": "2026-10-27",
+      "last_date": "2026-10-27",
+      "dates": [
+        "2026-10-27"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "FengZhenfei/carrel",
+      "url": "https://github.com/FengZhenfei/carrel",
+      "description": "Ontology-Augmented Generation for AI agents.",
+      "summary": "解决 AI 代理缺乏结构化知识表示的问题，通过结合知识图谱与检索增强生成技术，提升信息检索的准确性与生成的可靠性\n适合需要构建具备高级推理能力和知识管理能力的 AI 代理的开发者及研究人员\n将本体论、知识图谱与 RAG 技术深度融合，为 AI 代理提供结构化的知识增强能力",
+      "stars": 643,
+      "language": "Python",
+      "topics": [
+        "agent-skills",
+        "ai-agents",
+        "dgx-spark",
+        "document-parsing",
+        "icloud-sync",
+        "knowledge-graph",
+        "mineru",
+        "neo4j",
+        "ontology",
+        "opensearch",
+        "qdrant",
+        "rag",
+        "retrieval-augmented-generation"
+      ],
+      "categories": [
+        "AI"
+      ],
+      "platforms": [
+        "AI"
+      ],
+      "pick": "ai",
+      "slot": "AI",
+      "kind": "search",
+      "created_at": "2026-09-28",
+      "first_date": "2026-10-27",
+      "last_date": "2026-10-27",
+      "dates": [
+        "2026-10-27"
+      ],
+      "times": 1
+    },
     {
       "full_name": "OpenHands/OpenHands",
       "url": "https://github.com/OpenHands/OpenHands",
@@ -1549,49 +1977,6 @@
       "slot": null,
       "kind": "learn",
       "created_at": "2013-07-04",
-      "first_date": "2026-10-22",
-      "last_date": "2026-10-22",
-      "dates": [
-        "2026-10-22"
-      ],
-      "times": 1
-    },
-    {
-      "full_name": "Gathin23/cleanyourtv",
-      "url": "https://github.com/Gathin23/cleanyourtv",
-      "description": "Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
-      "summary": "通过 Wi-Fi 远程清理安卓或 Google TV 上的预装软件和广告\n拥有 Android TV、Fire TV 或其他智能电视设备的用户\n提供类似 Apple TV 的简洁界面体验",
-      "stars": 20095,
-      "language": "Java",
-      "topics": [
-        "adb",
-        "adblock",
-        "android-tv",
-        "android-tv-launcher",
-        "apple-tv",
-        "bloatware-removal",
-        "claude-code",
-        "debloat",
-        "fire-tv",
-        "google-tv",
-        "launcher",
-        "privacy",
-        "smart-tv",
-        "sony-bravia",
-        "tcl",
-        "vibe-coding",
-        "xiaomi"
-      ],
-      "categories": [
-        "安卓"
-      ],
-      "platforms": [
-        "安卓"
-      ],
-      "pick": null,
-      "slot": null,
-      "kind": "search",
-      "created_at": "2026-10-17",
       "first_date": "2026-10-22",
       "last_date": "2026-10-22",
       "dates": [
