@@ -1,8 +1,431 @@
 {
-  "generated_at": "2026-10-27T04:43:43.877860+00:00",
-  "total": 67,
-  "occurrences": 73,
+  "generated_at": "2026-10-28T05:13:17.210338+00:00",
+  "total": 75,
+  "occurrences": 84,
   "projects": [
+    {
+      "full_name": "rtk-ai/rtk",
+      "url": "https://github.com/rtk-ai/rtk",
+      "description": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
+      "summary": "通过代理减少常见开发命令中 LLM 的 token 消耗 60-90%\n需要降低 AI 编码成本的开发者，特别是使用 Claude 的 CLI 用户\n单个 Rust 二进制文件，零依赖，极致的 token 优化",
+      "stars": 84812,
+      "language": "Rust",
+      "topics": [
+        "agentic-coding",
+        "ai-coding",
+        "anthropic",
+        "claude-code",
+        "cli",
+        "command-line-tool",
+        "cost-reduction",
+        "developer-tools",
+        "llm",
+        "open-source",
+        "productivity",
+        "rust",
+        "token-optimization"
+      ],
+      "categories": [
+        "Linux"
+      ],
+      "platforms": [
+        "Linux"
+      ],
+      "pick": "top",
+      "slot": "Linux",
+      "kind": "search",
+      "created_at": "2026-01-22",
+      "first_date": "2026-10-23",
+      "last_date": "2026-10-28",
+      "dates": [
+        "2026-10-28",
+        "2026-10-23"
+      ],
+      "times": 2
+    },
+    {
+      "full_name": "alacritty/alacritty",
+      "url": "https://github.com/alacritty/alacritty",
+      "description": "A cross-platform, OpenGL terminal emulator.",
+      "summary": "提供高性能、跨平台的终端模拟体验，利用 GPU 加速渲染\n适合在 Linux、macOS 和 Windows 等多平台环境下工作的开发者\n使用 Rust 编写并利用 GPU 加速渲染，是目前最流行的终端模拟器之一",
+      "stars": 66070,
+      "language": "Rust",
+      "topics": [
+        "bsd",
+        "gpu",
+        "linux",
+        "macos",
+        "opengl",
+        "rust",
+        "terminal",
+        "terminal-emulators",
+        "vte",
+        "windows"
+      ],
+      "categories": [
+        "Linux",
+        "Windows"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "pick": "top",
+      "slot": "Windows",
+      "kind": "search",
+      "created_at": "2016-02-18",
+      "first_date": "2026-10-28",
+      "last_date": "2026-10-28",
+      "dates": [
+        "2026-10-28"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "ifixai-ai/iFixAi",
+      "url": "https://github.com/ifixai-ai/iFixAi",
+      "description": "Independent Auditing of AI Agents. Run by human or the agent itself, to answer the most crucial question in the AI Agent Economy. Is the agent doing what is supposed to do? With iFixAi you can have this answer in less than 120 seconds.",
+      "summary": "为 AI Agent 提供独立审计，验证其是否按预期执行任务\n适用于需要评估 AI Agent 行为、进行合规检查或风险管理的开发者及企业\n支持自主或人工审计，能在 120 秒内快速检测幻觉与安全风险",
+      "stars": 36072,
+      "language": "Python",
+      "topics": [
+        "agent-evaluation",
+        "ai",
+        "ai-alignment",
+        "ai-evaluation",
+        "ai-governance",
+        "ai-safety",
+        "cli",
+        "diagnostic-tool",
+        "eu-ai-act",
+        "hallucination-detection",
+        "iso-42001",
+        "llm-evaluation",
+        "llm-security",
+        "nist-ai-rmf",
+        "owasp-llm",
+        "prompt-injection",
+        "python",
+        "responsible-ai",
+        "risk-assessment",
+        "risk-management"
+      ],
+      "categories": [
+        "Linux"
+      ],
+      "platforms": [
+        "Linux"
+      ],
+      "pick": "growth",
+      "slot": "Linux",
+      "kind": "search",
+      "created_at": "2026-04-27",
+      "first_date": "2026-10-28",
+      "last_date": "2026-10-28",
+      "dates": [
+        "2026-10-28"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "fmtlib/fmt",
+      "url": "https://github.com/fmtlib/fmt",
+      "description": "A modern formatting library",
+      "summary": "掌握 C++ 模板元编程、编译期字符串处理及极致性能优化的高级技巧\n适合有一定 C++ 基础，希望深入理解模板元编程与性能优化的开发者\n建议从 format.h 入手，理解核心格式化逻辑与编译期优化实现",
+      "stars": 25898,
+      "language": "C++",
+      "topics": [
+        "c-plus-plus",
+        "chrono",
+        "cpp",
+        "cross-platform",
+        "floating-point",
+        "formatting",
+        "multiplatform",
+        "output",
+        "performance",
+        "printf",
+        "ranges",
+        "unicode"
+      ],
+      "categories": [
+        "C++"
+      ],
+      "platforms": [
+        "C++"
+      ],
+      "pick": null,
+      "slot": null,
+      "kind": "learn",
+      "created_at": "2012-12-07",
+      "first_date": "2026-10-28",
+      "last_date": "2026-10-28",
+      "dates": [
+        "2026-10-28"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "ImranR98/Obtainium",
+      "url": "https://github.com/ImranR98/Obtainium",
+      "description": "Get Android app updates straight from the source.",
+      "summary": "解决 Android 应用更新繁琐的问题，直接从源代码仓库获取最新版本\n适合注重隐私安全、需要自动化更新开源应用或避开 Google Play 商店的用户\n亮点在于直接从源代码仓库获取更新，无需依赖第三方应用商店，保障隐私安全",
+      "stars": 20949,
+      "language": "Dart",
+      "topics": [
+        "android",
+        "apk",
+        "apk-update",
+        "apk-updater",
+        "app-updater",
+        "automation",
+        "foss",
+        "github",
+        "github-apk-updater",
+        "gitlab",
+        "notifications",
+        "obtainium",
+        "privacy",
+        "security",
+        "update-checker",
+        "updater"
+      ],
+      "categories": [
+        "安卓"
+      ],
+      "platforms": [
+        "安卓"
+      ],
+      "pick": "top",
+      "slot": "安卓",
+      "kind": "search",
+      "created_at": "2022-08-11",
+      "first_date": "2026-10-28",
+      "last_date": "2026-10-28",
+      "dates": [
+        "2026-10-28"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "DuarteSantos8/openGym",
+      "url": "https://github.com/DuarteSantos8/openGym",
+      "description": "Open-source gym & body-weight tracker, now in the App Store (iPhone + Apple Watch) and as an Android APK. Plan routines, log workouts, see which muscles are trained, import from Strong/Hevy/FitNotes. Self-host it or use it on the phone alone.",
+      "summary": "提供开源的健身房与自重训练追踪功能，支持记录锻炼、规划流程及查看肌肉训练情况。\n适合健身爱好者及自托管用户，支持 iPhone、Apple Watch 和 Android，可从 Strong/Hevy 等应用导入数据。\n支持跨平台（iOS/Android/自托管）且近期涨星极快，功能全面。",
+      "stars": 16740,
+      "language": "JavaScript",
+      "topics": [
+        "apple-watch",
+        "bodyweight",
+        "docker",
+        "fitness",
+        "fitness-tracker",
+        "gym",
+        "health",
+        "ios",
+        "mcp",
+        "nodejs",
+        "passkeys",
+        "progressive-web-applications",
+        "pwa",
+        "react",
+        "self-hosted",
+        "self-hosting",
+        "vite",
+        "webauthn",
+        "weightlifting",
+        "workout-tracker"
+      ],
+      "categories": [
+        "安卓"
+      ],
+      "platforms": [
+        "安卓"
+      ],
+      "pick": "growth",
+      "slot": "安卓",
+      "kind": "search",
+      "created_at": "2026-07-18",
+      "first_date": "2026-10-24",
+      "last_date": "2026-10-28",
+      "dates": [
+        "2026-10-28",
+        "2026-10-24"
+      ],
+      "times": 2
+    },
+    {
+      "full_name": "Cyan4973/xxHash",
+      "url": "https://github.com/Cyan4973/xxHash",
+      "description": "Extremely fast non-cryptographic hash algorithm",
+      "summary": "学什么：学习如何利用位运算与内存布局优化来提升哈希算法的执行效率\n适合谁：适合有一定C语言基础，希望深入理解底层算法实现与性能调优的读者\n怎么读：建议先阅读核心的xxh32和xxh64实现，再理解主循环与内存对齐处理",
+      "stars": 11380,
+      "language": "C",
+      "topics": [
+        "c",
+        "dispersion",
+        "hash",
+        "hash-checksum",
+        "hash-functions",
+        "smhasher",
+        "xxhash"
+      ],
+      "categories": [
+        "C"
+      ],
+      "platforms": [
+        "C"
+      ],
+      "pick": null,
+      "slot": null,
+      "kind": "learn",
+      "created_at": "2014-04-30",
+      "first_date": "2026-10-28",
+      "last_date": "2026-10-28",
+      "dates": [
+        "2026-10-28"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "Chevey339/kelivo",
+      "url": "https://github.com/Chevey339/kelivo",
+      "description": "A Flutter LLM Chat Client. Support Mobile & Desktop.",
+      "summary": "解决什么：提供跨平台的 LLM 大模型聊天客户端，支持移动与桌面端\n适合谁：适合需要在移动端和桌面端使用 LLM 进行对话的用户\n亮点：基于 Flutter 构建，支持多平台运行的 AI 聊天应用",
+      "stars": 4346,
+      "language": "Dart",
+      "topics": [
+        "ai",
+        "android",
+        "chatbot",
+        "chatbox",
+        "flutter",
+        "flutter-apps",
+        "harmony",
+        "harmonyos",
+        "ios",
+        "llm",
+        "openharmony"
+      ],
+      "categories": [
+        "鸿蒙"
+      ],
+      "platforms": [
+        "鸿蒙"
+      ],
+      "pick": "top",
+      "slot": "鸿蒙",
+      "kind": "search",
+      "created_at": "2025-08-29",
+      "first_date": "2026-10-28",
+      "last_date": "2026-10-28",
+      "dates": [
+        "2026-10-28"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "Zitann/HarmonyOS-Haps",
+      "url": "https://github.com/Zitann/HarmonyOS-Haps",
+      "description": "⚡️鸿蒙Next Hap安装包合集，如果您觉得有帮助，还请点亮一下 Star 🌟 哦~ 万分感谢！",
+      "summary": "提供鸿蒙Next系统的HAP安装包合集，解决用户获取安装包的难题\n适合鸿蒙开发者或需要安装HAP文件的用户\n收录了丰富的鸿蒙Next HAP安装包，近期涨星速度极快",
+      "stars": 3707,
+      "language": "Python",
+      "topics": [
+        "harmonyos",
+        "harmonyos-next"
+      ],
+      "categories": [
+        "鸿蒙"
+      ],
+      "platforms": [
+        "鸿蒙"
+      ],
+      "pick": "growth",
+      "slot": "鸿蒙",
+      "kind": "search",
+      "created_at": "2024-11-15",
+      "first_date": "2026-10-24",
+      "last_date": "2026-10-28",
+      "dates": [
+        "2026-10-28",
+        "2026-10-24"
+      ],
+      "times": 2
+    },
+    {
+      "full_name": "AienTech/dossier",
+      "url": "https://github.com/AienTech/dossier",
+      "description": "A self-hosted job search app that writes tailored resumes and cover letters from your profile.",
+      "summary": "帮助求职者自动生成针对不同职位的个性化简历和求职信\n适合正在找工作、需要批量生成求职材料且偏好自托管部署的用户\n支持本地大模型，数据隐私安全，一键生成定制化求职材料",
+      "stars": 1639,
+      "language": "TypeScript",
+      "topics": [
+        "caprover",
+        "cover-letter",
+        "docker",
+        "job-application-tracker",
+        "job-search",
+        "llm",
+        "local-llm",
+        "nextjs",
+        "ollama",
+        "postgresql",
+        "resume",
+        "self-hosted",
+        "typescript"
+      ],
+      "categories": [
+        "AI"
+      ],
+      "platforms": [
+        "AI"
+      ],
+      "pick": "ai",
+      "slot": "AI",
+      "kind": "search",
+      "created_at": "2026-10-03",
+      "first_date": "2026-10-28",
+      "last_date": "2026-10-28",
+      "dates": [
+        "2026-10-28"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "DLSS-5-Swaper-New/.github",
+      "url": "https://github.com/DLSS-5-Swaper-New/.github",
+      "description": "DLSS 5 Swapper is a specialized Windows utility for PC gaming enthusiasts interested in managing compatible graphics components and exploring rendering configurations.",
+      "summary": "帮助 PC 游戏爱好者管理和切换兼容的 DLSS 5 图形组件及渲染配置\n专为想要探索 DLSS 5 渲染效果的 Windows PC 游戏爱好者设计\n专注于 DLSS 5 组件管理，近期涨星速度极快",
+      "stars": 1541,
+      "language": "",
+      "topics": [
+        "dlss",
+        "dlss-5-download",
+        "dlss-5-games",
+        "dlss-5-nvidia",
+        "dlss-5-swapper",
+        "dlss-5-swapper-download",
+        "dlss-5-swapper-windows-download",
+        "dlss5",
+        "dlss5-swapper"
+      ],
+      "categories": [
+        "Windows"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "pick": "growth",
+      "slot": "Windows",
+      "kind": "search",
+      "created_at": "2026-10-27",
+      "first_date": "2026-10-28",
+      "last_date": "2026-10-28",
+      "dates": [
+        "2026-10-28"
+      ],
+      "times": 1
+    },
     {
       "full_name": "morluto/rea",
       "url": "https://github.com/morluto/rea",
@@ -1328,52 +1751,6 @@
       "times": 1
     },
     {
-      "full_name": "DuarteSantos8/openGym",
-      "url": "https://github.com/DuarteSantos8/openGym",
-      "description": "Open-source gym & body-weight tracker, now in the App Store (iPhone + Apple Watch) and as an Android APK. Plan routines, log workouts, see which muscles are trained, import from Strong/Hevy/FitNotes. Self-host it or use it on the phone alone.",
-      "summary": "原始描述：Open-source gym & body-weight tracker, now in the App Store (iPhone + Apple Watch) and as an Android APK. Plan routines, log workouts, see which muscles are trained, import from Strong/Hevy/FitNotes. Self-host it or use it on the phone alone.\n\n（摘要生成失败，本次展示原文）",
-      "stars": 15271,
-      "language": "JavaScript",
-      "topics": [
-        "apple-watch",
-        "bodyweight",
-        "docker",
-        "fitness",
-        "fitness-tracker",
-        "gym",
-        "health",
-        "ios",
-        "mcp",
-        "nodejs",
-        "passkeys",
-        "progressive-web-applications",
-        "pwa",
-        "react",
-        "self-hosted",
-        "self-hosting",
-        "vite",
-        "webauthn",
-        "weightlifting",
-        "workout-tracker"
-      ],
-      "categories": [
-        "安卓"
-      ],
-      "platforms": [
-        "安卓"
-      ],
-      "pick": "growth",
-      "slot": "安卓",
-      "kind": "search",
-      "created_at": "2026-07-18",
-      "first_date": "2026-10-24",
-      "last_date": "2026-10-24",
-      "dates": [
-        "2026-10-24"
-      ],
-      "times": 1
-    },
-    {
       "full_name": "Tencent/libco",
       "url": "https://github.com/Tencent/libco",
       "description": "libco is a coroutine library which is widely used in wechat  back-end service. It has been running on tens of thousands of machines since 2013.",
@@ -1391,34 +1768,6 @@
       "slot": null,
       "kind": "learn",
       "created_at": "2016-10-12",
-      "first_date": "2026-10-24",
-      "last_date": "2026-10-24",
-      "dates": [
-        "2026-10-24"
-      ],
-      "times": 1
-    },
-    {
-      "full_name": "Zitann/HarmonyOS-Haps",
-      "url": "https://github.com/Zitann/HarmonyOS-Haps",
-      "description": "⚡️鸿蒙Next Hap安装包合集，如果您觉得有帮助，还请点亮一下 Star 🌟 哦~ 万分感谢！",
-      "summary": "提供鸿蒙Next系统的HAP安装包合集，方便用户下载安装\n适合鸿蒙开发者及系统爱好者获取安装资源\n汇集了大量鸿蒙Next HAP资源，是当前人气最高的相关项目之一",
-      "stars": 3616,
-      "language": "Python",
-      "topics": [
-        "harmonyos",
-        "harmonyos-next"
-      ],
-      "categories": [
-        "鸿蒙"
-      ],
-      "platforms": [
-        "鸿蒙"
-      ],
-      "pick": "top",
-      "slot": "鸿蒙",
-      "kind": "search",
-      "created_at": "2024-11-15",
       "first_date": "2026-10-24",
       "last_date": "2026-10-24",
       "dates": [
@@ -1642,45 +1991,6 @@
       "slot": "Windows",
       "kind": "search",
       "created_at": "2020-09-28",
-      "first_date": "2026-10-23",
-      "last_date": "2026-10-23",
-      "dates": [
-        "2026-10-23"
-      ],
-      "times": 1
-    },
-    {
-      "full_name": "rtk-ai/rtk",
-      "url": "https://github.com/rtk-ai/rtk",
-      "description": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
-      "summary": "通过减少 60-90% 的 LLM Token 消耗来降低 AI 编码成本\n需要使用 AI 编码工具以降低成本的开发者\n单二进制文件，零依赖，显著降低 LLM Token 消耗",
-      "stars": 84361,
-      "language": "Rust",
-      "topics": [
-        "agentic-coding",
-        "ai-coding",
-        "anthropic",
-        "claude-code",
-        "cli",
-        "command-line-tool",
-        "cost-reduction",
-        "developer-tools",
-        "llm",
-        "open-source",
-        "productivity",
-        "rust",
-        "token-optimization"
-      ],
-      "categories": [
-        "Linux"
-      ],
-      "platforms": [
-        "Linux"
-      ],
-      "pick": "growth",
-      "slot": "Linux",
-      "kind": "search",
-      "created_at": "2026-01-22",
       "first_date": "2026-10-23",
       "last_date": "2026-10-23",
       "dates": [
