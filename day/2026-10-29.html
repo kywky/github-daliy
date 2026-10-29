@@ -1,0 +1,405 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://github.com">
+<link rel="dns-prefetch" href="https://github.com">
+<title>GitHub 每日精选 · 2026-10-29</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+:root {
+  --ink: #0b1220;
+  --muted: #64748b;
+  --line: #e6e8ee;
+  --accent: #4f46e5;
+  --bg: #f5f6fa;
+}
+html { scroll-behavior: smooth; }
+body {
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC",
+               "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  background: var(--bg);
+  color: var(--ink);
+  -webkit-font-smoothing: antialiased;
+  min-height: 100vh;
+}
+.wrap { max-width: 1080px; margin: 0 auto; padding: 0 20px; }
+
+/* hero */
+.hero {
+  background:
+    radial-gradient(1200px 400px at 15% -20%, rgba(139,92,246,.55), transparent 60%),
+    radial-gradient(900px 300px at 110% 10%, rgba(236,72,153,.45), transparent 55%),
+    linear-gradient(135deg, #0f172a 0%, #1e1b4b 60%, #312e81 100%);
+  color: #fff;
+  padding: 52px 0 76px;
+}
+.hero .eyebrow {
+  font-size: 12px; letter-spacing: .16em; text-transform: uppercase;
+  color: #a5b4fc; font-weight: 600; margin-bottom: 14px;
+}
+.hero h1 { font-size: 40px; font-weight: 800; letter-spacing: -1px; line-height: 1.1; }
+.hero h1 .grad {
+  background: linear-gradient(90deg, #c4b5fd, #f0abfc, #fda4af);
+  -webkit-background-clip: text; background-clip: text; color: transparent;
+}
+.hero .lead { color: #c7d2fe; font-size: 15px; margin-top: 14px; max-width: 620px; line-height: 1.7; }
+.hero .meta { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 22px; }
+.pill {
+  font-size: 12px; padding: 6px 12px; border-radius: 999px;
+  background: rgba(255,255,255,.07); border: 1px solid rgba(255,255,255,.14);
+  color: #e0e7ff; backdrop-filter: blur(6px);
+}
+a.pill { text-decoration: none; transition: background .15s ease, border-color .15s ease; }
+a.pill:hover { background: rgba(255,255,255,.14); border-color: rgba(255,255,255,.28); }
+
+/* tabs */
+.tabbar-wrap { position: relative; margin-top: -34px; z-index: 2; }
+.tabbar {
+  display: flex; gap: 6px; padding: 6px; background: #fff; border-radius: 14px;
+  border: 1px solid var(--line); overflow-x: auto; scrollbar-width: none;
+  box-shadow: 0 10px 30px -18px rgba(15,23,42,.35);
+}
+.tabbar::-webkit-scrollbar { display: none; }
+.tab {
+  flex: 0 0 auto; border: 0; background: transparent; color: #475569;
+  font: inherit; font-size: 13.5px; font-weight: 600; padding: 9px 16px;
+  border-radius: 10px; cursor: pointer; display: inline-flex; align-items: center; gap: 7px;
+  white-space: nowrap;
+  transition: background .15s ease, color .15s ease;
+}
+.tab:hover { background: #f1f5f9; color: var(--ink); }
+.tab.active { background: #0f172a; color: #fff; }
+.tab .count {
+  font-size: 11px; padding: 1px 7px; border-radius: 999px;
+  background: rgba(148,163,184,.22); color: inherit;
+}
+.tab.active .count { background: rgba(255,255,255,.18); }
+.dot { width: 8px; height: 8px; border-radius: 50%; display: inline-block; }
+
+/* cards */
+main { padding: 30px 0 10px; }
+.grid { display: grid; gap: 18px; grid-template-columns: 1fr; }
+@media (min-width: 820px) { .grid { grid-template-columns: 1fr 1fr; } }
+.card {
+  background: #fff; border: 1px solid var(--line); border-radius: 16px;
+  padding: 20px 20px 16px; display: flex; flex-direction: column;
+  box-shadow: 0 1px 2px rgba(15,23,42,.03), 0 12px 28px -22px rgba(15,23,42,.22);
+  transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+}
+.card:hover {
+  transform: translateY(-3px); border-color: #d8dbf0;
+  box-shadow: 0 2px 4px rgba(15,23,42,.04), 0 22px 40px -24px rgba(49,46,129,.35);
+}
+.card-head { display: flex; align-items: center; gap: 8px; margin-bottom: 12px; }
+.rank {
+  flex: 0 0 auto; width: 30px; height: 30px; border-radius: 9px;
+  display: grid; place-items: center; font-size: 13px; font-weight: 800;
+  background: #f1f5f9; color: #64748b;
+}
+.rank.r1 { background: linear-gradient(140deg, #fbbf24, #f59e0b); color: #fff; }
+.rank.r2 { background: linear-gradient(140deg, #cbd5e1, #94a3b8); color: #fff; }
+.rank.r3 { background: linear-gradient(140deg, #fdba74, #ea580c); color: #fff; }
+.cats { display: flex; flex-wrap: wrap; gap: 5px; flex: 1; min-width: 0; }
+.cat {
+  font-size: 10.5px; font-weight: 700; letter-spacing: .02em;
+  padding: 3px 9px; border-radius: 999px; color: #fff; white-space: nowrap;
+}
+.speed {
+  font-size: 12px; font-weight: 700; padding: 3px 9px; border-radius: 999px;
+  background: #ecfdf5; color: #047857; white-space: nowrap;
+}
+.speed.neutral { background: #f1f5f9; color: #64748b; }
+.speed.top { background: #fffbeb; color: #b45309; }
+.title { font-size: 18px; font-weight: 700; line-height: 1.35; margin-bottom: 6px; word-break: break-word; }
+.title a { color: var(--ink); text-decoration: none; }
+.title a:hover { color: var(--accent); }
+.title .owner { color: #94a3b8; font-weight: 500; }
+.desc { font-size: 13px; line-height: 1.6; color: var(--muted); margin-bottom: 12px; }
+
+.summary {
+  background: #f8fafc; border: 1px solid #eef2f7; border-left: 3px solid var(--accent);
+  border-radius: 10px; padding: 12px 14px; font-size: 13px; line-height: 1.75;
+  color: #334155; flex: 1;
+}
+.summary ul { list-style: none; padding: 0; margin: 0; display: grid; gap: 6px; }
+.summary li { position: relative; padding-left: 18px; }
+.summary li::before {
+  content: ''; position: absolute; left: 3px; top: .62em; width: 5px; height: 5px;
+  border-radius: 50%; background: #c7d2fe;
+}
+.summary strong { color: var(--ink); font-weight: 700; }
+.summary p { margin: 0; }
+
+.card-foot {
+  display: flex; align-items: center; justify-content: space-between; gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 14px; padding-top: 12px; border-top: 1px solid #f1f5f9;
+  font-size: 12px; color: var(--muted);
+}
+.lang { display: inline-flex; align-items: center; gap: 6px; min-width: 0; }
+.lang-dot { width: 9px; height: 9px; border-radius: 50%; flex: 0 0 auto; }
+.foot-right { display: flex; align-items: center; gap: 10px; margin-left: auto; }
+.stars { font-weight: 700; color: #475569; white-space: nowrap; }
+.gh-link {
+  color: var(--accent); text-decoration: none; font-weight: 700; font-size: 12.5px;
+  padding: 5px 10px; border-radius: 8px; background: #eef2ff; white-space: nowrap;
+  transition: background .15s ease;
+}
+.gh-link:hover { background: #e0e7ff; }
+
+.topics { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 10px; }
+.topic {
+  font-size: 10.5px; color: #64748b; background: #f8fafc; border: 1px solid #eef2f7;
+  padding: 2px 7px; border-radius: 6px;
+}
+
+.empty { text-align: center; padding: 70px 20px; color: var(--muted); font-size: 14px; }
+footer { padding: 34px 20px 40px; text-align: center; color: #94a3b8; font-size: 12px; }
+footer .sep { margin: 0 8px; }
+</style>
+</head>
+<body>
+<!-- archive-banner -->
+<div style="background:#0f172a;color:#cbd5e1;font-size:13px;text-align:center;padding:10px 16px;line-height:1.6">2026-10-29 存档 · <a href="../index.html" style="color:#c7d2fe;font-weight:600">回到今天</a><span style="color:#475569;margin:0 8px">/</span><a href="../projects.html" style="color:#c7d2fe;font-weight:600">项目总表</a><span style="color:#475569;margin:0 8px">/</span><a href="../archive.html" style="color:#c7d2fe;font-weight:600">全部存档</a></div>
+<header class="hero">
+  <div class="wrap">
+    <div class="eyebrow">Daily Digest</div>
+    <h1>GitHub <span class="grad">每日精选</span></h1>
+    <p class="lead">每天安卓 / 鸿蒙 / Linux / Windows 各 2 个好玩或实用的应用：一个人气最高，一个涨星最快；再加 1 个热门 AI 项目和 2 个 C / C++ / Python 经典小项目。</p>
+    <div class="meta">
+      <span class="pill">人气榜全时段按总 star 逐日轮换 · 新秀 90–365 天内新建 · AI 30 天内新建</span>
+      <span class="pill">11 个项目</span>
+      <span class="pill">对比 2026-10-28 快照计算日增</span>
+      <a class="pill" href="../archive.html">历史存档 →</a>
+      <a class="pill" href="projects.html">项目总表 →</a>
+    </div>
+  </div>
+</header>
+
+<div class="wrap tabbar-wrap">
+  <div class="tabbar"><button class="tab active" data-cat="all">全部 <span class="count">11</span></button><button class="tab" data-cat="安卓"><span class="dot" style="background:#3ddc84"></span>安卓 <span class="count">2</span></button><button class="tab" data-cat="鸿蒙"><span class="dot" style="background:#e33e31"></span>鸿蒙 <span class="count">2</span></button><button class="tab" data-cat="Linux"><span class="dot" style="background:#f59e0b"></span>Linux <span class="count">2</span></button><button class="tab" data-cat="Windows"><span class="dot" style="background:#0ea5e9"></span>Windows <span class="count">2</span></button><button class="tab" data-cat="AI"><span class="dot" style="background:#8b5cf6"></span>AI <span class="count">1</span></button><button class="tab" data-cat="C"><span class="dot" style="background:#5b6ee1"></span>C <span class="count">1</span></button><button class="tab" data-cat="C++"><span class="dot" style="background:#f34b7d"></span>C++ <span class="count">1</span></button></div>
+</div>
+
+<main class="wrap">
+<div class="grid">
+<article class="card" data-cats="安卓">
+  <div class="card-head">
+    <span class="rank r1">1</span>
+    <div class="cats"><span class="cat" style="background:#3ddc84">安卓</span></div>
+    <span class="speed top">人气榜</span>
+  </div>
+  <h3 class="title"><a href="https://github.com/HunxByts/GhostTrack" target="_blank" rel="noopener noreferrer"><span class="owner">HunxByts/</span>GhostTrack</a></h3>
+  <div class="desc">Useful tool to track location or mobile number</div>
+  <div class="summary"><ul><li><strong>解决什么</strong>：用于追踪手机号码位置或 IP 地址的实用工具</li><li><strong>适合谁</strong>：适合在安卓 Termux 环境下进行信息收集或渗透测试</li><li><strong>亮点</strong>：Termux 社区中高人气的黑客工具</li></ul></div>
+  <div class="topics"><span class="topic">#cybersecurity</span><span class="topic">#fyp</span><span class="topic">#hacking</span><span class="topic">#hacking-tool</span><span class="topic">#indonesia</span><span class="topic">#information</span></div>
+  <div class="card-foot">
+    <span class="lang"><span class="lang-dot" style="background:#3572A5"></span>Python · 成立于 2023-04-15</span>
+    <span class="foot-right">
+      <span class="stars">★ 20.2k</span>
+      <a class="gh-link" href="https://github.com/HunxByts/GhostTrack" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+    </span>
+  </div>
+</article>
+<article class="card" data-cats="安卓">
+  <div class="card-head">
+    <span class="rank r2">2</span>
+    <div class="cats"><span class="cat" style="background:#3ddc84">安卓</span><span class="cat" style="background:#f59e0b">Linux</span><span class="cat" style="background:#0ea5e9">Windows</span></div>
+    <span class="speed">↑ 1805★/天</span>
+  </div>
+  <h3 class="title"><a href="https://github.com/interplains/Zero-Breach-Toolkit" target="_blank" rel="noopener noreferrer"><span class="owner">interplains/</span>Zero-Breach-Toolkit</a></h3>
+  <div class="desc">Free, open-source, offline checks for traces of known mercenary spyware. Works on Windows, macOS and Linux, Android phones and iPhone backups.</div>
+  <div class="summary"><ul><li><strong>解决什么</strong>：提供免费开源的离线检测工具，用于查找设备中已知的商业间谍软件痕迹。</li><li><strong>适合谁</strong>：任何担心设备被商业间谍软件入侵、需要检查隐私安全的个人或组织。</li><li><strong>亮点</strong>：支持多平台且完全离线运行，无需联网即可检测已知的商业间谍软件。</li></ul></div>
+  
+  <div class="card-foot">
+    <span class="lang"><span class="lang-dot" style="background:#3572A5"></span>Python · 成立于 2026-10-25</span>
+    <span class="foot-right">
+      <span class="stars">★ 2.9k</span>
+      <a class="gh-link" href="https://github.com/interplains/Zero-Breach-Toolkit" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+    </span>
+  </div>
+</article>
+<article class="card" data-cats="鸿蒙">
+  <div class="card-head">
+    <span class="rank r3">3</span>
+    <div class="cats"><span class="cat" style="background:#e33e31">鸿蒙</span></div>
+    <span class="speed top">人气榜</span>
+  </div>
+  <h3 class="title"><a href="https://github.com/fenwii/OpenHarmony" target="_blank" rel="noopener noreferrer"><span class="owner">fenwii/</span>OpenHarmony</a></h3>
+  <div class="desc">华为鸿蒙分布式操作系统（Huawei HarmonyOS，纯血鸿蒙Harmony Next ），开源鸿蒙分布式操作系统（ OpenHarmony）开发技术交流，最全鸿蒙技术资料库，手册，指南，共建国产操作系统万物互联新生态。</div>
+  <div class="summary"><ul><li><strong>解决什么</strong>：提供华为鸿蒙及 OpenHarmony 的全面技术资料库、开发指南与社区交流，解决开发者资料匮乏问题</li><li><strong>适合谁</strong>：适合鸿蒙系统开发者、物联网及嵌入式工程师，以及关注国产操作系统生态建设的从业者</li><li><strong>亮点</strong>：汇集最全鸿蒙技术资料库，且获 GitHub 总榜人气推荐</li></ul></div>
+  <div class="topics"><span class="topic">#5g</span><span class="topic">#ai</span><span class="topic">#architecture</span><span class="topic">#development-tools</span><span class="topic">#harmony</span><span class="topic">#harmonyos</span></div>
+  <div class="card-foot">
+    <span class="lang"><span class="lang-dot" style="background:#555555"></span>C · 成立于 2020-09-16</span>
+    <span class="foot-right">
+      <span class="stars">★ 1.4k</span>
+      <a class="gh-link" href="https://github.com/fenwii/OpenHarmony" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+    </span>
+  </div>
+</article>
+<article class="card" data-cats="鸿蒙">
+  <div class="card-head">
+    <span class="rank">4</span>
+    <div class="cats"><span class="cat" style="background:#e33e31">鸿蒙</span><span class="cat" style="background:#0ea5e9">Windows</span></div>
+    <span class="speed">↑ 15★/天</span>
+  </div>
+  <h3 class="title"><a href="https://github.com/electerm/electerm" target="_blank" rel="noopener noreferrer"><span class="owner">electerm/</span>electerm</a></h3>
+  <div class="desc">📻Free and open-sourced terminal/ssh/sftp/ftp/telnet/serialport/RDP/VNC/Spice client(Linux, Mac, Windows, Android, HarmonyOS, iOS)</div>
+  <div class="summary"><ul><li><strong>解决什么</strong>：提供跨平台的终端、SSH、SFTP、FTP、RDP、VNC 等远程连接与文件管理解决方案</li><li><strong>适合谁</strong>：适合需要跨平台远程连接（SSH/SFTP/FTP/RDP等）的开发者与运维人员</li><li><strong>亮点</strong>：开源免费且近期涨星最快，支持 Linux、Mac、Windows、Android 及鸿蒙等多平台</li></ul></div>
+  <div class="topics"><span class="topic">#ai</span><span class="topic">#android</span><span class="topic">#electerm</span><span class="topic">#electron</span><span class="topic">#ftp</span><span class="topic">#harmonyos</span></div>
+  <div class="card-foot">
+    <span class="lang"><span class="lang-dot" style="background:#f1e05a"></span>JavaScript · 成立于 2017-10-07</span>
+    <span class="foot-right">
+      <span class="stars">★ 15.5k</span>
+      <a class="gh-link" href="https://github.com/electerm/electerm" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+    </span>
+  </div>
+</article>
+<article class="card" data-cats="Linux">
+  <div class="card-head">
+    <span class="rank">5</span>
+    <div class="cats"><span class="cat" style="background:#f59e0b">Linux</span></div>
+    <span class="speed top">人气榜</span>
+  </div>
+  <h3 class="title"><a href="https://github.com/junegunn/fzf" target="_blank" rel="noopener noreferrer"><span class="owner">junegunn/</span>fzf</a></h3>
+  <div class="desc">:cherry_blossom: A command-line fuzzy finder</div>
+  <div class="summary"><ul><li><strong>解决什么</strong>：解决在命令行中快速查找文件、历史记录或命令的需求，通过模糊匹配提升操作效率</li><li><strong>适合谁</strong>：适合所有使用命令行工具的开发者、系统管理员以及 Vim/Neovim/Tmux 用户</li><li><strong>亮点</strong>：支持多种 Shell 和编辑器插件，是终端用户最流行的模糊查找工具</li></ul></div>
+  <div class="topics"><span class="topic">#bash</span><span class="topic">#cli</span><span class="topic">#fish</span><span class="topic">#fzf</span><span class="topic">#go</span><span class="topic">#neovim</span></div>
+  <div class="card-foot">
+    <span class="lang"><span class="lang-dot" style="background:#00ADD8"></span>Go · 成立于 2013-10-23</span>
+    <span class="foot-right">
+      <span class="stars">★ 83.9k</span>
+      <a class="gh-link" href="https://github.com/junegunn/fzf" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+    </span>
+  </div>
+</article>
+<article class="card" data-cats="Linux">
+  <div class="card-head">
+    <span class="rank">6</span>
+    <div class="cats"><span class="cat" style="background:#f59e0b">Linux</span></div>
+    <span class="speed">↑ 775★/天</span>
+  </div>
+  <h3 class="title"><a href="https://github.com/horizon-rust/horizon" target="_blank" rel="noopener noreferrer"><span class="owner">horizon-rust/</span>horizon</a></h3>
+  <div class="desc">Minecraft: Java Edition 26.3 rewritten from scratch in Rust, checked against vanilla with 281 differential harnesses. Get it with the Horizon launcher.</div>
+  <div class="summary"><ul><li><strong>解决什么</strong>：用 Rust 从零重写 Minecraft Java 版客户端，并通过 281 个测试用例验证与原版的一致性</li><li><strong>适合谁</strong>：适合想要体验高性能 Minecraft 客户端或对游戏引擎和 Rust 实现感兴趣的开发者</li><li><strong>亮点</strong>：独特之处在于使用 281 个差异测试用例严格验证与原版的一致性</li></ul></div>
+  <div class="topics"><span class="topic">#differential-testing</span><span class="topic">#game-engine</span><span class="topic">#gamedev</span><span class="topic">#linux</span><span class="topic">#minecraft</span><span class="topic">#minecraft-java</span></div>
+  <div class="card-foot">
+    <span class="lang"><span class="lang-dot" style="background:#dea584"></span>Rust · 成立于 2026-10-03</span>
+    <span class="foot-right">
+      <span class="stars">★ 3.8k</span>
+      <a class="gh-link" href="https://github.com/horizon-rust/horizon" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+    </span>
+  </div>
+</article>
+<article class="card" data-cats="Windows">
+  <div class="card-head">
+    <span class="rank">7</span>
+    <div class="cats"><span class="cat" style="background:#f59e0b">Linux</span><span class="cat" style="background:#0ea5e9">Windows</span></div>
+    <span class="speed top">人气榜</span>
+  </div>
+  <h3 class="title"><a href="https://github.com/marktext/marktext" target="_blank" rel="noopener noreferrer"><span class="owner">marktext/</span>marktext</a></h3>
+  <div class="desc">📝A simple and elegant markdown editor, available for Linux, macOS and Windows.</div>
+  <div class="summary"><ul><li><strong>解决什么</strong>：提供跨平台的简单且优雅的 Markdown 编辑体验，支持 Linux、macOS 和 Windows 系统。</li><li><strong>适合谁</strong>：适合需要编写 Markdown 文档的开发者、作家及学生，特别是偏好极简界面和专注写作的用户。</li><li><strong>亮点</strong>：基于 Electron 开发，支持 LaTeX 公式渲染、专注模式和打字机模式，界面简洁美观。</li></ul></div>
+  <div class="topics"><span class="topic">#editor</span><span class="topic">#electron</span><span class="topic">#focus-mode</span><span class="topic">#latex</span><span class="topic">#linux</span><span class="topic">#mac</span></div>
+  <div class="card-foot">
+    <span class="lang"><span class="lang-dot" style="background:#3178c6"></span>TypeScript · 成立于 2017-11-12</span>
+    <span class="foot-right">
+      <span class="stars">★ 63.2k</span>
+      <a class="gh-link" href="https://github.com/marktext/marktext" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+    </span>
+  </div>
+</article>
+<article class="card" data-cats="Windows">
+  <div class="card-head">
+    <span class="rank">8</span>
+    <div class="cats"><span class="cat" style="background:#0ea5e9">Windows</span></div>
+    <span class="speed">↑ 730★/天</span>
+  </div>
+  <h3 class="title"><a href="https://github.com/Niko1221/Strata" target="_blank" rel="noopener noreferrer"><span class="owner">Niko1221/</span>Strata</a></h3>
+  <div class="desc">Qwen3.8-Flash-Next on any consumer hardware: one-click install for Windows / Linux. Strata inference engine, OpenAI/Anthropic API on localhost, optional image input.</div>
+  <div class="summary"><ul><li><strong>解决什么</strong>：解决在消费级硬件上运行 Qwen3.8-Flash-Next 模型并提供本地 API 的问题</li><li><strong>适合谁</strong>：适合需要在 Windows/Linux 本地部署大模型并使用 OpenAI/Anthropic 接口或处理图像的用户</li><li><strong>亮点</strong>：提供一键安装、图像输入支持，且近期涨星速度最快</li></ul></div>
+  
+  <div class="card-foot">
+    <span class="lang"><span class="lang-dot" style="background:#f34b7d"></span>C++ · 成立于 2026-09-24</span>
+    <span class="foot-right">
+      <span class="stars">★ 35.5k</span>
+      <a class="gh-link" href="https://github.com/Niko1221/Strata" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+    </span>
+  </div>
+</article>
+<article class="card" data-cats="AI">
+  <div class="card-head">
+    <span class="rank">9</span>
+    <div class="cats"><span class="cat" style="background:#8b5cf6">AI</span></div>
+    <span class="speed">↑ 432★/天</span>
+  </div>
+  <h3 class="title"><a href="https://github.com/anonnerdfrenzy/survival-llm" target="_blank" rel="noopener noreferrer"><span class="owner">anonnerdfrenzy/</span>survival-llm</a></h3>
+  <div class="desc">A free AI assistant and survival library that runs on your own computer, with no internet needed. Shows the source of every answer.</div>
+  <div class="summary"><ul><li><strong>解决什么</strong>：提供无需联网、本地运行的免费 AI 助手，并显示回答来源</li><li><strong>适合谁</strong>：适合注重隐私、需要离线使用 AI 助手或关注开源透明度的用户</li><li><strong>亮点</strong>：独特之处在于完全本地化运行且透明展示每个回答的数据来源</li></ul></div>
+  
+  <div class="card-foot">
+    <span class="lang"><span class="lang-dot" style="background:#3572A5"></span>Python · 成立于 2026-10-24</span>
+    <span class="foot-right">
+      <span class="stars">★ 619</span>
+      <a class="gh-link" href="https://github.com/anonnerdfrenzy/survival-llm" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+    </span>
+  </div>
+</article>
+<article class="card" data-cats="C">
+  <div class="card-head">
+    <span class="rank">10</span>
+    <div class="cats"><span class="cat" style="background:#5b6ee1">C</span></div>
+    <span class="speed neutral">经典可读</span>
+  </div>
+  <h3 class="title"><a href="https://github.com/cesanta/mongoose" target="_blank" rel="noopener noreferrer"><span class="owner">cesanta/</span>mongoose</a></h3>
+  <div class="desc">Embedded web server, with TCP/IP network stack, MQTT and Websocket</div>
+  <div class="summary"><ul><li><strong>学什么</strong>：掌握 C 语言 socket 通信机制、HTTP 协议状态机流转及嵌入式网络栈的底层实现</li><li><strong>适合谁</strong>：适合 C 语言开发者、嵌入式工程师，以及希望深入理解网络协议栈与 HTTP 协议实现的读者</li><li><strong>怎么读</strong>：建议先阅读 HTTP 请求处理逻辑和 socket 监听模块，再深入分析状态机流转</li></ul></div>
+  <div class="topics"><span class="topic">#embedded</span><span class="topic">#http</span><span class="topic">#iot</span><span class="topic">#mqtt</span><span class="topic">#tcp</span><span class="topic">#tcpip</span></div>
+  <div class="card-foot">
+    <span class="lang"><span class="lang-dot" style="background:#555555"></span>C · 成立于 2012-08-14</span>
+    <span class="foot-right">
+      <span class="stars">★ 13.1k</span>
+      <a class="gh-link" href="https://github.com/cesanta/mongoose" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+    </span>
+  </div>
+</article>
+<article class="card" data-cats="C++">
+  <div class="card-head">
+    <span class="rank">11</span>
+    <div class="cats"><span class="cat" style="background:#f34b7d">C++</span></div>
+    <span class="speed neutral">经典可读</span>
+  </div>
+  <h3 class="title"><a href="https://github.com/google/googletest" target="_blank" rel="noopener noreferrer"><span class="owner">google/</span>googletest</a></h3>
+  <div class="desc">GoogleTest - Google Testing and Mocking Framework</div>
+  <div class="summary"><ul><li><strong>学什么</strong>：掌握 C++ 宏的高级用法、Mocking 机制实现原理及测试框架的架构设计</li><li><strong>适合谁</strong>：适合 C++ 开发者，尤其是想深入理解测试框架底层实现及高质量代码结构的读者</li><li><strong>怎么读</strong>：建议从核心断言机制和测试运行器模块入手，逐步理解 Mocking 框架的实现</li></ul></div>
+  
+  <div class="card-foot">
+    <span class="lang"><span class="lang-dot" style="background:#f34b7d"></span>C++ · 成立于 2015-07-28</span>
+    <span class="foot-right">
+      <span class="stars">★ 39.7k</span>
+      <a class="gh-link" href="https://github.com/google/googletest" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+    </span>
+  </div>
+</article></div>
+</main>
+
+<footer>
+  github-daily · 每天自动整理<span class="sep">·</span>数据来源 GitHub API<span class="sep">·</span>摘要由 AI 生成
+</footer>
+
+<script>
+document.querySelectorAll('.tab').forEach(function (tab) {
+  tab.addEventListener('click', function () {
+    document.querySelectorAll('.tab').forEach(function (t) { t.classList.remove('active'); });
+    tab.classList.add('active');
+    var cat = tab.getAttribute('data-cat');
+    document.querySelectorAll('.card').forEach(function (card) {
+      var cats = (card.getAttribute('data-cats') || '').split(',');
+      card.style.display = (cat === 'all' || cats.indexOf(cat) !== -1) ? '' : 'none';
+    });
+  });
+});
+</script>
+</body>
+</html>
