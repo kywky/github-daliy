@@ -1,8 +1,454 @@
 {
-  "generated_at": "2026-10-30T05:25:12.266975+00:00",
-  "total": 93,
-  "occurrences": 106,
+  "generated_at": "2026-10-31T05:07:07.464380+00:00",
+  "total": 100,
+  "occurrences": 117,
   "projects": [
+    {
+      "full_name": "morluto/rea",
+      "url": "https://github.com/morluto/rea",
+      "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+      "summary": "解决什么：使用智能代理逆向分析应用程序行为和原生二进制文件\n适合谁：逆向工程师和安全研究人员用于自动化和简化逆向分析任务\n亮点：基于智能代理的逆向分析工具，实现自动化和高效的逆向工程",
+      "stars": 412870,
+      "language": "TypeScript",
+      "topics": [
+        "agent-skills",
+        "ai-agents",
+        "binary-analysis",
+        "claude-code",
+        "cli",
+        "codex",
+        "cordis",
+        "decompiler",
+        "developer-tools",
+        "dsh",
+        "dsh-plugin",
+        "ghidra",
+        "hopper",
+        "llm",
+        "mcp",
+        "model-context-protocol",
+        "rea",
+        "reverse-engineering",
+        "static-analysis",
+        "touhou"
+      ],
+      "categories": [
+        "Linux"
+      ],
+      "platforms": [
+        "Linux"
+      ],
+      "pick": "growth",
+      "slot": "Linux",
+      "kind": "search",
+      "created_at": "2026-04-14",
+      "first_date": "2026-10-27",
+      "last_date": "2026-10-31",
+      "dates": [
+        "2026-10-31",
+        "2026-10-27"
+      ],
+      "times": 2
+    },
+    {
+      "full_name": "Z4nzu/hackingtool",
+      "url": "https://github.com/Z4nzu/hackingtool",
+      "description": "ALL IN ONE Hacking Tool For Hackers",
+      "summary": "为黑客提供一站式渗透测试解决方案，集成密码攻击、Web 攻击、无线破解及 CTF 等多种功能\n适合 Linux 环境下的安全研究人员、渗透测试人员及 CTF 竞赛选手使用\n拥有极高的社区人气，集成了最全面的黑客工具集，是 Linux 下最受欢迎的一站式渗透测试平台",
+      "stars": 81539,
+      "language": "Python",
+      "topics": [
+        "allinonehackingtool",
+        "besthackingtool",
+        "ctf-tools",
+        "ddos-attack-tool",
+        "hacker",
+        "hacking",
+        "linux",
+        "password-attack",
+        "steganography",
+        "web-attack",
+        "wireless-attack",
+        "xss-attacks",
+        "xss-detection"
+      ],
+      "categories": [
+        "Linux"
+      ],
+      "platforms": [
+        "Linux"
+      ],
+      "pick": "top",
+      "slot": "Linux",
+      "kind": "search",
+      "created_at": "2020-04-11",
+      "first_date": "2026-10-31",
+      "last_date": "2026-10-31",
+      "dates": [
+        "2026-10-31"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "Raphire/Win11Debloat",
+      "url": "https://github.com/Raphire/Win11Debloat",
+      "description": "A simple, lightweight PowerShell script that allows you to remove pre-installed apps, disable telemetry, as well as perform various other changes to declutter and customize your Windows experience. Win11Debloat works for both Windows 10 and Windows 11.",
+      "summary": "解决什么：自动移除 Windows 预装应用、禁用遥测功能，并进行系统清理和定制\n适合谁：希望简化 Windows 系统并提升隐私性的 Windows 10 和 11 用户\n亮点：一个简单轻量级的 PowerShell 脚本，提供多种 Windows 系统优化功能",
+      "stars": 61323,
+      "language": "PowerShell",
+      "topics": [
+        "automated",
+        "bloatware",
+        "bloatware-removal",
+        "cleanup",
+        "cli",
+        "debloat",
+        "debloater",
+        "interactive",
+        "optimize",
+        "powershell",
+        "powershell-script",
+        "privacy",
+        "ps1",
+        "registry-tweaks",
+        "tweaks",
+        "windows",
+        "windows-10",
+        "windows-11",
+        "windows10",
+        "windows11"
+      ],
+      "categories": [
+        "Linux",
+        "Windows"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "pick": "top",
+      "slot": "Windows",
+      "kind": "search",
+      "created_at": "2020-10-27",
+      "first_date": "2026-10-31",
+      "last_date": "2026-10-31",
+      "dates": [
+        "2026-10-31"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "Gathin23/cleanyourtv",
+      "url": "https://github.com/Gathin23/cleanyourtv",
+      "description": "Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
+      "summary": "解决什么：通过无线方式精简安卓或谷歌电视上的冗余软件，打造类似苹果电视风格的首页\n适合谁：安卓电视或谷歌电视用户，希望移除预装应用、提升系统流畅度和个性化桌面\n亮点：无需连接线即可一键移除冗余应用，快速打造清爽简洁的电视界面",
+      "stars": 46948,
+      "language": "Python",
+      "topics": [
+        "adb",
+        "adblock",
+        "android-tv",
+        "android-tv-launcher",
+        "apple-tv",
+        "bloatware-removal",
+        "claude-code",
+        "debloat",
+        "fire-tv",
+        "google-tv",
+        "launcher",
+        "privacy",
+        "smart-tv",
+        "sony-bravia",
+        "tcl",
+        "vibe-coding",
+        "xiaomi"
+      ],
+      "categories": [
+        "安卓"
+      ],
+      "platforms": [
+        "安卓"
+      ],
+      "pick": "growth",
+      "slot": "安卓",
+      "kind": "search",
+      "created_at": "2026-10-17",
+      "first_date": "2026-10-22",
+      "last_date": "2026-10-31",
+      "dates": [
+        "2026-10-31",
+        "2026-10-27",
+        "2026-10-22"
+      ],
+      "times": 3
+    },
+    {
+      "full_name": "raysan5/raylib",
+      "url": "https://github.com/raysan5/raylib",
+      "description": "A simple and easy-to-use library to enjoy videogames programming",
+      "summary": "学什么：学习 C 语言图形渲染原理与简洁的游戏引擎架构设计\n适合谁：适合 C 语言开发者及游戏编程爱好者，想深入理解渲染管线与窗口管理\n怎么读：建议从窗口初始化与主循环模块入手，再深入图形渲染逻辑",
+      "stars": 35497,
+      "language": "C",
+      "topics": [
+        "android",
+        "c",
+        "embedded",
+        "esp32",
+        "game-development",
+        "game-engine",
+        "gamedev",
+        "graphics",
+        "iot",
+        "linux",
+        "macos",
+        "opengl",
+        "programming",
+        "raspberry-pi",
+        "raylib",
+        "riscv",
+        "wasm",
+        "webassembly",
+        "win32"
+      ],
+      "categories": [
+        "C"
+      ],
+      "platforms": [
+        "C"
+      ],
+      "pick": null,
+      "slot": null,
+      "kind": "learn",
+      "created_at": "2013-10-24",
+      "first_date": "2026-10-31",
+      "last_date": "2026-10-31",
+      "dates": [
+        "2026-10-31"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "bluesky-social/social-app",
+      "url": "https://github.com/bluesky-social/social-app",
+      "description": "The Bluesky Social application for Web, iOS, and Android",
+      "summary": "提供Bluesky社交网络的官方客户端，支持Web、iOS和Android多平台访问\n适合使用Bluesky社交网络的用户，用于日常发帖、互动和浏览内容\n官方维护的开源项目，拥有高人气，支持跨平台（Web/iOS/Android）同步",
+      "stars": 18357,
+      "language": "TypeScript",
+      "topics": [],
+      "categories": [
+        "安卓"
+      ],
+      "platforms": [
+        "安卓"
+      ],
+      "pick": "top",
+      "slot": "安卓",
+      "kind": "search",
+      "created_at": "2022-06-07",
+      "first_date": "2026-10-31",
+      "last_date": "2026-10-31",
+      "dates": [
+        "2026-10-31"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "Orkas-AI/Orkas",
+      "url": "https://github.com/Orkas-AI/Orkas",
+      "description": "Orkas is an open-source (MIT), local-first AI team for your desktop: a Commander turns your goal into to-dos and coordinates 16 built-in specialist agents plus Claude Code, Codex, OpenCode, OpenClaw and Hermes, with projects, scheduled automations and connectors. Free app for macOS & Windows; built-in models or your own keys.",
+      "summary": "Orkas 是一个本地优先的桌面 AI 团队，通过多智能体协作解决复杂任务自动化与目标分解问题\n适合希望在本地运行多智能体系统、进行代码辅助及自动化办公的 Windows/macOS 用户\n拥有16个内置专业代理，支持Claude Code等模型，且开源免费",
+      "stars": 5391,
+      "language": "JavaScript",
+      "topics": [
+        "agent-collaboration",
+        "agent-harness",
+        "agent-orchestration",
+        "agent-team",
+        "agent-workflow",
+        "ai-assistant",
+        "ai-automation",
+        "ai-employee",
+        "ai-productivity",
+        "ai-team",
+        "ai-workflow",
+        "autonomous-agents",
+        "claude-code-gui",
+        "claude-cowork",
+        "desktop-agent",
+        "local-first",
+        "multi-agent",
+        "multi-agent-system",
+        "self-evolving-agents",
+        "task-automation"
+      ],
+      "categories": [
+        "Windows"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "pick": "growth",
+      "slot": "Windows",
+      "kind": "search",
+      "created_at": "2026-04-29",
+      "first_date": "2026-10-31",
+      "last_date": "2026-10-31",
+      "dates": [
+        "2026-10-31"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "jhaizhou-ops/d2r-mobile",
+      "url": "https://github.com/jhaizhou-ops/d2r-mobile",
+      "description": "Open-source compatibility layer for Diablo II: Resurrected with the Reign of the Warlock expansion. Runs your own Switch copy natively on iPhone, iPad, Mac, Android and HarmonyOS — full touch controls, 60 fps, new endgame modes. Bring your own game files. 开源的《暗黑破坏神 II：狱火重生》术士君临 iOS / macOS / 安卓 / 鸿蒙兼容层",
+      "summary": "提供开源兼容层，支持在 iOS、Android、鸿蒙及 Mac 上运行 Switch 版《暗黑破坏神 II：狱火重生》\n适合拥有 Switch 版游戏文件的玩家，在 iPhone、iPad、Mac 或鸿蒙设备上流畅游玩\n原生运行 Switch 文件，支持术士君临扩展，多平台支持 60fps 和触控",
+      "stars": 4914,
+      "language": "C",
+      "topics": [
+        "android",
+        "compatibility-layer",
+        "diablo-2-resurrected",
+        "diablo2",
+        "game-port",
+        "harmonyos",
+        "ios",
+        "ipad",
+        "iphone",
+        "mac",
+        "macos",
+        "metal",
+        "reign-of-the-warlock",
+        "vulkan"
+      ],
+      "categories": [
+        "鸿蒙"
+      ],
+      "platforms": [
+        "鸿蒙"
+      ],
+      "pick": "growth",
+      "slot": "鸿蒙",
+      "kind": "search",
+      "created_at": "2026-10-12",
+      "first_date": "2026-10-27",
+      "last_date": "2026-10-31",
+      "dates": [
+        "2026-10-31",
+        "2026-10-27"
+      ],
+      "times": 2
+    },
+    {
+      "full_name": "zeux/pugixml",
+      "url": "https://github.com/zeux/pugixml",
+      "description": "Light-weight, simple and fast XML parser for C++ with XPath support",
+      "summary": "学习 C++ 内存池的高效分配机制，掌握 DOM 树结构与迭代器模式的底层实现\n适合希望学习轻量级 XML 解析实现、掌握 C++ 内存池与迭代器设计的进阶开发者\n建议从内存池与解析器核心入手，逐步深入 DOM 操作与 XPath 查询模块",
+      "stars": 4665,
+      "language": "C++",
+      "topics": [
+        "dom",
+        "xml",
+        "xml-parser",
+        "xpath"
+      ],
+      "categories": [
+        "C++"
+      ],
+      "platforms": [
+        "C++"
+      ],
+      "pick": null,
+      "slot": null,
+      "kind": "learn",
+      "created_at": "2012-07-06",
+      "first_date": "2026-10-31",
+      "last_date": "2026-10-31",
+      "dates": [
+        "2026-10-31"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "AGenUI/AGenUI",
+      "url": "https://github.com/AGenUI/AGenUI",
+      "description": "Native A2UI Renderer for iOS/Android/HarmonyOS. High performance streaming Generative UI. Custom Components, Styles and more.",
+      "summary": "解决什么：为 iOS/Android/HarmonyOS 提供高性能的 Native A2UI 渲染器，支持流式生成式 UI\n适合谁：需要跨平台高性能渲染和生成式 UI 能力的开发者\n亮点：高性能流式生成式 UI 渲染器，支持自定义组件和样式",
+      "stars": 1216,
+      "language": "C++",
+      "topics": [
+        "a2ui",
+        "agent-ui",
+        "agenui",
+        "ai-agents",
+        "ai-generative-ui",
+        "cross-platform",
+        "generative-ui",
+        "harmonyos",
+        "llm-ui",
+        "native-rendering",
+        "native-ui",
+        "server-driven-ui",
+        "streaming-ui"
+      ],
+      "categories": [
+        "鸿蒙"
+      ],
+      "platforms": [
+        "鸿蒙"
+      ],
+      "pick": "top",
+      "slot": "鸿蒙",
+      "kind": "search",
+      "created_at": "2026-03-22",
+      "first_date": "2026-10-23",
+      "last_date": "2026-10-31",
+      "dates": [
+        "2026-10-31",
+        "2026-10-23"
+      ],
+      "times": 2
+    },
+    {
+      "full_name": "daveebbelaar/bama",
+      "url": "https://github.com/daveebbelaar/bama",
+      "description": "BAMA: Build Any Mac App. Agent skills to research, clone, design, build, optimize, and test native macOS apps with Swift and SwiftUI.",
+      "summary": "利用 AI Agent 技能自动化 macOS 应用的研究、设计、构建与测试流程\n适合希望利用 AI 快速开发原生 macOS 应用的开发者\n集成 Agent skills，支持使用 Swift 和 SwiftUI 全流程自动化构建原生应用",
+      "stars": 957,
+      "language": "Swift",
+      "topics": [
+        "agent-skills",
+        "ai-agents",
+        "app-clone",
+        "claude-code",
+        "claude-code-plugin",
+        "codex",
+        "computer-use",
+        "liquid-glass",
+        "macos",
+        "macos-app",
+        "native-apps",
+        "skills",
+        "swift",
+        "swiftdata",
+        "swiftui"
+      ],
+      "categories": [
+        "AI"
+      ],
+      "platforms": [
+        "AI"
+      ],
+      "pick": "ai",
+      "slot": "AI",
+      "kind": "search",
+      "created_at": "2026-10-24",
+      "first_date": "2026-10-31",
+      "last_date": "2026-10-31",
+      "dates": [
+        "2026-10-31"
+      ],
+      "times": 1
+    },
     {
       "full_name": "jesseduffield/lazygit",
       "url": "https://github.com/jesseduffield/lazygit",
@@ -1243,52 +1689,6 @@
       "times": 1
     },
     {
-      "full_name": "morluto/rea",
-      "url": "https://github.com/morluto/rea",
-      "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
-      "summary": "解决什么：利用 AI 代理对应用行为及原生二进制文件进行全方位逆向工程\n适合谁：适合逆向工程师、安全研究人员及开发者使用\n亮点：结合 MCP 协议与多种逆向工具，近期涨星极快",
-      "stars": 392669,
-      "language": "TypeScript",
-      "topics": [
-        "agent-skills",
-        "ai-agents",
-        "binary-analysis",
-        "claude-code",
-        "cli",
-        "codex",
-        "cordis",
-        "decompiler",
-        "developer-tools",
-        "dsh",
-        "dsh-plugin",
-        "ghidra",
-        "hopper",
-        "llm",
-        "mcp",
-        "model-context-protocol",
-        "rea",
-        "reverse-engineering",
-        "static-analysis",
-        "touhou"
-      ],
-      "categories": [
-        "Linux"
-      ],
-      "platforms": [
-        "Linux"
-      ],
-      "pick": "growth",
-      "slot": "Linux",
-      "kind": "search",
-      "created_at": "2026-04-14",
-      "first_date": "2026-10-27",
-      "last_date": "2026-10-27",
-      "dates": [
-        "2026-10-27"
-      ],
-      "times": 1
-    },
-    {
       "full_name": "clash-verge-rev/clash-verge-rev",
       "url": "https://github.com/clash-verge-rev/clash-verge-rev",
       "description": "A modern GUI client based on Tauri, designed to run in Windows, macOS and Linux for tailored proxy experience",
@@ -1411,50 +1811,6 @@
         "2026-10-27"
       ],
       "times": 1
-    },
-    {
-      "full_name": "Gathin23/cleanyourtv",
-      "url": "https://github.com/Gathin23/cleanyourtv",
-      "description": "Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
-      "summary": "解决什么：通过无线方式精简安卓或谷歌电视上的冗余应用，打造类似苹果电视风格的首页\n适合谁：安卓电视或谷歌电视用户，希望移除预装应用、提升系统流畅度和隐私保护\n亮点：无需连接线即可移除冗余应用，快速实现电视系统轻量化定制",
-      "stars": 39688,
-      "language": "Python",
-      "topics": [
-        "adb",
-        "adblock",
-        "android-tv",
-        "android-tv-launcher",
-        "apple-tv",
-        "bloatware-removal",
-        "claude-code",
-        "debloat",
-        "fire-tv",
-        "google-tv",
-        "launcher",
-        "privacy",
-        "smart-tv",
-        "sony-bravia",
-        "tcl",
-        "vibe-coding",
-        "xiaomi"
-      ],
-      "categories": [
-        "安卓"
-      ],
-      "platforms": [
-        "安卓"
-      ],
-      "pick": "growth",
-      "slot": "安卓",
-      "kind": "search",
-      "created_at": "2026-10-17",
-      "first_date": "2026-10-22",
-      "last_date": "2026-10-27",
-      "dates": [
-        "2026-10-27",
-        "2026-10-22"
-      ],
-      "times": 2
     },
     {
       "full_name": "android/nowinandroid",
@@ -1584,46 +1940,6 @@
       "slot": "鸿蒙",
       "kind": "search",
       "created_at": "2026-01-30",
-      "first_date": "2026-10-27",
-      "last_date": "2026-10-27",
-      "dates": [
-        "2026-10-27"
-      ],
-      "times": 1
-    },
-    {
-      "full_name": "jhaizhou-ops/d2r-mobile",
-      "url": "https://github.com/jhaizhou-ops/d2r-mobile",
-      "description": "Open-source compatibility layer for Diablo II: Resurrected with the Reign of the Warlock expansion. Runs your own Switch copy natively on iPhone, iPad, Mac, Android and HarmonyOS — full touch controls, 60 fps, new endgame modes. Bring your own game files. 开源的《暗黑破坏神 II：狱火重生》术士君临 iOS / macOS / 安卓 / 鸿蒙兼容层",
-      "summary": "解决什么：为《暗黑破坏神 II：狱火重生》提供一个开源兼容层，让玩家能在 iPhone、iPad、Mac、Android 和鸿蒙系统上原生运行游戏，支持全触控和 60fps\n适合谁：喜欢在移动设备或非 Switch 平台上玩《暗黑破坏神 II：狱火重生》的玩家\n亮点：开源兼容层，支持自带游戏文件，实现多平台原生运行",
-      "stars": 4716,
-      "language": "C",
-      "topics": [
-        "android",
-        "compatibility-layer",
-        "diablo-2-resurrected",
-        "diablo2",
-        "game-port",
-        "harmonyos",
-        "ios",
-        "ipad",
-        "iphone",
-        "mac",
-        "macos",
-        "metal",
-        "reign-of-the-warlock",
-        "vulkan"
-      ],
-      "categories": [
-        "鸿蒙"
-      ],
-      "platforms": [
-        "鸿蒙"
-      ],
-      "pick": "top",
-      "slot": "鸿蒙",
-      "kind": "search",
-      "created_at": "2026-10-12",
       "first_date": "2026-10-27",
       "last_date": "2026-10-27",
       "dates": [
@@ -2846,45 +3162,6 @@
       "slot": "AI",
       "kind": "search",
       "created_at": "2026-09-29",
-      "first_date": "2026-10-23",
-      "last_date": "2026-10-23",
-      "dates": [
-        "2026-10-23"
-      ],
-      "times": 1
-    },
-    {
-      "full_name": "AGenUI/AGenUI",
-      "url": "https://github.com/AGenUI/AGenUI",
-      "description": "Native A2UI Renderer for iOS/Android/HarmonyOS. High performance streaming Generative UI. Custom Components, Styles and more.",
-      "summary": "解决跨平台原生渲染高性能流式生成 UI 的问题\n适合需要开发高性能流式生成 UI 的 AI 应用或鸿蒙开发者\n近期涨星最快的鸿蒙项目，支持跨平台原生渲染与自定义组件",
-      "stars": 1208,
-      "language": "C++",
-      "topics": [
-        "a2ui",
-        "agent-ui",
-        "agenui",
-        "ai-agents",
-        "ai-generative-ui",
-        "cross-platform",
-        "generative-ui",
-        "harmonyos",
-        "llm-ui",
-        "native-rendering",
-        "native-ui",
-        "server-driven-ui",
-        "streaming-ui"
-      ],
-      "categories": [
-        "鸿蒙"
-      ],
-      "platforms": [
-        "鸿蒙"
-      ],
-      "pick": "growth",
-      "slot": "鸿蒙",
-      "kind": "search",
-      "created_at": "2026-03-22",
       "first_date": "2026-10-23",
       "last_date": "2026-10-23",
       "dates": [
