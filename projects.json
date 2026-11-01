@@ -1,8 +1,424 @@
 {
-  "generated_at": "2026-10-31T05:07:07.464380+00:00",
-  "total": 100,
-  "occurrences": 117,
+  "generated_at": "2026-11-01T05:41:30.227141+00:00",
+  "total": 108,
+  "occurrences": 128,
   "projects": [
+    {
+      "full_name": "netdata/netdata",
+      "url": "https://github.com/netdata/netdata",
+      "description": "The fastest path to AI-powered full stack observability, even for lean teams.",
+      "summary": "提供全栈可观测性监控，利用 AI 分析数据以快速发现和解决系统问题\n适合 DevOps 工程师和精简团队，用于实时监控服务器性能和基础设施健康状况\n通过 AI 技术实现近乎实时的全栈监控，且无需复杂配置",
+      "stars": 81236,
+      "language": "Go",
+      "topics": [
+        "ai",
+        "alerting",
+        "cncf",
+        "data-visualization",
+        "database",
+        "devops",
+        "docker",
+        "grafana",
+        "influxdb",
+        "kubernetes",
+        "linux",
+        "machine-learning",
+        "mcp",
+        "mongodb",
+        "monitoring",
+        "mysql",
+        "netdata",
+        "observability",
+        "postgresql",
+        "prometheus"
+      ],
+      "categories": [
+        "Linux"
+      ],
+      "platforms": [
+        "Linux"
+      ],
+      "pick": "top",
+      "slot": "Linux",
+      "kind": "search",
+      "created_at": "2013-06-17",
+      "first_date": "2026-11-01",
+      "last_date": "2026-11-01",
+      "dates": [
+        "2026-11-01"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "FiloSottile/mkcert",
+      "url": "https://github.com/FiloSottile/mkcert",
+      "description": "A simple zero-config tool to make locally trusted development certificates with any names you'd like.",
+      "summary": "解决什么：解决本地开发环境 HTTPS 证书信任问题，一键生成受信任的本地开发证书\n适合谁：适合需要在本地开发环境中配置 HTTPS 证书的开发者\n亮点：零配置一键生成受信任的本地开发证书，支持多平台",
+      "stars": 59813,
+      "language": "Go",
+      "topics": [
+        "certificates",
+        "chrome",
+        "firefox",
+        "https",
+        "ios",
+        "linux",
+        "local-development",
+        "localhost",
+        "macos",
+        "root-ca",
+        "tls",
+        "windows"
+      ],
+      "categories": [
+        "Linux",
+        "Windows"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "pick": "top",
+      "slot": "Windows",
+      "kind": "search",
+      "created_at": "2018-06-25",
+      "first_date": "2026-11-01",
+      "last_date": "2026-11-01",
+      "dates": [
+        "2026-11-01"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "ifixai-ai/iFixAi",
+      "url": "https://github.com/ifixai-ai/iFixAi",
+      "description": "Independent Auditing of AI Agents. Run by human or the agent itself, to answer the most crucial question in the AI Agent Economy. Is the agent doing what is supposed to do? With iFixAi you can have this answer in less than 120 seconds.",
+      "summary": "解决什么：独立审计 AI 代理，快速判断代理是否按预期工作\n适合谁：AI 代理开发者、研究人员，需要评估代理行为和安全性\n亮点：快速审计 AI 代理行为，保障 AI 经济中的信任和合规",
+      "stars": 41658,
+      "language": "Python",
+      "topics": [
+        "agent-evaluation",
+        "ai",
+        "ai-alignment",
+        "ai-evaluation",
+        "ai-governance",
+        "ai-safety",
+        "cli",
+        "diagnostic-tool",
+        "eu-ai-act",
+        "hallucination-detection",
+        "iso-42001",
+        "llm-evaluation",
+        "llm-security",
+        "nist-ai-rmf",
+        "owasp-llm",
+        "prompt-injection",
+        "python",
+        "responsible-ai",
+        "risk-assessment",
+        "risk-management"
+      ],
+      "categories": [
+        "Linux"
+      ],
+      "platforms": [
+        "Linux"
+      ],
+      "pick": "growth",
+      "slot": "Linux",
+      "kind": "search",
+      "created_at": "2026-04-27",
+      "first_date": "2026-10-28",
+      "last_date": "2026-11-01",
+      "dates": [
+        "2026-11-01",
+        "2026-10-28"
+      ],
+      "times": 2
+    },
+    {
+      "full_name": "DuarteSantos8/openGym",
+      "url": "https://github.com/DuarteSantos8/openGym",
+      "description": "Open-source gym & body-weight tracker, now in the App Store (iPhone + Apple Watch) and as an Android APK. Plan routines, log workouts, see which muscles are trained, import from Strong/Hevy/FitNotes. Self-host it or use it on the phone alone.",
+      "summary": "解决什么：一个开源的健身和自重训练追踪器，帮助用户计划训练、记录锻炼、查看肌肉训练情况，并支持从其他应用导入数据\n适合谁：健身爱好者、自重训练者，需要记录和管理个人训练数据的用户\n亮点：支持自托管或离线使用，并提供跨平台应用（iOS、Apple Watch、Android）",
+      "stars": 18341,
+      "language": "JavaScript",
+      "topics": [
+        "apple-watch",
+        "bodyweight",
+        "docker",
+        "fitness",
+        "fitness-tracker",
+        "gym",
+        "health",
+        "ios",
+        "mcp",
+        "nodejs",
+        "passkeys",
+        "progressive-web-applications",
+        "pwa",
+        "react",
+        "self-hosted",
+        "self-hosting",
+        "vite",
+        "webauthn",
+        "weightlifting",
+        "workout-tracker"
+      ],
+      "categories": [
+        "安卓"
+      ],
+      "platforms": [
+        "安卓"
+      ],
+      "pick": "top",
+      "slot": "安卓",
+      "kind": "search",
+      "created_at": "2026-07-18",
+      "first_date": "2026-10-24",
+      "last_date": "2026-11-01",
+      "dates": [
+        "2026-11-01",
+        "2026-10-28",
+        "2026-10-24"
+      ],
+      "times": 3
+    },
+    {
+      "full_name": "Neargye/magic_enum",
+      "url": "https://github.com/Neargye/magic_enum",
+      "description": "Static reflection for enums (to string, from string, iteration) for modern C++, work with any enum type without any macro or boilerplate code",
+      "summary": "深入理解 C++ 模板元编程与编译期反射机制，掌握无宏的枚举处理技巧\n适合有一定 C++ 基础，希望深入理解模板元编程或需要处理枚举反射的开发者\n从 README 示例入手，重点阅读核心头文件中的模板元编程实现",
+      "stars": 6249,
+      "language": "C++",
+      "topics": [
+        "c-plus-plus",
+        "c-plus-plus-17",
+        "cplusplus",
+        "cplusplus-17",
+        "cpp",
+        "cpp17",
+        "enum",
+        "enum-to-string",
+        "header-only",
+        "metaprogramming",
+        "no-dependencies",
+        "reflection",
+        "serialization",
+        "single-file",
+        "string-to-enum"
+      ],
+      "categories": [
+        "C++"
+      ],
+      "platforms": [
+        "C++"
+      ],
+      "pick": null,
+      "slot": null,
+      "kind": "learn",
+      "created_at": "2019-03-30",
+      "first_date": "2026-11-01",
+      "last_date": "2026-11-01",
+      "dates": [
+        "2026-11-01"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "ccch1mneyyy/dsh-Go",
+      "url": "https://github.com/ccch1mneyyy/dsh-Go",
+      "description": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
+      "summary": "解决什么：让 DeepSeek AI 工具在安卓手机上本地运行，并能远程控制电脑\n适合谁：需要移动端 AI 辅助、希望随时随地使用 DeepSeek 功能的开发者和用户\n亮点：首个在安卓手机上实现本地化 DeepSeek 运行的工具",
+      "stars": 3804,
+      "language": "Dart",
+      "topics": [
+        "ai-agent",
+        "android",
+        "android-app",
+        "coding-agent",
+        "deepseek",
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin",
+        "dsh-tui",
+        "flutter",
+        "llm"
+      ],
+      "categories": [
+        "安卓",
+        "AI"
+      ],
+      "platforms": [
+        "安卓"
+      ],
+      "pick": "growth",
+      "slot": "安卓",
+      "kind": "search",
+      "created_at": "2026-10-25",
+      "first_date": "2026-10-30",
+      "last_date": "2026-11-01",
+      "dates": [
+        "2026-11-01",
+        "2026-10-30"
+      ],
+      "times": 2
+    },
+    {
+      "full_name": "wangzan101/Mika",
+      "url": "https://github.com/wangzan101/Mika",
+      "description": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
+      "summary": "让 AI 代理在 Android 设备上自动操作应用和网页以完成用户任务\n适合需要 Android 自动化、无障碍辅助或 LLM 应用开发的学习者与开发者\n纯本地运行的 Android AI 代理，支持 Jetpack Compose UI",
+      "stars": 2967,
+      "language": "Kotlin",
+      "topics": [
+        "accessibility",
+        "ai-agent",
+        "android",
+        "automation",
+        "jetpack-compose",
+        "kotlin",
+        "llm",
+        "mobile-agent"
+      ],
+      "categories": [
+        "AI"
+      ],
+      "platforms": [
+        "AI"
+      ],
+      "pick": "ai",
+      "slot": "AI",
+      "kind": "search",
+      "created_at": "2026-10-29",
+      "first_date": "2026-11-01",
+      "last_date": "2026-11-01",
+      "dates": [
+        "2026-11-01"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "richgel999/miniz",
+      "url": "https://github.com/richgel999/miniz",
+      "description": "miniz: Single C source file zlib-replacement library, originally from code.google.com/p/miniz",
+      "summary": "深入理解 deflate 压缩算法核心逻辑，掌握高效位操作与数据流处理技巧\n适合想要快速掌握 deflate 算法或需要轻量级压缩库的 C/C++ 开发者\n从 `mz_deflate` 入口函数开始，逐步追踪位流操作与哈夫曼编码实现",
+      "stars": 2912,
+      "language": "C++",
+      "topics": [],
+      "categories": [
+        "C"
+      ],
+      "platforms": [
+        "C"
+      ],
+      "pick": null,
+      "slot": null,
+      "kind": "learn",
+      "created_at": "2015-05-21",
+      "first_date": "2026-11-01",
+      "last_date": "2026-11-01",
+      "dates": [
+        "2026-11-01"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "InukaAsith/TwinDesk",
+      "url": "https://github.com/InukaAsith/TwinDesk",
+      "description": "All your computers and your phone, working as one desk. Screens, apps, files, clipboard, calls, texts, notifications, mouse and keyboard, shared between Mac, Windows, Linux and Android. Free and open source. No account, no cloud, and now no shared network needed.",
+      "summary": "解决什么：解决多设备间屏幕、文件、剪贴板及输入设备的共享问题\n适合谁：适合拥有 Mac、Windows、Linux 和 Android 多设备，需要统一桌面体验或跨设备协同工作的用户\n亮点：免费开源，无需账号和云服务，且无需共享网络即可连接",
+      "stars": 2493,
+      "language": "JavaScript",
+      "topics": [
+        "android",
+        "connect",
+        "electron",
+        "kde-connect-alternative",
+        "kvm",
+        "linux",
+        "macbook",
+        "macos",
+        "mouse-sharing",
+        "phone-link-alternative",
+        "productivity",
+        "screen-sharing",
+        "synergy-alternative",
+        "windows"
+      ],
+      "categories": [
+        "Linux",
+        "Windows"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "pick": "growth",
+      "slot": "Windows",
+      "kind": "search",
+      "created_at": "2026-10-14",
+      "first_date": "2026-11-01",
+      "last_date": "2026-11-01",
+      "dates": [
+        "2026-11-01"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "didi/dimina",
+      "url": "https://github.com/didi/dimina",
+      "description": "Dimina MiniProgram - DiDi's Open-Source MiniProgram / 星河小程序 - 滴滴开源小程序",
+      "summary": "解决多端小程序开发难题，实现一套代码在 Android、iOS 和鸿蒙系统运行\n适合需要构建跨平台小程序的开发者，尤其是关注鸿蒙生态的开发者\n滴滴开源的“星河”小程序框架，支持 Android、iOS 和鸿蒙多端运行",
+      "stars": 953,
+      "language": "JavaScript",
+      "topics": [
+        "android",
+        "harmonyos",
+        "ios",
+        "miniapp",
+        "miniprogram"
+      ],
+      "categories": [
+        "鸿蒙"
+      ],
+      "platforms": [
+        "鸿蒙"
+      ],
+      "pick": "top",
+      "slot": "鸿蒙",
+      "kind": "search",
+      "created_at": "2025-04-24",
+      "first_date": "2026-11-01",
+      "last_date": "2026-11-01",
+      "dates": [
+        "2026-11-01"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "GeorgeGcs/ArkGenie",
+      "url": "https://github.com/GeorgeGcs/ArkGenie",
+      "description": "HarmonyOS ArkUI 开源组件套件，提供 AI 对话、流式 SSE、Markdown 渲染和 A2UI 生成式 UI 能力。",
+      "summary": "解决什么：为 HarmonyOS ArkUI 应用提供 AI 对话、流式 SSE、Markdown 渲染和 A2UI 生成式 UI 组件\n适合谁：开发者用于构建具有高级交互和内容展示能力的 HarmonyOS 应用\n亮点：集成多种先进能力，简化 ArkUI 应用的开发流程",
+      "stars": 98,
+      "language": "JavaScript",
+      "topics": [],
+      "categories": [
+        "鸿蒙"
+      ],
+      "platforms": [
+        "鸿蒙"
+      ],
+      "pick": "growth",
+      "slot": "鸿蒙",
+      "kind": "search",
+      "created_at": "2026-10-23",
+      "first_date": "2026-11-01",
+      "last_date": "2026-11-01",
+      "dates": [
+        "2026-11-01"
+      ],
+      "times": 1
+    },
     {
       "full_name": "morluto/rea",
       "url": "https://github.com/morluto/rea",
@@ -839,43 +1255,6 @@
       "times": 1
     },
     {
-      "full_name": "ccch1mneyyy/dsh-go",
-      "url": "https://github.com/ccch1mneyyy/dsh-go",
-      "description": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。Android · Unofficial.",
-      "summary": "将 DeepSeek Harness 移植到 Android 手机，支持本地运行与远程控制电脑\n适合需要在移动设备上使用 AI 编程助手或远程操作电脑的开发者\n基于 Flutter 开发的 DeepSeek Harness 移动版，近期涨星迅速",
-      "stars": 598,
-      "language": "Dart",
-      "topics": [
-        "ai-agent",
-        "android",
-        "android-app",
-        "coding-agent",
-        "deepseek",
-        "deepseek-harness",
-        "dsh",
-        "dsh-tui",
-        "flutter",
-        "llm"
-      ],
-      "categories": [
-        "安卓",
-        "AI"
-      ],
-      "platforms": [
-        "安卓"
-      ],
-      "pick": "growth",
-      "slot": "安卓",
-      "kind": "search",
-      "created_at": "2026-10-25",
-      "first_date": "2026-10-30",
-      "last_date": "2026-10-30",
-      "dates": [
-        "2026-10-30"
-      ],
-      "times": 1
-    },
-    {
       "full_name": "junegunn/fzf",
       "url": "https://github.com/junegunn/fzf",
       "description": ":cherry_blossom: A command-line fuzzy finder",
@@ -1343,52 +1722,6 @@
       "times": 1
     },
     {
-      "full_name": "ifixai-ai/iFixAi",
-      "url": "https://github.com/ifixai-ai/iFixAi",
-      "description": "Independent Auditing of AI Agents. Run by human or the agent itself, to answer the most crucial question in the AI Agent Economy. Is the agent doing what is supposed to do? With iFixAi you can have this answer in less than 120 seconds.",
-      "summary": "为 AI Agent 提供独立审计，验证其是否按预期执行任务\n适用于需要评估 AI Agent 行为、进行合规检查或风险管理的开发者及企业\n支持自主或人工审计，能在 120 秒内快速检测幻觉与安全风险",
-      "stars": 36072,
-      "language": "Python",
-      "topics": [
-        "agent-evaluation",
-        "ai",
-        "ai-alignment",
-        "ai-evaluation",
-        "ai-governance",
-        "ai-safety",
-        "cli",
-        "diagnostic-tool",
-        "eu-ai-act",
-        "hallucination-detection",
-        "iso-42001",
-        "llm-evaluation",
-        "llm-security",
-        "nist-ai-rmf",
-        "owasp-llm",
-        "prompt-injection",
-        "python",
-        "responsible-ai",
-        "risk-assessment",
-        "risk-management"
-      ],
-      "categories": [
-        "Linux"
-      ],
-      "platforms": [
-        "Linux"
-      ],
-      "pick": "growth",
-      "slot": "Linux",
-      "kind": "search",
-      "created_at": "2026-04-27",
-      "first_date": "2026-10-28",
-      "last_date": "2026-10-28",
-      "dates": [
-        "2026-10-28"
-      ],
-      "times": 1
-    },
-    {
       "full_name": "fmtlib/fmt",
       "url": "https://github.com/fmtlib/fmt",
       "description": "A modern formatting library",
@@ -1467,53 +1800,6 @@
         "2026-10-28"
       ],
       "times": 1
-    },
-    {
-      "full_name": "DuarteSantos8/openGym",
-      "url": "https://github.com/DuarteSantos8/openGym",
-      "description": "Open-source gym & body-weight tracker, now in the App Store (iPhone + Apple Watch) and as an Android APK. Plan routines, log workouts, see which muscles are trained, import from Strong/Hevy/FitNotes. Self-host it or use it on the phone alone.",
-      "summary": "提供开源的健身房与自重训练追踪功能，支持记录锻炼、规划流程及查看肌肉训练情况。\n适合健身爱好者及自托管用户，支持 iPhone、Apple Watch 和 Android，可从 Strong/Hevy 等应用导入数据。\n支持跨平台（iOS/Android/自托管）且近期涨星极快，功能全面。",
-      "stars": 16740,
-      "language": "JavaScript",
-      "topics": [
-        "apple-watch",
-        "bodyweight",
-        "docker",
-        "fitness",
-        "fitness-tracker",
-        "gym",
-        "health",
-        "ios",
-        "mcp",
-        "nodejs",
-        "passkeys",
-        "progressive-web-applications",
-        "pwa",
-        "react",
-        "self-hosted",
-        "self-hosting",
-        "vite",
-        "webauthn",
-        "weightlifting",
-        "workout-tracker"
-      ],
-      "categories": [
-        "安卓"
-      ],
-      "platforms": [
-        "安卓"
-      ],
-      "pick": "growth",
-      "slot": "安卓",
-      "kind": "search",
-      "created_at": "2026-07-18",
-      "first_date": "2026-10-24",
-      "last_date": "2026-10-28",
-      "dates": [
-        "2026-10-28",
-        "2026-10-24"
-      ],
-      "times": 2
     },
     {
       "full_name": "Cyan4973/xxHash",
