@@ -1,8 +1,383 @@
 {
-  "generated_at": "2026-11-01T05:41:30.227141+00:00",
-  "total": 108,
-  "occurrences": 128,
+  "generated_at": "2026-11-02T05:35:18.347794+00:00",
+  "total": 115,
+  "occurrences": 139,
   "projects": [
+    {
+      "full_name": "Panniantong/Agent-Reach",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "summary": "解决什么：为 AI 代理提供全网浏览能力，支持零 API 费用抓取 Twitter、Reddit、YouTube 等主流平台内容\n适合谁：适合需要为 AI 代理增强联网与搜索能力的开发者，特别是使用 Claude Code、Cursor 等工具的用户\n亮点：近期涨星最快的 AI 联网工具，支持多平台抓取且完全免费，极大降低 AI 代理使用门槛",
+      "stars": 107735,
+      "language": "Python",
+      "topics": [
+        "agent-infrastructure",
+        "ai-agent",
+        "ai-search",
+        "automation",
+        "bilibili",
+        "claude-code",
+        "cli",
+        "cursor",
+        "free-api",
+        "llm-tools",
+        "mcp",
+        "python",
+        "reddit-scraper",
+        "twitter-scraper",
+        "web-scraper",
+        "xiaohongshu",
+        "youtube-transcript"
+      ],
+      "categories": [
+        "Linux"
+      ],
+      "platforms": [
+        "Linux"
+      ],
+      "pick": "growth",
+      "slot": "Linux",
+      "kind": "search",
+      "created_at": "2026-02-24",
+      "first_date": "2026-10-27",
+      "last_date": "2026-11-02",
+      "dates": [
+        "2026-11-02",
+        "2026-10-27"
+      ],
+      "times": 2
+    },
+    {
+      "full_name": "BurntSushi/ripgrep",
+      "url": "https://github.com/BurntSushi/ripgrep",
+      "description": "ripgrep recursively searches directories for a regex pattern while respecting your gitignore",
+      "summary": "递归搜索目录中的正则表达式模式，同时自动忽略 .gitignore 文件\n适合需要在命令行中快速、高效地搜索代码的开发者\n用 Rust 编写，性能极高且支持智能忽略 gitignore 文件",
+      "stars": 69632,
+      "language": "Rust",
+      "topics": [
+        "cli",
+        "command-line",
+        "command-line-tool",
+        "gitignore",
+        "grep",
+        "recursively-search",
+        "regex",
+        "ripgrep",
+        "rust",
+        "search"
+      ],
+      "categories": [
+        "Linux"
+      ],
+      "platforms": [
+        "Linux"
+      ],
+      "pick": "top",
+      "slot": "Linux",
+      "kind": "search",
+      "created_at": "2016-03-11",
+      "first_date": "2026-11-02",
+      "last_date": "2026-11-02",
+      "dates": [
+        "2026-11-02"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "agalwood/Motrix",
+      "url": "https://github.com/agalwood/Motrix",
+      "description": "A full-featured download manager.",
+      "summary": "解决多任务下载管理问题，支持 BT、磁力链接等多种协议\n适合需要管理大量下载任务、支持多协议下载的用户\n全功能下载管理器，支持所有主流协议，跨平台且人气极高",
+      "stars": 57680,
+      "language": "TypeScript",
+      "topics": [
+        "aria2",
+        "bt",
+        "download",
+        "electron",
+        "linux",
+        "mac",
+        "macos",
+        "magnet",
+        "motrix",
+        "torrent",
+        "windows"
+      ],
+      "categories": [
+        "Linux",
+        "Windows"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "pick": "top",
+      "slot": "Windows",
+      "kind": "search",
+      "created_at": "2018-12-18",
+      "first_date": "2026-11-02",
+      "last_date": "2026-11-02",
+      "dates": [
+        "2026-11-02"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "Niko1221/Strata",
+      "url": "https://github.com/Niko1221/Strata",
+      "description": "Qwen3.8-Flash-Next on any consumer hardware: one-click install for Windows / Linux. Strata inference engine, OpenAI/Anthropic API on localhost, optional image input.",
+      "summary": "解决在消费级硬件上本地运行 Qwen3.8-Flash-Next 模型的难题\n适合希望在 Windows/Linux 上通过本地 API 快速部署大模型或开发 AI 应用的用户\n亮点是集成了 Strata 推理引擎，支持一键安装及图像输入",
+      "stars": 37862,
+      "language": "C++",
+      "topics": [],
+      "categories": [
+        "Windows"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "pick": "growth",
+      "slot": "Windows",
+      "kind": "search",
+      "created_at": "2026-09-24",
+      "first_date": "2026-10-25",
+      "last_date": "2026-11-02",
+      "dates": [
+        "2026-11-02",
+        "2026-10-29",
+        "2026-10-25"
+      ],
+      "times": 3
+    },
+    {
+      "full_name": "ionic-team/capacitor",
+      "url": "https://github.com/ionic-team/capacitor",
+      "description": "Build cross-platform Native Progressive Web Apps for iOS, Android, and the Web ⚡️",
+      "summary": "解决使用 Web 技术构建原生应用时缺乏原生功能访问的问题，实现 iOS、Android 和 Web 的跨平台开发\n适合希望使用 HTML、CSS 和 JavaScript 构建 iOS、Android 和 Web 原生应用的 Web 开发者\n将 Web 应用作为原生组件嵌入，提供比 Cordova 更好的性能和原生 API 访问",
+      "stars": 17017,
+      "language": "TypeScript",
+      "topics": [
+        "android",
+        "capacitor",
+        "cordova",
+        "cross-platform",
+        "css",
+        "html",
+        "ionic",
+        "ios",
+        "java",
+        "javascript",
+        "pwa",
+        "swift"
+      ],
+      "categories": [
+        "安卓"
+      ],
+      "platforms": [
+        "安卓"
+      ],
+      "pick": "top",
+      "slot": "安卓",
+      "kind": "search",
+      "created_at": "2017-11-18",
+      "first_date": "2026-11-02",
+      "last_date": "2026-11-02",
+      "dates": [
+        "2026-11-02"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "rddmwmddr/android-ad-cleaner",
+      "url": "https://github.com/rddmwmddr/android-ad-cleaner",
+      "description": "关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。",
+      "summary": "关闭国产安卓手机系统内的广告、热搜、资讯推荐和营销推送\n想要去除国产安卓手机广告且不想 root 的用户\n无需 root，支持 AI 智能体一键自动执行",
+      "stars": 5722,
+      "language": "Python",
+      "topics": [
+        "adb",
+        "ai-agent",
+        "android",
+        "coloros",
+        "debloat",
+        "hyperos",
+        "magicos",
+        "originos"
+      ],
+      "categories": [
+        "安卓"
+      ],
+      "platforms": [
+        "安卓"
+      ],
+      "pick": "growth",
+      "slot": "安卓",
+      "kind": "search",
+      "created_at": "2026-10-24",
+      "first_date": "2026-10-26",
+      "last_date": "2026-11-02",
+      "dates": [
+        "2026-11-02",
+        "2026-10-26"
+      ],
+      "times": 2
+    },
+    {
+      "full_name": "cameron314/readerwriterqueue",
+      "url": "https://github.com/cameron314/readerwriterqueue",
+      "description": "A fast single-producer, single-consumer lock-free queue for C++",
+      "summary": "掌握 C++ 原子操作、内存序以及无锁并发编程的核心思想\n适合对并发编程感兴趣，希望理解无锁队列实现原理的 C++ 程序员\n建议先通读头文件定义，再深入理解底层的原子操作与内存序实现",
+      "stars": 4637,
+      "language": "C++",
+      "topics": [],
+      "categories": [
+        "C++"
+      ],
+      "platforms": [
+        "C++"
+      ],
+      "pick": null,
+      "slot": null,
+      "kind": "learn",
+      "created_at": "2013-02-07",
+      "first_date": "2026-11-02",
+      "last_date": "2026-11-02",
+      "dates": [
+        "2026-11-02"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "antirez/linenoise",
+      "url": "https://github.com/antirez/linenoise",
+      "description": "A small self-contained alternative to readline and libedit",
+      "summary": "学什么：深入理解终端 I/O 原理，学习如何用极简代码实现类似 readline 的行编辑功能\n适合谁：适合想学习终端交互、命令行工具开发以及 C 语言底层实现的开发者\n怎么读：建议先阅读 `linenoise.c` 中的 `linenoiseEdit` 函数，理解终端输入处理与光标移动逻辑",
+      "stars": 4370,
+      "language": "C",
+      "topics": [],
+      "categories": [
+        "C"
+      ],
+      "platforms": [
+        "C"
+      ],
+      "pick": null,
+      "slot": null,
+      "kind": "learn",
+      "created_at": "2010-03-20",
+      "first_date": "2026-11-02",
+      "last_date": "2026-11-02",
+      "dates": [
+        "2026-11-02"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "microsoft/TokenEconomizer",
+      "url": "https://github.com/microsoft/TokenEconomizer",
+      "description": "Experience-Driven Black-Box Cost Control for Coding Agents",
+      "summary": "针对编码代理高昂的 Token 消耗成本提供优化方案\n适合需要降低 AI 编码助手成本的开发者或团队\n通过智能策略降低 LLM 调用成本，提升开发效率",
+      "stars": 4106,
+      "language": "Python",
+      "topics": [
+        "agentic-ai",
+        "agentic-coding",
+        "ai-coding",
+        "ai-coding-assistant",
+        "anthropic",
+        "artificial-intelligence",
+        "claude-code",
+        "codex",
+        "coding-agent",
+        "coding-agents",
+        "cost-optimization",
+        "cost-reduction",
+        "developer-tools",
+        "github-copilot",
+        "llm",
+        "open-source",
+        "openai",
+        "productivity",
+        "token-optimization"
+      ],
+      "categories": [
+        "AI"
+      ],
+      "platforms": [
+        "AI"
+      ],
+      "pick": "ai",
+      "slot": "AI",
+      "kind": "search",
+      "created_at": "2026-10-13",
+      "first_date": "2026-11-02",
+      "last_date": "2026-11-02",
+      "dates": [
+        "2026-11-02"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "CharonChui/FullStack-Notes",
+      "url": "https://github.com/CharonChui/FullStack-Notes",
+      "description": "全栈开发知识库 | Full-stack notes: Android · Kotlin · C/C++ · Go · HarmonyOS · Frontend · Backend",
+      "summary": "提供全栈开发知识库，涵盖 Android、HarmonyOS、Go 等多语言与框架\n适合全栈开发者、鸿蒙应用开发者及编程学习者\n涵盖多技术栈且包含源码解析，是鸿蒙全栈学习宝典",
+      "stars": 3944,
+      "language": "Python",
+      "topics": [
+        "android",
+        "fullstack",
+        "golang",
+        "harmonyos",
+        "source-code",
+        "study-notes"
+      ],
+      "categories": [
+        "鸿蒙"
+      ],
+      "platforms": [
+        "鸿蒙"
+      ],
+      "pick": "top",
+      "slot": "鸿蒙",
+      "kind": "search",
+      "created_at": "2013-12-10",
+      "first_date": "2026-11-02",
+      "last_date": "2026-11-02",
+      "dates": [
+        "2026-11-02"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "Zitann/HarmonyOS-Haps",
+      "url": "https://github.com/Zitann/HarmonyOS-Haps",
+      "description": "⚡️鸿蒙Next Hap安装包合集，如果您觉得有帮助，还请点亮一下 Star 🌟 哦~ 万分感谢！",
+      "summary": "解决什么：整理并分享鸿蒙Next系统的HAP安装包合集，解决用户资源获取难题\n适合谁：面向鸿蒙Next系统用户及开发者，提供便捷的HAP包获取渠道\n亮点：涨星迅猛，是目前鸿蒙Next领域热度极高的资源合集",
+      "stars": 3771,
+      "language": "Python",
+      "topics": [
+        "harmonyos",
+        "harmonyos-next"
+      ],
+      "categories": [
+        "鸿蒙"
+      ],
+      "platforms": [
+        "鸿蒙"
+      ],
+      "pick": "growth",
+      "slot": "鸿蒙",
+      "kind": "search",
+      "created_at": "2024-11-15",
+      "first_date": "2026-10-24",
+      "last_date": "2026-11-02",
+      "dates": [
+        "2026-11-02",
+        "2026-10-28",
+        "2026-10-24"
+      ],
+      "times": 3
+    },
     {
       "full_name": "netdata/netdata",
       "url": "https://github.com/netdata/netdata",
@@ -1355,32 +1730,6 @@
       "times": 1
     },
     {
-      "full_name": "Niko1221/Strata",
-      "url": "https://github.com/Niko1221/Strata",
-      "description": "Qwen3.8-Flash-Next on any consumer hardware: one-click install for Windows / Linux. Strata inference engine, OpenAI/Anthropic API on localhost, optional image input.",
-      "summary": "解决在消费级硬件上运行 Qwen3.8-Flash-Next 模型并提供本地 API 的问题\n适合需要在 Windows/Linux 本地部署大模型并使用 OpenAI/Anthropic 接口或处理图像的用户\n提供一键安装、图像输入支持，且近期涨星速度最快",
-      "stars": 35479,
-      "language": "C++",
-      "topics": [],
-      "categories": [
-        "Windows"
-      ],
-      "platforms": [
-        "Windows"
-      ],
-      "pick": "growth",
-      "slot": "Windows",
-      "kind": "search",
-      "created_at": "2026-09-24",
-      "first_date": "2026-10-25",
-      "last_date": "2026-10-29",
-      "dates": [
-        "2026-10-29",
-        "2026-10-25"
-      ],
-      "times": 2
-    },
-    {
       "full_name": "HunxByts/GhostTrack",
       "url": "https://github.com/HunxByts/GhostTrack",
       "description": "Useful tool to track location or mobile number",
@@ -1872,35 +2221,6 @@
       "times": 1
     },
     {
-      "full_name": "Zitann/HarmonyOS-Haps",
-      "url": "https://github.com/Zitann/HarmonyOS-Haps",
-      "description": "⚡️鸿蒙Next Hap安装包合集，如果您觉得有帮助，还请点亮一下 Star 🌟 哦~ 万分感谢！",
-      "summary": "提供鸿蒙Next系统的HAP安装包合集，解决用户获取安装包的难题\n适合鸿蒙开发者或需要安装HAP文件的用户\n收录了丰富的鸿蒙Next HAP安装包，近期涨星速度极快",
-      "stars": 3707,
-      "language": "Python",
-      "topics": [
-        "harmonyos",
-        "harmonyos-next"
-      ],
-      "categories": [
-        "鸿蒙"
-      ],
-      "platforms": [
-        "鸿蒙"
-      ],
-      "pick": "growth",
-      "slot": "鸿蒙",
-      "kind": "search",
-      "created_at": "2024-11-15",
-      "first_date": "2026-10-24",
-      "last_date": "2026-10-28",
-      "dates": [
-        "2026-10-28",
-        "2026-10-24"
-      ],
-      "times": 2
-    },
-    {
       "full_name": "AienTech/dossier",
       "url": "https://github.com/AienTech/dossier",
       "description": "A self-hosted job search app that writes tailored resumes and cover letters from your profile.",
@@ -2002,49 +2322,6 @@
       "slot": "Windows",
       "kind": "search",
       "created_at": "2023-11-21",
-      "first_date": "2026-10-27",
-      "last_date": "2026-10-27",
-      "dates": [
-        "2026-10-27"
-      ],
-      "times": 1
-    },
-    {
-      "full_name": "Panniantong/Agent-Reach",
-      "url": "https://github.com/Panniantong/Agent-Reach",
-      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
-      "summary": "解决什么：让 AI 代理能够浏览整个互联网，通过命令行读取和搜索推特、Reddit、YouTube、GitHub、哔哩哔哩、小红书等网站，无需 API 费用\n适合谁：需要自动化信息收集和 AI 搜索功能的开发者或研究人员，特别是需要整合多平台数据的用户\n亮点：一个命令行工具即可访问多个主流网站，无需支付 API 费用",
-      "stars": 103927,
-      "language": "Python",
-      "topics": [
-        "agent-infrastructure",
-        "ai-agent",
-        "ai-search",
-        "automation",
-        "bilibili",
-        "claude-code",
-        "cli",
-        "cursor",
-        "free-api",
-        "llm-tools",
-        "mcp",
-        "python",
-        "reddit-scraper",
-        "twitter-scraper",
-        "web-scraper",
-        "xiaohongshu",
-        "youtube-transcript"
-      ],
-      "categories": [
-        "Linux"
-      ],
-      "platforms": [
-        "Linux"
-      ],
-      "pick": "top",
-      "slot": "Linux",
-      "kind": "search",
-      "created_at": "2026-02-24",
       "first_date": "2026-10-27",
       "last_date": "2026-10-27",
       "dates": [
@@ -2499,40 +2776,6 @@
       "slot": "鸿蒙",
       "kind": "search",
       "created_at": "2016-02-06",
-      "first_date": "2026-10-26",
-      "last_date": "2026-10-26",
-      "dates": [
-        "2026-10-26"
-      ],
-      "times": 1
-    },
-    {
-      "full_name": "rddmwmddr/android-ad-cleaner",
-      "url": "https://github.com/rddmwmddr/android-ad-cleaner",
-      "description": "关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。",
-      "summary": "解决国产安卓手机系统内广告、热搜及营销推送泛滥的问题\n适合不想 root 且希望一键还原纯净系统的安卓用户\n支持 AI 智能体一键执行，无需 root 即可深度去广告",
-      "stars": 1017,
-      "language": "Python",
-      "topics": [
-        "adb",
-        "ai-agent",
-        "android",
-        "coloros",
-        "debloat",
-        "hyperos",
-        "magicos",
-        "originos"
-      ],
-      "categories": [
-        "安卓"
-      ],
-      "platforms": [
-        "安卓"
-      ],
-      "pick": "growth",
-      "slot": "安卓",
-      "kind": "search",
-      "created_at": "2026-10-24",
       "first_date": "2026-10-26",
       "last_date": "2026-10-26",
       "dates": [
