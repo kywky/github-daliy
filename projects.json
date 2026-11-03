@@ -1,8 +1,417 @@
 {
-  "generated_at": "2026-11-02T05:35:18.347794+00:00",
-  "total": 115,
-  "occurrences": 139,
+  "generated_at": "2026-11-03T06:15:53.860193+00:00",
+  "total": 121,
+  "occurrences": 150,
   "projects": [
+    {
+      "full_name": "warpdotdev/warp",
+      "url": "https://github.com/warpdotdev/warp",
+      "description": "Warp is an agentic development environment, born out of the terminal.",
+      "summary": "解决传统终端功能单一、交互体验差的问题，提供具备智能功能的现代化开发环境\n适合 Linux 和 macOS 环境下的开发者，特别是追求现代化终端体验的用户\n基于 Rust 构建，集成了 AI 代理能力，是目前人气极高的现代化终端工具",
+      "stars": 65843,
+      "language": "Rust",
+      "topics": [
+        "bash",
+        "linux",
+        "macos",
+        "rust",
+        "shell",
+        "terminal",
+        "wasm",
+        "zsh"
+      ],
+      "categories": [
+        "Linux"
+      ],
+      "platforms": [
+        "Linux"
+      ],
+      "pick": "top",
+      "slot": "Linux",
+      "kind": "search",
+      "created_at": "2021-07-08",
+      "first_date": "2026-11-03",
+      "last_date": "2026-11-03",
+      "dates": [
+        "2026-11-03"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "PowerShell/PowerShell",
+      "url": "https://github.com/PowerShell/PowerShell",
+      "description": "PowerShell for every system!",
+      "summary": "提供跨平台的命令行 shell 和自动化脚本语言，解决多系统环境下的统一管理与自动化任务执行问题。\n适合系统管理员、开发者以及需要在 Windows、Linux 和 macOS 上进行自动化运维和脚本开发的人员。\n基于 .NET Core 构建，实现了真正的跨平台支持，是 Windows 之外最强大的命令行工具之一。",
+      "stars": 56005,
+      "language": "C#",
+      "topics": [
+        "command-line",
+        "hacktoberfest",
+        "linux",
+        "macos",
+        "netcore",
+        "powershell",
+        "shell",
+        "windows"
+      ],
+      "categories": [
+        "Linux",
+        "Windows"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "pick": "top",
+      "slot": "Windows",
+      "kind": "search",
+      "created_at": "2016-01-13",
+      "first_date": "2026-11-03",
+      "last_date": "2026-11-03",
+      "dates": [
+        "2026-11-03"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "nickbutcher/plaid",
+      "url": "https://github.com/nickbutcher/plaid",
+      "description": "An Android app which provides design news & inspiration as well as being an example of implementing material design.",
+      "summary": "提供设计灵感与资讯，同时作为 Material Design 实现的范例\n安卓开发者学习 Material Design，以及寻找设计灵感的用户\nMaterial Design 实现的典范，展示了高质量的设计与代码",
+      "stars": 16162,
+      "language": "Kotlin",
+      "topics": [],
+      "categories": [
+        "安卓"
+      ],
+      "platforms": [
+        "安卓"
+      ],
+      "pick": "top",
+      "slot": "安卓",
+      "kind": "search",
+      "created_at": "2015-10-30",
+      "first_date": "2026-11-03",
+      "last_date": "2026-11-03",
+      "dates": [
+        "2026-11-03"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "Kludex/starlette",
+      "url": "https://github.com/Kludex/starlette",
+      "description": "The little ASGI framework that shines. 🌟",
+      "summary": "掌握 ASGI 协议、异步编程模型、中间件机制及高性能 HTTP 路由的实现原理\n适合希望深入理解 ASGI 协议及 Web 框架底层实现原理的 Python 开发者\n建议从 `app.py` 的初始化流程入手，再深入 `routing.py` 和 `middleware.py` 的实现细节",
+      "stars": 12706,
+      "language": "Python",
+      "topics": [
+        "asgi",
+        "async",
+        "http",
+        "python",
+        "websockets"
+      ],
+      "categories": [
+        "Python"
+      ],
+      "platforms": [
+        "Python"
+      ],
+      "pick": null,
+      "slot": null,
+      "kind": "learn",
+      "created_at": "2018-06-25",
+      "first_date": "2026-10-23",
+      "last_date": "2026-11-03",
+      "dates": [
+        "2026-11-03",
+        "2026-10-30",
+        "2026-10-26",
+        "2026-10-25",
+        "2026-10-24",
+        "2026-10-23"
+      ],
+      "times": 6
+    },
+    {
+      "full_name": "antirez/sds",
+      "url": "https://github.com/antirez/sds",
+      "description": "Simple Dynamic Strings library for C",
+      "summary": "掌握 C 语言动态字符串的实现原理，深入理解内存预分配与惰性释放策略\n适合有一定 C 语言基础，想深入理解 Redis 底层数据结构或 C 语言内存管理的开发者\n先阅读 `sds.h` 中的结构体定义，再逐行分析 `sds.c` 中的内存管理核心逻辑",
+      "stars": 5588,
+      "language": "C",
+      "topics": [],
+      "categories": [
+        "C"
+      ],
+      "platforms": [
+        "C"
+      ],
+      "pick": null,
+      "slot": null,
+      "kind": "learn",
+      "created_at": "2014-02-06",
+      "first_date": "2026-10-21",
+      "last_date": "2026-11-03",
+      "dates": [
+        "2026-11-03",
+        "2026-10-21"
+      ],
+      "times": 2
+    },
+    {
+      "full_name": "l0ng-ai/openidea",
+      "url": "https://github.com/l0ng-ai/openidea",
+      "description": "The IDE you know, rebuilt in Rust. IntelliJ IDEA–style keymap, tool windows and search-everywhere in a fast native app: editor, code insight, debugger, Git, terminal, database and HTTP clients for 60+ languages.",
+      "summary": "解决什么：用 Rust 重构 IntelliJ IDEA 风格的 IDE，提供快速的原生编辑器、调试器、数据库及 HTTP 客户端，支持 60+ 语言。\n适合谁：适合追求高性能原生开发体验的开发者，特别是熟悉 IntelliJ IDEA 快捷键的用户。\n亮点：基于 Rust 和 Tauri 构建，在保持 IDE 体验的同时提供原生级性能。",
+      "stars": 5207,
+      "language": "TypeScript",
+      "topics": [
+        "code-editor",
+        "cross-platform",
+        "dap",
+        "database-client",
+        "debugger",
+        "desktop-app",
+        "developer-tools",
+        "git",
+        "http-client",
+        "ide",
+        "intellij",
+        "lsp",
+        "rust",
+        "tauri",
+        "terminal"
+      ],
+      "categories": [
+        "Windows"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "pick": "growth",
+      "slot": "Windows",
+      "kind": "search",
+      "created_at": "2026-10-21",
+      "first_date": "2026-10-30",
+      "last_date": "2026-11-03",
+      "dates": [
+        "2026-11-03",
+        "2026-10-30"
+      ],
+      "times": 2
+    },
+    {
+      "full_name": "valentderah/totk-pc-recomp",
+      "url": "https://github.com/valentderah/totk-pc-recomp",
+      "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
+      "summary": "将《塞尔达传说：王国之泪》移植到原生 Windows 和 Linux x86-64 平台，并使用 Vulkan 渲染器\n适合希望在 PC 上运行《塞尔达传说：王国之泪》的玩家，需自行提供游戏文件\n采用静态重编译技术，是近期涨星最快的塞尔达 PC 移植项目",
+      "stars": 4138,
+      "language": "C",
+      "topics": [
+        "game",
+        "linux",
+        "port",
+        "recompilation",
+        "windows"
+      ],
+      "categories": [
+        "Linux",
+        "Windows"
+      ],
+      "platforms": [
+        "Linux"
+      ],
+      "pick": "growth",
+      "slot": "Linux",
+      "kind": "search",
+      "created_at": "2026-10-29",
+      "first_date": "2026-11-03",
+      "last_date": "2026-11-03",
+      "dates": [
+        "2026-11-03"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "modelflare-ai/AnyModelBot",
+      "url": "https://github.com/modelflare-ai/AnyModelBot",
+      "description": "🤖 Open-source, local-first alternative to Grok Bot, OpenAI dots and Claude Duet. Your own AI bots on any model: GPT, Claude, Gemini, Grok, DeepSeek, Kimi, GLM and 70+ more through one Modelflare key. Reach them in the app, WeChat or Feishu; they remember you, work in the background, run commands and use your computer. Pay per use.",
+      "summary": "解决什么：提供一个开源的本地优先 AI 代理，可以运行在多种模型上，实现类似 Grok Bot、OpenAI 和 Claude Duet 的功能\n适合谁：需要自定义 AI 代理并希望本地运行的开发者或个人用户\n亮点：支持 70 多种 AI 模型并通过一个 Modelflare 密钥统一管理",
+      "stars": 1746,
+      "language": "TypeScript",
+      "topics": [
+        "ai-agent",
+        "ai-assistant",
+        "chatbot",
+        "claude",
+        "computer-use",
+        "deepseek",
+        "desktop-app",
+        "dsh",
+        "electron",
+        "feishu",
+        "gemini",
+        "gpt",
+        "grok",
+        "llm",
+        "local-first",
+        "modelflare",
+        "multi-model",
+        "openai-compatible",
+        "personal-ai-agent",
+        "wechat"
+      ],
+      "categories": [
+        "AI"
+      ],
+      "platforms": [
+        "AI"
+      ],
+      "pick": "ai",
+      "slot": "AI",
+      "kind": "search",
+      "created_at": "2026-10-27",
+      "first_date": "2026-11-03",
+      "last_date": "2026-11-03",
+      "dates": [
+        "2026-11-03"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "Verlintas/NOIR",
+      "url": "https://github.com/Verlintas/NOIR",
+      "description": "手机隐私审计：用 adb 扫出 Android 应用的权限、上报端点与数据流向，并给出可回滚的处置。Desktop Android leak audit: permissions, endpoints, data flows, reversible fixes.",
+      "summary": "解决什么：审计 Android 应用隐私，通过 ADB 扫描权限、上报端点及数据流向\n适合谁：适合关注安卓隐私安全、想要清理预装软件或进行安全审计的用户\n亮点：提供 TUI 终端界面，支持可回滚的隐私修复方案",
+      "stars": 1486,
+      "language": "Kotlin",
+      "topics": [
+        "adb",
+        "android",
+        "android-privacy",
+        "android-security",
+        "android-tools",
+        "apk-analysis",
+        "bloatware",
+        "cli",
+        "cross-platform",
+        "debloat",
+        "jadx",
+        "kotlin",
+        "kotlin-multiplatform",
+        "privacy",
+        "privacy-tools",
+        "security-audit",
+        "static-analysis",
+        "telemetry",
+        "terminal-ui",
+        "tui"
+      ],
+      "categories": [
+        "安卓",
+        "Linux"
+      ],
+      "platforms": [
+        "安卓"
+      ],
+      "pick": "growth",
+      "slot": "安卓",
+      "kind": "search",
+      "created_at": "2026-10-31",
+      "first_date": "2026-11-03",
+      "last_date": "2026-11-03",
+      "dates": [
+        "2026-11-03"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "metasequoiaime/msime",
+      "url": "https://github.com/metasequoiaime/msime",
+      "description": "下一代跨平台水杉输入法（MSIME）：面向 Android、iOS、macOS、Linux、Windows 与 HarmonyOS 的多平台中文输入法，使用共享输入引擎与各平台原生宿主。",
+      "summary": "解决什么：为 Android、iOS、macOS、Linux、Windows 与 HarmonyOS 平台提供跨平台的中文输入法，使用共享输入引擎与各平台原生宿主\n适合谁：需要在不同操作系统上使用中文输入法的开发者或用户\n亮点：下一代跨平台中文输入法，支持多操作系统并使用共享输入引擎",
+      "stars": 1118,
+      "language": "Rust",
+      "topics": [
+        "android",
+        "chinese",
+        "cpp",
+        "harmonyos",
+        "ime",
+        "input-method",
+        "inputmethodkit",
+        "ios",
+        "linux",
+        "macos",
+        "pinyin",
+        "rust",
+        "windows"
+      ],
+      "categories": [
+        "鸿蒙"
+      ],
+      "platforms": [
+        "鸿蒙"
+      ],
+      "pick": "top",
+      "slot": "鸿蒙",
+      "kind": "search",
+      "created_at": "2026-09-02",
+      "first_date": "2026-10-25",
+      "last_date": "2026-11-03",
+      "dates": [
+        "2026-11-03",
+        "2026-10-30",
+        "2026-10-25"
+      ],
+      "times": 3
+    },
+    {
+      "full_name": "lkimuk/ReArk",
+      "url": "https://github.com/lkimuk/ReArk",
+      "description": "An intelligent reverse engineering and AI-assisted analysis tool for HarmonyOS NEXT (HAP/APP/ABC), Android (APK/AAB), iOS (IPA), and native PE/ELF/Mach-O binaries.",
+      "summary": "面向鸿蒙、安卓、iOS及原生二进制文件的智能逆向工程与AI辅助分析工具\n适合安全研究人员、逆向工程师及恶意软件分析师使用\n融合AI技术专注于鸿蒙NEXT生态，是近期涨星最快的逆向分析工具之一",
+      "stars": 893,
+      "language": "C++",
+      "topics": [
+        "aab",
+        "abc",
+        "agentic-workflow",
+        "ai-agent",
+        "ai-analysis",
+        "android",
+        "apk",
+        "binary-analysis",
+        "decompiler",
+        "disassembler",
+        "hap",
+        "harmonyos",
+        "harmonyos-next",
+        "malware-analysis",
+        "reverse-engineering",
+        "security-tools",
+        "static-analysis"
+      ],
+      "categories": [
+        "鸿蒙"
+      ],
+      "platforms": [
+        "鸿蒙"
+      ],
+      "pick": "growth",
+      "slot": "鸿蒙",
+      "kind": "search",
+      "created_at": "2026-05-29",
+      "first_date": "2026-10-21",
+      "last_date": "2026-11-03",
+      "dates": [
+        "2026-11-03",
+        "2026-10-26",
+        "2026-10-21"
+      ],
+      "times": 3
+    },
     {
       "full_name": "Panniantong/Agent-Reach",
       "url": "https://github.com/Panniantong/Agent-Reach",
@@ -1440,41 +1849,6 @@
       "times": 3
     },
     {
-      "full_name": "Kludex/starlette",
-      "url": "https://github.com/Kludex/starlette",
-      "description": "The little ASGI framework that shines. 🌟",
-      "summary": "学什么：学习 ASGI 协议实现、中间件设计模式以及 Python 异步编程在 Web 框架架构中的应用\n适合谁：适合希望深入理解 ASGI 协议、中间件原理以及高性能异步 Web 开发架构的 Python 工程师\n怎么读：建议从 Application 和 Request 类入手，逐步理解中间件链和路由匹配的实现细节",
-      "stars": 12696,
-      "language": "Python",
-      "topics": [
-        "asgi",
-        "async",
-        "http",
-        "python",
-        "websockets"
-      ],
-      "categories": [
-        "Python"
-      ],
-      "platforms": [
-        "Python"
-      ],
-      "pick": null,
-      "slot": null,
-      "kind": "learn",
-      "created_at": "2018-06-25",
-      "first_date": "2026-10-23",
-      "last_date": "2026-10-30",
-      "dates": [
-        "2026-10-30",
-        "2026-10-26",
-        "2026-10-25",
-        "2026-10-24",
-        "2026-10-23"
-      ],
-      "times": 5
-    },
-    {
       "full_name": "alibaba/GaiaX",
       "url": "https://github.com/alibaba/GaiaX",
       "description": "动态模板引擎是一套轻量化、跨平台、高性能的纯原生移动端卡片渲染动态化解决方案",
@@ -1509,89 +1883,6 @@
         "2026-10-30"
       ],
       "times": 1
-    },
-    {
-      "full_name": "l0ng-ai/openidea",
-      "url": "https://github.com/l0ng-ai/openidea",
-      "description": "The IDE you know, rebuilt in Rust. IntelliJ IDEA–style keymap, tool windows and search-everywhere in a fast native app: editor, code insight, debugger, Git, terminal, database and HTTP clients for 60+ languages.",
-      "summary": "用 Rust 重新构建了 IntelliJ IDEA 风格的集成开发环境，提供极速的原生体验\n适合习惯 IntelliJ IDEA 操作习惯，需要代码编辑、调试、数据库及 HTTP 客户端的开发者\n基于 Rust 和 Tauri 构建，拥有 IntelliJ IDEA 风格的界面与快捷键，支持 60+ 种语言",
-      "stars": 1258,
-      "language": "TypeScript",
-      "topics": [
-        "code-editor",
-        "cross-platform",
-        "dap",
-        "database-client",
-        "debugger",
-        "desktop-app",
-        "developer-tools",
-        "git",
-        "http-client",
-        "ide",
-        "intellij",
-        "lsp",
-        "rust",
-        "tauri",
-        "terminal"
-      ],
-      "categories": [
-        "Windows"
-      ],
-      "platforms": [
-        "Windows"
-      ],
-      "pick": "growth",
-      "slot": "Windows",
-      "kind": "search",
-      "created_at": "2026-10-21",
-      "first_date": "2026-10-30",
-      "last_date": "2026-10-30",
-      "dates": [
-        "2026-10-30"
-      ],
-      "times": 1
-    },
-    {
-      "full_name": "metasequoiaime/msime",
-      "url": "https://github.com/metasequoiaime/msime",
-      "description": "下一代跨平台水杉输入法（MSIME）：面向 Android、iOS、macOS、Linux、Windows 与 HarmonyOS 的多平台中文输入法，使用共享输入引擎与各平台原生宿主。",
-      "summary": "解决跨平台中文输入法开发难题，提供统一输入引擎支持多系统\n适合需要在 Android、iOS、Linux、Windows 及鸿蒙系统间无缝切换的中文输入法用户\n基于 Rust 的高性能共享输入引擎，近期涨星最快的跨平台中文输入法方案",
-      "stars": 1050,
-      "language": "Rust",
-      "topics": [
-        "android",
-        "chinese",
-        "cpp",
-        "harmonyos",
-        "ime",
-        "input-method",
-        "inputmethodkit",
-        "ios",
-        "linux",
-        "macos",
-        "pinyin",
-        "rust",
-        "windows"
-      ],
-      "categories": [
-        "鸿蒙",
-        "Linux",
-        "Windows"
-      ],
-      "platforms": [
-        "鸿蒙"
-      ],
-      "pick": "growth",
-      "slot": "鸿蒙",
-      "kind": "search",
-      "created_at": "2026-09-02",
-      "first_date": "2026-10-25",
-      "last_date": "2026-10-30",
-      "dates": [
-        "2026-10-30",
-        "2026-10-25"
-      ],
-      "times": 2
     },
     {
       "full_name": "qybaihe/bla",
@@ -2782,50 +3073,6 @@
         "2026-10-26"
       ],
       "times": 1
-    },
-    {
-      "full_name": "lkimuk/ReArk",
-      "url": "https://github.com/lkimuk/ReArk",
-      "description": "An intelligent reverse engineering and AI-assisted analysis tool for HarmonyOS NEXT (HAP/APP/ABC), Android (APK/AAB), iOS (IPA), and native PE/ELF/Mach-O binaries.",
-      "summary": "解决 HarmonyOS NEXT、Android、iOS 等多平台二进制文件智能逆向与 AI 辅助分析难题\n适合安全研究人员、逆向工程师及恶意软件分析师\n鸿蒙生态近期涨星最快的工具，支持多平台二进制分析与 AI 辅助",
-      "stars": 732,
-      "language": "C++",
-      "topics": [
-        "aab",
-        "abc",
-        "agentic-workflow",
-        "ai-agent",
-        "ai-analysis",
-        "android",
-        "apk",
-        "binary-analysis",
-        "decompiler",
-        "disassembler",
-        "hap",
-        "harmonyos",
-        "harmonyos-next",
-        "malware-analysis",
-        "reverse-engineering",
-        "security-tools",
-        "static-analysis"
-      ],
-      "categories": [
-        "鸿蒙"
-      ],
-      "platforms": [
-        "鸿蒙"
-      ],
-      "pick": "growth",
-      "slot": "鸿蒙",
-      "kind": "search",
-      "created_at": "2026-05-29",
-      "first_date": "2026-10-21",
-      "last_date": "2026-10-26",
-      "dates": [
-        "2026-10-26",
-        "2026-10-21"
-      ],
-      "times": 2
     },
     {
       "full_name": "chenxiachan/textfold",
@@ -4169,31 +4416,6 @@
       "slot": null,
       "kind": "search",
       "created_at": "2026-09-07",
-      "first_date": "2026-10-21",
-      "last_date": "2026-10-21",
-      "dates": [
-        "2026-10-21"
-      ],
-      "times": 1
-    },
-    {
-      "full_name": "antirez/sds",
-      "url": "https://github.com/antirez/sds",
-      "description": "Simple Dynamic Strings library for C",
-      "summary": "学什么：理解 C 语言中动态字符串的实现原理，掌握内存管理技巧\n适合谁：有一定 C 语言基础，希望深入理解底层内存管理的开发者\n怎么读：先阅读 sds.h 和 sds.c 两个核心文件，了解动态字符串的结构和操作方法",
-      "stars": 5582,
-      "language": "C",
-      "topics": [],
-      "categories": [
-        "C"
-      ],
-      "platforms": [
-        "C"
-      ],
-      "pick": null,
-      "slot": null,
-      "kind": "learn",
-      "created_at": "2014-02-06",
       "first_date": "2026-10-21",
       "last_date": "2026-10-21",
       "dates": [
