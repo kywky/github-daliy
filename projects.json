@@ -1,8 +1,451 @@
 {
-  "generated_at": "2026-11-03T06:15:53.860193+00:00",
-  "total": 121,
-  "occurrences": 150,
+  "generated_at": "2026-11-04T05:53:44.240767+00:00",
+  "total": 128,
+  "occurrences": 161,
   "projects": [
+    {
+      "full_name": "morluto/rea",
+      "url": "https://github.com/morluto/rea",
+      "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+      "summary": "利用 AI 代理逆向工程应用行为及原生二进制文件\n适合安全研究人员、逆向工程师及开发者\n近期涨星最快的逆向工程工具，利用代理实现自动化分析",
+      "stars": 427911,
+      "language": "TypeScript",
+      "topics": [
+        "agent-skills",
+        "ai",
+        "android",
+        "claude-code",
+        "cli",
+        "cpp",
+        "dsh-plugin",
+        "html",
+        "java",
+        "javascript",
+        "linux",
+        "mcp",
+        "nodejs",
+        "python",
+        "rea",
+        "react",
+        "rust",
+        "security",
+        "touhou",
+        "typescript"
+      ],
+      "categories": [
+        "Linux"
+      ],
+      "platforms": [
+        "Linux"
+      ],
+      "pick": "growth",
+      "slot": "Linux",
+      "kind": "search",
+      "created_at": "2026-04-14",
+      "first_date": "2026-10-27",
+      "last_date": "2026-11-04",
+      "dates": [
+        "2026-11-04",
+        "2026-10-31",
+        "2026-10-27"
+      ],
+      "times": 3
+    },
+    {
+      "full_name": "sharkdp/bat",
+      "url": "https://github.com/sharkdp/bat",
+      "description": "A cat(1) clone with wings.",
+      "summary": "提供比标准 cat 命令更强大的文件查看功能，支持语法高亮和 Git 集成\n适合经常在终端处理代码文件、追求更好阅读体验的开发者\n用 Rust 编写的高性能 cat 命令替代品，具备语法高亮和 Git 集成功能",
+      "stars": 61055,
+      "language": "Rust",
+      "topics": [
+        "cli",
+        "command-line",
+        "git",
+        "hacktoberfest",
+        "rust",
+        "syntax-highlighting",
+        "terminal",
+        "tool"
+      ],
+      "categories": [
+        "Linux"
+      ],
+      "platforms": [
+        "Linux"
+      ],
+      "pick": "top",
+      "slot": "Linux",
+      "kind": "search",
+      "created_at": "2018-04-21",
+      "first_date": "2026-11-04",
+      "last_date": "2026-11-04",
+      "dates": [
+        "2026-11-04"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "WerWolv/ImHex",
+      "url": "https://github.com/WerWolv/ImHex",
+      "description": "🔍 A Hex Editor for Reverse Engineers, Programmers and people who value their retinas when working at 3 AM.",
+      "summary": "为逆向工程师和程序员提供专业的十六进制编辑、模式匹配和静态分析功能\n适合需要进行二进制分析、取证或逆向工程的安全研究人员和开发者\n拥有暗黑模式 UI 和强大的模式语言，支持静态分析和取证",
+      "stars": 55743,
+      "language": "C++",
+      "topics": [
+        "analyzer",
+        "binary-analysis",
+        "c-plus-plus",
+        "cpp",
+        "cybersecurity",
+        "dark-mode",
+        "dear-imgui",
+        "disassembler",
+        "forensics",
+        "hacking",
+        "hacktoberfest",
+        "hex-editor",
+        "ips",
+        "linux",
+        "macos",
+        "multi-platform",
+        "pattern-language",
+        "reverse-engineering",
+        "static-analysis",
+        "windows"
+      ],
+      "categories": [
+        "Linux",
+        "Windows"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "pick": "top",
+      "slot": "Windows",
+      "kind": "search",
+      "created_at": "2020-11-10",
+      "first_date": "2026-11-04",
+      "last_date": "2026-11-04",
+      "dates": [
+        "2026-11-04"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "Gathin23/cleanyourtv",
+      "url": "https://github.com/Gathin23/cleanyourtv",
+      "description": "Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
+      "summary": "通过 Wi-Fi 远程清理 Android 或 Google TV 的预装软件，并提供 Apple TV 风格的启动器\n拥有 Android TV、Google TV 或 Fire TV 设备并希望移除广告和预装应用的用户\n近期涨星最快的项目，支持多品牌设备并实现 Apple TV 风格的界面",
+      "stars": 51527,
+      "language": "Python",
+      "topics": [
+        "adb",
+        "adblock",
+        "android-tv",
+        "android-tv-launcher",
+        "apple-tv",
+        "bloatware-removal",
+        "claude-code",
+        "debloat",
+        "fire-tv",
+        "google-tv",
+        "launcher",
+        "privacy",
+        "smart-tv",
+        "sony-bravia",
+        "tcl",
+        "vibe-coding",
+        "xiaomi"
+      ],
+      "categories": [
+        "安卓"
+      ],
+      "platforms": [
+        "安卓"
+      ],
+      "pick": "growth",
+      "slot": "安卓",
+      "kind": "search",
+      "created_at": "2026-10-17",
+      "first_date": "2026-10-22",
+      "last_date": "2026-11-04",
+      "dates": [
+        "2026-11-04",
+        "2026-10-31",
+        "2026-10-27",
+        "2026-10-22"
+      ],
+      "times": 4
+    },
+    {
+      "full_name": "simdjson/simdjson",
+      "url": "https://github.com/simdjson/simdjson",
+      "description": "Parsing gigabytes of JSON per second : used by Facebook/Meta Velox, the Node.js runtime, ClickHouse, WatermelonDB, Apache Doris, Milvus, StarRocks",
+      "summary": "学什么：深入理解 SIMD 并行计算在 JSON 解析中的应用，掌握极致的内存访问与底层性能优化手段\n适合谁：适合对性能优化有追求的 C++ 开发者，特别是需要处理海量 JSON 数据或从事底层系统开发的读者\n怎么读：从 jsonioutil 工具类入手，再逐步深入核心的 simdjson.h 解析器实现",
+      "stars": 24498,
+      "language": "C++",
+      "topics": [
+        "aarch64",
+        "arm64",
+        "avx2",
+        "avx512",
+        "c-plus-plus",
+        "clang",
+        "clang-cl",
+        "cpp11",
+        "gcc-compiler",
+        "json",
+        "json-parser",
+        "json-pointer",
+        "loongarch",
+        "loongarch64",
+        "neon",
+        "risc-v",
+        "simd",
+        "sse42",
+        "vs2019",
+        "x64"
+      ],
+      "categories": [
+        "C++"
+      ],
+      "platforms": [
+        "C++"
+      ],
+      "pick": null,
+      "slot": null,
+      "kind": "learn",
+      "created_at": "2018-03-23",
+      "first_date": "2026-11-04",
+      "last_date": "2026-11-04",
+      "dates": [
+        "2026-11-04"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "KnifeLemon/Filee",
+      "url": "https://github.com/KnifeLemon/Filee",
+      "description": "Free, open-source file converter. Convert 263 formats offline by drag & drop — images, PDF, Word, Excel, PowerPoint, HWP/HWPX, video, audio, e-books and archives. No upload, no Office needed.",
+      "summary": "解决什么：一个免费的离线文件转换工具，支持拖放操作转换263种格式，包括图片、PDF、文档、音频、视频、电子书和压缩文件\n适合谁：需要在不同文件格式间转换的个人用户或开发者，尤其适合需要批量转换或在没有Office软件的环境下使用\n亮点：无需上传文件、无需安装Office即可进行多种格式的批量转换",
+      "stars": 21506,
+      "language": "C#",
+      "topics": [
+        "audio-converter",
+        "avalonia",
+        "batch-conversion",
+        "converter",
+        "csharp",
+        "document-converter",
+        "docx-to-pdf",
+        "dotnet",
+        "drag-and-drop",
+        "file-conversion",
+        "file-converter",
+        "heic-converter",
+        "hwp",
+        "hwpx",
+        "image-converter",
+        "linux",
+        "macos",
+        "pdf-converter",
+        "video-converter",
+        "windows"
+      ],
+      "categories": [
+        "Linux",
+        "Windows"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "pick": "growth",
+      "slot": "Windows",
+      "kind": "search",
+      "created_at": "2026-09-29",
+      "first_date": "2026-10-21",
+      "last_date": "2026-11-04",
+      "dates": [
+        "2026-11-04",
+        "2026-10-30",
+        "2026-10-26",
+        "2026-10-21"
+      ],
+      "times": 4
+    },
+    {
+      "full_name": "organicmaps/organicmaps",
+      "url": "https://github.com/organicmaps/organicmaps",
+      "description": "🍃 Organic Maps is a free Android & iOS offline maps app for more than 6M travelers, tourists, hikers, and cyclists. It uses crowd-sourced OpenStreetMap data and is developed with love by the community. No ads, no tracking, no data collection, no crapware. Please donate to support the development!",
+      "summary": "解决什么：解决旅行者、徒步者和骑行者在无网络环境下缺乏隐私且无广告的地图导航需求\n适合谁：适合经常户外出行、徒步旅行或需要离线地图导航的旅行者\n亮点：基于开源 OpenStreetMap 数据，提供无广告、无跟踪、无数据收集的纯净体验",
+      "stars": 15866,
+      "language": "C++",
+      "topics": [
+        "android",
+        "app",
+        "cpp",
+        "cyclists",
+        "hacktoberfest",
+        "hikers",
+        "ios",
+        "java",
+        "maps",
+        "mobile",
+        "mobile-app",
+        "navigation",
+        "objective-c",
+        "offline",
+        "offline-maps",
+        "openstreetmap",
+        "privacy",
+        "routing",
+        "tourists",
+        "travelers"
+      ],
+      "categories": [
+        "安卓"
+      ],
+      "platforms": [
+        "安卓"
+      ],
+      "pick": "top",
+      "slot": "安卓",
+      "kind": "search",
+      "created_at": "2020-12-27",
+      "first_date": "2026-11-04",
+      "last_date": "2026-11-04",
+      "dates": [
+        "2026-11-04"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "DaveGamble/cJSON",
+      "url": "https://github.com/DaveGamble/cJSON",
+      "description": "Ultralightweight JSON parser in ANSI C",
+      "summary": "掌握手写 JSON 解析器的核心逻辑，理解 C 语言中指针、递归与内存管理的实战应用\n适合 C 语言开发者，特别是想通过经典开源项目学习解析器实现原理或优化代码结构的读者\n先从 `cJSON_Parse` 入口函数入手，逐步追踪解析逻辑与内存管理实现",
+      "stars": 13065,
+      "language": "C",
+      "topics": [],
+      "categories": [
+        "C"
+      ],
+      "platforms": [
+        "C"
+      ],
+      "pick": null,
+      "slot": null,
+      "kind": "learn",
+      "created_at": "2016-03-19",
+      "first_date": "2026-11-04",
+      "last_date": "2026-11-04",
+      "dates": [
+        "2026-11-04"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "jhaizhou-ops/d2r-mobile",
+      "url": "https://github.com/jhaizhou-ops/d2r-mobile",
+      "description": "Open-source compatibility layer for Diablo II: Resurrected with the Reign of the Warlock expansion. Runs your own Switch copy natively on iPhone, iPad, Mac, Android and HarmonyOS — full touch controls, 60 fps, new endgame modes. Bring your own game files. 开源的《暗黑破坏神 II：狱火重生》术士君临 iOS / macOS / 安卓 / 鸿蒙兼容层",
+      "summary": "为《暗黑破坏神 II：狱火重生》提供开源兼容层，支持在 iOS、macOS、Android 和 HarmonyOS 上运行 Switch 版本\n适合拥有 Switch 版游戏文件的玩家，希望在移动设备或 Mac 上流畅游玩并享受触控操作\n支持全触控、60fps 和新结局模式，近期涨星最快且支持鸿蒙系统",
+      "stars": 5093,
+      "language": "C",
+      "topics": [
+        "android",
+        "compatibility-layer",
+        "diablo-2-resurrected",
+        "diablo2",
+        "game-port",
+        "harmonyos",
+        "ios",
+        "ipad",
+        "iphone",
+        "mac",
+        "macos",
+        "metal",
+        "reign-of-the-warlock",
+        "vulkan"
+      ],
+      "categories": [
+        "鸿蒙"
+      ],
+      "platforms": [
+        "鸿蒙"
+      ],
+      "pick": "growth",
+      "slot": "鸿蒙",
+      "kind": "search",
+      "created_at": "2026-10-12",
+      "first_date": "2026-10-27",
+      "last_date": "2026-11-04",
+      "dates": [
+        "2026-11-04",
+        "2026-10-31",
+        "2026-10-27"
+      ],
+      "times": 3
+    },
+    {
+      "full_name": "ohosvscode/arkTS",
+      "url": "https://github.com/ohosvscode/arkTS",
+      "description": "🧩 VSCode鸿蒙ArkTS插件 ✨✍️ 支持各种补全/跳转 ⛺️ 支持codelinter检测代码错误 🎵 VSCode HarmonyOS ArkTS plugin for personal use ✨✍️ supports source code navigation and completion  ⛺️ supports codelinter to detect errors",
+      "summary": "解决什么：为 VSCode 提供鸿蒙 ArkTS 开发支持，解决代码补全、跳转及错误检测问题\n适合谁：适合在 VSCode 中进行鸿蒙 Next 开发及调试的开发者\n亮点：支持源码导航、智能补全及错误检测，提升开发效率",
+      "stars": 870,
+      "language": "TypeScript",
+      "topics": [
+        "arkts",
+        "development-tools",
+        "harmony",
+        "harmonyos",
+        "harmonyos-next",
+        "huawei",
+        "vscode",
+        "vscode-extensions"
+      ],
+      "categories": [
+        "鸿蒙"
+      ],
+      "platforms": [
+        "鸿蒙"
+      ],
+      "pick": "top",
+      "slot": "鸿蒙",
+      "kind": "search",
+      "created_at": "2025-02-02",
+      "first_date": "2026-11-04",
+      "last_date": "2026-11-04",
+      "dates": [
+        "2026-11-04"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "RikiyaT/lm_understand-logs",
+      "url": "https://github.com/RikiyaT/lm_understand-logs",
+      "description": "Complete logs of the experiments in the blog post 'LLMs can understand and write neural network weights'",
+      "summary": "解决什么：记录了验证大型语言模型（LLM）理解并生成神经网络权重能力的实验全过程\n适合谁：适合对 LLM 内部机制及 AI 可解释性感兴趣的开发者与研究人员\n亮点：提供了验证 LLM 理解和编写神经网络权重能力的完整实验数据与日志",
+      "stars": 784,
+      "language": "Python",
+      "topics": [],
+      "categories": [
+        "AI"
+      ],
+      "platforms": [
+        "AI"
+      ],
+      "pick": "ai",
+      "slot": "AI",
+      "kind": "search",
+      "created_at": "2026-10-29",
+      "first_date": "2026-11-04",
+      "last_date": "2026-11-04",
+      "dates": [
+        "2026-11-04"
+      ],
+      "times": 1
+    },
     {
       "full_name": "warpdotdev/warp",
       "url": "https://github.com/warpdotdev/warp",
@@ -1204,53 +1647,6 @@
       "times": 1
     },
     {
-      "full_name": "morluto/rea",
-      "url": "https://github.com/morluto/rea",
-      "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
-      "summary": "解决什么：使用智能代理逆向分析应用程序行为和原生二进制文件\n适合谁：逆向工程师和安全研究人员用于自动化和简化逆向分析任务\n亮点：基于智能代理的逆向分析工具，实现自动化和高效的逆向工程",
-      "stars": 412870,
-      "language": "TypeScript",
-      "topics": [
-        "agent-skills",
-        "ai-agents",
-        "binary-analysis",
-        "claude-code",
-        "cli",
-        "codex",
-        "cordis",
-        "decompiler",
-        "developer-tools",
-        "dsh",
-        "dsh-plugin",
-        "ghidra",
-        "hopper",
-        "llm",
-        "mcp",
-        "model-context-protocol",
-        "rea",
-        "reverse-engineering",
-        "static-analysis",
-        "touhou"
-      ],
-      "categories": [
-        "Linux"
-      ],
-      "platforms": [
-        "Linux"
-      ],
-      "pick": "growth",
-      "slot": "Linux",
-      "kind": "search",
-      "created_at": "2026-04-14",
-      "first_date": "2026-10-27",
-      "last_date": "2026-10-31",
-      "dates": [
-        "2026-10-31",
-        "2026-10-27"
-      ],
-      "times": 2
-    },
-    {
       "full_name": "Z4nzu/hackingtool",
       "url": "https://github.com/Z4nzu/hackingtool",
       "description": "ALL IN ONE Hacking Tool For Hackers",
@@ -1335,51 +1731,6 @@
         "2026-10-31"
       ],
       "times": 1
-    },
-    {
-      "full_name": "Gathin23/cleanyourtv",
-      "url": "https://github.com/Gathin23/cleanyourtv",
-      "description": "Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
-      "summary": "解决什么：通过无线方式精简安卓或谷歌电视上的冗余软件，打造类似苹果电视风格的首页\n适合谁：安卓电视或谷歌电视用户，希望移除预装应用、提升系统流畅度和个性化桌面\n亮点：无需连接线即可一键移除冗余应用，快速打造清爽简洁的电视界面",
-      "stars": 46948,
-      "language": "Python",
-      "topics": [
-        "adb",
-        "adblock",
-        "android-tv",
-        "android-tv-launcher",
-        "apple-tv",
-        "bloatware-removal",
-        "claude-code",
-        "debloat",
-        "fire-tv",
-        "google-tv",
-        "launcher",
-        "privacy",
-        "smart-tv",
-        "sony-bravia",
-        "tcl",
-        "vibe-coding",
-        "xiaomi"
-      ],
-      "categories": [
-        "安卓"
-      ],
-      "platforms": [
-        "安卓"
-      ],
-      "pick": "growth",
-      "slot": "安卓",
-      "kind": "search",
-      "created_at": "2026-10-17",
-      "first_date": "2026-10-22",
-      "last_date": "2026-10-31",
-      "dates": [
-        "2026-10-31",
-        "2026-10-27",
-        "2026-10-22"
-      ],
-      "times": 3
     },
     {
       "full_name": "raysan5/raylib",
@@ -1496,47 +1847,6 @@
         "2026-10-31"
       ],
       "times": 1
-    },
-    {
-      "full_name": "jhaizhou-ops/d2r-mobile",
-      "url": "https://github.com/jhaizhou-ops/d2r-mobile",
-      "description": "Open-source compatibility layer for Diablo II: Resurrected with the Reign of the Warlock expansion. Runs your own Switch copy natively on iPhone, iPad, Mac, Android and HarmonyOS — full touch controls, 60 fps, new endgame modes. Bring your own game files. 开源的《暗黑破坏神 II：狱火重生》术士君临 iOS / macOS / 安卓 / 鸿蒙兼容层",
-      "summary": "提供开源兼容层，支持在 iOS、Android、鸿蒙及 Mac 上运行 Switch 版《暗黑破坏神 II：狱火重生》\n适合拥有 Switch 版游戏文件的玩家，在 iPhone、iPad、Mac 或鸿蒙设备上流畅游玩\n原生运行 Switch 文件，支持术士君临扩展，多平台支持 60fps 和触控",
-      "stars": 4914,
-      "language": "C",
-      "topics": [
-        "android",
-        "compatibility-layer",
-        "diablo-2-resurrected",
-        "diablo2",
-        "game-port",
-        "harmonyos",
-        "ios",
-        "ipad",
-        "iphone",
-        "mac",
-        "macos",
-        "metal",
-        "reign-of-the-warlock",
-        "vulkan"
-      ],
-      "categories": [
-        "鸿蒙"
-      ],
-      "platforms": [
-        "鸿蒙"
-      ],
-      "pick": "growth",
-      "slot": "鸿蒙",
-      "kind": "search",
-      "created_at": "2026-10-12",
-      "first_date": "2026-10-27",
-      "last_date": "2026-10-31",
-      "dates": [
-        "2026-10-31",
-        "2026-10-27"
-      ],
-      "times": 2
     },
     {
       "full_name": "zeux/pugixml",
@@ -1798,55 +2108,6 @@
         "2026-10-30"
       ],
       "times": 1
-    },
-    {
-      "full_name": "KnifeLemon/Filee",
-      "url": "https://github.com/KnifeLemon/Filee",
-      "description": "Free, open-source file converter. Convert 263 formats offline by drag & drop — images, PDF, Word, Excel, PowerPoint, HWP/HWPX, video, audio, e-books and archives. No upload, no Office needed.",
-      "summary": "这是一个免费开源的离线文件转换工具，支持拖拽操作，无需上传文件或安装 Office 即可转换 263 种格式。\n适合需要在 Windows、Linux 或 macOS 上批量转换各类文件格式的用户。\n基于 Avalonia 和 .NET 开发，近期涨星速度极快，支持跨平台且无需联网。",
-      "stars": 17612,
-      "language": "C#",
-      "topics": [
-        "audio-converter",
-        "avalonia",
-        "batch-conversion",
-        "converter",
-        "csharp",
-        "document-converter",
-        "docx-to-pdf",
-        "dotnet",
-        "drag-and-drop",
-        "file-conversion",
-        "file-converter",
-        "heic-converter",
-        "hwp",
-        "hwpx",
-        "image-converter",
-        "linux",
-        "macos",
-        "pdf-converter",
-        "video-converter",
-        "windows"
-      ],
-      "categories": [
-        "Linux",
-        "Windows"
-      ],
-      "platforms": [
-        "Linux"
-      ],
-      "pick": "growth",
-      "slot": "Linux",
-      "kind": "search",
-      "created_at": "2026-09-29",
-      "first_date": "2026-10-21",
-      "last_date": "2026-10-30",
-      "dates": [
-        "2026-10-30",
-        "2026-10-26",
-        "2026-10-21"
-      ],
-      "times": 3
     },
     {
       "full_name": "alibaba/GaiaX",
