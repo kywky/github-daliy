@@ -1,8 +1,400 @@
 {
-  "generated_at": "2026-11-04T05:53:44.240767+00:00",
-  "total": 128,
-  "occurrences": 161,
+  "generated_at": "2026-11-05T06:13:21.281029+00:00",
+  "total": 135,
+  "occurrences": 172,
   "projects": [
+    {
+      "full_name": "wagoodman/dive",
+      "url": "https://github.com/wagoodman/dive",
+      "description": "A tool for exploring each layer in a docker image",
+      "summary": "深入分析 Docker 镜像的每一层，帮助用户找出冗余文件并优化镜像大小\n需要深入排查 Docker 镜像构建问题和优化体积的运维及开发人员\n提供交互式终端界面，直观展示镜像层差异，是 Docker 镜像体积优化的利器",
+      "stars": 54697,
+      "language": "Go",
+      "topics": [
+        "cli",
+        "docker",
+        "docker-image",
+        "explorer",
+        "inspector",
+        "tui"
+      ],
+      "categories": [
+        "Linux"
+      ],
+      "platforms": [
+        "Linux"
+      ],
+      "pick": "top",
+      "slot": "Linux",
+      "kind": "search",
+      "created_at": "2018-05-13",
+      "first_date": "2026-11-05",
+      "last_date": "2026-11-05",
+      "dates": [
+        "2026-11-05"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "lencx/ChatGPT",
+      "url": "https://github.com/lencx/ChatGPT",
+      "description": "❄️ ChatGPT Desktop Application (Mac, Windows and Linux)",
+      "summary": "将 ChatGPT 转换为跨平台的桌面应用程序，提供更流畅的桌面体验\n适合需要在桌面端便捷使用 ChatGPT 的开发者及普通用户\n基于 Rust 和 Tauri 构建，提供高性能的跨平台桌面体验",
+      "stars": 54661,
+      "language": "Rust",
+      "topics": [
+        "ai",
+        "app",
+        "application",
+        "chatgpt",
+        "desktop-app",
+        "gpt",
+        "gpt-3",
+        "linux",
+        "macos",
+        "notes-app",
+        "openai",
+        "rust",
+        "tauri",
+        "webview",
+        "windows"
+      ],
+      "categories": [
+        "Linux",
+        "Windows"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "pick": "top",
+      "slot": "Windows",
+      "kind": "search",
+      "created_at": "2022-12-07",
+      "first_date": "2026-11-05",
+      "last_date": "2026-11-05",
+      "dates": [
+        "2026-11-05"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "nothings/stb",
+      "url": "https://github.com/nothings/stb",
+      "description": "stb single-file public domain libraries for C/C++",
+      "summary": "掌握 C 语言底层图形处理算法实现，学习资深开发者如何将庞大功能封装进单文件\n适合想学习 C 语言底层图形处理算法，或寻求轻量级图像库集成方案的初级/中级开发者\n建议从 stb_image.h 入手，逐步阅读 stb_truetype.h 等模块以理解不同场景下的代码组织",
+      "stars": 34940,
+      "language": "C",
+      "topics": [],
+      "categories": [
+        "C"
+      ],
+      "platforms": [
+        "C"
+      ],
+      "pick": null,
+      "slot": null,
+      "kind": "learn",
+      "created_at": "2014-05-25",
+      "first_date": "2026-11-05",
+      "last_date": "2026-11-05",
+      "dates": [
+        "2026-11-05"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "electerm/electerm",
+      "url": "https://github.com/electerm/electerm",
+      "description": "📻Free and open-sourced terminal/ssh/sftp/ftp/telnet/serialport/RDP/VNC/Spice client(Linux, Mac, Windows, Android, HarmonyOS, iOS)",
+      "summary": "提供跨平台的 SSH/SFTP/FTP/Telnet/RDP/VNC 等终端及远程连接客户端，支持多操作系统\n适合需要在 Linux、Mac、Windows、Android 或鸿蒙系统上进行远程管理和开发的人员\n近期涨星最快的开源项目，功能全面且支持 AI 和 MCP",
+      "stars": 15554,
+      "language": "JavaScript",
+      "topics": [
+        "ai",
+        "android",
+        "electerm",
+        "electron",
+        "ftp",
+        "harmonyos",
+        "linux-app",
+        "macos-app",
+        "mcp",
+        "open-source",
+        "rdp",
+        "serialport",
+        "sftp",
+        "spice",
+        "ssh",
+        "telnet",
+        "terminal",
+        "vnc",
+        "windows-app",
+        "zmodem"
+      ],
+      "categories": [
+        "鸿蒙",
+        "Windows"
+      ],
+      "platforms": [
+        "鸿蒙"
+      ],
+      "pick": "growth",
+      "slot": "鸿蒙",
+      "kind": "search",
+      "created_at": "2017-10-07",
+      "first_date": "2026-10-29",
+      "last_date": "2026-11-05",
+      "dates": [
+        "2026-11-05",
+        "2026-10-29"
+      ],
+      "times": 2
+    },
+    {
+      "full_name": "android10/Android-CleanArchitecture",
+      "url": "https://github.com/android10/Android-CleanArchitecture",
+      "description": "This is a sample app that is part of a series of blog posts I have written about how to architect an android application using Uncle Bob's clean architecture approach.",
+      "summary": "解决什么：使用 Uncle Bob 的 Clean Architecture 方法论架构 Android 应用\n适合谁：Android 开发者学习 Clean Architecture 实践\n亮点：基于 Clean Architecture 的 Android 应用示例项目",
+      "stars": 15531,
+      "language": "Java",
+      "topics": [
+        "android",
+        "android-application",
+        "android-architecture",
+        "android-cleanarchitecture",
+        "android-development",
+        "architectural",
+        "java"
+      ],
+      "categories": [
+        "安卓"
+      ],
+      "platforms": [
+        "安卓"
+      ],
+      "pick": "top",
+      "slot": "安卓",
+      "kind": "search",
+      "created_at": "2014-08-19",
+      "first_date": "2026-11-05",
+      "last_date": "2026-11-05",
+      "dates": [
+        "2026-11-05"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "Kludex/starlette",
+      "url": "https://github.com/Kludex/starlette",
+      "description": "The little ASGI framework that shines. 🌟",
+      "summary": "掌握 ASGI 应用架构、异步路由分发及中间件链式处理的核心原理\n适合希望学习 ASGI 规范、异步 Web 开发模式或构建高性能框架的开发者\n从 app.py 入口文件开始，依次分析路由分发与中间件机制",
+      "stars": 12712,
+      "language": "Python",
+      "topics": [
+        "asgi",
+        "async",
+        "http",
+        "python",
+        "websockets"
+      ],
+      "categories": [
+        "Python"
+      ],
+      "platforms": [
+        "Python"
+      ],
+      "pick": null,
+      "slot": null,
+      "kind": "learn",
+      "created_at": "2018-06-25",
+      "first_date": "2026-10-23",
+      "last_date": "2026-11-05",
+      "dates": [
+        "2026-11-05",
+        "2026-11-03",
+        "2026-10-30",
+        "2026-10-26",
+        "2026-10-25",
+        "2026-10-24",
+        "2026-10-23"
+      ],
+      "times": 7
+    },
+    {
+      "full_name": "ccch1mneyyy/dsh-Go",
+      "url": "https://github.com/ccch1mneyyy/dsh-Go",
+      "description": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
+      "summary": "解决在手机本地运行 DeepSeek 模型并远程控制电脑进行 AI 编码的问题\n适合希望利用手机算力运行 AI 模型并远程操控电脑的开发者\n基于 Flutter 开发，近期涨星迅猛，将 DeepSeek Harness 移植到手机端",
+      "stars": 10108,
+      "language": "Dart",
+      "topics": [
+        "ai-agent",
+        "android",
+        "android-app",
+        "coding-agent",
+        "deepseek",
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin",
+        "dsh-tui",
+        "flutter",
+        "llm"
+      ],
+      "categories": [
+        "安卓",
+        "AI"
+      ],
+      "platforms": [
+        "安卓"
+      ],
+      "pick": "growth",
+      "slot": "安卓",
+      "kind": "search",
+      "created_at": "2026-10-25",
+      "first_date": "2026-10-30",
+      "last_date": "2026-11-05",
+      "dates": [
+        "2026-11-05",
+        "2026-11-01",
+        "2026-10-30"
+      ],
+      "times": 3
+    },
+    {
+      "full_name": "wangzan101/Mika",
+      "url": "https://github.com/wangzan101/Mika",
+      "description": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
+      "summary": "这是一个运行在 Android 设备上的本地 AI 代理，能够自动操作应用和网页帮用户完成任务。\n适合 Android 用户、自动化爱好者以及移动端 AI 代理的开发者。\n亮点是利用本地大模型实现移动端应用自动化操作，且基于 Jetpack Compose 构建。",
+      "stars": 6791,
+      "language": "Kotlin",
+      "topics": [
+        "accessibility",
+        "ai-agent",
+        "android",
+        "automation",
+        "jetpack-compose",
+        "kotlin",
+        "llm",
+        "mobile-agent"
+      ],
+      "categories": [
+        "AI"
+      ],
+      "platforms": [
+        "AI"
+      ],
+      "pick": "ai",
+      "slot": "AI",
+      "kind": "search",
+      "created_at": "2026-10-29",
+      "first_date": "2026-11-01",
+      "last_date": "2026-11-05",
+      "dates": [
+        "2026-11-05",
+        "2026-11-01"
+      ],
+      "times": 2
+    },
+    {
+      "full_name": "KKKKhazix/agent-autoloop",
+      "url": "https://github.com/KKKKhazix/agent-autoloop",
+      "description": "让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。",
+      "summary": "解决命令行 Agent 需要人工持续干预的问题，实现后台自动执行与按需确认\n适合需要自动化工作流、使用 TypeScript 的开发者\n支持 MCP 协议与事件驱动，近期涨星最快",
+      "stars": 2803,
+      "language": "TypeScript",
+      "topics": [
+        "ai-agents",
+        "automation",
+        "claude-code",
+        "cli",
+        "codex",
+        "event-driven",
+        "mcp",
+        "nodejs",
+        "self-hosted",
+        "typescript",
+        "workflow"
+      ],
+      "categories": [
+        "Linux",
+        "AI"
+      ],
+      "platforms": [
+        "Linux"
+      ],
+      "pick": "growth",
+      "slot": "Linux",
+      "kind": "search",
+      "created_at": "2026-11-03",
+      "first_date": "2026-11-05",
+      "last_date": "2026-11-05",
+      "dates": [
+        "2026-11-05"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "harmony-on-android/HOA",
+      "url": "https://github.com/harmony-on-android/HOA",
+      "description": "Run OpenHarmony hap on Android",
+      "summary": "解决什么：在 Android 平台上运行 OpenHarmony HAP 应用\n适合谁：Android 开发者希望尝试或集成 OpenHarmony 应用的场景\n亮点：将 OpenHarmony HAP 应用运行在 Android 系统上的解决方案",
+      "stars": 822,
+      "language": "Kotlin",
+      "topics": [
+        "android",
+        "harmonyos",
+        "openharmony"
+      ],
+      "categories": [
+        "鸿蒙"
+      ],
+      "platforms": [
+        "鸿蒙"
+      ],
+      "pick": "top",
+      "slot": "鸿蒙",
+      "kind": "search",
+      "created_at": "2026-05-15",
+      "first_date": "2026-11-05",
+      "last_date": "2026-11-05",
+      "dates": [
+        "2026-11-05"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "DeltaProviderGuide/auto-auction-bot-wow-forever",
+      "url": "https://github.com/DeltaProviderGuide/auto-auction-bot-wow-forever",
+      "description": "A free Auction House bot for WoW Forever: buys low, posts high and undercuts for you. Windows app plus in-game panel.",
+      "summary": "这是一个免费的魔兽世界拍卖行自动化工具，帮助玩家低买高卖并自动压价\n适合魔兽世界玩家，特别是希望通过自动化手段在拍卖行赚取金币的玩家\n采用 Rust 和 Tauri 技术栈，近期涨星速度极快",
+      "stars": 414,
+      "language": "Rust",
+      "topics": [
+        "auction-house",
+        "fan-project",
+        "gold-making",
+        "rust",
+        "tauri",
+        "world-of-warcraft",
+        "wow-addon"
+      ],
+      "categories": [
+        "Windows"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "pick": "growth",
+      "slot": "Windows",
+      "kind": "search",
+      "created_at": "2026-11-04",
+      "first_date": "2026-11-05",
+      "last_date": "2026-11-05",
+      "dates": [
+        "2026-11-05"
+      ],
+      "times": 1
+    },
     {
       "full_name": "morluto/rea",
       "url": "https://github.com/morluto/rea",
@@ -539,42 +931,6 @@
         "2026-11-03"
       ],
       "times": 1
-    },
-    {
-      "full_name": "Kludex/starlette",
-      "url": "https://github.com/Kludex/starlette",
-      "description": "The little ASGI framework that shines. 🌟",
-      "summary": "掌握 ASGI 协议、异步编程模型、中间件机制及高性能 HTTP 路由的实现原理\n适合希望深入理解 ASGI 协议及 Web 框架底层实现原理的 Python 开发者\n建议从 `app.py` 的初始化流程入手，再深入 `routing.py` 和 `middleware.py` 的实现细节",
-      "stars": 12706,
-      "language": "Python",
-      "topics": [
-        "asgi",
-        "async",
-        "http",
-        "python",
-        "websockets"
-      ],
-      "categories": [
-        "Python"
-      ],
-      "platforms": [
-        "Python"
-      ],
-      "pick": null,
-      "slot": null,
-      "kind": "learn",
-      "created_at": "2018-06-25",
-      "first_date": "2026-10-23",
-      "last_date": "2026-11-03",
-      "dates": [
-        "2026-11-03",
-        "2026-10-30",
-        "2026-10-26",
-        "2026-10-25",
-        "2026-10-24",
-        "2026-10-23"
-      ],
-      "times": 6
     },
     {
       "full_name": "antirez/sds",
@@ -1452,79 +1808,6 @@
       "times": 1
     },
     {
-      "full_name": "ccch1mneyyy/dsh-Go",
-      "url": "https://github.com/ccch1mneyyy/dsh-Go",
-      "description": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
-      "summary": "解决什么：让 DeepSeek AI 工具在安卓手机上本地运行，并能远程控制电脑\n适合谁：需要移动端 AI 辅助、希望随时随地使用 DeepSeek 功能的开发者和用户\n亮点：首个在安卓手机上实现本地化 DeepSeek 运行的工具",
-      "stars": 3804,
-      "language": "Dart",
-      "topics": [
-        "ai-agent",
-        "android",
-        "android-app",
-        "coding-agent",
-        "deepseek",
-        "deepseek-harness",
-        "dsh",
-        "dsh-plugin",
-        "dsh-tui",
-        "flutter",
-        "llm"
-      ],
-      "categories": [
-        "安卓",
-        "AI"
-      ],
-      "platforms": [
-        "安卓"
-      ],
-      "pick": "growth",
-      "slot": "安卓",
-      "kind": "search",
-      "created_at": "2026-10-25",
-      "first_date": "2026-10-30",
-      "last_date": "2026-11-01",
-      "dates": [
-        "2026-11-01",
-        "2026-10-30"
-      ],
-      "times": 2
-    },
-    {
-      "full_name": "wangzan101/Mika",
-      "url": "https://github.com/wangzan101/Mika",
-      "description": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
-      "summary": "让 AI 代理在 Android 设备上自动操作应用和网页以完成用户任务\n适合需要 Android 自动化、无障碍辅助或 LLM 应用开发的学习者与开发者\n纯本地运行的 Android AI 代理，支持 Jetpack Compose UI",
-      "stars": 2967,
-      "language": "Kotlin",
-      "topics": [
-        "accessibility",
-        "ai-agent",
-        "android",
-        "automation",
-        "jetpack-compose",
-        "kotlin",
-        "llm",
-        "mobile-agent"
-      ],
-      "categories": [
-        "AI"
-      ],
-      "platforms": [
-        "AI"
-      ],
-      "pick": "ai",
-      "slot": "AI",
-      "kind": "search",
-      "created_at": "2026-10-29",
-      "first_date": "2026-11-01",
-      "last_date": "2026-11-01",
-      "dates": [
-        "2026-11-01"
-      ],
-      "times": 1
-    },
-    {
       "full_name": "richgel999/miniz",
       "url": "https://github.com/richgel999/miniz",
       "description": "miniz: Single C source file zlib-replacement library, originally from code.google.com/p/miniz",
@@ -2319,53 +2602,6 @@
       "slot": "安卓",
       "kind": "search",
       "created_at": "2023-04-15",
-      "first_date": "2026-10-29",
-      "last_date": "2026-10-29",
-      "dates": [
-        "2026-10-29"
-      ],
-      "times": 1
-    },
-    {
-      "full_name": "electerm/electerm",
-      "url": "https://github.com/electerm/electerm",
-      "description": "📻Free and open-sourced terminal/ssh/sftp/ftp/telnet/serialport/RDP/VNC/Spice client(Linux, Mac, Windows, Android, HarmonyOS, iOS)",
-      "summary": "提供跨平台的终端、SSH、SFTP、FTP、RDP、VNC 等远程连接与文件管理解决方案\n适合需要跨平台远程连接（SSH/SFTP/FTP/RDP等）的开发者与运维人员\n开源免费且近期涨星最快，支持 Linux、Mac、Windows、Android 及鸿蒙等多平台",
-      "stars": 15494,
-      "language": "JavaScript",
-      "topics": [
-        "ai",
-        "android",
-        "electerm",
-        "electron",
-        "ftp",
-        "harmonyos",
-        "linux-app",
-        "macos-app",
-        "mcp",
-        "open-source",
-        "rdp",
-        "serialport",
-        "sftp",
-        "spice",
-        "ssh",
-        "telnet",
-        "terminal",
-        "vnc",
-        "windows-app",
-        "zmodem"
-      ],
-      "categories": [
-        "鸿蒙",
-        "Windows"
-      ],
-      "platforms": [
-        "鸿蒙"
-      ],
-      "pick": "growth",
-      "slot": "鸿蒙",
-      "kind": "search",
-      "created_at": "2017-10-07",
       "first_date": "2026-10-29",
       "last_date": "2026-10-29",
       "dates": [
