@@ -356,7 +356,7 @@ def render(repos: list[dict], window_end: str, comparison: str | None) -> str:
   <div class="wrap">
     <div class="eyebrow">Daily Digest</div>
     <h1>GitHub <span class="grad">每日精选</span></h1>
-    <p class="lead">每天安卓 / 鸿蒙 / Linux / Windows 各 2 个好玩或实用的应用；再加 2-3 个 AI 热门项目和好用的 AI 工具/技能/插件；以及 2 个 C / C++ / Python 经典小项目。</p>
+    <p class="lead">每天安卓 / 鸿蒙 / Linux / Windows 各 2 个好玩或实用的应用；再加 4-5 个 AI 热门项目和好用的 AI 工具/技能/插件/Agent；以及 2 个 C / C++ / Python 经典小项目。</p>
     <div class="meta">
       <span class="pill">{_window_note()}</span>
       <span class="pill">{len(repos)} 个项目</span>

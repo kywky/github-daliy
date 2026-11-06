@@ -115,7 +115,7 @@ def pick_learning(today: date, shown: dict[str, str], token: str | None, count: 
 def main() -> int:
     p = argparse.ArgumentParser(description="生成每日 GitHub 好项目静态页")
     p.add_argument("--min-stars", type=int, default=50, help="新秀/AI 栏最少 star 数，默认 50")
-    p.add_argument("--limit", type=int, default=13, help="每天展示多少个，默认 13")
+    p.add_argument("--limit", type=int, default=15, help="每天展示多少个，默认 15")
     p.add_argument("--learn", type=int, default=2, help="其中经典学习项目多少个，默认 2")
     p.add_argument("--per-platform", type=int, default=2, help="每个平台选几个，默认 2")
     p.add_argument("--per-cat", type=int, default=50, help="每个分类每个查询拉多少，默认 50")
