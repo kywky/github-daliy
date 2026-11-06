@@ -47,6 +47,23 @@ CATEGORIES = {
         ],
         "color": "#8b5cf6", "sigil": "AI", "quota": 1, "group": "ai",
     },
+    "AI神器": {
+        "queries": [
+            ("topic:mcp", 60), ("topic:mcp-server", 60),
+            ("ai agent tool in:name,description", 60),
+            ("ai skill in:name,description", 60),
+            ("ai plugin in:name,description", 60),
+            ("coding agent in:name,description", 60),
+            ("topic:ai-agent", 60), ("topic:agentic", 60),
+            ("ai assistant in:name,description", 60),
+            ("prompt engineering in:name,description", 90),
+            ("ai browser extension in:name,description", 90),
+            ("ai cli in:name,description", 90),
+            ("topic:computer-use", 60),
+            ("topic:ai-automation", 60),
+        ],
+        "color": "#ec4899", "sigil": "AI+", "quota": 2, "group": "ai_tools",
+    },
     # 学习栏不走搜索，候选来自 classic.py 的经典清单
     "C":       {"queries": [], "color": "#5b6ee1", "sigil": "C", "quota": 1, "group": "learn"},
     "C++":     {"queries": [], "color": "#f34b7d", "sigil": "++", "quota": 1, "group": "learn"},
@@ -54,6 +71,7 @@ CATEGORIES = {
 }
 
 TOOL_CATS = tuple(c for c, cfg in CATEGORIES.items() if cfg.get("group") == "tool")
+AI_TOOL_CATS = tuple(c for c, cfg in CATEGORIES.items() if cfg.get("group") in ("ai", "ai_tools"))
 SEARCH_CATS = tuple(c for c, cfg in CATEGORIES.items() if cfg["queries"])
 TOOL_LIB = re.compile(r"sdk\b|framework\b|library\b|开发套件|开发框架", re.I)
 
@@ -381,17 +399,38 @@ def select_tools(pool: dict[str, dict], top_pool: dict[str, dict], shown: dict[s
 
 def pick_ai(pool: dict[str, dict], shown: dict[str, str], today: date,
             cooldown_days: int = 3, exclude: set[str] | None = None) -> list[dict]:
+    """从 AI 和 AI神器 两个分类中挑选项目，共返回最多 3 个。"""
     exclude = exclude or set()
     cutoff = today - timedelta(days=cooldown_days)
     candidates = [
         r for r in pool.values()
-        if "AI" in r["categories"] and r["full_name"] not in exclude
+        if any(c in r["categories"] for c in AI_TOOL_CATS) and r["full_name"] not in exclude
     ]
     if not candidates:
         return []
+
     fresh = [r for r in candidates if _last_shown(r, shown) < cutoff]
     usable = fresh or candidates
-    best = max(usable, key=lambda r: (rank_score(r), r["stars"]))
-    best["pick"] = "ai"
-    best["slot"] = "AI"
-    return [best]
+
+    chosen: list[dict] = []
+    seen: set[str] = set()
+
+    ai_tool_candidates = [r for r in usable if "AI神器" in r.get("categories", [])]
+    ai_tool_candidates.sort(key=lambda r: (rank_score(r), r["stars"]), reverse=True)
+    for r in ai_tool_candidates[:2]:
+        if r["full_name"] not in seen:
+            r["pick"] = "ai_tool"
+            r["slot"] = "AI神器"
+            chosen.append(r)
+            seen.add(r["full_name"])
+
+    ai_only = [r for r in usable if "AI" in r.get("categories", []) and r["full_name"] not in seen]
+    if ai_only:
+        ai_only.sort(key=lambda r: (rank_score(r), r["stars"]), reverse=True)
+        best = ai_only[0]
+        best["pick"] = "ai"
+        best["slot"] = "AI"
+        chosen.append(best)
+        seen.add(best["full_name"])
+
+    return chosen[:3]

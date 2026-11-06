@@ -13,7 +13,7 @@ load_dotenv()
 
 from github import (  # noqa: E402
     CATEGORIES, fetch_by_categories, fetch_repo, fetch_top_by_platform,
-    pick_ai, select_tools,
+    pick_ai, select_tools, AI_TOOL_CATS,
 )
 from classic import candidates as classic_candidates, pick_languages  # noqa: E402
 from render import render  # noqa: E402
@@ -115,7 +115,7 @@ def pick_learning(today: date, shown: dict[str, str], token: str | None, count: 
 def main() -> int:
     p = argparse.ArgumentParser(description="生成每日 GitHub 好项目静态页")
     p.add_argument("--min-stars", type=int, default=50, help="新秀/AI 栏最少 star 数，默认 50")
-    p.add_argument("--limit", type=int, default=11, help="每天展示多少个，默认 11")
+    p.add_argument("--limit", type=int, default=13, help="每天展示多少个，默认 13")
     p.add_argument("--learn", type=int, default=2, help="其中经典学习项目多少个，默认 2")
     p.add_argument("--per-platform", type=int, default=2, help="每个平台选几个，默认 2")
     p.add_argument("--per-cat", type=int, default=50, help="每个分类每个查询拉多少，默认 50")
@@ -153,10 +153,12 @@ def main() -> int:
 
     tops = sum(1 for r in tools if r.get("pick") == "top")
     growths = sum(1 for r in tools if r.get("pick") == "growth")
+    ai_tools = sum(1 for r in ai if r.get("pick") == "ai_tool")
+    ai_classic = sum(1 for r in ai if r.get("pick") == "ai")
     slots: dict[str, int] = {}
     for r in tools:
         slots[r["slot"]] = slots.get(r["slot"], 0) + 1
-    print(f"  · 工具 {len(tools)} 个（人气榜 {tops} / 涨星 {growths}），AI {len(ai)} 个，经典 {len(learn)} 个")
+    print(f"  · 工具 {len(tools)} 个（人气榜 {tops} / 涨星 {growths}），AI {ai_classic} 个，AI神器 {ai_tools} 个，经典 {len(learn)} 个")
     print("  · 平台分布: " + " / ".join(f"{k} {v}" for k, v in slots.items()))
 
     print(f"→ 生成摘要: {os.environ.get('LLM_BASE_URL','(未配置)')} / {os.environ.get('LLM_MODEL','(未配置)')}" if os.environ.get("LLM_API_KEY") else "→ 未配置 LLM_API_KEY，摘要使用原始描述")

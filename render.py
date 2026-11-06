@@ -235,6 +235,7 @@ def _window_note() -> str:
     from github import CATEGORIES
     tool_days = [d for cfg in CATEGORIES.values() if cfg.get("group") == "tool" for _, d in cfg["queries"]]
     ai_days = [d for cfg in CATEGORIES.values() if cfg.get("group") == "ai" for _, d in cfg["queries"]]
+    ai_tool_days = [d for cfg in CATEGORIES.values() if cfg.get("group") == "ai_tools" for _, d in cfg["queries"]]
     parts = ["人气榜全时段按总 star 逐日轮换"]
     if tool_days:
         lo, hi = min(tool_days), max(tool_days)
@@ -242,12 +243,15 @@ def _window_note() -> str:
     if ai_days:
         lo, hi = min(ai_days), max(ai_days)
         parts.append(f"AI {lo}–{hi} 天内新建" if lo != hi else f"AI {lo} 天内新建")
+    if ai_tool_days:
+        lo, hi = min(ai_tool_days), max(ai_tool_days)
+        parts.append(f"AI神器 {lo}–{hi} 天内新建" if lo != hi else f"AI神器 {lo} 天内新建")
     return " · ".join(parts)
 
 
 def _tab_cats(r: dict, tool_cats: tuple[str, ...]) -> list[str]:
-    if r.get("pick") == "ai":
-        return ["AI"]
+    if r.get("pick") in ("ai", "ai_tool"):
+        return [r.get("slot", "AI")]
     slot = r.get("slot")
     if r.get("pick") in ("top", "growth") and slot in tool_cats:
         return [slot]
@@ -291,6 +295,10 @@ def render(repos: list[dict], window_end: str, comparison: str | None) -> str:
             speed_html = '<span class="speed neutral">经典可读</span>'
         elif pick == "top":
             speed_html = '<span class="speed top">人气榜</span>'
+        elif pick == "ai_tool":
+            speed_html = '<span class="speed" style="background:#fdf2f8;color:#be185d">AI神器</span>'
+        elif pick == "ai":
+            speed_html = '<span class="speed" style="background:#f5f3ff;color:#6d28d9">AI 热门</span>'
         elif spd is None and pick == "growth" and r.get("created_at"):
             days = max((date.fromisoformat(window_end) - date.fromisoformat(r["created_at"])).days, 1)
             spd = r["stars"] / days
@@ -348,7 +356,7 @@ def render(repos: list[dict], window_end: str, comparison: str | None) -> str:
   <div class="wrap">
     <div class="eyebrow">Daily Digest</div>
     <h1>GitHub <span class="grad">每日精选</span></h1>
-    <p class="lead">每天安卓 / 鸿蒙 / Linux / Windows 各 2 个好玩或实用的应用：一个人气最高，一个涨星最快；再加 1 个热门 AI 项目和 2 个 C / C++ / Python 经典小项目。</p>
+    <p class="lead">每天安卓 / 鸿蒙 / Linux / Windows 各 2 个好玩或实用的应用；再加 2-3 个 AI 热门项目和好用的 AI 工具/技能/插件；以及 2 个 C / C++ / Python 经典小项目。</p>
     <div class="meta">
       <span class="pill">{_window_note()}</span>
       <span class="pill">{len(repos)} 个项目</span>
