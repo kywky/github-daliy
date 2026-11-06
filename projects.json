@@ -1,23 +1,25 @@
 {
-  "generated_at": "2026-11-06T06:15:04.097897+00:00",
-  "total": 141,
-  "occurrences": 185,
+  "generated_at": "2026-11-06T10:39:30.469213+00:00",
+  "total": 142,
+  "occurrences": 187,
   "projects": [
     {
-      "full_name": "google-gemini/gemini-cli",
-      "url": "https://github.com/google-gemini/gemini-cli",
-      "description": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
-      "summary": "解决什么：让用户通过命令行直接调用 Google Gemini API，无需浏览器即可在终端进行 AI 交互\n适合谁：适合需要在命令行环境中高效使用 AI 辅助编程或日常任务的 Linux 用户及开发者\n亮点：拥有极高人气，支持 MCP 协议，将 Gemini 的强大 AI 能力无缝集成到终端操作中",
-      "stars": 108748,
+      "full_name": "OpenHands/OpenHands",
+      "url": "https://github.com/OpenHands/OpenHands",
+      "description": "🙌 OpenHands: AI-Driven Development",
+      "summary": "通过 AI 智能体技术，解决利用大语言模型（如 GPT-4、Claude）进行自动化代码编写、调试及系统操作的需求\n适合需要自动化开发流程、利用 AI 辅助编程或进行复杂软件工程的软件工程师\n支持多种主流大模型，提供强大的 CLI 交互式开发体验",
+      "stars": 92791,
       "language": "TypeScript",
       "topics": [
-        "ai",
-        "ai-agents",
+        "agent",
+        "artificial-intelligence",
+        "chatgpt",
+        "claude-ai",
         "cli",
-        "gemini",
-        "gemini-api",
-        "mcp-client",
-        "mcp-server"
+        "developer-tools",
+        "gpt",
+        "llm",
+        "openai"
       ],
       "categories": [
         "Linux"
@@ -28,36 +30,44 @@
       "pick": "top",
       "slot": "Linux",
       "kind": "search",
-      "created_at": "2025-04-17",
-      "first_date": "2026-10-24",
+      "created_at": "2024-03-13",
+      "first_date": "2026-10-26",
       "last_date": "2026-11-06",
       "dates": [
         "2026-11-06",
-        "2026-10-24"
+        "2026-10-26"
       ],
       "times": 2
     },
     {
-      "full_name": "microsoft/terminal",
-      "url": "https://github.com/microsoft/terminal",
-      "description": "The new Windows Terminal and the original Windows console host, all in the same place!",
-      "summary": "整合新的 Windows Terminal 和原始控制台主机，为 Windows 提供统一且强大的命令行体验\n适合 Windows 用户、开发者以及需要在 WSL 或 CMD 中进行高效命令行操作的人\n微软官方出品，拥有庞大的社区支持和高度可定制化的多标签页界面",
-      "stars": 105334,
-      "language": "C++",
+      "full_name": "ventoy/Ventoy",
+      "url": "https://github.com/ventoy/Ventoy",
+      "description": "A new bootable USB solution.",
+      "summary": "提供一种新的可启动 USB 解决方案，支持 ISO 文件直接挂载和多系统引导\n适合需要制作多系统启动盘、进行系统安装或维护的计算机用户\n独特的 ISO 文件直接挂载功能，无需解压即可引导多种操作系统",
+      "stars": 80617,
+      "language": "C",
       "topics": [
-        "cmd",
-        "command-line",
-        "console",
-        "contributions-welcome",
-        "good-first-issue",
-        "hacktoberfest",
-        "terminal",
+        "arm64",
+        "auto-install",
+        "bootable-usb",
+        "bsd",
+        "chromeos",
+        "iso-files",
+        "legacy",
+        "linux",
+        "multiboot",
+        "persistence",
+        "secure-boot",
+        "uefi",
+        "unattended",
+        "unix",
+        "usb",
         "windows",
-        "windows-console",
-        "windows-terminal",
-        "wsl"
+        "x86",
+        "x86-64"
       ],
       "categories": [
+        "Linux",
         "Windows"
       ],
       "platforms": [
@@ -66,44 +76,92 @@
       "pick": "top",
       "slot": "Windows",
       "kind": "search",
-      "created_at": "2017-08-11",
-      "first_date": "2026-10-25",
+      "created_at": "2020-03-10",
+      "first_date": "2026-10-26",
       "last_date": "2026-11-06",
       "dates": [
         "2026-11-06",
-        "2026-10-25"
+        "2026-10-26"
       ],
       "times": 2
     },
     {
-      "full_name": "esengine/DeepSeek-Reasonix",
-      "url": "https://github.com/esengine/DeepSeek-Reasonix",
-      "description": "A reliable coding agent for complex software engineering tasks.",
-      "summary": "解决什么：为复杂软件工程任务提供可靠的代码代理工具\n适合谁：软件工程师和开发者用于自动化和简化编程任务\n亮点：基于深度搜索的可靠代码代理工具，近期涨星最快",
-      "stars": 36101,
-      "language": "Go",
+      "full_name": "BeyondDimension/SteamTools",
+      "url": "https://github.com/BeyondDimension/SteamTools",
+      "description": "🛠「Watt Toolkit」是一个开源跨平台的多功能 Steam 工具箱。",
+      "summary": "提供开源跨平台的多功能 Steam 工具箱，解决用户在多端使用 Steam 辅助功能的痛点\n适合需要在 Windows、Android 等多平台使用 Steam 辅助功能（如加速、库管理）的玩家\n基于 Avalonia UI 实现的跨平台应用，支持 Windows、Android、iOS、Linux 和 macOS 等全平台",
+      "stars": 27422,
+      "language": "C#",
       "topics": [
-        "agent",
-        "agent-framework",
-        "ai-agent",
-        "ai-coding",
-        "cli",
-        "coding-agent",
-        "deepseek",
-        "developer-tools",
-        "dsh",
-        "dsh-plugin",
-        "ink",
-        "llm",
-        "prompt-caching",
-        "r1",
-        "terminal",
-        "tool-use",
-        "tui",
-        "typescript"
+        "android-app",
+        "avalonia",
+        "avaloniaui",
+        "cross-platform",
+        "crossplatform",
+        "csharp",
+        "dotnet",
+        "dotnetcore",
+        "ios-app",
+        "linux-app",
+        "macos-app",
+        "mvvm",
+        "steam",
+        "steamtools",
+        "windows-app",
+        "wpf",
+        "xaml"
       ],
       "categories": [
-        "Linux"
+        "安卓",
+        "Windows"
+      ],
+      "platforms": [
+        "安卓"
+      ],
+      "pick": "top",
+      "slot": "安卓",
+      "kind": "search",
+      "created_at": "2020-12-15",
+      "first_date": "2026-10-26",
+      "last_date": "2026-11-06",
+      "dates": [
+        "2026-11-06",
+        "2026-10-26"
+      ],
+      "times": 2
+    },
+    {
+      "full_name": "KnifeLemon/Filee",
+      "url": "https://github.com/KnifeLemon/Filee",
+      "description": "Free, open-source file converter. Convert 263 formats offline by drag & drop — images, PDF, Word, Excel, PowerPoint, HWP/HWPX, video, audio, e-books and archives. No upload, no Office needed.",
+      "summary": "提供离线、无需上传的批量文件格式转换服务，支持263种格式\n需要处理文档、图片、视频等文件且希望离线批量转换的用户\n支持多达263种格式且无需安装Office即可离线转换",
+      "stars": 22847,
+      "language": "C#",
+      "topics": [
+        "audio-converter",
+        "avalonia",
+        "batch-conversion",
+        "converter",
+        "csharp",
+        "document-converter",
+        "docx-to-pdf",
+        "dotnet",
+        "drag-and-drop",
+        "file-conversion",
+        "file-converter",
+        "heic-converter",
+        "hwp",
+        "hwpx",
+        "image-converter",
+        "linux",
+        "macos",
+        "pdf-converter",
+        "video-converter",
+        "windows"
+      ],
+      "categories": [
+        "Linux",
+        "Windows"
       ],
       "platforms": [
         "Linux"
@@ -111,7 +169,46 @@
       "pick": "growth",
       "slot": "Linux",
       "kind": "search",
-      "created_at": "2026-04-21",
+      "created_at": "2026-09-29",
+      "first_date": "2026-10-21",
+      "last_date": "2026-11-06",
+      "dates": [
+        "2026-11-06",
+        "2026-11-04",
+        "2026-10-30",
+        "2026-10-26",
+        "2026-10-21"
+      ],
+      "times": 5
+    },
+    {
+      "full_name": "tangency-labs/solidcraft",
+      "url": "https://github.com/tangency-labs/solidcraft",
+      "description": "SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.",
+      "summary": "解决什么：提供基于纯 Rust 的参数化 3D CAD 建模解决方案，支持桌面、Web 及自动化操作\n适合谁：适合需要参数化建模、自动化设计流程以及 Web 端集成的开发者\n亮点：纯 Rust 实现，结合 MCP 协议实现自动化，支持多平台部署",
+      "stars": 14356,
+      "language": "Rust",
+      "topics": [
+        "3d-modeling",
+        "brep",
+        "cad",
+        "egui",
+        "mcp",
+        "parametric-cad",
+        "rust",
+        "step",
+        "wasm"
+      ],
+      "categories": [
+        "AI神器"
+      ],
+      "platforms": [
+        "AI神器"
+      ],
+      "pick": "ai_tool",
+      "slot": "AI神器",
+      "kind": "search",
+      "created_at": "2026-10-07",
       "first_date": "2026-11-06",
       "last_date": "2026-11-06",
       "dates": [
@@ -120,54 +217,10 @@
       "times": 1
     },
     {
-      "full_name": "pppscn/SmsForwarder",
-      "url": "https://github.com/pppscn/SmsForwarder",
-      "description": "短信转发器——监控Android手机短信、来电、APP通知，并根据指定规则转发到其他手机：钉钉群自定义机器人、钉钉企业内机器人、企业微信群机器人、飞书机器人、企业微信应用消息、邮箱、bark、webhook、Telegram机器人、Server酱、PushPlus、手机短信等。包括主动控制服务端与客户端，让你轻松远程发短信、查短信、查通话、查话簿、查电量等。（V3.0 新增）PS.这个APK主要是学习与自用，如有BUG请提ISSUE，同时欢迎大家提PR指正",
-      "summary": "监控手机短信、来电及APP通知，并按规则转发至钉钉、Telegram、邮件等多种平台\n需要集中管理通知或希望远程查询手机短信、通话记录及控制手机的用户\n支持钉钉、企业微信、Telegram等20+平台，并具备远程控制手机的能力",
-      "stars": 28756,
-      "language": "Kotlin",
-      "topics": [
-        "android",
-        "api",
-        "app",
-        "bark",
-        "call",
-        "chatgpt",
-        "dingding",
-        "forward",
-        "mqtt",
-        "pushdear",
-        "pushplus",
-        "serverchan",
-        "sms",
-        "smtp",
-        "telegram",
-        "webhook",
-        "wechatapp"
-      ],
-      "categories": [
-        "安卓"
-      ],
-      "platforms": [
-        "安卓"
-      ],
-      "pick": "top",
-      "slot": "安卓",
-      "kind": "search",
-      "created_at": "2021-02-10",
-      "first_date": "2026-10-25",
-      "last_date": "2026-11-06",
-      "dates": [
-        "2026-11-06",
-        "2026-10-25"
-      ],
-      "times": 2
-    },
-    {
       "full_name": "Kludex/starlette",
       "url": "https://github.com/Kludex/starlette",
       "description": "The little ASGI framework that shines. 🌟",
-      "summary": "掌握 ASGI 协议核心、异步路由匹配算法及中间件管道的构建原理\n适合想深入理解 ASGI 协议、Web 框架底层架构或为 FastAPI 贡献代码的 Python 开发者\n先阅读路由匹配模块，再深入中间件管道与 ASGI 协议的实现细节",
+      "summary": "掌握 ASGI 异步框架的请求生命周期、中间件机制及 HTTP 协议细节\n适合有一定 Python 基础，想深入理解 ASGI 协议及 Web 框架底层实现原理的开发者\n建议先阅读 Application 类的初始化与路由注册，再深入中间件与响应处理逻辑",
       "stars": 12710,
       "language": "Python",
       "topics": [
@@ -202,25 +255,55 @@
       "times": 8
     },
     {
-      "full_name": "munificent/craftinginterpreters",
-      "url": "https://github.com/munificent/craftinginterpreters",
-      "description": "Repository for the book \"Crafting Interpreters\"",
-      "summary": "学什么：理解解释器设计原理和实现细节，掌握编译原理基础知识\n适合谁：对编程语言内部机制感兴趣，有一定编程基础的学习者\n怎么读：从词法分析器和语法分析器开始，逐步深入到解释执行和类型系统",
-      "stars": 11138,
-      "language": "HTML",
+      "full_name": "google/elephant-goldfish-model",
+      "url": "https://github.com/google/elephant-goldfish-model",
+      "description": "Open-source skills for designing and reviewing software with AI agents",
+      "summary": "解决什么：提供开源技能，辅助 AI 代理进行软件设计与代码审查\n适合谁：适合使用 Claude、Gemini 等工具进行多智能体协作的开发者\n亮点：Google 开源的多智能体技能库，专注于上下文工程与规范驱动开发",
+      "stars": 12671,
+      "language": "Python",
       "topics": [
-        "book",
-        "bytecode",
-        "c",
-        "compiler",
-        "interpreter",
-        "java",
-        "language",
-        "lox",
-        "markdown",
-        "parser",
-        "scripting-language"
+        "agent-skills",
+        "ai-agents",
+        "antigravity",
+        "claude-code",
+        "claude-code-plugin",
+        "claude-skills",
+        "codex",
+        "codex-plugin",
+        "coding-agents",
+        "context-engineering",
+        "developer-tools",
+        "gemini",
+        "llm",
+        "multi-agent",
+        "prompt-engineering",
+        "spec-driven-development"
       ],
+      "categories": [
+        "AI神器"
+      ],
+      "platforms": [
+        "AI神器"
+      ],
+      "pick": "ai_tool",
+      "slot": "AI神器",
+      "kind": "search",
+      "created_at": "2026-09-13",
+      "first_date": "2026-11-06",
+      "last_date": "2026-11-06",
+      "dates": [
+        "2026-11-06"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "lua/lua",
+      "url": "https://github.com/lua/lua",
+      "description": "A copy of the Lua development repository, as seen by the Lua team. Mirrored irregularly. All communication should be through the Lua mailing list https://www.lua.org/lua-l.html",
+      "summary": "掌握 C 语言虚拟机核心架构、内存管理策略及解释器执行流程\n适合有一定 C 语言基础，希望深入理解解释器或虚拟机底层实现的学习者\n建议从 lstate.c 入手理解全局状态，再依次阅读 lapi.c 和 lvm.c",
+      "stars": 10423,
+      "language": "C",
+      "topics": [],
       "categories": [
         "C"
       ],
@@ -230,7 +313,7 @@
       "pick": null,
       "slot": null,
       "kind": "learn",
-      "created_at": "2017-01-15",
+      "created_at": "2012-09-14",
       "first_date": "2026-11-06",
       "last_date": "2026-11-06",
       "dates": [
@@ -239,141 +322,33 @@
       "times": 1
     },
     {
-      "full_name": "l0ng-ai/openidea",
-      "url": "https://github.com/l0ng-ai/openidea",
-      "description": "The IDE you know, rebuilt in Rust. IntelliJ IDEA–style keymap, tool windows and search-everywhere in a fast native app: editor, code insight, debugger, Git, terminal, database and HTTP clients for 60+ languages.",
-      "summary": "为 Windows 用户打造一款基于 Rust 的高性能 IDE，提供 IntelliJ IDEA 风格的界面与完整开发工具链\n适合追求原生性能与 IntelliJ IDEA 风格体验的开发者，支持 60+ 种语言的代码编辑、调试及数据库操作\n使用 Rust 构建的高性能原生 IDE，完美复刻 IntelliJ IDEA 的界面与交互体验",
-      "stars": 6948,
-      "language": "TypeScript",
+      "full_name": "QingYunA/answer-me-with-html",
+      "url": "https://github.com/QingYunA/answer-me-with-html",
+      "description": "Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。",
+      "summary": "解决 AI Agent 输出难以阅读的文本或代码片段的问题，将其转化为结构清晰的单页 HTML\n适合使用 Claude Code 或其他 AI Agent 工具的用户\n将 AI 回答转化为结构清晰、可读性强的单页 HTML",
+      "stars": 5648,
+      "language": "JavaScript",
       "topics": [
-        "code-editor",
-        "cross-platform",
-        "dap",
-        "database-client",
-        "debugger",
-        "desktop-app",
-        "developer-tools",
-        "git",
-        "http-client",
-        "ide",
-        "intellij",
-        "lsp",
-        "rust",
-        "tauri",
-        "terminal"
-      ],
-      "categories": [
-        "Windows"
-      ],
-      "platforms": [
-        "Windows"
-      ],
-      "pick": "growth",
-      "slot": "Windows",
-      "kind": "search",
-      "created_at": "2026-10-21",
-      "first_date": "2026-10-30",
-      "last_date": "2026-11-06",
-      "dates": [
-        "2026-11-06",
-        "2026-11-03",
-        "2026-10-30"
-      ],
-      "times": 3
-    },
-    {
-      "full_name": "rddmwmddr/android-ad-cleaner",
-      "url": "https://github.com/rddmwmddr/android-ad-cleaner",
-      "description": "关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。",
-      "summary": "利用 ADB 和 AI 智能体清理国产安卓手机（如 ColorOS、HyperOS）中的广告、热搜及营销推送\n适合想要去除系统广告、追求纯净体验且无需 Root 的用户\n支持 AI 智能体一键执行，且支持一键还原",
-      "stars": 6601,
-      "language": "Python",
-      "topics": [
-        "adb",
+        "agent-skill",
         "ai-agent",
-        "android",
-        "coloros",
-        "debloat",
-        "hyperos",
-        "magicos",
-        "originos"
+        "claude-code",
+        "claude-code-skill",
+        "claude-skill",
+        "claude-skills",
+        "cli",
+        "diagram",
+        "dsh-plugin",
+        "explainer",
+        "html",
+        "llm",
+        "ste100"
       ],
       "categories": [
-        "安卓",
+        "Linux",
         "AI神器"
       ],
       "platforms": [
-        "安卓"
-      ],
-      "pick": "growth",
-      "slot": "安卓",
-      "kind": "search",
-      "created_at": "2026-10-24",
-      "first_date": "2026-10-26",
-      "last_date": "2026-11-06",
-      "dates": [
-        "2026-11-06",
-        "2026-11-02",
-        "2026-10-26"
-      ],
-      "times": 3
-    },
-    {
-      "full_name": "reactnativecn/react-native-update",
-      "url": "https://github.com/reactnativecn/react-native-update",
-      "description": "🚀 Blazing fast hot updates (OTA) for React Native — Hermes-optimized diff patches, crash rollback, staged rollout. A CodePush alternative for iOS / Android / HarmonyOS.",
-      "summary": "解决什么：为 React Native 应用提供快速的热更新和远程更新，支持 iOS、Android 和 HarmonyOS，类似 CodePush 的功能\n适合谁：需要频繁更新应用功能或修复 Bug 但不想发布新版本的开发者，特别是使用 HarmonyOS 的团队\n亮点：基于 Hermes 的差异补丁技术，实现极速热更新和回滚功能",
-      "stars": 1986,
-      "language": "TypeScript",
-      "topics": [
-        "codepush",
-        "codepush-alternative",
-        "expo",
-        "harmonyos",
-        "hermes",
-        "hot-update",
-        "hotfix",
-        "ota",
-        "over-the-air",
-        "react-native"
-      ],
-      "categories": [
-        "鸿蒙"
-      ],
-      "platforms": [
-        "鸿蒙"
-      ],
-      "pick": "top",
-      "slot": "鸿蒙",
-      "kind": "search",
-      "created_at": "2016-02-06",
-      "first_date": "2026-10-26",
-      "last_date": "2026-11-06",
-      "dates": [
-        "2026-11-06",
-        "2026-10-26"
-      ],
-      "times": 2
-    },
-    {
-      "full_name": "vAPI-Network/vapi-network",
-      "url": "https://github.com/vAPI-Network/vapi-network",
-      "description": "Buyer-controlled client for x402 API payments in USDC on Base.",
-      "summary": "解决在 Base 链上通过 x402 协议进行 USDC 支付的问题\n适合需要集成支付功能的 AI 代理开发者或构建者\n提供买家控制的客户端，简化 AI 代理的 USDC 支付流程",
-      "stars": 1478,
-      "language": "TypeScript",
-      "topics": [
-        "agent-payments",
-        "ai-agents",
-        "base",
-        "mcp",
-        "usdc",
-        "x402"
-      ],
-      "categories": [
-        "AI神器"
-      ],
-      "platforms": [
+        "Linux",
         "AI神器"
       ],
       "pick": "ai_tool",
@@ -388,23 +363,168 @@
       "times": 1
     },
     {
-      "full_name": "N1nEmAn/sapper-v2",
-      "url": "https://github.com/N1nEmAn/sapper-v2",
-      "description": "Autonomous pentest legion — AI commander + worker swarm + layered fact-intent graph. 3rd Tencent Intelligent Attack-Defense online champion (634 teams · 8h unattended · 1B tokens beat 4.5B). The Nüwa Test: give AIs Create/Language/History, let a civilization grow.",
-      "summary": "解决什么：构建自主渗透测试军团，利用多智能体协作自动化进行安全攻防\n适合谁：适合网络安全研究人员、CTF参赛者及探索多智能体系统的开发者\n亮点：基于Claude Code的多智能体架构，曾在腾讯智能攻防大赛中击败4.5B token的队伍夺冠",
-      "stars": 1393,
-      "language": "Python",
+      "full_name": "InlitX/GymMane",
+      "url": "https://github.com/InlitX/GymMane",
+      "description": "Offline gym log for Android. No account, no ads, no internet.",
+      "summary": "解决 Android 用户在无网络环境下记录健身数据的需求，无需账号或广告\n适合注重隐私且需要离线追踪训练进度的健身爱好者\n基于 Flutter 开发，完全离线、无广告、无账号，且近期涨星迅速",
+      "stars": 1504,
+      "language": "Dart",
       "topics": [
-        "ai-agents",
-        "autonomous-agents",
-        "claude-code",
-        "ctf",
-        "llm",
-        "multi-agent",
-        "pentest"
+        "android",
+        "bodybuilding",
+        "dart",
+        "exercises",
+        "f-droid",
+        "fitness",
+        "flutter",
+        "gym",
+        "gym-app",
+        "health",
+        "privacy",
+        "workout",
+        "workout-app",
+        "workout-tracker"
       ],
       "categories": [
-        "AI"
+        "安卓"
+      ],
+      "platforms": [
+        "安卓"
+      ],
+      "pick": "growth",
+      "slot": "安卓",
+      "kind": "search",
+      "created_at": "2026-08-05",
+      "first_date": "2026-10-21",
+      "last_date": "2026-11-06",
+      "dates": [
+        "2026-11-06",
+        "2026-10-21"
+      ],
+      "times": 2
+    },
+    {
+      "full_name": "fenwii/OpenHarmony",
+      "url": "https://github.com/fenwii/OpenHarmony",
+      "description": "华为鸿蒙分布式操作系统（Huawei HarmonyOS，纯血鸿蒙Harmony Next ），开源鸿蒙分布式操作系统（ OpenHarmony）开发技术交流，最全鸿蒙技术资料库，手册，指南，共建国产操作系统万物互联新生态。",
+      "summary": "解决什么：提供华为鸿蒙及开源鸿蒙的开发技术交流与最全资料库\n适合谁：适合鸿蒙开发者、物联网设备开发者及国产操作系统共建者\n亮点：拥有最全的鸿蒙技术资料库，涵盖开发指南与生态共建",
+      "stars": 1401,
+      "language": "C",
+      "topics": [
+        "5g",
+        "ai",
+        "architecture",
+        "development-tools",
+        "harmony",
+        "harmonyos",
+        "harmonyos-next",
+        "hisilicon",
+        "huawei",
+        "iot",
+        "kernel",
+        "linux",
+        "maps",
+        "microkernel",
+        "openharmony",
+        "operating-system",
+        "os",
+        "sensor",
+        "v2x",
+        "wearabledevice"
+      ],
+      "categories": [
+        "鸿蒙"
+      ],
+      "platforms": [
+        "鸿蒙"
+      ],
+      "pick": "top",
+      "slot": "鸿蒙",
+      "kind": "search",
+      "created_at": "2020-09-16",
+      "first_date": "2026-10-29",
+      "last_date": "2026-11-06",
+      "dates": [
+        "2026-11-06",
+        "2026-10-29"
+      ],
+      "times": 2
+    },
+    {
+      "full_name": "lkimuk/ReArk",
+      "url": "https://github.com/lkimuk/ReArk",
+      "description": "An intelligent reverse engineering and AI-assisted analysis tool for HarmonyOS NEXT (HAP/APP/ABC), Android (APK/AAB), iOS (IPA), and native PE/ELF/Mach-O binaries.",
+      "summary": "提供对鸿蒙、安卓、iOS及原生二进制的智能逆向工程与AI辅助分析能力\n适合安全研究人员、逆向工程师、恶意软件分析师及鸿蒙/安卓/iOS应用开发者\n结合AI技术的多平台逆向分析工具，近期涨星迅速，特别聚焦鸿蒙NEXT生态",
+      "stars": 938,
+      "language": "C++",
+      "topics": [
+        "aab",
+        "abc",
+        "agentic-workflow",
+        "ai-agent",
+        "ai-analysis",
+        "android",
+        "apk",
+        "binary-analysis",
+        "decompiler",
+        "disassembler",
+        "hap",
+        "harmonyos",
+        "harmonyos-next",
+        "malware-analysis",
+        "reverse-engineering",
+        "security-tools",
+        "static-analysis"
+      ],
+      "categories": [
+        "鸿蒙"
+      ],
+      "platforms": [
+        "鸿蒙"
+      ],
+      "pick": "growth",
+      "slot": "鸿蒙",
+      "kind": "search",
+      "created_at": "2026-05-29",
+      "first_date": "2026-10-21",
+      "last_date": "2026-11-06",
+      "dates": [
+        "2026-11-06",
+        "2026-11-03",
+        "2026-10-26",
+        "2026-10-21"
+      ],
+      "times": 4
+    },
+    {
+      "full_name": "yjid/kensaku",
+      "url": "https://github.com/yjid/kensaku",
+      "description": "Search inside documents, code, and even screenshots - instantly and locally. A free, open-source file launcher with OCR, semantic search, and MCP agent access.",
+      "summary": "提供一个本地化的文件启动器，支持对文档、代码及截图进行即时语义搜索\n适合注重隐私、需要在 Windows 上快速检索文档和代码的开发者或普通用户\n集成 OCR 和 MCP 代理，实现本地化的全文本与语义搜索",
+      "stars": 915,
+      "language": "Rust",
+      "topics": [
+        "ai-agents",
+        "desktop",
+        "desktop-search",
+        "file-search",
+        "full-text-search",
+        "launcher",
+        "local-first",
+        "mcp",
+        "ocr",
+        "open-source",
+        "privacy",
+        "rust",
+        "search",
+        "semantic-search",
+        "tauri",
+        "windows"
+      ],
+      "categories": [
+        "Windows",
+        "AI",
+        "AI神器"
       ],
       "platforms": [
         "AI"
@@ -412,7 +532,7 @@
       "pick": "ai",
       "slot": "AI",
       "kind": "search",
-      "created_at": "2026-10-30",
+      "created_at": "2026-10-24",
       "first_date": "2026-11-06",
       "last_date": "2026-11-06",
       "dates": [
@@ -421,12 +541,48 @@
       "times": 1
     },
     {
-      "full_name": "adityyaop/aion-2-trainer-tool",
-      "url": "https://github.com/adityyaop/aion-2-trainer-tool",
-      "description": "Aion 2 Trainer Tool: AI Prompt Engineering for Modders, Standalone and Ready",
-      "summary": "针对Aion 2游戏的AI提示词工程工具，帮助Modder进行游戏机制分析与自动化操作\n专为Aion 2游戏的Modder和开发者设计，用于优化游戏体验与自动化流程\n独立且即开即用的工具，专注于游戏自动化与数据分析",
-      "stars": 267,
-      "language": "HTML",
+      "full_name": "PulverizeLink/roblox-performance-tool",
+      "url": "https://github.com/PulverizeLink/roblox-performance-tool",
+      "description": "Lightweight performance utility for Roblox on Windows. Boosts FPS, fixes stutter, reduces input lag, and allows custom frame limits. Safe, offline, and open-source",
+      "summary": "专为 Windows 平台 Roblox 打造的轻量级性能工具，旨在提升帧率、修复卡顿并减少输入延迟\n适合希望在 Windows 上优化 Roblox 游戏体验、解决卡顿和低 FPS 问题的玩家\n开源安全且离线运行，支持自定义帧率限制，近期涨星迅速",
+      "stars": 425,
+      "language": "Python",
+      "topics": [
+        "desktop-app",
+        "fps",
+        "gaming",
+        "lag-fix",
+        "open-source",
+        "optimization",
+        "performance",
+        "roblox",
+        "system-tweaks",
+        "windows-utility"
+      ],
+      "categories": [
+        "Windows"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "pick": "growth",
+      "slot": "Windows",
+      "kind": "search",
+      "created_at": "2026-11-06",
+      "first_date": "2026-11-06",
+      "last_date": "2026-11-06",
+      "dates": [
+        "2026-11-06"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "figurechrysalispath/aion-2-trainer-tool",
+      "url": "https://github.com/figurechrysalispath/aion-2-trainer-tool",
+      "description": "Aion 2, an AI-driven prompt engineering resource, offers a pre-configured environment for advanced language model operations, ensuring...",
+      "summary": "解决什么：为 Aion 2 提供预配置的 AI 训练环境，支持自动化流程与战斗分析。\n适合谁：面向需要优化 AI 模型性能或分析游戏战斗数据的开发者和玩家。\n亮点：集成了自动化脚本、性能指标与战斗分析功能的综合训练工具。",
+      "stars": 200,
+      "language": "",
       "topics": [
         "aion-2",
         "aion-2-2026",
@@ -437,8 +593,10 @@
         "aion2-combat-analysis",
         "aion2-meter",
         "automation",
-        "desktop",
         "developer-tools",
+        "guide-setup-aion-2-trainer-tool",
+        "how-to-install-aion-2-trainer-tool",
+        "how-to-setup-aion-2-trainer-tool",
         "open-source",
         "python",
         "scripts",
@@ -456,32 +614,7 @@
       "pick": "ai_tool",
       "slot": "AI神器",
       "kind": "search",
-      "created_at": "2026-11-04",
-      "first_date": "2026-11-06",
-      "last_date": "2026-11-06",
-      "dates": [
-        "2026-11-06"
-      ],
-      "times": 1
-    },
-    {
-      "full_name": "ShiYi070415/Instamony",
-      "url": "https://github.com/ShiYi070415/Instamony",
-      "description": "面向 HarmonyOS 的原生 ins 客户端",
-      "summary": "为 HarmonyOS 用户提供原生的 Instagram 客户端体验\n适合希望在鸿蒙系统上使用 Instagram 的用户\n专为鸿蒙生态开发，近期涨星迅速",
-      "stars": 51,
-      "language": "TypeScript",
-      "topics": [],
-      "categories": [
-        "鸿蒙"
-      ],
-      "platforms": [
-        "鸿蒙"
-      ],
-      "pick": "growth",
-      "slot": "鸿蒙",
-      "kind": "search",
-      "created_at": "2026-10-17",
+      "created_at": "2026-11-05",
       "first_date": "2026-11-06",
       "last_date": "2026-11-06",
       "dates": [
@@ -1066,56 +1199,6 @@
       "times": 1
     },
     {
-      "full_name": "KnifeLemon/Filee",
-      "url": "https://github.com/KnifeLemon/Filee",
-      "description": "Free, open-source file converter. Convert 263 formats offline by drag & drop — images, PDF, Word, Excel, PowerPoint, HWP/HWPX, video, audio, e-books and archives. No upload, no Office needed.",
-      "summary": "解决什么：一个免费的离线文件转换工具，支持拖放操作转换263种格式，包括图片、PDF、文档、音频、视频、电子书和压缩文件\n适合谁：需要在不同文件格式间转换的个人用户或开发者，尤其适合需要批量转换或在没有Office软件的环境下使用\n亮点：无需上传文件、无需安装Office即可进行多种格式的批量转换",
-      "stars": 21506,
-      "language": "C#",
-      "topics": [
-        "audio-converter",
-        "avalonia",
-        "batch-conversion",
-        "converter",
-        "csharp",
-        "document-converter",
-        "docx-to-pdf",
-        "dotnet",
-        "drag-and-drop",
-        "file-conversion",
-        "file-converter",
-        "heic-converter",
-        "hwp",
-        "hwpx",
-        "image-converter",
-        "linux",
-        "macos",
-        "pdf-converter",
-        "video-converter",
-        "windows"
-      ],
-      "categories": [
-        "Linux",
-        "Windows"
-      ],
-      "platforms": [
-        "Windows"
-      ],
-      "pick": "growth",
-      "slot": "Windows",
-      "kind": "search",
-      "created_at": "2026-09-29",
-      "first_date": "2026-10-21",
-      "last_date": "2026-11-04",
-      "dates": [
-        "2026-11-04",
-        "2026-10-30",
-        "2026-10-26",
-        "2026-10-21"
-      ],
-      "times": 4
-    },
-    {
       "full_name": "organicmaps/organicmaps",
       "url": "https://github.com/organicmaps/organicmaps",
       "description": "🍃 Organic Maps is a free Android & iOS offline maps app for more than 6M travelers, tourists, hikers, and cyclists. It uses crowd-sourced OpenStreetMap data and is developed with love by the community. No ads, no tracking, no data collection, no crapware. Please donate to support the development!",
@@ -1408,6 +1491,48 @@
       "times": 2
     },
     {
+      "full_name": "l0ng-ai/openidea",
+      "url": "https://github.com/l0ng-ai/openidea",
+      "description": "The IDE you know, rebuilt in Rust. IntelliJ IDEA–style keymap, tool windows and search-everywhere in a fast native app: editor, code insight, debugger, Git, terminal, database and HTTP clients for 60+ languages.",
+      "summary": "解决什么：用 Rust 重构 IntelliJ IDEA 风格的 IDE，提供快速的原生编辑器、调试器、数据库及 HTTP 客户端，支持 60+ 语言。\n适合谁：适合追求高性能原生开发体验的开发者，特别是熟悉 IntelliJ IDEA 快捷键的用户。\n亮点：基于 Rust 和 Tauri 构建，在保持 IDE 体验的同时提供原生级性能。",
+      "stars": 5207,
+      "language": "TypeScript",
+      "topics": [
+        "code-editor",
+        "cross-platform",
+        "dap",
+        "database-client",
+        "debugger",
+        "desktop-app",
+        "developer-tools",
+        "git",
+        "http-client",
+        "ide",
+        "intellij",
+        "lsp",
+        "rust",
+        "tauri",
+        "terminal"
+      ],
+      "categories": [
+        "Windows"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "pick": "growth",
+      "slot": "Windows",
+      "kind": "search",
+      "created_at": "2026-10-21",
+      "first_date": "2026-10-30",
+      "last_date": "2026-11-03",
+      "dates": [
+        "2026-11-03",
+        "2026-10-30"
+      ],
+      "times": 2
+    },
+    {
       "full_name": "valentderah/totk-pc-recomp",
       "url": "https://github.com/valentderah/totk-pc-recomp",
       "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
@@ -1570,51 +1695,6 @@
         "2026-11-03",
         "2026-10-30",
         "2026-10-25"
-      ],
-      "times": 3
-    },
-    {
-      "full_name": "lkimuk/ReArk",
-      "url": "https://github.com/lkimuk/ReArk",
-      "description": "An intelligent reverse engineering and AI-assisted analysis tool for HarmonyOS NEXT (HAP/APP/ABC), Android (APK/AAB), iOS (IPA), and native PE/ELF/Mach-O binaries.",
-      "summary": "面向鸿蒙、安卓、iOS及原生二进制文件的智能逆向工程与AI辅助分析工具\n适合安全研究人员、逆向工程师及恶意软件分析师使用\n融合AI技术专注于鸿蒙NEXT生态，是近期涨星最快的逆向分析工具之一",
-      "stars": 893,
-      "language": "C++",
-      "topics": [
-        "aab",
-        "abc",
-        "agentic-workflow",
-        "ai-agent",
-        "ai-analysis",
-        "android",
-        "apk",
-        "binary-analysis",
-        "decompiler",
-        "disassembler",
-        "hap",
-        "harmonyos",
-        "harmonyos-next",
-        "malware-analysis",
-        "reverse-engineering",
-        "security-tools",
-        "static-analysis"
-      ],
-      "categories": [
-        "鸿蒙"
-      ],
-      "platforms": [
-        "鸿蒙"
-      ],
-      "pick": "growth",
-      "slot": "鸿蒙",
-      "kind": "search",
-      "created_at": "2026-05-29",
-      "first_date": "2026-10-21",
-      "last_date": "2026-11-03",
-      "dates": [
-        "2026-11-03",
-        "2026-10-26",
-        "2026-10-21"
       ],
       "times": 3
     },
@@ -1800,6 +1880,41 @@
         "2026-11-02"
       ],
       "times": 1
+    },
+    {
+      "full_name": "rddmwmddr/android-ad-cleaner",
+      "url": "https://github.com/rddmwmddr/android-ad-cleaner",
+      "description": "关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。",
+      "summary": "关闭国产安卓手机系统内的广告、热搜、资讯推荐和营销推送\n想要去除国产安卓手机广告且不想 root 的用户\n无需 root，支持 AI 智能体一键自动执行",
+      "stars": 5722,
+      "language": "Python",
+      "topics": [
+        "adb",
+        "ai-agent",
+        "android",
+        "coloros",
+        "debloat",
+        "hyperos",
+        "magicos",
+        "originos"
+      ],
+      "categories": [
+        "安卓"
+      ],
+      "platforms": [
+        "安卓"
+      ],
+      "pick": "growth",
+      "slot": "安卓",
+      "kind": "search",
+      "created_at": "2026-10-24",
+      "first_date": "2026-10-26",
+      "last_date": "2026-11-02",
+      "dates": [
+        "2026-11-02",
+        "2026-10-26"
+      ],
+      "times": 2
     },
     {
       "full_name": "cameron314/readerwriterqueue",
@@ -3083,52 +3198,6 @@
       "times": 1
     },
     {
-      "full_name": "fenwii/OpenHarmony",
-      "url": "https://github.com/fenwii/OpenHarmony",
-      "description": "华为鸿蒙分布式操作系统（Huawei HarmonyOS，纯血鸿蒙Harmony Next ），开源鸿蒙分布式操作系统（ OpenHarmony）开发技术交流，最全鸿蒙技术资料库，手册，指南，共建国产操作系统万物互联新生态。",
-      "summary": "解决什么：提供华为鸿蒙及 OpenHarmony 的全面技术资料库、开发指南与社区交流，解决开发者资料匮乏问题\n适合谁：适合鸿蒙系统开发者、物联网及嵌入式工程师，以及关注国产操作系统生态建设的从业者\n亮点：汇集最全鸿蒙技术资料库，且获 GitHub 总榜人气推荐",
-      "stars": 1400,
-      "language": "C",
-      "topics": [
-        "5g",
-        "ai",
-        "architecture",
-        "development-tools",
-        "harmony",
-        "harmonyos",
-        "harmonyos-next",
-        "hisilicon",
-        "huawei",
-        "iot",
-        "kernel",
-        "linux",
-        "maps",
-        "microkernel",
-        "openharmony",
-        "operating-system",
-        "os",
-        "sensor",
-        "v2x",
-        "wearabledevice"
-      ],
-      "categories": [
-        "鸿蒙"
-      ],
-      "platforms": [
-        "鸿蒙"
-      ],
-      "pick": "top",
-      "slot": "鸿蒙",
-      "kind": "search",
-      "created_at": "2020-09-16",
-      "first_date": "2026-10-29",
-      "last_date": "2026-10-29",
-      "dates": [
-        "2026-10-29"
-      ],
-      "times": 1
-    },
-    {
       "full_name": "anonnerdfrenzy/survival-llm",
       "url": "https://github.com/anonnerdfrenzy/survival-llm",
       "description": "A free AI assistant and survival library that runs on your own computer, with no internet needed. Shows the source of every answer.",
@@ -3710,86 +3779,6 @@
       "times": 1
     },
     {
-      "full_name": "OpenHands/OpenHands",
-      "url": "https://github.com/OpenHands/OpenHands",
-      "description": "🙌 OpenHands: AI-Driven Development",
-      "summary": "利用大语言模型自动化软件开发任务，解决繁琐的编码工作\n适合希望通过 AI 智能体辅助完成代码编写和调试的开发者\n支持 ChatGPT 和 Claude 等多种大模型，提供强大的 AI 开发辅助能力",
-      "stars": 91854,
-      "language": "TypeScript",
-      "topics": [
-        "agent",
-        "artificial-intelligence",
-        "chatgpt",
-        "claude-ai",
-        "cli",
-        "developer-tools",
-        "gpt",
-        "llm",
-        "openai"
-      ],
-      "categories": [
-        "Linux"
-      ],
-      "platforms": [
-        "Linux"
-      ],
-      "pick": "top",
-      "slot": "Linux",
-      "kind": "search",
-      "created_at": "2024-03-13",
-      "first_date": "2026-10-26",
-      "last_date": "2026-10-26",
-      "dates": [
-        "2026-10-26"
-      ],
-      "times": 1
-    },
-    {
-      "full_name": "ventoy/Ventoy",
-      "url": "https://github.com/ventoy/Ventoy",
-      "description": "A new bootable USB solution.",
-      "summary": "解决传统 U 盘制作繁琐、无法直接挂载 ISO 文件进行多系统引导的问题\n适合需要制作多系统启动盘、进行系统安装或维护的技术人员及普通用户\n支持直接拖拽 ISO 文件到 U 盘即可引导，无需格式化，兼容多系统架构",
-      "stars": 80351,
-      "language": "C",
-      "topics": [
-        "arm64",
-        "auto-install",
-        "bootable-usb",
-        "bsd",
-        "chromeos",
-        "iso-files",
-        "legacy",
-        "linux",
-        "multiboot",
-        "persistence",
-        "secure-boot",
-        "uefi",
-        "unattended",
-        "unix",
-        "usb",
-        "windows",
-        "x86",
-        "x86-64"
-      ],
-      "categories": [
-        "Linux",
-        "Windows"
-      ],
-      "platforms": [
-        "Windows"
-      ],
-      "pick": "top",
-      "slot": "Windows",
-      "kind": "search",
-      "created_at": "2020-03-10",
-      "first_date": "2026-10-26",
-      "last_date": "2026-10-26",
-      "dates": [
-        "2026-10-26"
-      ],
-      "times": 1
-    },
-    {
       "full_name": "boykopovar/AnyPS5",
       "url": "https://github.com/boykopovar/AnyPS5",
       "description": "Tool for automatic PS5 executables porting to Linux and Windows",
@@ -3816,50 +3805,6 @@
       "slot": "Windows",
       "kind": "search",
       "created_at": "2026-08-03",
-      "first_date": "2026-10-26",
-      "last_date": "2026-10-26",
-      "dates": [
-        "2026-10-26"
-      ],
-      "times": 1
-    },
-    {
-      "full_name": "BeyondDimension/SteamTools",
-      "url": "https://github.com/BeyondDimension/SteamTools",
-      "description": "🛠「Watt Toolkit」是一个开源跨平台的多功能 Steam 工具箱。",
-      "summary": "解决 Steam 平台功能缺失及体验优化问题，提供一站式多功能工具箱\n适合需要跨平台优化 Steam 体验、追求功能丰富的玩家用户\n基于 Avalonia 开发的开源跨平台工具，功能全面且社区热度极高",
-      "stars": 27284,
-      "language": "C#",
-      "topics": [
-        "android-app",
-        "avalonia",
-        "avaloniaui",
-        "cross-platform",
-        "crossplatform",
-        "csharp",
-        "dotnet",
-        "dotnetcore",
-        "ios-app",
-        "linux-app",
-        "macos-app",
-        "mvvm",
-        "steam",
-        "steamtools",
-        "windows-app",
-        "wpf",
-        "xaml"
-      ],
-      "categories": [
-        "安卓",
-        "Windows"
-      ],
-      "platforms": [
-        "安卓"
-      ],
-      "pick": "top",
-      "slot": "安卓",
-      "kind": "search",
-      "created_at": "2020-12-15",
       "first_date": "2026-10-26",
       "last_date": "2026-10-26",
       "dates": [
@@ -3908,6 +3853,42 @@
       "times": 1
     },
     {
+      "full_name": "reactnativecn/react-native-update",
+      "url": "https://github.com/reactnativecn/react-native-update",
+      "description": "🚀 Blazing fast hot updates (OTA) for React Native — Hermes-optimized diff patches, crash rollback, staged rollout. A CodePush alternative for iOS / Android / HarmonyOS.",
+      "summary": "解决 React Native 应用极速 OTA 热更新、崩溃回滚及分阶段发布的问题\n适合需要 CodePush 替代方案、支持 iOS/Android/HarmonyOS 的 React Native 开发者\n支持 Hermes 优化的差异补丁，提供 CodePush 的多平台替代方案",
+      "stars": 1985,
+      "language": "TypeScript",
+      "topics": [
+        "codepush",
+        "codepush-alternative",
+        "expo",
+        "harmonyos",
+        "hermes",
+        "hot-update",
+        "hotfix",
+        "ota",
+        "over-the-air",
+        "react-native"
+      ],
+      "categories": [
+        "鸿蒙"
+      ],
+      "platforms": [
+        "鸿蒙"
+      ],
+      "pick": "top",
+      "slot": "鸿蒙",
+      "kind": "search",
+      "created_at": "2016-02-06",
+      "first_date": "2026-10-26",
+      "last_date": "2026-10-26",
+      "dates": [
+        "2026-10-26"
+      ],
+      "times": 1
+    },
+    {
       "full_name": "chenxiachan/textfold",
       "url": "https://github.com/chenxiachan/textfold",
       "description": "Fold papers, web pages, files, and AI replies into five levels of detail. Zoom from an overview to the original text.",
@@ -3938,6 +3919,43 @@
       "last_date": "2026-10-26",
       "dates": [
         "2026-10-26"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "microsoft/terminal",
+      "url": "https://github.com/microsoft/terminal",
+      "description": "The new Windows Terminal and the original Windows console host, all in the same place!",
+      "summary": "解决 Windows 原生控制台功能单一、界面老旧的问题，提供现代化的多标签页终端体验\n适合 Windows 系统下的开发者、系统管理员及命令行工具爱好者\n亮点是微软官方出品，集成了 PowerShell、CMD 和 WSL，支持多标签页和自定义主题",
+      "stars": 105226,
+      "language": "C++",
+      "topics": [
+        "cmd",
+        "command-line",
+        "console",
+        "contributions-welcome",
+        "good-first-issue",
+        "hacktoberfest",
+        "terminal",
+        "windows",
+        "windows-console",
+        "windows-terminal",
+        "wsl"
+      ],
+      "categories": [
+        "Windows"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "pick": "top",
+      "slot": "Windows",
+      "kind": "search",
+      "created_at": "2017-08-11",
+      "first_date": "2026-10-25",
+      "last_date": "2026-10-25",
+      "dates": [
+        "2026-10-25"
       ],
       "times": 1
     },
@@ -3976,6 +3994,49 @@
       "slot": "Linux",
       "kind": "search",
       "created_at": "2018-12-24",
+      "first_date": "2026-10-25",
+      "last_date": "2026-10-25",
+      "dates": [
+        "2026-10-25"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "pppscn/SmsForwarder",
+      "url": "https://github.com/pppscn/SmsForwarder",
+      "description": "短信转发器——监控Android手机短信、来电、APP通知，并根据指定规则转发到其他手机：钉钉群自定义机器人、钉钉企业内机器人、企业微信群机器人、飞书机器人、企业微信应用消息、邮箱、bark、webhook、Telegram机器人、Server酱、PushPlus、手机短信等。包括主动控制服务端与客户端，让你轻松远程发短信、查短信、查通话、查话簿、查电量等。（V3.0 新增）PS.这个APK主要是学习与自用，如有BUG请提ISSUE，同时欢迎大家提PR指正",
+      "summary": "监控安卓手机短信、来电及APP通知，并按规则转发至钉钉、Telegram、邮件等平台\n需要集中管理通知或远程访问手机数据（如短信、通话记录）的用户\n支持数十种通知渠道，且具备服务端与客户端，支持远程控制手机",
+      "stars": 28576,
+      "language": "Kotlin",
+      "topics": [
+        "android",
+        "api",
+        "app",
+        "bark",
+        "call",
+        "chatgpt",
+        "dingding",
+        "forward",
+        "mqtt",
+        "pushdear",
+        "pushplus",
+        "serverchan",
+        "sms",
+        "smtp",
+        "telegram",
+        "webhook",
+        "wechatapp"
+      ],
+      "categories": [
+        "安卓"
+      ],
+      "platforms": [
+        "安卓"
+      ],
+      "pick": "top",
+      "slot": "安卓",
+      "kind": "search",
+      "created_at": "2021-02-10",
       "first_date": "2026-10-25",
       "last_date": "2026-10-25",
       "dates": [
@@ -4189,6 +4250,39 @@
       "slot": "Windows",
       "kind": "search",
       "created_at": "2019-07-30",
+      "first_date": "2026-10-24",
+      "last_date": "2026-10-24",
+      "dates": [
+        "2026-10-24"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "google-gemini/gemini-cli",
+      "url": "https://github.com/google-gemini/gemini-cli",
+      "description": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
+      "summary": "将 Google Gemini 的强大 AI 能力直接带入终端，解决命令行环境下的 AI 辅助需求\n适合需要在命令行环境中快速调用 AI 能力或使用 MCP 协议的开发者\n开源 Gemini 命令行客户端，支持 MCP 协议，拥有极高的人气",
+      "stars": 107568,
+      "language": "TypeScript",
+      "topics": [
+        "ai",
+        "ai-agents",
+        "cli",
+        "gemini",
+        "gemini-api",
+        "mcp-client",
+        "mcp-server"
+      ],
+      "categories": [
+        "Linux"
+      ],
+      "platforms": [
+        "Linux"
+      ],
+      "pick": "top",
+      "slot": "Linux",
+      "kind": "search",
+      "created_at": "2025-04-17",
       "first_date": "2026-10-24",
       "last_date": "2026-10-24",
       "dates": [
@@ -5179,46 +5273,6 @@
       "slot": null,
       "kind": "search",
       "created_at": "2026-09-17",
-      "first_date": "2026-10-21",
-      "last_date": "2026-10-21",
-      "dates": [
-        "2026-10-21"
-      ],
-      "times": 1
-    },
-    {
-      "full_name": "InlitX/GymMane",
-      "url": "https://github.com/InlitX/GymMane",
-      "description": "Offline gym log for Android. No account, no ads, no internet.",
-      "summary": "解决安卓用户在无网络环境下记录健身数据的需求，提供无广告、无账号的隐私保护\n适合注重隐私、厌恶广告且需要离线记录健身数据的安卓用户\n基于Flutter开发的完全离线健身记录工具，强调隐私与纯净体验",
-      "stars": 1027,
-      "language": "Dart",
-      "topics": [
-        "android",
-        "bodybuilding",
-        "dart",
-        "exercises",
-        "f-droid",
-        "fitness",
-        "flutter",
-        "gym",
-        "gym-app",
-        "health",
-        "privacy",
-        "workout",
-        "workout-app",
-        "workout-tracker"
-      ],
-      "categories": [
-        "安卓"
-      ],
-      "platforms": [
-        "安卓"
-      ],
-      "pick": null,
-      "slot": null,
-      "kind": "search",
-      "created_at": "2026-08-05",
       "first_date": "2026-10-21",
       "last_date": "2026-10-21",
       "dates": [
