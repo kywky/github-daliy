@@ -1,10 +1,13 @@
 {
   "2dust/v2rayN": "2026-11-06",
+  "BeyondDimension/SteamTools": "2026-11-06",
   "CharonChui/FullStack-Notes": "2026-11-06",
   "JunkFood02/Seal": "2026-11-06",
+  "OpenHands/OpenHands": "2026-11-06",
   "Panniantong/Agent-Reach": "2026-11-06",
   "clash-verge-rev/clash-verge-rev": "2026-11-05",
   "electerm/electerm": "2026-11-05",
+  "fenwii/OpenHarmony": "2026-11-06",
   "gkd-kit/gkd": "2026-11-06",
   "google-gemini/gemini-cli": "2026-11-06",
   "laurent22/joplin": "2026-11-06",
@@ -17,6 +20,7 @@
   "reactnativecn/react-native-update": "2026-11-06",
   "rustdesk/rustdesk": "2026-11-06",
   "termux/termux-app": "2026-11-05",
+  "ventoy/Ventoy": "2026-11-06",
   "xiaobaigroup/ClashBox": "2026-11-06",
   "yt-dlp/yt-dlp": "2026-11-06"
 }
