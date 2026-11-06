@@ -1,10 +1,14 @@
 {
+  "CharonChui/FullStack-Notes": "2026-11-06",
   "clash-verge-rev/clash-verge-rev": "2026-11-05",
   "electerm/electerm": "2026-11-05",
+  "gkd-kit/gkd": "2026-11-06",
   "laurent22/joplin": "2026-11-06",
   "microsoft/PowerToys": "2026-11-06",
   "morluto/rea": "2026-11-05",
   "n8n-io/n8n": "2026-11-06",
+  "rustdesk/rustdesk": "2026-11-06",
   "termux/termux-app": "2026-11-05",
-  "xiaobaigroup/ClashBox": "2026-11-06"
+  "xiaobaigroup/ClashBox": "2026-11-06",
+  "yt-dlp/yt-dlp": "2026-11-06"
 }
