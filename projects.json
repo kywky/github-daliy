@@ -1,36 +1,23 @@
 {
-  "generated_at": "2026-11-06T04:56:46.929823+00:00",
-  "total": 141,
+  "generated_at": "2026-11-06T05:29:21.324638+00:00",
+  "total": 136,
   "occurrences": 183,
   "projects": [
     {
-      "full_name": "n8n-io/n8n",
-      "url": "https://github.com/n8n-io/n8n",
-      "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
-      "summary": "提供可视化的工作流自动化平台，解决跨应用数据集成和业务流程自动化处理问题\n适合希望构建自定义自动化流程、集成 400+ 应用的开发者和企业用户\n独特的 Fair-code 模型，结合低代码可视化与原生 AI 能力，支持 400+ 集成",
-      "stars": 209656,
-      "language": "TypeScript",
+      "full_name": "yt-dlp/yt-dlp",
+      "url": "https://github.com/yt-dlp/yt-dlp",
+      "description": "A feature-rich command-line audio/video downloader",
+      "summary": "解决什么：解决从 YouTube 等网站下载音视频内容的需求\n适合谁：适合需要批量下载音视频内容的技术用户或开发者\n亮点：功能丰富且支持 SponsorBlock，是 YouTube-dl 的强力替代品",
+      "stars": 205582,
+      "language": "Python",
       "topics": [
-        "ai",
-        "apis",
-        "automation",
         "cli",
-        "data-flow",
-        "development",
-        "integration-framework",
-        "integrations",
-        "ipaas",
-        "low-code",
-        "low-code-platform",
-        "mcp",
-        "mcp-client",
-        "mcp-server",
-        "n8n",
-        "no-code",
-        "self-hosted",
-        "typescript",
-        "workflow",
-        "workflow-automation"
+        "downloader",
+        "python",
+        "sponsorblock",
+        "youtube-dl",
+        "youtube-downloader",
+        "yt-dlp"
       ],
       "categories": [
         "Linux"
@@ -41,36 +28,45 @@
       "pick": "top",
       "slot": "Linux",
       "kind": "search",
-      "created_at": "2019-06-22",
-      "first_date": "2026-11-06",
+      "created_at": "2020-10-26",
+      "first_date": "2026-10-23",
       "last_date": "2026-11-06",
       "dates": [
-        "2026-11-06"
+        "2026-11-06",
+        "2026-10-23"
       ],
-      "times": 1
+      "times": 2
     },
     {
-      "full_name": "microsoft/PowerToys",
-      "url": "https://github.com/microsoft/PowerToys",
-      "description": "Microsoft PowerToys is a collection of utilities that supercharge productivity and customization on Windows",
-      "summary": "为 Windows 系统提供一系列实用工具，旨在提升用户的日常操作效率与桌面自定义体验\n面向 Windows 10/11 用户，特别是希望优化桌面布局、提升操作效率的高级用户\n微软官方维护的免费开源工具箱，功能全面且持续更新",
-      "stars": 140615,
-      "language": "C",
+      "full_name": "rustdesk/rustdesk",
+      "url": "https://github.com/rustdesk/rustdesk",
+      "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
+      "summary": "提供开源远程桌面解决方案，作为 TeamViewer 的替代品并支持自托管\n需要远程控制电脑、替代 TeamViewer 的个人及团队\n完全开源且支持自托管，底层使用 Rust 编写",
+      "stars": 128369,
+      "language": "Rust",
       "topics": [
-        "advanced-paste",
-        "color-picker",
-        "command-palette",
-        "desktop",
-        "fancyzones",
-        "keyboard-manager",
-        "microsoft-powertoys",
-        "powerrename",
-        "powertoys",
-        "windows",
-        "windows-10",
-        "windows-11"
+        "android",
+        "anydesk",
+        "dart",
+        "flatpak",
+        "flutter",
+        "flutter-apps",
+        "ios",
+        "linux",
+        "macos",
+        "p2p",
+        "rdp",
+        "remote-control",
+        "remote-desktop",
+        "rust",
+        "rust-lang",
+        "teamviewer",
+        "vnc",
+        "wayland",
+        "windows"
       ],
       "categories": [
+        "Linux",
         "Windows"
       ],
       "platforms": [
@@ -79,45 +75,80 @@
       "pick": "top",
       "slot": "Windows",
       "kind": "search",
-      "created_at": "2019-05-01",
-      "first_date": "2026-11-06",
+      "created_at": "2020-09-28",
+      "first_date": "2026-10-23",
       "last_date": "2026-11-06",
       "dates": [
-        "2026-11-06"
+        "2026-11-06",
+        "2026-10-23"
       ],
-      "times": 1
+      "times": 2
     },
     {
-      "full_name": "laurent22/joplin",
-      "url": "https://github.com/laurent22/joplin",
-      "description": "Joplin - the privacy-focused note taking app with sync capabilities for Windows, macOS, Linux, Android and iOS.",
-      "summary": "解决什么：提供跨平台、注重隐私的笔记记录与数据同步功能，支持从 Evernote 导入。\n适合谁：适合需要跨平台笔记同步、注重隐私且希望从 Evernote 迁移数据的用户。\n亮点：跨平台支持完善，支持多种云同步方式及网页剪藏，是 Evernote 的热门开源替代品。",
-      "stars": 57057,
-      "language": "TypeScript",
+      "full_name": "sherlock-project/sherlock",
+      "url": "https://github.com/sherlock-project/sherlock",
+      "description": "Hunt down social media accounts by username across social networks",
+      "summary": "解决什么：通过用户名跨社交媒体平台查找账号\n适合谁：渗透测试人员、安全研究人员、开源情报分析师\n亮点：快速高效地查找目标社交媒体账号",
+      "stars": 96851,
+      "language": "Python",
       "topics": [
-        "android",
-        "dropbox",
-        "electron",
-        "enex-files",
-        "evernote",
-        "javascript",
-        "joplin",
-        "nextcloud",
-        "nodejs",
-        "note-taking",
-        "notesnook",
-        "obsidian",
-        "onedrive",
-        "react-native",
-        "standardnotes",
-        "synchronisation",
-        "web-clipper",
-        "webdav"
+        "cli",
+        "cti",
+        "cybersecurity",
+        "forensics",
+        "hacktoberfest",
+        "information-gathering",
+        "infosec",
+        "linux",
+        "osint",
+        "pentesting",
+        "python",
+        "python3",
+        "reconnaissance",
+        "redteam",
+        "sherlock",
+        "tools"
       ],
       "categories": [
-        "安卓",
-        "Linux",
-        "Windows"
+        "Linux"
+      ],
+      "platforms": [
+        "Linux"
+      ],
+      "pick": "growth",
+      "slot": "Linux",
+      "kind": "search",
+      "created_at": "2018-12-24",
+      "first_date": "2026-10-25",
+      "last_date": "2026-11-06",
+      "dates": [
+        "2026-11-06",
+        "2026-10-25"
+      ],
+      "times": 2
+    },
+    {
+      "full_name": "gkd-kit/gkd",
+      "url": "https://github.com/gkd-kit/gkd",
+      "description": "基于无障碍，高级选择器，订阅规则的自定义屏幕点击安卓应用 | An Android APP with custom screen tapping based on Accessibility, Advanced Selectors, and Subscription Rules",
+      "summary": "解决什么：通过无障碍服务、高级选择器和订阅规则实现自定义屏幕点击的安卓应用\n适合谁：安卓开发者或需要自动化交互、无障碍辅助功能的场景\n亮点：基于无障碍框架实现高度可定制的屏幕点击自动化工具",
+      "stars": 44086,
+      "language": "Kotlin",
+      "topics": [
+        "accessibility",
+        "android",
+        "auto",
+        "click",
+        "compose",
+        "compose-multiplatform",
+        "jetpack-compose",
+        "kotlin",
+        "kotlin-js",
+        "kotlin-multiplatform",
+        "webassembly"
+      ],
+      "categories": [
+        "安卓"
       ],
       "platforms": [
         "安卓"
@@ -125,30 +156,27 @@
       "pick": "top",
       "slot": "安卓",
       "kind": "search",
-      "created_at": "2017-01-16",
-      "first_date": "2026-11-06",
+      "created_at": "2023-07-04",
+      "first_date": "2026-10-23",
       "last_date": "2026-11-06",
       "dates": [
-        "2026-11-06"
+        "2026-11-06",
+        "2026-10-23"
       ],
-      "times": 1
+      "times": 2
     },
     {
-      "full_name": "psf/requests",
-      "url": "https://github.com/psf/requests",
-      "description": "A simple, yet elegant, HTTP library.",
-      "summary": "掌握 HTTP 协议封装技巧、面向对象设计思想以及简洁优雅的 API 设计模式\n适合希望深入理解 Python 库底层实现机制，并学习如何编写易用且健壮的 HTTP 客户端代码的开发者\n建议先阅读 Session 类和 API 入口，再逐步深入适配器层和底层连接处理逻辑",
-      "stars": 54627,
+      "full_name": "pallets/click",
+      "url": "https://github.com/pallets/click",
+      "description": "Python composable command line interface toolkit",
+      "summary": "学习如何利用装饰器优雅地构建命令行工具，并理解框架如何处理参数解析与命令组织\n适合希望提升命令行交互体验的 Python 开发者，或想学习装饰器模式与框架设计的开发者\n建议先阅读核心参数解析逻辑，再研究装饰器实现与命令组织方式",
+      "stars": 17815,
       "language": "Python",
       "topics": [
-        "client",
-        "cookies",
-        "forhumans",
-        "http",
-        "humans",
-        "python",
-        "python-requests",
-        "requests"
+        "cli",
+        "click",
+        "pallets",
+        "python"
       ],
       "categories": [
         "Python"
@@ -159,62 +187,21 @@
       "pick": null,
       "slot": null,
       "kind": "learn",
-      "created_at": "2011-02-13",
-      "first_date": "2026-10-21",
+      "created_at": "2014-04-24",
+      "first_date": "2026-10-22",
       "last_date": "2026-11-06",
       "dates": [
         "2026-11-06",
-        "2026-10-21"
+        "2026-10-22"
       ],
       "times": 2
     },
     {
-      "full_name": "ccch1mneyyy/dsh-Go",
-      "url": "https://github.com/ccch1mneyyy/dsh-Go",
-      "description": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
-      "summary": "解决什么：提供一个可在安卓手机上本地运行的 DeepSeek Harness 工具，实现 AI 代理功能并支持电脑遥控\n适合谁：安卓用户，希望随时随地使用 AI 代理工具并通过手机控制电脑进行 AI 相关任务\n亮点：专为安卓手机设计的 DeepSeek Harness 本地运行方案，实现高效便捷的 AI 代理操作",
-      "stars": 11824,
-      "language": "Dart",
-      "topics": [
-        "ai-agent",
-        "android",
-        "android-app",
-        "coding-agent",
-        "deepseek",
-        "deepseek-harness",
-        "dsh",
-        "dsh-plugin",
-        "dsh-tui",
-        "flutter",
-        "llm"
-      ],
-      "categories": [
-        "安卓",
-        "AI"
-      ],
-      "platforms": [
-        "安卓"
-      ],
-      "pick": "growth",
-      "slot": "安卓",
-      "kind": "search",
-      "created_at": "2026-10-25",
-      "first_date": "2026-10-30",
-      "last_date": "2026-11-06",
-      "dates": [
-        "2026-11-06",
-        "2026-11-05",
-        "2026-11-01",
-        "2026-10-30"
-      ],
-      "times": 4
-    },
-    {
-      "full_name": "antirez/sds",
-      "url": "https://github.com/antirez/sds",
-      "description": "Simple Dynamic Strings library for C",
-      "summary": "学什么：理解 C 语言中动态字符串的实现原理，掌握内存管理技巧\n适合谁：有一定 C 语言基础，想深入理解底层内存管理的开发者\n怎么读：先阅读源码中的 sds.h 和 sds.c 文件，了解核心结构和函数逻辑",
-      "stars": 5587,
+      "full_name": "DaveGamble/cJSON",
+      "url": "https://github.com/DaveGamble/cJSON",
+      "description": "Ultralightweight JSON parser in ANSI C",
+      "summary": "掌握手写 JSON 解析器的核心逻辑，理解 C 语言中的内存管理与数据结构设计\n适合 C 语言开发者学习底层解析原理，或嵌入式系统开发者寻找轻量级 JSON 库\n建议从 cJSON.c 的核心解析函数入手，逐步理解状态机与内存分配",
+      "stars": 13071,
       "language": "C",
       "topics": [],
       "categories": [
@@ -226,34 +213,65 @@
       "pick": null,
       "slot": null,
       "kind": "learn",
-      "created_at": "2014-02-06",
-      "first_date": "2026-10-21",
+      "created_at": "2016-03-19",
+      "first_date": "2026-11-04",
       "last_date": "2026-11-06",
       "dates": [
         "2026-11-06",
-        "2026-11-03",
-        "2026-10-21"
+        "2026-11-04"
+      ],
+      "times": 2
+    },
+    {
+      "full_name": "wangzan101/Mika",
+      "url": "https://github.com/wangzan101/Mika",
+      "description": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
+      "summary": "解决 Android 设备上自动化操作应用和网页的任务需求\n适合需要通过 AI 自动化执行手机应用操作和网页任务的 Android 用户\n基于 LLM 的本地 Android 代理，无需联网即可操作应用",
+      "stars": 7197,
+      "language": "Kotlin",
+      "topics": [
+        "accessibility",
+        "ai-agent",
+        "android",
+        "automation",
+        "jetpack-compose",
+        "kotlin",
+        "llm",
+        "mobile-agent"
+      ],
+      "categories": [
+        "AI"
+      ],
+      "platforms": [
+        "AI"
+      ],
+      "pick": "ai",
+      "slot": "AI",
+      "kind": "search",
+      "created_at": "2026-10-29",
+      "first_date": "2026-11-01",
+      "last_date": "2026-11-06",
+      "dates": [
+        "2026-11-06",
+        "2026-11-05",
+        "2026-11-01"
       ],
       "times": 3
     },
     {
-      "full_name": "xiaobaigroup/ClashBox",
-      "url": "https://github.com/xiaobaigroup/ClashBox",
-      "description": "HarmonyOS NEXT的代理软件",
-      "summary": "原始描述：HarmonyOS NEXT的代理软件\n\n（摘要生成失败，本次展示原文）",
-      "stars": 4751,
-      "language": "",
+      "full_name": "CharonChui/FullStack-Notes",
+      "url": "https://github.com/CharonChui/FullStack-Notes",
+      "description": "全栈开发知识库 | Full-stack notes: Android · Kotlin · C/C++ · Go · HarmonyOS · Frontend · Backend",
+      "summary": "解决什么：为全栈开发者提供涵盖 Android、Kotlin、C/C++、Go、HarmonyOS、前端和后端等技术的综合知识库\n适合谁：全栈开发者或对多种技术栈感兴趣的学习者，适合作为技术学习和参考的资源\n亮点：整合多种技术栈的全栈开发知识库，内容全面且更新活跃",
+      "stars": 3946,
+      "language": "Python",
       "topics": [
-        "arkts",
-        "arkui",
-        "clash",
-        "flclash",
+        "android",
+        "fullstack",
+        "golang",
         "harmonyos",
-        "harmonyos-next",
-        "proxy",
-        "vless",
-        "vpn",
-        "vpn-client"
+        "source-code",
+        "study-notes"
       ],
       "categories": [
         "鸿蒙"
@@ -264,34 +282,25 @@
       "pick": "top",
       "slot": "鸿蒙",
       "kind": "search",
-      "created_at": "2025-02-22",
-      "first_date": "2026-10-23",
+      "created_at": "2013-12-10",
+      "first_date": "2026-11-02",
       "last_date": "2026-11-06",
       "dates": [
         "2026-11-06",
-        "2026-10-23"
+        "2026-11-02"
       ],
       "times": 2
     },
     {
-      "full_name": "Chevey339/kelivo",
-      "url": "https://github.com/Chevey339/kelivo",
-      "description": "A Flutter LLM Chat Client. Support Mobile & Desktop.",
-      "summary": "提供跨平台的 Flutter LLM 聊天客户端，支持移动端和桌面端，解决用户统一使用大模型对话的需求\n适合 Flutter 开发者、鸿蒙及 Android/iOS 用户，以及需要跨平台 AI 对话体验的开发者和爱好者\n基于 Flutter 开发，近期在鸿蒙生态中涨星最快，支持多平台的大模型对话客户端",
-      "stars": 4438,
-      "language": "Dart",
+      "full_name": "Zitann/HarmonyOS-Haps",
+      "url": "https://github.com/Zitann/HarmonyOS-Haps",
+      "description": "⚡️鸿蒙Next Hap安装包合集，如果您觉得有帮助，还请点亮一下 Star 🌟 哦~ 万分感谢！",
+      "summary": "解决什么：提供鸿蒙Next Hap安装包合集，方便用户获取和安装\n适合谁：对鸿蒙Next系统感兴趣的开发者或爱好者\n亮点：鸿蒙Next Hap安装包的集中集合，获取便捷",
+      "stars": 3836,
+      "language": "Python",
       "topics": [
-        "ai",
-        "android",
-        "chatbot",
-        "chatbox",
-        "flutter",
-        "flutter-apps",
-        "harmony",
         "harmonyos",
-        "ios",
-        "llm",
-        "openharmony"
+        "harmonyos-next"
       ],
       "categories": [
         "鸿蒙"
@@ -302,30 +311,73 @@
       "pick": "growth",
       "slot": "鸿蒙",
       "kind": "search",
-      "created_at": "2025-08-29",
-      "first_date": "2026-10-28",
+      "created_at": "2024-11-15",
+      "first_date": "2026-10-24",
       "last_date": "2026-11-06",
       "dates": [
         "2026-11-06",
-        "2026-10-28"
+        "2026-11-02",
+        "2026-10-28",
+        "2026-10-24"
+      ],
+      "times": 4
+    },
+    {
+      "full_name": "Verlintas/NOIR",
+      "url": "https://github.com/Verlintas/NOIR",
+      "description": "手机隐私审计：用 adb 扫出 Android 应用的权限、上报端点与数据流向，并给出可回滚的处置。Desktop Android leak audit: permissions, endpoints, data flows, reversible fixes.",
+      "summary": "用于审计 Android 应用隐私的工具，通过 ADB 扫描权限、上报端点和数据流向，并提供可回滚的修复方案\n适合注重隐私安全、希望管理应用权限并进行安全审计的终端用户\n支持跨平台终端交互，能可视化分析应用数据流向并提供可回滚的隐私修复方案",
+      "stars": 2572,
+      "language": "Kotlin",
+      "topics": [
+        "adb",
+        "android",
+        "android-privacy",
+        "android-security",
+        "android-tools",
+        "apk-analysis",
+        "bloatware",
+        "cli",
+        "cross-platform",
+        "debloat",
+        "jadx",
+        "kotlin",
+        "kotlin-multiplatform",
+        "privacy",
+        "privacy-tools",
+        "security-audit",
+        "static-analysis",
+        "telemetry",
+        "terminal-ui",
+        "tui"
+      ],
+      "categories": [
+        "安卓",
+        "Linux"
+      ],
+      "platforms": [
+        "安卓"
+      ],
+      "pick": "growth",
+      "slot": "安卓",
+      "kind": "search",
+      "created_at": "2026-10-31",
+      "first_date": "2026-11-03",
+      "last_date": "2026-11-06",
+      "dates": [
+        "2026-11-06",
+        "2026-11-03"
       ],
       "times": 2
     },
     {
-      "full_name": "Minireel/HGhub",
-      "url": "https://github.com/Minireel/HGhub",
-      "description": "YellowFruit third-party client",
-      "summary": "解决什么：为用户提供一个基于 TypeScript 开发的第三方客户端，用于在 Windows 系统上观看类似 Reels 的短视频内容\n适合谁：喜欢观看短视频的用户，特别是 Windows 用户，以及寻求类似 Reels 观看体验的人\n亮点：近期涨星最快，是一个针对 Windows 平台的免费电影 web 应用客户端",
-      "stars": 1240,
+      "full_name": "andrew-babo/muse4ai",
+      "url": "https://github.com/andrew-babo/muse4ai",
+      "description": "Muse4AI — let your AI agent make the pictures and the videos. Local Windows bridge for Muse via REST, MCP, and OAuth.",
+      "summary": "提供本地 Windows 桥接，让 AI 代理通过 REST/MCP/OAuth 调用 Muse 生成图片和视频\n适合需要在本地 Windows 环境中通过 AI 代理生成图片和视频的开发者\n支持多种协议且近期涨星最快的 Muse 本地桥接工具",
+      "stars": 850,
       "language": "TypeScript",
-      "topics": [
-        "android",
-        "drama",
-        "free",
-        "movie-web-app",
-        "reels",
-        "windows"
-      ],
+      "topics": [],
       "categories": [
         "Windows"
       ],
@@ -334,73 +386,6 @@
       ],
       "pick": "growth",
       "slot": "Windows",
-      "kind": "search",
-      "created_at": "2026-11-03",
-      "first_date": "2026-11-06",
-      "last_date": "2026-11-06",
-      "dates": [
-        "2026-11-06"
-      ],
-      "times": 1
-    },
-    {
-      "full_name": "Wallbycontact/java-mod-rust-port-tool",
-      "url": "https://github.com/Wallbycontact/java-mod-rust-port-tool",
-      "description": "Feed it a Fabric or NeoForge mod jar and Smelt writes the Rust side for Horizon, with the unfinished parts flagged in the report.",
-      "summary": "将 Fabric 或 NeoForge 的 Java 模组 jar 文件转换为 Horizon（Rust 版 Minecraft）的 Rust 代码\n适合需要将现有 Java Minecraft 模组迁移到 Horizon 的开发者\n自动生成 Rust 代码，并详细标记未完成部分",
-      "stars": 413,
-      "language": "JavaScript",
-      "topics": [
-        "cli",
-        "fabric",
-        "horizon",
-        "minecraft",
-        "minecraft-mods",
-        "neoforge",
-        "porting",
-        "rust"
-      ],
-      "categories": [
-        "Linux"
-      ],
-      "platforms": [
-        "Linux"
-      ],
-      "pick": "growth",
-      "slot": "Linux",
-      "kind": "search",
-      "created_at": "2026-11-05",
-      "first_date": "2026-11-06",
-      "last_date": "2026-11-06",
-      "dates": [
-        "2026-11-06"
-      ],
-      "times": 1
-    },
-    {
-      "full_name": "Sandflow-ai/sand3d",
-      "url": "https://github.com/Sandflow-ai/sand3d",
-      "description": "3D modeling in Python, built for LLMs.",
-      "summary": "解决什么：使用 Python 基于大型语言模型进行 3D 建模\n适合谁：AI 爱好者、需要 3D 建模功能的开发者\n亮点：专为大型语言模型设计的 3D 建模工具",
-      "stars": 378,
-      "language": "HTML",
-      "topics": [
-        "3d",
-        "blender",
-        "cad",
-        "llm",
-        "procedural-modeling",
-        "python",
-        "usd"
-      ],
-      "categories": [
-        "AI"
-      ],
-      "platforms": [
-        "AI"
-      ],
-      "pick": "ai",
-      "slot": "AI",
       "kind": "search",
       "created_at": "2026-11-03",
       "first_date": "2026-11-06",
@@ -628,39 +613,44 @@
       "times": 7
     },
     {
-      "full_name": "wangzan101/Mika",
-      "url": "https://github.com/wangzan101/Mika",
-      "description": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
-      "summary": "这是一个运行在 Android 设备上的本地 AI 代理，能够自动操作应用和网页帮用户完成任务。\n适合 Android 用户、自动化爱好者以及移动端 AI 代理的开发者。\n亮点是利用本地大模型实现移动端应用自动化操作，且基于 Jetpack Compose 构建。",
-      "stars": 6791,
-      "language": "Kotlin",
+      "full_name": "ccch1mneyyy/dsh-Go",
+      "url": "https://github.com/ccch1mneyyy/dsh-Go",
+      "description": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
+      "summary": "解决在手机本地运行 DeepSeek 模型并远程控制电脑进行 AI 编码的问题\n适合希望利用手机算力运行 AI 模型并远程操控电脑的开发者\n基于 Flutter 开发，近期涨星迅猛，将 DeepSeek Harness 移植到手机端",
+      "stars": 10108,
+      "language": "Dart",
       "topics": [
-        "accessibility",
         "ai-agent",
         "android",
-        "automation",
-        "jetpack-compose",
-        "kotlin",
-        "llm",
-        "mobile-agent"
+        "android-app",
+        "coding-agent",
+        "deepseek",
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin",
+        "dsh-tui",
+        "flutter",
+        "llm"
       ],
       "categories": [
+        "安卓",
         "AI"
       ],
       "platforms": [
-        "AI"
+        "安卓"
       ],
-      "pick": "ai",
-      "slot": "AI",
+      "pick": "growth",
+      "slot": "安卓",
       "kind": "search",
-      "created_at": "2026-10-29",
-      "first_date": "2026-11-01",
+      "created_at": "2026-10-25",
+      "first_date": "2026-10-30",
       "last_date": "2026-11-05",
       "dates": [
         "2026-11-05",
-        "2026-11-01"
+        "2026-11-01",
+        "2026-10-30"
       ],
-      "times": 2
+      "times": 3
     },
     {
       "full_name": "KKKKhazix/agent-autoloop",
@@ -1080,31 +1070,6 @@
       "times": 1
     },
     {
-      "full_name": "DaveGamble/cJSON",
-      "url": "https://github.com/DaveGamble/cJSON",
-      "description": "Ultralightweight JSON parser in ANSI C",
-      "summary": "掌握手写 JSON 解析器的核心逻辑，理解 C 语言中指针、递归与内存管理的实战应用\n适合 C 语言开发者，特别是想通过经典开源项目学习解析器实现原理或优化代码结构的读者\n先从 `cJSON_Parse` 入口函数入手，逐步追踪解析逻辑与内存管理实现",
-      "stars": 13065,
-      "language": "C",
-      "topics": [],
-      "categories": [
-        "C"
-      ],
-      "platforms": [
-        "C"
-      ],
-      "pick": null,
-      "slot": null,
-      "kind": "learn",
-      "created_at": "2016-03-19",
-      "first_date": "2026-11-04",
-      "last_date": "2026-11-04",
-      "dates": [
-        "2026-11-04"
-      ],
-      "times": 1
-    },
-    {
       "full_name": "jhaizhou-ops/d2r-mobile",
       "url": "https://github.com/jhaizhou-ops/d2r-mobile",
       "description": "Open-source compatibility layer for Diablo II: Resurrected with the Reign of the Warlock expansion. Runs your own Switch copy natively on iPhone, iPad, Mac, Android and HarmonyOS — full touch controls, 60 fps, new endgame modes. Bring your own game files. 开源的《暗黑破坏神 II：狱火重生》术士君临 iOS / macOS / 安卓 / 鸿蒙兼容层",
@@ -1300,6 +1265,32 @@
       "times": 1
     },
     {
+      "full_name": "antirez/sds",
+      "url": "https://github.com/antirez/sds",
+      "description": "Simple Dynamic Strings library for C",
+      "summary": "掌握 C 语言动态字符串的实现原理，深入理解内存预分配与惰性释放策略\n适合有一定 C 语言基础，想深入理解 Redis 底层数据结构或 C 语言内存管理的开发者\n先阅读 `sds.h` 中的结构体定义，再逐行分析 `sds.c` 中的内存管理核心逻辑",
+      "stars": 5588,
+      "language": "C",
+      "topics": [],
+      "categories": [
+        "C"
+      ],
+      "platforms": [
+        "C"
+      ],
+      "pick": null,
+      "slot": null,
+      "kind": "learn",
+      "created_at": "2014-02-06",
+      "first_date": "2026-10-21",
+      "last_date": "2026-11-03",
+      "dates": [
+        "2026-11-03",
+        "2026-10-21"
+      ],
+      "times": 2
+    },
+    {
       "full_name": "l0ng-ai/openidea",
       "url": "https://github.com/l0ng-ai/openidea",
       "description": "The IDE you know, rebuilt in Rust. IntelliJ IDEA–style keymap, tool windows and search-everywhere in a fast native app: editor, code insight, debugger, Git, terminal, database and HTTP clients for 60+ languages.",
@@ -1412,53 +1403,6 @@
       "slot": "AI",
       "kind": "search",
       "created_at": "2026-10-27",
-      "first_date": "2026-11-03",
-      "last_date": "2026-11-03",
-      "dates": [
-        "2026-11-03"
-      ],
-      "times": 1
-    },
-    {
-      "full_name": "Verlintas/NOIR",
-      "url": "https://github.com/Verlintas/NOIR",
-      "description": "手机隐私审计：用 adb 扫出 Android 应用的权限、上报端点与数据流向，并给出可回滚的处置。Desktop Android leak audit: permissions, endpoints, data flows, reversible fixes.",
-      "summary": "解决什么：审计 Android 应用隐私，通过 ADB 扫描权限、上报端点及数据流向\n适合谁：适合关注安卓隐私安全、想要清理预装软件或进行安全审计的用户\n亮点：提供 TUI 终端界面，支持可回滚的隐私修复方案",
-      "stars": 1486,
-      "language": "Kotlin",
-      "topics": [
-        "adb",
-        "android",
-        "android-privacy",
-        "android-security",
-        "android-tools",
-        "apk-analysis",
-        "bloatware",
-        "cli",
-        "cross-platform",
-        "debloat",
-        "jadx",
-        "kotlin",
-        "kotlin-multiplatform",
-        "privacy",
-        "privacy-tools",
-        "security-audit",
-        "static-analysis",
-        "telemetry",
-        "terminal-ui",
-        "tui"
-      ],
-      "categories": [
-        "安卓",
-        "Linux"
-      ],
-      "platforms": [
-        "安卓"
-      ],
-      "pick": "growth",
-      "slot": "安卓",
-      "kind": "search",
-      "created_at": "2026-10-31",
       "first_date": "2026-11-03",
       "last_date": "2026-11-03",
       "dates": [
@@ -1864,68 +1808,6 @@
         "2026-11-02"
       ],
       "times": 1
-    },
-    {
-      "full_name": "CharonChui/FullStack-Notes",
-      "url": "https://github.com/CharonChui/FullStack-Notes",
-      "description": "全栈开发知识库 | Full-stack notes: Android · Kotlin · C/C++ · Go · HarmonyOS · Frontend · Backend",
-      "summary": "提供全栈开发知识库，涵盖 Android、HarmonyOS、Go 等多语言与框架\n适合全栈开发者、鸿蒙应用开发者及编程学习者\n涵盖多技术栈且包含源码解析，是鸿蒙全栈学习宝典",
-      "stars": 3944,
-      "language": "Python",
-      "topics": [
-        "android",
-        "fullstack",
-        "golang",
-        "harmonyos",
-        "source-code",
-        "study-notes"
-      ],
-      "categories": [
-        "鸿蒙"
-      ],
-      "platforms": [
-        "鸿蒙"
-      ],
-      "pick": "top",
-      "slot": "鸿蒙",
-      "kind": "search",
-      "created_at": "2013-12-10",
-      "first_date": "2026-11-02",
-      "last_date": "2026-11-02",
-      "dates": [
-        "2026-11-02"
-      ],
-      "times": 1
-    },
-    {
-      "full_name": "Zitann/HarmonyOS-Haps",
-      "url": "https://github.com/Zitann/HarmonyOS-Haps",
-      "description": "⚡️鸿蒙Next Hap安装包合集，如果您觉得有帮助，还请点亮一下 Star 🌟 哦~ 万分感谢！",
-      "summary": "解决什么：整理并分享鸿蒙Next系统的HAP安装包合集，解决用户资源获取难题\n适合谁：面向鸿蒙Next系统用户及开发者，提供便捷的HAP包获取渠道\n亮点：涨星迅猛，是目前鸿蒙Next领域热度极高的资源合集",
-      "stars": 3771,
-      "language": "Python",
-      "topics": [
-        "harmonyos",
-        "harmonyos-next"
-      ],
-      "categories": [
-        "鸿蒙"
-      ],
-      "platforms": [
-        "鸿蒙"
-      ],
-      "pick": "growth",
-      "slot": "鸿蒙",
-      "kind": "search",
-      "created_at": "2024-11-15",
-      "first_date": "2026-10-24",
-      "last_date": "2026-11-02",
-      "dates": [
-        "2026-11-02",
-        "2026-10-28",
-        "2026-10-24"
-      ],
-      "times": 3
     },
     {
       "full_name": "netdata/netdata",
@@ -3313,6 +3195,43 @@
       "times": 1
     },
     {
+      "full_name": "Chevey339/kelivo",
+      "url": "https://github.com/Chevey339/kelivo",
+      "description": "A Flutter LLM Chat Client. Support Mobile & Desktop.",
+      "summary": "解决什么：提供跨平台的 LLM 大模型聊天客户端，支持移动与桌面端\n适合谁：适合需要在移动端和桌面端使用 LLM 进行对话的用户\n亮点：基于 Flutter 构建，支持多平台运行的 AI 聊天应用",
+      "stars": 4346,
+      "language": "Dart",
+      "topics": [
+        "ai",
+        "android",
+        "chatbot",
+        "chatbox",
+        "flutter",
+        "flutter-apps",
+        "harmony",
+        "harmonyos",
+        "ios",
+        "llm",
+        "openharmony"
+      ],
+      "categories": [
+        "鸿蒙"
+      ],
+      "platforms": [
+        "鸿蒙"
+      ],
+      "pick": "top",
+      "slot": "鸿蒙",
+      "kind": "search",
+      "created_at": "2025-08-29",
+      "first_date": "2026-10-28",
+      "last_date": "2026-10-28",
+      "dates": [
+        "2026-10-28"
+      ],
+      "times": 1
+    },
+    {
       "full_name": "AienTech/dossier",
       "url": "https://github.com/AienTech/dossier",
       "description": "A self-hosted job search app that writes tailored resumes and cover letters from your profile.",
@@ -3947,48 +3866,6 @@
       "times": 1
     },
     {
-      "full_name": "sherlock-project/sherlock",
-      "url": "https://github.com/sherlock-project/sherlock",
-      "description": "Hunt down social media accounts by username across social networks",
-      "summary": "该工具通过单一用户名在数百个社交平台上搜索对应的社交媒体账号\n适合网络安全研究人员、渗透测试人员及开源情报分析师\n作为 GitHub 上最热门的开源情报工具之一，支持跨平台快速检索",
-      "stars": 94860,
-      "language": "Python",
-      "topics": [
-        "cli",
-        "cti",
-        "cybersecurity",
-        "forensics",
-        "hacktoberfest",
-        "information-gathering",
-        "infosec",
-        "linux",
-        "osint",
-        "pentesting",
-        "python",
-        "python3",
-        "reconnaissance",
-        "redteam",
-        "sherlock",
-        "tools"
-      ],
-      "categories": [
-        "Linux"
-      ],
-      "platforms": [
-        "Linux"
-      ],
-      "pick": "top",
-      "slot": "Linux",
-      "kind": "search",
-      "created_at": "2018-12-24",
-      "first_date": "2026-10-25",
-      "last_date": "2026-10-25",
-      "dates": [
-        "2026-10-25"
-      ],
-      "times": 1
-    },
-    {
       "full_name": "pppscn/SmsForwarder",
       "url": "https://github.com/pppscn/SmsForwarder",
       "description": "短信转发器——监控Android手机短信、来电、APP通知，并根据指定规则转发到其他手机：钉钉群自定义机器人、钉钉企业内机器人、企业微信群机器人、飞书机器人、企业微信应用消息、邮箱、bark、webhook、Telegram机器人、Server酱、PushPlus、手机短信等。包括主动控制服务端与客户端，让你轻松远程发短信、查短信、查通话、查话簿、查电量等。（V3.0 新增）PS.这个APK主要是学习与自用，如有BUG请提ISSUE，同时欢迎大家提PR指正",
@@ -4481,122 +4358,6 @@
       "times": 1
     },
     {
-      "full_name": "yt-dlp/yt-dlp",
-      "url": "https://github.com/yt-dlp/yt-dlp",
-      "description": "A feature-rich command-line audio/video downloader",
-      "summary": "原始描述：A feature-rich command-line audio/video downloader\n\n（摘要生成失败，本次展示原文）",
-      "stars": 200775,
-      "language": "Python",
-      "topics": [
-        "cli",
-        "downloader",
-        "python",
-        "sponsorblock",
-        "youtube-dl",
-        "youtube-downloader",
-        "yt-dlp"
-      ],
-      "categories": [
-        "Linux"
-      ],
-      "platforms": [
-        "Linux"
-      ],
-      "pick": "top",
-      "slot": "Linux",
-      "kind": "search",
-      "created_at": "2020-10-26",
-      "first_date": "2026-10-23",
-      "last_date": "2026-10-23",
-      "dates": [
-        "2026-10-23"
-      ],
-      "times": 1
-    },
-    {
-      "full_name": "rustdesk/rustdesk",
-      "url": "https://github.com/rustdesk/rustdesk",
-      "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
-      "summary": "解决什么：提供开源远程桌面方案，支持自建服务器，作为 TeamViewer 的替代品。\n适合谁：需要自建远程控制服务、寻求 TeamViewer 替代方案的个人或企业用户。\n亮点：基于 Rust 开发，支持全平台及 Wayland，完全开源且支持自建服务器。",
-      "stars": 126704,
-      "language": "Rust",
-      "topics": [
-        "android",
-        "anydesk",
-        "dart",
-        "flatpak",
-        "flutter",
-        "flutter-apps",
-        "ios",
-        "linux",
-        "macos",
-        "p2p",
-        "rdp",
-        "remote-control",
-        "remote-desktop",
-        "rust",
-        "rust-lang",
-        "teamviewer",
-        "vnc",
-        "wayland",
-        "windows"
-      ],
-      "categories": [
-        "Linux",
-        "Windows"
-      ],
-      "platforms": [
-        "Windows"
-      ],
-      "pick": "top",
-      "slot": "Windows",
-      "kind": "search",
-      "created_at": "2020-09-28",
-      "first_date": "2026-10-23",
-      "last_date": "2026-10-23",
-      "dates": [
-        "2026-10-23"
-      ],
-      "times": 1
-    },
-    {
-      "full_name": "gkd-kit/gkd",
-      "url": "https://github.com/gkd-kit/gkd",
-      "description": "基于无障碍，高级选择器，订阅规则的自定义屏幕点击安卓应用 | An Android APP with custom screen tapping based on Accessibility, Advanced Selectors, and Subscription Rules",
-      "summary": "解决安卓应用中繁琐的重复点击操作，通过无障碍服务和订阅规则实现自动化\n适合需要自动化处理安卓应用繁琐重复操作（如每日签到、领券）的用户\n亮点在于支持自定义订阅规则与高级选择器，基于 Jetpack Compose 开发，自动化能力强大",
-      "stars": 43264,
-      "language": "Kotlin",
-      "topics": [
-        "accessibility",
-        "android",
-        "auto",
-        "click",
-        "compose",
-        "compose-multiplatform",
-        "jetpack-compose",
-        "kotlin",
-        "kotlin-js",
-        "kotlin-multiplatform",
-        "webassembly"
-      ],
-      "categories": [
-        "安卓"
-      ],
-      "platforms": [
-        "安卓"
-      ],
-      "pick": "top",
-      "slot": "安卓",
-      "kind": "search",
-      "created_at": "2023-07-04",
-      "first_date": "2026-10-23",
-      "last_date": "2026-10-23",
-      "dates": [
-        "2026-10-23"
-      ],
-      "times": 1
-    },
-    {
       "full_name": "webadderallorg/Recordly",
       "url": "https://github.com/webadderallorg/Recordly",
       "description": "Create polished demo videos without editing skills. Mac/Windows/Linux",
@@ -4665,6 +4426,42 @@
       "slot": null,
       "kind": "learn",
       "created_at": "2014-12-26",
+      "first_date": "2026-10-23",
+      "last_date": "2026-10-23",
+      "dates": [
+        "2026-10-23"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "xiaobaigroup/ClashBox",
+      "url": "https://github.com/xiaobaigroup/ClashBox",
+      "description": "HarmonyOS NEXT的代理软件",
+      "summary": "原始描述：HarmonyOS NEXT的代理软件\n\n（摘要生成失败，本次展示原文）",
+      "stars": 4639,
+      "language": "",
+      "topics": [
+        "arkts",
+        "arkui",
+        "clash",
+        "flclash",
+        "harmonyos",
+        "harmonyos-next",
+        "proxy",
+        "vless",
+        "vpn",
+        "vpn-client"
+      ],
+      "categories": [
+        "鸿蒙"
+      ],
+      "platforms": [
+        "鸿蒙"
+      ],
+      "pick": "top",
+      "slot": "鸿蒙",
+      "kind": "search",
+      "created_at": "2025-02-22",
       "first_date": "2026-10-23",
       "last_date": "2026-10-23",
       "dates": [
@@ -4773,36 +4570,6 @@
       "slot": null,
       "kind": "learn",
       "created_at": "2013-07-04",
-      "first_date": "2026-10-22",
-      "last_date": "2026-10-22",
-      "dates": [
-        "2026-10-22"
-      ],
-      "times": 1
-    },
-    {
-      "full_name": "pallets/click",
-      "url": "https://github.com/pallets/click",
-      "description": "Python composable command line interface toolkit",
-      "summary": "学什么：理解 Python 装饰器在构建命令行接口中的应用，掌握模块化设计思想\n适合谁：有一定 Python 基础，需要构建 CLI 工具的开发者\n怎么读：先阅读 core 命名空间下的装饰器和命令定义模块，再扩展到插件和扩展功能",
-      "stars": 17797,
-      "language": "Python",
-      "topics": [
-        "cli",
-        "click",
-        "pallets",
-        "python"
-      ],
-      "categories": [
-        "Python"
-      ],
-      "platforms": [
-        "Python"
-      ],
-      "pick": null,
-      "slot": null,
-      "kind": "learn",
-      "created_at": "2014-04-24",
       "first_date": "2026-10-22",
       "last_date": "2026-10-22",
       "dates": [
@@ -5033,6 +4800,40 @@
       "last_date": "2026-10-22",
       "dates": [
         "2026-10-22"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "psf/requests",
+      "url": "https://github.com/psf/requests",
+      "description": "A simple, yet elegant, HTTP library.",
+      "summary": "学什么：掌握优雅的 API 设计范式、装饰器用法及异常处理机制\n适合谁：适合希望学习优秀代码结构、提升 Python 库开发能力的开发者\n怎么读：建议先阅读 `requests.py` 核心逻辑，再深入 `sessions.py` 和 `adapters.py` 模块",
+      "stars": 54534,
+      "language": "Python",
+      "topics": [
+        "client",
+        "cookies",
+        "forhumans",
+        "http",
+        "humans",
+        "python",
+        "python-requests",
+        "requests"
+      ],
+      "categories": [
+        "Python"
+      ],
+      "platforms": [
+        "Python"
+      ],
+      "pick": null,
+      "slot": null,
+      "kind": "learn",
+      "created_at": "2011-02-13",
+      "first_date": "2026-10-21",
+      "last_date": "2026-10-21",
+      "dates": [
+        "2026-10-21"
       ],
       "times": 1
     },
