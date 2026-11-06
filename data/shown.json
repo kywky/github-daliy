@@ -1,15 +1,26 @@
 {
+  "Chevey339/kelivo": "2026-11-06",
   "Gathin23/cleanyourtv": "2026-11-05",
   "KKKKhazix/agent-autoloop": "2026-11-05",
   "Leonxlnx/earshot": "2026-11-05",
+  "Minireel/HGhub": "2026-11-06",
   "Niko1221/Strata": "2026-11-05",
+  "Sandflow-ai/sand3d": "2026-11-06",
+  "Wallbycontact/java-mod-rust-port-tool": "2026-11-06",
   "antirez/linenoise": "2026-11-05",
+  "antirez/sds": "2026-11-06",
   "bottlepy/bottle": "2026-11-05",
+  "ccch1mneyyy/dsh-Go": "2026-11-06",
   "clash-verge-rev/clash-verge-rev": "2026-11-05",
   "electerm/electerm": "2026-11-05",
   "heqiangdiao-wq/AI-Cross-Border-Ecommerce-Agent-Toolkit": "2026-11-05",
   "hujjun/mcd-saver-strategist": "2026-11-05",
   "jhaizhou-ops/d2r-mobile": "2026-11-05",
+  "laurent22/joplin": "2026-11-06",
+  "microsoft/PowerToys": "2026-11-06",
   "morluto/rea": "2026-11-05",
-  "termux/termux-app": "2026-11-05"
+  "n8n-io/n8n": "2026-11-06",
+  "psf/requests": "2026-11-06",
+  "termux/termux-app": "2026-11-05",
+  "xiaobaigroup/ClashBox": "2026-11-06"
 }

@@ -1,6 +1,10 @@
 {
   "clash-verge-rev/clash-verge-rev": "2026-11-05",
   "electerm/electerm": "2026-11-05",
+  "laurent22/joplin": "2026-11-06",
+  "microsoft/PowerToys": "2026-11-06",
   "morluto/rea": "2026-11-05",
-  "termux/termux-app": "2026-11-05"
+  "n8n-io/n8n": "2026-11-06",
+  "termux/termux-app": "2026-11-05",
+  "xiaobaigroup/ClashBox": "2026-11-06"
 }
