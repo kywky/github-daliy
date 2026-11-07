@@ -1,8 +1,587 @@
 {
-  "generated_at": "2026-11-06T10:39:30.469213+00:00",
-  "total": 142,
-  "occurrences": 187,
+  "generated_at": "2026-11-07T05:41:47.342377+00:00",
+  "total": 149,
+  "occurrences": 202,
   "projects": [
+    {
+      "full_name": "rtk-ai/rtk",
+      "url": "https://github.com/rtk-ai/rtk",
+      "description": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
+      "summary": "这是一个 CLI 代理工具，旨在通过优化常用开发命令，将 LLM 的 token 消耗降低 60-90%\n适合需要频繁使用 LLM 进行编码且希望降低 API 成本的开发者\n这是一个零依赖的单二进制 Rust 工具，能显著降低 LLM 使用成本",
+      "stars": 85771,
+      "language": "Rust",
+      "topics": [
+        "agentic-coding",
+        "ai-coding",
+        "anthropic",
+        "claude-code",
+        "cli",
+        "command-line-tool",
+        "cost-reduction",
+        "developer-tools",
+        "llm",
+        "open-source",
+        "productivity",
+        "rust",
+        "token-optimization"
+      ],
+      "categories": [
+        "Linux"
+      ],
+      "platforms": [
+        "Linux"
+      ],
+      "pick": "top",
+      "slot": "Linux",
+      "kind": "search",
+      "created_at": "2026-01-22",
+      "first_date": "2026-10-23",
+      "last_date": "2026-11-07",
+      "dates": [
+        "2026-11-07",
+        "2026-10-28",
+        "2026-10-23"
+      ],
+      "times": 3
+    },
+    {
+      "full_name": "tw93/Mole",
+      "url": "https://github.com/tw93/Mole",
+      "description": "🐹 Keep your Mac and PC clean, light, and running like new. Fast open-source CLI, plus native Mac and Windows apps.",
+      "summary": "解决什么：提供跨平台清理工具，解决 Mac 和 PC 系统臃肿及性能下降问题，保持系统轻量运行\n适合谁：需要优化系统性能、清理冗余文件的 Mac 和 Windows 用户\n亮点：结合快速开源 CLI 和原生 GUI 应用，支持 Mac 与 Windows 跨平台",
+      "stars": 74139,
+      "language": "Shell",
+      "topics": [
+        "analyzer",
+        "appcleaner",
+        "clean",
+        "cleaner",
+        "cleanmymac",
+        "command-line",
+        "daisydisk",
+        "istat",
+        "mac",
+        "macos",
+        "macos-app",
+        "native",
+        "optimize",
+        "pearcleaner",
+        "sensei",
+        "shell",
+        "swift",
+        "swiftui",
+        "uninstall",
+        "windows"
+      ],
+      "categories": [
+        "Windows"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "pick": "top",
+      "slot": "Windows",
+      "kind": "search",
+      "created_at": "2025-09-23",
+      "first_date": "2026-10-27",
+      "last_date": "2026-11-07",
+      "dates": [
+        "2026-11-07",
+        "2026-10-27"
+      ],
+      "times": 2
+    },
+    {
+      "full_name": "nlohmann/json",
+      "url": "https://github.com/nlohmann/json",
+      "description": "JSON for Modern C++",
+      "summary": "学习现代 C++ 的模板元编程、移动语义以及 RAII 资源管理的设计模式\n适合希望深入理解现代 C++ 特性或需要高效处理 JSON 数据的 C++ 开发者\n从单文件头文件入手，理解 API 设计后再阅读 examples 目录中的示例代码",
+      "stars": 50850,
+      "language": "C++",
+      "topics": [
+        "bson",
+        "cbor",
+        "header-only",
+        "json",
+        "json-diff",
+        "json-merge-patch",
+        "json-parser",
+        "json-patch",
+        "json-pointer",
+        "json-serialization",
+        "messagepack",
+        "msgpack",
+        "rfc-6901",
+        "rfc-6902",
+        "rfc-7049",
+        "rfc-7159",
+        "rfc-8259",
+        "stl-containers",
+        "ubjson"
+      ],
+      "categories": [
+        "C++"
+      ],
+      "platforms": [
+        "C++"
+      ],
+      "pick": null,
+      "slot": null,
+      "kind": "learn",
+      "created_at": "2013-07-04",
+      "first_date": "2026-10-22",
+      "last_date": "2026-11-07",
+      "dates": [
+        "2026-11-07",
+        "2026-10-22"
+      ],
+      "times": 2
+    },
+    {
+      "full_name": "android/nowinandroid",
+      "url": "https://github.com/android/nowinandroid",
+      "description": "A fully functional Android app built entirely with Kotlin and Jetpack Compose",
+      "summary": "展示如何使用 Kotlin 和 Jetpack Compose 构建功能完整的 Android 应用，涵盖现代架构与 UI 设计。\n适合 Android 开发者学习现代技术栈，特别是 Jetpack Compose 的最佳实践。\n完全使用 Jetpack Compose 编写，展示了完整的 Material Design 3 风格与现代化架构。",
+      "stars": 22053,
+      "language": "Kotlin",
+      "topics": [
+        "android",
+        "jetpack-compose",
+        "kotlin",
+        "sample"
+      ],
+      "categories": [
+        "安卓"
+      ],
+      "platforms": [
+        "安卓"
+      ],
+      "pick": "top",
+      "slot": "安卓",
+      "kind": "search",
+      "created_at": "2022-04-19",
+      "first_date": "2026-10-27",
+      "last_date": "2026-11-07",
+      "dates": [
+        "2026-11-07",
+        "2026-10-27"
+      ],
+      "times": 2
+    },
+    {
+      "full_name": "maxrave-dev/SimpMusic",
+      "url": "https://github.com/maxrave-dev/SimpMusic",
+      "description": "A cross-platform music app using YouTube Music for backend",
+      "summary": "提供一个基于 YouTube Music 后端的跨平台音乐播放解决方案，支持多系统使用\n适合需要在 Android、Linux、macOS 或 Windows 上使用 YouTube Music 的用户，特别是 Android Auto 车载系统用户\n基于 Compose Multiplatform 开发，近期涨星迅速，是目前最热门的 YouTube Music 跨平台客户端之一",
+      "stars": 12921,
+      "language": "Kotlin",
+      "topics": [
+        "android",
+        "android-16",
+        "android-app",
+        "android-application",
+        "android-auto",
+        "compose-multiplatform",
+        "exoplayer",
+        "kotlin",
+        "linux",
+        "macos",
+        "media3",
+        "mp3",
+        "music",
+        "spotify",
+        "video-streaming",
+        "windows",
+        "youtube",
+        "youtube-music"
+      ],
+      "categories": [
+        "安卓"
+      ],
+      "platforms": [
+        "安卓"
+      ],
+      "pick": "growth",
+      "slot": "安卓",
+      "kind": "search",
+      "created_at": "2023-04-15",
+      "first_date": "2026-11-07",
+      "last_date": "2026-11-07",
+      "dates": [
+        "2026-11-07"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "Kludex/starlette",
+      "url": "https://github.com/Kludex/starlette",
+      "description": "The little ASGI framework that shines. 🌟",
+      "summary": "掌握 Python 异步 Web 开发的核心概念，包括 ASGI 协议、中间件机制及路由分发逻辑\n适合希望深入理解 ASGI 协议、异步路由机制及中间件设计的 Python 后端开发者\n从 routing.py 和 middleware.py 入手，理解核心组件后再阅读 app.py",
+      "stars": 12711,
+      "language": "Python",
+      "topics": [
+        "asgi",
+        "async",
+        "http",
+        "python",
+        "websockets"
+      ],
+      "categories": [
+        "Python"
+      ],
+      "platforms": [
+        "Python"
+      ],
+      "pick": null,
+      "slot": null,
+      "kind": "learn",
+      "created_at": "2018-06-25",
+      "first_date": "2026-10-23",
+      "last_date": "2026-11-07",
+      "dates": [
+        "2026-11-07",
+        "2026-11-06",
+        "2026-11-05",
+        "2026-11-03",
+        "2026-10-30",
+        "2026-10-26",
+        "2026-10-25",
+        "2026-10-24",
+        "2026-10-23"
+      ],
+      "times": 9
+    },
+    {
+      "full_name": "horizon-rust/horizon",
+      "url": "https://github.com/horizon-rust/horizon",
+      "description": "Minecraft: Java Edition 26.3 rewritten from scratch in Rust, checked against vanilla with 281 differential harnesses. Get it with the Horizon launcher.",
+      "summary": "解决什么：使用 Rust 语言重写 Minecraft Java 版本 26.3，并通过 281 个差分测试用例与原版进行对比验证\n适合谁：喜欢 Minecraft 但希望体验 Rust 重写的游戏引擎，或对 Rust 在游戏开发中的应用感兴趣的开发者\n亮点：使用 Rust 语言对 Minecraft Java 版本进行完全重写并保持高度兼容性",
+      "stars": 7434,
+      "language": "Rust",
+      "topics": [
+        "differential-testing",
+        "game-engine",
+        "gamedev",
+        "linux",
+        "minecraft",
+        "minecraft-java",
+        "reimplementation",
+        "rust",
+        "voxel",
+        "vulkan",
+        "wgpu"
+      ],
+      "categories": [
+        "Linux"
+      ],
+      "platforms": [
+        "Linux"
+      ],
+      "pick": "growth",
+      "slot": "Linux",
+      "kind": "search",
+      "created_at": "2026-10-03",
+      "first_date": "2026-10-29",
+      "last_date": "2026-11-07",
+      "dates": [
+        "2026-11-07",
+        "2026-10-29"
+      ],
+      "times": 2
+    },
+    {
+      "full_name": "Oldcircle/geo-sleuth",
+      "url": "https://github.com/Oldcircle/geo-sleuth",
+      "description": "An agent skill that finds where a photo was taken — OpenStreetMap geometry, elevation skylines, satellite imagery and street view — and shows its work. Works with Claude Code, Codex, Cursor, Gemini CLI, OpenCode and GitHub Copilot.",
+      "summary": "利用卫星图像、街景和地理数据精准定位照片拍摄地\n适用于 Claude、Cursor 等 AI 编程助手的地理定位技能\n整合多种地理数据源，并透明展示定位推理过程",
+      "stars": 6324,
+      "language": "Python",
+      "topics": [
+        "agent-skills",
+        "ai-agents",
+        "claude-code",
+        "codex",
+        "computer-vision",
+        "cursor",
+        "gemini-cli",
+        "geoguessr",
+        "geoint",
+        "geolocation",
+        "github-copilot",
+        "image-geolocation",
+        "opencode",
+        "openstreetmap",
+        "osint",
+        "photo-geolocation",
+        "reverse-image-search",
+        "satellite-imagery"
+      ],
+      "categories": [
+        "AI神器"
+      ],
+      "platforms": [
+        "AI神器"
+      ],
+      "pick": "ai_tool",
+      "slot": "AI神器",
+      "kind": "search",
+      "created_at": "2026-09-18",
+      "first_date": "2026-11-07",
+      "last_date": "2026-11-07",
+      "dates": [
+        "2026-11-07"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "openfilm/openfilm",
+      "url": "https://github.com/openfilm/openfilm",
+      "description": "The open source AI video agent: turns any coding agent into a video agent, with an editor to change anything it makes.",
+      "summary": "解决什么：将编程代理转换为视频代理，并提供编辑器修改生成的视频内容\n适合谁：开发者或创意人员，用于自动化视频制作和编辑\n亮点：开源AI视频代理，可将编程代理功能应用于视频制作",
+      "stars": 5120,
+      "language": "TypeScript",
+      "topics": [
+        "ai-video",
+        "claude-code",
+        "codex",
+        "coding-agents",
+        "html",
+        "motion-graphics",
+        "video-agent",
+        "video-editor"
+      ],
+      "categories": [
+        "AI神器"
+      ],
+      "platforms": [
+        "AI神器"
+      ],
+      "pick": "ai_tool",
+      "slot": "AI神器",
+      "kind": "search",
+      "created_at": "2026-10-04",
+      "first_date": "2026-11-07",
+      "last_date": "2026-11-07",
+      "dates": [
+        "2026-11-07"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "qybaihe/bla",
+      "url": "https://github.com/qybaihe/bla",
+      "description": "🛡️ BLA (Blind LLM Agents) — Adversarial defense shield that protects binaries, Electron apps, JS bundles, Python, and WebAssembly against AI reverse-engineering agents like REA. Poison -> Exhaust -> Hallucinate.",
+      "summary": "为二进制文件、Electron 应用及 WebAssembly 等代码提供对抗性防御，抵御 AI 反向工程代理的攻击\n适用于希望保护 Electron 应用、WASM 及其他代码免受 AI 逆向工程的安全开发者\n采用“注入毒素-耗尽-制造幻觉”策略迷惑 AI 逆向工程代理",
+      "stars": 2596,
+      "language": "TypeScript",
+      "topics": [
+        "adversarial-ai",
+        "claude-code",
+        "cursor",
+        "electron-security",
+        "llm-security",
+        "mcp",
+        "mcp-server",
+        "obfuscation",
+        "reverse-engineering",
+        "webassembly"
+      ],
+      "categories": [
+        "AI",
+        "AI神器"
+      ],
+      "platforms": [
+        "AI",
+        "AI神器"
+      ],
+      "pick": "ai_tool",
+      "slot": "AI神器",
+      "kind": "search",
+      "created_at": "2026-10-25",
+      "first_date": "2026-10-30",
+      "last_date": "2026-11-07",
+      "dates": [
+        "2026-11-07",
+        "2026-10-30"
+      ],
+      "times": 2
+    },
+    {
+      "full_name": "alibaba/GaiaX",
+      "url": "https://github.com/alibaba/GaiaX",
+      "description": "动态模板引擎是一套轻量化、跨平台、高性能的纯原生移动端卡片渲染动态化解决方案",
+      "summary": "解决移动端卡片渲染的动态化需求，提供轻量级、高性能的跨平台原生渲染方案\n适合需要跨平台动态化开发、追求原生性能的移动端开发者\n纯原生渲染结合CSS/Flexbox，支持Android、iOS及鸿蒙生态",
+      "stars": 1284,
+      "language": "C",
+      "topics": [
+        "android",
+        "cross-platform",
+        "css",
+        "flexbox",
+        "harmony",
+        "harmonyos",
+        "ios",
+        "kotlin",
+        "rust",
+        "swift"
+      ],
+      "categories": [
+        "鸿蒙"
+      ],
+      "platforms": [
+        "鸿蒙"
+      ],
+      "pick": "top",
+      "slot": "鸿蒙",
+      "kind": "search",
+      "created_at": "2022-02-08",
+      "first_date": "2026-10-30",
+      "last_date": "2026-11-07",
+      "dates": [
+        "2026-11-07",
+        "2026-10-30"
+      ],
+      "times": 2
+    },
+    {
+      "full_name": "d2r-mobile/d2r-mobile",
+      "url": "https://github.com/d2r-mobile/d2r-mobile",
+      "description": "Diablo II: Resurrected on iPhone, iPad, Apple silicon Mac, Android and HarmonyOS. Offline play with touch or a controller. One-tap Runewords, 100-level Greater Rifts and Reign of the Warlock. Native ARM, Metal and Vulkan. Open source; bring your own Switch game files. 暗黑2重制版.",
+      "summary": "解决在 iPhone、iPad、Mac 及鸿蒙设备上运行暗黑2重制版的问题\n适合希望在移动设备或鸿蒙系统上体验暗黑2重制版离线游戏的玩家\n原生支持 ARM、Metal 和 Vulkan，支持手柄与一键符文功能",
+      "stars": 380,
+      "language": "C",
+      "topics": [
+        "agent-skills",
+        "apple-silicon",
+        "arm64",
+        "claude-code",
+        "codex",
+        "compatibility-layer",
+        "d2r",
+        "diablo",
+        "diablo-2-resurrected",
+        "diablo2",
+        "game-port",
+        "ios",
+        "ipad",
+        "iphone",
+        "macos",
+        "metal",
+        "offline-game",
+        "reign-of-the-warlock",
+        "touch-controls",
+        "tvos"
+      ],
+      "categories": [
+        "鸿蒙"
+      ],
+      "platforms": [
+        "鸿蒙"
+      ],
+      "pick": "growth",
+      "slot": "鸿蒙",
+      "kind": "search",
+      "created_at": "2026-10-12",
+      "first_date": "2026-11-07",
+      "last_date": "2026-11-07",
+      "dates": [
+        "2026-11-07"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "solongate/agent-security",
+      "url": "https://github.com/solongate/agent-security",
+      "description": "Local-first, open-source security gateway for AI coding agents. Enforce tool-call policies, detect secrets, and audit actions on-device.",
+      "summary": "解决什么：解决 AI 编码代理在本地运行时的安全风险，防止敏感信息泄露并执行操作策略。\n适合谁：适合需要在本地安全使用 Claude Code、Codex 等 AI 编码工具的开发者。\n亮点：独特之处在于它是完全本地化、开源的安全网关，确保数据不出本地。",
+      "stars": 312,
+      "language": "Go",
+      "topics": [
+        "ai-agent-security",
+        "ai-agents",
+        "claude-code",
+        "codex",
+        "dlp",
+        "local-first",
+        "policy-enforcement",
+        "security-gateway"
+      ],
+      "categories": [
+        "AI神器"
+      ],
+      "platforms": [
+        "AI神器"
+      ],
+      "pick": "ai_tool",
+      "slot": "AI神器",
+      "kind": "search",
+      "created_at": "2026-09-27",
+      "first_date": "2026-11-07",
+      "last_date": "2026-11-07",
+      "dates": [
+        "2026-11-07"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "shanselman/gputaskman",
+      "url": "https://github.com/shanselman/gputaskman",
+      "description": "A GPU task manager for Windows, Linux, and WSL: per-process VRAM, GPU activity, and LLM model/KV-cache insights (Windows AMD and NVIDIA).",
+      "summary": "解决什么：监控 Windows、Linux 和 WSL 系统中每个进程的 VRAM 使用情况、GPU 活动以及 LLM 模型/KV 缓存信息\n适合谁：需要管理多 GPU 资源的开发者和研究人员\n亮点：提供跨平台 GPU 任务管理工具，支持 AMD 和 NVIDIA 显卡",
+      "stars": 284,
+      "language": "Python",
+      "topics": [],
+      "categories": [
+        "AI"
+      ],
+      "platforms": [
+        "AI"
+      ],
+      "pick": "ai",
+      "slot": "AI",
+      "kind": "search",
+      "created_at": "2026-11-03",
+      "first_date": "2026-11-07",
+      "last_date": "2026-11-07",
+      "dates": [
+        "2026-11-07"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "PackArtisanMold/phone-to-webcam",
+      "url": "https://github.com/PackArtisanMold/phone-to-webcam",
+      "description": "Turn any iPhone or Android into a Windows webcam: scan a code in the phone's browser. No phone app, no watermark.",
+      "summary": "将 iPhone 或 Android 手机直接转化为 Windows 系统的摄像头，无需安装任何手机应用\n需要使用手机摄像头进行直播或视频会议的 Windows 用户\n无需安装手机 App，扫码即用且无水印",
+      "stars": 238,
+      "language": "HTML",
+      "topics": [
+        "camera",
+        "free",
+        "obs",
+        "phone",
+        "streaming",
+        "webcam",
+        "webrtc",
+        "windows"
+      ],
+      "categories": [
+        "Windows"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "pick": "growth",
+      "slot": "Windows",
+      "kind": "search",
+      "created_at": "2026-11-06",
+      "first_date": "2026-11-07",
+      "last_date": "2026-11-07",
+      "dates": [
+        "2026-11-07"
+      ],
+      "times": 1
+    },
     {
       "full_name": "OpenHands/OpenHands",
       "url": "https://github.com/OpenHands/OpenHands",
@@ -215,44 +794,6 @@
         "2026-11-06"
       ],
       "times": 1
-    },
-    {
-      "full_name": "Kludex/starlette",
-      "url": "https://github.com/Kludex/starlette",
-      "description": "The little ASGI framework that shines. 🌟",
-      "summary": "掌握 ASGI 异步框架的请求生命周期、中间件机制及 HTTP 协议细节\n适合有一定 Python 基础，想深入理解 ASGI 协议及 Web 框架底层实现原理的开发者\n建议先阅读 Application 类的初始化与路由注册，再深入中间件与响应处理逻辑",
-      "stars": 12710,
-      "language": "Python",
-      "topics": [
-        "asgi",
-        "async",
-        "http",
-        "python",
-        "websockets"
-      ],
-      "categories": [
-        "Python"
-      ],
-      "platforms": [
-        "Python"
-      ],
-      "pick": null,
-      "slot": null,
-      "kind": "learn",
-      "created_at": "2018-06-25",
-      "first_date": "2026-10-23",
-      "last_date": "2026-11-06",
-      "dates": [
-        "2026-11-06",
-        "2026-11-05",
-        "2026-11-03",
-        "2026-10-30",
-        "2026-10-26",
-        "2026-10-25",
-        "2026-10-24",
-        "2026-10-23"
-      ],
-      "times": 8
     },
     {
       "full_name": "google/elephant-goldfish-model",
@@ -2880,78 +3421,6 @@
       "times": 1
     },
     {
-      "full_name": "alibaba/GaiaX",
-      "url": "https://github.com/alibaba/GaiaX",
-      "description": "动态模板引擎是一套轻量化、跨平台、高性能的纯原生移动端卡片渲染动态化解决方案",
-      "summary": "解决什么：解决移动端卡片渲染的动态化问题，提供轻量级高性能的纯原生渲染方案\n适合谁：适合需要跨平台动态化渲染的移动端开发者\n亮点：基于 CSS/Flexbox 的轻量化跨平台动态渲染引擎",
-      "stars": 1286,
-      "language": "C",
-      "topics": [
-        "android",
-        "cross-platform",
-        "css",
-        "flexbox",
-        "harmony",
-        "harmonyos",
-        "ios",
-        "kotlin",
-        "rust",
-        "swift"
-      ],
-      "categories": [
-        "鸿蒙"
-      ],
-      "platforms": [
-        "鸿蒙"
-      ],
-      "pick": "top",
-      "slot": "鸿蒙",
-      "kind": "search",
-      "created_at": "2022-02-08",
-      "first_date": "2026-10-30",
-      "last_date": "2026-10-30",
-      "dates": [
-        "2026-10-30"
-      ],
-      "times": 1
-    },
-    {
-      "full_name": "qybaihe/bla",
-      "url": "https://github.com/qybaihe/bla",
-      "description": "🛡️ BLA (Blind LLM Agents) — Adversarial defense shield that protects binaries, Electron apps, JS bundles, Python, and WebAssembly against AI reverse-engineering agents like REA. Poison -> Exhaust -> Hallucinate.",
-      "summary": "防护二进制文件、Electron 应用及 WebAssembly 等代码免受 AI 反编译工具的逆向工程攻击\n需要保护软件代码免受 AI 逆向分析的开发者及安全研究人员\n采用投毒、耗尽和产生幻觉等对抗策略来迷惑 AI 逆向工具",
-      "stars": 951,
-      "language": "TypeScript",
-      "topics": [
-        "adversarial-ai",
-        "claude-code",
-        "cursor",
-        "electron-security",
-        "llm-security",
-        "mcp",
-        "mcp-server",
-        "obfuscation",
-        "reverse-engineering",
-        "webassembly"
-      ],
-      "categories": [
-        "AI"
-      ],
-      "platforms": [
-        "AI"
-      ],
-      "pick": "ai",
-      "slot": "AI",
-      "kind": "search",
-      "created_at": "2026-10-25",
-      "first_date": "2026-10-30",
-      "last_date": "2026-10-30",
-      "dates": [
-        "2026-10-30"
-      ],
-      "times": 1
-    },
-    {
       "full_name": "junegunn/fzf",
       "url": "https://github.com/junegunn/fzf",
       "description": ":cherry_blossom: A command-line fuzzy finder",
@@ -3134,43 +3603,6 @@
       "times": 1
     },
     {
-      "full_name": "horizon-rust/horizon",
-      "url": "https://github.com/horizon-rust/horizon",
-      "description": "Minecraft: Java Edition 26.3 rewritten from scratch in Rust, checked against vanilla with 281 differential harnesses. Get it with the Horizon launcher.",
-      "summary": "用 Rust 从零重写 Minecraft Java 版客户端，并通过 281 个测试用例验证与原版的一致性\n适合想要体验高性能 Minecraft 客户端或对游戏引擎和 Rust 实现感兴趣的开发者\n独特之处在于使用 281 个差异测试用例严格验证与原版的一致性",
-      "stars": 3796,
-      "language": "Rust",
-      "topics": [
-        "differential-testing",
-        "game-engine",
-        "gamedev",
-        "linux",
-        "minecraft",
-        "minecraft-java",
-        "reimplementation",
-        "rust",
-        "voxel",
-        "vulkan",
-        "wgpu"
-      ],
-      "categories": [
-        "Linux"
-      ],
-      "platforms": [
-        "Linux"
-      ],
-      "pick": "growth",
-      "slot": "Linux",
-      "kind": "search",
-      "created_at": "2026-10-03",
-      "first_date": "2026-10-29",
-      "last_date": "2026-10-29",
-      "dates": [
-        "2026-10-29"
-      ],
-      "times": 1
-    },
-    {
       "full_name": "interplains/Zero-Breach-Toolkit",
       "url": "https://github.com/interplains/Zero-Breach-Toolkit",
       "description": "Free, open-source, offline checks for traces of known mercenary spyware. Works on Windows, macOS and Linux, Android phones and iPhone backups.",
@@ -3221,46 +3653,6 @@
         "2026-10-29"
       ],
       "times": 1
-    },
-    {
-      "full_name": "rtk-ai/rtk",
-      "url": "https://github.com/rtk-ai/rtk",
-      "description": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
-      "summary": "通过代理减少常见开发命令中 LLM 的 token 消耗 60-90%\n需要降低 AI 编码成本的开发者，特别是使用 Claude 的 CLI 用户\n单个 Rust 二进制文件，零依赖，极致的 token 优化",
-      "stars": 84812,
-      "language": "Rust",
-      "topics": [
-        "agentic-coding",
-        "ai-coding",
-        "anthropic",
-        "claude-code",
-        "cli",
-        "command-line-tool",
-        "cost-reduction",
-        "developer-tools",
-        "llm",
-        "open-source",
-        "productivity",
-        "rust",
-        "token-optimization"
-      ],
-      "categories": [
-        "Linux"
-      ],
-      "platforms": [
-        "Linux"
-      ],
-      "pick": "top",
-      "slot": "Linux",
-      "kind": "search",
-      "created_at": "2026-01-22",
-      "first_date": "2026-10-23",
-      "last_date": "2026-10-28",
-      "dates": [
-        "2026-10-28",
-        "2026-10-23"
-      ],
-      "times": 2
     },
     {
       "full_name": "alacritty/alacritty",
@@ -3551,82 +3943,6 @@
       "slot": "Windows",
       "kind": "search",
       "created_at": "2023-11-21",
-      "first_date": "2026-10-27",
-      "last_date": "2026-10-27",
-      "dates": [
-        "2026-10-27"
-      ],
-      "times": 1
-    },
-    {
-      "full_name": "tw93/Mole",
-      "url": "https://github.com/tw93/Mole",
-      "description": "🐹 Keep your Mac and PC clean, light, and running like new. Fast open-source CLI, plus native Mac and Windows apps.",
-      "summary": "旨在解决 Mac 和 Windows 系统臃肿、应用残留及性能下降问题\n适合追求系统轻量运行、需要清理垃圾文件或卸载残留应用的 Mac 和 Windows 用户\n跨平台支持，集成了快速 CLI 工具与原生 GUI 应用，开源免费",
-      "stars": 73017,
-      "language": "Shell",
-      "topics": [
-        "analyzer",
-        "appcleaner",
-        "clean",
-        "cleaner",
-        "cleanmymac",
-        "command-line",
-        "daisydisk",
-        "istat",
-        "mac",
-        "macos",
-        "macos-app",
-        "native",
-        "optimize",
-        "pearcleaner",
-        "sensei",
-        "shell",
-        "swift",
-        "swiftui",
-        "uninstall",
-        "windows"
-      ],
-      "categories": [
-        "Windows"
-      ],
-      "platforms": [
-        "Windows"
-      ],
-      "pick": "top",
-      "slot": "Windows",
-      "kind": "search",
-      "created_at": "2025-09-23",
-      "first_date": "2026-10-27",
-      "last_date": "2026-10-27",
-      "dates": [
-        "2026-10-27"
-      ],
-      "times": 1
-    },
-    {
-      "full_name": "android/nowinandroid",
-      "url": "https://github.com/android/nowinandroid",
-      "description": "A fully functional Android app built entirely with Kotlin and Jetpack Compose",
-      "summary": "解决什么：一个使用 Kotlin 和 Jetpack Compose 完全构建的 Android 应用示例\n适合谁：Android 开发者学习 Jetpack Compose 和 Kotlin 实践\n亮点：功能完整且流行的 Jetpack Compose 示例应用",
-      "stars": 21968,
-      "language": "Kotlin",
-      "topics": [
-        "android",
-        "jetpack-compose",
-        "kotlin",
-        "sample"
-      ],
-      "categories": [
-        "安卓"
-      ],
-      "platforms": [
-        "安卓"
-      ],
-      "pick": "top",
-      "slot": "安卓",
-      "kind": "search",
-      "created_at": "2022-04-19",
       "first_date": "2026-10-27",
       "last_date": "2026-10-27",
       "dates": [
@@ -4781,51 +5097,6 @@
       "last_date": "2026-10-23",
       "dates": [
         "2026-10-23"
-      ],
-      "times": 1
-    },
-    {
-      "full_name": "nlohmann/json",
-      "url": "https://github.com/nlohmann/json",
-      "description": "JSON for Modern C++",
-      "summary": "掌握 C++ 模板编程技巧、异常安全设计以及如何优雅地处理 JSON 序列化与反序列化逻辑\n适合希望提升 C++ 模板编程能力、理解单文件库架构以及学习异常安全设计的开发者\n从 basic_json 类的模板定义入手，逐步追踪序列化与反序列化的实现路径",
-      "stars": 50791,
-      "language": "C++",
-      "topics": [
-        "bson",
-        "cbor",
-        "header-only",
-        "json",
-        "json-diff",
-        "json-merge-patch",
-        "json-parser",
-        "json-patch",
-        "json-pointer",
-        "json-serialization",
-        "messagepack",
-        "msgpack",
-        "rfc-6901",
-        "rfc-6902",
-        "rfc-7049",
-        "rfc-7159",
-        "rfc-8259",
-        "stl-containers",
-        "ubjson"
-      ],
-      "categories": [
-        "C++"
-      ],
-      "platforms": [
-        "C++"
-      ],
-      "pick": null,
-      "slot": null,
-      "kind": "learn",
-      "created_at": "2013-07-04",
-      "first_date": "2026-10-22",
-      "last_date": "2026-10-22",
-      "dates": [
-        "2026-10-22"
       ],
       "times": 1
     },
