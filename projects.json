@@ -1,8 +1,618 @@
 {
-  "generated_at": "2026-11-08T05:43:11.474505+00:00",
-  "total": 156,
-  "occurrences": 217,
+  "generated_at": "2026-11-09T06:02:25.437721+00:00",
+  "total": 159,
+  "occurrences": 232,
   "projects": [
+    {
+      "full_name": "morluto/rea",
+      "url": "https://github.com/morluto/rea",
+      "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+      "summary": "解决什么：使用智能体逆向分析任何软件，从应用行为到原生二进制文件\n适合谁：开发者、安全研究人员、需要深入理解软件行为的人\n亮点：基于智能体的逆向分析工具，实现自动化和智能化分析",
+      "stars": 444451,
+      "language": "TypeScript",
+      "topics": [
+        "agent-skills",
+        "ai",
+        "android",
+        "claude-code",
+        "cli",
+        "cpp",
+        "dsh-plugin",
+        "html",
+        "java",
+        "javascript",
+        "linux",
+        "mcp",
+        "nodejs",
+        "python",
+        "rea",
+        "react",
+        "rust",
+        "security",
+        "touhou",
+        "typescript"
+      ],
+      "categories": [
+        "Linux"
+      ],
+      "platforms": [
+        "Linux"
+      ],
+      "pick": "growth",
+      "slot": "Linux",
+      "kind": "search",
+      "created_at": "2026-04-14",
+      "first_date": "2026-10-27",
+      "last_date": "2026-11-09",
+      "dates": [
+        "2026-11-09",
+        "2026-11-04",
+        "2026-10-31",
+        "2026-10-27"
+      ],
+      "times": 4
+    },
+    {
+      "full_name": "jesseduffield/lazygit",
+      "url": "https://github.com/jesseduffield/lazygit",
+      "description": "simple terminal UI for git commands",
+      "summary": "解决什么：为 git 命令提供一个简洁的终端界面\n适合谁：需要快速查看和操作 git 仓库的开发者\n亮点：简单易用的终端 git 界面",
+      "stars": 83744,
+      "language": "Go",
+      "topics": [
+        "cli",
+        "git",
+        "terminal"
+      ],
+      "categories": [
+        "Linux"
+      ],
+      "platforms": [
+        "Linux"
+      ],
+      "pick": "top",
+      "slot": "Linux",
+      "kind": "search",
+      "created_at": "2018-05-19",
+      "first_date": "2026-10-30",
+      "last_date": "2026-11-09",
+      "dates": [
+        "2026-11-09",
+        "2026-10-30"
+      ],
+      "times": 2
+    },
+    {
+      "full_name": "marktext/marktext",
+      "url": "https://github.com/marktext/marktext",
+      "description": "📝A simple and elegant markdown editor, available for Linux, macOS and Windows.",
+      "summary": "提供跨平台、简洁优雅的 Markdown 编辑体验，支持实时预览与 LaTeX 公式渲染\n适合需要在 Windows、macOS 和 Linux 上进行写作的程序员、技术文档撰写者及内容创作者\n基于开源 Electron 构建，具备专注模式和 LaTeX 公式支持等丰富的写作辅助功能",
+      "stars": 63758,
+      "language": "TypeScript",
+      "topics": [
+        "editor",
+        "electron",
+        "focus-mode",
+        "latex",
+        "linux",
+        "mac",
+        "macos",
+        "markdown",
+        "marktext",
+        "source-code",
+        "typewriter-mode",
+        "windows"
+      ],
+      "categories": [
+        "Linux",
+        "Windows"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "pick": "top",
+      "slot": "Windows",
+      "kind": "search",
+      "created_at": "2017-11-12",
+      "first_date": "2026-10-29",
+      "last_date": "2026-11-09",
+      "dates": [
+        "2026-11-09",
+        "2026-10-29"
+      ],
+      "times": 2
+    },
+    {
+      "full_name": "Gathin23/cleanyourtv",
+      "url": "https://github.com/Gathin23/cleanyourtv",
+      "description": "Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
+      "summary": "解决什么：通过无线方式精简安卓或谷歌电视上的冗余软件，打造类似苹果电视风格的首页\n适合谁：安卓电视或谷歌电视用户，希望移除预装应用、提升系统流畅度和个性化桌面\n亮点：无需连接线即可轻松移除冗余应用，快速实现苹果电视风格的界面",
+      "stars": 54868,
+      "language": "Python",
+      "topics": [
+        "adb",
+        "adblock",
+        "android-tv",
+        "android-tv-launcher",
+        "apple-tv",
+        "bloatware-removal",
+        "claude-code",
+        "debloat",
+        "fire-tv",
+        "google-tv",
+        "launcher",
+        "privacy",
+        "smart-tv",
+        "sony-bravia",
+        "tcl",
+        "vibe-coding",
+        "xiaomi"
+      ],
+      "categories": [
+        "安卓"
+      ],
+      "platforms": [
+        "安卓"
+      ],
+      "pick": "growth",
+      "slot": "安卓",
+      "kind": "search",
+      "created_at": "2026-10-17",
+      "first_date": "2026-10-22",
+      "last_date": "2026-11-09",
+      "dates": [
+        "2026-11-09",
+        "2026-11-04",
+        "2026-10-31",
+        "2026-10-27",
+        "2026-10-22"
+      ],
+      "times": 5
+    },
+    {
+      "full_name": "Niko1221/Strata",
+      "url": "https://github.com/Niko1221/Strata",
+      "description": "Qwen3.8-Flash-Next on any consumer hardware: one-click install for Windows / Linux. Strata inference engine, OpenAI/Anthropic API on localhost, optional image input.",
+      "summary": "在消费级硬件上本地运行 Qwen3.8-Flash-Next 模型，并提供兼容 OpenAI/Anthropic 的 API 接口\n希望通过一键安装于本地运行大模型并调用 API 的用户\n支持图像输入的本地推理引擎，兼容 OpenAI/Anthropic API，且近期涨星极快",
+      "stars": 42126,
+      "language": "C++",
+      "topics": [],
+      "categories": [
+        "Windows"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "pick": "growth",
+      "slot": "Windows",
+      "kind": "search",
+      "created_at": "2026-09-24",
+      "first_date": "2026-10-25",
+      "last_date": "2026-11-09",
+      "dates": [
+        "2026-11-09",
+        "2026-11-02",
+        "2026-10-29",
+        "2026-10-25"
+      ],
+      "times": 4
+    },
+    {
+      "full_name": "HunxByts/GhostTrack",
+      "url": "https://github.com/HunxByts/GhostTrack",
+      "description": "Useful tool to track location or mobile number",
+      "summary": "用于追踪手机号码位置或获取相关信息的实用工具\n适合在 Termux 环境下进行渗透测试、OSINT 信息收集或网络安全研究的用户\n在 Termux 社区拥有极高人气，专注于手机号定位与信息收集",
+      "stars": 20563,
+      "language": "Python",
+      "topics": [
+        "cybersecurity",
+        "fyp",
+        "hacking",
+        "hacking-tool",
+        "indonesia",
+        "information",
+        "information-gathering",
+        "ip-geolocation",
+        "linux",
+        "osint",
+        "osint-python",
+        "osint-tool",
+        "pentesting",
+        "phone-number",
+        "python",
+        "python-hacking",
+        "termux",
+        "termux-hacks",
+        "termux-tool"
+      ],
+      "categories": [
+        "安卓"
+      ],
+      "platforms": [
+        "安卓"
+      ],
+      "pick": "top",
+      "slot": "安卓",
+      "kind": "search",
+      "created_at": "2023-04-15",
+      "first_date": "2026-10-29",
+      "last_date": "2026-11-09",
+      "dates": [
+        "2026-11-09",
+        "2026-10-29"
+      ],
+      "times": 2
+    },
+    {
+      "full_name": "skywind3000/kcp",
+      "url": "https://github.com/skywind3000/kcp",
+      "description": ":zap: KCP - A Fast and Reliable ARQ Protocol",
+      "summary": "深入理解 ARQ 协议与 UDP 的结合，掌握滑动窗口、拥塞控制及数据包重传等底层网络通信原理\n适合对网络协议底层实现感兴趣的开发者，特别是想了解如何在 UDP 上构建可靠传输的初学者\n从核心数据结构入手，重点阅读 `ikcp_send` 和 `ikcp_recv` 的核心逻辑",
+      "stars": 16952,
+      "language": "C",
+      "topics": [
+        "accelerator",
+        "ack",
+        "arq",
+        "c",
+        "kcp",
+        "kcptun",
+        "low-latency",
+        "protocol",
+        "quic",
+        "rtc",
+        "rtt",
+        "socket",
+        "srt",
+        "tunnel",
+        "udp"
+      ],
+      "categories": [
+        "C"
+      ],
+      "platforms": [
+        "C"
+      ],
+      "pick": null,
+      "slot": null,
+      "kind": "learn",
+      "created_at": "2014-12-26",
+      "first_date": "2026-10-23",
+      "last_date": "2026-11-09",
+      "dates": [
+        "2026-11-09",
+        "2026-10-23"
+      ],
+      "times": 2
+    },
+    {
+      "full_name": "electerm/electerm",
+      "url": "https://github.com/electerm/electerm",
+      "description": "📻Free and open-sourced terminal/ssh/sftp/ftp/telnet/serialport/RDP/VNC/Spice client(Linux, Mac, Windows, Android, HarmonyOS, iOS)",
+      "summary": "解决什么：一个免费开源的终端模拟器，支持多种远程连接协议，可在多平台使用\n适合谁：需要远程访问和管理服务器、开发或执行命令行的开发者、系统管理员\n亮点：支持多种协议和跨平台，功能丰富且高度可定制",
+      "stars": 15577,
+      "language": "JavaScript",
+      "topics": [
+        "ai",
+        "android",
+        "electerm",
+        "electron",
+        "ftp",
+        "harmonyos",
+        "linux-app",
+        "macos-app",
+        "mcp",
+        "open-source",
+        "rdp",
+        "serialport",
+        "sftp",
+        "spice",
+        "ssh",
+        "telnet",
+        "terminal",
+        "vnc",
+        "windows-app",
+        "zmodem"
+      ],
+      "categories": [
+        "鸿蒙",
+        "Windows"
+      ],
+      "platforms": [
+        "鸿蒙"
+      ],
+      "pick": "growth",
+      "slot": "鸿蒙",
+      "kind": "search",
+      "created_at": "2017-10-07",
+      "first_date": "2026-10-29",
+      "last_date": "2026-11-09",
+      "dates": [
+        "2026-11-09",
+        "2026-11-05",
+        "2026-10-29"
+      ],
+      "times": 3
+    },
+    {
+      "full_name": "doctest/doctest",
+      "url": "https://github.com/doctest/doctest",
+      "description": "The fastest feature-rich C++11/14/17/20/23 single-header testing framework",
+      "summary": "学什么：通过阅读 doctest 的源码可以深入理解 C++ 宏和模板的高级用法，以及如何设计轻量级、功能丰富的单头库\n适合谁：适合有一定 C++ 基础，希望提升宏和模板编程技巧的开发者，尤其是对单元测试框架设计感兴趣的读者\n怎么读：从 main 函数和宏定义入手，逐步深入到模板元编程和测试用例的组织逻辑",
+      "stars": 6902,
+      "language": "C++",
+      "topics": [
+        "c-plus-plus",
+        "cpp",
+        "cpp11",
+        "cpp14",
+        "cpp17",
+        "cpp20",
+        "cpp23",
+        "doctest",
+        "header-only",
+        "single-file",
+        "tdd",
+        "testing",
+        "testing-framework",
+        "unit-testing"
+      ],
+      "categories": [
+        "C++"
+      ],
+      "platforms": [
+        "C++"
+      ],
+      "pick": null,
+      "slot": null,
+      "kind": "learn",
+      "created_at": "2014-08-05",
+      "first_date": "2026-10-26",
+      "last_date": "2026-11-09",
+      "dates": [
+        "2026-11-09",
+        "2026-10-26"
+      ],
+      "times": 2
+    },
+    {
+      "full_name": "microsoft/TokenEconomizer",
+      "url": "https://github.com/microsoft/TokenEconomizer",
+      "description": "Experience-Driven Black-Box Cost Control for Coding Agents",
+      "summary": "解决什么：为编程代理提供基于经验的黑盒成本控制\n适合谁：AI 编程助手开发者，需要优化 AI 模型使用成本\n亮点：通过经验驱动的方式优化编码代理的成本效率",
+      "stars": 5323,
+      "language": "Python",
+      "topics": [
+        "agentic-ai",
+        "agentic-coding",
+        "ai-coding",
+        "ai-coding-assistant",
+        "anthropic",
+        "artificial-intelligence",
+        "claude-code",
+        "codex",
+        "coding-agent",
+        "coding-agents",
+        "cost-optimization",
+        "cost-reduction",
+        "developer-tools",
+        "github-copilot",
+        "llm",
+        "open-source",
+        "openai",
+        "productivity",
+        "token-optimization"
+      ],
+      "categories": [
+        "AI",
+        "AI神器"
+      ],
+      "platforms": [
+        "AI",
+        "AI神器"
+      ],
+      "pick": "ai_tool",
+      "slot": "AI神器",
+      "kind": "search",
+      "created_at": "2026-10-13",
+      "first_date": "2026-11-02",
+      "last_date": "2026-11-09",
+      "dates": [
+        "2026-11-09",
+        "2026-11-02"
+      ],
+      "times": 2
+    },
+    {
+      "full_name": "jhaizhou-ops/d2r-mobile",
+      "url": "https://github.com/jhaizhou-ops/d2r-mobile",
+      "description": "Open-source compatibility layer for Diablo II: Resurrected with the Reign of the Warlock expansion. Runs your own Switch copy natively on iPhone, iPad, Mac, Android and HarmonyOS — full touch controls, 60 fps, new endgame modes. Bring your own game files. 开源的《暗黑破坏神 II：狱火重生》术士君临 iOS / macOS / 安卓 / 鸿蒙兼容层",
+      "summary": "解决什么：为《暗黑破坏神 II：狱火重生》提供一个开源兼容层，让用户能在 iPhone、iPad、Mac、Android 和鸿蒙系统上原生运行游戏，支持自定义游戏文件\n适合谁：喜欢在移动设备或非 Switch 平台上玩《暗黑破坏神 II：狱火重生》的玩家\n亮点：在多种平台上提供完整的触摸控制、60 fps 帧率和新增的术士君临内容",
+      "stars": 5222,
+      "language": "C",
+      "topics": [
+        "android",
+        "compatibility-layer",
+        "diablo-2-resurrected",
+        "diablo2",
+        "game-port",
+        "harmonyos",
+        "ios",
+        "ipad",
+        "iphone",
+        "mac",
+        "macos",
+        "metal",
+        "reign-of-the-warlock",
+        "vulkan"
+      ],
+      "categories": [
+        "鸿蒙"
+      ],
+      "platforms": [
+        "鸿蒙"
+      ],
+      "pick": "top",
+      "slot": "鸿蒙",
+      "kind": "search",
+      "created_at": "2026-10-12",
+      "first_date": "2026-10-27",
+      "last_date": "2026-11-09",
+      "dates": [
+        "2026-11-09",
+        "2026-11-04",
+        "2026-10-31",
+        "2026-10-27"
+      ],
+      "times": 4
+    },
+    {
+      "full_name": "KKKKhazix/agent-autoloop",
+      "url": "https://github.com/KKKKhazix/agent-autoloop",
+      "description": "让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。",
+      "summary": "解决什么：让命令行 Agent 在后台自动处理任务，只在需要人工决策时通知用户\n适合谁：需要自动化工作流并希望减少手动干预的开发者和系统管理员\n亮点：实现事件驱动的命令行 Agent 自动化工作流",
+      "stars": 4164,
+      "language": "TypeScript",
+      "topics": [
+        "ai-agents",
+        "automation",
+        "claude-code",
+        "cli",
+        "codex",
+        "event-driven",
+        "mcp",
+        "nodejs",
+        "self-hosted",
+        "typescript",
+        "workflow"
+      ],
+      "categories": [
+        "Linux",
+        "AI",
+        "AI神器"
+      ],
+      "platforms": [
+        "Linux",
+        "AI",
+        "AI神器"
+      ],
+      "pick": "ai_tool",
+      "slot": "AI神器",
+      "kind": "search",
+      "created_at": "2026-11-03",
+      "first_date": "2026-11-05",
+      "last_date": "2026-11-09",
+      "dates": [
+        "2026-11-09",
+        "2026-11-05"
+      ],
+      "times": 2
+    },
+    {
+      "full_name": "sarpstar/cinecode",
+      "url": "https://github.com/sarpstar/cinecode",
+      "description": "Films made with code. Short films, long YouTube videos, ads, explainers and music videos: an AI coding agent writes the script, builds every frame in code, designs the sound and hands you an MP4.",
+      "summary": "利用 AI 代码代理从零编写脚本、生成画面并制作音频，实现全流程代码化电影制作\n适合希望通过代码自动化创作视频内容（如广告、解说）的开发者与创作者\n全流程自动化，从脚本编写、画面生成到音效设计均由 AI 代码代理完成",
+      "stars": 1660,
+      "language": "Python",
+      "topics": [],
+      "categories": [
+        "AI神器"
+      ],
+      "platforms": [
+        "AI神器"
+      ],
+      "pick": "ai_tool",
+      "slot": "AI神器",
+      "kind": "search",
+      "created_at": "2026-11-03",
+      "first_date": "2026-11-09",
+      "last_date": "2026-11-09",
+      "dates": [
+        "2026-11-09"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "cutetailbud/ff-ruyijs",
+      "url": "https://github.com/cutetailbud/ff-ruyijs",
+      "description": "This is a lightweight, headless browser purpose-built for AI agents (such as Codex or Claude Code) to perform browser automation tasks; it is designed to navigate through various web protection systems, login processes, and reverse-engineering scenarios",
+      "summary": "解决什么：为 AI 代理提供轻量级无头浏览器，用于自动化任务并导航各种网络保护系统和登录流程\n适合谁：AI 开发者和研究人员，需要自动化浏览器任务并处理复杂网站保护的场景\n亮点：专为 AI 代理设计的轻量级无头浏览器，能有效应对网络保护系统",
+      "stars": 1088,
+      "language": "C++",
+      "topics": [
+        "anti-bot",
+        "automation",
+        "firefox",
+        "headless-browser",
+        "javascript",
+        "python",
+        "spidermonkey",
+        "web-scraping"
+      ],
+      "categories": [
+        "AI神器"
+      ],
+      "platforms": [
+        "AI神器"
+      ],
+      "pick": "ai_tool",
+      "slot": "AI神器",
+      "kind": "search",
+      "created_at": "2026-10-28",
+      "first_date": "2026-11-09",
+      "last_date": "2026-11-09",
+      "dates": [
+        "2026-11-09"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "shinyobjectz/raea",
+      "url": "https://github.com/shinyobjectz/raea",
+      "description": "Render Anything Engine: tell your AI what to make. Videos, motion graphics, 3D and games as React and TypeScript, rendered on your own GPU. Rust + Bevy, macOS, Linux and Windows.",
+      "summary": "解决什么：让 AI 根据指令创作视频、动效、3D 和游戏，支持 React 和 TypeScript，利用本地 GPU 渲染\n适合谁：需要 AI 生成视觉内容的开发者，适合在 macOS、Linux 和 Windows 系统上使用\n亮点：基于 Rust 和 Bevy，支持 React 和 TypeScript 进行 AI 视觉内容创作",
+      "stars": 746,
+      "language": "Rust",
+      "topics": [
+        "3d",
+        "agent-skills",
+        "ai-agents",
+        "ai-video",
+        "bevy",
+        "claude-code",
+        "game-engine",
+        "gpu",
+        "linux",
+        "macos",
+        "motion-design",
+        "motion-graphics",
+        "react",
+        "rust",
+        "typescript",
+        "video-editing",
+        "video-rendering",
+        "wgpu",
+        "windows"
+      ],
+      "categories": [
+        "Linux",
+        "AI"
+      ],
+      "platforms": [
+        "AI"
+      ],
+      "pick": "ai",
+      "slot": "AI",
+      "kind": "search",
+      "created_at": "2026-10-18",
+      "first_date": "2026-11-09",
+      "last_date": "2026-11-09",
+      "dates": [
+        "2026-11-09"
+      ],
+      "times": 1
+    },
     {
       "full_name": "junegunn/fzf",
       "url": "https://github.com/junegunn/fzf",
@@ -1765,54 +2375,6 @@
       "times": 1
     },
     {
-      "full_name": "electerm/electerm",
-      "url": "https://github.com/electerm/electerm",
-      "description": "📻Free and open-sourced terminal/ssh/sftp/ftp/telnet/serialport/RDP/VNC/Spice client(Linux, Mac, Windows, Android, HarmonyOS, iOS)",
-      "summary": "提供跨平台的 SSH/SFTP/FTP/Telnet/RDP/VNC 等终端及远程连接客户端，支持多操作系统\n适合需要在 Linux、Mac、Windows、Android 或鸿蒙系统上进行远程管理和开发的人员\n近期涨星最快的开源项目，功能全面且支持 AI 和 MCP",
-      "stars": 15554,
-      "language": "JavaScript",
-      "topics": [
-        "ai",
-        "android",
-        "electerm",
-        "electron",
-        "ftp",
-        "harmonyos",
-        "linux-app",
-        "macos-app",
-        "mcp",
-        "open-source",
-        "rdp",
-        "serialport",
-        "sftp",
-        "spice",
-        "ssh",
-        "telnet",
-        "terminal",
-        "vnc",
-        "windows-app",
-        "zmodem"
-      ],
-      "categories": [
-        "鸿蒙",
-        "Windows"
-      ],
-      "platforms": [
-        "鸿蒙"
-      ],
-      "pick": "growth",
-      "slot": "鸿蒙",
-      "kind": "search",
-      "created_at": "2017-10-07",
-      "first_date": "2026-10-29",
-      "last_date": "2026-11-05",
-      "dates": [
-        "2026-11-05",
-        "2026-10-29"
-      ],
-      "times": 2
-    },
-    {
       "full_name": "android10/Android-CleanArchitecture",
       "url": "https://github.com/android10/Android-CleanArchitecture",
       "description": "This is a sample app that is part of a series of blog posts I have written about how to architect an android application using Uncle Bob's clean architecture approach.",
@@ -1921,44 +2483,6 @@
       "times": 2
     },
     {
-      "full_name": "KKKKhazix/agent-autoloop",
-      "url": "https://github.com/KKKKhazix/agent-autoloop",
-      "description": "让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。",
-      "summary": "解决命令行 Agent 需要人工持续干预的问题，实现后台自动执行与按需确认\n适合需要自动化工作流、使用 TypeScript 的开发者\n支持 MCP 协议与事件驱动，近期涨星最快",
-      "stars": 2803,
-      "language": "TypeScript",
-      "topics": [
-        "ai-agents",
-        "automation",
-        "claude-code",
-        "cli",
-        "codex",
-        "event-driven",
-        "mcp",
-        "nodejs",
-        "self-hosted",
-        "typescript",
-        "workflow"
-      ],
-      "categories": [
-        "Linux",
-        "AI"
-      ],
-      "platforms": [
-        "Linux"
-      ],
-      "pick": "growth",
-      "slot": "Linux",
-      "kind": "search",
-      "created_at": "2026-11-03",
-      "first_date": "2026-11-05",
-      "last_date": "2026-11-05",
-      "dates": [
-        "2026-11-05"
-      ],
-      "times": 1
-    },
-    {
       "full_name": "harmony-on-android/HOA",
       "url": "https://github.com/harmony-on-android/HOA",
       "description": "Run OpenHarmony hap on Android",
@@ -2019,54 +2543,6 @@
         "2026-11-05"
       ],
       "times": 1
-    },
-    {
-      "full_name": "morluto/rea",
-      "url": "https://github.com/morluto/rea",
-      "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
-      "summary": "利用 AI 代理逆向工程应用行为及原生二进制文件\n适合安全研究人员、逆向工程师及开发者\n近期涨星最快的逆向工程工具，利用代理实现自动化分析",
-      "stars": 427911,
-      "language": "TypeScript",
-      "topics": [
-        "agent-skills",
-        "ai",
-        "android",
-        "claude-code",
-        "cli",
-        "cpp",
-        "dsh-plugin",
-        "html",
-        "java",
-        "javascript",
-        "linux",
-        "mcp",
-        "nodejs",
-        "python",
-        "rea",
-        "react",
-        "rust",
-        "security",
-        "touhou",
-        "typescript"
-      ],
-      "categories": [
-        "Linux"
-      ],
-      "platforms": [
-        "Linux"
-      ],
-      "pick": "growth",
-      "slot": "Linux",
-      "kind": "search",
-      "created_at": "2026-04-14",
-      "first_date": "2026-10-27",
-      "last_date": "2026-11-04",
-      "dates": [
-        "2026-11-04",
-        "2026-10-31",
-        "2026-10-27"
-      ],
-      "times": 3
     },
     {
       "full_name": "sharkdp/bat",
@@ -2148,52 +2624,6 @@
         "2026-11-04"
       ],
       "times": 1
-    },
-    {
-      "full_name": "Gathin23/cleanyourtv",
-      "url": "https://github.com/Gathin23/cleanyourtv",
-      "description": "Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
-      "summary": "通过 Wi-Fi 远程清理 Android 或 Google TV 的预装软件，并提供 Apple TV 风格的启动器\n拥有 Android TV、Google TV 或 Fire TV 设备并希望移除广告和预装应用的用户\n近期涨星最快的项目，支持多品牌设备并实现 Apple TV 风格的界面",
-      "stars": 51527,
-      "language": "Python",
-      "topics": [
-        "adb",
-        "adblock",
-        "android-tv",
-        "android-tv-launcher",
-        "apple-tv",
-        "bloatware-removal",
-        "claude-code",
-        "debloat",
-        "fire-tv",
-        "google-tv",
-        "launcher",
-        "privacy",
-        "smart-tv",
-        "sony-bravia",
-        "tcl",
-        "vibe-coding",
-        "xiaomi"
-      ],
-      "categories": [
-        "安卓"
-      ],
-      "platforms": [
-        "安卓"
-      ],
-      "pick": "growth",
-      "slot": "安卓",
-      "kind": "search",
-      "created_at": "2026-10-17",
-      "first_date": "2026-10-22",
-      "last_date": "2026-11-04",
-      "dates": [
-        "2026-11-04",
-        "2026-10-31",
-        "2026-10-27",
-        "2026-10-22"
-      ],
-      "times": 4
     },
     {
       "full_name": "simdjson/simdjson",
@@ -2311,48 +2741,6 @@
         "2026-11-04"
       ],
       "times": 1
-    },
-    {
-      "full_name": "jhaizhou-ops/d2r-mobile",
-      "url": "https://github.com/jhaizhou-ops/d2r-mobile",
-      "description": "Open-source compatibility layer for Diablo II: Resurrected with the Reign of the Warlock expansion. Runs your own Switch copy natively on iPhone, iPad, Mac, Android and HarmonyOS — full touch controls, 60 fps, new endgame modes. Bring your own game files. 开源的《暗黑破坏神 II：狱火重生》术士君临 iOS / macOS / 安卓 / 鸿蒙兼容层",
-      "summary": "为《暗黑破坏神 II：狱火重生》提供开源兼容层，支持在 iOS、macOS、Android 和 HarmonyOS 上运行 Switch 版本\n适合拥有 Switch 版游戏文件的玩家，希望在移动设备或 Mac 上流畅游玩并享受触控操作\n支持全触控、60fps 和新结局模式，近期涨星最快且支持鸿蒙系统",
-      "stars": 5093,
-      "language": "C",
-      "topics": [
-        "android",
-        "compatibility-layer",
-        "diablo-2-resurrected",
-        "diablo2",
-        "game-port",
-        "harmonyos",
-        "ios",
-        "ipad",
-        "iphone",
-        "mac",
-        "macos",
-        "metal",
-        "reign-of-the-warlock",
-        "vulkan"
-      ],
-      "categories": [
-        "鸿蒙"
-      ],
-      "platforms": [
-        "鸿蒙"
-      ],
-      "pick": "growth",
-      "slot": "鸿蒙",
-      "kind": "search",
-      "created_at": "2026-10-12",
-      "first_date": "2026-10-27",
-      "last_date": "2026-11-04",
-      "dates": [
-        "2026-11-04",
-        "2026-10-31",
-        "2026-10-27"
-      ],
-      "times": 3
     },
     {
       "full_name": "ohosvscode/arkTS",
@@ -2828,33 +3216,6 @@
       "times": 1
     },
     {
-      "full_name": "Niko1221/Strata",
-      "url": "https://github.com/Niko1221/Strata",
-      "description": "Qwen3.8-Flash-Next on any consumer hardware: one-click install for Windows / Linux. Strata inference engine, OpenAI/Anthropic API on localhost, optional image input.",
-      "summary": "解决在消费级硬件上本地运行 Qwen3.8-Flash-Next 模型的难题\n适合希望在 Windows/Linux 上通过本地 API 快速部署大模型或开发 AI 应用的用户\n亮点是集成了 Strata 推理引擎，支持一键安装及图像输入",
-      "stars": 37862,
-      "language": "C++",
-      "topics": [],
-      "categories": [
-        "Windows"
-      ],
-      "platforms": [
-        "Windows"
-      ],
-      "pick": "growth",
-      "slot": "Windows",
-      "kind": "search",
-      "created_at": "2026-09-24",
-      "first_date": "2026-10-25",
-      "last_date": "2026-11-02",
-      "dates": [
-        "2026-11-02",
-        "2026-10-29",
-        "2026-10-25"
-      ],
-      "times": 3
-    },
-    {
       "full_name": "ionic-team/capacitor",
       "url": "https://github.com/ionic-team/capacitor",
       "description": "Build cross-platform Native Progressive Web Apps for iOS, Android, and the Web ⚡️",
@@ -2970,51 +3331,6 @@
       "slot": null,
       "kind": "learn",
       "created_at": "2010-03-20",
-      "first_date": "2026-11-02",
-      "last_date": "2026-11-02",
-      "dates": [
-        "2026-11-02"
-      ],
-      "times": 1
-    },
-    {
-      "full_name": "microsoft/TokenEconomizer",
-      "url": "https://github.com/microsoft/TokenEconomizer",
-      "description": "Experience-Driven Black-Box Cost Control for Coding Agents",
-      "summary": "针对编码代理高昂的 Token 消耗成本提供优化方案\n适合需要降低 AI 编码助手成本的开发者或团队\n通过智能策略降低 LLM 调用成本，提升开发效率",
-      "stars": 4106,
-      "language": "Python",
-      "topics": [
-        "agentic-ai",
-        "agentic-coding",
-        "ai-coding",
-        "ai-coding-assistant",
-        "anthropic",
-        "artificial-intelligence",
-        "claude-code",
-        "codex",
-        "coding-agent",
-        "coding-agents",
-        "cost-optimization",
-        "cost-reduction",
-        "developer-tools",
-        "github-copilot",
-        "llm",
-        "open-source",
-        "openai",
-        "productivity",
-        "token-optimization"
-      ],
-      "categories": [
-        "AI"
-      ],
-      "platforms": [
-        "AI"
-      ],
-      "pick": "ai",
-      "slot": "AI",
-      "kind": "search",
-      "created_at": "2026-10-13",
       "first_date": "2026-11-02",
       "last_date": "2026-11-02",
       "dates": [
@@ -3701,35 +4017,6 @@
       "times": 1
     },
     {
-      "full_name": "jesseduffield/lazygit",
-      "url": "https://github.com/jesseduffield/lazygit",
-      "description": "simple terminal UI for git commands",
-      "summary": "提供一个基于终端的 Git 交互界面，简化繁琐的命令行操作\n适合习惯使用命令行工具、希望快速进行 Git 操作的开发者\n以极简的 TUI 界面和强大的功能深受开发者喜爱",
-      "stars": 83520,
-      "language": "Go",
-      "topics": [
-        "cli",
-        "git",
-        "terminal"
-      ],
-      "categories": [
-        "Linux"
-      ],
-      "platforms": [
-        "Linux"
-      ],
-      "pick": "top",
-      "slot": "Linux",
-      "kind": "search",
-      "created_at": "2018-05-19",
-      "first_date": "2026-10-30",
-      "last_date": "2026-10-30",
-      "dates": [
-        "2026-10-30"
-      ],
-      "times": 1
-    },
-    {
       "full_name": "ocornut/imgui",
       "url": "https://github.com/ocornut/imgui",
       "description": "Dear ImGui: Bloat-free Graphical User interface for C++ with minimal dependencies",
@@ -3851,45 +4138,6 @@
       "times": 1
     },
     {
-      "full_name": "marktext/marktext",
-      "url": "https://github.com/marktext/marktext",
-      "description": "📝A simple and elegant markdown editor, available for Linux, macOS and Windows.",
-      "summary": "提供跨平台的简单且优雅的 Markdown 编辑体验，支持 Linux、macOS 和 Windows 系统。\n适合需要编写 Markdown 文档的开发者、作家及学生，特别是偏好极简界面和专注写作的用户。\n基于 Electron 开发，支持 LaTeX 公式渲染、专注模式和打字机模式，界面简洁美观。",
-      "stars": 63245,
-      "language": "TypeScript",
-      "topics": [
-        "editor",
-        "electron",
-        "focus-mode",
-        "latex",
-        "linux",
-        "mac",
-        "macos",
-        "markdown",
-        "marktext",
-        "source-code",
-        "typewriter-mode",
-        "windows"
-      ],
-      "categories": [
-        "Linux",
-        "Windows"
-      ],
-      "platforms": [
-        "Windows"
-      ],
-      "pick": "top",
-      "slot": "Windows",
-      "kind": "search",
-      "created_at": "2017-11-12",
-      "first_date": "2026-10-29",
-      "last_date": "2026-10-29",
-      "dates": [
-        "2026-10-29"
-      ],
-      "times": 1
-    },
-    {
       "full_name": "google/googletest",
       "url": "https://github.com/google/googletest",
       "description": "GoogleTest - Google Testing and Mocking Framework",
@@ -3907,51 +4155,6 @@
       "slot": null,
       "kind": "learn",
       "created_at": "2015-07-28",
-      "first_date": "2026-10-29",
-      "last_date": "2026-10-29",
-      "dates": [
-        "2026-10-29"
-      ],
-      "times": 1
-    },
-    {
-      "full_name": "HunxByts/GhostTrack",
-      "url": "https://github.com/HunxByts/GhostTrack",
-      "description": "Useful tool to track location or mobile number",
-      "summary": "用于追踪手机号码位置或 IP 地址的实用工具\n适合在安卓 Termux 环境下进行信息收集或渗透测试\nTermux 社区中高人气的黑客工具",
-      "stars": 20224,
-      "language": "Python",
-      "topics": [
-        "cybersecurity",
-        "fyp",
-        "hacking",
-        "hacking-tool",
-        "indonesia",
-        "information",
-        "information-gathering",
-        "ip-geolocation",
-        "linux",
-        "osint",
-        "osint-python",
-        "osint-tool",
-        "pentesting",
-        "phone-number",
-        "python",
-        "python-hacking",
-        "termux",
-        "termux-hacks",
-        "termux-tool"
-      ],
-      "categories": [
-        "安卓"
-      ],
-      "platforms": [
-        "安卓"
-      ],
-      "pick": "top",
-      "slot": "安卓",
-      "kind": "search",
-      "created_at": "2023-04-15",
       "first_date": "2026-10-29",
       "last_date": "2026-10-29",
       "dates": [
@@ -4436,46 +4639,6 @@
       "slot": "Windows",
       "kind": "search",
       "created_at": "2026-08-03",
-      "first_date": "2026-10-26",
-      "last_date": "2026-10-26",
-      "dates": [
-        "2026-10-26"
-      ],
-      "times": 1
-    },
-    {
-      "full_name": "doctest/doctest",
-      "url": "https://github.com/doctest/doctest",
-      "description": "The fastest feature-rich C++11/14/17/20/23 single-header testing framework",
-      "summary": "学什么：能学到C++宏和模板的高级用法，以及如何设计轻量级、功能丰富的库\n适合谁：适合有一定C++基础，想深入理解语言特性并希望构建类似工具的开发者\n怎么读：先从框架的宏和模板实现入手，逐步理解其测试机制和扩展方式",
-      "stars": 6901,
-      "language": "C++",
-      "topics": [
-        "c-plus-plus",
-        "cpp",
-        "cpp11",
-        "cpp14",
-        "cpp17",
-        "cpp20",
-        "cpp23",
-        "doctest",
-        "header-only",
-        "single-file",
-        "tdd",
-        "testing",
-        "testing-framework",
-        "unit-testing"
-      ],
-      "categories": [
-        "C++"
-      ],
-      "platforms": [
-        "C++"
-      ],
-      "pick": null,
-      "slot": null,
-      "kind": "learn",
-      "created_at": "2014-08-05",
       "first_date": "2026-10-26",
       "last_date": "2026-10-26",
       "dates": [
@@ -5237,47 +5400,6 @@
       "slot": "Windows",
       "kind": "search",
       "created_at": "2026-03-12",
-      "first_date": "2026-10-23",
-      "last_date": "2026-10-23",
-      "dates": [
-        "2026-10-23"
-      ],
-      "times": 1
-    },
-    {
-      "full_name": "skywind3000/kcp",
-      "url": "https://github.com/skywind3000/kcp",
-      "description": ":zap: KCP - A Fast and Reliable ARQ Protocol",
-      "summary": "学什么：学习如何在 UDP 之上实现可靠传输，理解 ARQ 协议与拥塞控制机制\n适合谁：适合有一定 C 语言基础，想了解底层网络协议实现与可靠传输机制的入门开发者\n怎么读：先看头文件理解数据结构，再深入 ikcp.c 核心逻辑与定时器机制",
-      "stars": 16942,
-      "language": "C",
-      "topics": [
-        "accelerator",
-        "ack",
-        "arq",
-        "c",
-        "kcp",
-        "kcptun",
-        "low-latency",
-        "protocol",
-        "quic",
-        "rtc",
-        "rtt",
-        "socket",
-        "srt",
-        "tunnel",
-        "udp"
-      ],
-      "categories": [
-        "C"
-      ],
-      "platforms": [
-        "C"
-      ],
-      "pick": null,
-      "slot": null,
-      "kind": "learn",
-      "created_at": "2014-12-26",
       "first_date": "2026-10-23",
       "last_date": "2026-10-23",
       "dates": [
