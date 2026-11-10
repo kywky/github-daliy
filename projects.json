@@ -1,8 +1,572 @@
 {
-  "generated_at": "2026-11-09T06:02:25.437721+00:00",
-  "total": 159,
-  "occurrences": 232,
+  "generated_at": "2026-11-10T07:03:26.667590+00:00",
+  "total": 165,
+  "occurrences": 247,
   "projects": [
+    {
+      "full_name": "sherlock-project/sherlock",
+      "url": "https://github.com/sherlock-project/sherlock",
+      "description": "Hunt down social media accounts by username across social networks",
+      "summary": "解决什么：通过用户名跨社交媒体平台查找个人账户\n适合谁：渗透测试人员、安全研究员、数字取证专家等网络安全相关从业者\n亮点：一站式解决跨平台社交媒体账户查找的工具",
+      "stars": 107735,
+      "language": "Python",
+      "topics": [
+        "cli",
+        "cti",
+        "cybersecurity",
+        "forensics",
+        "hacktoberfest",
+        "information-gathering",
+        "infosec",
+        "linux",
+        "osint",
+        "pentesting",
+        "python",
+        "python3",
+        "reconnaissance",
+        "redteam",
+        "sherlock",
+        "tools"
+      ],
+      "categories": [
+        "Linux"
+      ],
+      "platforms": [
+        "Linux"
+      ],
+      "pick": "top",
+      "slot": "Linux",
+      "kind": "search",
+      "created_at": "2018-12-24",
+      "first_date": "2026-10-25",
+      "last_date": "2026-11-10",
+      "dates": [
+        "2026-11-10",
+        "2026-10-25"
+      ],
+      "times": 2
+    },
+    {
+      "full_name": "tw93/Pake",
+      "url": "https://github.com/tw93/Pake",
+      "description": "Turn any website into a lightweight desktop app with one command, on macOS, Windows and Linux.",
+      "summary": "将任意网站一键转换为跨平台轻量级桌面应用，解决网页在桌面端缺乏原生体验的问题\n需要将网页快速打包为原生桌面应用的开发者，以及寻求 Electron 轻量化替代方案的用户\n基于 Rust 和 Tauri 技术栈，相比 Electron 极其轻量，支持一键命令行转换",
+      "stars": 63059,
+      "language": "Rust",
+      "topics": [
+        "chatgpt",
+        "claude",
+        "cli",
+        "desktop",
+        "desktop-app",
+        "electron-alternative",
+        "gemini",
+        "linux",
+        "macos",
+        "nativefier",
+        "no-electron",
+        "rust",
+        "tauri",
+        "web-to-desktop",
+        "website-to-app",
+        "webview",
+        "windows",
+        "youtube"
+      ],
+      "categories": [
+        "Linux",
+        "Windows"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "pick": "top",
+      "slot": "Windows",
+      "kind": "search",
+      "created_at": "2022-10-14",
+      "first_date": "2026-10-30",
+      "last_date": "2026-11-10",
+      "dates": [
+        "2026-11-10",
+        "2026-10-30"
+      ],
+      "times": 2
+    },
+    {
+      "full_name": "yetone/magpie",
+      "url": "https://github.com/yetone/magpie",
+      "description": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
+      "summary": "统一管理多种大模型（如 Claude、DeepSeek、Kimi）的访问入口，解决用户在不同 AI 应用间切换的繁琐问题\n适合 macOS 用户，特别是需要频繁使用多种 LLM 进行编程辅助或日常对话的开发者与创作者\n独特的 macOS 菜单栏集成体验，将 Claude Code、Codex 等多种模型聚合在一个应用中，实现快速切换",
+      "stars": 33404,
+      "language": "Go",
+      "topics": [
+        "claude-code",
+        "codex",
+        "deepseek",
+        "gemini-cli",
+        "llm",
+        "macos"
+      ],
+      "categories": [
+        "AI神器"
+      ],
+      "platforms": [
+        "AI神器"
+      ],
+      "pick": "ai_tool",
+      "slot": "AI神器",
+      "kind": "search",
+      "created_at": "2026-09-23",
+      "first_date": "2026-10-21",
+      "last_date": "2026-11-10",
+      "dates": [
+        "2026-11-10",
+        "2026-10-21"
+      ],
+      "times": 2
+    },
+    {
+      "full_name": "catchorg/Catch2",
+      "url": "https://github.com/catchorg/Catch2",
+      "description": "A modern, C++-native, test framework for unit-tests, TDD and BDD - using C++14, C++17 and later (C++11 support is in v2.x branch, and C++03 on the Catch1.x branch)",
+      "summary": "学什么：学习 C++ 模板元编程与宏的高级用法，掌握现代 C++ 声明式 API 的设计模式\n适合谁：适合有一定 C++ 基础的开发者，想深入了解测试框架实现原理及现代 C++ 设计模式\n怎么读：建议从测试用例的宏定义入手，逐步追踪其内部注册机制和断言逻辑",
+      "stars": 21552,
+      "language": "C++",
+      "topics": [
+        "bdd",
+        "cpp",
+        "cpp14",
+        "framework",
+        "no-dependencies",
+        "tdd",
+        "test-framework",
+        "testing"
+      ],
+      "categories": [
+        "C++"
+      ],
+      "platforms": [
+        "C++"
+      ],
+      "pick": null,
+      "slot": null,
+      "kind": "learn",
+      "created_at": "2010-11-08",
+      "first_date": "2026-10-27",
+      "last_date": "2026-11-10",
+      "dates": [
+        "2026-11-10",
+        "2026-10-27"
+      ],
+      "times": 2
+    },
+    {
+      "full_name": "DuarteSantos8/openGym",
+      "url": "https://github.com/DuarteSantos8/openGym",
+      "description": "Open-source gym & body-weight tracker, now in the App Store (iPhone + Apple Watch) and as an Android APK. Plan routines, log workouts, see which muscles are trained, import from Strong/Hevy/FitNotes. Self-host it or use it on the phone alone.",
+      "summary": "解决什么：一个开源的健身房和自重训练追踪器，帮助用户规划训练计划、记录锻炼情况、查看肌肉训练情况，并支持从Strong/Hevy/FitNotes导入数据\n适合谁：健身爱好者、自重训练者、需要追踪训练数据的用户\n亮点：支持自托管或手机独立使用，并提供iOS和Apple Watch应用",
+      "stars": 20692,
+      "language": "JavaScript",
+      "topics": [
+        "apple-watch",
+        "bodyweight",
+        "docker",
+        "fitness",
+        "fitness-tracker",
+        "gym",
+        "health",
+        "ios",
+        "mcp",
+        "nodejs",
+        "passkeys",
+        "progressive-web-applications",
+        "pwa",
+        "react",
+        "self-hosted",
+        "self-hosting",
+        "vite",
+        "webauthn",
+        "weightlifting",
+        "workout-tracker"
+      ],
+      "categories": [
+        "安卓"
+      ],
+      "platforms": [
+        "安卓"
+      ],
+      "pick": "top",
+      "slot": "安卓",
+      "kind": "search",
+      "created_at": "2026-07-18",
+      "first_date": "2026-10-24",
+      "last_date": "2026-11-10",
+      "dates": [
+        "2026-11-10",
+        "2026-11-01",
+        "2026-10-28",
+        "2026-10-24"
+      ],
+      "times": 4
+    },
+    {
+      "full_name": "ccch1mneyyy/dsh-Go",
+      "url": "https://github.com/ccch1mneyyy/dsh-Go",
+      "description": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
+      "summary": "解决什么：让 DeepSeek AI 工具在安卓手机上本地运行，并可通过电脑进行远程控制\n适合谁：需要随时随地使用 AI 工具进行开发或创作的安卓用户\n亮点：将 DeepSeek Harness 打包成手机应用，实现本地化远程 AI 操作",
+      "stars": 17945,
+      "language": "Dart",
+      "topics": [
+        "ai-agent",
+        "android",
+        "android-app",
+        "coding-agent",
+        "deepseek",
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin",
+        "dsh-tui",
+        "flutter",
+        "llm"
+      ],
+      "categories": [
+        "安卓",
+        "AI",
+        "AI神器"
+      ],
+      "platforms": [
+        "安卓"
+      ],
+      "pick": "growth",
+      "slot": "安卓",
+      "kind": "search",
+      "created_at": "2026-10-25",
+      "first_date": "2026-10-30",
+      "last_date": "2026-11-10",
+      "dates": [
+        "2026-11-10",
+        "2026-11-05",
+        "2026-11-01",
+        "2026-10-30"
+      ],
+      "times": 4
+    },
+    {
+      "full_name": "heydamir/unslop",
+      "url": "https://github.com/heydamir/unslop",
+      "description": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
+      "summary": "解决什么：解决 AI 生成的粗糙 UI 缺乏设计美感的问题\n适合谁：适合使用 Claude 进行开发的开发者，希望获得专业级的设计界面\n亮点：将 AI 生成的粗糙代码转化为专业设计界面",
+      "stars": 12933,
+      "language": "JavaScript",
+      "topics": [],
+      "categories": [
+        "AI神器"
+      ],
+      "platforms": [
+        "AI神器"
+      ],
+      "pick": "ai_tool",
+      "slot": "AI神器",
+      "kind": "search",
+      "created_at": "2026-10-29",
+      "first_date": "2026-11-10",
+      "last_date": "2026-11-10",
+      "dates": [
+        "2026-11-10"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "KKKKhazix/AIHOT",
+      "url": "https://github.com/KKKKhazix/AIHOT",
+      "description": "一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。",
+      "summary": "解决什么：解决用户自己搜集热点并撰写行业日报的繁琐工作\n适合谁：适合需要每日资讯汇总、想要自建个性化热点站的内容创作者或运营者\n亮点：支持自定义信源与标准，基于 LLM 和 RSS 自动生成个性化日报",
+      "stars": 10164,
+      "language": "TypeScript",
+      "topics": [
+        "ai",
+        "chinese",
+        "content-curation",
+        "daily-digest",
+        "docker-compose",
+        "llm",
+        "mcp",
+        "news-aggregator",
+        "postgresql",
+        "rss",
+        "self-hosted",
+        "typescript"
+      ],
+      "categories": [
+        "AI神器"
+      ],
+      "platforms": [
+        "AI神器"
+      ],
+      "pick": "ai_tool",
+      "slot": "AI神器",
+      "kind": "search",
+      "created_at": "2026-09-28",
+      "first_date": "2026-11-10",
+      "last_date": "2026-11-10",
+      "dates": [
+        "2026-11-10"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "Tencent/libco",
+      "url": "https://github.com/Tencent/libco",
+      "description": "libco is a coroutine library which is widely used in wechat  back-end service. It has been running on tens of thousands of machines since 2013.",
+      "summary": "学什么：理解协程的实现原理，掌握上下文切换的关键技术\n适合谁：有一定 C++ 基础，对并发编程感兴趣的读者\n怎么读：先看协程创建和执行的函数，再深入调度器的设计",
+      "stars": 8693,
+      "language": "C++",
+      "topics": [],
+      "categories": [
+        "C"
+      ],
+      "platforms": [
+        "C"
+      ],
+      "pick": null,
+      "slot": null,
+      "kind": "learn",
+      "created_at": "2016-10-12",
+      "first_date": "2026-10-24",
+      "last_date": "2026-11-10",
+      "dates": [
+        "2026-11-10",
+        "2026-10-24"
+      ],
+      "times": 2
+    },
+    {
+      "full_name": "Minireel/HGhub",
+      "url": "https://github.com/Minireel/HGhub",
+      "description": "YellowFruit third-party client",
+      "summary": "解决什么：作为第三方客户端，提供类似 Instagram Reels 的短视频浏览和播放体验\n适合谁：喜欢观看短视频的用户，尤其是在 Windows 平台上寻求类似 Reels 功能的应用\n亮点：基于 TypeScript 开发的快速上涨星 Windows 短视频客户端",
+      "stars": 7056,
+      "language": "TypeScript",
+      "topics": [
+        "android",
+        "drama",
+        "free",
+        "movie-web-app",
+        "reels",
+        "windows"
+      ],
+      "categories": [
+        "Windows"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "pick": "growth",
+      "slot": "Windows",
+      "kind": "search",
+      "created_at": "2026-11-03",
+      "first_date": "2026-11-10",
+      "last_date": "2026-11-10",
+      "dates": [
+        "2026-11-10"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "Chevey339/kelivo",
+      "url": "https://github.com/Chevey339/kelivo",
+      "description": "A Flutter LLM Chat Client. Support Mobile & Desktop.",
+      "summary": "解决什么：提供一个基于 Flutter 的通用框架，用于构建支持移动端和桌面端的 LLM 对话式应用\n适合谁：开发者希望快速创建跨平台 AI 聊天机器人或聊天应用\n亮点：专为 Flutter 开发，支持鸿蒙系统，易于集成多种大型语言模型",
+      "stars": 4471,
+      "language": "Dart",
+      "topics": [
+        "ai",
+        "android",
+        "chatbot",
+        "chatbox",
+        "flutter",
+        "flutter-apps",
+        "harmony",
+        "harmonyos",
+        "ios",
+        "llm",
+        "openharmony"
+      ],
+      "categories": [
+        "鸿蒙"
+      ],
+      "platforms": [
+        "鸿蒙"
+      ],
+      "pick": "top",
+      "slot": "鸿蒙",
+      "kind": "search",
+      "created_at": "2025-08-29",
+      "first_date": "2026-10-28",
+      "last_date": "2026-11-10",
+      "dates": [
+        "2026-11-10",
+        "2026-10-28"
+      ],
+      "times": 2
+    },
+    {
+      "full_name": "Zitann/HarmonyOS-Haps",
+      "url": "https://github.com/Zitann/HarmonyOS-Haps",
+      "description": "⚡️鸿蒙Next Hap安装包合集，如果您觉得有帮助，还请点亮一下 Star 🌟 哦~ 万分感谢！",
+      "summary": "解决什么：提供鸿蒙Next Hap安装包合集，方便用户下载和使用\n适合谁：对鸿蒙Next系统感兴趣的开发者或用户\n亮点：鸿蒙Next Hap安装包的集中集合，近期涨星最快",
+      "stars": 3901,
+      "language": "Python",
+      "topics": [
+        "harmonyos",
+        "harmonyos-next"
+      ],
+      "categories": [
+        "鸿蒙"
+      ],
+      "platforms": [
+        "鸿蒙"
+      ],
+      "pick": "growth",
+      "slot": "鸿蒙",
+      "kind": "search",
+      "created_at": "2024-11-15",
+      "first_date": "2026-10-24",
+      "last_date": "2026-11-10",
+      "dates": [
+        "2026-11-10",
+        "2026-11-02",
+        "2026-10-28",
+        "2026-10-24"
+      ],
+      "times": 4
+    },
+    {
+      "full_name": "IainKay/ram-altman",
+      "url": "https://github.com/IainKay/ram-altman",
+      "description": "Monitors your RAM and reports any \"quite terrible\" unused capacity directly to the CEO of OpenAI.",
+      "summary": "监控系统 RAM 空闲情况，并自动向 OpenAI CEO 报告未使用的内存容量\nLinux 系统管理员或喜欢对 OpenAI CEO 进行恶搞的极客用户\n将系统监控与幽默讽刺结合，通过邮件向 OpenAI CEO 报告内存使用情况",
+      "stars": 1516,
+      "language": "Shell",
+      "topics": [
+        "bash",
+        "cron",
+        "dram",
+        "email",
+        "humor",
+        "linux",
+        "meminfo",
+        "memory",
+        "monitoring",
+        "openai",
+        "parody",
+        "ram",
+        "ram-altman",
+        "sam-altman",
+        "sam-altman-openai",
+        "shell-script",
+        "sysadmin"
+      ],
+      "categories": [
+        "Linux"
+      ],
+      "platforms": [
+        "Linux"
+      ],
+      "pick": "growth",
+      "slot": "Linux",
+      "kind": "search",
+      "created_at": "2026-11-05",
+      "first_date": "2026-11-10",
+      "last_date": "2026-11-10",
+      "dates": [
+        "2026-11-10"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "0sec-labs/0",
+      "url": "https://github.com/0sec-labs/0",
+      "description": "The open-source AI security harness. Includes a web interface for code analysis, pentesting, vulnerability research, reverse engineering, verification, and fixing + CLI and MCP for agents.",
+      "summary": "解决什么：提供开源AI安全工具集，支持代码分析、渗透测试、漏洞研究和逆向工程等功能\n适合谁：适合安全研究员、渗透测试人员和开发者使用，用于提升软件安全性和检测漏洞\n亮点：集成多种安全功能于一站式平台，支持Web界面和CLI工具，便于自动化和集成安全流程",
+      "stars": 1140,
+      "language": "TypeScript",
+      "topics": [
+        "ai-agents",
+        "application-security",
+        "binary-analysis",
+        "code-review",
+        "cybersecurity",
+        "llm-agents",
+        "mcp",
+        "penetration-testing",
+        "security-research",
+        "security-tools",
+        "vulnerability-detection",
+        "vulnerability-scanner"
+      ],
+      "categories": [
+        "AI神器"
+      ],
+      "platforms": [
+        "AI神器"
+      ],
+      "pick": "ai_tool",
+      "slot": "AI神器",
+      "kind": "search",
+      "created_at": "2026-08-19",
+      "first_date": "2026-11-10",
+      "last_date": "2026-11-10",
+      "dates": [
+        "2026-11-10"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "synchopate/llama-modchip",
+      "url": "https://github.com/synchopate/llama-modchip",
+      "description": "🐋 Run 284B DeepSeek-V4-Flash (<59GiB RAM, 44.4 tok/s pp, 9.1-14.7 tok/s) & 30B MoEs (25-111 tok/s) on a pure 64GB CPU at 256K ctx (0 GPUs). SwiGLU-H2, Stockfish-PVS L3 & 13ms Claude Code restore.",
+      "summary": "解决什么：在纯 CPU 环境下高效运行大型语言模型，无需 GPU 支持即可处理 284B DeepSeek-V4-Flash 和 30B MoEs\n适合谁：需要在没有 GPU 的情况下运行大型语言模型的开发者或研究人员\n亮点：纯 CPU 实现高效率运行巨型语言模型",
+      "stars": 807,
+      "language": "Python",
+      "topics": [
+        "ai-agents",
+        "apple-silicon",
+        "avx512",
+        "claude-code",
+        "cpu-inference",
+        "deepseek",
+        "deepseek-v4",
+        "gguf",
+        "hpc",
+        "llama-cpp",
+        "local-llm",
+        "mamba2",
+        "mixture-of-experts",
+        "nemotron",
+        "quantization",
+        "qwen3",
+        "speculative-decoding",
+        "stockfish",
+        "zen5"
+      ],
+      "categories": [
+        "AI"
+      ],
+      "platforms": [
+        "AI"
+      ],
+      "pick": "ai",
+      "slot": "AI",
+      "kind": "search",
+      "created_at": "2026-10-29",
+      "first_date": "2026-11-10",
+      "last_date": "2026-11-10",
+      "dates": [
+        "2026-11-10"
+      ],
+      "times": 1
+    },
     {
       "full_name": "morluto/rea",
       "url": "https://github.com/morluto/rea",
@@ -2408,46 +2972,6 @@
       "times": 1
     },
     {
-      "full_name": "ccch1mneyyy/dsh-Go",
-      "url": "https://github.com/ccch1mneyyy/dsh-Go",
-      "description": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
-      "summary": "解决在手机本地运行 DeepSeek 模型并远程控制电脑进行 AI 编码的问题\n适合希望利用手机算力运行 AI 模型并远程操控电脑的开发者\n基于 Flutter 开发，近期涨星迅猛，将 DeepSeek Harness 移植到手机端",
-      "stars": 10108,
-      "language": "Dart",
-      "topics": [
-        "ai-agent",
-        "android",
-        "android-app",
-        "coding-agent",
-        "deepseek",
-        "deepseek-harness",
-        "dsh",
-        "dsh-plugin",
-        "dsh-tui",
-        "flutter",
-        "llm"
-      ],
-      "categories": [
-        "安卓",
-        "AI"
-      ],
-      "platforms": [
-        "安卓"
-      ],
-      "pick": "growth",
-      "slot": "安卓",
-      "kind": "search",
-      "created_at": "2026-10-25",
-      "first_date": "2026-10-30",
-      "last_date": "2026-11-05",
-      "dates": [
-        "2026-11-05",
-        "2026-11-01",
-        "2026-10-30"
-      ],
-      "times": 3
-    },
-    {
       "full_name": "wangzan101/Mika",
       "url": "https://github.com/wangzan101/Mika",
       "description": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
@@ -3371,36 +3895,6 @@
       "times": 1
     },
     {
-      "full_name": "Zitann/HarmonyOS-Haps",
-      "url": "https://github.com/Zitann/HarmonyOS-Haps",
-      "description": "⚡️鸿蒙Next Hap安装包合集，如果您觉得有帮助，还请点亮一下 Star 🌟 哦~ 万分感谢！",
-      "summary": "解决什么：整理并分享鸿蒙Next系统的HAP安装包合集，解决用户资源获取难题\n适合谁：面向鸿蒙Next系统用户及开发者，提供便捷的HAP包获取渠道\n亮点：涨星迅猛，是目前鸿蒙Next领域热度极高的资源合集",
-      "stars": 3771,
-      "language": "Python",
-      "topics": [
-        "harmonyos",
-        "harmonyos-next"
-      ],
-      "categories": [
-        "鸿蒙"
-      ],
-      "platforms": [
-        "鸿蒙"
-      ],
-      "pick": "growth",
-      "slot": "鸿蒙",
-      "kind": "search",
-      "created_at": "2024-11-15",
-      "first_date": "2026-10-24",
-      "last_date": "2026-11-02",
-      "dates": [
-        "2026-11-02",
-        "2026-10-28",
-        "2026-10-24"
-      ],
-      "times": 3
-    },
-    {
       "full_name": "netdata/netdata",
       "url": "https://github.com/netdata/netdata",
       "description": "The fastest path to AI-powered full stack observability, even for lean teams.",
@@ -3531,54 +4025,6 @@
         "2026-10-28"
       ],
       "times": 2
-    },
-    {
-      "full_name": "DuarteSantos8/openGym",
-      "url": "https://github.com/DuarteSantos8/openGym",
-      "description": "Open-source gym & body-weight tracker, now in the App Store (iPhone + Apple Watch) and as an Android APK. Plan routines, log workouts, see which muscles are trained, import from Strong/Hevy/FitNotes. Self-host it or use it on the phone alone.",
-      "summary": "解决什么：一个开源的健身和自重训练追踪器，帮助用户计划训练、记录锻炼、查看肌肉训练情况，并支持从其他应用导入数据\n适合谁：健身爱好者、自重训练者，需要记录和管理个人训练数据的用户\n亮点：支持自托管或离线使用，并提供跨平台应用（iOS、Apple Watch、Android）",
-      "stars": 18341,
-      "language": "JavaScript",
-      "topics": [
-        "apple-watch",
-        "bodyweight",
-        "docker",
-        "fitness",
-        "fitness-tracker",
-        "gym",
-        "health",
-        "ios",
-        "mcp",
-        "nodejs",
-        "passkeys",
-        "progressive-web-applications",
-        "pwa",
-        "react",
-        "self-hosted",
-        "self-hosting",
-        "vite",
-        "webauthn",
-        "weightlifting",
-        "workout-tracker"
-      ],
-      "categories": [
-        "安卓"
-      ],
-      "platforms": [
-        "安卓"
-      ],
-      "pick": "top",
-      "slot": "安卓",
-      "kind": "search",
-      "created_at": "2026-07-18",
-      "first_date": "2026-10-24",
-      "last_date": "2026-11-01",
-      "dates": [
-        "2026-11-01",
-        "2026-10-28",
-        "2026-10-24"
-      ],
-      "times": 3
     },
     {
       "full_name": "Neargye/magic_enum",
@@ -4058,51 +4504,6 @@
       "times": 1
     },
     {
-      "full_name": "tw93/Pake",
-      "url": "https://github.com/tw93/Pake",
-      "description": "Turn any website into a lightweight desktop app with one command, on macOS, Windows and Linux.",
-      "summary": "解决什么：将任何网站一键转换为轻量级桌面应用，支持 macOS、Windows 和 Linux\n适合谁：开发者或用户，希望将常用网站转化为独立应用，提升使用效率和体验\n亮点：使用 Rust 开发，无需 Electron，实现快速创建原生感桌面应用",
-      "stars": 62633,
-      "language": "Rust",
-      "topics": [
-        "chatgpt",
-        "claude",
-        "cli",
-        "desktop",
-        "desktop-app",
-        "electron-alternative",
-        "gemini",
-        "linux",
-        "macos",
-        "nativefier",
-        "no-electron",
-        "rust",
-        "tauri",
-        "web-to-desktop",
-        "website-to-app",
-        "webview",
-        "windows",
-        "youtube"
-      ],
-      "categories": [
-        "Linux",
-        "Windows"
-      ],
-      "platforms": [
-        "Windows"
-      ],
-      "pick": "top",
-      "slot": "Windows",
-      "kind": "search",
-      "created_at": "2022-10-14",
-      "first_date": "2026-10-30",
-      "last_date": "2026-10-30",
-      "dates": [
-        "2026-10-30"
-      ],
-      "times": 1
-    },
-    {
       "full_name": "simplex-chat/simplex-chat",
       "url": "https://github.com/simplex-chat/simplex-chat",
       "description": "SimpleX - the first messaging network operating without user identifiers of any kind - 100% private by design! iOS, Android and desktop apps 📱!",
@@ -4323,43 +4724,6 @@
       "times": 1
     },
     {
-      "full_name": "Chevey339/kelivo",
-      "url": "https://github.com/Chevey339/kelivo",
-      "description": "A Flutter LLM Chat Client. Support Mobile & Desktop.",
-      "summary": "解决什么：提供跨平台的 LLM 大模型聊天客户端，支持移动与桌面端\n适合谁：适合需要在移动端和桌面端使用 LLM 进行对话的用户\n亮点：基于 Flutter 构建，支持多平台运行的 AI 聊天应用",
-      "stars": 4346,
-      "language": "Dart",
-      "topics": [
-        "ai",
-        "android",
-        "chatbot",
-        "chatbox",
-        "flutter",
-        "flutter-apps",
-        "harmony",
-        "harmonyos",
-        "ios",
-        "llm",
-        "openharmony"
-      ],
-      "categories": [
-        "鸿蒙"
-      ],
-      "platforms": [
-        "鸿蒙"
-      ],
-      "pick": "top",
-      "slot": "鸿蒙",
-      "kind": "search",
-      "created_at": "2025-08-29",
-      "first_date": "2026-10-28",
-      "last_date": "2026-10-28",
-      "dates": [
-        "2026-10-28"
-      ],
-      "times": 1
-    },
-    {
       "full_name": "AienTech/dossier",
       "url": "https://github.com/AienTech/dossier",
       "description": "A self-hosted job search app that writes tailored resumes and cover letters from your profile.",
@@ -4461,40 +4825,6 @@
       "slot": "Windows",
       "kind": "search",
       "created_at": "2023-11-21",
-      "first_date": "2026-10-27",
-      "last_date": "2026-10-27",
-      "dates": [
-        "2026-10-27"
-      ],
-      "times": 1
-    },
-    {
-      "full_name": "catchorg/Catch2",
-      "url": "https://github.com/catchorg/Catch2",
-      "description": "A modern, C++-native, test framework for unit-tests, TDD and BDD - using C++14, C++17 and later (C++11 support is in v2.x branch, and C++03 on the Catch1.x branch)",
-      "summary": "学什么：学习宏的高级用法与模板元编程，掌握现代 C++ 框架如何通过声明式 API 实现自注册机制\n适合谁：适合希望提升 C++ 编程深度、学习框架设计模式以及进行工程化测试开发的开发者\n怎么读：建议从测试用例的宏定义和断言机制入手，逐步追踪测试运行器的执行流程",
-      "stars": 21537,
-      "language": "C++",
-      "topics": [
-        "bdd",
-        "cpp",
-        "cpp14",
-        "framework",
-        "no-dependencies",
-        "tdd",
-        "test-framework",
-        "testing"
-      ],
-      "categories": [
-        "C++"
-      ],
-      "platforms": [
-        "C++"
-      ],
-      "pick": null,
-      "slot": null,
-      "kind": "learn",
-      "created_at": "2010-11-08",
       "first_date": "2026-10-27",
       "last_date": "2026-10-27",
       "dates": [
@@ -4746,48 +5076,6 @@
       "slot": "Windows",
       "kind": "search",
       "created_at": "2017-08-11",
-      "first_date": "2026-10-25",
-      "last_date": "2026-10-25",
-      "dates": [
-        "2026-10-25"
-      ],
-      "times": 1
-    },
-    {
-      "full_name": "sherlock-project/sherlock",
-      "url": "https://github.com/sherlock-project/sherlock",
-      "description": "Hunt down social media accounts by username across social networks",
-      "summary": "该工具通过单一用户名在数百个社交平台上搜索对应的社交媒体账号\n适合网络安全研究人员、渗透测试人员及开源情报分析师\n作为 GitHub 上最热门的开源情报工具之一，支持跨平台快速检索",
-      "stars": 94860,
-      "language": "Python",
-      "topics": [
-        "cli",
-        "cti",
-        "cybersecurity",
-        "forensics",
-        "hacktoberfest",
-        "information-gathering",
-        "infosec",
-        "linux",
-        "osint",
-        "pentesting",
-        "python",
-        "python3",
-        "reconnaissance",
-        "redteam",
-        "sherlock",
-        "tools"
-      ],
-      "categories": [
-        "Linux"
-      ],
-      "platforms": [
-        "Linux"
-      ],
-      "pick": "top",
-      "slot": "Linux",
-      "kind": "search",
-      "created_at": "2018-12-24",
       "first_date": "2026-10-25",
       "last_date": "2026-10-25",
       "dates": [
@@ -5080,31 +5368,6 @@
       "slot": "安卓",
       "kind": "search",
       "created_at": "2022-04-15",
-      "first_date": "2026-10-24",
-      "last_date": "2026-10-24",
-      "dates": [
-        "2026-10-24"
-      ],
-      "times": 1
-    },
-    {
-      "full_name": "Tencent/libco",
-      "url": "https://github.com/Tencent/libco",
-      "description": "libco is a coroutine library which is widely used in wechat  back-end service. It has been running on tens of thousands of machines since 2013.",
-      "summary": "学什么：掌握用户态线程的上下文切换原理及栈管理机制\n适合谁：适合有一定 C++ 基础，想深入理解协程上下文切换原理的后端开发者\n怎么读：建议先阅读 `coctx_swap` 汇编实现，再深入理解协程的调度与切换逻辑",
-      "stars": 8693,
-      "language": "C++",
-      "topics": [],
-      "categories": [
-        "C"
-      ],
-      "platforms": [
-        "C"
-      ],
-      "pick": null,
-      "slot": null,
-      "kind": "learn",
-      "created_at": "2016-10-12",
       "first_date": "2026-10-24",
       "last_date": "2026-10-24",
       "dates": [
@@ -5764,38 +6027,6 @@
       "slot": null,
       "kind": "learn",
       "created_at": "2011-02-13",
-      "first_date": "2026-10-21",
-      "last_date": "2026-10-21",
-      "dates": [
-        "2026-10-21"
-      ],
-      "times": 1
-    },
-    {
-      "full_name": "yetone/magpie",
-      "url": "https://github.com/yetone/magpie",
-      "description": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
-      "summary": "解决什么：为开发者提供一个统一的界面来管理和使用不同的 AI 模型，包括 Codex on DeepSeek 和 Claude Code on Kimi\n适合谁：需要频繁切换和使用不同 AI 模型的开发者，特别是 macOS 用户\n亮点：通过菜单栏应用整合多个 AI 模型，方便快捷",
-      "stars": 18705,
-      "language": "Go",
-      "topics": [
-        "claude-code",
-        "codex",
-        "deepseek",
-        "gemini-cli",
-        "llm",
-        "macos"
-      ],
-      "categories": [
-        "AI"
-      ],
-      "platforms": [
-        "AI"
-      ],
-      "pick": null,
-      "slot": null,
-      "kind": "search",
-      "created_at": "2026-09-23",
       "first_date": "2026-10-21",
       "last_date": "2026-10-21",
       "dates": [
