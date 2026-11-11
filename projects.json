@@ -1,8 +1,621 @@
 {
-  "generated_at": "2026-11-10T07:03:26.667590+00:00",
-  "total": 165,
-  "occurrences": 247,
+  "generated_at": "2026-11-11T05:49:00.288547+00:00",
+  "total": 170,
+  "occurrences": 262,
   "projects": [
+    {
+      "full_name": "Z4nzu/hackingtool",
+      "url": "https://github.com/Z4nzu/hackingtool",
+      "description": "ALL IN ONE Hacking Tool For Hackers",
+      "summary": "解决什么：集成多种渗透测试与攻击手段，提供一站式黑客工具集\n适合谁：适合 CTF 参与者及安全研究人员使用\n亮点：功能全面且人气极高，涵盖无线、Web、密码等多种攻击方式",
+      "stars": 81854,
+      "language": "Python",
+      "topics": [
+        "allinonehackingtool",
+        "besthackingtool",
+        "ctf-tools",
+        "ddos-attack-tool",
+        "hacker",
+        "hacking",
+        "linux",
+        "password-attack",
+        "steganography",
+        "web-attack",
+        "wireless-attack",
+        "xss-attacks",
+        "xss-detection"
+      ],
+      "categories": [
+        "Linux"
+      ],
+      "platforms": [
+        "Linux"
+      ],
+      "pick": "top",
+      "slot": "Linux",
+      "kind": "search",
+      "created_at": "2020-04-11",
+      "first_date": "2026-10-31",
+      "last_date": "2026-11-11",
+      "dates": [
+        "2026-11-11",
+        "2026-10-31"
+      ],
+      "times": 2
+    },
+    {
+      "full_name": "Raphire/Win11Debloat",
+      "url": "https://github.com/Raphire/Win11Debloat",
+      "description": "A simple, lightweight PowerShell script that allows you to remove pre-installed apps, disable telemetry, as well as perform various other changes to declutter and customize your Windows experience. Win11Debloat works for both Windows 10 and Windows 11.",
+      "summary": "移除 Windows 10 和 11 的预装应用并禁用遥测，以清理和优化系统体验\n想要清理 Windows 10 或 11 系统预装软件并优化隐私的用户\n轻量级且交互式的 PowerShell 脚本，支持 Windows 10 和 11",
+      "stars": 62337,
+      "language": "PowerShell",
+      "topics": [
+        "automated",
+        "bloatware",
+        "bloatware-removal",
+        "cleanup",
+        "cli",
+        "debloat",
+        "debloater",
+        "interactive",
+        "optimize",
+        "powershell",
+        "powershell-script",
+        "privacy",
+        "ps1",
+        "registry-tweaks",
+        "tweaks",
+        "windows",
+        "windows-10",
+        "windows-11",
+        "windows10",
+        "windows11"
+      ],
+      "categories": [
+        "Linux",
+        "Windows"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "pick": "top",
+      "slot": "Windows",
+      "kind": "search",
+      "created_at": "2020-10-27",
+      "first_date": "2026-10-31",
+      "last_date": "2026-11-11",
+      "dates": [
+        "2026-11-11",
+        "2026-10-31"
+      ],
+      "times": 2
+    },
+    {
+      "full_name": "fmtlib/fmt",
+      "url": "https://github.com/fmtlib/fmt",
+      "description": "A modern formatting library",
+      "summary": "学什么：学习模板元编程与零开销抽象的实现，掌握现代 C++ 字符串格式化与编译期优化的技巧\n适合谁：适合有一定 C++ 基础，想深入理解模板编程、编译期计算及高性能代码设计的开发者\n怎么读：建议先阅读 core.h 中的核心格式化逻辑，再深入 format_basics 和 format_impl",
+      "stars": 25920,
+      "language": "C++",
+      "topics": [
+        "c-plus-plus",
+        "chrono",
+        "cpp",
+        "cross-platform",
+        "floating-point",
+        "formatting",
+        "multiplatform",
+        "output",
+        "performance",
+        "printf",
+        "ranges",
+        "unicode"
+      ],
+      "categories": [
+        "C++"
+      ],
+      "platforms": [
+        "C++"
+      ],
+      "pick": null,
+      "slot": null,
+      "kind": "learn",
+      "created_at": "2012-12-07",
+      "first_date": "2026-10-28",
+      "last_date": "2026-11-11",
+      "dates": [
+        "2026-11-11",
+        "2026-10-28"
+      ],
+      "times": 2
+    },
+    {
+      "full_name": "KnifeLemon/Filee",
+      "url": "https://github.com/KnifeLemon/Filee",
+      "description": "Free, open-source file converter. Convert 263 formats offline by drag & drop — images, PDF, Word, Excel, PowerPoint, HWP/HWPX, video, audio, e-books and archives. No upload, no Office needed.",
+      "summary": "解决什么：提供免费的离线文件转换服务，支持263种格式，无需上传或安装Office\n适合谁：适合需要批量转换图片、文档、视频等263种格式的用户\n亮点：支持拖拽操作及HWP/HWPX格式转换",
+      "stars": 25591,
+      "language": "C#",
+      "topics": [
+        "audio-converter",
+        "avalonia",
+        "batch-conversion",
+        "converter",
+        "csharp",
+        "document-converter",
+        "docx-to-pdf",
+        "dotnet",
+        "drag-and-drop",
+        "file-conversion",
+        "file-converter",
+        "heic-converter",
+        "hwp",
+        "hwpx",
+        "image-converter",
+        "linux",
+        "macos",
+        "pdf-converter",
+        "video-converter",
+        "windows"
+      ],
+      "categories": [
+        "Linux",
+        "Windows"
+      ],
+      "platforms": [
+        "Linux"
+      ],
+      "pick": "growth",
+      "slot": "Linux",
+      "kind": "search",
+      "created_at": "2026-09-29",
+      "first_date": "2026-10-21",
+      "last_date": "2026-11-11",
+      "dates": [
+        "2026-11-11",
+        "2026-11-06",
+        "2026-11-04",
+        "2026-10-30",
+        "2026-10-26",
+        "2026-10-21"
+      ],
+      "times": 6
+    },
+    {
+      "full_name": "simplex-chat/simplex-chat",
+      "url": "https://github.com/simplex-chat/simplex-chat",
+      "description": "SimpleX - the first messaging network operating without user identifiers of any kind - 100% private by design! iOS, Android and desktop apps 📱!",
+      "summary": "解决什么：提供一款无需用户标识的端到端加密即时通讯应用，确保通讯内容完全私密\n适合谁：注重隐私保护的移动设备用户，适用于需要安全通讯的个人或组织\n亮点：全球首个完全无需用户标识的即时通讯网络，实现端到端加密和零追踪隐私保护",
+      "stars": 19679,
+      "language": "Haskell",
+      "topics": [
+        "chat",
+        "double-ratchet",
+        "e2ee",
+        "encryption",
+        "haskell",
+        "messaging",
+        "privacy",
+        "protocol",
+        "security"
+      ],
+      "categories": [
+        "安卓"
+      ],
+      "platforms": [
+        "安卓"
+      ],
+      "pick": "top",
+      "slot": "安卓",
+      "kind": "search",
+      "created_at": "2019-12-21",
+      "first_date": "2026-10-30",
+      "last_date": "2026-11-11",
+      "dates": [
+        "2026-11-11",
+        "2026-10-30"
+      ],
+      "times": 2
+    },
+    {
+      "full_name": "Kludex/starlette",
+      "url": "https://github.com/Kludex/starlette",
+      "description": "The little ASGI framework that shines. 🌟",
+      "summary": "深入理解 Python 异步编程在 Web 开发中的应用，学习 ASGI 标准的实现细节、路由匹配算法及中间件链式处理\n适合希望掌握 ASGI 协议、理解异步路由与中间件设计模式的 Python 后端开发者\n建议先阅读 `app.py` 中的 ASGI 应用入口，再深入 `routing.py` 理解路由分发机制",
+      "stars": 12720,
+      "language": "Python",
+      "topics": [
+        "asgi",
+        "async",
+        "http",
+        "python",
+        "websockets"
+      ],
+      "categories": [
+        "Python"
+      ],
+      "platforms": [
+        "Python"
+      ],
+      "pick": null,
+      "slot": null,
+      "kind": "learn",
+      "created_at": "2018-06-25",
+      "first_date": "2026-10-23",
+      "last_date": "2026-11-11",
+      "dates": [
+        "2026-11-11",
+        "2026-11-08",
+        "2026-11-07",
+        "2026-11-06",
+        "2026-11-05",
+        "2026-11-03",
+        "2026-10-30",
+        "2026-10-26",
+        "2026-10-25",
+        "2026-10-24",
+        "2026-10-23"
+      ],
+      "times": 11
+    },
+    {
+      "full_name": "rddmwmddr/android-ad-cleaner",
+      "url": "https://github.com/rddmwmddr/android-ad-cleaner",
+      "description": "关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。",
+      "summary": "解决国产安卓手机系统里的广告、热搜、资讯推荐和营销推送问题\n适合希望去除安卓手机广告的用户\n亮点支持 AI 智能体一键执行无需 Root 且可还原",
+      "stars": 7423,
+      "language": "Python",
+      "topics": [
+        "adb",
+        "ai-agent",
+        "android",
+        "coloros",
+        "debloat",
+        "hyperos",
+        "magicos",
+        "originos"
+      ],
+      "categories": [
+        "安卓",
+        "AI神器"
+      ],
+      "platforms": [
+        "安卓"
+      ],
+      "pick": "growth",
+      "slot": "安卓",
+      "kind": "search",
+      "created_at": "2026-10-24",
+      "first_date": "2026-10-26",
+      "last_date": "2026-11-11",
+      "dates": [
+        "2026-11-11",
+        "2026-11-02",
+        "2026-10-26"
+      ],
+      "times": 3
+    },
+    {
+      "full_name": "anefzaoui/misterdownloadmanager",
+      "url": "https://github.com/anefzaoui/misterdownloadmanager",
+      "description": "misterdownloadmanager: The ultimate open-source, clean-room download manager written from scratch in pure Rust for Windows, Mac, and Linux",
+      "summary": "提供一个纯 Rust 编写的跨平台下载管理器，支持磁力链接、BT 下载及视频流下载加速\n适合需要强大下载功能的 Windows 用户，特别是寻找 IDM 替代品或需要磁力/视频下载加速的场景\n纯 Rust 从零构建，界面现代且近期涨星速度极快",
+      "stars": 5831,
+      "language": "Rust",
+      "topics": [
+        "bittorrent-client",
+        "debrid",
+        "download-accelerator",
+        "download-manager",
+        "downloadmanager",
+        "egui",
+        "file-downloader",
+        "gallery-dl",
+        "idm",
+        "idm-alternative",
+        "internet-download-manager",
+        "m3u8-downloader",
+        "magnet",
+        "playlist-downloader",
+        "real-debrid",
+        "rust",
+        "torrent-client",
+        "video-downloader",
+        "youtube-downloader",
+        "yt-dlp"
+      ],
+      "categories": [
+        "Windows"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "pick": "growth",
+      "slot": "Windows",
+      "kind": "search",
+      "created_at": "2026-10-29",
+      "first_date": "2026-11-11",
+      "last_date": "2026-11-11",
+      "dates": [
+        "2026-11-11"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "qybaihe/bla",
+      "url": "https://github.com/qybaihe/bla",
+      "description": "🛡️ BLA (Blind LLM Agents) — Adversarial defense shield that protects binaries, Electron apps, JS bundles, Python, and WebAssembly against AI reverse-engineering agents like REA. Poison -> Exhaust -> Hallucinate.",
+      "summary": "解决什么：保护二进制文件、Electron 应用、JS 打包文件、Python 和 WebAssembly 免受 AI 反向工程代理攻击\n适合谁：需要保护代码免受 AI 窥探的开发者\n亮点：采用“毒化、疲劳、幻觉”策略对抗 AI 反编译",
+      "stars": 5093,
+      "language": "TypeScript",
+      "topics": [
+        "adversarial-ai",
+        "claude-code",
+        "cursor",
+        "electron-security",
+        "llm-security",
+        "mcp",
+        "mcp-server",
+        "obfuscation",
+        "reverse-engineering",
+        "webassembly"
+      ],
+      "categories": [
+        "AI",
+        "AI神器"
+      ],
+      "platforms": [
+        "AI",
+        "AI神器"
+      ],
+      "pick": "ai_tool",
+      "slot": "AI神器",
+      "kind": "search",
+      "created_at": "2026-10-25",
+      "first_date": "2026-10-30",
+      "last_date": "2026-11-11",
+      "dates": [
+        "2026-11-11",
+        "2026-11-07",
+        "2026-10-30"
+      ],
+      "times": 3
+    },
+    {
+      "full_name": "vAPI-Network/vapi-network",
+      "url": "https://github.com/vAPI-Network/vapi-network",
+      "description": "Buyer-controlled client for x402 API payments in USDC on Base.",
+      "summary": "解决 x402 API 支付的买方控制问题，支持在 Base 链上使用 USDC\n适合需要集成加密支付功能的 AI 代理开发者或用户\n提供买方控制的支付客户端，支持 MCP 协议与 USDC 支付",
+      "stars": 3991,
+      "language": "TypeScript",
+      "topics": [
+        "agent-payments",
+        "ai-agents",
+        "base",
+        "mcp",
+        "usdc",
+        "x402"
+      ],
+      "categories": [
+        "AI神器"
+      ],
+      "platforms": [
+        "AI神器"
+      ],
+      "pick": "ai_tool",
+      "slot": "AI神器",
+      "kind": "search",
+      "created_at": "2026-10-02",
+      "first_date": "2026-11-11",
+      "last_date": "2026-11-11",
+      "dates": [
+        "2026-11-11"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "shinshin86/mesh-avatar-studio",
+      "url": "https://github.com/shinshin86/mesh-avatar-studio",
+      "description": "Turn one illustration into an animated 2D mesh avatar with a coding agent and a local editor",
+      "summary": "将静态插图转化为可动画的 2D 网格头像，支持本地编辑\nVTuber、Web 开发者或需要 2D 动画头像的用户\n利用编码代理和本地编辑器实现网格变形的独特工作流",
+      "stars": 2251,
+      "language": "TypeScript",
+      "topics": [
+        "2d-animation",
+        "avatar",
+        "claude-code",
+        "codex",
+        "mesh-deformation",
+        "vtuber",
+        "webgl"
+      ],
+      "categories": [
+        "AI神器"
+      ],
+      "platforms": [
+        "AI神器"
+      ],
+      "pick": "ai_tool",
+      "slot": "AI神器",
+      "kind": "search",
+      "created_at": "2026-10-04",
+      "first_date": "2026-11-11",
+      "last_date": "2026-11-11",
+      "dates": [
+        "2026-11-11"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "metasequoiaime/msime",
+      "url": "https://github.com/metasequoiaime/msime",
+      "description": "下一代跨平台水杉输入法（MSIME）：面向 Android、iOS、macOS、Linux、Windows 与 HarmonyOS 的多平台中文输入法，使用共享输入引擎与各平台原生宿主。",
+      "summary": "提供跨平台中文输入法解决方案，支持 Android、iOS、macOS、Linux、Windows 和 HarmonyOS\n需要在多操作系统上使用中文输入法的用户，或寻求跨平台输入法开发参考的开发者\n基于 Rust 开发，实现跨平台共享输入引擎，覆盖六大主流操作系统",
+      "stars": 1261,
+      "language": "Rust",
+      "topics": [
+        "android",
+        "chinese",
+        "cpp",
+        "harmonyos",
+        "ime",
+        "input-method",
+        "inputmethodkit",
+        "ios",
+        "linux",
+        "macos",
+        "pinyin",
+        "rust",
+        "windows"
+      ],
+      "categories": [
+        "鸿蒙"
+      ],
+      "platforms": [
+        "鸿蒙"
+      ],
+      "pick": "top",
+      "slot": "鸿蒙",
+      "kind": "search",
+      "created_at": "2026-09-02",
+      "first_date": "2026-10-25",
+      "last_date": "2026-11-11",
+      "dates": [
+        "2026-11-11",
+        "2026-11-03",
+        "2026-10-30",
+        "2026-10-25"
+      ],
+      "times": 4
+    },
+    {
+      "full_name": "RunanywhereAI/trnrt",
+      "url": "https://github.com/RunanywhereAI/trnrt",
+      "description": "The open LLM inference engine for AWS Trainium: NKI megakernels, 1M-token context, OpenAI-compatible API. By RunAnywhere.",
+      "summary": "解决什么：为 AWS Trainium 硬件提供开源的大语言模型推理引擎，支持高达 1000 万 token 的上下文长度，并提供兼容 OpenAI 的 API\n适合谁：需要在大规模云基础设施上部署和运行高性能大语言模型的开发者或企业\n亮点：专为 AWS Trainium 硬件优化，实现百万级 token 上下文推理的开放引擎",
+      "stars": 1055,
+      "language": "Python",
+      "topics": [
+        "aws",
+        "glm",
+        "inference",
+        "llm",
+        "llm-serving",
+        "megakernels",
+        "neuron",
+        "nki",
+        "openai-api",
+        "trainium"
+      ],
+      "categories": [
+        "AI"
+      ],
+      "platforms": [
+        "AI"
+      ],
+      "pick": "ai",
+      "slot": "AI",
+      "kind": "search",
+      "created_at": "2026-10-30",
+      "first_date": "2026-11-11",
+      "last_date": "2026-11-11",
+      "dates": [
+        "2026-11-11"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "lkimuk/ReArk",
+      "url": "https://github.com/lkimuk/ReArk",
+      "description": "An intelligent reverse engineering and AI-assisted analysis tool for HarmonyOS NEXT (HAP/APP/ABC), Android (APK/AAB), iOS (IPA), and native PE/ELF/Mach-O binaries.",
+      "summary": "针对鸿蒙 NEXT、Android、iOS 及原生二进制文件的智能逆向工程与 AI 辅助分析工具\n适合安全研究人员、恶意软件分析人员及逆向工程师使用\n结合 AI 技术支持多种平台二进制文件分析，近期涨星速度极快",
+      "stars": 962,
+      "language": "C++",
+      "topics": [
+        "aab",
+        "abc",
+        "agentic-workflow",
+        "ai-agent",
+        "ai-analysis",
+        "android",
+        "apk",
+        "binary-analysis",
+        "decompiler",
+        "disassembler",
+        "hap",
+        "harmonyos",
+        "harmonyos-next",
+        "malware-analysis",
+        "reverse-engineering",
+        "security-tools",
+        "static-analysis"
+      ],
+      "categories": [
+        "鸿蒙"
+      ],
+      "platforms": [
+        "鸿蒙"
+      ],
+      "pick": "growth",
+      "slot": "鸿蒙",
+      "kind": "search",
+      "created_at": "2026-05-29",
+      "first_date": "2026-10-21",
+      "last_date": "2026-11-11",
+      "dates": [
+        "2026-11-11",
+        "2026-11-06",
+        "2026-11-03",
+        "2026-10-26",
+        "2026-10-21"
+      ],
+      "times": 5
+    },
+    {
+      "full_name": "Arda313131882/aion-2-trainer-tool",
+      "url": "https://github.com/Arda313131882/aion-2-trainer-tool",
+      "description": "Aion 2 AI Prompt Engineering Toolkit - Standalone Desktop Trainer Setup",
+      "summary": "解决什么：为 Aion 2 游戏玩家提供基于 AI 的战斗辅助工具，通过提示工程优化战斗表现\n适合谁：Aion 2 玩家，特别是需要提升战斗效率和策略的玩家\n亮点：集成 AI 提示工程工具的桌面应用，提升游戏内战斗优化能力",
+      "stars": 772,
+      "language": "HTML",
+      "topics": [
+        "aion-2",
+        "aion-2-2026",
+        "aion-2-game",
+        "aion-2-optimizer",
+        "aion-2-trainer",
+        "aion-2-trainer-tool",
+        "aion2-combat-analysis",
+        "aion2-meter",
+        "automation",
+        "desktop",
+        "developer-tools",
+        "open-source",
+        "python",
+        "scripts",
+        "software-engineering",
+        "system",
+        "utility",
+        "windows-app"
+      ],
+      "categories": [
+        "AI神器"
+      ],
+      "platforms": [
+        "AI神器"
+      ],
+      "pick": "ai_tool",
+      "slot": "AI神器",
+      "kind": "search",
+      "created_at": "2026-11-06",
+      "first_date": "2026-11-11",
+      "last_date": "2026-11-11",
+      "dates": [
+        "2026-11-11"
+      ],
+      "times": 1
+    },
     {
       "full_name": "sherlock-project/sherlock",
       "url": "https://github.com/sherlock-project/sherlock",
@@ -1328,46 +1941,6 @@
       "times": 2
     },
     {
-      "full_name": "Kludex/starlette",
-      "url": "https://github.com/Kludex/starlette",
-      "description": "The little ASGI framework that shines. 🌟",
-      "summary": "学什么：理解 ASGI 框架设计，学习异步编程在 Web 开发中的应用\n适合谁：有一定 Python 基础和异步编程经验的开发者，想学习轻量级 Web 框架设计\n怎么读：先阅读核心的 router 和 middleware 模块，再逐步探索请求处理流程",
-      "stars": 12712,
-      "language": "Python",
-      "topics": [
-        "asgi",
-        "async",
-        "http",
-        "python",
-        "websockets"
-      ],
-      "categories": [
-        "Python"
-      ],
-      "platforms": [
-        "Python"
-      ],
-      "pick": null,
-      "slot": null,
-      "kind": "learn",
-      "created_at": "2018-06-25",
-      "first_date": "2026-10-23",
-      "last_date": "2026-11-08",
-      "dates": [
-        "2026-11-08",
-        "2026-11-07",
-        "2026-11-06",
-        "2026-11-05",
-        "2026-11-03",
-        "2026-10-30",
-        "2026-10-26",
-        "2026-10-25",
-        "2026-10-24",
-        "2026-10-23"
-      ],
-      "times": 10
-    },
-    {
       "full_name": "valentderah/totk-pc-recomp",
       "url": "https://github.com/valentderah/totk-pc-recomp",
       "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
@@ -2044,45 +2617,6 @@
       "times": 1
     },
     {
-      "full_name": "qybaihe/bla",
-      "url": "https://github.com/qybaihe/bla",
-      "description": "🛡️ BLA (Blind LLM Agents) — Adversarial defense shield that protects binaries, Electron apps, JS bundles, Python, and WebAssembly against AI reverse-engineering agents like REA. Poison -> Exhaust -> Hallucinate.",
-      "summary": "为二进制文件、Electron 应用及 WebAssembly 等代码提供对抗性防御，抵御 AI 反向工程代理的攻击\n适用于希望保护 Electron 应用、WASM 及其他代码免受 AI 逆向工程的安全开发者\n采用“注入毒素-耗尽-制造幻觉”策略迷惑 AI 逆向工程代理",
-      "stars": 2596,
-      "language": "TypeScript",
-      "topics": [
-        "adversarial-ai",
-        "claude-code",
-        "cursor",
-        "electron-security",
-        "llm-security",
-        "mcp",
-        "mcp-server",
-        "obfuscation",
-        "reverse-engineering",
-        "webassembly"
-      ],
-      "categories": [
-        "AI",
-        "AI神器"
-      ],
-      "platforms": [
-        "AI",
-        "AI神器"
-      ],
-      "pick": "ai_tool",
-      "slot": "AI神器",
-      "kind": "search",
-      "created_at": "2026-10-25",
-      "first_date": "2026-10-30",
-      "last_date": "2026-11-07",
-      "dates": [
-        "2026-11-07",
-        "2026-10-30"
-      ],
-      "times": 2
-    },
-    {
       "full_name": "alibaba/GaiaX",
       "url": "https://github.com/alibaba/GaiaX",
       "description": "动态模板引擎是一套轻量化、跨平台、高性能的纯原生移动端卡片渲染动态化解决方案",
@@ -2386,57 +2920,6 @@
       "times": 2
     },
     {
-      "full_name": "KnifeLemon/Filee",
-      "url": "https://github.com/KnifeLemon/Filee",
-      "description": "Free, open-source file converter. Convert 263 formats offline by drag & drop — images, PDF, Word, Excel, PowerPoint, HWP/HWPX, video, audio, e-books and archives. No upload, no Office needed.",
-      "summary": "提供离线、无需上传的批量文件格式转换服务，支持263种格式\n需要处理文档、图片、视频等文件且希望离线批量转换的用户\n支持多达263种格式且无需安装Office即可离线转换",
-      "stars": 22847,
-      "language": "C#",
-      "topics": [
-        "audio-converter",
-        "avalonia",
-        "batch-conversion",
-        "converter",
-        "csharp",
-        "document-converter",
-        "docx-to-pdf",
-        "dotnet",
-        "drag-and-drop",
-        "file-conversion",
-        "file-converter",
-        "heic-converter",
-        "hwp",
-        "hwpx",
-        "image-converter",
-        "linux",
-        "macos",
-        "pdf-converter",
-        "video-converter",
-        "windows"
-      ],
-      "categories": [
-        "Linux",
-        "Windows"
-      ],
-      "platforms": [
-        "Linux"
-      ],
-      "pick": "growth",
-      "slot": "Linux",
-      "kind": "search",
-      "created_at": "2026-09-29",
-      "first_date": "2026-10-21",
-      "last_date": "2026-11-06",
-      "dates": [
-        "2026-11-06",
-        "2026-11-04",
-        "2026-10-30",
-        "2026-10-26",
-        "2026-10-21"
-      ],
-      "times": 5
-    },
-    {
       "full_name": "tangency-labs/solidcraft",
       "url": "https://github.com/tangency-labs/solidcraft",
       "description": "SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.",
@@ -2666,52 +3149,6 @@
         "2026-10-29"
       ],
       "times": 2
-    },
-    {
-      "full_name": "lkimuk/ReArk",
-      "url": "https://github.com/lkimuk/ReArk",
-      "description": "An intelligent reverse engineering and AI-assisted analysis tool for HarmonyOS NEXT (HAP/APP/ABC), Android (APK/AAB), iOS (IPA), and native PE/ELF/Mach-O binaries.",
-      "summary": "提供对鸿蒙、安卓、iOS及原生二进制的智能逆向工程与AI辅助分析能力\n适合安全研究人员、逆向工程师、恶意软件分析师及鸿蒙/安卓/iOS应用开发者\n结合AI技术的多平台逆向分析工具，近期涨星迅速，特别聚焦鸿蒙NEXT生态",
-      "stars": 938,
-      "language": "C++",
-      "topics": [
-        "aab",
-        "abc",
-        "agentic-workflow",
-        "ai-agent",
-        "ai-analysis",
-        "android",
-        "apk",
-        "binary-analysis",
-        "decompiler",
-        "disassembler",
-        "hap",
-        "harmonyos",
-        "harmonyos-next",
-        "malware-analysis",
-        "reverse-engineering",
-        "security-tools",
-        "static-analysis"
-      ],
-      "categories": [
-        "鸿蒙"
-      ],
-      "platforms": [
-        "鸿蒙"
-      ],
-      "pick": "growth",
-      "slot": "鸿蒙",
-      "kind": "search",
-      "created_at": "2026-05-29",
-      "first_date": "2026-10-21",
-      "last_date": "2026-11-06",
-      "dates": [
-        "2026-11-06",
-        "2026-11-03",
-        "2026-10-26",
-        "2026-10-21"
-      ],
-      "times": 4
     },
     {
       "full_name": "yjid/kensaku",
@@ -3581,47 +4018,6 @@
       "times": 1
     },
     {
-      "full_name": "metasequoiaime/msime",
-      "url": "https://github.com/metasequoiaime/msime",
-      "description": "下一代跨平台水杉输入法（MSIME）：面向 Android、iOS、macOS、Linux、Windows 与 HarmonyOS 的多平台中文输入法，使用共享输入引擎与各平台原生宿主。",
-      "summary": "解决什么：为 Android、iOS、macOS、Linux、Windows 与 HarmonyOS 平台提供跨平台的中文输入法，使用共享输入引擎与各平台原生宿主\n适合谁：需要在不同操作系统上使用中文输入法的开发者或用户\n亮点：下一代跨平台中文输入法，支持多操作系统并使用共享输入引擎",
-      "stars": 1118,
-      "language": "Rust",
-      "topics": [
-        "android",
-        "chinese",
-        "cpp",
-        "harmonyos",
-        "ime",
-        "input-method",
-        "inputmethodkit",
-        "ios",
-        "linux",
-        "macos",
-        "pinyin",
-        "rust",
-        "windows"
-      ],
-      "categories": [
-        "鸿蒙"
-      ],
-      "platforms": [
-        "鸿蒙"
-      ],
-      "pick": "top",
-      "slot": "鸿蒙",
-      "kind": "search",
-      "created_at": "2026-09-02",
-      "first_date": "2026-10-25",
-      "last_date": "2026-11-03",
-      "dates": [
-        "2026-11-03",
-        "2026-10-30",
-        "2026-10-25"
-      ],
-      "times": 3
-    },
-    {
       "full_name": "Panniantong/Agent-Reach",
       "url": "https://github.com/Panniantong/Agent-Reach",
       "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
@@ -3776,41 +4172,6 @@
         "2026-11-02"
       ],
       "times": 1
-    },
-    {
-      "full_name": "rddmwmddr/android-ad-cleaner",
-      "url": "https://github.com/rddmwmddr/android-ad-cleaner",
-      "description": "关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。",
-      "summary": "关闭国产安卓手机系统内的广告、热搜、资讯推荐和营销推送\n想要去除国产安卓手机广告且不想 root 的用户\n无需 root，支持 AI 智能体一键自动执行",
-      "stars": 5722,
-      "language": "Python",
-      "topics": [
-        "adb",
-        "ai-agent",
-        "android",
-        "coloros",
-        "debloat",
-        "hyperos",
-        "magicos",
-        "originos"
-      ],
-      "categories": [
-        "安卓"
-      ],
-      "platforms": [
-        "安卓"
-      ],
-      "pick": "growth",
-      "slot": "安卓",
-      "kind": "search",
-      "created_at": "2026-10-24",
-      "first_date": "2026-10-26",
-      "last_date": "2026-11-02",
-      "dates": [
-        "2026-11-02",
-        "2026-10-26"
-      ],
-      "times": 2
     },
     {
       "full_name": "cameron314/readerwriterqueue",
@@ -4190,92 +4551,6 @@
       "times": 1
     },
     {
-      "full_name": "Z4nzu/hackingtool",
-      "url": "https://github.com/Z4nzu/hackingtool",
-      "description": "ALL IN ONE Hacking Tool For Hackers",
-      "summary": "为黑客提供一站式渗透测试解决方案，集成密码攻击、Web 攻击、无线破解及 CTF 等多种功能\n适合 Linux 环境下的安全研究人员、渗透测试人员及 CTF 竞赛选手使用\n拥有极高的社区人气，集成了最全面的黑客工具集，是 Linux 下最受欢迎的一站式渗透测试平台",
-      "stars": 81539,
-      "language": "Python",
-      "topics": [
-        "allinonehackingtool",
-        "besthackingtool",
-        "ctf-tools",
-        "ddos-attack-tool",
-        "hacker",
-        "hacking",
-        "linux",
-        "password-attack",
-        "steganography",
-        "web-attack",
-        "wireless-attack",
-        "xss-attacks",
-        "xss-detection"
-      ],
-      "categories": [
-        "Linux"
-      ],
-      "platforms": [
-        "Linux"
-      ],
-      "pick": "top",
-      "slot": "Linux",
-      "kind": "search",
-      "created_at": "2020-04-11",
-      "first_date": "2026-10-31",
-      "last_date": "2026-10-31",
-      "dates": [
-        "2026-10-31"
-      ],
-      "times": 1
-    },
-    {
-      "full_name": "Raphire/Win11Debloat",
-      "url": "https://github.com/Raphire/Win11Debloat",
-      "description": "A simple, lightweight PowerShell script that allows you to remove pre-installed apps, disable telemetry, as well as perform various other changes to declutter and customize your Windows experience. Win11Debloat works for both Windows 10 and Windows 11.",
-      "summary": "解决什么：自动移除 Windows 预装应用、禁用遥测功能，并进行系统清理和定制\n适合谁：希望简化 Windows 系统并提升隐私性的 Windows 10 和 11 用户\n亮点：一个简单轻量级的 PowerShell 脚本，提供多种 Windows 系统优化功能",
-      "stars": 61323,
-      "language": "PowerShell",
-      "topics": [
-        "automated",
-        "bloatware",
-        "bloatware-removal",
-        "cleanup",
-        "cli",
-        "debloat",
-        "debloater",
-        "interactive",
-        "optimize",
-        "powershell",
-        "powershell-script",
-        "privacy",
-        "ps1",
-        "registry-tweaks",
-        "tweaks",
-        "windows",
-        "windows-10",
-        "windows-11",
-        "windows10",
-        "windows11"
-      ],
-      "categories": [
-        "Linux",
-        "Windows"
-      ],
-      "platforms": [
-        "Windows"
-      ],
-      "pick": "top",
-      "slot": "Windows",
-      "kind": "search",
-      "created_at": "2020-10-27",
-      "first_date": "2026-10-31",
-      "last_date": "2026-10-31",
-      "dates": [
-        "2026-10-31"
-      ],
-      "times": 1
-    },
-    {
       "full_name": "raysan5/raylib",
       "url": "https://github.com/raysan5/raylib",
       "description": "A simple and easy-to-use library to enjoy videogames programming",
@@ -4504,41 +4779,6 @@
       "times": 1
     },
     {
-      "full_name": "simplex-chat/simplex-chat",
-      "url": "https://github.com/simplex-chat/simplex-chat",
-      "description": "SimpleX - the first messaging network operating without user identifiers of any kind - 100% private by design! iOS, Android and desktop apps 📱!",
-      "summary": "通过移除用户标识符并提供端到端加密，解决传统通讯软件隐私泄露和追踪问题\n适合需要高度隐私保护、厌恶社交网络追踪的用户，用于跨平台的安全消息传递\n亮点是首个无需用户标识符即可运行的通讯网络，采用 Double Ratchet 算法实现 100% 私有设计",
-      "stars": 19613,
-      "language": "Haskell",
-      "topics": [
-        "chat",
-        "double-ratchet",
-        "e2ee",
-        "encryption",
-        "haskell",
-        "messaging",
-        "privacy",
-        "protocol",
-        "security"
-      ],
-      "categories": [
-        "安卓"
-      ],
-      "platforms": [
-        "安卓"
-      ],
-      "pick": "top",
-      "slot": "安卓",
-      "kind": "search",
-      "created_at": "2019-12-21",
-      "first_date": "2026-10-30",
-      "last_date": "2026-10-30",
-      "dates": [
-        "2026-10-30"
-      ],
-      "times": 1
-    },
-    {
       "full_name": "google/googletest",
       "url": "https://github.com/google/googletest",
       "description": "GoogleTest - Google Testing and Mocking Framework",
@@ -4649,44 +4889,6 @@
       "last_date": "2026-10-29",
       "dates": [
         "2026-10-29"
-      ],
-      "times": 1
-    },
-    {
-      "full_name": "fmtlib/fmt",
-      "url": "https://github.com/fmtlib/fmt",
-      "description": "A modern formatting library",
-      "summary": "掌握 C++ 模板元编程、编译期字符串处理及极致性能优化的高级技巧\n适合有一定 C++ 基础，希望深入理解模板元编程与性能优化的开发者\n建议从 format.h 入手，理解核心格式化逻辑与编译期优化实现",
-      "stars": 25898,
-      "language": "C++",
-      "topics": [
-        "c-plus-plus",
-        "chrono",
-        "cpp",
-        "cross-platform",
-        "floating-point",
-        "formatting",
-        "multiplatform",
-        "output",
-        "performance",
-        "printf",
-        "ranges",
-        "unicode"
-      ],
-      "categories": [
-        "C++"
-      ],
-      "platforms": [
-        "C++"
-      ],
-      "pick": null,
-      "slot": null,
-      "kind": "learn",
-      "created_at": "2012-12-07",
-      "first_date": "2026-10-28",
-      "last_date": "2026-10-28",
-      "dates": [
-        "2026-10-28"
       ],
       "times": 1
     },
