@@ -1,0 +1,477 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://github.com">
+<link rel="dns-prefetch" href="https://github.com">
+<title>GitHub 每日精选 · 2026-11-12</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+:root {
+  --ink: #0b1220;
+  --muted: #64748b;
+  --line: #e6e8ee;
+  --accent: #4f46e5;
+  --bg: #f5f6fa;
+}
+html { scroll-behavior: smooth; }
+body {
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC",
+               "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  background: var(--bg);
+  color: var(--ink);
+  -webkit-font-smoothing: antialiased;
+  min-height: 100vh;
+}
+.wrap { max-width: 1080px; margin: 0 auto; padding: 0 20px; }
+
+/* hero */
+.hero {
+  background:
+    radial-gradient(1200px 400px at 15% -20%, rgba(139,92,246,.55), transparent 60%),
+    radial-gradient(900px 300px at 110% 10%, rgba(236,72,153,.45), transparent 55%),
+    linear-gradient(135deg, #0f172a 0%, #1e1b4b 60%, #312e81 100%);
+  color: #fff;
+  padding: 52px 0 76px;
+}
+.hero .eyebrow {
+  font-size: 12px; letter-spacing: .16em; text-transform: uppercase;
+  color: #a5b4fc; font-weight: 600; margin-bottom: 14px;
+}
+.hero h1 { font-size: 40px; font-weight: 800; letter-spacing: -1px; line-height: 1.1; }
+.hero h1 .grad {
+  background: linear-gradient(90deg, #c4b5fd, #f0abfc, #fda4af);
+  -webkit-background-clip: text; background-clip: text; color: transparent;
+}
+.hero .lead { color: #c7d2fe; font-size: 15px; margin-top: 14px; max-width: 620px; line-height: 1.7; }
+.hero .meta { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 22px; }
+.pill {
+  font-size: 12px; padding: 6px 12px; border-radius: 999px;
+  background: rgba(255,255,255,.07); border: 1px solid rgba(255,255,255,.14);
+  color: #e0e7ff; backdrop-filter: blur(6px);
+}
+a.pill { text-decoration: none; transition: background .15s ease, border-color .15s ease; }
+a.pill:hover { background: rgba(255,255,255,.14); border-color: rgba(255,255,255,.28); }
+
+/* tabs */
+.tabbar-wrap { position: relative; margin-top: -34px; z-index: 2; }
+.tabbar {
+  display: flex; gap: 6px; padding: 6px; background: #fff; border-radius: 14px;
+  border: 1px solid var(--line); overflow-x: auto; scrollbar-width: none;
+  box-shadow: 0 10px 30px -18px rgba(15,23,42,.35);
+}
+.tabbar::-webkit-scrollbar { display: none; }
+.tab {
+  flex: 0 0 auto; border: 0; background: transparent; color: #475569;
+  font: inherit; font-size: 13.5px; font-weight: 600; padding: 9px 16px;
+  border-radius: 10px; cursor: pointer; display: inline-flex; align-items: center; gap: 7px;
+  white-space: nowrap;
+  transition: background .15s ease, color .15s ease;
+}
+.tab:hover { background: #f1f5f9; color: var(--ink); }
+.tab.active { background: #0f172a; color: #fff; }
+.tab .count {
+  font-size: 11px; padding: 1px 7px; border-radius: 999px;
+  background: rgba(148,163,184,.22); color: inherit;
+}
+.tab.active .count { background: rgba(255,255,255,.18); }
+.dot { width: 8px; height: 8px; border-radius: 50%; display: inline-block; }
+
+/* cards */
+main { padding: 30px 0 10px; }
+.grid { display: grid; gap: 18px; grid-template-columns: 1fr; }
+@media (min-width: 820px) { .grid { grid-template-columns: 1fr 1fr; } }
+.card {
+  background: #fff; border: 1px solid var(--line); border-radius: 16px;
+  padding: 20px 20px 16px; display: flex; flex-direction: column;
+  box-shadow: 0 1px 2px rgba(15,23,42,.03), 0 12px 28px -22px rgba(15,23,42,.22);
+  transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+}
+.card:hover {
+  transform: translateY(-3px); border-color: #d8dbf0;
+  box-shadow: 0 2px 4px rgba(15,23,42,.04), 0 22px 40px -24px rgba(49,46,129,.35);
+}
+.card-head { display: flex; align-items: center; gap: 8px; margin-bottom: 12px; }
+.rank {
+  flex: 0 0 auto; width: 30px; height: 30px; border-radius: 9px;
+  display: grid; place-items: center; font-size: 13px; font-weight: 800;
+  background: #f1f5f9; color: #64748b;
+}
+.rank.r1 { background: linear-gradient(140deg, #fbbf24, #f59e0b); color: #fff; }
+.rank.r2 { background: linear-gradient(140deg, #cbd5e1, #94a3b8); color: #fff; }
+.rank.r3 { background: linear-gradient(140deg, #fdba74, #ea580c); color: #fff; }
+.cats { display: flex; flex-wrap: wrap; gap: 5px; flex: 1; min-width: 0; }
+.cat {
+  font-size: 10.5px; font-weight: 700; letter-spacing: .02em;
+  padding: 3px 9px; border-radius: 999px; color: #fff; white-space: nowrap;
+}
+.speed {
+  font-size: 12px; font-weight: 700; padding: 3px 9px; border-radius: 999px;
+  background: #ecfdf5; color: #047857; white-space: nowrap;
+}
+.speed.neutral { background: #f1f5f9; color: #64748b; }
+.speed.top { background: #fffbeb; color: #b45309; }
+.title { font-size: 18px; font-weight: 700; line-height: 1.35; margin-bottom: 6px; word-break: break-word; }
+.title a { color: var(--ink); text-decoration: none; }
+.title a:hover { color: var(--accent); }
+.title .owner { color: #94a3b8; font-weight: 500; }
+.desc { font-size: 13px; line-height: 1.6; color: var(--muted); margin-bottom: 12px; }
+
+.summary {
+  background: #f8fafc; border: 1px solid #eef2f7; border-left: 3px solid var(--accent);
+  border-radius: 10px; padding: 12px 14px; font-size: 13px; line-height: 1.75;
+  color: #334155; flex: 1;
+}
+.summary ul { list-style: none; padding: 0; margin: 0; display: grid; gap: 6px; }
+.summary li { position: relative; padding-left: 18px; }
+.summary li::before {
+  content: ''; position: absolute; left: 3px; top: .62em; width: 5px; height: 5px;
+  border-radius: 50%; background: #c7d2fe;
+}
+.summary strong { color: var(--ink); font-weight: 700; }
+.summary p { margin: 0; }
+
+.card-foot {
+  display: flex; align-items: center; justify-content: space-between; gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 14px; padding-top: 12px; border-top: 1px solid #f1f5f9;
+  font-size: 12px; color: var(--muted);
+}
+.lang { display: inline-flex; align-items: center; gap: 6px; min-width: 0; }
+.lang-dot { width: 9px; height: 9px; border-radius: 50%; flex: 0 0 auto; }
+.foot-right { display: flex; align-items: center; gap: 10px; margin-left: auto; }
+.stars { font-weight: 700; color: #475569; white-space: nowrap; }
+.gh-link {
+  color: var(--accent); text-decoration: none; font-weight: 700; font-size: 12.5px;
+  padding: 5px 10px; border-radius: 8px; background: #eef2ff; white-space: nowrap;
+  transition: background .15s ease;
+}
+.gh-link:hover { background: #e0e7ff; }
+
+.topics { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 10px; }
+.topic {
+  font-size: 10.5px; color: #64748b; background: #f8fafc; border: 1px solid #eef2f7;
+  padding: 2px 7px; border-radius: 6px;
+}
+
+.empty { text-align: center; padding: 70px 20px; color: var(--muted); font-size: 14px; }
+footer { padding: 34px 20px 40px; text-align: center; color: #94a3b8; font-size: 12px; }
+footer .sep { margin: 0 8px; }
+</style>
+</head>
+<body>
+<!-- archive-banner -->
+<div style="background:#0f172a;color:#cbd5e1;font-size:13px;text-align:center;padding:10px 16px;line-height:1.6">2026-11-12 存档 · <a href="../index.html" style="color:#c7d2fe;font-weight:600">回到今天</a><span style="color:#475569;margin:0 8px">/</span><a href="../projects.html" style="color:#c7d2fe;font-weight:600">项目总表</a><span style="color:#475569;margin:0 8px">/</span><a href="../archive.html" style="color:#c7d2fe;font-weight:600">全部存档</a></div>
+<header class="hero">
+  <div class="wrap">
+    <div class="eyebrow">Daily Digest</div>
+    <h1>GitHub <span class="grad">每日精选</span></h1>
+    <p class="lead">每天安卓 / 鸿蒙 / Linux / Windows 各 2 个好玩或实用的应用；再加 4-5 个 AI 热门项目和好用的 AI 工具/技能/插件/Agent；以及 2 个 C / C++ / Python 经典小项目。</p>
+    <div class="meta">
+      <span class="pill">人气榜全时段按总 star 逐日轮换 · 新秀 90–365 天内新建 · AI 30 天内新建 · AI神器 60–90 天内新建</span>
+      <span class="pill">15 个项目</span>
+      <span class="pill">对比 2026-11-11 快照计算日增</span>
+      <a class="pill" href="../archive.html">历史存档 →</a>
+      <a class="pill" href="projects.html">项目总表 →</a>
+    </div>
+  </div>
+</header>
+
+<div class="wrap tabbar-wrap">
+  <div class="tabbar"><button class="tab active" data-cat="all">全部 <span class="count">15</span></button><button class="tab" data-cat="安卓"><span class="dot" style="background:#3ddc84"></span>安卓 <span class="count">2</span></button><button class="tab" data-cat="鸿蒙"><span class="dot" style="background:#e33e31"></span>鸿蒙 <span class="count">2</span></button><button class="tab" data-cat="Linux"><span class="dot" style="background:#f59e0b"></span>Linux <span class="count">2</span></button><button class="tab" data-cat="Windows"><span class="dot" style="background:#0ea5e9"></span>Windows <span class="count">2</span></button><button class="tab" data-cat="AI"><span class="dot" style="background:#8b5cf6"></span>AI <span class="count">1</span></button><button class="tab" data-cat="AI神器"><span class="dot" style="background:#ec4899"></span>AI神器 <span class="count">4</span></button><button class="tab" data-cat="C"><span class="dot" style="background:#5b6ee1"></span>C <span class="count">1</span></button><button class="tab" data-cat="Python"><span class="dot" style="background:#3572A5"></span>Python <span class="count">1</span></button></div>
+</div>
+
+<main class="wrap">
+<div class="grid">
+<article class="card" data-cats="安卓">
+  <div class="card-head">
+    <span class="rank r1">1</span>
+    <div class="cats"><span class="cat" style="background:#3ddc84">安卓</span></div>
+    <span class="speed top">人气榜</span>
+  </div>
+  <h3 class="title"><a href="https://github.com/bluesky-social/social-app" target="_blank" rel="noopener noreferrer"><span class="owner">bluesky-social/</span>social-app</a></h3>
+  <div class="desc">The Bluesky Social application for Web, iOS, and Android</div>
+  <div class="summary"><ul><li><strong>解决什么</strong>：一个跨平台的社交应用，支持 Web、iOS 和 Android，提供类似 Bluesky 的社交体验</li><li><strong>适合谁</strong>：希望开发或使用类似 Bluesky 的去中心化社交应用的开发者或用户</li><li><strong>亮点</strong>：一个受欢迎的跨平台社交应用框架</li></ul></div>
+  
+  <div class="card-foot">
+    <span class="lang"><span class="lang-dot" style="background:#3178c6"></span>TypeScript · 成立于 2022-06-07</span>
+    <span class="foot-right">
+      <span class="stars">★ 18.4k</span>
+      <a class="gh-link" href="https://github.com/bluesky-social/social-app" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+    </span>
+  </div>
+</article>
+<article class="card" data-cats="安卓">
+  <div class="card-head">
+    <span class="rank r2">2</span>
+    <div class="cats"><span class="cat" style="background:#3ddc84">安卓</span><span class="cat" style="background:#f59e0b">Linux</span></div>
+    <span class="speed">↑ 75★/天</span>
+  </div>
+  <h3 class="title"><a href="https://github.com/termux/termux-app" target="_blank" rel="noopener noreferrer"><span class="owner">termux/</span>termux-app</a></h3>
+  <div class="desc">Termux - a terminal emulator application for Android OS extendible by variety of packages.</div>
+  <div class="summary"><ul><li><strong>解决什么</strong>：在 Android 手机上提供功能强大的终端模拟器，支持通过丰富的软件包进行功能扩展</li><li><strong>适合谁</strong>：适合希望在安卓设备上使用 Linux 终端、进行开发或进行黑客活动的用户</li><li><strong>亮点</strong>：近期涨星最快的安卓终端模拟器，支持丰富的软件包扩展</li></ul></div>
+  <div class="topics"><span class="topic">#android</span><span class="topic">#hacktoberfest</span><span class="topic">#linux</span><span class="topic">#terminal</span><span class="topic">#termux</span></div>
+  <div class="card-foot">
+    <span class="lang"><span class="lang-dot" style="background:#b07219"></span>Java · 成立于 2015-10-23</span>
+    <span class="foot-right">
+      <span class="stars">★ 64.7k</span>
+      <a class="gh-link" href="https://github.com/termux/termux-app" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+    </span>
+  </div>
+</article>
+<article class="card" data-cats="鸿蒙">
+  <div class="card-head">
+    <span class="rank r3">3</span>
+    <div class="cats"><span class="cat" style="background:#e33e31">鸿蒙</span></div>
+    <span class="speed top">人气榜</span>
+  </div>
+  <h3 class="title"><a href="https://github.com/didi/dimina" target="_blank" rel="noopener noreferrer"><span class="owner">didi/</span>dimina</a></h3>
+  <div class="desc">Dimina MiniProgram - DiDi&#x27;s Open-Source MiniProgram / 星河小程序 - 滴滴开源小程序</div>
+  <div class="summary"><ul><li><strong>解决什么</strong>：提供跨平台小程序开发解决方案，支持鸿蒙、iOS 及 Android 多端运行</li><li><strong>适合谁</strong>：适用于需要构建跨平台小程序的开发者，特别是关注鸿蒙生态的团队</li><li><strong>亮点</strong>：滴滴开源的星河小程序框架，支持多端统一开发</li></ul></div>
+  <div class="topics"><span class="topic">#android</span><span class="topic">#harmonyos</span><span class="topic">#ios</span><span class="topic">#miniapp</span><span class="topic">#miniprogram</span></div>
+  <div class="card-foot">
+    <span class="lang"><span class="lang-dot" style="background:#f1e05a"></span>JavaScript · 成立于 2025-04-24</span>
+    <span class="foot-right">
+      <span class="stars">★ 961</span>
+      <a class="gh-link" href="https://github.com/didi/dimina" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+    </span>
+  </div>
+</article>
+<article class="card" data-cats="鸿蒙">
+  <div class="card-head">
+    <span class="rank">4</span>
+    <div class="cats"><span class="cat" style="background:#e33e31">鸿蒙</span></div>
+    <span class="speed">↑ 6★/天</span>
+  </div>
+  <h3 class="title"><a href="https://github.com/xiaobaigroup/ClashBox" target="_blank" rel="noopener noreferrer"><span class="owner">xiaobaigroup/</span>ClashBox</a></h3>
+  <div class="desc">HarmonyOS NEXT的代理软件</div>
+  <div class="summary"><ul><li><strong>解决什么</strong>：为 HarmonyOS NEXT 系统提供网络代理服务，解决网络访问限制问题</li><li><strong>适合谁</strong>：适合 HarmonyOS NEXT 系统的用户及开发者，用于网络代理</li><li><strong>亮点</strong>：基于 ArkTS 开发，近期涨星速度极快，是鸿蒙 NEXT 生态的热门项目</li></ul></div>
+  <div class="topics"><span class="topic">#arkts</span><span class="topic">#arkui</span><span class="topic">#clash</span><span class="topic">#flclash</span><span class="topic">#harmonyos</span><span class="topic">#harmonyos-next</span></div>
+  <div class="card-foot">
+    <span class="lang"><span class="lang-dot" style="background:#94a3b8"></span>未知 · 成立于 2025-02-22</span>
+    <span class="foot-right">
+      <span class="stars">★ 4.8k</span>
+      <a class="gh-link" href="https://github.com/xiaobaigroup/ClashBox" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+    </span>
+  </div>
+</article>
+<article class="card" data-cats="Linux">
+  <div class="card-head">
+    <span class="rank">5</span>
+    <div class="cats"><span class="cat" style="background:#f59e0b">Linux</span></div>
+    <span class="speed top">人气榜</span>
+  </div>
+  <h3 class="title"><a href="https://github.com/netdata/netdata" target="_blank" rel="noopener noreferrer"><span class="owner">netdata/</span>netdata</a></h3>
+  <div class="desc">The fastest path to AI-powered full stack observability, even for lean teams.</div>
+  <div class="summary"><ul><li><strong>解决什么</strong>：为精简团队提供 AI 驱动的全栈可观测性监控方案</li><li><strong>适合谁</strong>：适合 Linux、Docker、Kubernetes 环境下的运维与开发人员</li><li><strong>亮点</strong>：集成 AI 机器学习，提供极速的全栈监控与告警</li></ul></div>
+  <div class="topics"><span class="topic">#ai</span><span class="topic">#alerting</span><span class="topic">#cncf</span><span class="topic">#data-visualization</span><span class="topic">#database</span><span class="topic">#devops</span></div>
+  <div class="card-foot">
+    <span class="lang"><span class="lang-dot" style="background:#00ADD8"></span>Go · 成立于 2013-06-17</span>
+    <span class="foot-right">
+      <span class="stars">★ 81.4k</span>
+      <a class="gh-link" href="https://github.com/netdata/netdata" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+    </span>
+  </div>
+</article>
+<article class="card" data-cats="Linux">
+  <div class="card-head">
+    <span class="rank">6</span>
+    <div class="cats"><span class="cat" style="background:#f59e0b">Linux</span><span class="cat" style="background:#8b5cf6">AI</span></div>
+    <span class="speed">↑ 691★/天</span>
+  </div>
+  <h3 class="title"><a href="https://github.com/expo/exact" target="_blank" rel="noopener noreferrer"><span class="owner">expo/</span>exact</a></h3>
+  <div class="desc">Write an app once. It runs natively on the web, macOS, iOS, and Linux, and an AI agent can build it, run it, see it, and test it on every one of them.</div>
+  <div class="summary"><ul><li><strong>解决什么</strong>：解决跨平台原生应用开发难题，支持 AI 代理构建、运行和测试应用</li><li><strong>适合谁</strong>：适合希望利用 AI 代理自动化构建、运行和测试跨平台原生应用的开发者</li><li><strong>亮点</strong>：亮点是支持 AI 代理跨平台原生构建、运行和测试应用</li></ul></div>
+  <div class="topics"><span class="topic">#ai-agents</span><span class="topic">#appkit</span><span class="topic">#coding-agents</span><span class="topic">#cross-platform</span><span class="topic">#css</span><span class="topic">#ios</span></div>
+  <div class="card-foot">
+    <span class="lang"><span class="lang-dot" style="background:#dea584"></span>Rust · 成立于 2026-11-02</span>
+    <span class="foot-right">
+      <span class="stars">★ 3.0k</span>
+      <a class="gh-link" href="https://github.com/expo/exact" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+    </span>
+  </div>
+</article>
+<article class="card" data-cats="Windows">
+  <div class="card-head">
+    <span class="rank">7</span>
+    <div class="cats"><span class="cat" style="background:#f59e0b">Linux</span><span class="cat" style="background:#0ea5e9">Windows</span></div>
+    <span class="speed top">人气榜</span>
+  </div>
+  <h3 class="title"><a href="https://github.com/FiloSottile/mkcert" target="_blank" rel="noopener noreferrer"><span class="owner">FiloSottile/</span>mkcert</a></h3>
+  <div class="desc">A simple zero-config tool to make locally trusted development certificates with any names you&#x27;d like.</div>
+  <div class="summary"><ul><li><strong>解决什么</strong>：为本地开发环境快速生成受信任的证书，无需复杂配置</li><li><strong>适合谁</strong>：需要本地测试 HTTPS 或其他需要证书的场景的开发者</li><li><strong>亮点</strong>：一键生成受所有主流浏览器信任的本地证书</li></ul></div>
+  <div class="topics"><span class="topic">#certificates</span><span class="topic">#chrome</span><span class="topic">#firefox</span><span class="topic">#https</span><span class="topic">#ios</span><span class="topic">#linux</span></div>
+  <div class="card-foot">
+    <span class="lang"><span class="lang-dot" style="background:#00ADD8"></span>Go · 成立于 2018-06-25</span>
+    <span class="foot-right">
+      <span class="stars">★ 59.9k</span>
+      <a class="gh-link" href="https://github.com/FiloSottile/mkcert" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+    </span>
+  </div>
+</article>
+<article class="card" data-cats="Windows">
+  <div class="card-head">
+    <span class="rank">8</span>
+    <div class="cats"><span class="cat" style="background:#0ea5e9">Windows</span></div>
+    <span class="speed">↑ 532★/天</span>
+  </div>
+  <h3 class="title"><a href="https://github.com/mahmoudtawfik1998/secure-pdf-document-processor" target="_blank" rel="noopener noreferrer"><span class="owner">mahmoudtawfik1998/</span>secure-pdf-document-processor</a></h3>
+  <div class="desc">Adobe Acrobat Pro 2026: Secure Standalone PDF Document Processor for Desktop</div>
+  <div class="summary"><ul><li><strong>解决什么</strong>：提供一个安全的独立桌面 PDF 文档处理器，旨在实现 Adobe Acrobat Pro 2026 的功能并消除限制</li><li><strong>适合谁</strong>：适合需要自动化 PDF 工作流或寻找免费替代方案的 Windows 用户与开发者</li><li><strong>亮点</strong>：声称是 Adobe Acrobat Pro 2026 的开源替代品，近期涨星迅速</li></ul></div>
+  <div class="topics"><span class="topic">#acrobat-dc-pro</span><span class="topic">#acrobat-for-free-2026</span><span class="topic">#acrobat-no-limits</span><span class="topic">#acrobat-pdf</span><span class="topic">#automation</span><span class="topic">#desktop</span></div>
+  <div class="card-foot">
+    <span class="lang"><span class="lang-dot" style="background:#94a3b8"></span>HTML · 成立于 2026-11-06</span>
+    <span class="foot-right">
+      <span class="stars">★ 1.3k</span>
+      <a class="gh-link" href="https://github.com/mahmoudtawfik1998/secure-pdf-document-processor" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+    </span>
+  </div>
+</article>
+<article class="card" data-cats="AI神器">
+  <div class="card-head">
+    <span class="rank">9</span>
+    <div class="cats"><span class="cat" style="background:#ec4899">AI神器</span></div>
+    <span class="speed" style="background:#fdf2f8;color:#be185d">AI神器</span>
+  </div>
+  <h3 class="title"><a href="https://github.com/tangency-labs/solidcraft" target="_blank" rel="noopener noreferrer"><span class="owner">tangency-labs/</span>solidcraft</a></h3>
+  <div class="desc">SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.</div>
+  <div class="summary"><ul><li><strong>解决什么</strong>：提供基于纯 Rust 的开源参数化 3D CAD 应用，支持桌面、Web 及自动化</li><li><strong>适合谁</strong>：适合需要参数化建模、3D 设计或希望利用 Rust 和 MCP 进行自动化控制的开发者</li><li><strong>亮点</strong>：纯 Rust 实现，支持桌面与 Web 双端，并通过 MCP 协议实现自动化</li></ul></div>
+  <div class="topics"><span class="topic">#3d-modeling</span><span class="topic">#brep</span><span class="topic">#cad</span><span class="topic">#egui</span><span class="topic">#mcp</span><span class="topic">#parametric-cad</span></div>
+  <div class="card-foot">
+    <span class="lang"><span class="lang-dot" style="background:#dea584"></span>Rust · 成立于 2026-10-07</span>
+    <span class="foot-right">
+      <span class="stars">★ 15.9k</span>
+      <a class="gh-link" href="https://github.com/tangency-labs/solidcraft" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+    </span>
+  </div>
+</article>
+<article class="card" data-cats="AI神器">
+  <div class="card-head">
+    <span class="rank">10</span>
+    <div class="cats"><span class="cat" style="background:#8b5cf6">AI</span><span class="cat" style="background:#ec4899">AI神器</span></div>
+    <span class="speed" style="background:#fdf2f8;color:#be185d">AI神器</span>
+  </div>
+  <h3 class="title"><a href="https://github.com/modelflare-ai/AnyModelBot" target="_blank" rel="noopener noreferrer"><span class="owner">modelflare-ai/</span>AnyModelBot</a></h3>
+  <div class="desc">🤖 Open-source, local-first alternative to Grok Bot, OpenAI dots and Claude Duet. Your own AI bots on any model: GPT, Claude, Gemini, Grok, DeepSeek, Kimi, GLM and 70+ more through one Modelflare key. Reach them in the app, WeChat or Feishu; they remember you, work in the background, run commands and use your computer. Pay per use.</div>
+  <div class="summary"><ul><li><strong>解决什么</strong>：提供在多种 AI 模型上运行个人 AI 代理并集成到微信或飞书等应用中的方案</li><li><strong>适合谁</strong>：适合希望在微信或飞书中使用自定义 AI 助手并管理多模型 API 的用户</li><li><strong>亮点</strong>：支持单一密钥调用 70+ 模型，具备本地优先和后台计算机操作能力</li></ul></div>
+  <div class="topics"><span class="topic">#ai-agent</span><span class="topic">#ai-assistant</span><span class="topic">#chatbot</span><span class="topic">#claude</span><span class="topic">#computer-use</span><span class="topic">#deepseek</span></div>
+  <div class="card-foot">
+    <span class="lang"><span class="lang-dot" style="background:#3572A5"></span>Python · 成立于 2026-10-27</span>
+    <span class="foot-right">
+      <span class="stars">★ 3.3k</span>
+      <a class="gh-link" href="https://github.com/modelflare-ai/AnyModelBot" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+    </span>
+  </div>
+</article>
+<article class="card" data-cats="AI神器">
+  <div class="card-head">
+    <span class="rank">11</span>
+    <div class="cats"><span class="cat" style="background:#8b5cf6">AI</span><span class="cat" style="background:#ec4899">AI神器</span></div>
+    <span class="speed" style="background:#fdf2f8;color:#be185d">AI神器</span>
+  </div>
+  <h3 class="title"><a href="https://github.com/mdiri-ai/SoduWork" target="_blank" rel="noopener noreferrer"><span class="owner">mdiri-ai/</span>SoduWork</a></h3>
+  <div class="desc">The AI-native engine for teams and their agents. Multi-harness, multi-agent, self-hosted.</div>
+  <div class="summary"><ul><li><strong>解决什么</strong>：为团队提供多代理 AI 工作流编排引擎，解决团队协作中的自动化任务调度问题</li><li><strong>适合谁</strong>：适合需要构建、管理和协作多智能体工作流的自托管团队</li><li><strong>亮点</strong>：支持多 Harness 架构与插件系统，具备人工介入机制，支持完全自托管</li></ul></div>
+  <div class="topics"><span class="topic">#agent-harness</span><span class="topic">#agent-orchestration</span><span class="topic">#agent-workflows</span><span class="topic">#ai-agents</span><span class="topic">#ai-workflows</span><span class="topic">#anti-slop</span></div>
+  <div class="card-foot">
+    <span class="lang"><span class="lang-dot" style="background:#f1e05a"></span>JavaScript · 成立于 2026-10-29</span>
+    <span class="foot-right">
+      <span class="stars">★ 360</span>
+      <a class="gh-link" href="https://github.com/mdiri-ai/SoduWork" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+    </span>
+  </div>
+</article>
+<article class="card" data-cats="AI神器">
+  <div class="card-head">
+    <span class="rank">12</span>
+    <div class="cats"><span class="cat" style="background:#0ea5e9">Windows</span><span class="cat" style="background:#ec4899">AI神器</span></div>
+    <span class="speed" style="background:#fdf2f8;color:#be185d">AI神器</span>
+  </div>
+  <h3 class="title"><a href="https://github.com/helloHub1212/dsh-windows-mcp" target="_blank" rel="noopener noreferrer"><span class="owner">helloHub1212/</span>dsh-windows-mcp</a></h3>
+  <div class="desc">Windows desktop automation for DeepSeek Harness: the in-box MCP client bridge mounted against CursorTouch/Windows-MCP, with an off-by-default Computer Use switch and an in-app dependency installer.</div>
+  <div class="summary"><ul><li><strong>解决什么</strong>：为 DeepSeek Harness 提供 Windows 桌面自动化能力，通过 MCP 协议实现系统操作</li><li><strong>适合谁</strong>：适合需要通过 AI 进行 Windows 桌面自动化操作的开发者或用户</li><li><strong>亮点</strong>：提供默认关闭的 Computer Use 开关和内置依赖安装器，兼顾安全与便捷</li></ul></div>
+  <div class="topics"><span class="topic">#computer-use</span><span class="topic">#deepseek-harness</span><span class="topic">#desktop-automation</span><span class="topic">#dsh</span><span class="topic">#dsh-plugin</span><span class="topic">#mcp</span></div>
+  <div class="card-foot">
+    <span class="lang"><span class="lang-dot" style="background:#f1e05a"></span>JavaScript · 成立于 2026-10-11</span>
+    <span class="foot-right">
+      <span class="stars">★ 766</span>
+      <a class="gh-link" href="https://github.com/helloHub1212/dsh-windows-mcp" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+    </span>
+  </div>
+</article>
+<article class="card" data-cats="AI">
+  <div class="card-head">
+    <span class="rank">13</span>
+    <div class="cats"><span class="cat" style="background:#0ea5e9">Windows</span><span class="cat" style="background:#8b5cf6">AI</span></div>
+    <span class="speed" style="background:#f5f3ff;color:#6d28d9">AI 热门</span>
+  </div>
+  <h3 class="title"><a href="https://github.com/shanselman/gputaskman" target="_blank" rel="noopener noreferrer"><span class="owner">shanselman/</span>gputaskman</a></h3>
+  <div class="desc">A GPU task manager for Windows, Linux, and WSL: per-process VRAM, GPU activity, and LLM model/KV-cache insights (Windows AMD and NVIDIA).</div>
+  <div class="summary"><ul><li><strong>解决什么</strong>：解决跨平台 GPU 资源管理问题，提供进程级 VRAM 监控和 LLM 模型使用洞察</li><li><strong>适合谁</strong>：适合在 Windows、Linux 和 WSL 环境中运行 AI 模型并需要监控 GPU 资源的用户</li><li><strong>亮点</strong>：跨平台支持，提供详细的 LLM 模型和 KV 缓存洞察</li></ul></div>
+  
+  <div class="card-foot">
+    <span class="lang"><span class="lang-dot" style="background:#3572A5"></span>Python · 成立于 2026-11-03</span>
+    <span class="foot-right">
+      <span class="stars">★ 2.2k</span>
+      <a class="gh-link" href="https://github.com/shanselman/gputaskman" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+    </span>
+  </div>
+</article>
+<article class="card" data-cats="C">
+  <div class="card-head">
+    <span class="rank">14</span>
+    <div class="cats"><span class="cat" style="background:#5b6ee1">C</span></div>
+    <span class="speed neutral">经典可读</span>
+  </div>
+  <h3 class="title"><a href="https://github.com/cstack/db_tutorial" target="_blank" rel="noopener noreferrer"><span class="owner">cstack/</span>db_tutorial</a></h3>
+  <div class="desc">Writing a sqlite clone from scratch in C</div>
+  <div class="summary"><ul><li><strong>学什么</strong>：深入理解数据库存储引擎的设计与实现，掌握 C 语言底层编程技巧</li><li><strong>适合谁</strong>：有一定 C 语言基础，对数据库原理感兴趣，希望从零构建存储引擎的读者</li><li><strong>怎么读</strong>：先阅读核心数据结构定义，再逐步深入事务管理、页面布局等模块</li></ul></div>
+  <div class="topics"><span class="topic">#database</span></div>
+  <div class="card-foot">
+    <span class="lang"><span class="lang-dot" style="background:#555555"></span>C · 成立于 2017-08-31</span>
+    <span class="foot-right">
+      <span class="stars">★ 10.5k</span>
+      <a class="gh-link" href="https://github.com/cstack/db_tutorial" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+    </span>
+  </div>
+</article>
+<article class="card" data-cats="Python">
+  <div class="card-head">
+    <span class="rank">15</span>
+    <div class="cats"><span class="cat" style="background:#3572A5">Python</span></div>
+    <span class="speed neutral">经典可读</span>
+  </div>
+  <h3 class="title"><a href="https://github.com/Kludex/starlette" target="_blank" rel="noopener noreferrer"><span class="owner">Kludex/</span>starlette</a></h3>
+  <div class="desc">The little ASGI framework that shines. 🌟</div>
+  <div class="summary"><ul><li><strong>学什么</strong>：掌握 Python 异步编程在 Web 框架中的应用，理解 ASGI 请求响应生命周期及中间件链式处理</li><li><strong>适合谁</strong>：适合希望掌握高性能异步 Web 开发、学习 ASGI 标准实现或作为 FastAPI 源码进阶的读者</li><li><strong>怎么读</strong>：建议先阅读 `app.py` 入口，再深入 `routing.py` 和 `middleware.py` 核心模块</li></ul></div>
+  <div class="topics"><span class="topic">#asgi</span><span class="topic">#async</span><span class="topic">#http</span><span class="topic">#python</span><span class="topic">#websockets</span></div>
+  <div class="card-foot">
+    <span class="lang"><span class="lang-dot" style="background:#3572A5"></span>Python · 成立于 2018-06-25</span>
+    <span class="foot-right">
+      <span class="stars">★ 12.7k</span>
+      <a class="gh-link" href="https://github.com/Kludex/starlette" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+    </span>
+  </div>
+</article></div>
+</main>
+
+<footer>
+  github-daily · 每天自动整理<span class="sep">·</span>数据来源 GitHub API<span class="sep">·</span>摘要由 AI 生成
+</footer>
+
+<script>
+document.querySelectorAll('.tab').forEach(function (tab) {
+  tab.addEventListener('click', function () {
+    document.querySelectorAll('.tab').forEach(function (t) { t.classList.remove('active'); });
+    tab.classList.add('active');
+    var cat = tab.getAttribute('data-cat');
+    document.querySelectorAll('.card').forEach(function (card) {
+      var cats = (card.getAttribute('data-cats') || '').split(',');
+      card.style.display = (cat === 'all' || cats.indexOf(cat) !== -1) ? '' : 'none';
+    });
+  });
+});
+</script>
+</body>
+</html>

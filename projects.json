@@ -1,8 +1,572 @@
 {
-  "generated_at": "2026-11-11T05:49:00.288547+00:00",
-  "total": 170,
-  "occurrences": 262,
+  "generated_at": "2026-11-12T06:57:06.193743+00:00",
+  "total": 175,
+  "occurrences": 277,
   "projects": [
+    {
+      "full_name": "netdata/netdata",
+      "url": "https://github.com/netdata/netdata",
+      "description": "The fastest path to AI-powered full stack observability, even for lean teams.",
+      "summary": "解决什么：为精简团队提供 AI 驱动的全栈可观测性监控方案\n适合谁：适合 Linux、Docker、Kubernetes 环境下的运维与开发人员\n亮点：集成 AI 机器学习，提供极速的全栈监控与告警",
+      "stars": 81378,
+      "language": "Go",
+      "topics": [
+        "ai",
+        "alerting",
+        "cncf",
+        "data-visualization",
+        "database",
+        "devops",
+        "docker",
+        "grafana",
+        "influxdb",
+        "kubernetes",
+        "linux",
+        "machine-learning",
+        "mcp",
+        "mongodb",
+        "monitoring",
+        "mysql",
+        "netdata",
+        "observability",
+        "postgresql",
+        "prometheus"
+      ],
+      "categories": [
+        "Linux"
+      ],
+      "platforms": [
+        "Linux"
+      ],
+      "pick": "top",
+      "slot": "Linux",
+      "kind": "search",
+      "created_at": "2013-06-17",
+      "first_date": "2026-11-01",
+      "last_date": "2026-11-12",
+      "dates": [
+        "2026-11-12",
+        "2026-11-01"
+      ],
+      "times": 2
+    },
+    {
+      "full_name": "termux/termux-app",
+      "url": "https://github.com/termux/termux-app",
+      "description": "Termux - a terminal emulator application for Android OS extendible by variety of packages.",
+      "summary": "在 Android 手机上提供功能强大的终端模拟器，支持通过丰富的软件包进行功能扩展\n适合希望在安卓设备上使用 Linux 终端、进行开发或进行黑客活动的用户\n近期涨星最快的安卓终端模拟器，支持丰富的软件包扩展",
+      "stars": 64658,
+      "language": "Java",
+      "topics": [
+        "android",
+        "hacktoberfest",
+        "linux",
+        "terminal",
+        "termux"
+      ],
+      "categories": [
+        "安卓",
+        "Linux"
+      ],
+      "platforms": [
+        "安卓"
+      ],
+      "pick": "growth",
+      "slot": "安卓",
+      "kind": "search",
+      "created_at": "2015-10-23",
+      "first_date": "2026-11-12",
+      "last_date": "2026-11-12",
+      "dates": [
+        "2026-11-12"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "FiloSottile/mkcert",
+      "url": "https://github.com/FiloSottile/mkcert",
+      "description": "A simple zero-config tool to make locally trusted development certificates with any names you'd like.",
+      "summary": "解决什么：为本地开发环境快速生成受信任的证书，无需复杂配置\n适合谁：需要本地测试 HTTPS 或其他需要证书的场景的开发者\n亮点：一键生成受所有主流浏览器信任的本地证书",
+      "stars": 59868,
+      "language": "Go",
+      "topics": [
+        "certificates",
+        "chrome",
+        "firefox",
+        "https",
+        "ios",
+        "linux",
+        "local-development",
+        "localhost",
+        "macos",
+        "root-ca",
+        "tls",
+        "windows"
+      ],
+      "categories": [
+        "Linux",
+        "Windows"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "pick": "top",
+      "slot": "Windows",
+      "kind": "search",
+      "created_at": "2018-06-25",
+      "first_date": "2026-11-01",
+      "last_date": "2026-11-12",
+      "dates": [
+        "2026-11-12",
+        "2026-11-01"
+      ],
+      "times": 2
+    },
+    {
+      "full_name": "bluesky-social/social-app",
+      "url": "https://github.com/bluesky-social/social-app",
+      "description": "The Bluesky Social application for Web, iOS, and Android",
+      "summary": "解决什么：一个跨平台的社交应用，支持 Web、iOS 和 Android，提供类似 Bluesky 的社交体验\n适合谁：希望开发或使用类似 Bluesky 的去中心化社交应用的开发者或用户\n亮点：一个受欢迎的跨平台社交应用框架",
+      "stars": 18390,
+      "language": "TypeScript",
+      "topics": [],
+      "categories": [
+        "安卓"
+      ],
+      "platforms": [
+        "安卓"
+      ],
+      "pick": "top",
+      "slot": "安卓",
+      "kind": "search",
+      "created_at": "2022-06-07",
+      "first_date": "2026-10-31",
+      "last_date": "2026-11-12",
+      "dates": [
+        "2026-11-12",
+        "2026-10-31"
+      ],
+      "times": 2
+    },
+    {
+      "full_name": "tangency-labs/solidcraft",
+      "url": "https://github.com/tangency-labs/solidcraft",
+      "description": "SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.",
+      "summary": "提供基于纯 Rust 的开源参数化 3D CAD 应用，支持桌面、Web 及自动化\n适合需要参数化建模、3D 设计或希望利用 Rust 和 MCP 进行自动化控制的开发者\n纯 Rust 实现，支持桌面与 Web 双端，并通过 MCP 协议实现自动化",
+      "stars": 15860,
+      "language": "Rust",
+      "topics": [
+        "3d-modeling",
+        "brep",
+        "cad",
+        "egui",
+        "mcp",
+        "parametric-cad",
+        "rust",
+        "step",
+        "wasm"
+      ],
+      "categories": [
+        "AI神器"
+      ],
+      "platforms": [
+        "AI神器"
+      ],
+      "pick": "ai_tool",
+      "slot": "AI神器",
+      "kind": "search",
+      "created_at": "2026-10-07",
+      "first_date": "2026-11-06",
+      "last_date": "2026-11-12",
+      "dates": [
+        "2026-11-12",
+        "2026-11-06"
+      ],
+      "times": 2
+    },
+    {
+      "full_name": "Kludex/starlette",
+      "url": "https://github.com/Kludex/starlette",
+      "description": "The little ASGI framework that shines. 🌟",
+      "summary": "掌握 Python 异步编程在 Web 框架中的应用，理解 ASGI 请求响应生命周期及中间件链式处理\n适合希望掌握高性能异步 Web 开发、学习 ASGI 标准实现或作为 FastAPI 源码进阶的读者\n建议先阅读 `app.py` 入口，再深入 `routing.py` 和 `middleware.py` 核心模块",
+      "stars": 12727,
+      "language": "Python",
+      "topics": [
+        "asgi",
+        "async",
+        "http",
+        "python",
+        "websockets"
+      ],
+      "categories": [
+        "Python"
+      ],
+      "platforms": [
+        "Python"
+      ],
+      "pick": null,
+      "slot": null,
+      "kind": "learn",
+      "created_at": "2018-06-25",
+      "first_date": "2026-10-23",
+      "last_date": "2026-11-12",
+      "dates": [
+        "2026-11-12",
+        "2026-11-11",
+        "2026-11-08",
+        "2026-11-07",
+        "2026-11-06",
+        "2026-11-05",
+        "2026-11-03",
+        "2026-10-30",
+        "2026-10-26",
+        "2026-10-25",
+        "2026-10-24",
+        "2026-10-23"
+      ],
+      "times": 12
+    },
+    {
+      "full_name": "cstack/db_tutorial",
+      "url": "https://github.com/cstack/db_tutorial",
+      "description": "Writing a sqlite clone from scratch in C",
+      "summary": "学什么：深入理解数据库存储引擎的设计与实现，掌握 C 语言底层编程技巧\n适合谁：有一定 C 语言基础，对数据库原理感兴趣，希望从零构建存储引擎的读者\n怎么读：先阅读核心数据结构定义，再逐步深入事务管理、页面布局等模块",
+      "stars": 10537,
+      "language": "C",
+      "topics": [
+        "database"
+      ],
+      "categories": [
+        "C"
+      ],
+      "platforms": [
+        "C"
+      ],
+      "pick": null,
+      "slot": null,
+      "kind": "learn",
+      "created_at": "2017-08-31",
+      "first_date": "2026-10-27",
+      "last_date": "2026-11-12",
+      "dates": [
+        "2026-11-12",
+        "2026-10-27"
+      ],
+      "times": 2
+    },
+    {
+      "full_name": "xiaobaigroup/ClashBox",
+      "url": "https://github.com/xiaobaigroup/ClashBox",
+      "description": "HarmonyOS NEXT的代理软件",
+      "summary": "为 HarmonyOS NEXT 系统提供网络代理服务，解决网络访问限制问题\n适合 HarmonyOS NEXT 系统的用户及开发者，用于网络代理\n基于 ArkTS 开发，近期涨星速度极快，是鸿蒙 NEXT 生态的热门项目",
+      "stars": 4788,
+      "language": "",
+      "topics": [
+        "arkts",
+        "arkui",
+        "clash",
+        "flclash",
+        "harmonyos",
+        "harmonyos-next",
+        "proxy",
+        "vless",
+        "vpn",
+        "vpn-client"
+      ],
+      "categories": [
+        "鸿蒙"
+      ],
+      "platforms": [
+        "鸿蒙"
+      ],
+      "pick": "growth",
+      "slot": "鸿蒙",
+      "kind": "search",
+      "created_at": "2025-02-22",
+      "first_date": "2026-10-23",
+      "last_date": "2026-11-12",
+      "dates": [
+        "2026-11-12",
+        "2026-10-23"
+      ],
+      "times": 2
+    },
+    {
+      "full_name": "modelflare-ai/AnyModelBot",
+      "url": "https://github.com/modelflare-ai/AnyModelBot",
+      "description": "🤖 Open-source, local-first alternative to Grok Bot, OpenAI dots and Claude Duet. Your own AI bots on any model: GPT, Claude, Gemini, Grok, DeepSeek, Kimi, GLM and 70+ more through one Modelflare key. Reach them in the app, WeChat or Feishu; they remember you, work in the background, run commands and use your computer. Pay per use.",
+      "summary": "解决什么：提供在多种 AI 模型上运行个人 AI 代理并集成到微信或飞书等应用中的方案\n适合谁：适合希望在微信或飞书中使用自定义 AI 助手并管理多模型 API 的用户\n亮点：支持单一密钥调用 70+ 模型，具备本地优先和后台计算机操作能力",
+      "stars": 3296,
+      "language": "Python",
+      "topics": [
+        "ai-agent",
+        "ai-assistant",
+        "chatbot",
+        "claude",
+        "computer-use",
+        "deepseek",
+        "desktop-app",
+        "dsh",
+        "electron",
+        "feishu",
+        "gemini",
+        "gpt",
+        "grok",
+        "llm",
+        "local-first",
+        "modelflare",
+        "multi-model",
+        "openai-compatible",
+        "personal-ai-agent",
+        "wechat"
+      ],
+      "categories": [
+        "AI",
+        "AI神器"
+      ],
+      "platforms": [
+        "AI",
+        "AI神器"
+      ],
+      "pick": "ai_tool",
+      "slot": "AI神器",
+      "kind": "search",
+      "created_at": "2026-10-27",
+      "first_date": "2026-11-03",
+      "last_date": "2026-11-12",
+      "dates": [
+        "2026-11-12",
+        "2026-11-03"
+      ],
+      "times": 2
+    },
+    {
+      "full_name": "expo/exact",
+      "url": "https://github.com/expo/exact",
+      "description": "Write an app once. It runs natively on the web, macOS, iOS, and Linux, and an AI agent can build it, run it, see it, and test it on every one of them.",
+      "summary": "解决跨平台原生应用开发难题，支持 AI 代理构建、运行和测试应用\n适合希望利用 AI 代理自动化构建、运行和测试跨平台原生应用的开发者\n亮点是支持 AI 代理跨平台原生构建、运行和测试应用",
+      "stars": 3033,
+      "language": "Rust",
+      "topics": [
+        "ai-agents",
+        "appkit",
+        "coding-agents",
+        "cross-platform",
+        "css",
+        "ios",
+        "linux",
+        "macos",
+        "native-apps",
+        "rust",
+        "swift",
+        "uikit",
+        "web"
+      ],
+      "categories": [
+        "Linux",
+        "AI"
+      ],
+      "platforms": [
+        "Linux"
+      ],
+      "pick": "growth",
+      "slot": "Linux",
+      "kind": "search",
+      "created_at": "2026-11-02",
+      "first_date": "2026-11-12",
+      "last_date": "2026-11-12",
+      "dates": [
+        "2026-11-12"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "shanselman/gputaskman",
+      "url": "https://github.com/shanselman/gputaskman",
+      "description": "A GPU task manager for Windows, Linux, and WSL: per-process VRAM, GPU activity, and LLM model/KV-cache insights (Windows AMD and NVIDIA).",
+      "summary": "解决跨平台 GPU 资源管理问题，提供进程级 VRAM 监控和 LLM 模型使用洞察\n适合在 Windows、Linux 和 WSL 环境中运行 AI 模型并需要监控 GPU 资源的用户\n跨平台支持，提供详细的 LLM 模型和 KV 缓存洞察",
+      "stars": 2159,
+      "language": "Python",
+      "topics": [],
+      "categories": [
+        "Windows",
+        "AI"
+      ],
+      "platforms": [
+        "AI"
+      ],
+      "pick": "ai",
+      "slot": "AI",
+      "kind": "search",
+      "created_at": "2026-11-03",
+      "first_date": "2026-11-07",
+      "last_date": "2026-11-12",
+      "dates": [
+        "2026-11-12",
+        "2026-11-07"
+      ],
+      "times": 2
+    },
+    {
+      "full_name": "mahmoudtawfik1998/secure-pdf-document-processor",
+      "url": "https://github.com/mahmoudtawfik1998/secure-pdf-document-processor",
+      "description": "Adobe Acrobat Pro 2026: Secure Standalone PDF Document Processor for Desktop",
+      "summary": "解决什么：提供一个安全的独立桌面 PDF 文档处理器，旨在实现 Adobe Acrobat Pro 2026 的功能并消除限制\n适合谁：适合需要自动化 PDF 工作流或寻找免费替代方案的 Windows 用户与开发者\n亮点：声称是 Adobe Acrobat Pro 2026 的开源替代品，近期涨星迅速",
+      "stars": 1305,
+      "language": "HTML",
+      "topics": [
+        "acrobat-dc-pro",
+        "acrobat-for-free-2026",
+        "acrobat-no-limits",
+        "acrobat-pdf",
+        "automation",
+        "desktop",
+        "developer-tools",
+        "forms-acrobat-pro",
+        "free-pdf-reader-windows",
+        "open-source",
+        "pdf-password",
+        "pro-acrobat",
+        "python",
+        "scripts",
+        "software-engineering",
+        "system",
+        "utility",
+        "windows-app"
+      ],
+      "categories": [
+        "Windows"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "pick": "growth",
+      "slot": "Windows",
+      "kind": "search",
+      "created_at": "2026-11-06",
+      "first_date": "2026-11-12",
+      "last_date": "2026-11-12",
+      "dates": [
+        "2026-11-12"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "didi/dimina",
+      "url": "https://github.com/didi/dimina",
+      "description": "Dimina MiniProgram - DiDi's Open-Source MiniProgram / 星河小程序 - 滴滴开源小程序",
+      "summary": "提供跨平台小程序开发解决方案，支持鸿蒙、iOS 及 Android 多端运行\n适用于需要构建跨平台小程序的开发者，特别是关注鸿蒙生态的团队\n滴滴开源的星河小程序框架，支持多端统一开发",
+      "stars": 961,
+      "language": "JavaScript",
+      "topics": [
+        "android",
+        "harmonyos",
+        "ios",
+        "miniapp",
+        "miniprogram"
+      ],
+      "categories": [
+        "鸿蒙"
+      ],
+      "platforms": [
+        "鸿蒙"
+      ],
+      "pick": "top",
+      "slot": "鸿蒙",
+      "kind": "search",
+      "created_at": "2025-04-24",
+      "first_date": "2026-11-01",
+      "last_date": "2026-11-12",
+      "dates": [
+        "2026-11-12",
+        "2026-11-01"
+      ],
+      "times": 2
+    },
+    {
+      "full_name": "helloHub1212/dsh-windows-mcp",
+      "url": "https://github.com/helloHub1212/dsh-windows-mcp",
+      "description": "Windows desktop automation for DeepSeek Harness: the in-box MCP client bridge mounted against CursorTouch/Windows-MCP, with an off-by-default Computer Use switch and an in-app dependency installer.",
+      "summary": "为 DeepSeek Harness 提供 Windows 桌面自动化能力，通过 MCP 协议实现系统操作\n适合需要通过 AI 进行 Windows 桌面自动化操作的开发者或用户\n提供默认关闭的 Computer Use 开关和内置依赖安装器，兼顾安全与便捷",
+      "stars": 766,
+      "language": "JavaScript",
+      "topics": [
+        "computer-use",
+        "deepseek-harness",
+        "desktop-automation",
+        "dsh",
+        "dsh-plugin",
+        "mcp",
+        "windows",
+        "windows-mcp"
+      ],
+      "categories": [
+        "Windows",
+        "AI神器"
+      ],
+      "platforms": [
+        "Windows",
+        "AI神器"
+      ],
+      "pick": "ai_tool",
+      "slot": "AI神器",
+      "kind": "search",
+      "created_at": "2026-10-11",
+      "first_date": "2026-11-12",
+      "last_date": "2026-11-12",
+      "dates": [
+        "2026-11-12"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "mdiri-ai/SoduWork",
+      "url": "https://github.com/mdiri-ai/SoduWork",
+      "description": "The AI-native engine for teams and their agents. Multi-harness, multi-agent, self-hosted.",
+      "summary": "为团队提供多代理 AI 工作流编排引擎，解决团队协作中的自动化任务调度问题\n适合需要构建、管理和协作多智能体工作流的自托管团队\n支持多 Harness 架构与插件系统，具备人工介入机制，支持完全自托管",
+      "stars": 360,
+      "language": "JavaScript",
+      "topics": [
+        "agent-harness",
+        "agent-orchestration",
+        "agent-workflows",
+        "ai-agents",
+        "ai-workflows",
+        "anti-slop",
+        "claude-code",
+        "codex",
+        "deepseek",
+        "electron",
+        "fastapi",
+        "harness",
+        "human-in-the-loop",
+        "llm",
+        "mcp",
+        "multi-agent",
+        "opencode",
+        "plugin-system",
+        "self-hosted",
+        "team-collaboration"
+      ],
+      "categories": [
+        "AI",
+        "AI神器"
+      ],
+      "platforms": [
+        "AI",
+        "AI神器"
+      ],
+      "pick": "ai_tool",
+      "slot": "AI神器",
+      "kind": "search",
+      "created_at": "2026-10-29",
+      "first_date": "2026-11-12",
+      "last_date": "2026-11-12",
+      "dates": [
+        "2026-11-12"
+      ],
+      "times": 1
+    },
     {
       "full_name": "Z4nzu/hackingtool",
       "url": "https://github.com/Z4nzu/hackingtool",
@@ -217,47 +781,6 @@
         "2026-10-30"
       ],
       "times": 2
-    },
-    {
-      "full_name": "Kludex/starlette",
-      "url": "https://github.com/Kludex/starlette",
-      "description": "The little ASGI framework that shines. 🌟",
-      "summary": "深入理解 Python 异步编程在 Web 开发中的应用，学习 ASGI 标准的实现细节、路由匹配算法及中间件链式处理\n适合希望掌握 ASGI 协议、理解异步路由与中间件设计模式的 Python 后端开发者\n建议先阅读 `app.py` 中的 ASGI 应用入口，再深入 `routing.py` 理解路由分发机制",
-      "stars": 12720,
-      "language": "Python",
-      "topics": [
-        "asgi",
-        "async",
-        "http",
-        "python",
-        "websockets"
-      ],
-      "categories": [
-        "Python"
-      ],
-      "platforms": [
-        "Python"
-      ],
-      "pick": null,
-      "slot": null,
-      "kind": "learn",
-      "created_at": "2018-06-25",
-      "first_date": "2026-10-23",
-      "last_date": "2026-11-11",
-      "dates": [
-        "2026-11-11",
-        "2026-11-08",
-        "2026-11-07",
-        "2026-11-06",
-        "2026-11-05",
-        "2026-11-03",
-        "2026-10-30",
-        "2026-10-26",
-        "2026-10-25",
-        "2026-10-24",
-        "2026-10-23"
-      ],
-      "times": 11
     },
     {
       "full_name": "rddmwmddr/android-ad-cleaner",
@@ -2734,31 +3257,6 @@
       "times": 1
     },
     {
-      "full_name": "shanselman/gputaskman",
-      "url": "https://github.com/shanselman/gputaskman",
-      "description": "A GPU task manager for Windows, Linux, and WSL: per-process VRAM, GPU activity, and LLM model/KV-cache insights (Windows AMD and NVIDIA).",
-      "summary": "解决什么：监控 Windows、Linux 和 WSL 系统中每个进程的 VRAM 使用情况、GPU 活动以及 LLM 模型/KV 缓存信息\n适合谁：需要管理多 GPU 资源的开发者和研究人员\n亮点：提供跨平台 GPU 任务管理工具，支持 AMD 和 NVIDIA 显卡",
-      "stars": 284,
-      "language": "Python",
-      "topics": [],
-      "categories": [
-        "AI"
-      ],
-      "platforms": [
-        "AI"
-      ],
-      "pick": "ai",
-      "slot": "AI",
-      "kind": "search",
-      "created_at": "2026-11-03",
-      "first_date": "2026-11-07",
-      "last_date": "2026-11-07",
-      "dates": [
-        "2026-11-07"
-      ],
-      "times": 1
-    },
-    {
       "full_name": "PackArtisanMold/phone-to-webcam",
       "url": "https://github.com/PackArtisanMold/phone-to-webcam",
       "description": "Turn any iPhone or Android into a Windows webcam: scan a code in the phone's browser. No phone app, no watermark.",
@@ -2918,41 +3416,6 @@
         "2026-10-26"
       ],
       "times": 2
-    },
-    {
-      "full_name": "tangency-labs/solidcraft",
-      "url": "https://github.com/tangency-labs/solidcraft",
-      "description": "SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.",
-      "summary": "解决什么：提供基于纯 Rust 的参数化 3D CAD 建模解决方案，支持桌面、Web 及自动化操作\n适合谁：适合需要参数化建模、自动化设计流程以及 Web 端集成的开发者\n亮点：纯 Rust 实现，结合 MCP 协议实现自动化，支持多平台部署",
-      "stars": 14356,
-      "language": "Rust",
-      "topics": [
-        "3d-modeling",
-        "brep",
-        "cad",
-        "egui",
-        "mcp",
-        "parametric-cad",
-        "rust",
-        "step",
-        "wasm"
-      ],
-      "categories": [
-        "AI神器"
-      ],
-      "platforms": [
-        "AI神器"
-      ],
-      "pick": "ai_tool",
-      "slot": "AI神器",
-      "kind": "search",
-      "created_at": "2026-10-07",
-      "first_date": "2026-11-06",
-      "last_date": "2026-11-06",
-      "dates": [
-        "2026-11-06"
-      ],
-      "times": 1
     },
     {
       "full_name": "google/elephant-goldfish-model",
@@ -3925,52 +4388,6 @@
       "times": 2
     },
     {
-      "full_name": "modelflare-ai/AnyModelBot",
-      "url": "https://github.com/modelflare-ai/AnyModelBot",
-      "description": "🤖 Open-source, local-first alternative to Grok Bot, OpenAI dots and Claude Duet. Your own AI bots on any model: GPT, Claude, Gemini, Grok, DeepSeek, Kimi, GLM and 70+ more through one Modelflare key. Reach them in the app, WeChat or Feishu; they remember you, work in the background, run commands and use your computer. Pay per use.",
-      "summary": "解决什么：提供一个开源的本地优先 AI 代理，可以运行在多种模型上，实现类似 Grok Bot、OpenAI 和 Claude Duet 的功能\n适合谁：需要自定义 AI 代理并希望本地运行的开发者或个人用户\n亮点：支持 70 多种 AI 模型并通过一个 Modelflare 密钥统一管理",
-      "stars": 1746,
-      "language": "TypeScript",
-      "topics": [
-        "ai-agent",
-        "ai-assistant",
-        "chatbot",
-        "claude",
-        "computer-use",
-        "deepseek",
-        "desktop-app",
-        "dsh",
-        "electron",
-        "feishu",
-        "gemini",
-        "gpt",
-        "grok",
-        "llm",
-        "local-first",
-        "modelflare",
-        "multi-model",
-        "openai-compatible",
-        "personal-ai-agent",
-        "wechat"
-      ],
-      "categories": [
-        "AI"
-      ],
-      "platforms": [
-        "AI"
-      ],
-      "pick": "ai",
-      "slot": "AI",
-      "kind": "search",
-      "created_at": "2026-10-27",
-      "first_date": "2026-11-03",
-      "last_date": "2026-11-03",
-      "dates": [
-        "2026-11-03"
-      ],
-      "times": 1
-    },
-    {
       "full_name": "Verlintas/NOIR",
       "url": "https://github.com/Verlintas/NOIR",
       "description": "手机隐私审计：用 adb 扫出 Android 应用的权限、上报端点与数据流向，并给出可回滚的处置。Desktop Android leak audit: permissions, endpoints, data flows, reversible fixes.",
@@ -4256,91 +4673,6 @@
       "times": 1
     },
     {
-      "full_name": "netdata/netdata",
-      "url": "https://github.com/netdata/netdata",
-      "description": "The fastest path to AI-powered full stack observability, even for lean teams.",
-      "summary": "提供全栈可观测性监控，利用 AI 分析数据以快速发现和解决系统问题\n适合 DevOps 工程师和精简团队，用于实时监控服务器性能和基础设施健康状况\n通过 AI 技术实现近乎实时的全栈监控，且无需复杂配置",
-      "stars": 81236,
-      "language": "Go",
-      "topics": [
-        "ai",
-        "alerting",
-        "cncf",
-        "data-visualization",
-        "database",
-        "devops",
-        "docker",
-        "grafana",
-        "influxdb",
-        "kubernetes",
-        "linux",
-        "machine-learning",
-        "mcp",
-        "mongodb",
-        "monitoring",
-        "mysql",
-        "netdata",
-        "observability",
-        "postgresql",
-        "prometheus"
-      ],
-      "categories": [
-        "Linux"
-      ],
-      "platforms": [
-        "Linux"
-      ],
-      "pick": "top",
-      "slot": "Linux",
-      "kind": "search",
-      "created_at": "2013-06-17",
-      "first_date": "2026-11-01",
-      "last_date": "2026-11-01",
-      "dates": [
-        "2026-11-01"
-      ],
-      "times": 1
-    },
-    {
-      "full_name": "FiloSottile/mkcert",
-      "url": "https://github.com/FiloSottile/mkcert",
-      "description": "A simple zero-config tool to make locally trusted development certificates with any names you'd like.",
-      "summary": "解决什么：解决本地开发环境 HTTPS 证书信任问题，一键生成受信任的本地开发证书\n适合谁：适合需要在本地开发环境中配置 HTTPS 证书的开发者\n亮点：零配置一键生成受信任的本地开发证书，支持多平台",
-      "stars": 59813,
-      "language": "Go",
-      "topics": [
-        "certificates",
-        "chrome",
-        "firefox",
-        "https",
-        "ios",
-        "linux",
-        "local-development",
-        "localhost",
-        "macos",
-        "root-ca",
-        "tls",
-        "windows"
-      ],
-      "categories": [
-        "Linux",
-        "Windows"
-      ],
-      "platforms": [
-        "Windows"
-      ],
-      "pick": "top",
-      "slot": "Windows",
-      "kind": "search",
-      "created_at": "2018-06-25",
-      "first_date": "2026-11-01",
-      "last_date": "2026-11-01",
-      "dates": [
-        "2026-11-01"
-      ],
-      "times": 1
-    },
-    {
       "full_name": "ifixai-ai/iFixAi",
       "url": "https://github.com/ifixai-ai/iFixAi",
       "description": "Independent Auditing of AI Agents. Run by human or the agent itself, to answer the most crucial question in the AI Agent Economy. Is the agent doing what is supposed to do? With iFixAi you can have this answer in less than 120 seconds.",
@@ -4495,37 +4827,6 @@
       "times": 1
     },
     {
-      "full_name": "didi/dimina",
-      "url": "https://github.com/didi/dimina",
-      "description": "Dimina MiniProgram - DiDi's Open-Source MiniProgram / 星河小程序 - 滴滴开源小程序",
-      "summary": "解决多端小程序开发难题，实现一套代码在 Android、iOS 和鸿蒙系统运行\n适合需要构建跨平台小程序的开发者，尤其是关注鸿蒙生态的开发者\n滴滴开源的“星河”小程序框架，支持 Android、iOS 和鸿蒙多端运行",
-      "stars": 953,
-      "language": "JavaScript",
-      "topics": [
-        "android",
-        "harmonyos",
-        "ios",
-        "miniapp",
-        "miniprogram"
-      ],
-      "categories": [
-        "鸿蒙"
-      ],
-      "platforms": [
-        "鸿蒙"
-      ],
-      "pick": "top",
-      "slot": "鸿蒙",
-      "kind": "search",
-      "created_at": "2025-04-24",
-      "first_date": "2026-11-01",
-      "last_date": "2026-11-01",
-      "dates": [
-        "2026-11-01"
-      ],
-      "times": 1
-    },
-    {
       "full_name": "GeorgeGcs/ArkGenie",
       "url": "https://github.com/GeorgeGcs/ArkGenie",
       "description": "HarmonyOS ArkUI 开源组件套件，提供 AI 对话、流式 SSE、Markdown 渲染和 A2UI 生成式 UI 能力。",
@@ -4588,31 +4889,6 @@
       "slot": null,
       "kind": "learn",
       "created_at": "2013-10-24",
-      "first_date": "2026-10-31",
-      "last_date": "2026-10-31",
-      "dates": [
-        "2026-10-31"
-      ],
-      "times": 1
-    },
-    {
-      "full_name": "bluesky-social/social-app",
-      "url": "https://github.com/bluesky-social/social-app",
-      "description": "The Bluesky Social application for Web, iOS, and Android",
-      "summary": "提供Bluesky社交网络的官方客户端，支持Web、iOS和Android多平台访问\n适合使用Bluesky社交网络的用户，用于日常发帖、互动和浏览内容\n官方维护的开源项目，拥有高人气，支持跨平台（Web/iOS/Android）同步",
-      "stars": 18357,
-      "language": "TypeScript",
-      "topics": [],
-      "categories": [
-        "安卓"
-      ],
-      "platforms": [
-        "安卓"
-      ],
-      "pick": "top",
-      "slot": "安卓",
-      "kind": "search",
-      "created_at": "2022-06-07",
       "first_date": "2026-10-31",
       "last_date": "2026-10-31",
       "dates": [
@@ -5027,33 +5303,6 @@
       "slot": "Windows",
       "kind": "search",
       "created_at": "2023-11-21",
-      "first_date": "2026-10-27",
-      "last_date": "2026-10-27",
-      "dates": [
-        "2026-10-27"
-      ],
-      "times": 1
-    },
-    {
-      "full_name": "cstack/db_tutorial",
-      "url": "https://github.com/cstack/db_tutorial",
-      "description": "Writing a sqlite clone from scratch in C",
-      "summary": "掌握从零构建数据库存储引擎的核心原理，包括 B-Tree 结构、磁盘 I/O 操作及 SQL 语句解析\n适合具备 C 语言基础，想深入理解数据库底层实现原理的开发者\n建议先阅读 B-Tree 核心模块和磁盘 I/O 实现，再逐步理解整体架构",
-      "stars": 10537,
-      "language": "C",
-      "topics": [
-        "database"
-      ],
-      "categories": [
-        "C"
-      ],
-      "platforms": [
-        "C"
-      ],
-      "pick": null,
-      "slot": null,
-      "kind": "learn",
-      "created_at": "2017-08-31",
       "first_date": "2026-10-27",
       "last_date": "2026-10-27",
       "dates": [
@@ -5865,42 +6114,6 @@
       "slot": "Windows",
       "kind": "search",
       "created_at": "2026-03-12",
-      "first_date": "2026-10-23",
-      "last_date": "2026-10-23",
-      "dates": [
-        "2026-10-23"
-      ],
-      "times": 1
-    },
-    {
-      "full_name": "xiaobaigroup/ClashBox",
-      "url": "https://github.com/xiaobaigroup/ClashBox",
-      "description": "HarmonyOS NEXT的代理软件",
-      "summary": "原始描述：HarmonyOS NEXT的代理软件\n\n（摘要生成失败，本次展示原文）",
-      "stars": 4639,
-      "language": "",
-      "topics": [
-        "arkts",
-        "arkui",
-        "clash",
-        "flclash",
-        "harmonyos",
-        "harmonyos-next",
-        "proxy",
-        "vless",
-        "vpn",
-        "vpn-client"
-      ],
-      "categories": [
-        "鸿蒙"
-      ],
-      "platforms": [
-        "鸿蒙"
-      ],
-      "pick": "top",
-      "slot": "鸿蒙",
-      "kind": "search",
-      "created_at": "2025-02-22",
       "first_date": "2026-10-23",
       "last_date": "2026-10-23",
       "dates": [
