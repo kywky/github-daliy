@@ -1,8 +1,568 @@
 {
-  "generated_at": "2026-11-13T06:22:09.569620+00:00",
-  "total": 180,
-  "occurrences": 292,
+  "generated_at": "2026-11-14T06:00:01.124616+00:00",
+  "total": 183,
+  "occurrences": 307,
   "projects": [
+    {
+      "full_name": "sherlock-project/sherlock",
+      "url": "https://github.com/sherlock-project/sherlock",
+      "description": "Hunt down social media accounts by username across social networks",
+      "summary": "通过用户名在多个社交网络上查找对应的社交媒体账号\n适合安全研究人员、渗透测试人员及进行 OSINT 调查的用户\n支持海量社交平台，近期涨星速度极快",
+      "stars": 111287,
+      "language": "Python",
+      "topics": [
+        "cli",
+        "cti",
+        "cybersecurity",
+        "forensics",
+        "hacktoberfest",
+        "information-gathering",
+        "infosec",
+        "linux",
+        "osint",
+        "pentesting",
+        "python",
+        "python3",
+        "reconnaissance",
+        "redteam",
+        "sherlock",
+        "tools"
+      ],
+      "categories": [
+        "Linux"
+      ],
+      "platforms": [
+        "Linux"
+      ],
+      "pick": "growth",
+      "slot": "Linux",
+      "kind": "search",
+      "created_at": "2018-12-24",
+      "first_date": "2026-10-25",
+      "last_date": "2026-11-14",
+      "dates": [
+        "2026-11-14",
+        "2026-11-10",
+        "2026-10-25"
+      ],
+      "times": 3
+    },
+    {
+      "full_name": "warpdotdev/warp",
+      "url": "https://github.com/warpdotdev/warp",
+      "description": "Warp is an agentic development environment, born out of the terminal.",
+      "summary": "解决什么：将终端从一个简单的命令行工具转变为一个智能的、可编程的开发环境\n适合谁：程序员和开发者，希望在终端中提高工作效率和自动化开发任务\n亮点：基于 Rust 开发的终端代理，通过 AI 和脚本能力实现智能代码补全和自动化操作",
+      "stars": 66006,
+      "language": "Rust",
+      "topics": [
+        "bash",
+        "linux",
+        "macos",
+        "rust",
+        "shell",
+        "terminal",
+        "wasm",
+        "zsh"
+      ],
+      "categories": [
+        "Linux"
+      ],
+      "platforms": [
+        "Linux"
+      ],
+      "pick": "top",
+      "slot": "Linux",
+      "kind": "search",
+      "created_at": "2021-07-08",
+      "first_date": "2026-11-03",
+      "last_date": "2026-11-14",
+      "dates": [
+        "2026-11-14",
+        "2026-11-03"
+      ],
+      "times": 2
+    },
+    {
+      "full_name": "PowerShell/PowerShell",
+      "url": "https://github.com/PowerShell/PowerShell",
+      "description": "PowerShell for every system!",
+      "summary": "解决跨平台环境下的系统自动化与命令行管理问题。\n面向 Windows、Linux 和 macOS 用户，用于系统运维与脚本开发。\n支持跨平台，基于 C#，是 GitHub 上最热门的 Shell 项目。",
+      "stars": 56160,
+      "language": "C#",
+      "topics": [
+        "command-line",
+        "hacktoberfest",
+        "linux",
+        "macos",
+        "netcore",
+        "powershell",
+        "shell",
+        "windows"
+      ],
+      "categories": [
+        "Linux",
+        "Windows"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "pick": "top",
+      "slot": "Windows",
+      "kind": "search",
+      "created_at": "2016-01-13",
+      "first_date": "2026-11-03",
+      "last_date": "2026-11-14",
+      "dates": [
+        "2026-11-14",
+        "2026-11-03"
+      ],
+      "times": 2
+    },
+    {
+      "full_name": "yetone/magpie",
+      "url": "https://github.com/yetone/magpie",
+      "description": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
+      "summary": "解决用户在 Mac 上需要同时使用多个不同 LLM 模型时，切换繁琐、无法统一管理的痛点\n适合需要在 Mac 上快速调用 DeepSeek、Claude Code 等多种 AI 模型的开发者或内容创作者\n将多个 AI 模型集成到 macOS 菜单栏，提供统一的一键切换和便捷访问体验",
+      "stars": 36226,
+      "language": "Go",
+      "topics": [
+        "claude-code",
+        "codex",
+        "deepseek",
+        "gemini-cli",
+        "llm",
+        "macos"
+      ],
+      "categories": [
+        "AI神器"
+      ],
+      "platforms": [
+        "AI神器"
+      ],
+      "pick": "ai_tool",
+      "slot": "AI神器",
+      "kind": "search",
+      "created_at": "2026-09-23",
+      "first_date": "2026-10-21",
+      "last_date": "2026-11-14",
+      "dates": [
+        "2026-11-14",
+        "2026-11-10",
+        "2026-10-21"
+      ],
+      "times": 3
+    },
+    {
+      "full_name": "ccch1mneyyy/dsh-Go",
+      "url": "https://github.com/ccch1mneyyy/dsh-Go",
+      "description": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
+      "summary": "将 DeepSeek 人工智能模型部署到手机上，并支持远程控制电脑进行编程或交互\n适合需要在移动端运行 AI Agent 的开发者，或希望利用手机远程控制电脑进行编程的用户\n基于 Flutter 开发的移动端 AI Agent，支持 TUI 交互和插件扩展",
+      "stars": 22031,
+      "language": "Dart",
+      "topics": [
+        "ai-agent",
+        "android",
+        "android-app",
+        "coding-agent",
+        "deepseek",
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin",
+        "dsh-tui",
+        "flutter",
+        "llm"
+      ],
+      "categories": [
+        "安卓"
+      ],
+      "platforms": [
+        "安卓"
+      ],
+      "pick": "top",
+      "slot": "安卓",
+      "kind": "search",
+      "created_at": "2026-10-25",
+      "first_date": "2026-10-30",
+      "last_date": "2026-11-14",
+      "dates": [
+        "2026-11-14",
+        "2026-11-10",
+        "2026-11-05",
+        "2026-11-01",
+        "2026-10-30"
+      ],
+      "times": 5
+    },
+    {
+      "full_name": "DuarteSantos8/openGym",
+      "url": "https://github.com/DuarteSantos8/openGym",
+      "description": "Open-source gym & body-weight tracker, now in the App Store (iPhone + Apple Watch) and as an Android APK. Plan routines, log workouts, see which muscles are trained, import from Strong/Hevy/FitNotes. Self-host it or use it on the phone alone.",
+      "summary": "解决什么：这是一个开源的健身房与自重训练追踪应用，支持训练计划制定、锻炼记录及多平台数据导入。\n适合谁：适合健身爱好者、自重训练者，以及需要跨平台（iOS/Android）或自托管健身追踪解决方案的用户。\n亮点：支持自托管、Apple Watch 集成及数据导入，近期涨星迅速。",
+      "stars": 21275,
+      "language": "JavaScript",
+      "topics": [
+        "apple-watch",
+        "bodyweight",
+        "docker",
+        "fitness",
+        "fitness-tracker",
+        "gym",
+        "health",
+        "ios",
+        "mcp",
+        "nodejs",
+        "passkeys",
+        "progressive-web-applications",
+        "pwa",
+        "react",
+        "self-hosted",
+        "self-hosting",
+        "vite",
+        "webauthn",
+        "weightlifting",
+        "workout-tracker"
+      ],
+      "categories": [
+        "安卓"
+      ],
+      "platforms": [
+        "安卓"
+      ],
+      "pick": "growth",
+      "slot": "安卓",
+      "kind": "search",
+      "created_at": "2026-07-18",
+      "first_date": "2026-10-24",
+      "last_date": "2026-11-14",
+      "dates": [
+        "2026-11-14",
+        "2026-11-10",
+        "2026-11-01",
+        "2026-10-28",
+        "2026-10-24"
+      ],
+      "times": 5
+    },
+    {
+      "full_name": "heydamir/unslop",
+      "url": "https://github.com/heydamir/unslop",
+      "description": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
+      "summary": "将 Claude 生成的粗糙、凭感觉编码的 UI 界面转化为专业设计的界面\n适合使用 Claude 进行前端开发的开发者，或希望快速获得精美 UI 的用户\n作为 Claude 的技能插件，能一键将粗糙的 AI 代码转化为设计精美的界面",
+      "stars": 15749,
+      "language": "JavaScript",
+      "topics": [],
+      "categories": [
+        "AI神器"
+      ],
+      "platforms": [
+        "AI神器"
+      ],
+      "pick": "ai_tool",
+      "slot": "AI神器",
+      "kind": "search",
+      "created_at": "2026-10-29",
+      "first_date": "2026-11-10",
+      "last_date": "2026-11-14",
+      "dates": [
+        "2026-11-14",
+        "2026-11-10"
+      ],
+      "times": 2
+    },
+    {
+      "full_name": "Kludex/starlette",
+      "url": "https://github.com/Kludex/starlette",
+      "description": "The little ASGI framework that shines. 🌟",
+      "summary": "掌握 Python 异步 Web 开发的核心原理，包括 ASGI 协议规范、路由分发机制及中间件设计模式\n适合有一定 Python 基础，希望深入理解 Web 框架底层架构或正在学习 FastAPI 源码的开发者\n建议先阅读 `__init__.py` 梳理核心组件，重点分析路由分发与中间件处理逻辑",
+      "stars": 12719,
+      "language": "Python",
+      "topics": [
+        "asgi",
+        "async",
+        "http",
+        "python",
+        "websockets"
+      ],
+      "categories": [
+        "Python"
+      ],
+      "platforms": [
+        "Python"
+      ],
+      "pick": null,
+      "slot": null,
+      "kind": "learn",
+      "created_at": "2018-06-25",
+      "first_date": "2026-10-23",
+      "last_date": "2026-11-14",
+      "dates": [
+        "2026-11-14",
+        "2026-11-13",
+        "2026-11-12",
+        "2026-11-11",
+        "2026-11-08",
+        "2026-11-07",
+        "2026-11-06",
+        "2026-11-05",
+        "2026-11-03",
+        "2026-10-30",
+        "2026-10-26",
+        "2026-10-25",
+        "2026-10-24",
+        "2026-10-23"
+      ],
+      "times": 14
+    },
+    {
+      "full_name": "Cyan4973/xxHash",
+      "url": "https://github.com/Cyan4973/xxHash",
+      "description": "Extremely fast non-cryptographic hash algorithm",
+      "summary": "学什么：读源码能学到的具体能力，1-2 句\n适合谁：什么水平或什么需求的读者最适合读，1-2 句\n怎么读：建议的入手模块或阅读顺序，1 句",
+      "stars": 11436,
+      "language": "C",
+      "topics": [
+        "c",
+        "dispersion",
+        "hash",
+        "hash-checksum",
+        "hash-functions",
+        "smhasher",
+        "xxhash"
+      ],
+      "categories": [
+        "C"
+      ],
+      "platforms": [
+        "C"
+      ],
+      "pick": null,
+      "slot": null,
+      "kind": "learn",
+      "created_at": "2014-04-30",
+      "first_date": "2026-10-28",
+      "last_date": "2026-11-14",
+      "dates": [
+        "2026-11-14",
+        "2026-10-28"
+      ],
+      "times": 2
+    },
+    {
+      "full_name": "openfilm/openfilm",
+      "url": "https://github.com/openfilm/openfilm",
+      "description": "The open source AI video agent: turns any coding agent into a video agent, with an editor to change anything it makes.",
+      "summary": "将任意编码代理转化为视频生成代理，并提供可视化编辑功能\n适合希望利用 AI 自动生成和编辑视频内容的开发者及创作者\n开源 AI 视频生成工具，能将通用编码代理转化为视频代理并支持深度编辑",
+      "stars": 6690,
+      "language": "TypeScript",
+      "topics": [
+        "ai-video",
+        "claude-code",
+        "codex",
+        "coding-agents",
+        "html",
+        "motion-graphics",
+        "video-agent",
+        "video-editor"
+      ],
+      "categories": [
+        "AI神器"
+      ],
+      "platforms": [
+        "AI神器"
+      ],
+      "pick": "ai_tool",
+      "slot": "AI神器",
+      "kind": "search",
+      "created_at": "2026-10-04",
+      "first_date": "2026-11-07",
+      "last_date": "2026-11-14",
+      "dates": [
+        "2026-11-14",
+        "2026-11-07"
+      ],
+      "times": 2
+    },
+    {
+      "full_name": "Chevey339/kelivo",
+      "url": "https://github.com/Chevey339/kelivo",
+      "description": "A Flutter LLM Chat Client. Support Mobile & Desktop.",
+      "summary": "解决什么：提供一个基于 Flutter 的通用大语言模型聊天客户端，支持移动端和桌面端\n适合谁：需要快速开发跨平台 AI 聊天应用的开发者或团队\n亮点：专为 Flutter 开发，支持鸿蒙、安卓、iOS 及桌面平台的大语言模型聊天客户端",
+      "stars": 4524,
+      "language": "Dart",
+      "topics": [
+        "ai",
+        "android",
+        "chatbot",
+        "chatbox",
+        "flutter",
+        "flutter-apps",
+        "harmony",
+        "harmonyos",
+        "ios",
+        "llm",
+        "openharmony"
+      ],
+      "categories": [
+        "鸿蒙"
+      ],
+      "platforms": [
+        "鸿蒙"
+      ],
+      "pick": "growth",
+      "slot": "鸿蒙",
+      "kind": "search",
+      "created_at": "2025-08-29",
+      "first_date": "2026-10-28",
+      "last_date": "2026-11-14",
+      "dates": [
+        "2026-11-14",
+        "2026-11-10",
+        "2026-10-28"
+      ],
+      "times": 3
+    },
+    {
+      "full_name": "vercel-labs/ui",
+      "url": "https://github.com/vercel-labs/ui",
+      "description": "A library of behaviors for agents to build the next generation of user interfaces.",
+      "summary": "解决什么：解决智能体构建和交互下一代用户界面的问题，提供可访问性支持。\n适合谁：适合开发 AI 代理应用或使用 React/Svelte/Vue 等框架的前端开发者。\n亮点：支持多框架且专为智能体交互与可访问性设计。",
+      "stars": 3989,
+      "language": "TypeScript",
+      "topics": [
+        "accessibility",
+        "agent",
+        "agents",
+        "aria",
+        "behaviors",
+        "component",
+        "component-library",
+        "headless",
+        "mcp",
+        "react",
+        "solid",
+        "svelte",
+        "vue",
+        "web-components",
+        "webmcp"
+      ],
+      "categories": [
+        "AI神器"
+      ],
+      "platforms": [
+        "AI神器"
+      ],
+      "pick": "ai_tool",
+      "slot": "AI神器",
+      "kind": "search",
+      "created_at": "2026-10-26",
+      "first_date": "2026-11-14",
+      "last_date": "2026-11-14",
+      "dates": [
+        "2026-11-14"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "Zitann/HarmonyOS-Haps",
+      "url": "https://github.com/Zitann/HarmonyOS-Haps",
+      "description": "⚡️鸿蒙Next Hap安装包合集，如果您觉得有帮助，还请点亮一下 Star 🌟 哦~ 万分感谢！",
+      "summary": "解决什么：提供鸿蒙Next Hap安装包合集，方便用户下载和使用\n适合谁：对鸿蒙Next系统感兴趣的开发者或用户\n亮点：汇集了大量鸿蒙Next Hap安装包，资源丰富",
+      "stars": 3958,
+      "language": "Python",
+      "topics": [
+        "harmonyos",
+        "harmonyos-next"
+      ],
+      "categories": [
+        "鸿蒙"
+      ],
+      "platforms": [
+        "鸿蒙"
+      ],
+      "pick": "top",
+      "slot": "鸿蒙",
+      "kind": "search",
+      "created_at": "2024-11-15",
+      "first_date": "2026-10-24",
+      "last_date": "2026-11-14",
+      "dates": [
+        "2026-11-14",
+        "2026-11-10",
+        "2026-11-02",
+        "2026-10-28",
+        "2026-10-24"
+      ],
+      "times": 5
+    },
+    {
+      "full_name": "libracoder/kiri",
+      "url": "https://github.com/libracoder/kiri",
+      "description": "A small, fast container runtime for macOS, Windows and Linux",
+      "summary": "提供跨平台、轻量级的容器运行时，支持在 macOS、Windows 和 Linux 上运行容器\n需要在 Windows 和 macOS 上运行容器或使用 Docker/Kubernetes 的开发人员\n用 Rust 编写，近期涨星最快的跨平台容器运行时",
+      "stars": 2398,
+      "language": "Rust",
+      "topics": [
+        "containers",
+        "docker",
+        "kubernetes",
+        "linux",
+        "macos",
+        "oci",
+        "windows"
+      ],
+      "categories": [
+        "Linux",
+        "Windows"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "pick": "growth",
+      "slot": "Windows",
+      "kind": "search",
+      "created_at": "2026-11-02",
+      "first_date": "2026-11-14",
+      "last_date": "2026-11-14",
+      "dates": [
+        "2026-11-14"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "hyperionaidev/smolmaxxing",
+      "url": "https://github.com/hyperionaidev/smolmaxxing",
+      "description": "maxxing the ability to run different LLMs on the smallest devices possible",
+      "summary": "解决什么：最大化在最小设备上运行不同大型语言模型的能力\n适合谁：需要在小设备上部署和使用本地大型语言模型的开发者或研究人员\n亮点：一个轻量级 C 语言库，支持多种 LLM 在边缘设备高效运行",
+      "stars": 650,
+      "language": "C",
+      "topics": [
+        "edge-ai",
+        "llama-cpp",
+        "llama-cpp-alternative",
+        "llm",
+        "local-llm",
+        "local-llm-support",
+        "on-device",
+        "quantization",
+        "quantization-algorithms"
+      ],
+      "categories": [
+        "AI"
+      ],
+      "platforms": [
+        "AI"
+      ],
+      "pick": "ai",
+      "slot": "AI",
+      "kind": "search",
+      "created_at": "2026-11-04",
+      "first_date": "2026-11-14",
+      "last_date": "2026-11-14",
+      "dates": [
+        "2026-11-14"
+      ],
+      "times": 1
+    },
     {
       "full_name": "morluto/rea",
       "url": "https://github.com/morluto/rea",
@@ -241,49 +801,6 @@
         "2026-11-02"
       ],
       "times": 2
-    },
-    {
-      "full_name": "Kludex/starlette",
-      "url": "https://github.com/Kludex/starlette",
-      "description": "The little ASGI framework that shines. 🌟",
-      "summary": "掌握 ASGI 协议与异步编程模型，深入理解路由分发与中间件机制\n适合希望深入理解 ASGI 协议及 Web 框架底层架构的 Python 开发者\n建议从 routing.py 和 middleware.py 入手，再阅读核心应用类的实现",
-      "stars": 12731,
-      "language": "Python",
-      "topics": [
-        "asgi",
-        "async",
-        "http",
-        "python",
-        "websockets"
-      ],
-      "categories": [
-        "Python"
-      ],
-      "platforms": [
-        "Python"
-      ],
-      "pick": null,
-      "slot": null,
-      "kind": "learn",
-      "created_at": "2018-06-25",
-      "first_date": "2026-10-23",
-      "last_date": "2026-11-13",
-      "dates": [
-        "2026-11-13",
-        "2026-11-12",
-        "2026-11-11",
-        "2026-11-08",
-        "2026-11-07",
-        "2026-11-06",
-        "2026-11-05",
-        "2026-11-03",
-        "2026-10-30",
-        "2026-10-26",
-        "2026-10-25",
-        "2026-10-24",
-        "2026-10-23"
-      ],
-      "times": 13
     },
     {
       "full_name": "jhaizhou-ops/d2r-mobile",
@@ -1704,49 +2221,6 @@
       "times": 1
     },
     {
-      "full_name": "sherlock-project/sherlock",
-      "url": "https://github.com/sherlock-project/sherlock",
-      "description": "Hunt down social media accounts by username across social networks",
-      "summary": "解决什么：通过用户名跨社交媒体平台查找个人账户\n适合谁：渗透测试人员、安全研究员、数字取证专家等网络安全相关从业者\n亮点：一站式解决跨平台社交媒体账户查找的工具",
-      "stars": 107735,
-      "language": "Python",
-      "topics": [
-        "cli",
-        "cti",
-        "cybersecurity",
-        "forensics",
-        "hacktoberfest",
-        "information-gathering",
-        "infosec",
-        "linux",
-        "osint",
-        "pentesting",
-        "python",
-        "python3",
-        "reconnaissance",
-        "redteam",
-        "sherlock",
-        "tools"
-      ],
-      "categories": [
-        "Linux"
-      ],
-      "platforms": [
-        "Linux"
-      ],
-      "pick": "top",
-      "slot": "Linux",
-      "kind": "search",
-      "created_at": "2018-12-24",
-      "first_date": "2026-10-25",
-      "last_date": "2026-11-10",
-      "dates": [
-        "2026-11-10",
-        "2026-10-25"
-      ],
-      "times": 2
-    },
-    {
       "full_name": "tw93/Pake",
       "url": "https://github.com/tw93/Pake",
       "description": "Turn any website into a lightweight desktop app with one command, on macOS, Windows and Linux.",
@@ -1793,39 +2267,6 @@
       "times": 2
     },
     {
-      "full_name": "yetone/magpie",
-      "url": "https://github.com/yetone/magpie",
-      "description": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
-      "summary": "统一管理多种大模型（如 Claude、DeepSeek、Kimi）的访问入口，解决用户在不同 AI 应用间切换的繁琐问题\n适合 macOS 用户，特别是需要频繁使用多种 LLM 进行编程辅助或日常对话的开发者与创作者\n独特的 macOS 菜单栏集成体验，将 Claude Code、Codex 等多种模型聚合在一个应用中，实现快速切换",
-      "stars": 33404,
-      "language": "Go",
-      "topics": [
-        "claude-code",
-        "codex",
-        "deepseek",
-        "gemini-cli",
-        "llm",
-        "macos"
-      ],
-      "categories": [
-        "AI神器"
-      ],
-      "platforms": [
-        "AI神器"
-      ],
-      "pick": "ai_tool",
-      "slot": "AI神器",
-      "kind": "search",
-      "created_at": "2026-09-23",
-      "first_date": "2026-10-21",
-      "last_date": "2026-11-10",
-      "dates": [
-        "2026-11-10",
-        "2026-10-21"
-      ],
-      "times": 2
-    },
-    {
       "full_name": "catchorg/Catch2",
       "url": "https://github.com/catchorg/Catch2",
       "description": "A modern, C++-native, test framework for unit-tests, TDD and BDD - using C++14, C++17 and later (C++11 support is in v2.x branch, and C++03 on the Catch1.x branch)",
@@ -1859,122 +2300,6 @@
         "2026-10-27"
       ],
       "times": 2
-    },
-    {
-      "full_name": "DuarteSantos8/openGym",
-      "url": "https://github.com/DuarteSantos8/openGym",
-      "description": "Open-source gym & body-weight tracker, now in the App Store (iPhone + Apple Watch) and as an Android APK. Plan routines, log workouts, see which muscles are trained, import from Strong/Hevy/FitNotes. Self-host it or use it on the phone alone.",
-      "summary": "解决什么：一个开源的健身房和自重训练追踪器，帮助用户规划训练计划、记录锻炼情况、查看肌肉训练情况，并支持从Strong/Hevy/FitNotes导入数据\n适合谁：健身爱好者、自重训练者、需要追踪训练数据的用户\n亮点：支持自托管或手机独立使用，并提供iOS和Apple Watch应用",
-      "stars": 20692,
-      "language": "JavaScript",
-      "topics": [
-        "apple-watch",
-        "bodyweight",
-        "docker",
-        "fitness",
-        "fitness-tracker",
-        "gym",
-        "health",
-        "ios",
-        "mcp",
-        "nodejs",
-        "passkeys",
-        "progressive-web-applications",
-        "pwa",
-        "react",
-        "self-hosted",
-        "self-hosting",
-        "vite",
-        "webauthn",
-        "weightlifting",
-        "workout-tracker"
-      ],
-      "categories": [
-        "安卓"
-      ],
-      "platforms": [
-        "安卓"
-      ],
-      "pick": "top",
-      "slot": "安卓",
-      "kind": "search",
-      "created_at": "2026-07-18",
-      "first_date": "2026-10-24",
-      "last_date": "2026-11-10",
-      "dates": [
-        "2026-11-10",
-        "2026-11-01",
-        "2026-10-28",
-        "2026-10-24"
-      ],
-      "times": 4
-    },
-    {
-      "full_name": "ccch1mneyyy/dsh-Go",
-      "url": "https://github.com/ccch1mneyyy/dsh-Go",
-      "description": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
-      "summary": "解决什么：让 DeepSeek AI 工具在安卓手机上本地运行，并可通过电脑进行远程控制\n适合谁：需要随时随地使用 AI 工具进行开发或创作的安卓用户\n亮点：将 DeepSeek Harness 打包成手机应用，实现本地化远程 AI 操作",
-      "stars": 17945,
-      "language": "Dart",
-      "topics": [
-        "ai-agent",
-        "android",
-        "android-app",
-        "coding-agent",
-        "deepseek",
-        "deepseek-harness",
-        "dsh",
-        "dsh-plugin",
-        "dsh-tui",
-        "flutter",
-        "llm"
-      ],
-      "categories": [
-        "安卓",
-        "AI",
-        "AI神器"
-      ],
-      "platforms": [
-        "安卓"
-      ],
-      "pick": "growth",
-      "slot": "安卓",
-      "kind": "search",
-      "created_at": "2026-10-25",
-      "first_date": "2026-10-30",
-      "last_date": "2026-11-10",
-      "dates": [
-        "2026-11-10",
-        "2026-11-05",
-        "2026-11-01",
-        "2026-10-30"
-      ],
-      "times": 4
-    },
-    {
-      "full_name": "heydamir/unslop",
-      "url": "https://github.com/heydamir/unslop",
-      "description": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
-      "summary": "解决什么：解决 AI 生成的粗糙 UI 缺乏设计美感的问题\n适合谁：适合使用 Claude 进行开发的开发者，希望获得专业级的设计界面\n亮点：将 AI 生成的粗糙代码转化为专业设计界面",
-      "stars": 12933,
-      "language": "JavaScript",
-      "topics": [],
-      "categories": [
-        "AI神器"
-      ],
-      "platforms": [
-        "AI神器"
-      ],
-      "pick": "ai_tool",
-      "slot": "AI神器",
-      "kind": "search",
-      "created_at": "2026-10-29",
-      "first_date": "2026-11-10",
-      "last_date": "2026-11-10",
-      "dates": [
-        "2026-11-10"
-      ],
-      "times": 1
     },
     {
       "full_name": "KKKKhazix/AIHOT",
@@ -2071,75 +2396,6 @@
         "2026-11-10"
       ],
       "times": 1
-    },
-    {
-      "full_name": "Chevey339/kelivo",
-      "url": "https://github.com/Chevey339/kelivo",
-      "description": "A Flutter LLM Chat Client. Support Mobile & Desktop.",
-      "summary": "解决什么：提供一个基于 Flutter 的通用框架，用于构建支持移动端和桌面端的 LLM 对话式应用\n适合谁：开发者希望快速创建跨平台 AI 聊天机器人或聊天应用\n亮点：专为 Flutter 开发，支持鸿蒙系统，易于集成多种大型语言模型",
-      "stars": 4471,
-      "language": "Dart",
-      "topics": [
-        "ai",
-        "android",
-        "chatbot",
-        "chatbox",
-        "flutter",
-        "flutter-apps",
-        "harmony",
-        "harmonyos",
-        "ios",
-        "llm",
-        "openharmony"
-      ],
-      "categories": [
-        "鸿蒙"
-      ],
-      "platforms": [
-        "鸿蒙"
-      ],
-      "pick": "top",
-      "slot": "鸿蒙",
-      "kind": "search",
-      "created_at": "2025-08-29",
-      "first_date": "2026-10-28",
-      "last_date": "2026-11-10",
-      "dates": [
-        "2026-11-10",
-        "2026-10-28"
-      ],
-      "times": 2
-    },
-    {
-      "full_name": "Zitann/HarmonyOS-Haps",
-      "url": "https://github.com/Zitann/HarmonyOS-Haps",
-      "description": "⚡️鸿蒙Next Hap安装包合集，如果您觉得有帮助，还请点亮一下 Star 🌟 哦~ 万分感谢！",
-      "summary": "解决什么：提供鸿蒙Next Hap安装包合集，方便用户下载和使用\n适合谁：对鸿蒙Next系统感兴趣的开发者或用户\n亮点：鸿蒙Next Hap安装包的集中集合，近期涨星最快",
-      "stars": 3901,
-      "language": "Python",
-      "topics": [
-        "harmonyos",
-        "harmonyos-next"
-      ],
-      "categories": [
-        "鸿蒙"
-      ],
-      "platforms": [
-        "鸿蒙"
-      ],
-      "pick": "growth",
-      "slot": "鸿蒙",
-      "kind": "search",
-      "created_at": "2024-11-15",
-      "first_date": "2026-10-24",
-      "last_date": "2026-11-10",
-      "dates": [
-        "2026-11-10",
-        "2026-11-02",
-        "2026-10-28",
-        "2026-10-24"
-      ],
-      "times": 4
     },
     {
       "full_name": "IainKay/ram-altman",
@@ -3489,40 +3745,6 @@
       "times": 1
     },
     {
-      "full_name": "openfilm/openfilm",
-      "url": "https://github.com/openfilm/openfilm",
-      "description": "The open source AI video agent: turns any coding agent into a video agent, with an editor to change anything it makes.",
-      "summary": "解决什么：将编程代理转换为视频代理，并提供编辑器修改生成的视频内容\n适合谁：开发者或创意人员，用于自动化视频制作和编辑\n亮点：开源AI视频代理，可将编程代理功能应用于视频制作",
-      "stars": 5120,
-      "language": "TypeScript",
-      "topics": [
-        "ai-video",
-        "claude-code",
-        "codex",
-        "coding-agents",
-        "html",
-        "motion-graphics",
-        "video-agent",
-        "video-editor"
-      ],
-      "categories": [
-        "AI神器"
-      ],
-      "platforms": [
-        "AI神器"
-      ],
-      "pick": "ai_tool",
-      "slot": "AI神器",
-      "kind": "search",
-      "created_at": "2026-10-04",
-      "first_date": "2026-11-07",
-      "last_date": "2026-11-07",
-      "dates": [
-        "2026-11-07"
-      ],
-      "times": 1
-    },
-    {
       "full_name": "alibaba/GaiaX",
       "url": "https://github.com/alibaba/GaiaX",
       "description": "动态模板引擎是一套轻量化、跨平台、高性能的纯原生移动端卡片渲染动态化解决方案",
@@ -4575,75 +4797,6 @@
       "times": 1
     },
     {
-      "full_name": "warpdotdev/warp",
-      "url": "https://github.com/warpdotdev/warp",
-      "description": "Warp is an agentic development environment, born out of the terminal.",
-      "summary": "解决传统终端功能单一、交互体验差的问题，提供具备智能功能的现代化开发环境\n适合 Linux 和 macOS 环境下的开发者，特别是追求现代化终端体验的用户\n基于 Rust 构建，集成了 AI 代理能力，是目前人气极高的现代化终端工具",
-      "stars": 65843,
-      "language": "Rust",
-      "topics": [
-        "bash",
-        "linux",
-        "macos",
-        "rust",
-        "shell",
-        "terminal",
-        "wasm",
-        "zsh"
-      ],
-      "categories": [
-        "Linux"
-      ],
-      "platforms": [
-        "Linux"
-      ],
-      "pick": "top",
-      "slot": "Linux",
-      "kind": "search",
-      "created_at": "2021-07-08",
-      "first_date": "2026-11-03",
-      "last_date": "2026-11-03",
-      "dates": [
-        "2026-11-03"
-      ],
-      "times": 1
-    },
-    {
-      "full_name": "PowerShell/PowerShell",
-      "url": "https://github.com/PowerShell/PowerShell",
-      "description": "PowerShell for every system!",
-      "summary": "提供跨平台的命令行 shell 和自动化脚本语言，解决多系统环境下的统一管理与自动化任务执行问题。\n适合系统管理员、开发者以及需要在 Windows、Linux 和 macOS 上进行自动化运维和脚本开发的人员。\n基于 .NET Core 构建，实现了真正的跨平台支持，是 Windows 之外最强大的命令行工具之一。",
-      "stars": 56005,
-      "language": "C#",
-      "topics": [
-        "command-line",
-        "hacktoberfest",
-        "linux",
-        "macos",
-        "netcore",
-        "powershell",
-        "shell",
-        "windows"
-      ],
-      "categories": [
-        "Linux",
-        "Windows"
-      ],
-      "platforms": [
-        "Windows"
-      ],
-      "pick": "top",
-      "slot": "Windows",
-      "kind": "search",
-      "created_at": "2016-01-13",
-      "first_date": "2026-11-03",
-      "last_date": "2026-11-03",
-      "dates": [
-        "2026-11-03"
-      ],
-      "times": 1
-    },
-    {
       "full_name": "nickbutcher/plaid",
       "url": "https://github.com/nickbutcher/plaid",
       "description": "An Android app which provides design news & inspiration as well as being an example of implementing material design.",
@@ -5377,39 +5530,6 @@
       "last_date": "2026-10-29",
       "dates": [
         "2026-10-29"
-      ],
-      "times": 1
-    },
-    {
-      "full_name": "Cyan4973/xxHash",
-      "url": "https://github.com/Cyan4973/xxHash",
-      "description": "Extremely fast non-cryptographic hash algorithm",
-      "summary": "学什么：学习如何利用位运算与内存布局优化来提升哈希算法的执行效率\n适合谁：适合有一定C语言基础，希望深入理解底层算法实现与性能调优的读者\n怎么读：建议先阅读核心的xxh32和xxh64实现，再理解主循环与内存对齐处理",
-      "stars": 11380,
-      "language": "C",
-      "topics": [
-        "c",
-        "dispersion",
-        "hash",
-        "hash-checksum",
-        "hash-functions",
-        "smhasher",
-        "xxhash"
-      ],
-      "categories": [
-        "C"
-      ],
-      "platforms": [
-        "C"
-      ],
-      "pick": null,
-      "slot": null,
-      "kind": "learn",
-      "created_at": "2014-04-30",
-      "first_date": "2026-10-28",
-      "last_date": "2026-10-28",
-      "dates": [
-        "2026-10-28"
       ],
       "times": 1
     },
