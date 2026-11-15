@@ -1,8 +1,618 @@
 {
-  "generated_at": "2026-11-14T06:00:01.124616+00:00",
-  "total": 183,
-  "occurrences": 307,
+  "generated_at": "2026-11-15T06:01:11.189505+00:00",
+  "total": 190,
+  "occurrences": 322,
   "projects": [
+    {
+      "full_name": "ocornut/imgui",
+      "url": "https://github.com/ocornut/imgui",
+      "description": "Dear ImGui: Bloat-free Graphical User interface for C++ with minimal dependencies",
+      "summary": "学什么：学习即时模式 GUI 的核心架构，掌握渲染循环优化与状态管理的最佳实践\n适合谁：适合 C++ 开发者，特别是想学习即时模式 GUI 架构、游戏工具开发或渲染管线集成的读者\n怎么读：从 `imgui.cpp` 的主循环和状态管理开始，逐步深入渲染器和组件实现",
+      "stars": 77110,
+      "language": "C++",
+      "topics": [
+        "api",
+        "cplusplus",
+        "framework",
+        "game-development",
+        "game-engine",
+        "gamedev",
+        "gui",
+        "imgui",
+        "immediate-gui",
+        "library",
+        "multi-platform",
+        "native",
+        "toolkit",
+        "tools",
+        "ui"
+      ],
+      "categories": [
+        "C++"
+      ],
+      "platforms": [
+        "C++"
+      ],
+      "pick": null,
+      "slot": null,
+      "kind": "learn",
+      "created_at": "2014-07-21",
+      "first_date": "2026-10-30",
+      "last_date": "2026-11-15",
+      "dates": [
+        "2026-11-15",
+        "2026-10-30"
+      ],
+      "times": 2
+    },
+    {
+      "full_name": "sharkdp/bat",
+      "url": "https://github.com/sharkdp/bat",
+      "description": "A cat(1) clone with wings.",
+      "summary": "它是 cat 命令的增强版，解决了传统 cat 命令功能单一、无法显示语法高亮和 Git 信息的痛点\n适合 Linux 用户、程序员以及需要在终端中高效查看代码文件的开发者\n使用 Rust 编写，支持语法高亮、Git 集成以及类似 man 页面的分页显示",
+      "stars": 61261,
+      "language": "Rust",
+      "topics": [
+        "cli",
+        "command-line",
+        "git",
+        "hacktoberfest",
+        "rust",
+        "syntax-highlighting",
+        "terminal",
+        "tool"
+      ],
+      "categories": [
+        "Linux"
+      ],
+      "platforms": [
+        "Linux"
+      ],
+      "pick": "top",
+      "slot": "Linux",
+      "kind": "search",
+      "created_at": "2018-04-21",
+      "first_date": "2026-11-04",
+      "last_date": "2026-11-15",
+      "dates": [
+        "2026-11-15",
+        "2026-11-04"
+      ],
+      "times": 2
+    },
+    {
+      "full_name": "WerWolv/ImHex",
+      "url": "https://github.com/WerWolv/ImHex",
+      "description": "🔍 A Hex Editor for Reverse Engineers, Programmers and people who value their retinas when working at 3 AM.",
+      "summary": "解决什么：为逆向工程师和程序员提供一款支持多平台、具有暗黑模式的十六进制编辑器\n适合谁：需要分析二进制文件或进行逆向工程的开发者以及注重视觉舒适度的用户\n亮点：集成了反汇编器和模式语言等高级功能于一身",
+      "stars": 55864,
+      "language": "C++",
+      "topics": [
+        "analyzer",
+        "binary-analysis",
+        "c-plus-plus",
+        "cpp",
+        "cybersecurity",
+        "dark-mode",
+        "dear-imgui",
+        "disassembler",
+        "forensics",
+        "hacking",
+        "hacktoberfest",
+        "hex-editor",
+        "ips",
+        "linux",
+        "macos",
+        "multi-platform",
+        "pattern-language",
+        "reverse-engineering",
+        "static-analysis",
+        "windows"
+      ],
+      "categories": [
+        "Linux",
+        "Windows"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "pick": "top",
+      "slot": "Windows",
+      "kind": "search",
+      "created_at": "2020-11-10",
+      "first_date": "2026-11-04",
+      "last_date": "2026-11-15",
+      "dates": [
+        "2026-11-15",
+        "2026-11-04"
+      ],
+      "times": 2
+    },
+    {
+      "full_name": "nickbutcher/plaid",
+      "url": "https://github.com/nickbutcher/plaid",
+      "description": "An Android app which provides design news & inspiration as well as being an example of implementing material design.",
+      "summary": "提供设计灵感与资讯，并展示 Material Design 的实现范例\n安卓开发者学习 Material Design，以及寻找设计灵感的用户\n集设计资讯与 Material Design 实战代码，是安卓开发的经典参考",
+      "stars": 16158,
+      "language": "Kotlin",
+      "topics": [],
+      "categories": [
+        "安卓"
+      ],
+      "platforms": [
+        "安卓"
+      ],
+      "pick": "top",
+      "slot": "安卓",
+      "kind": "search",
+      "created_at": "2015-10-30",
+      "first_date": "2026-11-03",
+      "last_date": "2026-11-15",
+      "dates": [
+        "2026-11-15",
+        "2026-11-03"
+      ],
+      "times": 2
+    },
+    {
+      "full_name": "Kludex/starlette",
+      "url": "https://github.com/Kludex/starlette",
+      "description": "The little ASGI framework that shines. 🌟",
+      "summary": "掌握 ASGI 协议规范、中间件管道设计以及高性能异步路由的实现逻辑\n适合希望深入理解 Web 框架底层架构、异步编程及中间件机制的 Python 开发者\n建议从 `app.py` 和 `routing.py` 入手，理解核心请求处理流程",
+      "stars": 12720,
+      "language": "Python",
+      "topics": [
+        "asgi",
+        "async",
+        "http",
+        "python",
+        "websockets"
+      ],
+      "categories": [
+        "Python"
+      ],
+      "platforms": [
+        "Python"
+      ],
+      "pick": null,
+      "slot": null,
+      "kind": "learn",
+      "created_at": "2018-06-25",
+      "first_date": "2026-10-23",
+      "last_date": "2026-11-15",
+      "dates": [
+        "2026-11-15",
+        "2026-11-14",
+        "2026-11-13",
+        "2026-11-12",
+        "2026-11-11",
+        "2026-11-08",
+        "2026-11-07",
+        "2026-11-06",
+        "2026-11-05",
+        "2026-11-03",
+        "2026-10-30",
+        "2026-10-26",
+        "2026-10-25",
+        "2026-10-24",
+        "2026-10-23"
+      ],
+      "times": 15
+    },
+    {
+      "full_name": "horizon-rust/horizon",
+      "url": "https://github.com/horizon-rust/horizon",
+      "description": "Minecraft: Java Edition 26.3 rewritten from scratch in Rust, checked against vanilla with 281 differential harnesses. Get it with the Horizon launcher.",
+      "summary": "用 Rust 从零重写 Minecraft: Java Edition 26.3 版本\nMinecraft 玩家及 Rust 游戏引擎开发者\n拥有 281 个差异测试工具包，确保与原版行为高度一致",
+      "stars": 9881,
+      "language": "Rust",
+      "topics": [
+        "differential-testing",
+        "game-engine",
+        "gamedev",
+        "linux",
+        "minecraft",
+        "minecraft-java",
+        "reimplementation",
+        "rust",
+        "voxel",
+        "vulkan",
+        "wgpu"
+      ],
+      "categories": [
+        "Linux"
+      ],
+      "platforms": [
+        "Linux"
+      ],
+      "pick": "growth",
+      "slot": "Linux",
+      "kind": "search",
+      "created_at": "2026-10-03",
+      "first_date": "2026-10-29",
+      "last_date": "2026-11-15",
+      "dates": [
+        "2026-11-15",
+        "2026-11-07",
+        "2026-10-29"
+      ],
+      "times": 3
+    },
+    {
+      "full_name": "rddmwmddr/android-ad-cleaner",
+      "url": "https://github.com/rddmwmddr/android-ad-cleaner",
+      "description": "关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。",
+      "summary": "一键关闭国产安卓手机系统内的广告、推送及资讯推荐\n适合不想 Root 但想净化国产系统的安卓用户\n支持 AI 智能体一键执行，无需 Root 且可一键还原",
+      "stars": 8057,
+      "language": "Python",
+      "topics": [
+        "adb",
+        "ai-agent",
+        "android",
+        "coloros",
+        "debloat",
+        "hyperos",
+        "magicos",
+        "originos"
+      ],
+      "categories": [
+        "安卓",
+        "AI神器"
+      ],
+      "platforms": [
+        "安卓"
+      ],
+      "pick": "growth",
+      "slot": "安卓",
+      "kind": "search",
+      "created_at": "2026-10-24",
+      "first_date": "2026-10-26",
+      "last_date": "2026-11-15",
+      "dates": [
+        "2026-11-15",
+        "2026-11-11",
+        "2026-11-02",
+        "2026-10-26"
+      ],
+      "times": 4
+    },
+    {
+      "full_name": "RoutineMiku/apkstart",
+      "url": "https://github.com/RoutineMiku/apkstart",
+      "description": "Windows 上的安卓应用运行器：双击 APK 即装，应用以独立窗口与桌面图标运行，自持 QEMU 运行时",
+      "summary": "提供在 Windows 上直接运行 Android APK 的能力，无需传统模拟器\n适合需要在 Windows 上以独立窗口运行 Android 应用或游戏，而不使用完整模拟器的用户\n自持 QEMU 运行时，支持双击 APK 安装及桌面图标",
+      "stars": 4090,
+      "language": "JavaScript",
+      "topics": [
+        "android",
+        "android-x86",
+        "apk",
+        "electron",
+        "emulator",
+        "freeform",
+        "qemu",
+        "windows",
+        "wsa"
+      ],
+      "categories": [
+        "Windows"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "pick": "growth",
+      "slot": "Windows",
+      "kind": "search",
+      "created_at": "2026-10-29",
+      "first_date": "2026-11-15",
+      "last_date": "2026-11-15",
+      "dates": [
+        "2026-11-15"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "lkimuk/ReArk",
+      "url": "https://github.com/lkimuk/ReArk",
+      "description": "An intelligent reverse engineering and AI-assisted analysis tool for HarmonyOS NEXT (HAP/APP/ABC), Android (APK/AAB), iOS (IPA), and native PE/ELF/Mach-O binaries.",
+      "summary": "专注于对 HarmonyOS NEXT、Android、iOS 及原生二进制文件进行智能逆向工程与 AI 辅助分析\n适合安全研究人员、恶意软件分析师及逆向工程师使用\n支持多平台（鸿蒙、安卓、iOS）的智能逆向工具，集成 AI 辅助分析能力",
+      "stars": 970,
+      "language": "C++",
+      "topics": [
+        "aab",
+        "abc",
+        "agentic-workflow",
+        "ai-agent",
+        "ai-analysis",
+        "android",
+        "apk",
+        "binary-analysis",
+        "decompiler",
+        "disassembler",
+        "hap",
+        "harmonyos",
+        "harmonyos-next",
+        "malware-analysis",
+        "reverse-engineering",
+        "security-tools",
+        "static-analysis"
+      ],
+      "categories": [
+        "鸿蒙"
+      ],
+      "platforms": [
+        "鸿蒙"
+      ],
+      "pick": "top",
+      "slot": "鸿蒙",
+      "kind": "search",
+      "created_at": "2026-05-29",
+      "first_date": "2026-10-21",
+      "last_date": "2026-11-15",
+      "dates": [
+        "2026-11-15",
+        "2026-11-11",
+        "2026-11-06",
+        "2026-11-03",
+        "2026-10-26",
+        "2026-10-21"
+      ],
+      "times": 6
+    },
+    {
+      "full_name": "tiobeharxi1987/blender-ai-copilot-flow",
+      "url": "https://github.com/tiobeharxi1987/blender-ai-copilot-flow",
+      "description": "A controlled AI workflow for Blender: every copilot edit is a supervised tool call—proposed, approved, executed in sequence, cancellable after the current step and undoable by name—inside a visual studio with a built-in MCP server. · blender-ai-copilot-flow · blender · blender 3d · blender addon · blender plugin · blender extension",
+      "summary": "解决什么：在 Blender 中提供受控的 AI 工作流程，确保每个 AI 协助编辑都是经过监督的工具调用，包括提议、批准、执行，并支持取消和按名称撤销\n适合谁：Blender 用户，特别是需要进行 3D 建模和自动化处理的用户，希望提高工作效率和 AI 交互的精确性\n亮点：通过内置 MCP 服务器和可视化工作室，实现 Blender 中 AI 编辑的精细控制和可追溯性",
+      "stars": 400,
+      "language": "",
+      "topics": [
+        "3d-automation",
+        "3d-modeling",
+        "blender",
+        "blender-addon",
+        "blender-agents",
+        "blender-ai",
+        "blender-assistant",
+        "blender-automation",
+        "blender-chatgpt",
+        "blender-copilot",
+        "blender-extension",
+        "blender-llm",
+        "blender-mcp",
+        "blender-plugin",
+        "blender-scripting",
+        "blender3d",
+        "bpy",
+        "mcp",
+        "mcp-server",
+        "model-context-protocol"
+      ],
+      "categories": [
+        "AI神器"
+      ],
+      "platforms": [
+        "AI神器"
+      ],
+      "pick": "ai_tool",
+      "slot": "AI神器",
+      "kind": "search",
+      "created_at": "2026-11-12",
+      "first_date": "2026-11-15",
+      "last_date": "2026-11-15",
+      "dates": [
+        "2026-11-15"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "zovulrira1974/blender-ai-copilot-assets",
+      "url": "https://github.com/zovulrira1974/blender-ai-copilot-assets",
+      "description": "An asset-savvy AI copilot for Blender—search Poly Haven, Sketchfab and Poly Pizza mid-conversation, check what fits, import after your confirmation, with 27 scene tools and a built-in MCP server alongside. · blender-ai-copilot-assets · blender · blender 3d · blender addon · blender plugin · blender extension · blender scripting · blender automation",
+      "summary": "解决在 Blender 中搜索并导入 3D 资产繁琐的问题，支持对话式搜索与确认\n适合 Blender 3D 艺术家、建模师及自动化脚本开发者使用\n内置 MCP 服务器与 27 个场景工具，支持主流 3D 资产平台对话式搜索与导入",
+      "stars": 397,
+      "language": "",
+      "topics": [
+        "3d-automation",
+        "3d-modeling",
+        "blender",
+        "blender-addon",
+        "blender-agents",
+        "blender-ai",
+        "blender-assistant",
+        "blender-automation",
+        "blender-chatgpt",
+        "blender-copilot",
+        "blender-extension",
+        "blender-llm",
+        "blender-mcp",
+        "blender-plugin",
+        "blender-scripting",
+        "blender3d",
+        "bpy",
+        "mcp",
+        "mcp-server",
+        "model-context-protocol"
+      ],
+      "categories": [
+        "AI神器"
+      ],
+      "platforms": [
+        "AI神器"
+      ],
+      "pick": "ai_tool",
+      "slot": "AI神器",
+      "kind": "search",
+      "created_at": "2026-11-12",
+      "first_date": "2026-11-15",
+      "last_date": "2026-11-15",
+      "dates": [
+        "2026-11-15"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "racdeufindurch198812/Blender-AI-MCP-Studio",
+      "url": "https://github.com/racdeufindurch198812/Blender-AI-MCP-Studio",
+      "description": "Blender AI MCP Studio is an AI assistant and built-in Model Context Protocol MCP server for Blender that turns plain-language briefs into inspected, approved and reversible 3D scene operations — with a visual chat workspace, multi-agent teams and your choice of AI models. · blender ai mcp studio · mcp-for-blender · mcp for blender pro",
+      "summary": "将自然语言简报转化为 Blender 中经过检查、批准且可逆的 3D 场景操作。\n适合希望利用 AI 模型自动化 Blender 3D 建模与场景构建的用户。\n内置 MCP 服务器，提供可视化聊天工作区、多代理团队及多种 AI 模型支持。",
+      "stars": 395,
+      "language": "",
+      "topics": [
+        "3d-automation",
+        "3d-modeling",
+        "blender",
+        "blender-addon",
+        "blender-agents",
+        "blender-ai",
+        "blender-assistant",
+        "blender-automation",
+        "blender-chatgpt",
+        "blender-copilot",
+        "blender-extension",
+        "blender-llm",
+        "blender-mcp",
+        "blender-plugin",
+        "blender-scripting",
+        "blender3d",
+        "bpy",
+        "mcp",
+        "mcp-server",
+        "model-context-protocol"
+      ],
+      "categories": [
+        "AI神器"
+      ],
+      "platforms": [
+        "AI神器"
+      ],
+      "pick": "ai_tool",
+      "slot": "AI神器",
+      "kind": "search",
+      "created_at": "2026-11-12",
+      "first_date": "2026-11-15",
+      "last_date": "2026-11-15",
+      "dates": [
+        "2026-11-15"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "hitkeeen/blender-ai-mcp-addon",
+      "url": "https://github.com/hitkeeen/blender-ai-mcp-addon",
+      "description": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration.",
+      "summary": "为 Blender 提供 AI 助手和 MCP 服务器，支持视觉聊天与多智能体自动化工作流\n3D 艺术家、开发者及需要通过 LLM（如 ChatGPT/Claude）进行 Blender 自动化或脚本编写的用户\n支持多种 LLM（ChatGPT/Claude 等）并基于 bpy 的 MCP 协议集成",
+      "stars": 388,
+      "language": "",
+      "topics": [
+        "ai-agents",
+        "ai-assistant",
+        "blender",
+        "blender-addon",
+        "blender-ai",
+        "blender-automation",
+        "blender-mcp",
+        "blender-plugin",
+        "blender-scripting",
+        "bpy",
+        "chatgpt",
+        "claude",
+        "gemini",
+        "llm",
+        "mcp",
+        "mcp-for-blender",
+        "mcp-server",
+        "model-context-protocol",
+        "ollama",
+        "opencode"
+      ],
+      "categories": [
+        "AI",
+        "AI神器"
+      ],
+      "platforms": [
+        "AI"
+      ],
+      "pick": "ai",
+      "slot": "AI",
+      "kind": "search",
+      "created_at": "2026-11-12",
+      "first_date": "2026-11-15",
+      "last_date": "2026-11-15",
+      "dates": [
+        "2026-11-15"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "briskember13/adobe-acrobat-pdf-desktop",
+      "url": "https://github.com/briskember13/adobe-acrobat-pdf-desktop",
+      "description": "Adobe Acrobat PDF 2026 desktop setup with text and image editing directly inside any PDF, conversion to and from Word, Excel and images, plus fill, sign and merge documents with an AI assistant for Windows 11",
+      "summary": "提供一个无需付费订阅的 Adobe Acrobat 2026 桌面版，支持在 PDF 内直接编辑文本和图像，进行格式转换、合并及签名。\n适合需要在 Windows 11 上进行高级 PDF 处理、自动化操作或使用 AI 辅助文档处理的用户。\n独特之处在于集成了 AI 助手，实现了类似 Adobe Acrobat Pro 的功能且完全开源免费。",
+      "stars": 355,
+      "language": "C++",
+      "topics": [
+        "acrobat-dc-pro",
+        "acrobat-for-free-2026",
+        "acrobat-no-limits",
+        "acrobat-pdf",
+        "automation",
+        "desktop",
+        "developer-tools",
+        "forms-acrobat-pro",
+        "free-pdf-reader-windows",
+        "open-source",
+        "pdf-password",
+        "pro-acrobat",
+        "python",
+        "scripts",
+        "software-engineering",
+        "system",
+        "utility",
+        "windows-app"
+      ],
+      "categories": [
+        "AI神器"
+      ],
+      "platforms": [
+        "AI神器"
+      ],
+      "pick": "ai_tool",
+      "slot": "AI神器",
+      "kind": "search",
+      "created_at": "2026-11-14",
+      "first_date": "2026-11-15",
+      "last_date": "2026-11-15",
+      "dates": [
+        "2026-11-15"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "corespaceteam/MMSpace",
+      "url": "https://github.com/corespaceteam/MMSpace",
+      "description": "Run OpenHarmony on Android as a normal app — no root required. A lightweight, isolated environment for OpenHarmony and Harmony apps. | 在 Android 上以普通应用运行 OpenHarmony/开源鸿蒙，提供轻量、隔离的鸿蒙应用运行环境。",
+      "summary": "在 Android 手机上运行 OpenHarmony 系统及鸿蒙应用，提供无需 Root 的轻量级运行环境\n适合希望在 Android 设备上体验或测试鸿蒙生态的开发者及普通用户\n轻量级且完全隔离的运行环境，无需 Root 权限",
+      "stars": 88,
+      "language": "",
+      "topics": [],
+      "categories": [
+        "鸿蒙"
+      ],
+      "platforms": [
+        "鸿蒙"
+      ],
+      "pick": "growth",
+      "slot": "鸿蒙",
+      "kind": "search",
+      "created_at": "2026-10-25",
+      "first_date": "2026-11-15",
+      "last_date": "2026-11-15",
+      "dates": [
+        "2026-11-15"
+      ],
+      "times": 1
+    },
     {
       "full_name": "sherlock-project/sherlock",
       "url": "https://github.com/sherlock-project/sherlock",
@@ -268,50 +878,6 @@
         "2026-11-10"
       ],
       "times": 2
-    },
-    {
-      "full_name": "Kludex/starlette",
-      "url": "https://github.com/Kludex/starlette",
-      "description": "The little ASGI framework that shines. 🌟",
-      "summary": "掌握 Python 异步 Web 开发的核心原理，包括 ASGI 协议规范、路由分发机制及中间件设计模式\n适合有一定 Python 基础，希望深入理解 Web 框架底层架构或正在学习 FastAPI 源码的开发者\n建议先阅读 `__init__.py` 梳理核心组件，重点分析路由分发与中间件处理逻辑",
-      "stars": 12719,
-      "language": "Python",
-      "topics": [
-        "asgi",
-        "async",
-        "http",
-        "python",
-        "websockets"
-      ],
-      "categories": [
-        "Python"
-      ],
-      "platforms": [
-        "Python"
-      ],
-      "pick": null,
-      "slot": null,
-      "kind": "learn",
-      "created_at": "2018-06-25",
-      "first_date": "2026-10-23",
-      "last_date": "2026-11-14",
-      "dates": [
-        "2026-11-14",
-        "2026-11-13",
-        "2026-11-12",
-        "2026-11-11",
-        "2026-11-08",
-        "2026-11-07",
-        "2026-11-06",
-        "2026-11-05",
-        "2026-11-03",
-        "2026-10-30",
-        "2026-10-26",
-        "2026-10-25",
-        "2026-10-24",
-        "2026-10-23"
-      ],
-      "times": 14
     },
     {
       "full_name": "Cyan4973/xxHash",
@@ -1864,43 +2430,6 @@
       "times": 2
     },
     {
-      "full_name": "rddmwmddr/android-ad-cleaner",
-      "url": "https://github.com/rddmwmddr/android-ad-cleaner",
-      "description": "关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。",
-      "summary": "解决国产安卓手机系统里的广告、热搜、资讯推荐和营销推送问题\n适合希望去除安卓手机广告的用户\n亮点支持 AI 智能体一键执行无需 Root 且可还原",
-      "stars": 7423,
-      "language": "Python",
-      "topics": [
-        "adb",
-        "ai-agent",
-        "android",
-        "coloros",
-        "debloat",
-        "hyperos",
-        "magicos",
-        "originos"
-      ],
-      "categories": [
-        "安卓",
-        "AI神器"
-      ],
-      "platforms": [
-        "安卓"
-      ],
-      "pick": "growth",
-      "slot": "安卓",
-      "kind": "search",
-      "created_at": "2026-10-24",
-      "first_date": "2026-10-26",
-      "last_date": "2026-11-11",
-      "dates": [
-        "2026-11-11",
-        "2026-11-02",
-        "2026-10-26"
-      ],
-      "times": 3
-    },
-    {
       "full_name": "anefzaoui/misterdownloadmanager",
       "url": "https://github.com/anefzaoui/misterdownloadmanager",
       "description": "misterdownloadmanager: The ultimate open-source, clean-room download manager written from scratch in pure Rust for Windows, Mac, and Linux",
@@ -2128,53 +2657,6 @@
         "2026-11-11"
       ],
       "times": 1
-    },
-    {
-      "full_name": "lkimuk/ReArk",
-      "url": "https://github.com/lkimuk/ReArk",
-      "description": "An intelligent reverse engineering and AI-assisted analysis tool for HarmonyOS NEXT (HAP/APP/ABC), Android (APK/AAB), iOS (IPA), and native PE/ELF/Mach-O binaries.",
-      "summary": "针对鸿蒙 NEXT、Android、iOS 及原生二进制文件的智能逆向工程与 AI 辅助分析工具\n适合安全研究人员、恶意软件分析人员及逆向工程师使用\n结合 AI 技术支持多种平台二进制文件分析，近期涨星速度极快",
-      "stars": 962,
-      "language": "C++",
-      "topics": [
-        "aab",
-        "abc",
-        "agentic-workflow",
-        "ai-agent",
-        "ai-analysis",
-        "android",
-        "apk",
-        "binary-analysis",
-        "decompiler",
-        "disassembler",
-        "hap",
-        "harmonyos",
-        "harmonyos-next",
-        "malware-analysis",
-        "reverse-engineering",
-        "security-tools",
-        "static-analysis"
-      ],
-      "categories": [
-        "鸿蒙"
-      ],
-      "platforms": [
-        "鸿蒙"
-      ],
-      "pick": "growth",
-      "slot": "鸿蒙",
-      "kind": "search",
-      "created_at": "2026-05-29",
-      "first_date": "2026-10-21",
-      "last_date": "2026-11-11",
-      "dates": [
-        "2026-11-11",
-        "2026-11-06",
-        "2026-11-03",
-        "2026-10-26",
-        "2026-10-21"
-      ],
-      "times": 5
     },
     {
       "full_name": "Arda313131882/aion-2-trainer-tool",
@@ -3663,44 +4145,6 @@
       "times": 1
     },
     {
-      "full_name": "horizon-rust/horizon",
-      "url": "https://github.com/horizon-rust/horizon",
-      "description": "Minecraft: Java Edition 26.3 rewritten from scratch in Rust, checked against vanilla with 281 differential harnesses. Get it with the Horizon launcher.",
-      "summary": "解决什么：使用 Rust 语言重写 Minecraft Java 版本 26.3，并通过 281 个差分测试用例与原版进行对比验证\n适合谁：喜欢 Minecraft 但希望体验 Rust 重写的游戏引擎，或对 Rust 在游戏开发中的应用感兴趣的开发者\n亮点：使用 Rust 语言对 Minecraft Java 版本进行完全重写并保持高度兼容性",
-      "stars": 7434,
-      "language": "Rust",
-      "topics": [
-        "differential-testing",
-        "game-engine",
-        "gamedev",
-        "linux",
-        "minecraft",
-        "minecraft-java",
-        "reimplementation",
-        "rust",
-        "voxel",
-        "vulkan",
-        "wgpu"
-      ],
-      "categories": [
-        "Linux"
-      ],
-      "platforms": [
-        "Linux"
-      ],
-      "pick": "growth",
-      "slot": "Linux",
-      "kind": "search",
-      "created_at": "2026-10-03",
-      "first_date": "2026-10-29",
-      "last_date": "2026-11-07",
-      "dates": [
-        "2026-11-07",
-        "2026-10-29"
-      ],
-      "times": 2
-    },
-    {
       "full_name": "Oldcircle/geo-sleuth",
       "url": "https://github.com/Oldcircle/geo-sleuth",
       "description": "An agent skill that finds where a photo was taken — OpenStreetMap geometry, elevation skylines, satellite imagery and street view — and shows its work. Works with Claude Code, Codex, Cursor, Gemini CLI, OpenCode and GitHub Copilot.",
@@ -4574,87 +5018,6 @@
       "times": 1
     },
     {
-      "full_name": "sharkdp/bat",
-      "url": "https://github.com/sharkdp/bat",
-      "description": "A cat(1) clone with wings.",
-      "summary": "提供比标准 cat 命令更强大的文件查看功能，支持语法高亮和 Git 集成\n适合经常在终端处理代码文件、追求更好阅读体验的开发者\n用 Rust 编写的高性能 cat 命令替代品，具备语法高亮和 Git 集成功能",
-      "stars": 61055,
-      "language": "Rust",
-      "topics": [
-        "cli",
-        "command-line",
-        "git",
-        "hacktoberfest",
-        "rust",
-        "syntax-highlighting",
-        "terminal",
-        "tool"
-      ],
-      "categories": [
-        "Linux"
-      ],
-      "platforms": [
-        "Linux"
-      ],
-      "pick": "top",
-      "slot": "Linux",
-      "kind": "search",
-      "created_at": "2018-04-21",
-      "first_date": "2026-11-04",
-      "last_date": "2026-11-04",
-      "dates": [
-        "2026-11-04"
-      ],
-      "times": 1
-    },
-    {
-      "full_name": "WerWolv/ImHex",
-      "url": "https://github.com/WerWolv/ImHex",
-      "description": "🔍 A Hex Editor for Reverse Engineers, Programmers and people who value their retinas when working at 3 AM.",
-      "summary": "为逆向工程师和程序员提供专业的十六进制编辑、模式匹配和静态分析功能\n适合需要进行二进制分析、取证或逆向工程的安全研究人员和开发者\n拥有暗黑模式 UI 和强大的模式语言，支持静态分析和取证",
-      "stars": 55743,
-      "language": "C++",
-      "topics": [
-        "analyzer",
-        "binary-analysis",
-        "c-plus-plus",
-        "cpp",
-        "cybersecurity",
-        "dark-mode",
-        "dear-imgui",
-        "disassembler",
-        "forensics",
-        "hacking",
-        "hacktoberfest",
-        "hex-editor",
-        "ips",
-        "linux",
-        "macos",
-        "multi-platform",
-        "pattern-language",
-        "reverse-engineering",
-        "static-analysis",
-        "windows"
-      ],
-      "categories": [
-        "Linux",
-        "Windows"
-      ],
-      "platforms": [
-        "Windows"
-      ],
-      "pick": "top",
-      "slot": "Windows",
-      "kind": "search",
-      "created_at": "2020-11-10",
-      "first_date": "2026-11-04",
-      "last_date": "2026-11-04",
-      "dates": [
-        "2026-11-04"
-      ],
-      "times": 1
-    },
-    {
       "full_name": "simdjson/simdjson",
       "url": "https://github.com/simdjson/simdjson",
       "description": "Parsing gigabytes of JSON per second : used by Facebook/Meta Velox, the Node.js runtime, ClickHouse, WatermelonDB, Apache Doris, Milvus, StarRocks",
@@ -4793,31 +5156,6 @@
       "last_date": "2026-11-04",
       "dates": [
         "2026-11-04"
-      ],
-      "times": 1
-    },
-    {
-      "full_name": "nickbutcher/plaid",
-      "url": "https://github.com/nickbutcher/plaid",
-      "description": "An Android app which provides design news & inspiration as well as being an example of implementing material design.",
-      "summary": "提供设计灵感与资讯，同时作为 Material Design 实现的范例\n安卓开发者学习 Material Design，以及寻找设计灵感的用户\nMaterial Design 实现的典范，展示了高质量的设计与代码",
-      "stars": 16162,
-      "language": "Kotlin",
-      "topics": [],
-      "categories": [
-        "安卓"
-      ],
-      "platforms": [
-        "安卓"
-      ],
-      "pick": "top",
-      "slot": "安卓",
-      "kind": "search",
-      "created_at": "2015-10-30",
-      "first_date": "2026-11-03",
-      "last_date": "2026-11-03",
-      "dates": [
-        "2026-11-03"
       ],
       "times": 1
     },
@@ -5400,47 +5738,6 @@
       "last_date": "2026-10-31",
       "dates": [
         "2026-10-31"
-      ],
-      "times": 1
-    },
-    {
-      "full_name": "ocornut/imgui",
-      "url": "https://github.com/ocornut/imgui",
-      "description": "Dear ImGui: Bloat-free Graphical User interface for C++ with minimal dependencies",
-      "summary": "学什么：学习即时模式 GUI 的渲染循环与状态管理机制\n适合谁：适合希望掌握即时模式 GUI 架构或提升 C++ 图形编程能力的开发者\n怎么读：建议从 NewFrame 和 Render 核心函数入手，逐步理解即时模式下的状态流转",
-      "stars": 76880,
-      "language": "C++",
-      "topics": [
-        "api",
-        "cplusplus",
-        "framework",
-        "game-development",
-        "game-engine",
-        "gamedev",
-        "gui",
-        "imgui",
-        "immediate-gui",
-        "library",
-        "multi-platform",
-        "native",
-        "toolkit",
-        "tools",
-        "ui"
-      ],
-      "categories": [
-        "C++"
-      ],
-      "platforms": [
-        "C++"
-      ],
-      "pick": null,
-      "slot": null,
-      "kind": "learn",
-      "created_at": "2014-07-21",
-      "first_date": "2026-10-30",
-      "last_date": "2026-10-30",
-      "dates": [
-        "2026-10-30"
       ],
       "times": 1
     },
