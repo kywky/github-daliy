@@ -1,8 +1,619 @@
 {
-  "generated_at": "2026-11-15T06:01:11.189505+00:00",
-  "total": 190,
-  "occurrences": 322,
+  "generated_at": "2026-11-16T06:02:05.488183+00:00",
+  "total": 191,
+  "occurrences": 337,
   "projects": [
+    {
+      "full_name": "wagoodman/dive",
+      "url": "https://github.com/wagoodman/dive",
+      "description": "A tool for exploring each layer in a docker image",
+      "summary": "解决什么：解决 Docker 镜像层分析困难的问题，帮助用户查看每一层的内容和差异\n适合谁：适合 Docker 开发者及运维人员，用于优化镜像大小和排查构建问题\n亮点：提供交互式终端界面，直观展示镜像层差异",
+      "stars": 54724,
+      "language": "Go",
+      "topics": [
+        "cli",
+        "docker",
+        "docker-image",
+        "explorer",
+        "inspector",
+        "tui"
+      ],
+      "categories": [
+        "Linux"
+      ],
+      "platforms": [
+        "Linux"
+      ],
+      "pick": "top",
+      "slot": "Linux",
+      "kind": "search",
+      "created_at": "2018-05-13",
+      "first_date": "2026-11-05",
+      "last_date": "2026-11-16",
+      "dates": [
+        "2026-11-16",
+        "2026-11-05"
+      ],
+      "times": 2
+    },
+    {
+      "full_name": "lencx/ChatGPT",
+      "url": "https://github.com/lencx/ChatGPT",
+      "description": "❄️ ChatGPT Desktop Application (Mac, Windows and Linux)",
+      "summary": "提供一个跨平台的桌面客户端，让用户能够便捷地在本地使用 ChatGPT 进行对话\n适合需要在桌面端频繁使用 ChatGPT 进行工作、学习或记录笔记的用户\n基于 Rust 和 Tauri 开发，性能优异且支持 Mac、Windows 和 Linux 跨平台",
+      "stars": 54668,
+      "language": "Rust",
+      "topics": [
+        "ai",
+        "app",
+        "application",
+        "chatgpt",
+        "desktop-app",
+        "gpt",
+        "gpt-3",
+        "linux",
+        "macos",
+        "notes-app",
+        "openai",
+        "rust",
+        "tauri",
+        "webview",
+        "windows"
+      ],
+      "categories": [
+        "Linux",
+        "Windows"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "pick": "top",
+      "slot": "Windows",
+      "kind": "search",
+      "created_at": "2022-12-07",
+      "first_date": "2026-11-05",
+      "last_date": "2026-11-16",
+      "dates": [
+        "2026-11-16",
+        "2026-11-05"
+      ],
+      "times": 2
+    },
+    {
+      "full_name": "tangency-labs/solidcraft",
+      "url": "https://github.com/tangency-labs/solidcraft",
+      "description": "SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.",
+      "summary": "提供一个基于纯 Rust 的开源参数化 3D CAD 应用，支持桌面、Web 及自动化\n适合需要跨平台 3D 建模、参数化设计及自动化集成的开发者或工程师\n支持 WebAssembly 部署及通过 MCP 协议实现自动化集成",
+      "stars": 16545,
+      "language": "Rust",
+      "topics": [
+        "3d-modeling",
+        "brep",
+        "cad",
+        "egui",
+        "mcp",
+        "parametric-cad",
+        "rust",
+        "step",
+        "wasm"
+      ],
+      "categories": [
+        "AI神器"
+      ],
+      "platforms": [
+        "AI神器"
+      ],
+      "pick": "ai_tool",
+      "slot": "AI神器",
+      "kind": "search",
+      "created_at": "2026-10-07",
+      "first_date": "2026-11-06",
+      "last_date": "2026-11-16",
+      "dates": [
+        "2026-11-16",
+        "2026-11-12",
+        "2026-11-06"
+      ],
+      "times": 3
+    },
+    {
+      "full_name": "organicmaps/organicmaps",
+      "url": "https://github.com/organicmaps/organicmaps",
+      "description": "🍃 Organic Maps is a free Android & iOS offline maps app for more than 12M travelers, tourists, hikers, and cyclists. It uses crowd-sourced OpenStreetMap data and is developed with love by the community. No ads, no tracking, no data collection, no crapware. Please donate to support the development!",
+      "summary": "解决什么：提供免费、无广告且基于开源数据的离线地图导航服务\n适合谁：面向旅行者、游客、徒步旅行者和骑行者\n亮点：完全离线、无广告追踪且基于开源地图数据",
+      "stars": 15989,
+      "language": "C++",
+      "topics": [
+        "android",
+        "app",
+        "cpp",
+        "cyclists",
+        "hacktoberfest",
+        "hikers",
+        "ios",
+        "java",
+        "maps",
+        "mobile",
+        "mobile-app",
+        "navigation",
+        "objective-c",
+        "offline",
+        "offline-maps",
+        "openstreetmap",
+        "privacy",
+        "routing",
+        "tourists",
+        "travelers"
+      ],
+      "categories": [
+        "安卓"
+      ],
+      "platforms": [
+        "安卓"
+      ],
+      "pick": "top",
+      "slot": "安卓",
+      "kind": "search",
+      "created_at": "2020-12-27",
+      "first_date": "2026-11-04",
+      "last_date": "2026-11-16",
+      "dates": [
+        "2026-11-16",
+        "2026-11-04"
+      ],
+      "times": 2
+    },
+    {
+      "full_name": "cesanta/mongoose",
+      "url": "https://github.com/cesanta/mongoose",
+      "description": "Embedded web server, with TCP/IP network stack, MQTT and Websocket",
+      "summary": "学什么：掌握 C 语言 socket 编程技巧，深入理解 HTTP 协议的状态机实现\n适合谁：适合 C 语言开发者及想深入理解网络协议栈的嵌入式工程师\n怎么读：从 mongoose.c 的主循环和请求处理函数入手",
+      "stars": 13135,
+      "language": "C",
+      "topics": [
+        "embedded",
+        "http",
+        "iot",
+        "mqtt",
+        "tcp",
+        "tcpip",
+        "tls13",
+        "udp",
+        "web-server",
+        "webserver",
+        "websocket"
+      ],
+      "categories": [
+        "C"
+      ],
+      "platforms": [
+        "C"
+      ],
+      "pick": null,
+      "slot": null,
+      "kind": "learn",
+      "created_at": "2012-08-14",
+      "first_date": "2026-10-29",
+      "last_date": "2026-11-16",
+      "dates": [
+        "2026-11-16",
+        "2026-10-29"
+      ],
+      "times": 2
+    },
+    {
+      "full_name": "anefzaoui/misterdownloadmanager",
+      "url": "https://github.com/anefzaoui/misterdownloadmanager",
+      "description": "misterdownloadmanager: The ultimate open-source, clean-room download manager written from scratch in pure Rust for Windows, Mac, and Linux",
+      "summary": "解决什么：一款用 Rust 编写的开源下载管理器，支持 BT、磁力链接、网盘解析等多种下载方式，提供跨平台支持\n适合谁：需要高效、安全、可定制下载体验的用户，特别是追求 Rust 技术和开源解决方案的 Windows 用户\n亮点：纯 Rust 打造的轻量级下载工具，功能丰富且注重性能与跨平台体验",
+      "stars": 10644,
+      "language": "Rust",
+      "topics": [
+        "bittorrent-client",
+        "debrid",
+        "download-accelerator",
+        "download-manager",
+        "downloadmanager",
+        "egui",
+        "file-downloader",
+        "gallery-dl",
+        "idm",
+        "idm-alternative",
+        "internet-download-manager",
+        "m3u8-downloader",
+        "magnet",
+        "playlist-downloader",
+        "real-debrid",
+        "rust",
+        "torrent-client",
+        "video-downloader",
+        "youtube-downloader",
+        "yt-dlp"
+      ],
+      "categories": [
+        "Windows"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "pick": "growth",
+      "slot": "Windows",
+      "kind": "search",
+      "created_at": "2026-10-29",
+      "first_date": "2026-11-11",
+      "last_date": "2026-11-16",
+      "dates": [
+        "2026-11-16",
+        "2026-11-11"
+      ],
+      "times": 2
+    },
+    {
+      "full_name": "microsoft/TokenEconomizer",
+      "url": "https://github.com/microsoft/TokenEconomizer",
+      "description": "Experience-Driven Black-Box Cost Control for Coding Agents",
+      "summary": "解决什么：为编程代理提供基于经验的黑盒成本控制\n适合谁：AI 编程助手和开发者使用，提升效率并降低成本\n亮点：通过经验驱动实现编程代理的成本优化",
+      "stars": 6695,
+      "language": "Python",
+      "topics": [
+        "agentic-ai",
+        "agentic-coding",
+        "ai-coding",
+        "ai-coding-assistant",
+        "anthropic",
+        "artificial-intelligence",
+        "claude-code",
+        "codex",
+        "coding-agent",
+        "coding-agents",
+        "cost-optimization",
+        "cost-reduction",
+        "developer-tools",
+        "github-copilot",
+        "llm",
+        "open-source",
+        "openai",
+        "productivity",
+        "token-optimization"
+      ],
+      "categories": [
+        "AI神器"
+      ],
+      "platforms": [
+        "AI神器"
+      ],
+      "pick": "ai_tool",
+      "slot": "AI神器",
+      "kind": "search",
+      "created_at": "2026-10-13",
+      "first_date": "2026-11-02",
+      "last_date": "2026-11-16",
+      "dates": [
+        "2026-11-16",
+        "2026-11-09",
+        "2026-11-02"
+      ],
+      "times": 3
+    },
+    {
+      "full_name": "interplains/Zero-Breach-Toolkit",
+      "url": "https://github.com/interplains/Zero-Breach-Toolkit",
+      "description": "Free, offline checks for known mercenary spyware on Windows, Mac, Linux, iPhone and Android - plus the doors left open, suspicious links, emails, files and QR codes, your accounts, home network and nearby trackers. Apps with a window, 27 languages. Nothing leaves your computer.",
+      "summary": "用于检测 Windows、Mac、Linux、iOS 及 Android 等多平台上的间谍软件、后门及可疑数字足迹\n适合关注设备安全和个人隐私，需要全面扫描设备漏洞及网络威胁的用户\n完全离线运行且免费，数据不上传本地，支持多语言",
+      "stars": 5099,
+      "language": "Python",
+      "topics": [],
+      "categories": [
+        "安卓",
+        "Linux",
+        "Windows"
+      ],
+      "platforms": [
+        "安卓"
+      ],
+      "pick": "growth",
+      "slot": "安卓",
+      "kind": "search",
+      "created_at": "2026-10-25",
+      "first_date": "2026-10-29",
+      "last_date": "2026-11-16",
+      "dates": [
+        "2026-11-16",
+        "2026-10-29"
+      ],
+      "times": 2
+    },
+    {
+      "full_name": "zeux/pugixml",
+      "url": "https://github.com/zeux/pugixml",
+      "description": "Light-weight, simple and fast XML parser for C++ with XPath support",
+      "summary": "学什么：理解 C++ 中内存池和迭代器的设计与应用，学习简洁高效的 XML 解析实现\n适合谁：有一定 C++ 基础，对内存优化和解析库感兴趣的读者\n怎么读：先阅读核心解析器和内存池的实现，再逐步了解 XPath 功能",
+      "stars": 4672,
+      "language": "C++",
+      "topics": [
+        "dom",
+        "xml",
+        "xml-parser",
+        "xpath"
+      ],
+      "categories": [
+        "C++"
+      ],
+      "platforms": [
+        "C++"
+      ],
+      "pick": null,
+      "slot": null,
+      "kind": "learn",
+      "created_at": "2012-07-06",
+      "first_date": "2026-10-31",
+      "last_date": "2026-11-16",
+      "dates": [
+        "2026-11-16",
+        "2026-10-31"
+      ],
+      "times": 2
+    },
+    {
+      "full_name": "expo/exact",
+      "url": "https://github.com/expo/exact",
+      "description": "Write an app once. It runs natively on the web, macOS, iOS, and Linux, and an AI agent can build it, run it, see it, and test it on every one of them.",
+      "summary": "实现一次编写，在Web、macOS、iOS和Linux上原生运行，且AI可构建测试\n适合希望利用AI代理进行跨平台原生应用构建与测试的开发者\nAI代理可跨平台构建、运行、查看和测试应用，实现真正的跨平台开发",
+      "stars": 4353,
+      "language": "Rust",
+      "topics": [
+        "ai-agents",
+        "appkit",
+        "coding-agents",
+        "cross-platform",
+        "css",
+        "ios",
+        "linux",
+        "macos",
+        "native-apps",
+        "rust",
+        "swift",
+        "uikit",
+        "web"
+      ],
+      "categories": [
+        "Linux",
+        "AI"
+      ],
+      "platforms": [
+        "AI"
+      ],
+      "pick": "ai",
+      "slot": "AI",
+      "kind": "search",
+      "created_at": "2026-11-02",
+      "first_date": "2026-11-12",
+      "last_date": "2026-11-16",
+      "dates": [
+        "2026-11-16",
+        "2026-11-12"
+      ],
+      "times": 2
+    },
+    {
+      "full_name": "modelflare-ai/AnyModelBot",
+      "url": "https://github.com/modelflare-ai/AnyModelBot",
+      "description": "🤖 Open-source, local-first alternative to Grok Bot, OpenAI dots and Claude Duet. Your own AI bots on any model: GPT, Claude, Gemini, Grok, DeepSeek, Kimi, GLM and 70+ more through one Modelflare key. Reach them in the app, WeChat or Feishu; they remember you, work in the background, run commands and use your computer. Pay per use.",
+      "summary": "解决什么：提供一个开源的本地优先 AI 代理，支持在本地运行多种 AI 模型，并能与用户在应用、微信或飞书等平台交互\n适合谁：需要使用多种 AI 模型并希望本地化运行的开发者或个人用户\n亮点：支持 70+ 种 AI 模型，可在本地运行并通过多种方式与 AI 代理交互",
+      "stars": 4141,
+      "language": "Python",
+      "topics": [
+        "ai-agent",
+        "ai-assistant",
+        "chatbot",
+        "claude",
+        "computer-use",
+        "deepseek",
+        "desktop-app",
+        "dsh",
+        "electron",
+        "feishu",
+        "gemini",
+        "gpt",
+        "grok",
+        "llm",
+        "local-first",
+        "modelflare",
+        "multi-model",
+        "openai-compatible",
+        "personal-ai-agent",
+        "wechat"
+      ],
+      "categories": [
+        "AI",
+        "AI神器"
+      ],
+      "platforms": [
+        "AI",
+        "AI神器"
+      ],
+      "pick": "ai_tool",
+      "slot": "AI神器",
+      "kind": "search",
+      "created_at": "2026-10-27",
+      "first_date": "2026-11-03",
+      "last_date": "2026-11-16",
+      "dates": [
+        "2026-11-16",
+        "2026-11-12",
+        "2026-11-03"
+      ],
+      "times": 3
+    },
+    {
+      "full_name": "metasequoiaime/msime",
+      "url": "https://github.com/metasequoiaime/msime",
+      "description": "下一代跨平台水杉输入法（MSIME）：面向 Android、iOS、macOS、Linux、Windows 与 HarmonyOS 的多平台中文输入法，使用共享输入引擎与各平台原生宿主。",
+      "summary": "解决什么：解决多平台中文输入法开发与维护难题，提供统一的输入引擎\n适合谁：适合在 Android、iOS、macOS、Linux、Windows 和 HarmonyOS 等多平台使用中文输入法的用户\n亮点：采用 Rust 开发，实现多平台共享输入引擎，近期涨星迅速",
+      "stars": 1324,
+      "language": "Rust",
+      "topics": [
+        "android",
+        "chinese",
+        "cpp",
+        "harmonyos",
+        "ime",
+        "input-method",
+        "inputmethodkit",
+        "ios",
+        "linux",
+        "macos",
+        "pinyin",
+        "rust",
+        "windows"
+      ],
+      "categories": [
+        "鸿蒙",
+        "Linux",
+        "Windows"
+      ],
+      "platforms": [
+        "鸿蒙"
+      ],
+      "pick": "growth",
+      "slot": "鸿蒙",
+      "kind": "search",
+      "created_at": "2026-09-02",
+      "first_date": "2026-10-25",
+      "last_date": "2026-11-16",
+      "dates": [
+        "2026-11-16",
+        "2026-11-11",
+        "2026-11-03",
+        "2026-10-30",
+        "2026-10-25"
+      ],
+      "times": 5
+    },
+    {
+      "full_name": "mdiri-ai/SoduWork",
+      "url": "https://github.com/mdiri-ai/SoduWork",
+      "description": "The AI-native engine for teams and their agents. Multi-harness, multi-agent, self-hosted.",
+      "summary": "解决什么：为团队和其 AI 代理提供原生引擎，支持多框架和多代理协同工作\n适合谁：需要构建和管理复杂 AI 工作流的开发者和团队\n亮点：支持多框架、多代理协同的原生 AI 引擎，可自托管部署",
+      "stars": 992,
+      "language": "JavaScript",
+      "topics": [
+        "agent-harness",
+        "agent-orchestration",
+        "agent-workflows",
+        "ai-agents",
+        "ai-workflows",
+        "anti-slop",
+        "claude-code",
+        "codex",
+        "deepseek",
+        "electron",
+        "fastapi",
+        "harness",
+        "human-in-the-loop",
+        "llm",
+        "mcp",
+        "multi-agent",
+        "opencode",
+        "plugin-system",
+        "self-hosted",
+        "team-collaboration"
+      ],
+      "categories": [
+        "AI",
+        "AI神器"
+      ],
+      "platforms": [
+        "AI",
+        "AI神器"
+      ],
+      "pick": "ai_tool",
+      "slot": "AI神器",
+      "kind": "search",
+      "created_at": "2026-10-29",
+      "first_date": "2026-11-12",
+      "last_date": "2026-11-16",
+      "dates": [
+        "2026-11-16",
+        "2026-11-12"
+      ],
+      "times": 2
+    },
+    {
+      "full_name": "harmony-on-android/HOA",
+      "url": "https://github.com/harmony-on-android/HOA",
+      "description": "Run OpenHarmony hap on Android",
+      "summary": "解决在 Android 设备上运行 OpenHarmony hap 包的问题\n希望体验 HarmonyOS 应用生态的 Android 用户或开发者\n允许在 Android 平台上直接运行 OpenHarmony 应用",
+      "stars": 823,
+      "language": "Kotlin",
+      "topics": [
+        "android",
+        "harmonyos",
+        "openharmony"
+      ],
+      "categories": [
+        "鸿蒙"
+      ],
+      "platforms": [
+        "鸿蒙"
+      ],
+      "pick": "top",
+      "slot": "鸿蒙",
+      "kind": "search",
+      "created_at": "2026-05-15",
+      "first_date": "2026-11-05",
+      "last_date": "2026-11-16",
+      "dates": [
+        "2026-11-16",
+        "2026-11-05"
+      ],
+      "times": 2
+    },
+    {
+      "full_name": "YellowLaborerMarket/Gemini-Config-Checker-",
+      "url": "https://github.com/YellowLaborerMarket/Gemini-Config-Checker-",
+      "description": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)",
+      "summary": "解决访问限制问题，扫描并筛选出能进入 Google AI Studio 和 Gemini 的代理配置\n需要突破网络限制访问 Google AI Studio 和 Gemini 的用户\n支持多平台与反 DPI 检测，近期涨星迅速",
+      "stars": 474,
+      "language": "Makefile",
+      "topics": [
+        "ai",
+        "ai-search",
+        "aichecker",
+        "chatgpt",
+        "cli",
+        "config-checker",
+        "gemeni",
+        "gemeni-checker",
+        "generative-ai",
+        "lim-seo",
+        "llm",
+        "mcp-server",
+        "nextjs",
+        "open-code",
+        "seo-checker",
+        "seo-tool",
+        "typescript"
+      ],
+      "categories": [
+        "Linux",
+        "AI",
+        "AI神器"
+      ],
+      "platforms": [
+        "Linux"
+      ],
+      "pick": "growth",
+      "slot": "Linux",
+      "kind": "search",
+      "created_at": "2026-11-15",
+      "first_date": "2026-11-16",
+      "last_date": "2026-11-16",
+      "dates": [
+        "2026-11-16"
+      ],
+      "times": 1
+    },
     {
       "full_name": "ocornut/imgui",
       "url": "https://github.com/ocornut/imgui",
@@ -1838,42 +2449,6 @@
       "times": 2
     },
     {
-      "full_name": "tangency-labs/solidcraft",
-      "url": "https://github.com/tangency-labs/solidcraft",
-      "description": "SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.",
-      "summary": "提供基于纯 Rust 的开源参数化 3D CAD 应用，支持桌面、Web 及自动化\n适合需要参数化建模、3D 设计或希望利用 Rust 和 MCP 进行自动化控制的开发者\n纯 Rust 实现，支持桌面与 Web 双端，并通过 MCP 协议实现自动化",
-      "stars": 15860,
-      "language": "Rust",
-      "topics": [
-        "3d-modeling",
-        "brep",
-        "cad",
-        "egui",
-        "mcp",
-        "parametric-cad",
-        "rust",
-        "step",
-        "wasm"
-      ],
-      "categories": [
-        "AI神器"
-      ],
-      "platforms": [
-        "AI神器"
-      ],
-      "pick": "ai_tool",
-      "slot": "AI神器",
-      "kind": "search",
-      "created_at": "2026-10-07",
-      "first_date": "2026-11-06",
-      "last_date": "2026-11-12",
-      "dates": [
-        "2026-11-12",
-        "2026-11-06"
-      ],
-      "times": 2
-    },
-    {
       "full_name": "cstack/db_tutorial",
       "url": "https://github.com/cstack/db_tutorial",
       "description": "Writing a sqlite clone from scratch in C",
@@ -1937,95 +2512,6 @@
         "2026-10-23"
       ],
       "times": 2
-    },
-    {
-      "full_name": "modelflare-ai/AnyModelBot",
-      "url": "https://github.com/modelflare-ai/AnyModelBot",
-      "description": "🤖 Open-source, local-first alternative to Grok Bot, OpenAI dots and Claude Duet. Your own AI bots on any model: GPT, Claude, Gemini, Grok, DeepSeek, Kimi, GLM and 70+ more through one Modelflare key. Reach them in the app, WeChat or Feishu; they remember you, work in the background, run commands and use your computer. Pay per use.",
-      "summary": "解决什么：提供在多种 AI 模型上运行个人 AI 代理并集成到微信或飞书等应用中的方案\n适合谁：适合希望在微信或飞书中使用自定义 AI 助手并管理多模型 API 的用户\n亮点：支持单一密钥调用 70+ 模型，具备本地优先和后台计算机操作能力",
-      "stars": 3296,
-      "language": "Python",
-      "topics": [
-        "ai-agent",
-        "ai-assistant",
-        "chatbot",
-        "claude",
-        "computer-use",
-        "deepseek",
-        "desktop-app",
-        "dsh",
-        "electron",
-        "feishu",
-        "gemini",
-        "gpt",
-        "grok",
-        "llm",
-        "local-first",
-        "modelflare",
-        "multi-model",
-        "openai-compatible",
-        "personal-ai-agent",
-        "wechat"
-      ],
-      "categories": [
-        "AI",
-        "AI神器"
-      ],
-      "platforms": [
-        "AI",
-        "AI神器"
-      ],
-      "pick": "ai_tool",
-      "slot": "AI神器",
-      "kind": "search",
-      "created_at": "2026-10-27",
-      "first_date": "2026-11-03",
-      "last_date": "2026-11-12",
-      "dates": [
-        "2026-11-12",
-        "2026-11-03"
-      ],
-      "times": 2
-    },
-    {
-      "full_name": "expo/exact",
-      "url": "https://github.com/expo/exact",
-      "description": "Write an app once. It runs natively on the web, macOS, iOS, and Linux, and an AI agent can build it, run it, see it, and test it on every one of them.",
-      "summary": "解决跨平台原生应用开发难题，支持 AI 代理构建、运行和测试应用\n适合希望利用 AI 代理自动化构建、运行和测试跨平台原生应用的开发者\n亮点是支持 AI 代理跨平台原生构建、运行和测试应用",
-      "stars": 3033,
-      "language": "Rust",
-      "topics": [
-        "ai-agents",
-        "appkit",
-        "coding-agents",
-        "cross-platform",
-        "css",
-        "ios",
-        "linux",
-        "macos",
-        "native-apps",
-        "rust",
-        "swift",
-        "uikit",
-        "web"
-      ],
-      "categories": [
-        "Linux",
-        "AI"
-      ],
-      "platforms": [
-        "Linux"
-      ],
-      "pick": "growth",
-      "slot": "Linux",
-      "kind": "search",
-      "created_at": "2026-11-02",
-      "first_date": "2026-11-12",
-      "last_date": "2026-11-12",
-      "dates": [
-        "2026-11-12"
-      ],
-      "times": 1
     },
     {
       "full_name": "shanselman/gputaskman",
@@ -2159,54 +2645,6 @@
       "slot": "AI神器",
       "kind": "search",
       "created_at": "2026-10-11",
-      "first_date": "2026-11-12",
-      "last_date": "2026-11-12",
-      "dates": [
-        "2026-11-12"
-      ],
-      "times": 1
-    },
-    {
-      "full_name": "mdiri-ai/SoduWork",
-      "url": "https://github.com/mdiri-ai/SoduWork",
-      "description": "The AI-native engine for teams and their agents. Multi-harness, multi-agent, self-hosted.",
-      "summary": "为团队提供多代理 AI 工作流编排引擎，解决团队协作中的自动化任务调度问题\n适合需要构建、管理和协作多智能体工作流的自托管团队\n支持多 Harness 架构与插件系统，具备人工介入机制，支持完全自托管",
-      "stars": 360,
-      "language": "JavaScript",
-      "topics": [
-        "agent-harness",
-        "agent-orchestration",
-        "agent-workflows",
-        "ai-agents",
-        "ai-workflows",
-        "anti-slop",
-        "claude-code",
-        "codex",
-        "deepseek",
-        "electron",
-        "fastapi",
-        "harness",
-        "human-in-the-loop",
-        "llm",
-        "mcp",
-        "multi-agent",
-        "opencode",
-        "plugin-system",
-        "self-hosted",
-        "team-collaboration"
-      ],
-      "categories": [
-        "AI",
-        "AI神器"
-      ],
-      "platforms": [
-        "AI",
-        "AI神器"
-      ],
-      "pick": "ai_tool",
-      "slot": "AI神器",
-      "kind": "search",
-      "created_at": "2026-10-29",
       "first_date": "2026-11-12",
       "last_date": "2026-11-12",
       "dates": [
@@ -2430,52 +2868,6 @@
       "times": 2
     },
     {
-      "full_name": "anefzaoui/misterdownloadmanager",
-      "url": "https://github.com/anefzaoui/misterdownloadmanager",
-      "description": "misterdownloadmanager: The ultimate open-source, clean-room download manager written from scratch in pure Rust for Windows, Mac, and Linux",
-      "summary": "提供一个纯 Rust 编写的跨平台下载管理器，支持磁力链接、BT 下载及视频流下载加速\n适合需要强大下载功能的 Windows 用户，特别是寻找 IDM 替代品或需要磁力/视频下载加速的场景\n纯 Rust 从零构建，界面现代且近期涨星速度极快",
-      "stars": 5831,
-      "language": "Rust",
-      "topics": [
-        "bittorrent-client",
-        "debrid",
-        "download-accelerator",
-        "download-manager",
-        "downloadmanager",
-        "egui",
-        "file-downloader",
-        "gallery-dl",
-        "idm",
-        "idm-alternative",
-        "internet-download-manager",
-        "m3u8-downloader",
-        "magnet",
-        "playlist-downloader",
-        "real-debrid",
-        "rust",
-        "torrent-client",
-        "video-downloader",
-        "youtube-downloader",
-        "yt-dlp"
-      ],
-      "categories": [
-        "Windows"
-      ],
-      "platforms": [
-        "Windows"
-      ],
-      "pick": "growth",
-      "slot": "Windows",
-      "kind": "search",
-      "created_at": "2026-10-29",
-      "first_date": "2026-11-11",
-      "last_date": "2026-11-11",
-      "dates": [
-        "2026-11-11"
-      ],
-      "times": 1
-    },
-    {
       "full_name": "qybaihe/bla",
       "url": "https://github.com/qybaihe/bla",
       "description": "🛡️ BLA (Blind LLM Agents) — Adversarial defense shield that protects binaries, Electron apps, JS bundles, Python, and WebAssembly against AI reverse-engineering agents like REA. Poison -> Exhaust -> Hallucinate.",
@@ -2579,48 +2971,6 @@
         "2026-11-11"
       ],
       "times": 1
-    },
-    {
-      "full_name": "metasequoiaime/msime",
-      "url": "https://github.com/metasequoiaime/msime",
-      "description": "下一代跨平台水杉输入法（MSIME）：面向 Android、iOS、macOS、Linux、Windows 与 HarmonyOS 的多平台中文输入法，使用共享输入引擎与各平台原生宿主。",
-      "summary": "提供跨平台中文输入法解决方案，支持 Android、iOS、macOS、Linux、Windows 和 HarmonyOS\n需要在多操作系统上使用中文输入法的用户，或寻求跨平台输入法开发参考的开发者\n基于 Rust 开发，实现跨平台共享输入引擎，覆盖六大主流操作系统",
-      "stars": 1261,
-      "language": "Rust",
-      "topics": [
-        "android",
-        "chinese",
-        "cpp",
-        "harmonyos",
-        "ime",
-        "input-method",
-        "inputmethodkit",
-        "ios",
-        "linux",
-        "macos",
-        "pinyin",
-        "rust",
-        "windows"
-      ],
-      "categories": [
-        "鸿蒙"
-      ],
-      "platforms": [
-        "鸿蒙"
-      ],
-      "pick": "top",
-      "slot": "鸿蒙",
-      "kind": "search",
-      "created_at": "2026-09-02",
-      "first_date": "2026-10-25",
-      "last_date": "2026-11-11",
-      "dates": [
-        "2026-11-11",
-        "2026-11-03",
-        "2026-10-30",
-        "2026-10-25"
-      ],
-      "times": 4
     },
     {
       "full_name": "RunanywhereAI/trnrt",
@@ -3278,54 +3628,6 @@
       "dates": [
         "2026-11-09",
         "2026-10-26"
-      ],
-      "times": 2
-    },
-    {
-      "full_name": "microsoft/TokenEconomizer",
-      "url": "https://github.com/microsoft/TokenEconomizer",
-      "description": "Experience-Driven Black-Box Cost Control for Coding Agents",
-      "summary": "解决什么：为编程代理提供基于经验的黑盒成本控制\n适合谁：AI 编程助手开发者，需要优化 AI 模型使用成本\n亮点：通过经验驱动的方式优化编码代理的成本效率",
-      "stars": 5323,
-      "language": "Python",
-      "topics": [
-        "agentic-ai",
-        "agentic-coding",
-        "ai-coding",
-        "ai-coding-assistant",
-        "anthropic",
-        "artificial-intelligence",
-        "claude-code",
-        "codex",
-        "coding-agent",
-        "coding-agents",
-        "cost-optimization",
-        "cost-reduction",
-        "developer-tools",
-        "github-copilot",
-        "llm",
-        "open-source",
-        "openai",
-        "productivity",
-        "token-optimization"
-      ],
-      "categories": [
-        "AI",
-        "AI神器"
-      ],
-      "platforms": [
-        "AI",
-        "AI神器"
-      ],
-      "pick": "ai_tool",
-      "slot": "AI神器",
-      "kind": "search",
-      "created_at": "2026-10-13",
-      "first_date": "2026-11-02",
-      "last_date": "2026-11-09",
-      "dates": [
-        "2026-11-09",
-        "2026-11-02"
       ],
       "times": 2
     },
@@ -4789,80 +5091,6 @@
       "times": 1
     },
     {
-      "full_name": "wagoodman/dive",
-      "url": "https://github.com/wagoodman/dive",
-      "description": "A tool for exploring each layer in a docker image",
-      "summary": "深入分析 Docker 镜像的每一层，帮助用户找出冗余文件并优化镜像大小\n需要深入排查 Docker 镜像构建问题和优化体积的运维及开发人员\n提供交互式终端界面，直观展示镜像层差异，是 Docker 镜像体积优化的利器",
-      "stars": 54697,
-      "language": "Go",
-      "topics": [
-        "cli",
-        "docker",
-        "docker-image",
-        "explorer",
-        "inspector",
-        "tui"
-      ],
-      "categories": [
-        "Linux"
-      ],
-      "platforms": [
-        "Linux"
-      ],
-      "pick": "top",
-      "slot": "Linux",
-      "kind": "search",
-      "created_at": "2018-05-13",
-      "first_date": "2026-11-05",
-      "last_date": "2026-11-05",
-      "dates": [
-        "2026-11-05"
-      ],
-      "times": 1
-    },
-    {
-      "full_name": "lencx/ChatGPT",
-      "url": "https://github.com/lencx/ChatGPT",
-      "description": "❄️ ChatGPT Desktop Application (Mac, Windows and Linux)",
-      "summary": "将 ChatGPT 转换为跨平台的桌面应用程序，提供更流畅的桌面体验\n适合需要在桌面端便捷使用 ChatGPT 的开发者及普通用户\n基于 Rust 和 Tauri 构建，提供高性能的跨平台桌面体验",
-      "stars": 54661,
-      "language": "Rust",
-      "topics": [
-        "ai",
-        "app",
-        "application",
-        "chatgpt",
-        "desktop-app",
-        "gpt",
-        "gpt-3",
-        "linux",
-        "macos",
-        "notes-app",
-        "openai",
-        "rust",
-        "tauri",
-        "webview",
-        "windows"
-      ],
-      "categories": [
-        "Linux",
-        "Windows"
-      ],
-      "platforms": [
-        "Windows"
-      ],
-      "pick": "top",
-      "slot": "Windows",
-      "kind": "search",
-      "created_at": "2022-12-07",
-      "first_date": "2026-11-05",
-      "last_date": "2026-11-05",
-      "dates": [
-        "2026-11-05"
-      ],
-      "times": 1
-    },
-    {
       "full_name": "nothings/stb",
       "url": "https://github.com/nothings/stb",
       "description": "stb single-file public domain libraries for C/C++",
@@ -4956,35 +5184,6 @@
       "times": 2
     },
     {
-      "full_name": "harmony-on-android/HOA",
-      "url": "https://github.com/harmony-on-android/HOA",
-      "description": "Run OpenHarmony hap on Android",
-      "summary": "解决什么：在 Android 平台上运行 OpenHarmony HAP 应用\n适合谁：Android 开发者希望尝试或集成 OpenHarmony 应用的场景\n亮点：将 OpenHarmony HAP 应用运行在 Android 系统上的解决方案",
-      "stars": 822,
-      "language": "Kotlin",
-      "topics": [
-        "android",
-        "harmonyos",
-        "openharmony"
-      ],
-      "categories": [
-        "鸿蒙"
-      ],
-      "platforms": [
-        "鸿蒙"
-      ],
-      "pick": "top",
-      "slot": "鸿蒙",
-      "kind": "search",
-      "created_at": "2026-05-15",
-      "first_date": "2026-11-05",
-      "last_date": "2026-11-05",
-      "dates": [
-        "2026-11-05"
-      ],
-      "times": 1
-    },
-    {
       "full_name": "DeltaProviderGuide/auto-auction-bot-wow-forever",
       "url": "https://github.com/DeltaProviderGuide/auto-auction-bot-wow-forever",
       "description": "A free Auction House bot for WoW Forever: buys low, posts high and undercuts for you. Windows app plus in-game panel.",
@@ -5056,52 +5255,6 @@
       "slot": null,
       "kind": "learn",
       "created_at": "2018-03-23",
-      "first_date": "2026-11-04",
-      "last_date": "2026-11-04",
-      "dates": [
-        "2026-11-04"
-      ],
-      "times": 1
-    },
-    {
-      "full_name": "organicmaps/organicmaps",
-      "url": "https://github.com/organicmaps/organicmaps",
-      "description": "🍃 Organic Maps is a free Android & iOS offline maps app for more than 6M travelers, tourists, hikers, and cyclists. It uses crowd-sourced OpenStreetMap data and is developed with love by the community. No ads, no tracking, no data collection, no crapware. Please donate to support the development!",
-      "summary": "解决什么：解决旅行者、徒步者和骑行者在无网络环境下缺乏隐私且无广告的地图导航需求\n适合谁：适合经常户外出行、徒步旅行或需要离线地图导航的旅行者\n亮点：基于开源 OpenStreetMap 数据，提供无广告、无跟踪、无数据收集的纯净体验",
-      "stars": 15866,
-      "language": "C++",
-      "topics": [
-        "android",
-        "app",
-        "cpp",
-        "cyclists",
-        "hacktoberfest",
-        "hikers",
-        "ios",
-        "java",
-        "maps",
-        "mobile",
-        "mobile-app",
-        "navigation",
-        "objective-c",
-        "offline",
-        "offline-maps",
-        "openstreetmap",
-        "privacy",
-        "routing",
-        "tourists",
-        "travelers"
-      ],
-      "categories": [
-        "安卓"
-      ],
-      "platforms": [
-        "安卓"
-      ],
-      "pick": "top",
-      "slot": "安卓",
-      "kind": "search",
-      "created_at": "2020-12-27",
       "first_date": "2026-11-04",
       "last_date": "2026-11-04",
       "dates": [
@@ -5671,36 +5824,6 @@
       "times": 1
     },
     {
-      "full_name": "zeux/pugixml",
-      "url": "https://github.com/zeux/pugixml",
-      "description": "Light-weight, simple and fast XML parser for C++ with XPath support",
-      "summary": "学习 C++ 内存池的高效分配机制，掌握 DOM 树结构与迭代器模式的底层实现\n适合希望学习轻量级 XML 解析实现、掌握 C++ 内存池与迭代器设计的进阶开发者\n建议从内存池与解析器核心入手，逐步深入 DOM 操作与 XPath 查询模块",
-      "stars": 4665,
-      "language": "C++",
-      "topics": [
-        "dom",
-        "xml",
-        "xml-parser",
-        "xpath"
-      ],
-      "categories": [
-        "C++"
-      ],
-      "platforms": [
-        "C++"
-      ],
-      "pick": null,
-      "slot": null,
-      "kind": "learn",
-      "created_at": "2012-07-06",
-      "first_date": "2026-10-31",
-      "last_date": "2026-10-31",
-      "dates": [
-        "2026-10-31"
-      ],
-      "times": 1
-    },
-    {
       "full_name": "daveebbelaar/bama",
       "url": "https://github.com/daveebbelaar/bama",
       "description": "BAMA: Build Any Mac App. Agent skills to research, clone, design, build, optimize, and test native macOS apps with Swift and SwiftUI.",
@@ -5738,70 +5861,6 @@
       "last_date": "2026-10-31",
       "dates": [
         "2026-10-31"
-      ],
-      "times": 1
-    },
-    {
-      "full_name": "cesanta/mongoose",
-      "url": "https://github.com/cesanta/mongoose",
-      "description": "Embedded web server, with TCP/IP network stack, MQTT and Websocket",
-      "summary": "掌握 C 语言 socket 通信机制、HTTP 协议状态机流转及嵌入式网络栈的底层实现\n适合 C 语言开发者、嵌入式工程师，以及希望深入理解网络协议栈与 HTTP 协议实现的读者\n建议先阅读 HTTP 请求处理逻辑和 socket 监听模块，再深入分析状态机流转",
-      "stars": 13118,
-      "language": "C",
-      "topics": [
-        "embedded",
-        "http",
-        "iot",
-        "mqtt",
-        "tcp",
-        "tcpip",
-        "tls13",
-        "udp",
-        "web-server",
-        "webserver",
-        "websocket"
-      ],
-      "categories": [
-        "C"
-      ],
-      "platforms": [
-        "C"
-      ],
-      "pick": null,
-      "slot": null,
-      "kind": "learn",
-      "created_at": "2012-08-14",
-      "first_date": "2026-10-29",
-      "last_date": "2026-10-29",
-      "dates": [
-        "2026-10-29"
-      ],
-      "times": 1
-    },
-    {
-      "full_name": "interplains/Zero-Breach-Toolkit",
-      "url": "https://github.com/interplains/Zero-Breach-Toolkit",
-      "description": "Free, open-source, offline checks for traces of known mercenary spyware. Works on Windows, macOS and Linux, Android phones and iPhone backups.",
-      "summary": "解决什么：提供免费开源的离线检测工具，用于查找设备中已知的商业间谍软件痕迹。\n适合谁：任何担心设备被商业间谍软件入侵、需要检查隐私安全的个人或组织。\n亮点：支持多平台且完全离线运行，无需联网即可检测已知的商业间谍软件。",
-      "stars": 2921,
-      "language": "Python",
-      "topics": [],
-      "categories": [
-        "安卓",
-        "Linux",
-        "Windows"
-      ],
-      "platforms": [
-        "安卓"
-      ],
-      "pick": "growth",
-      "slot": "安卓",
-      "kind": "search",
-      "created_at": "2026-10-25",
-      "first_date": "2026-10-29",
-      "last_date": "2026-10-29",
-      "dates": [
-        "2026-10-29"
       ],
       "times": 1
     },
