@@ -1,0 +1,477 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://github.com">
+<link rel="dns-prefetch" href="https://github.com">
+<title>GitHub 每日精选 · 2026-11-17</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+:root {
+  --ink: #0b1220;
+  --muted: #64748b;
+  --line: #e6e8ee;
+  --accent: #4f46e5;
+  --bg: #f5f6fa;
+}
+html { scroll-behavior: smooth; }
+body {
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC",
+               "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  background: var(--bg);
+  color: var(--ink);
+  -webkit-font-smoothing: antialiased;
+  min-height: 100vh;
+}
+.wrap { max-width: 1080px; margin: 0 auto; padding: 0 20px; }
+
+/* hero */
+.hero {
+  background:
+    radial-gradient(1200px 400px at 15% -20%, rgba(139,92,246,.55), transparent 60%),
+    radial-gradient(900px 300px at 110% 10%, rgba(236,72,153,.45), transparent 55%),
+    linear-gradient(135deg, #0f172a 0%, #1e1b4b 60%, #312e81 100%);
+  color: #fff;
+  padding: 52px 0 76px;
+}
+.hero .eyebrow {
+  font-size: 12px; letter-spacing: .16em; text-transform: uppercase;
+  color: #a5b4fc; font-weight: 600; margin-bottom: 14px;
+}
+.hero h1 { font-size: 40px; font-weight: 800; letter-spacing: -1px; line-height: 1.1; }
+.hero h1 .grad {
+  background: linear-gradient(90deg, #c4b5fd, #f0abfc, #fda4af);
+  -webkit-background-clip: text; background-clip: text; color: transparent;
+}
+.hero .lead { color: #c7d2fe; font-size: 15px; margin-top: 14px; max-width: 620px; line-height: 1.7; }
+.hero .meta { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 22px; }
+.pill {
+  font-size: 12px; padding: 6px 12px; border-radius: 999px;
+  background: rgba(255,255,255,.07); border: 1px solid rgba(255,255,255,.14);
+  color: #e0e7ff; backdrop-filter: blur(6px);
+}
+a.pill { text-decoration: none; transition: background .15s ease, border-color .15s ease; }
+a.pill:hover { background: rgba(255,255,255,.14); border-color: rgba(255,255,255,.28); }
+
+/* tabs */
+.tabbar-wrap { position: relative; margin-top: -34px; z-index: 2; }
+.tabbar {
+  display: flex; gap: 6px; padding: 6px; background: #fff; border-radius: 14px;
+  border: 1px solid var(--line); overflow-x: auto; scrollbar-width: none;
+  box-shadow: 0 10px 30px -18px rgba(15,23,42,.35);
+}
+.tabbar::-webkit-scrollbar { display: none; }
+.tab {
+  flex: 0 0 auto; border: 0; background: transparent; color: #475569;
+  font: inherit; font-size: 13.5px; font-weight: 600; padding: 9px 16px;
+  border-radius: 10px; cursor: pointer; display: inline-flex; align-items: center; gap: 7px;
+  white-space: nowrap;
+  transition: background .15s ease, color .15s ease;
+}
+.tab:hover { background: #f1f5f9; color: var(--ink); }
+.tab.active { background: #0f172a; color: #fff; }
+.tab .count {
+  font-size: 11px; padding: 1px 7px; border-radius: 999px;
+  background: rgba(148,163,184,.22); color: inherit;
+}
+.tab.active .count { background: rgba(255,255,255,.18); }
+.dot { width: 8px; height: 8px; border-radius: 50%; display: inline-block; }
+
+/* cards */
+main { padding: 30px 0 10px; }
+.grid { display: grid; gap: 18px; grid-template-columns: 1fr; }
+@media (min-width: 820px) { .grid { grid-template-columns: 1fr 1fr; } }
+.card {
+  background: #fff; border: 1px solid var(--line); border-radius: 16px;
+  padding: 20px 20px 16px; display: flex; flex-direction: column;
+  box-shadow: 0 1px 2px rgba(15,23,42,.03), 0 12px 28px -22px rgba(15,23,42,.22);
+  transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+}
+.card:hover {
+  transform: translateY(-3px); border-color: #d8dbf0;
+  box-shadow: 0 2px 4px rgba(15,23,42,.04), 0 22px 40px -24px rgba(49,46,129,.35);
+}
+.card-head { display: flex; align-items: center; gap: 8px; margin-bottom: 12px; }
+.rank {
+  flex: 0 0 auto; width: 30px; height: 30px; border-radius: 9px;
+  display: grid; place-items: center; font-size: 13px; font-weight: 800;
+  background: #f1f5f9; color: #64748b;
+}
+.rank.r1 { background: linear-gradient(140deg, #fbbf24, #f59e0b); color: #fff; }
+.rank.r2 { background: linear-gradient(140deg, #cbd5e1, #94a3b8); color: #fff; }
+.rank.r3 { background: linear-gradient(140deg, #fdba74, #ea580c); color: #fff; }
+.cats { display: flex; flex-wrap: wrap; gap: 5px; flex: 1; min-width: 0; }
+.cat {
+  font-size: 10.5px; font-weight: 700; letter-spacing: .02em;
+  padding: 3px 9px; border-radius: 999px; color: #fff; white-space: nowrap;
+}
+.speed {
+  font-size: 12px; font-weight: 700; padding: 3px 9px; border-radius: 999px;
+  background: #ecfdf5; color: #047857; white-space: nowrap;
+}
+.speed.neutral { background: #f1f5f9; color: #64748b; }
+.speed.top { background: #fffbeb; color: #b45309; }
+.title { font-size: 18px; font-weight: 700; line-height: 1.35; margin-bottom: 6px; word-break: break-word; }
+.title a { color: var(--ink); text-decoration: none; }
+.title a:hover { color: var(--accent); }
+.title .owner { color: #94a3b8; font-weight: 500; }
+.desc { font-size: 13px; line-height: 1.6; color: var(--muted); margin-bottom: 12px; }
+
+.summary {
+  background: #f8fafc; border: 1px solid #eef2f7; border-left: 3px solid var(--accent);
+  border-radius: 10px; padding: 12px 14px; font-size: 13px; line-height: 1.75;
+  color: #334155; flex: 1;
+}
+.summary ul { list-style: none; padding: 0; margin: 0; display: grid; gap: 6px; }
+.summary li { position: relative; padding-left: 18px; }
+.summary li::before {
+  content: ''; position: absolute; left: 3px; top: .62em; width: 5px; height: 5px;
+  border-radius: 50%; background: #c7d2fe;
+}
+.summary strong { color: var(--ink); font-weight: 700; }
+.summary p { margin: 0; }
+
+.card-foot {
+  display: flex; align-items: center; justify-content: space-between; gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 14px; padding-top: 12px; border-top: 1px solid #f1f5f9;
+  font-size: 12px; color: var(--muted);
+}
+.lang { display: inline-flex; align-items: center; gap: 6px; min-width: 0; }
+.lang-dot { width: 9px; height: 9px; border-radius: 50%; flex: 0 0 auto; }
+.foot-right { display: flex; align-items: center; gap: 10px; margin-left: auto; }
+.stars { font-weight: 700; color: #475569; white-space: nowrap; }
+.gh-link {
+  color: var(--accent); text-decoration: none; font-weight: 700; font-size: 12.5px;
+  padding: 5px 10px; border-radius: 8px; background: #eef2ff; white-space: nowrap;
+  transition: background .15s ease;
+}
+.gh-link:hover { background: #e0e7ff; }
+
+.topics { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 10px; }
+.topic {
+  font-size: 10.5px; color: #64748b; background: #f8fafc; border: 1px solid #eef2f7;
+  padding: 2px 7px; border-radius: 6px;
+}
+
+.empty { text-align: center; padding: 70px 20px; color: var(--muted); font-size: 14px; }
+footer { padding: 34px 20px 40px; text-align: center; color: #94a3b8; font-size: 12px; }
+footer .sep { margin: 0 8px; }
+</style>
+</head>
+<body>
+<!-- archive-banner -->
+<div style="background:#0f172a;color:#cbd5e1;font-size:13px;text-align:center;padding:10px 16px;line-height:1.6">2026-11-17 存档 · <a href="../index.html" style="color:#c7d2fe;font-weight:600">回到今天</a><span style="color:#475569;margin:0 8px">/</span><a href="../projects.html" style="color:#c7d2fe;font-weight:600">项目总表</a><span style="color:#475569;margin:0 8px">/</span><a href="../archive.html" style="color:#c7d2fe;font-weight:600">全部存档</a></div>
+<header class="hero">
+  <div class="wrap">
+    <div class="eyebrow">Daily Digest</div>
+    <h1>GitHub <span class="grad">每日精选</span></h1>
+    <p class="lead">每天安卓 / 鸿蒙 / Linux / Windows 各 2 个好玩或实用的应用；再加 4-5 个 AI 热门项目和好用的 AI 工具/技能/插件/Agent；以及 2 个 C / C++ / Python 经典小项目。</p>
+    <div class="meta">
+      <span class="pill">人气榜全时段按总 star 逐日轮换 · 新秀 90–365 天内新建 · AI 30 天内新建 · AI神器 60–90 天内新建</span>
+      <span class="pill">15 个项目</span>
+      <span class="pill">对比 2026-11-16 快照计算日增</span>
+      <a class="pill" href="../archive.html">历史存档 →</a>
+      <a class="pill" href="projects.html">项目总表 →</a>
+    </div>
+  </div>
+</header>
+
+<div class="wrap tabbar-wrap">
+  <div class="tabbar"><button class="tab active" data-cat="all">全部 <span class="count">15</span></button><button class="tab" data-cat="安卓"><span class="dot" style="background:#3ddc84"></span>安卓 <span class="count">2</span></button><button class="tab" data-cat="鸿蒙"><span class="dot" style="background:#e33e31"></span>鸿蒙 <span class="count">2</span></button><button class="tab" data-cat="Linux"><span class="dot" style="background:#f59e0b"></span>Linux <span class="count">2</span></button><button class="tab" data-cat="Windows"><span class="dot" style="background:#0ea5e9"></span>Windows <span class="count">2</span></button><button class="tab" data-cat="AI"><span class="dot" style="background:#8b5cf6"></span>AI <span class="count">1</span></button><button class="tab" data-cat="AI神器"><span class="dot" style="background:#ec4899"></span>AI神器 <span class="count">4</span></button><button class="tab" data-cat="C"><span class="dot" style="background:#5b6ee1"></span>C <span class="count">1</span></button><button class="tab" data-cat="C++"><span class="dot" style="background:#f34b7d"></span>C++ <span class="count">1</span></button></div>
+</div>
+
+<main class="wrap">
+<div class="grid">
+<article class="card" data-cats="安卓">
+  <div class="card-head">
+    <span class="rank r1">1</span>
+    <div class="cats"><span class="cat" style="background:#3ddc84">安卓</span></div>
+    <span class="speed top">人气榜</span>
+  </div>
+  <h3 class="title"><a href="https://github.com/T8RIN/ImageToolbox" target="_blank" rel="noopener noreferrer"><span class="owner">T8RIN/</span>ImageToolbox</a></h3>
+  <div class="desc">🖼️ Image Toolbox is a powerful app for advanced image manipulation. It offers dozens of features, from basic tools like crop and draw to filters, OCR, and a wide range of image processing options</div>
+  <div class="summary"><ul><li><strong>解决什么</strong>：提供强大的安卓图像处理工具，包括裁剪、绘制、滤镜、OCR、背景移除等高级功能</li><li><strong>适合谁</strong>：安卓用户需要编辑、处理或增强图片的场景</li><li><strong>亮点</strong>：集成多种图像编辑和处理功能于一身的安卓应用</li></ul></div>
+  <div class="topics"><span class="topic">#ai</span><span class="topic">#android</span><span class="topic">#background-removal</span><span class="topic">#crop</span><span class="topic">#edit-photo</span><span class="topic">#exif</span></div>
+  <div class="card-foot">
+    <span class="lang"><span class="lang-dot" style="background:#A97BFF"></span>Kotlin · 成立于 2022-04-06</span>
+    <span class="foot-right">
+      <span class="stars">★ 15.6k</span>
+      <a class="gh-link" href="https://github.com/T8RIN/ImageToolbox" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+    </span>
+  </div>
+</article>
+<article class="card" data-cats="安卓">
+  <div class="card-head">
+    <span class="rank r2">2</span>
+    <div class="cats"><span class="cat" style="background:#3ddc84">安卓</span></div>
+    <span class="speed">↑ 403★/天</span>
+  </div>
+  <h3 class="title"><a href="https://github.com/Gathin23/cleanyourtv" target="_blank" rel="noopener noreferrer"><span class="owner">Gathin23/</span>cleanyourtv</a></h3>
+  <div class="desc">Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.</div>
+  <div class="summary"><ul><li><strong>解决什么</strong>：通过 Wi-Fi 远程清理安卓或 Google TV 上的预装软件，并打造类似 Apple TV 的界面</li><li><strong>适合谁</strong>：拥有安卓电视、Google TV 或 Fire TV 设备，希望移除预装软件并优化隐私的用户</li><li><strong>亮点</strong>：支持远程 Wi-Fi 清理，界面风格酷似 Apple TV，近期涨星极快</li></ul></div>
+  <div class="topics"><span class="topic">#adb</span><span class="topic">#adblock</span><span class="topic">#android-tv</span><span class="topic">#android-tv-launcher</span><span class="topic">#apple-tv</span><span class="topic">#bloatware-removal</span></div>
+  <div class="card-foot">
+    <span class="lang"><span class="lang-dot" style="background:#3572A5"></span>Python · 成立于 2026-10-17</span>
+    <span class="foot-right">
+      <span class="stars">★ 58.8k</span>
+      <a class="gh-link" href="https://github.com/Gathin23/cleanyourtv" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+    </span>
+  </div>
+</article>
+<article class="card" data-cats="鸿蒙">
+  <div class="card-head">
+    <span class="rank r3">3</span>
+    <div class="cats"><span class="cat" style="background:#e33e31">鸿蒙</span></div>
+    <span class="speed top">人气榜</span>
+  </div>
+  <h3 class="title"><a href="https://github.com/harmoninux/HiSH" target="_blank" rel="noopener noreferrer"><span class="owner">harmoninux/</span>HiSH</a></h3>
+  <div class="desc">在鸿蒙上运行Linux Shell，支持手机、平板、2in1/PC</div>
+  <div class="summary"><ul><li><strong>解决什么</strong>：在鸿蒙系统上运行 Linux Shell 环境，满足终端操作需求</li><li><strong>适合谁</strong>：适合需要在鸿蒙手机、平板或 PC 上体验 Linux 终端环境的用户</li><li><strong>亮点</strong>：轻量级模拟器，在鸿蒙系统上实现 Linux 终端虚拟化体验</li></ul></div>
+  <div class="topics"><span class="topic">#emulator</span><span class="topic">#harmonyos</span><span class="topic">#linux</span><span class="topic">#shell</span><span class="topic">#terminal</span><span class="topic">#virtual-machine</span></div>
+  <div class="card-foot">
+    <span class="lang"><span class="lang-dot" style="background:#94a3b8"></span>HTML · 成立于 2025-09-06</span>
+    <span class="foot-right">
+      <span class="stars">★ 696</span>
+      <a class="gh-link" href="https://github.com/harmoninux/HiSH" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+    </span>
+  </div>
+</article>
+<article class="card" data-cats="鸿蒙">
+  <div class="card-head">
+    <span class="rank">4</span>
+    <div class="cats"><span class="cat" style="background:#e33e31">鸿蒙</span></div>
+    <span class="speed">↑ 11★/天</span>
+  </div>
+  <h3 class="title"><a href="https://github.com/jhaizhou-ops/d2r-mobile" target="_blank" rel="noopener noreferrer"><span class="owner">jhaizhou-ops/</span>d2r-mobile</a></h3>
+  <div class="desc">Open-source compatibility layer for Diablo II: Resurrected with the Reign of the Warlock expansion. Runs your own Switch copy natively on iPhone, iPad, Mac, Android and HarmonyOS — full touch controls, 60 fps, new endgame modes. Bring your own game files. 开源的《暗黑破坏神 II：狱火重生》术士君临 iOS / macOS / 安卓 / 鸿蒙兼容层</div>
+  <div class="summary"><ul><li><strong>解决什么</strong>：为《暗黑破坏神 II：狱火重生》提供跨平台兼容层，让 Switch 版游戏能在 iPhone、iPad、Mac、Android 和 HarmonyOS 上运行</li><li><strong>适合谁</strong>：适合拥有 Switch 版游戏文件，希望在这些设备上获得触控操作和 60 帧流畅体验的玩家</li><li><strong>亮点</strong>：支持触控操作、60 帧运行及术士君临扩展，近期涨星迅速</li></ul></div>
+  <div class="topics"><span class="topic">#android</span><span class="topic">#compatibility-layer</span><span class="topic">#diablo-2-resurrected</span><span class="topic">#diablo2</span><span class="topic">#game-port</span><span class="topic">#harmonyos</span></div>
+  <div class="card-foot">
+    <span class="lang"><span class="lang-dot" style="background:#555555"></span>C · 成立于 2026-10-12</span>
+    <span class="foot-right">
+      <span class="stars">★ 5.3k</span>
+      <a class="gh-link" href="https://github.com/jhaizhou-ops/d2r-mobile" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+    </span>
+  </div>
+</article>
+<article class="card" data-cats="Linux">
+  <div class="card-head">
+    <span class="rank">5</span>
+    <div class="cats"><span class="cat" style="background:#f59e0b">Linux</span></div>
+    <span class="speed top">人气榜</span>
+  </div>
+  <h3 class="title"><a href="https://github.com/obsidianmd/obsidian-skills" target="_blank" rel="noopener noreferrer"><span class="owner">obsidianmd/</span>obsidian-skills</a></h3>
+  <div class="desc">Agent skills for Obsidian. Teach your agent to use Obsidian CLI and open formats including Markdown, Bases, JSON Canvas.</div>
+  <div class="summary"><ul><li><strong>解决什么</strong>：为 Obsidian 笔记软件提供智能代理技能，使其能通过命令行操作 Markdown、Bases 和 JSON Canvas 等格式</li><li><strong>适合谁</strong>：Obsidian 用户，希望增强笔记管理自动化和智能化</li><li><strong>亮点</strong>：集成多种 AI 助手如 ChatGPT 和 Claude，实现笔记代理的多样化功能</li></ul></div>
+  <div class="topics"><span class="topic">#agents</span><span class="topic">#agentskills</span><span class="topic">#bases</span><span class="topic">#chatgpt</span><span class="topic">#claude</span><span class="topic">#claude-code</span></div>
+  <div class="card-foot">
+    <span class="lang"><span class="lang-dot" style="background:#94a3b8"></span>Shell · 成立于 2026-01-02</span>
+    <span class="foot-right">
+      <span class="stars">★ 53.0k</span>
+      <a class="gh-link" href="https://github.com/obsidianmd/obsidian-skills" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+    </span>
+  </div>
+</article>
+<article class="card" data-cats="Linux">
+  <div class="card-head">
+    <span class="rank">6</span>
+    <div class="cats"><span class="cat" style="background:#f59e0b">Linux</span></div>
+    <span class="speed">↑ 2377★/天</span>
+  </div>
+  <h3 class="title"><a href="https://github.com/morluto/rea" target="_blank" rel="noopener noreferrer"><span class="owner">morluto/</span>rea</a></h3>
+  <div class="desc">Reverse engineer anything with agents, from app behavior down to native binaries.</div>
+  <div class="summary"><ul><li><strong>解决什么</strong>：利用 AI 代理从应用行为深入到原生二进制文件进行全方位逆向工程</li><li><strong>适合谁</strong>：适合需要逆向分析安卓应用、原生代码或进行安全研究的开发者与安全研究员</li><li><strong>亮点</strong>：近期涨星最快的开源工具，支持利用 Claude 等代理进行多语言逆向</li></ul></div>
+  <div class="topics"><span class="topic">#agent-skills</span><span class="topic">#ai</span><span class="topic">#android</span><span class="topic">#claude-code</span><span class="topic">#cli</span><span class="topic">#cpp</span></div>
+  <div class="card-foot">
+    <span class="lang"><span class="lang-dot" style="background:#3178c6"></span>TypeScript · 成立于 2026-04-14</span>
+    <span class="foot-right">
+      <span class="stars">★ 464.8k</span>
+      <a class="gh-link" href="https://github.com/morluto/rea" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+    </span>
+  </div>
+</article>
+<article class="card" data-cats="Windows">
+  <div class="card-head">
+    <span class="rank">7</span>
+    <div class="cats"><span class="cat" style="background:#0ea5e9">Windows</span></div>
+    <span class="speed top">人气榜</span>
+  </div>
+  <h3 class="title"><a href="https://github.com/dockur/windows" target="_blank" rel="noopener noreferrer"><span class="owner">dockur/</span>windows</a></h3>
+  <div class="desc">Windows inside a Docker container.</div>
+  <div class="summary"><ul><li><strong>解决什么</strong>：在 Docker 容器中运行 Windows 系统</li><li><strong>适合谁</strong>：需要将 Windows 环境集成到 Docker 生态的开发者</li><li><strong>亮点</strong>：人气最高，提供在容器内运行 Windows 的解决方案</li></ul></div>
+  <div class="topics"><span class="topic">#docker</span><span class="topic">#docker-container</span><span class="topic">#virtualization</span><span class="topic">#windows</span><span class="topic">#windows-virtual-desktop</span><span class="topic">#windows-virtual-machine</span></div>
+  <div class="card-foot">
+    <span class="lang"><span class="lang-dot" style="background:#94a3b8"></span>Shell · 成立于 2024-01-14</span>
+    <span class="foot-right">
+      <span class="stars">★ 54.2k</span>
+      <a class="gh-link" href="https://github.com/dockur/windows" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+    </span>
+  </div>
+</article>
+<article class="card" data-cats="Windows">
+  <div class="card-head">
+    <span class="rank">8</span>
+    <div class="cats"><span class="cat" style="background:#f59e0b">Linux</span><span class="cat" style="background:#0ea5e9">Windows</span></div>
+    <span class="speed">↑ 680★/天</span>
+  </div>
+  <h3 class="title"><a href="https://github.com/ersinkoc/phonebox" target="_blank" rel="noopener noreferrer"><span class="owner">ersinkoc/</span>phonebox</a></h3>
+  <div class="desc">Turn an old Android phone into a customizable desk panel and touch control deck for Windows, Linux and macOS. 115 widgets for system stats, AI coding, media and automation. USB or paired Wi-Fi. No cloud required.</div>
+  <div class="summary"><ul><li><strong>解决什么</strong>：将旧安卓手机转化为跨平台的桌面控制面板与仪表盘，提供系统监控、AI 编码及媒体控制等功能</li><li><strong>适合谁</strong>：适合希望在 Windows、Linux 或 macOS 上利用旧安卓手机打造个性化桌面控制面板的用户</li><li><strong>亮点</strong>：支持 USB 或 Wi-Fi 连接且无需云端，提供 115 种功能丰富的小部件</li></ul></div>
+  <div class="topics"><span class="topic">#android</span><span class="topic">#claude-code</span><span class="topic">#codex</span><span class="topic">#dashboard</span><span class="topic">#desk-panel</span><span class="topic">#dotnet</span></div>
+  <div class="card-foot">
+    <span class="lang"><span class="lang-dot" style="background:#178600"></span>C# · 成立于 2026-11-07</span>
+    <span class="foot-right">
+      <span class="stars">★ 2.1k</span>
+      <a class="gh-link" href="https://github.com/ersinkoc/phonebox" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+    </span>
+  </div>
+</article>
+<article class="card" data-cats="AI神器">
+  <div class="card-head">
+    <span class="rank">9</span>
+    <div class="cats"><span class="cat" style="background:#ec4899">AI神器</span></div>
+    <span class="speed" style="background:#fdf2f8;color:#be185d">AI神器</span>
+  </div>
+  <h3 class="title"><a href="https://github.com/n8n-io/nod" target="_blank" rel="noopener noreferrer"><span class="owner">n8n-io/</span>nod</a></h3>
+  <div class="desc">Open source personal agent with its own computer. It chases invoices, preps your calls and cancels trials on real websites, and asks before it acts. Runs on your machine with the model you choose. By n8n.</div>
+  <div class="summary"><ul><li><strong>解决什么</strong>：解决个人自动化任务，如追踪发票、准备通话及取消试用</li><li><strong>适合谁</strong>：适合希望利用 AI 自动化日常杂务并拥有完全控制权的个人用户</li><li><strong>亮点</strong>：自托管运行，具备浏览器自动化能力，能在真实网站上执行任务并行动前征询许可</li></ul></div>
+  <div class="topics"><span class="topic">#agents</span><span class="topic">#ai-agent</span><span class="topic">#ai-assistant</span><span class="topic">#anthropic</span><span class="topic">#automation</span><span class="topic">#browser-automation</span></div>
+  <div class="card-foot">
+    <span class="lang"><span class="lang-dot" style="background:#3178c6"></span>TypeScript · 成立于 2026-09-25</span>
+    <span class="foot-right">
+      <span class="stars">★ 2.1k</span>
+      <a class="gh-link" href="https://github.com/n8n-io/nod" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+    </span>
+  </div>
+</article>
+<article class="card" data-cats="AI神器">
+  <div class="card-head">
+    <span class="rank">10</span>
+    <div class="cats"><span class="cat" style="background:#ec4899">AI神器</span></div>
+    <span class="speed" style="background:#fdf2f8;color:#be185d">AI神器</span>
+  </div>
+  <h3 class="title"><a href="https://github.com/EL4CTEO/blender-skills" target="_blank" rel="noopener noreferrer"><span class="owner">EL4CTEO/</span>blender-skills</a></h3>
+  <div class="desc">Professional Blender 5.3 workflows as Agent Skills for Claude Code, Codex, Gemini CLI, Copilot and Cursor: modeling, UVs, PBR, baking, rigging, animation, export and QA.</div>
+  <div class="summary"><ul><li><strong>解决什么</strong>：将 Blender 5.3 专业工作流转化为 AI 代理技能，涵盖建模、PBR、绑定等全流程</li><li><strong>适合谁</strong>：适合使用 Claude Code、Copilot 等 AI 编码工具的 3D 艺术家及游戏资产开发者</li><li><strong>亮点</strong>：支持多种 AI 编码工具，提供从建模到导出的完整 Blender 5.3 工作流</li></ul></div>
+  <div class="topics"><span class="topic">#3d</span><span class="topic">#agent-skills</span><span class="topic">#ai-agents</span><span class="topic">#blender</span><span class="topic">#blender-python</span><span class="topic">#bpy</span></div>
+  <div class="card-foot">
+    <span class="lang"><span class="lang-dot" style="background:#3572A5"></span>Python · 成立于 2026-10-14</span>
+    <span class="foot-right">
+      <span class="stars">★ 1.5k</span>
+      <a class="gh-link" href="https://github.com/EL4CTEO/blender-skills" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+    </span>
+  </div>
+</article>
+<article class="card" data-cats="AI神器">
+  <div class="card-head">
+    <span class="rank">11</span>
+    <div class="cats"><span class="cat" style="background:#f59e0b">Linux</span><span class="cat" style="background:#0ea5e9">Windows</span><span class="cat" style="background:#ec4899">AI神器</span></div>
+    <span class="speed" style="background:#fdf2f8;color:#be185d">AI神器</span>
+  </div>
+  <h3 class="title"><a href="https://github.com/FrigadeHQ/yogurt" target="_blank" rel="noopener noreferrer"><span class="owner">FrigadeHQ/</span>yogurt</a></h3>
+  <div class="desc">Private AI meeting notes that stay on your computer. A free, open-source alternative to Granola for Mac, Windows and Linux.</div>
+  <div class="summary"><ul><li><strong>解决什么</strong>：提供本地运行的 AI 会议笔记功能，保护隐私并替代 Granola</li><li><strong>适合谁</strong>：适合注重隐私、需要在离线环境下记录会议内容的专业人士</li><li><strong>亮点</strong>：结合 Whisper 和 Llama.cpp 纯本地运行，提供完全离线且免费的会议转录体验</li></ul></div>
+  <div class="topics"><span class="topic">#ai-meeting-assistant</span><span class="topic">#ai-notetaker</span><span class="topic">#electron</span><span class="topic">#granola-alternative</span><span class="topic">#linux</span><span class="topic">#llama-cpp</span></div>
+  <div class="card-foot">
+    <span class="lang"><span class="lang-dot" style="background:#3178c6"></span>TypeScript · 成立于 2026-11-10</span>
+    <span class="foot-right">
+      <span class="stars">★ 1.9k</span>
+      <a class="gh-link" href="https://github.com/FrigadeHQ/yogurt" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+    </span>
+  </div>
+</article>
+<article class="card" data-cats="AI神器">
+  <div class="card-head">
+    <span class="rank">12</span>
+    <div class="cats"><span class="cat" style="background:#ec4899">AI神器</span></div>
+    <span class="speed" style="background:#fdf2f8;color:#be185d">AI神器</span>
+  </div>
+  <h3 class="title"><a href="https://github.com/cutetailbud/ff-ruyijs" target="_blank" rel="noopener noreferrer"><span class="owner">cutetailbud/</span>ff-ruyijs</a></h3>
+  <div class="desc">This is a lightweight, headless browser purpose-built for AI agents (such as Codex or Claude Code) to perform browser automation tasks; it is designed to navigate through various web protection systems, login processes, and reverse-engineering scenarios</div>
+  <div class="summary"><ul><li><strong>解决什么</strong>：为 AI 代理提供轻量级无头浏览器，用于执行自动化任务并绕过反机器人系统、登录验证及逆向工程场景</li><li><strong>适合谁</strong>：适合 AI 代理（如 Codex 或 Claude Code）及网页爬虫开发者</li><li><strong>亮点</strong>：专为 AI 代理设计的轻量级 Firefox 无头浏览器，具备强大的反检测能力</li></ul></div>
+  <div class="topics"><span class="topic">#anti-bot</span><span class="topic">#automation</span><span class="topic">#firefox</span><span class="topic">#headless-browser</span><span class="topic">#javascript</span><span class="topic">#python</span></div>
+  <div class="card-foot">
+    <span class="lang"><span class="lang-dot" style="background:#f34b7d"></span>C++ · 成立于 2026-10-28</span>
+    <span class="foot-right">
+      <span class="stars">★ 1.4k</span>
+      <a class="gh-link" href="https://github.com/cutetailbud/ff-ruyijs" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+    </span>
+  </div>
+</article>
+<article class="card" data-cats="AI">
+  <div class="card-head">
+    <span class="rank">13</span>
+    <div class="cats"><span class="cat" style="background:#f59e0b">Linux</span><span class="cat" style="background:#8b5cf6">AI</span><span class="cat" style="background:#ec4899">AI神器</span></div>
+    <span class="speed" style="background:#f5f3ff;color:#6d28d9">AI 热门</span>
+  </div>
+  <h3 class="title"><a href="https://github.com/KKKKhazix/agent-autoloop" target="_blank" rel="noopener noreferrer"><span class="owner">KKKKhazix/</span>agent-autoloop</a></h3>
+  <div class="desc">让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。</div>
+  <div class="summary"><ul><li><strong>解决什么</strong>：解决命令行 Agent 需要持续手动干预的问题，使其具备后台自主接单、跟进任务直到完成的能力</li><li><strong>适合谁</strong>：适合需要自动化 CLI 工作流、使用 Claude 或 CodeX 等模型的开发者，以及希望自托管智能 Agent 的用户</li><li><strong>亮点</strong>：亮点在于实现了 Agent 的后台自主运行与交互式决策，平时静默工作，仅在遇到模糊情况时请求人工确认</li></ul></div>
+  <div class="topics"><span class="topic">#ai-agents</span><span class="topic">#automation</span><span class="topic">#claude-code</span><span class="topic">#cli</span><span class="topic">#codex</span><span class="topic">#event-driven</span></div>
+  <div class="card-foot">
+    <span class="lang"><span class="lang-dot" style="background:#3178c6"></span>TypeScript · 成立于 2026-11-03</span>
+    <span class="foot-right">
+      <span class="stars">★ 5.7k</span>
+      <a class="gh-link" href="https://github.com/KKKKhazix/agent-autoloop" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+    </span>
+  </div>
+</article>
+<article class="card" data-cats="C">
+  <div class="card-head">
+    <span class="rank">14</span>
+    <div class="cats"><span class="cat" style="background:#5b6ee1">C</span></div>
+    <span class="speed neutral">经典可读</span>
+  </div>
+  <h3 class="title"><a href="https://github.com/raysan5/raylib" target="_blank" rel="noopener noreferrer"><span class="owner">raysan5/</span>raylib</a></h3>
+  <div class="desc">A simple and easy-to-use library to enjoy videogames programming</div>
+  <div class="summary"><ul><li><strong>学什么</strong>：理解图形库的底层渲染机制，学习C语言在游戏开发中的应用</li><li><strong>适合谁</strong>：有一定C语言基础，对游戏开发感兴趣的初学者和中级开发者</li><li><strong>怎么读</strong>：从初始化和窗口创建模块入手，逐步阅读渲染和事件处理部分</li></ul></div>
+  <div class="topics"><span class="topic">#android</span><span class="topic">#c</span><span class="topic">#embedded</span><span class="topic">#esp32</span><span class="topic">#game-development</span><span class="topic">#game-engine</span></div>
+  <div class="card-foot">
+    <span class="lang"><span class="lang-dot" style="background:#555555"></span>C · 成立于 2013-10-24</span>
+    <span class="foot-right">
+      <span class="stars">★ 35.7k</span>
+      <a class="gh-link" href="https://github.com/raysan5/raylib" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+    </span>
+  </div>
+</article>
+<article class="card" data-cats="C++">
+  <div class="card-head">
+    <span class="rank">15</span>
+    <div class="cats"><span class="cat" style="background:#f34b7d">C++</span></div>
+    <span class="speed neutral">经典可读</span>
+  </div>
+  <h3 class="title"><a href="https://github.com/Neargye/magic_enum" target="_blank" rel="noopener noreferrer"><span class="owner">Neargye/</span>magic_enum</a></h3>
+  <div class="desc">Static reflection for enums (to string, from string, iteration) for modern C++, work with any enum type without any macro or boilerplate code</div>
+  <div class="summary"><ul><li><strong>学什么</strong>：掌握模板元编程技巧，理解如何在编译期实现枚举反射与字符串转换</li><li><strong>适合谁</strong>：适合有一定 C++ 基础、希望深入理解模板元编程与编译期计算的高级开发者</li><li><strong>怎么读</strong>：从核心头文件入手，对照测试用例理解核心函数的实现逻辑</li></ul></div>
+  <div class="topics"><span class="topic">#c-plus-plus</span><span class="topic">#c-plus-plus-17</span><span class="topic">#cplusplus</span><span class="topic">#cplusplus-17</span><span class="topic">#cpp</span><span class="topic">#cpp17</span></div>
+  <div class="card-foot">
+    <span class="lang"><span class="lang-dot" style="background:#f34b7d"></span>C++ · 成立于 2019-03-30</span>
+    <span class="foot-right">
+      <span class="stars">★ 6.3k</span>
+      <a class="gh-link" href="https://github.com/Neargye/magic_enum" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+    </span>
+  </div>
+</article></div>
+</main>
+
+<footer>
+  github-daily · 每天自动整理<span class="sep">·</span>数据来源 GitHub API<span class="sep">·</span>摘要由 AI 生成
+</footer>
+
+<script>
+document.querySelectorAll('.tab').forEach(function (tab) {
+  tab.addEventListener('click', function () {
+    document.querySelectorAll('.tab').forEach(function (t) { t.classList.remove('active'); });
+    tab.classList.add('active');
+    var cat = tab.getAttribute('data-cat');
+    document.querySelectorAll('.card').forEach(function (card) {
+      var cats = (card.getAttribute('data-cats') || '').split(',');
+      card.style.display = (cat === 'all' || cats.indexOf(cat) !== -1) ? '' : 'none';
+    });
+  });
+});
+</script>
+</body>
+</html>

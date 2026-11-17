@@ -1,8 +1,661 @@
 {
-  "generated_at": "2026-11-16T06:02:05.488183+00:00",
-  "total": 191,
-  "occurrences": 337,
+  "generated_at": "2026-11-17T07:38:26.138517+00:00",
+  "total": 197,
+  "occurrences": 352,
   "projects": [
+    {
+      "full_name": "morluto/rea",
+      "url": "https://github.com/morluto/rea",
+      "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+      "summary": "利用 AI 代理从应用行为深入到原生二进制文件进行全方位逆向工程\n适合需要逆向分析安卓应用、原生代码或进行安全研究的开发者与安全研究员\n近期涨星最快的开源工具，支持利用 Claude 等代理进行多语言逆向",
+      "stars": 464785,
+      "language": "TypeScript",
+      "topics": [
+        "agent-skills",
+        "ai",
+        "android",
+        "claude-code",
+        "cli",
+        "cpp",
+        "dsh-plugin",
+        "html",
+        "java",
+        "javascript",
+        "linux",
+        "mcp",
+        "nodejs",
+        "python",
+        "rea",
+        "react",
+        "rust",
+        "security",
+        "touhou",
+        "typescript"
+      ],
+      "categories": [
+        "Linux"
+      ],
+      "platforms": [
+        "Linux"
+      ],
+      "pick": "growth",
+      "slot": "Linux",
+      "kind": "search",
+      "created_at": "2026-04-14",
+      "first_date": "2026-10-27",
+      "last_date": "2026-11-17",
+      "dates": [
+        "2026-11-17",
+        "2026-11-13",
+        "2026-11-09",
+        "2026-11-04",
+        "2026-10-31",
+        "2026-10-27"
+      ],
+      "times": 6
+    },
+    {
+      "full_name": "Gathin23/cleanyourtv",
+      "url": "https://github.com/Gathin23/cleanyourtv",
+      "description": "Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
+      "summary": "通过 Wi-Fi 远程清理安卓或 Google TV 上的预装软件，并打造类似 Apple TV 的界面\n拥有安卓电视、Google TV 或 Fire TV 设备，希望移除预装软件并优化隐私的用户\n支持远程 Wi-Fi 清理，界面风格酷似 Apple TV，近期涨星极快",
+      "stars": 58762,
+      "language": "Python",
+      "topics": [
+        "adb",
+        "adblock",
+        "android-tv",
+        "android-tv-launcher",
+        "apple-tv",
+        "bloatware-removal",
+        "claude-code",
+        "debloat",
+        "fire-tv",
+        "google-tv",
+        "launcher",
+        "privacy",
+        "smart-tv",
+        "sony-bravia",
+        "tcl",
+        "vibe-coding",
+        "xiaomi"
+      ],
+      "categories": [
+        "安卓"
+      ],
+      "platforms": [
+        "安卓"
+      ],
+      "pick": "growth",
+      "slot": "安卓",
+      "kind": "search",
+      "created_at": "2026-10-17",
+      "first_date": "2026-10-22",
+      "last_date": "2026-11-17",
+      "dates": [
+        "2026-11-17",
+        "2026-11-13",
+        "2026-11-09",
+        "2026-11-04",
+        "2026-10-31",
+        "2026-10-27",
+        "2026-10-22"
+      ],
+      "times": 7
+    },
+    {
+      "full_name": "dockur/windows",
+      "url": "https://github.com/dockur/windows",
+      "description": "Windows inside a Docker container.",
+      "summary": "解决什么：在 Docker 容器中运行 Windows 系统\n适合谁：需要将 Windows 环境集成到 Docker 生态的开发者\n亮点：人气最高，提供在容器内运行 Windows 的解决方案",
+      "stars": 54214,
+      "language": "Shell",
+      "topics": [
+        "docker",
+        "docker-container",
+        "virtualization",
+        "windows",
+        "windows-virtual-desktop",
+        "windows-virtual-machine",
+        "windows-virtual-machines",
+        "windows-vm"
+      ],
+      "categories": [
+        "Windows"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "pick": "top",
+      "slot": "Windows",
+      "kind": "search",
+      "created_at": "2024-01-14",
+      "first_date": "2026-11-17",
+      "last_date": "2026-11-17",
+      "dates": [
+        "2026-11-17"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "obsidianmd/obsidian-skills",
+      "url": "https://github.com/obsidianmd/obsidian-skills",
+      "description": "Agent skills for Obsidian. Teach your agent to use Obsidian CLI and open formats including Markdown, Bases, JSON Canvas.",
+      "summary": "解决什么：为 Obsidian 笔记软件提供智能代理技能，使其能通过命令行操作 Markdown、Bases 和 JSON Canvas 等格式\n适合谁：Obsidian 用户，希望增强笔记管理自动化和智能化\n亮点：集成多种 AI 助手如 ChatGPT 和 Claude，实现笔记代理的多样化功能",
+      "stars": 52988,
+      "language": "Shell",
+      "topics": [
+        "agents",
+        "agentskills",
+        "bases",
+        "chatgpt",
+        "claude",
+        "claude-code",
+        "claude-skills",
+        "cli",
+        "codex",
+        "defuddle",
+        "grok-bot",
+        "hermes",
+        "jsoncanvas",
+        "knap",
+        "markdown",
+        "md",
+        "obsidian",
+        "openclaw",
+        "opencode",
+        "skills"
+      ],
+      "categories": [
+        "Linux"
+      ],
+      "platforms": [
+        "Linux"
+      ],
+      "pick": "top",
+      "slot": "Linux",
+      "kind": "search",
+      "created_at": "2026-01-02",
+      "first_date": "2026-11-17",
+      "last_date": "2026-11-17",
+      "dates": [
+        "2026-11-17"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "raysan5/raylib",
+      "url": "https://github.com/raysan5/raylib",
+      "description": "A simple and easy-to-use library to enjoy videogames programming",
+      "summary": "学什么：理解图形库的底层渲染机制，学习C语言在游戏开发中的应用\n适合谁：有一定C语言基础，对游戏开发感兴趣的初学者和中级开发者\n怎么读：从初始化和窗口创建模块入手，逐步阅读渲染和事件处理部分",
+      "stars": 35706,
+      "language": "C",
+      "topics": [
+        "android",
+        "c",
+        "embedded",
+        "esp32",
+        "game-development",
+        "game-engine",
+        "gamedev",
+        "graphics",
+        "iot",
+        "linux",
+        "macos",
+        "opengl",
+        "programming",
+        "raspberry-pi",
+        "raylib",
+        "riscv",
+        "wasm",
+        "webassembly",
+        "win32"
+      ],
+      "categories": [
+        "C"
+      ],
+      "platforms": [
+        "C"
+      ],
+      "pick": null,
+      "slot": null,
+      "kind": "learn",
+      "created_at": "2013-10-24",
+      "first_date": "2026-10-31",
+      "last_date": "2026-11-17",
+      "dates": [
+        "2026-11-17",
+        "2026-10-31"
+      ],
+      "times": 2
+    },
+    {
+      "full_name": "T8RIN/ImageToolbox",
+      "url": "https://github.com/T8RIN/ImageToolbox",
+      "description": "🖼️ Image Toolbox is a powerful app for advanced image manipulation. It offers dozens of features, from basic tools like crop and draw to filters, OCR, and a wide range of image processing options",
+      "summary": "解决什么：提供强大的安卓图像处理工具，包括裁剪、绘制、滤镜、OCR、背景移除等高级功能\n适合谁：安卓用户需要编辑、处理或增强图片的场景\n亮点：集成多种图像编辑和处理功能于一身的安卓应用",
+      "stars": 15588,
+      "language": "Kotlin",
+      "topics": [
+        "ai",
+        "android",
+        "background-removal",
+        "crop",
+        "edit-photo",
+        "exif",
+        "f-droid",
+        "filter-image",
+        "image-manipulation",
+        "jetpack-compose",
+        "jxl",
+        "kotlin",
+        "material-you",
+        "ocr-recognition",
+        "pdf",
+        "photo-collage",
+        "photo-editor",
+        "psd",
+        "qrcode-scanner",
+        "upscaling"
+      ],
+      "categories": [
+        "安卓"
+      ],
+      "platforms": [
+        "安卓"
+      ],
+      "pick": "top",
+      "slot": "安卓",
+      "kind": "search",
+      "created_at": "2022-04-06",
+      "first_date": "2026-11-17",
+      "last_date": "2026-11-17",
+      "dates": [
+        "2026-11-17"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "Neargye/magic_enum",
+      "url": "https://github.com/Neargye/magic_enum",
+      "description": "Static reflection for enums (to string, from string, iteration) for modern C++, work with any enum type without any macro or boilerplate code",
+      "summary": "掌握模板元编程技巧，理解如何在编译期实现枚举反射与字符串转换\n适合有一定 C++ 基础、希望深入理解模板元编程与编译期计算的高级开发者\n从核心头文件入手，对照测试用例理解核心函数的实现逻辑",
+      "stars": 6253,
+      "language": "C++",
+      "topics": [
+        "c-plus-plus",
+        "c-plus-plus-17",
+        "cplusplus",
+        "cplusplus-17",
+        "cpp",
+        "cpp17",
+        "enum",
+        "enum-to-string",
+        "header-only",
+        "metaprogramming",
+        "no-dependencies",
+        "reflection",
+        "serialization",
+        "single-file",
+        "string-to-enum"
+      ],
+      "categories": [
+        "C++"
+      ],
+      "platforms": [
+        "C++"
+      ],
+      "pick": null,
+      "slot": null,
+      "kind": "learn",
+      "created_at": "2019-03-30",
+      "first_date": "2026-11-01",
+      "last_date": "2026-11-17",
+      "dates": [
+        "2026-11-17",
+        "2026-11-01"
+      ],
+      "times": 2
+    },
+    {
+      "full_name": "KKKKhazix/agent-autoloop",
+      "url": "https://github.com/KKKKhazix/agent-autoloop",
+      "description": "让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。",
+      "summary": "解决命令行 Agent 需要持续手动干预的问题，使其具备后台自主接单、跟进任务直到完成的能力\n适合需要自动化 CLI 工作流、使用 Claude 或 CodeX 等模型的开发者，以及希望自托管智能 Agent 的用户\n亮点在于实现了 Agent 的后台自主运行与交互式决策，平时静默工作，仅在遇到模糊情况时请求人工确认",
+      "stars": 5727,
+      "language": "TypeScript",
+      "topics": [
+        "ai-agents",
+        "automation",
+        "claude-code",
+        "cli",
+        "codex",
+        "event-driven",
+        "mcp",
+        "nodejs",
+        "self-hosted",
+        "typescript",
+        "workflow"
+      ],
+      "categories": [
+        "Linux",
+        "AI",
+        "AI神器"
+      ],
+      "platforms": [
+        "AI"
+      ],
+      "pick": "ai",
+      "slot": "AI",
+      "kind": "search",
+      "created_at": "2026-11-03",
+      "first_date": "2026-11-05",
+      "last_date": "2026-11-17",
+      "dates": [
+        "2026-11-17",
+        "2026-11-13",
+        "2026-11-09",
+        "2026-11-05"
+      ],
+      "times": 4
+    },
+    {
+      "full_name": "jhaizhou-ops/d2r-mobile",
+      "url": "https://github.com/jhaizhou-ops/d2r-mobile",
+      "description": "Open-source compatibility layer for Diablo II: Resurrected with the Reign of the Warlock expansion. Runs your own Switch copy natively on iPhone, iPad, Mac, Android and HarmonyOS — full touch controls, 60 fps, new endgame modes. Bring your own game files. 开源的《暗黑破坏神 II：狱火重生》术士君临 iOS / macOS / 安卓 / 鸿蒙兼容层",
+      "summary": "为《暗黑破坏神 II：狱火重生》提供跨平台兼容层，让 Switch 版游戏能在 iPhone、iPad、Mac、Android 和 HarmonyOS 上运行\n适合拥有 Switch 版游戏文件，希望在这些设备上获得触控操作和 60 帧流畅体验的玩家\n支持触控操作、60 帧运行及术士君临扩展，近期涨星迅速",
+      "stars": 5329,
+      "language": "C",
+      "topics": [
+        "android",
+        "compatibility-layer",
+        "diablo-2-resurrected",
+        "diablo2",
+        "game-port",
+        "harmonyos",
+        "ios",
+        "ipad",
+        "iphone",
+        "mac",
+        "macos",
+        "metal",
+        "reign-of-the-warlock",
+        "vulkan"
+      ],
+      "categories": [
+        "鸿蒙"
+      ],
+      "platforms": [
+        "鸿蒙"
+      ],
+      "pick": "growth",
+      "slot": "鸿蒙",
+      "kind": "search",
+      "created_at": "2026-10-12",
+      "first_date": "2026-10-27",
+      "last_date": "2026-11-17",
+      "dates": [
+        "2026-11-17",
+        "2026-11-13",
+        "2026-11-09",
+        "2026-11-04",
+        "2026-10-31",
+        "2026-10-27"
+      ],
+      "times": 6
+    },
+    {
+      "full_name": "n8n-io/nod",
+      "url": "https://github.com/n8n-io/nod",
+      "description": "Open source personal agent with its own computer. It chases invoices, preps your calls and cancels trials on real websites, and asks before it acts. Runs on your machine with the model you choose. By n8n.",
+      "summary": "解决个人自动化任务，如追踪发票、准备通话及取消试用\n适合希望利用 AI 自动化日常杂务并拥有完全控制权的个人用户\n自托管运行，具备浏览器自动化能力，能在真实网站上执行任务并行动前征询许可",
+      "stars": 2131,
+      "language": "TypeScript",
+      "topics": [
+        "agents",
+        "ai-agent",
+        "ai-assistant",
+        "anthropic",
+        "automation",
+        "browser-automation",
+        "computer-use",
+        "electron",
+        "llm",
+        "local-first",
+        "mcp",
+        "n8n",
+        "openai",
+        "personal-agent",
+        "personal-assistant",
+        "privacy",
+        "self-hosted",
+        "telegram-bot",
+        "typescript",
+        "whatsapp-bot"
+      ],
+      "categories": [
+        "AI神器"
+      ],
+      "platforms": [
+        "AI神器"
+      ],
+      "pick": "ai_tool",
+      "slot": "AI神器",
+      "kind": "search",
+      "created_at": "2026-09-25",
+      "first_date": "2026-11-13",
+      "last_date": "2026-11-17",
+      "dates": [
+        "2026-11-17",
+        "2026-11-13"
+      ],
+      "times": 2
+    },
+    {
+      "full_name": "ersinkoc/phonebox",
+      "url": "https://github.com/ersinkoc/phonebox",
+      "description": "Turn an old Android phone into a customizable desk panel and touch control deck for Windows, Linux and macOS. 115 widgets for system stats, AI coding, media and automation. USB or paired Wi-Fi. No cloud required.",
+      "summary": "将旧安卓手机转化为跨平台的桌面控制面板与仪表盘，提供系统监控、AI 编码及媒体控制等功能\n适合希望在 Windows、Linux 或 macOS 上利用旧安卓手机打造个性化桌面控制面板的用户\n支持 USB 或 Wi-Fi 连接且无需云端，提供 115 种功能丰富的小部件",
+      "stars": 2081,
+      "language": "C#",
+      "topics": [
+        "android",
+        "claude-code",
+        "codex",
+        "dashboard",
+        "desk-panel",
+        "dotnet",
+        "linux",
+        "macos",
+        "old-phone",
+        "smart-stack",
+        "stream-deck",
+        "system-monitor",
+        "tailscale",
+        "webhooks",
+        "widgets",
+        "windows"
+      ],
+      "categories": [
+        "Linux",
+        "Windows"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "pick": "growth",
+      "slot": "Windows",
+      "kind": "search",
+      "created_at": "2026-11-07",
+      "first_date": "2026-11-17",
+      "last_date": "2026-11-17",
+      "dates": [
+        "2026-11-17"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "FrigadeHQ/yogurt",
+      "url": "https://github.com/FrigadeHQ/yogurt",
+      "description": "Private AI meeting notes that stay on your computer. A free, open-source alternative to Granola for Mac, Windows and Linux.",
+      "summary": "提供本地运行的 AI 会议笔记功能，保护隐私并替代 Granola\n适合注重隐私、需要在离线环境下记录会议内容的专业人士\n结合 Whisper 和 Llama.cpp 纯本地运行，提供完全离线且免费的会议转录体验",
+      "stars": 1916,
+      "language": "TypeScript",
+      "topics": [
+        "ai-meeting-assistant",
+        "ai-notetaker",
+        "electron",
+        "granola-alternative",
+        "linux",
+        "llama-cpp",
+        "local-ai",
+        "local-first",
+        "macos",
+        "mcp",
+        "meeting-minutes",
+        "meeting-notes",
+        "offline-first",
+        "open-source",
+        "privacy",
+        "speech-to-text",
+        "transcription",
+        "whisper",
+        "whisper-cpp",
+        "windows"
+      ],
+      "categories": [
+        "Linux",
+        "Windows",
+        "AI神器"
+      ],
+      "platforms": [
+        "Linux",
+        "Windows",
+        "AI神器"
+      ],
+      "pick": "ai_tool",
+      "slot": "AI神器",
+      "kind": "search",
+      "created_at": "2026-11-10",
+      "first_date": "2026-11-13",
+      "last_date": "2026-11-17",
+      "dates": [
+        "2026-11-17",
+        "2026-11-13"
+      ],
+      "times": 2
+    },
+    {
+      "full_name": "EL4CTEO/blender-skills",
+      "url": "https://github.com/EL4CTEO/blender-skills",
+      "description": "Professional Blender 5.3 workflows as Agent Skills for Claude Code, Codex, Gemini CLI, Copilot and Cursor: modeling, UVs, PBR, baking, rigging, animation, export and QA.",
+      "summary": "将 Blender 5.3 专业工作流转化为 AI 代理技能，涵盖建模、PBR、绑定等全流程\n适合使用 Claude Code、Copilot 等 AI 编码工具的 3D 艺术家及游戏资产开发者\n支持多种 AI 编码工具，提供从建模到导出的完整 Blender 5.3 工作流",
+      "stars": 1471,
+      "language": "Python",
+      "topics": [
+        "3d",
+        "agent-skills",
+        "ai-agents",
+        "blender",
+        "blender-python",
+        "bpy",
+        "claude-code",
+        "claude-skills",
+        "codex",
+        "game-assets",
+        "gemini-cli",
+        "godot",
+        "mcp",
+        "pbr",
+        "rigging",
+        "roblox",
+        "unity",
+        "unreal-engine"
+      ],
+      "categories": [
+        "AI神器"
+      ],
+      "platforms": [
+        "AI神器"
+      ],
+      "pick": "ai_tool",
+      "slot": "AI神器",
+      "kind": "search",
+      "created_at": "2026-10-14",
+      "first_date": "2026-11-17",
+      "last_date": "2026-11-17",
+      "dates": [
+        "2026-11-17"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "cutetailbud/ff-ruyijs",
+      "url": "https://github.com/cutetailbud/ff-ruyijs",
+      "description": "This is a lightweight, headless browser purpose-built for AI agents (such as Codex or Claude Code) to perform browser automation tasks; it is designed to navigate through various web protection systems, login processes, and reverse-engineering scenarios",
+      "summary": "解决什么：为 AI 代理提供轻量级无头浏览器，用于执行自动化任务并绕过反机器人系统、登录验证及逆向工程场景\n适合谁：适合 AI 代理（如 Codex 或 Claude Code）及网页爬虫开发者\n亮点：专为 AI 代理设计的轻量级 Firefox 无头浏览器，具备强大的反检测能力",
+      "stars": 1435,
+      "language": "C++",
+      "topics": [
+        "anti-bot",
+        "automation",
+        "firefox",
+        "headless-browser",
+        "javascript",
+        "python",
+        "spidermonkey",
+        "web-scraping"
+      ],
+      "categories": [
+        "AI神器"
+      ],
+      "platforms": [
+        "AI神器"
+      ],
+      "pick": "ai_tool",
+      "slot": "AI神器",
+      "kind": "search",
+      "created_at": "2026-10-28",
+      "first_date": "2026-11-09",
+      "last_date": "2026-11-17",
+      "dates": [
+        "2026-11-17",
+        "2026-11-09"
+      ],
+      "times": 2
+    },
+    {
+      "full_name": "harmoninux/HiSH",
+      "url": "https://github.com/harmoninux/HiSH",
+      "description": "在鸿蒙上运行Linux Shell，支持手机、平板、2in1/PC",
+      "summary": "在鸿蒙系统上运行 Linux Shell 环境，满足终端操作需求\n适合需要在鸿蒙手机、平板或 PC 上体验 Linux 终端环境的用户\n轻量级模拟器，在鸿蒙系统上实现 Linux 终端虚拟化体验",
+      "stars": 696,
+      "language": "HTML",
+      "topics": [
+        "emulator",
+        "harmonyos",
+        "linux",
+        "shell",
+        "terminal",
+        "virtual-machine"
+      ],
+      "categories": [
+        "鸿蒙"
+      ],
+      "platforms": [
+        "鸿蒙"
+      ],
+      "pick": "top",
+      "slot": "鸿蒙",
+      "kind": "search",
+      "created_at": "2025-09-06",
+      "first_date": "2026-11-17",
+      "last_date": "2026-11-17",
+      "dates": [
+        "2026-11-17"
+      ],
+      "times": 1
+    },
     {
       "full_name": "wagoodman/dive",
       "url": "https://github.com/wagoodman/dive",
@@ -1741,56 +2394,6 @@
       "times": 1
     },
     {
-      "full_name": "morluto/rea",
-      "url": "https://github.com/morluto/rea",
-      "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
-      "summary": "利用 AI 代理从应用行为深入到原生二进制文件进行逆向工程\n适合安全研究员、逆向工程师以及需要分析原生二进制文件或 Android 应用的开发者\n支持多种编程语言，是目前涨星最快的开源项目之一",
-      "stars": 455832,
-      "language": "TypeScript",
-      "topics": [
-        "agent-skills",
-        "ai",
-        "android",
-        "claude-code",
-        "cli",
-        "cpp",
-        "dsh-plugin",
-        "html",
-        "java",
-        "javascript",
-        "linux",
-        "mcp",
-        "nodejs",
-        "python",
-        "rea",
-        "react",
-        "rust",
-        "security",
-        "touhou",
-        "typescript"
-      ],
-      "categories": [
-        "Linux"
-      ],
-      "platforms": [
-        "Linux"
-      ],
-      "pick": "growth",
-      "slot": "Linux",
-      "kind": "search",
-      "created_at": "2026-04-14",
-      "first_date": "2026-10-27",
-      "last_date": "2026-11-13",
-      "dates": [
-        "2026-11-13",
-        "2026-11-09",
-        "2026-11-04",
-        "2026-10-31",
-        "2026-10-27"
-      ],
-      "times": 5
-    },
-    {
       "full_name": "BurntSushi/ripgrep",
       "url": "https://github.com/BurntSushi/ripgrep",
       "description": "ripgrep recursively searches directories for a regex pattern while respecting your gitignore",
@@ -1867,54 +2470,6 @@
       "times": 2
     },
     {
-      "full_name": "Gathin23/cleanyourtv",
-      "url": "https://github.com/Gathin23/cleanyourtv",
-      "description": "Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
-      "summary": "通过 Wi-Fi 移除 Android 或 Google TV 上的臃肿软件，优化系统体验\n适合拥有 Android TV、Google TV 等设备的用户，希望优化系统并美化界面\n近期涨星最快的电视优化工具，支持远程清理并打造 Apple TV 风格主页",
-      "stars": 57111,
-      "language": "Python",
-      "topics": [
-        "adb",
-        "adblock",
-        "android-tv",
-        "android-tv-launcher",
-        "apple-tv",
-        "bloatware-removal",
-        "claude-code",
-        "debloat",
-        "fire-tv",
-        "google-tv",
-        "launcher",
-        "privacy",
-        "smart-tv",
-        "sony-bravia",
-        "tcl",
-        "vibe-coding",
-        "xiaomi"
-      ],
-      "categories": [
-        "安卓"
-      ],
-      "platforms": [
-        "安卓"
-      ],
-      "pick": "growth",
-      "slot": "安卓",
-      "kind": "search",
-      "created_at": "2026-10-17",
-      "first_date": "2026-10-22",
-      "last_date": "2026-11-13",
-      "dates": [
-        "2026-11-13",
-        "2026-11-09",
-        "2026-11-04",
-        "2026-10-31",
-        "2026-10-27",
-        "2026-10-22"
-      ],
-      "times": 6
-    },
-    {
       "full_name": "google/googletest",
       "url": "https://github.com/google/googletest",
       "description": "GoogleTest - Google Testing and Mocking Framework",
@@ -1978,93 +2533,6 @@
         "2026-11-02"
       ],
       "times": 2
-    },
-    {
-      "full_name": "jhaizhou-ops/d2r-mobile",
-      "url": "https://github.com/jhaizhou-ops/d2r-mobile",
-      "description": "Open-source compatibility layer for Diablo II: Resurrected with the Reign of the Warlock expansion. Runs your own Switch copy natively on iPhone, iPad, Mac, Android and HarmonyOS — full touch controls, 60 fps, new endgame modes. Bring your own game files. 开源的《暗黑破坏神 II：狱火重生》术士君临 iOS / macOS / 安卓 / 鸿蒙兼容层",
-      "summary": "为《暗黑破坏神 II：狱火重生》术士君临扩展提供开源兼容层，支持在 iOS、Android 和 HarmonyOS 等设备上运行 Switch 版游戏文件\n适合拥有 Switch 版游戏文件，希望将其移植到手机、平板或电脑上畅玩的玩家\n支持多平台（含鸿蒙），提供完整触控操作与 60 帧流畅运行体验",
-      "stars": 5286,
-      "language": "C",
-      "topics": [
-        "android",
-        "compatibility-layer",
-        "diablo-2-resurrected",
-        "diablo2",
-        "game-port",
-        "harmonyos",
-        "ios",
-        "ipad",
-        "iphone",
-        "mac",
-        "macos",
-        "metal",
-        "reign-of-the-warlock",
-        "vulkan"
-      ],
-      "categories": [
-        "鸿蒙"
-      ],
-      "platforms": [
-        "鸿蒙"
-      ],
-      "pick": "growth",
-      "slot": "鸿蒙",
-      "kind": "search",
-      "created_at": "2026-10-12",
-      "first_date": "2026-10-27",
-      "last_date": "2026-11-13",
-      "dates": [
-        "2026-11-13",
-        "2026-11-09",
-        "2026-11-04",
-        "2026-10-31",
-        "2026-10-27"
-      ],
-      "times": 5
-    },
-    {
-      "full_name": "KKKKhazix/agent-autoloop",
-      "url": "https://github.com/KKKKhazix/agent-autoloop",
-      "description": "让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。",
-      "summary": "解决命令行 Agent 需要人工持续干预的问题，实现后台自动接单与任务跟进\n适合需要自动化处理复杂 CLI 任务的开发者和运维人员\n具备智能决策能力，仅在关键时刻请求人类介入",
-      "stars": 4922,
-      "language": "TypeScript",
-      "topics": [
-        "ai-agents",
-        "automation",
-        "claude-code",
-        "cli",
-        "codex",
-        "event-driven",
-        "mcp",
-        "nodejs",
-        "self-hosted",
-        "typescript",
-        "workflow"
-      ],
-      "categories": [
-        "Linux",
-        "AI",
-        "AI神器"
-      ],
-      "platforms": [
-        "Linux",
-        "AI",
-        "AI神器"
-      ],
-      "pick": "ai_tool",
-      "slot": "AI神器",
-      "kind": "search",
-      "created_at": "2026-11-03",
-      "first_date": "2026-11-05",
-      "last_date": "2026-11-13",
-      "dates": [
-        "2026-11-13",
-        "2026-11-09",
-        "2026-11-05"
-      ],
-      "times": 3
     },
     {
       "full_name": "agentes-chat/agentes-chat",
@@ -2150,49 +2618,6 @@
       "times": 1
     },
     {
-      "full_name": "FrigadeHQ/yogurt",
-      "url": "https://github.com/FrigadeHQ/yogurt",
-      "description": "Private AI meeting notes. Free and open source.",
-      "summary": "解决什么：为用户提供一个私密且免费的AI会议笔记工具\n适合谁：需要记录会议内容并注重隐私保护的个人或团队\n亮点：基于本地AI技术，支持多平台且完全开源的会议笔记应用",
-      "stars": 1021,
-      "language": "TypeScript",
-      "topics": [
-        "ai-meeting-assistant",
-        "electron",
-        "linux",
-        "llama-cpp",
-        "local-ai",
-        "macos",
-        "mcp",
-        "meeting-notes",
-        "open-source",
-        "privacy",
-        "speech-to-text",
-        "transcription",
-        "whisper",
-        "whisper-cpp",
-        "windows"
-      ],
-      "categories": [
-        "Linux",
-        "Windows",
-        "AI神器"
-      ],
-      "platforms": [
-        "Windows"
-      ],
-      "pick": "growth",
-      "slot": "Windows",
-      "kind": "search",
-      "created_at": "2026-11-10",
-      "first_date": "2026-11-13",
-      "last_date": "2026-11-13",
-      "dates": [
-        "2026-11-13"
-      ],
-      "times": 1
-    },
-    {
       "full_name": "Seagey/couch-tv",
       "url": "https://github.com/Seagey/couch-tv",
       "description": "Your own Google TV home screen and phone remote, with an optional Claude assistant. Set it up by handing this repo to your AI agent.",
@@ -2215,52 +2640,6 @@
       "slot": "AI神器",
       "kind": "search",
       "created_at": "2026-10-26",
-      "first_date": "2026-11-13",
-      "last_date": "2026-11-13",
-      "dates": [
-        "2026-11-13"
-      ],
-      "times": 1
-    },
-    {
-      "full_name": "n8n-io/nod",
-      "url": "https://github.com/n8n-io/nod",
-      "description": "Open source personal agent with its own computer. It chases invoices, preps your calls and cancels trials on real websites, and asks before it acts. Runs on your machine with the model you choose. By n8n.",
-      "summary": "解决什么：解决个人自动化任务问题，能通过浏览器与真实网站交互执行追账单、取消试用等操作。\n适合谁：适合看重隐私、希望本地部署并自定义大模型来管理个人事务的用户。\n亮点：拥有独立“电脑”的个人代理，在本地运行且操作前会征求用户许可。",
-      "stars": 873,
-      "language": "TypeScript",
-      "topics": [
-        "agents",
-        "ai-agent",
-        "ai-assistant",
-        "anthropic",
-        "automation",
-        "browser-automation",
-        "computer-use",
-        "electron",
-        "llm",
-        "local-first",
-        "mcp",
-        "n8n",
-        "openai",
-        "personal-agent",
-        "personal-assistant",
-        "privacy",
-        "self-hosted",
-        "telegram-bot",
-        "typescript",
-        "whatsapp-bot"
-      ],
-      "categories": [
-        "AI神器"
-      ],
-      "platforms": [
-        "AI神器"
-      ],
-      "pick": "ai_tool",
-      "slot": "AI神器",
-      "kind": "search",
-      "created_at": "2026-09-25",
       "first_date": "2026-11-13",
       "last_date": "2026-11-13",
       "dates": [
@@ -3649,40 +4028,6 @@
       "slot": "AI神器",
       "kind": "search",
       "created_at": "2026-11-03",
-      "first_date": "2026-11-09",
-      "last_date": "2026-11-09",
-      "dates": [
-        "2026-11-09"
-      ],
-      "times": 1
-    },
-    {
-      "full_name": "cutetailbud/ff-ruyijs",
-      "url": "https://github.com/cutetailbud/ff-ruyijs",
-      "description": "This is a lightweight, headless browser purpose-built for AI agents (such as Codex or Claude Code) to perform browser automation tasks; it is designed to navigate through various web protection systems, login processes, and reverse-engineering scenarios",
-      "summary": "解决什么：为 AI 代理提供轻量级无头浏览器，用于自动化任务并导航各种网络保护系统和登录流程\n适合谁：AI 开发者和研究人员，需要自动化浏览器任务并处理复杂网站保护的场景\n亮点：专为 AI 代理设计的轻量级无头浏览器，能有效应对网络保护系统",
-      "stars": 1088,
-      "language": "C++",
-      "topics": [
-        "anti-bot",
-        "automation",
-        "firefox",
-        "headless-browser",
-        "javascript",
-        "python",
-        "spidermonkey",
-        "web-scraping"
-      ],
-      "categories": [
-        "AI神器"
-      ],
-      "platforms": [
-        "AI神器"
-      ],
-      "pick": "ai_tool",
-      "slot": "AI神器",
-      "kind": "search",
-      "created_at": "2026-10-28",
       "first_date": "2026-11-09",
       "last_date": "2026-11-09",
       "dates": [
@@ -5601,47 +5946,6 @@
       "times": 2
     },
     {
-      "full_name": "Neargye/magic_enum",
-      "url": "https://github.com/Neargye/magic_enum",
-      "description": "Static reflection for enums (to string, from string, iteration) for modern C++, work with any enum type without any macro or boilerplate code",
-      "summary": "深入理解 C++ 模板元编程与编译期反射机制，掌握无宏的枚举处理技巧\n适合有一定 C++ 基础，希望深入理解模板元编程或需要处理枚举反射的开发者\n从 README 示例入手，重点阅读核心头文件中的模板元编程实现",
-      "stars": 6249,
-      "language": "C++",
-      "topics": [
-        "c-plus-plus",
-        "c-plus-plus-17",
-        "cplusplus",
-        "cplusplus-17",
-        "cpp",
-        "cpp17",
-        "enum",
-        "enum-to-string",
-        "header-only",
-        "metaprogramming",
-        "no-dependencies",
-        "reflection",
-        "serialization",
-        "single-file",
-        "string-to-enum"
-      ],
-      "categories": [
-        "C++"
-      ],
-      "platforms": [
-        "C++"
-      ],
-      "pick": null,
-      "slot": null,
-      "kind": "learn",
-      "created_at": "2019-03-30",
-      "first_date": "2026-11-01",
-      "last_date": "2026-11-01",
-      "dates": [
-        "2026-11-01"
-      ],
-      "times": 1
-    },
-    {
       "full_name": "richgel999/miniz",
       "url": "https://github.com/richgel999/miniz",
       "description": "miniz: Single C source file zlib-replacement library, originally from code.google.com/p/miniz",
@@ -5729,51 +6033,6 @@
       "last_date": "2026-11-01",
       "dates": [
         "2026-11-01"
-      ],
-      "times": 1
-    },
-    {
-      "full_name": "raysan5/raylib",
-      "url": "https://github.com/raysan5/raylib",
-      "description": "A simple and easy-to-use library to enjoy videogames programming",
-      "summary": "学什么：学习 C 语言图形渲染原理与简洁的游戏引擎架构设计\n适合谁：适合 C 语言开发者及游戏编程爱好者，想深入理解渲染管线与窗口管理\n怎么读：建议从窗口初始化与主循环模块入手，再深入图形渲染逻辑",
-      "stars": 35497,
-      "language": "C",
-      "topics": [
-        "android",
-        "c",
-        "embedded",
-        "esp32",
-        "game-development",
-        "game-engine",
-        "gamedev",
-        "graphics",
-        "iot",
-        "linux",
-        "macos",
-        "opengl",
-        "programming",
-        "raspberry-pi",
-        "raylib",
-        "riscv",
-        "wasm",
-        "webassembly",
-        "win32"
-      ],
-      "categories": [
-        "C"
-      ],
-      "platforms": [
-        "C"
-      ],
-      "pick": null,
-      "slot": null,
-      "kind": "learn",
-      "created_at": "2013-10-24",
-      "first_date": "2026-10-31",
-      "last_date": "2026-10-31",
-      "dates": [
-        "2026-10-31"
       ],
       "times": 1
     },
