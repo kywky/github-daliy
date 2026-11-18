@@ -1,8 +1,548 @@
 {
-  "generated_at": "2026-11-17T07:38:26.138517+00:00",
-  "total": 197,
-  "occurrences": 352,
+  "generated_at": "2026-11-18T07:03:24.099742+00:00",
+  "total": 202,
+  "occurrences": 367,
   "projects": [
+    {
+      "full_name": "team-spotube/spotube",
+      "url": "https://github.com/team-spotube/spotube",
+      "description": "🎧 Open source music streaming app! Available for both desktop & mobile!",
+      "summary": "提供跨平台开源音乐流媒体服务，利用 YouTube 作为后端实现类似 Spotify 的免费听歌体验\n适合追求免费无广告音乐体验、厌恶 Spotify 订阅模式，以及需要在桌面或移动端使用开源客户端的用户\n跨平台开源客户端，完美伪装成 Spotify 界面且完全免费",
+      "stars": 50816,
+      "language": "Kotlin",
+      "topics": [
+        "android",
+        "android-client",
+        "android-music-player",
+        "desktop-client",
+        "fdroid",
+        "flutter",
+        "flutter-desktop",
+        "linux",
+        "macos",
+        "music",
+        "music-player",
+        "windows",
+        "youtube"
+      ],
+      "categories": [
+        "Linux",
+        "Windows"
+      ],
+      "platforms": [
+        "Linux"
+      ],
+      "pick": "top",
+      "slot": "Linux",
+      "kind": "search",
+      "created_at": "2021-02-14",
+      "first_date": "2026-11-18",
+      "last_date": "2026-11-18",
+      "dates": [
+        "2026-11-18"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "x64dbg/x64dbg",
+      "url": "https://github.com/x64dbg/x64dbg",
+      "description": "An open-source user mode debugger for Windows. Optimized for reverse engineering and malware analysis.",
+      "summary": "这是一个开源的 Windows 用户态调试器，专为逆向工程和恶意软件分析设计\n适合逆向工程师、恶意软件分析师、CTF 参赛者及安全研究人员\n功能强大且社区活跃，是 Windows 平台最流行的开源调试器之一",
+      "stars": 50339,
+      "language": "C++",
+      "topics": [
+        "binary-analysis",
+        "ctf",
+        "cybersecurity",
+        "debugger",
+        "debugging",
+        "disassembler",
+        "dynamic-analysis",
+        "exploit-development",
+        "hacking",
+        "malware-analysis",
+        "offensive-security",
+        "oscp",
+        "program-analysis",
+        "reverse-engineering",
+        "security",
+        "security-tools",
+        "windows",
+        "x64",
+        "x86",
+        "x86-64"
+      ],
+      "categories": [
+        "Windows"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "pick": "top",
+      "slot": "Windows",
+      "kind": "search",
+      "created_at": "2015-04-11",
+      "first_date": "2026-11-18",
+      "last_date": "2026-11-18",
+      "dates": [
+        "2026-11-18"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "yetone/magpie",
+      "url": "https://github.com/yetone/magpie",
+      "description": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
+      "summary": "解决什么：为开发者提供一站式界面，方便管理和使用多种大型语言模型\n适合谁：需要频繁切换和使用不同 AI 模型的开发者\n亮点：集成多种主流 AI 模型，通过菜单栏便捷访问",
+      "stars": 38338,
+      "language": "Go",
+      "topics": [
+        "claude-code",
+        "codex",
+        "deepseek",
+        "gemini-cli",
+        "llm",
+        "macos"
+      ],
+      "categories": [
+        "AI神器"
+      ],
+      "platforms": [
+        "AI神器"
+      ],
+      "pick": "ai_tool",
+      "slot": "AI神器",
+      "kind": "search",
+      "created_at": "2026-09-23",
+      "first_date": "2026-10-21",
+      "last_date": "2026-11-18",
+      "dates": [
+        "2026-11-18",
+        "2026-11-14",
+        "2026-11-10",
+        "2026-10-21"
+      ],
+      "times": 4
+    },
+    {
+      "full_name": "ccch1mneyyy/dsh-Go",
+      "url": "https://github.com/ccch1mneyyy/dsh-Go",
+      "description": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
+      "summary": "解决在手机端运行 DeepSeek Harness 并远程控制电脑的问题\n适合安卓用户及需要移动端 AI 代理功能的开发者\n近期涨星最快，将强大的 AI Harness 装进口袋",
+      "stars": 26411,
+      "language": "Dart",
+      "topics": [
+        "ai-agent",
+        "android",
+        "android-app",
+        "coding-agent",
+        "deepseek",
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin",
+        "dsh-tui",
+        "flutter",
+        "llm"
+      ],
+      "categories": [
+        "安卓",
+        "AI",
+        "AI神器"
+      ],
+      "platforms": [
+        "安卓"
+      ],
+      "pick": "growth",
+      "slot": "安卓",
+      "kind": "search",
+      "created_at": "2026-10-25",
+      "first_date": "2026-10-30",
+      "last_date": "2026-11-18",
+      "dates": [
+        "2026-11-18",
+        "2026-11-14",
+        "2026-11-10",
+        "2026-11-05",
+        "2026-11-01",
+        "2026-10-30"
+      ],
+      "times": 6
+    },
+    {
+      "full_name": "heydamir/unslop",
+      "url": "https://github.com/heydamir/unslop",
+      "description": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
+      "summary": "解决 Claude 生成的 UI 界面随意、缺乏设计感的问题，将其转化为专业美观的界面\n适合需要使用 Claude 生成界面，但希望输出结果美观、专业的设计师或开发者\n将 Claude 生成的粗糙 UI 转化为精美设计，显著提升视觉体验",
+      "stars": 17919,
+      "language": "JavaScript",
+      "topics": [],
+      "categories": [
+        "AI神器"
+      ],
+      "platforms": [
+        "AI神器"
+      ],
+      "pick": "ai_tool",
+      "slot": "AI神器",
+      "kind": "search",
+      "created_at": "2026-10-29",
+      "first_date": "2026-11-10",
+      "last_date": "2026-11-18",
+      "dates": [
+        "2026-11-18",
+        "2026-11-14",
+        "2026-11-10"
+      ],
+      "times": 3
+    },
+    {
+      "full_name": "android10/Android-CleanArchitecture",
+      "url": "https://github.com/android10/Android-CleanArchitecture",
+      "description": "This is a sample app that is part of a series of blog posts I have written about how to architect an android application using Uncle Bob's clean architecture approach.",
+      "summary": "解决什么：使用 Uncle Bob 的 Clean Architecture 方法论架构 Android 应用程序\n适合谁：Android 开发者，希望学习或实践 Clean Architecture 设计模式\n亮点：基于 Clean Architecture 的 Android 应用示例项目",
+      "stars": 15527,
+      "language": "Java",
+      "topics": [
+        "android",
+        "android-application",
+        "android-architecture",
+        "android-cleanarchitecture",
+        "android-development",
+        "architectural",
+        "java"
+      ],
+      "categories": [
+        "安卓"
+      ],
+      "platforms": [
+        "安卓"
+      ],
+      "pick": "top",
+      "slot": "安卓",
+      "kind": "search",
+      "created_at": "2014-08-19",
+      "first_date": "2026-11-05",
+      "last_date": "2026-11-18",
+      "dates": [
+        "2026-11-18",
+        "2026-11-05"
+      ],
+      "times": 2
+    },
+    {
+      "full_name": "Kludex/starlette",
+      "url": "https://github.com/Kludex/starlette",
+      "description": "The little ASGI framework that shines. 🌟",
+      "summary": "掌握 ASGI 协议规范、中间件链式处理机制以及优雅的依赖注入设计\n适合希望深入理解 ASGI 协议、中间件模式及高性能异步 Web 服务架构的进阶开发者\n先阅读核心应用类 `Starlette`，再深入路由模块和中间件实现",
+      "stars": 12727,
+      "language": "Python",
+      "topics": [
+        "asgi",
+        "async",
+        "http",
+        "python",
+        "websockets"
+      ],
+      "categories": [
+        "Python"
+      ],
+      "platforms": [
+        "Python"
+      ],
+      "pick": null,
+      "slot": null,
+      "kind": "learn",
+      "created_at": "2018-06-25",
+      "first_date": "2026-10-23",
+      "last_date": "2026-11-18",
+      "dates": [
+        "2026-11-18",
+        "2026-11-15",
+        "2026-11-14",
+        "2026-11-13",
+        "2026-11-12",
+        "2026-11-11",
+        "2026-11-08",
+        "2026-11-07",
+        "2026-11-06",
+        "2026-11-05",
+        "2026-11-03",
+        "2026-10-30",
+        "2026-10-26",
+        "2026-10-25",
+        "2026-10-24",
+        "2026-10-23"
+      ],
+      "times": 16
+    },
+    {
+      "full_name": "libracoder/kiri",
+      "url": "https://github.com/libracoder/kiri",
+      "description": "A small, fast container runtime for macOS, Windows and Linux with free Ngrok alternative",
+      "summary": "解决什么：提供一个轻量级、快速的容器运行时，支持 macOS、Windows 和 Linux，并提供免费 Ngrok 替代方案\n适合谁：适用于需要在多种操作系统上快速部署和访问容器的开发者或运维人员\n亮点：轻量级、跨平台且提供免费 Ngrok 替代方案",
+      "stars": 10310,
+      "language": "Rust",
+      "topics": [
+        "containers",
+        "docker",
+        "kubernetes",
+        "linux",
+        "macos",
+        "oci",
+        "windows"
+      ],
+      "categories": [
+        "Linux",
+        "Windows"
+      ],
+      "platforms": [
+        "Linux"
+      ],
+      "pick": "growth",
+      "slot": "Linux",
+      "kind": "search",
+      "created_at": "2026-11-02",
+      "first_date": "2026-11-14",
+      "last_date": "2026-11-18",
+      "dates": [
+        "2026-11-18",
+        "2026-11-14"
+      ],
+      "times": 2
+    },
+    {
+      "full_name": "vercel-labs/ui",
+      "url": "https://github.com/vercel-labs/ui",
+      "description": "A library of behaviors for agents to build the next generation of user interfaces.",
+      "summary": "解决什么：为智能体构建下一代用户界面提供行为库\n适合谁：开发者用于创建具有高级交互功能的 AI 应用\n亮点：专注于智能体交互行为的 UI 组件库",
+      "stars": 5613,
+      "language": "TypeScript",
+      "topics": [
+        "accessibility",
+        "agent",
+        "agents",
+        "ai",
+        "aria",
+        "behaviors",
+        "component",
+        "component-library",
+        "headless",
+        "mcp",
+        "react",
+        "solid",
+        "svelte",
+        "vue",
+        "web-components",
+        "webmcp"
+      ],
+      "categories": [
+        "AI神器"
+      ],
+      "platforms": [
+        "AI神器"
+      ],
+      "pick": "ai_tool",
+      "slot": "AI神器",
+      "kind": "search",
+      "created_at": "2026-10-26",
+      "first_date": "2026-11-14",
+      "last_date": "2026-11-18",
+      "dates": [
+        "2026-11-18",
+        "2026-11-14"
+      ],
+      "times": 2
+    },
+    {
+      "full_name": "vAPI-Network/vapi-network",
+      "url": "https://github.com/vAPI-Network/vapi-network",
+      "description": "Buyer-controlled client for x402 API payments in USDC on Base.",
+      "summary": "解决什么：提供买方控制的 x402 API 支付客户端，支持在 Base 链上使用 USDC 进行 AI 代理支付\n适合谁：适合在 Base 生态中开发或使用 AI 代理服务的开发者及用户\n亮点：支持 MCP 协议，买方掌控 USDC 支付权，集成于 Base 生态",
+      "stars": 5095,
+      "language": "TypeScript",
+      "topics": [
+        "agent-payments",
+        "ai-agents",
+        "base",
+        "mcp",
+        "usdc",
+        "x402"
+      ],
+      "categories": [
+        "AI神器"
+      ],
+      "platforms": [
+        "AI神器"
+      ],
+      "pick": "ai_tool",
+      "slot": "AI神器",
+      "kind": "search",
+      "created_at": "2026-10-02",
+      "first_date": "2026-11-11",
+      "last_date": "2026-11-18",
+      "dates": [
+        "2026-11-18",
+        "2026-11-11"
+      ],
+      "times": 2
+    },
+    {
+      "full_name": "cameron314/readerwriterqueue",
+      "url": "https://github.com/cameron314/readerwriterqueue",
+      "description": "A fast single-producer, single-consumer lock-free queue for C++",
+      "summary": "学什么：学习无锁编程的核心原理，掌握原子操作、内存序以及 C++ 指针操作\n适合谁：适合有一定 C++ 基础并希望深入理解并发编程与无锁数据结构的开发者\n怎么读：建议先阅读 BlockingQueue 的封装实现，再深入剖析 ReaderWriterQueue 的核心逻辑",
+      "stars": 4645,
+      "language": "C++",
+      "topics": [],
+      "categories": [
+        "C++"
+      ],
+      "platforms": [
+        "C++"
+      ],
+      "pick": null,
+      "slot": null,
+      "kind": "learn",
+      "created_at": "2013-02-07",
+      "first_date": "2026-11-02",
+      "last_date": "2026-11-18",
+      "dates": [
+        "2026-11-18",
+        "2026-11-02"
+      ],
+      "times": 2
+    },
+    {
+      "full_name": "Chevey339/kelivo",
+      "url": "https://github.com/Chevey339/kelivo",
+      "description": "A Flutter LLM Chat Client. Support Mobile & Desktop.",
+      "summary": "这是一个基于 Flutter 的跨平台大语言模型（LLM）聊天客户端，支持移动端与桌面端统一访问。\n适合需要在 Android、iOS、鸿蒙或桌面系统上体验大模型对话功能的开发者及普通用户。\n作为近期涨星最快的鸿蒙项目，它实现了 Flutter 架构下的多端（移动/桌面）统一支持。",
+      "stars": 4635,
+      "language": "Dart",
+      "topics": [
+        "ai",
+        "android",
+        "chatbot",
+        "chatbox",
+        "flutter",
+        "flutter-apps",
+        "harmony",
+        "harmonyos",
+        "ios",
+        "llm",
+        "openharmony"
+      ],
+      "categories": [
+        "鸿蒙"
+      ],
+      "platforms": [
+        "鸿蒙"
+      ],
+      "pick": "growth",
+      "slot": "鸿蒙",
+      "kind": "search",
+      "created_at": "2025-08-29",
+      "first_date": "2026-10-28",
+      "last_date": "2026-11-18",
+      "dates": [
+        "2026-11-18",
+        "2026-11-14",
+        "2026-11-10",
+        "2026-10-28"
+      ],
+      "times": 4
+    },
+    {
+      "full_name": "krisgfx9/Wireless-Device-Battery-Monitor",
+      "url": "https://github.com/krisgfx9/Wireless-Device-Battery-Monitor",
+      "description": "Show the battery level of wireless mice, headsets, keyboards and controllers on the Windows 10/11 taskbar. Lightweight tray app, no vendor software needed. Supports Logitech, Razer, SteelSeries, Corsair, HyperX, Glorious, PS4/PS5 DualSense, Xbox and Bluetooth devices.",
+      "summary": "解决什么：在 Windows 10/11 任务栏显示无线鼠标、耳机、键盘和手柄的电池电量，无需厂商软件\n适合谁：需要监控无线外设电量的 Windows 用户\n亮点：轻量级托盘应用，支持多品牌设备且无需额外软件",
+      "stars": 3118,
+      "language": "C++",
+      "topics": [],
+      "categories": [
+        "Windows"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "pick": "growth",
+      "slot": "Windows",
+      "kind": "search",
+      "created_at": "2026-11-16",
+      "first_date": "2026-11-18",
+      "last_date": "2026-11-18",
+      "dates": [
+        "2026-11-18"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "sybil-solutions/inference-optimisation-skill",
+      "url": "https://github.com/sybil-solutions/inference-optimisation-skill",
+      "description": "Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantization",
+      "summary": "解决什么：通过优化本地 LLM 服务速度提升效率，支持多种解码方式和量化技术\n适合谁：需要提高 LLM 推理速度和效率的开发者或研究人员\n亮点：提供全面的本地 LLM 推理优化解决方案",
+      "stars": 977,
+      "language": "Python",
+      "topics": [
+        "agent-skill",
+        "benchmarking",
+        "claude-code",
+        "inference",
+        "llm",
+        "speculative-decoding"
+      ],
+      "categories": [
+        "AI"
+      ],
+      "platforms": [
+        "AI"
+      ],
+      "pick": "ai",
+      "slot": "AI",
+      "kind": "search",
+      "created_at": "2026-11-16",
+      "first_date": "2026-11-18",
+      "last_date": "2026-11-18",
+      "dates": [
+        "2026-11-18"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "antgroup/FluidMarkdown",
+      "url": "https://github.com/antgroup/FluidMarkdown",
+      "description": "Streaming Markdown engine for AI chat on mobile.",
+      "summary": "解决什么：为移动端 AI 聊天提供流式 Markdown 渲染引擎\n适合谁：适用于需要在移动设备上展示 Markdown 格式文本的 AI 应用或聊天机器人\n亮点：专为移动端设计的流式 Markdown 渲染引擎",
+      "stars": 645,
+      "language": "JavaScript",
+      "topics": [
+        "ai",
+        "android",
+        "chat",
+        "harmonyos",
+        "ios",
+        "markdown",
+        "native",
+        "stream-output"
+      ],
+      "categories": [
+        "鸿蒙"
+      ],
+      "platforms": [
+        "鸿蒙"
+      ],
+      "pick": "top",
+      "slot": "鸿蒙",
+      "kind": "search",
+      "created_at": "2025-09-10",
+      "first_date": "2026-11-18",
+      "last_date": "2026-11-18",
+      "dates": [
+        "2026-11-18"
+      ],
+      "times": 1
+    },
     {
       "full_name": "morluto/rea",
       "url": "https://github.com/morluto/rea",
@@ -1419,51 +1959,6 @@
       "times": 2
     },
     {
-      "full_name": "Kludex/starlette",
-      "url": "https://github.com/Kludex/starlette",
-      "description": "The little ASGI framework that shines. 🌟",
-      "summary": "掌握 ASGI 协议规范、中间件管道设计以及高性能异步路由的实现逻辑\n适合希望深入理解 Web 框架底层架构、异步编程及中间件机制的 Python 开发者\n建议从 `app.py` 和 `routing.py` 入手，理解核心请求处理流程",
-      "stars": 12720,
-      "language": "Python",
-      "topics": [
-        "asgi",
-        "async",
-        "http",
-        "python",
-        "websockets"
-      ],
-      "categories": [
-        "Python"
-      ],
-      "platforms": [
-        "Python"
-      ],
-      "pick": null,
-      "slot": null,
-      "kind": "learn",
-      "created_at": "2018-06-25",
-      "first_date": "2026-10-23",
-      "last_date": "2026-11-15",
-      "dates": [
-        "2026-11-15",
-        "2026-11-14",
-        "2026-11-13",
-        "2026-11-12",
-        "2026-11-11",
-        "2026-11-08",
-        "2026-11-07",
-        "2026-11-06",
-        "2026-11-05",
-        "2026-11-03",
-        "2026-10-30",
-        "2026-10-26",
-        "2026-10-25",
-        "2026-10-24",
-        "2026-10-23"
-      ],
-      "times": 15
-    },
-    {
       "full_name": "horizon-rust/horizon",
       "url": "https://github.com/horizon-rust/horizon",
       "description": "Minecraft: Java Edition 26.3 rewritten from scratch in Rust, checked against vanilla with 281 differential harnesses. Get it with the Horizon launcher.",
@@ -1993,81 +2488,6 @@
       "times": 2
     },
     {
-      "full_name": "yetone/magpie",
-      "url": "https://github.com/yetone/magpie",
-      "description": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
-      "summary": "解决用户在 Mac 上需要同时使用多个不同 LLM 模型时，切换繁琐、无法统一管理的痛点\n适合需要在 Mac 上快速调用 DeepSeek、Claude Code 等多种 AI 模型的开发者或内容创作者\n将多个 AI 模型集成到 macOS 菜单栏，提供统一的一键切换和便捷访问体验",
-      "stars": 36226,
-      "language": "Go",
-      "topics": [
-        "claude-code",
-        "codex",
-        "deepseek",
-        "gemini-cli",
-        "llm",
-        "macos"
-      ],
-      "categories": [
-        "AI神器"
-      ],
-      "platforms": [
-        "AI神器"
-      ],
-      "pick": "ai_tool",
-      "slot": "AI神器",
-      "kind": "search",
-      "created_at": "2026-09-23",
-      "first_date": "2026-10-21",
-      "last_date": "2026-11-14",
-      "dates": [
-        "2026-11-14",
-        "2026-11-10",
-        "2026-10-21"
-      ],
-      "times": 3
-    },
-    {
-      "full_name": "ccch1mneyyy/dsh-Go",
-      "url": "https://github.com/ccch1mneyyy/dsh-Go",
-      "description": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
-      "summary": "将 DeepSeek 人工智能模型部署到手机上，并支持远程控制电脑进行编程或交互\n适合需要在移动端运行 AI Agent 的开发者，或希望利用手机远程控制电脑进行编程的用户\n基于 Flutter 开发的移动端 AI Agent，支持 TUI 交互和插件扩展",
-      "stars": 22031,
-      "language": "Dart",
-      "topics": [
-        "ai-agent",
-        "android",
-        "android-app",
-        "coding-agent",
-        "deepseek",
-        "deepseek-harness",
-        "dsh",
-        "dsh-plugin",
-        "dsh-tui",
-        "flutter",
-        "llm"
-      ],
-      "categories": [
-        "安卓"
-      ],
-      "platforms": [
-        "安卓"
-      ],
-      "pick": "top",
-      "slot": "安卓",
-      "kind": "search",
-      "created_at": "2026-10-25",
-      "first_date": "2026-10-30",
-      "last_date": "2026-11-14",
-      "dates": [
-        "2026-11-14",
-        "2026-11-10",
-        "2026-11-05",
-        "2026-11-01",
-        "2026-10-30"
-      ],
-      "times": 5
-    },
-    {
       "full_name": "DuarteSantos8/openGym",
       "url": "https://github.com/DuarteSantos8/openGym",
       "description": "Open-source gym & body-weight tracker, now in the App Store (iPhone + Apple Watch) and as an Android APK. Plan routines, log workouts, see which muscles are trained, import from Strong/Hevy/FitNotes. Self-host it or use it on the phone alone.",
@@ -2116,32 +2536,6 @@
         "2026-10-24"
       ],
       "times": 5
-    },
-    {
-      "full_name": "heydamir/unslop",
-      "url": "https://github.com/heydamir/unslop",
-      "description": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
-      "summary": "将 Claude 生成的粗糙、凭感觉编码的 UI 界面转化为专业设计的界面\n适合使用 Claude 进行前端开发的开发者，或希望快速获得精美 UI 的用户\n作为 Claude 的技能插件，能一键将粗糙的 AI 代码转化为设计精美的界面",
-      "stars": 15749,
-      "language": "JavaScript",
-      "topics": [],
-      "categories": [
-        "AI神器"
-      ],
-      "platforms": [
-        "AI神器"
-      ],
-      "pick": "ai_tool",
-      "slot": "AI神器",
-      "kind": "search",
-      "created_at": "2026-10-29",
-      "first_date": "2026-11-10",
-      "last_date": "2026-11-14",
-      "dates": [
-        "2026-11-14",
-        "2026-11-10"
-      ],
-      "times": 2
     },
     {
       "full_name": "Cyan4973/xxHash",
@@ -2213,86 +2607,6 @@
       "times": 2
     },
     {
-      "full_name": "Chevey339/kelivo",
-      "url": "https://github.com/Chevey339/kelivo",
-      "description": "A Flutter LLM Chat Client. Support Mobile & Desktop.",
-      "summary": "解决什么：提供一个基于 Flutter 的通用大语言模型聊天客户端，支持移动端和桌面端\n适合谁：需要快速开发跨平台 AI 聊天应用的开发者或团队\n亮点：专为 Flutter 开发，支持鸿蒙、安卓、iOS 及桌面平台的大语言模型聊天客户端",
-      "stars": 4524,
-      "language": "Dart",
-      "topics": [
-        "ai",
-        "android",
-        "chatbot",
-        "chatbox",
-        "flutter",
-        "flutter-apps",
-        "harmony",
-        "harmonyos",
-        "ios",
-        "llm",
-        "openharmony"
-      ],
-      "categories": [
-        "鸿蒙"
-      ],
-      "platforms": [
-        "鸿蒙"
-      ],
-      "pick": "growth",
-      "slot": "鸿蒙",
-      "kind": "search",
-      "created_at": "2025-08-29",
-      "first_date": "2026-10-28",
-      "last_date": "2026-11-14",
-      "dates": [
-        "2026-11-14",
-        "2026-11-10",
-        "2026-10-28"
-      ],
-      "times": 3
-    },
-    {
-      "full_name": "vercel-labs/ui",
-      "url": "https://github.com/vercel-labs/ui",
-      "description": "A library of behaviors for agents to build the next generation of user interfaces.",
-      "summary": "解决什么：解决智能体构建和交互下一代用户界面的问题，提供可访问性支持。\n适合谁：适合开发 AI 代理应用或使用 React/Svelte/Vue 等框架的前端开发者。\n亮点：支持多框架且专为智能体交互与可访问性设计。",
-      "stars": 3989,
-      "language": "TypeScript",
-      "topics": [
-        "accessibility",
-        "agent",
-        "agents",
-        "aria",
-        "behaviors",
-        "component",
-        "component-library",
-        "headless",
-        "mcp",
-        "react",
-        "solid",
-        "svelte",
-        "vue",
-        "web-components",
-        "webmcp"
-      ],
-      "categories": [
-        "AI神器"
-      ],
-      "platforms": [
-        "AI神器"
-      ],
-      "pick": "ai_tool",
-      "slot": "AI神器",
-      "kind": "search",
-      "created_at": "2026-10-26",
-      "first_date": "2026-11-14",
-      "last_date": "2026-11-14",
-      "dates": [
-        "2026-11-14"
-      ],
-      "times": 1
-    },
-    {
       "full_name": "Zitann/HarmonyOS-Haps",
       "url": "https://github.com/Zitann/HarmonyOS-Haps",
       "description": "⚡️鸿蒙Next Hap安装包合集，如果您觉得有帮助，还请点亮一下 Star 🌟 哦~ 万分感谢！",
@@ -2323,40 +2637,6 @@
         "2026-10-24"
       ],
       "times": 5
-    },
-    {
-      "full_name": "libracoder/kiri",
-      "url": "https://github.com/libracoder/kiri",
-      "description": "A small, fast container runtime for macOS, Windows and Linux",
-      "summary": "提供跨平台、轻量级的容器运行时，支持在 macOS、Windows 和 Linux 上运行容器\n需要在 Windows 和 macOS 上运行容器或使用 Docker/Kubernetes 的开发人员\n用 Rust 编写，近期涨星最快的跨平台容器运行时",
-      "stars": 2398,
-      "language": "Rust",
-      "topics": [
-        "containers",
-        "docker",
-        "kubernetes",
-        "linux",
-        "macos",
-        "oci",
-        "windows"
-      ],
-      "categories": [
-        "Linux",
-        "Windows"
-      ],
-      "platforms": [
-        "Windows"
-      ],
-      "pick": "growth",
-      "slot": "Windows",
-      "kind": "search",
-      "created_at": "2026-11-02",
-      "first_date": "2026-11-14",
-      "last_date": "2026-11-14",
-      "dates": [
-        "2026-11-14"
-      ],
-      "times": 1
     },
     {
       "full_name": "hyperionaidev/smolmaxxing",
@@ -3285,38 +3565,6 @@
         "2026-10-30"
       ],
       "times": 3
-    },
-    {
-      "full_name": "vAPI-Network/vapi-network",
-      "url": "https://github.com/vAPI-Network/vapi-network",
-      "description": "Buyer-controlled client for x402 API payments in USDC on Base.",
-      "summary": "解决 x402 API 支付的买方控制问题，支持在 Base 链上使用 USDC\n适合需要集成加密支付功能的 AI 代理开发者或用户\n提供买方控制的支付客户端，支持 MCP 协议与 USDC 支付",
-      "stars": 3991,
-      "language": "TypeScript",
-      "topics": [
-        "agent-payments",
-        "ai-agents",
-        "base",
-        "mcp",
-        "usdc",
-        "x402"
-      ],
-      "categories": [
-        "AI神器"
-      ],
-      "platforms": [
-        "AI神器"
-      ],
-      "pick": "ai_tool",
-      "slot": "AI神器",
-      "kind": "search",
-      "created_at": "2026-10-02",
-      "first_date": "2026-11-11",
-      "last_date": "2026-11-11",
-      "dates": [
-        "2026-11-11"
-      ],
-      "times": 1
     },
     {
       "full_name": "shinshin86/mesh-avatar-studio",
@@ -5461,39 +5709,6 @@
       "times": 1
     },
     {
-      "full_name": "android10/Android-CleanArchitecture",
-      "url": "https://github.com/android10/Android-CleanArchitecture",
-      "description": "This is a sample app that is part of a series of blog posts I have written about how to architect an android application using Uncle Bob's clean architecture approach.",
-      "summary": "解决什么：使用 Uncle Bob 的 Clean Architecture 方法论架构 Android 应用\n适合谁：Android 开发者学习 Clean Architecture 实践\n亮点：基于 Clean Architecture 的 Android 应用示例项目",
-      "stars": 15531,
-      "language": "Java",
-      "topics": [
-        "android",
-        "android-application",
-        "android-architecture",
-        "android-cleanarchitecture",
-        "android-development",
-        "architectural",
-        "java"
-      ],
-      "categories": [
-        "安卓"
-      ],
-      "platforms": [
-        "安卓"
-      ],
-      "pick": "top",
-      "slot": "安卓",
-      "kind": "search",
-      "created_at": "2014-08-19",
-      "first_date": "2026-11-05",
-      "last_date": "2026-11-05",
-      "dates": [
-        "2026-11-05"
-      ],
-      "times": 1
-    },
-    {
       "full_name": "wangzan101/Mika",
       "url": "https://github.com/wangzan101/Mika",
       "description": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
@@ -5815,31 +6030,6 @@
         "2026-10-27"
       ],
       "times": 2
-    },
-    {
-      "full_name": "cameron314/readerwriterqueue",
-      "url": "https://github.com/cameron314/readerwriterqueue",
-      "description": "A fast single-producer, single-consumer lock-free queue for C++",
-      "summary": "掌握 C++ 原子操作、内存序以及无锁并发编程的核心思想\n适合对并发编程感兴趣，希望理解无锁队列实现原理的 C++ 程序员\n建议先通读头文件定义，再深入理解底层的原子操作与内存序实现",
-      "stars": 4637,
-      "language": "C++",
-      "topics": [],
-      "categories": [
-        "C++"
-      ],
-      "platforms": [
-        "C++"
-      ],
-      "pick": null,
-      "slot": null,
-      "kind": "learn",
-      "created_at": "2013-02-07",
-      "first_date": "2026-11-02",
-      "last_date": "2026-11-02",
-      "dates": [
-        "2026-11-02"
-      ],
-      "times": 1
     },
     {
       "full_name": "antirez/linenoise",
