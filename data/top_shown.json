@@ -22,6 +22,8 @@
   "alacritty/alacritty": "2026-11-08",
   "alibaba/GaiaX": "2026-11-07",
   "android/nowinandroid": "2026-11-07",
+  "android10/Android-CleanArchitecture": "2026-11-18",
+  "antgroup/FluidMarkdown": "2026-11-18",
   "bluesky-social/social-app": "2026-11-12",
   "ccch1mneyyy/dsh-Go": "2026-11-14",
   "clash-verge-rev/clash-verge-rev": "2026-11-05",
@@ -59,12 +61,14 @@
   "sharkdp/bat": "2026-11-15",
   "sherlock-project/sherlock": "2026-11-10",
   "simplex-chat/simplex-chat": "2026-11-11",
+  "team-spotube/spotube": "2026-11-18",
   "termux/termux-app": "2026-11-05",
   "tw93/Mole": "2026-11-07",
   "tw93/Pake": "2026-11-10",
   "ventoy/Ventoy": "2026-11-06",
   "wagoodman/dive": "2026-11-16",
   "warpdotdev/warp": "2026-11-14",
+  "x64dbg/x64dbg": "2026-11-18",
   "xiaobaigroup/ClashBox": "2026-11-06",
   "yt-dlp/yt-dlp": "2026-11-06"
 }
