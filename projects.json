@@ -1,8 +1,560 @@
 {
-  "generated_at": "2026-11-18T07:03:24.099742+00:00",
-  "total": 202,
-  "occurrences": 367,
+  "generated_at": "2026-11-19T07:07:06.042057+00:00",
+  "total": 212,
+  "occurrences": 382,
   "projects": [
+    {
+      "full_name": "Aider-AI/aider",
+      "url": "https://github.com/Aider-AI/aider",
+      "description": "aider is AI pair programming in your terminal",
+      "summary": "提供在终端中直接与 AI 模型协作的代码编辑体验，解决传统 IDE 之外的高效编程需求\n适合需要在终端中直接进行 AI 辅助编程的开发者或命令行爱好者\n支持多种主流大模型，无缝集成到终端工作流",
+      "stars": 50175,
+      "language": "Python",
+      "topics": [
+        "anthropic",
+        "chatgpt",
+        "claude-3",
+        "cli",
+        "command-line",
+        "gemini",
+        "gpt-3",
+        "gpt-35-turbo",
+        "gpt-4",
+        "gpt-4o",
+        "llama",
+        "openai",
+        "sonnet"
+      ],
+      "categories": [
+        "Linux"
+      ],
+      "platforms": [
+        "Linux"
+      ],
+      "pick": "top",
+      "slot": "Linux",
+      "kind": "search",
+      "created_at": "2023-05-09",
+      "first_date": "2026-11-19",
+      "last_date": "2026-11-19",
+      "dates": [
+        "2026-11-19"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "nvm-windows/nvm",
+      "url": "https://github.com/nvm-windows/nvm",
+      "description": "The Node.js version manager for Windows.",
+      "summary": "解决 Windows 环境下 Node.js 版本切换和管理困难的问题，支持多版本共存\n适合需要在同一台电脑上维护不同 Node.js 版本的 Windows 开发者\nWindows 平台最流行的 Node.js 版本管理工具，极大地简化了版本切换流程",
+      "stars": 48236,
+      "language": "Inno Setup",
+      "topics": [
+        "install",
+        "node",
+        "node-js",
+        "nodejs",
+        "nvm",
+        "version-manager",
+        "windows"
+      ],
+      "categories": [
+        "Windows"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "pick": "top",
+      "slot": "Windows",
+      "kind": "search",
+      "created_at": "2014-09-20",
+      "first_date": "2026-11-19",
+      "last_date": "2026-11-19",
+      "dates": [
+        "2026-11-19"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "simdjson/simdjson",
+      "url": "https://github.com/simdjson/simdjson",
+      "description": "Parsing gigabytes of JSON per second : used by Facebook/Meta Velox, the Node.js runtime, ClickHouse, WatermelonDB, Apache Doris, Milvus, StarRocks",
+      "summary": "学什么：学习如何利用 SIMD 指令集加速 JSON 解析，掌握底层内存操作与高性能 C++ 编程技巧\n适合谁：适合有一定 C++ 基础并希望深入理解性能优化、底层系统编程或高性能数据处理架构的开发者\n怎么读：建议先从核心解析逻辑和 SIMD 指令实现入手，再逐步深入内存管理和数据结构优化部分",
+      "stars": 24584,
+      "language": "C++",
+      "topics": [
+        "aarch64",
+        "arm64",
+        "avx2",
+        "avx512",
+        "c-plus-plus",
+        "clang",
+        "clang-cl",
+        "cpp11",
+        "gcc-compiler",
+        "json",
+        "json-parser",
+        "json-pointer",
+        "loongarch",
+        "loongarch64",
+        "neon",
+        "risc-v",
+        "simd",
+        "sse42",
+        "vs2019",
+        "x64"
+      ],
+      "categories": [
+        "C++"
+      ],
+      "platforms": [
+        "C++"
+      ],
+      "pick": null,
+      "slot": null,
+      "kind": "learn",
+      "created_at": "2018-03-23",
+      "first_date": "2026-11-04",
+      "last_date": "2026-11-19",
+      "dates": [
+        "2026-11-19",
+        "2026-11-04"
+      ],
+      "times": 2
+    },
+    {
+      "full_name": "OrchestratorInc/agent-orchestrator",
+      "url": "https://github.com/OrchestratorInc/agent-orchestrator",
+      "description": "Plan, run and supervise fleets of agents from task to merged PR. Desktop (macOS, Windows, Linux) + iPhone & Android apps.  Supports Claude Code, Codex & 35+ coding agents.",
+      "summary": "解决从任务规划到代码合并 PR 的多代理舰队协同与监督问题\n适合需要在多平台（桌面及移动端）管理 AI 编码代理的开发者\n支持集成 35+ 种主流 AI 编码代理（如 Claude Code, Codex）",
+      "stars": 14907,
+      "language": "TypeScript",
+      "topics": [
+        "agent-fleet",
+        "agent-ide",
+        "agent-orchestration",
+        "agent-swarm",
+        "agentic-coding",
+        "ai-agents",
+        "ai-coding",
+        "claude-code",
+        "codex",
+        "codex-cli",
+        "coding-agents",
+        "developer-tools",
+        "git-worktrees",
+        "mobile",
+        "multi-agent",
+        "orchestration",
+        "orchestrator",
+        "parallel-agents",
+        "parallel-coding",
+        "skills"
+      ],
+      "categories": [
+        "安卓",
+        "Linux",
+        "Windows"
+      ],
+      "platforms": [
+        "安卓"
+      ],
+      "pick": "top",
+      "slot": "安卓",
+      "kind": "search",
+      "created_at": "2026-02-13",
+      "first_date": "2026-11-19",
+      "last_date": "2026-11-19",
+      "dates": [
+        "2026-11-19"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "wangzan101/Mika",
+      "url": "https://github.com/wangzan101/Mika",
+      "description": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
+      "summary": "提供运行在 Android 本地的 AI 代理，通过操作应用和网页自动帮你完成任务\n适合 Android 用户及开发者，用于自动化手机操作和提升效率\n本地运行，支持 Jetpack Compose，是近期热门的移动端 AI 代理项目",
+      "stars": 9118,
+      "language": "Kotlin",
+      "topics": [
+        "accessibility",
+        "ai-agent",
+        "android",
+        "automation",
+        "jetpack-compose",
+        "kotlin",
+        "llm",
+        "mobile-agent"
+      ],
+      "categories": [
+        "AI",
+        "AI神器"
+      ],
+      "platforms": [
+        "AI"
+      ],
+      "pick": "ai",
+      "slot": "AI",
+      "kind": "search",
+      "created_at": "2026-10-29",
+      "first_date": "2026-11-01",
+      "last_date": "2026-11-19",
+      "dates": [
+        "2026-11-19",
+        "2026-11-05",
+        "2026-11-01"
+      ],
+      "times": 3
+    },
+    {
+      "full_name": "openfilm/openfilm",
+      "url": "https://github.com/openfilm/openfilm",
+      "description": "The open source AI video agent: turns any coding agent into a video agent, with editors to change anything it makes.",
+      "summary": "将任意编码代理转化为视频代理，并提供编辑器修改生成内容\n适合需要视频创作能力或使用编码代理的开发者\n开源 AI 视频代理，通用性强且支持深度编辑",
+      "stars": 8368,
+      "language": "TypeScript",
+      "topics": [
+        "ai-video",
+        "claude-code",
+        "codex",
+        "coding-agents",
+        "html",
+        "motion-graphics",
+        "video-agent",
+        "video-editor"
+      ],
+      "categories": [
+        "AI神器"
+      ],
+      "platforms": [
+        "AI神器"
+      ],
+      "pick": "ai_tool",
+      "slot": "AI神器",
+      "kind": "search",
+      "created_at": "2026-10-04",
+      "first_date": "2026-11-07",
+      "last_date": "2026-11-19",
+      "dates": [
+        "2026-11-19",
+        "2026-11-14",
+        "2026-11-07"
+      ],
+      "times": 3
+    },
+    {
+      "full_name": "erkamyaman/rust-anything",
+      "url": "https://github.com/erkamyaman/rust-anything",
+      "description": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.",
+      "summary": "逐步将现有应用重写为 Rust，并确保每一步都符合原始行为\n适合需要将 CLI、HTTP 服务器及各类库从 TypeScript、Python、Go 等语言迁移至 Rust 的开发者\n支持多语言迁移，确保每一步重写都符合原始行为",
+      "stars": 3799,
+      "language": "Rust",
+      "topics": [
+        "agent-skills",
+        "claude-code",
+        "cli",
+        "code-migration",
+        "codex",
+        "ffi",
+        "golang",
+        "java",
+        "javascript",
+        "mcp",
+        "migration",
+        "napi",
+        "performance",
+        "porting",
+        "pyo3",
+        "python",
+        "rewrite",
+        "ruby",
+        "rust",
+        "typescript"
+      ],
+      "categories": [
+        "Linux",
+        "AI神器"
+      ],
+      "platforms": [
+        "Linux"
+      ],
+      "pick": "growth",
+      "slot": "Linux",
+      "kind": "search",
+      "created_at": "2026-11-16",
+      "first_date": "2026-11-19",
+      "last_date": "2026-11-19",
+      "dates": [
+        "2026-11-19"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "Likely7/Veyra-NRVideo",
+      "url": "https://github.com/Likely7/Veyra-NRVideo",
+      "description": "Bring PS5 GTA6 to 120FPS with DLSS 5. An advanced Windows video player and capture enhancement tool featuring real-time preview for videos, images, and capture card sources. Combine AI-powered Super Resolution, DLSS5 image enhancement, and Frame Generation to deliver a next-generation visual experience.",
+      "summary": "解决什么：通过 DLSS 5 和 AI 超分辨率技术将视频和游戏画面提升至 120FPS，并提供实时预览和录制增强功能\n适合谁：追求高帧率游戏和视频体验的 Windows 用户，特别是需要视频录制和编辑的专业人士\n亮点：结合 DLSS 5、AI 超分辨率和帧生成技术，提供下一代视觉增强工具",
+      "stars": 3752,
+      "language": "C++",
+      "topics": [],
+      "categories": [
+        "Windows"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "pick": "growth",
+      "slot": "Windows",
+      "kind": "search",
+      "created_at": "2026-09-09",
+      "first_date": "2026-11-19",
+      "last_date": "2026-11-19",
+      "dates": [
+        "2026-11-19"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "richgel999/miniz",
+      "url": "https://github.com/richgel999/miniz",
+      "description": "miniz: Single C source file zlib-replacement library, originally from code.google.com/p/miniz",
+      "summary": "学什么：深入理解 deflate 压缩算法的底层实现逻辑，掌握 C 语言中高效的位操作与内存管理技巧\n适合谁：适合希望深入理解压缩算法原理的 C/C++ 程序员，以及需要替换 zlib 库的底层开发人员\n怎么读：建议先阅读 `mz_compress` 等核心压缩函数，再逐步深入理解 Huffman 编码与滑动窗口算法",
+      "stars": 2927,
+      "language": "C++",
+      "topics": [],
+      "categories": [
+        "C"
+      ],
+      "platforms": [
+        "C"
+      ],
+      "pick": null,
+      "slot": null,
+      "kind": "learn",
+      "created_at": "2015-05-21",
+      "first_date": "2026-11-01",
+      "last_date": "2026-11-19",
+      "dates": [
+        "2026-11-19",
+        "2026-11-01"
+      ],
+      "times": 2
+    },
+    {
+      "full_name": "helloHub1212/dsh-windows-mcp",
+      "url": "https://github.com/helloHub1212/dsh-windows-mcp",
+      "description": "Windows desktop automation for DeepSeek Harness: the in-box MCP client bridge mounted against CursorTouch/Windows-MCP, with an off-by-default Computer Use switch and an in-app dependency installer.",
+      "summary": "为 DeepSeek Harness 提供 Windows 桌面自动化能力，作为 MCP 客户端桥接\n需要 Windows 桌面自动化和 MCP 集成的开发者或用户\n默认关闭 Computer Use 开关并内置依赖安装器，安全易用",
+      "stars": 1776,
+      "language": "JavaScript",
+      "topics": [
+        "computer-use",
+        "deepseek-harness",
+        "desktop-automation",
+        "dsh",
+        "dsh-plugin",
+        "mcp",
+        "windows",
+        "windows-mcp"
+      ],
+      "categories": [
+        "Windows",
+        "AI神器"
+      ],
+      "platforms": [
+        "Windows",
+        "AI神器"
+      ],
+      "pick": "ai_tool",
+      "slot": "AI神器",
+      "kind": "search",
+      "created_at": "2026-10-11",
+      "first_date": "2026-11-12",
+      "last_date": "2026-11-19",
+      "dates": [
+        "2026-11-19",
+        "2026-11-12"
+      ],
+      "times": 2
+    },
+    {
+      "full_name": "t8y2/motty",
+      "url": "https://github.com/t8y2/motty",
+      "description": "SSH, SFTP, port forwarding, VNC/RDP and an AI assistant、MCP in one native window — a Go desktop app built on Viva, with no webview.",
+      "summary": "集成SSH、SFTP、端口转发、VNC/RDP及AI助手，提供原生桌面应用体验\n适合需要同时管理远程服务器、终端及AI辅助的开发者与运维人员\n基于Go语言原生构建，无WebView，集成AI助手与多种远程协议",
+      "stars": 1526,
+      "language": "Go",
+      "topics": [
+        "ai-assistant",
+        "golang",
+        "native",
+        "port-forwarding",
+        "rdp",
+        "sftp",
+        "ssh",
+        "ssh-client",
+        "terminal",
+        "viva",
+        "vnc"
+      ],
+      "categories": [
+        "Windows",
+        "AI神器"
+      ],
+      "platforms": [
+        "Windows",
+        "AI神器"
+      ],
+      "pick": "ai_tool",
+      "slot": "AI神器",
+      "kind": "search",
+      "created_at": "2026-10-22",
+      "first_date": "2026-11-19",
+      "last_date": "2026-11-19",
+      "dates": [
+        "2026-11-19"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "Pilipala9919/MarcoMovie",
+      "url": "https://github.com/Pilipala9919/MarcoMovie",
+      "description": "由 Pilipala 开发的多端自适应播放器（支持 Android 电视/手机/平板、Apple TV、HarmonyOS NEXT、iOS/iPadOS、Windows、macOS）。仅提供工具，不含影视资源；内容和配置由用户自行合法获取。",
+      "summary": "解决什么：解决跨平台视频播放需求，支持多系统多设备统一播放\n适合谁：适合需要在鸿蒙、iOS、Android及桌面端播放个人影视资源的用户\n亮点：近期涨星最快，支持鸿蒙 NEXT 等多系统多端播放",
+      "stars": 986,
+      "language": "Java",
+      "topics": [],
+      "categories": [
+        "鸿蒙"
+      ],
+      "platforms": [
+        "鸿蒙"
+      ],
+      "pick": "growth",
+      "slot": "鸿蒙",
+      "kind": "search",
+      "created_at": "2026-10-26",
+      "first_date": "2026-11-19",
+      "last_date": "2026-11-19",
+      "dates": [
+        "2026-11-19"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "Dodaios/ste80-humanizer",
+      "url": "https://github.com/Dodaios/ste80-humanizer",
+      "description": "STE80 Humanizer: agent skill that removes AI tells and rewrites text 80% of the way to ASD-STE100 (Simplified Technical English), the method Andrej Karpathy shared.",
+      "summary": "去除 AI 文本特征，将其重写为接近 ASD-STE100（简化技术英语）的文本\n适合 Claude、Cursor 等 AI 编程助手或需要生成自然文本的用户\n基于 Andrej Karpathy 分享的方法，将文本重写为 80% 的 ASD-STE100 标准文本",
+      "stars": 912,
+      "language": "Python",
+      "topics": [
+        "agent-skills",
+        "ai-writing",
+        "asd-ste100",
+        "claude-code",
+        "claude-skills",
+        "codex",
+        "cursor",
+        "humanize-ai-text",
+        "humanizer",
+        "karpathy",
+        "llm",
+        "plain-language",
+        "simplified-technical-english",
+        "writing"
+      ],
+      "categories": [
+        "AI",
+        "AI神器"
+      ],
+      "platforms": [
+        "AI",
+        "AI神器"
+      ],
+      "pick": "ai_tool",
+      "slot": "AI神器",
+      "kind": "search",
+      "created_at": "2026-11-09",
+      "first_date": "2026-11-19",
+      "last_date": "2026-11-19",
+      "dates": [
+        "2026-11-19"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "Molechain/Proxy-client-collection",
+      "url": "https://github.com/Molechain/Proxy-client-collection",
+      "description": "代理软件收集处/Collection of proxy clients",
+      "summary": "解决什么：解决用户在鸿蒙系统上寻找各类代理客户端资源的需求，提供一站式代理工具集合\n适合谁：需要使用 Clash、V2Ray 等代理工具的鸿蒙系统用户或 OpenWrt 管理员\n亮点：作为鸿蒙分类的人气最高项目，汇集了 Clash、V2Ray 等多种主流代理客户端",
+      "stars": 601,
+      "language": "",
+      "topics": [
+        "clash",
+        "dashboard",
+        "harmonyos",
+        "mihomo",
+        "openclash",
+        "openwrt",
+        "proxy",
+        "v2ray",
+        "vpn"
+      ],
+      "categories": [
+        "鸿蒙"
+      ],
+      "platforms": [
+        "鸿蒙"
+      ],
+      "pick": "top",
+      "slot": "鸿蒙",
+      "kind": "search",
+      "created_at": "2025-06-22",
+      "first_date": "2026-11-19",
+      "last_date": "2026-11-19",
+      "dates": [
+        "2026-11-19"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "ybblab/Jiumi",
+      "url": "https://github.com/ybblab/Jiumi",
+      "description": "揪咪 Jiumi：开源安卓应用行为监测与管理，查看权限访问和网络活动。Android app activity & privacy monitor. No root required.",
+      "summary": "解决安卓应用行为监测与管理问题，无需 root 即可查看权限访问和网络活动\n适合需要监控应用权限和网络流量的安卓用户\n无需 root 即可监控应用行为，近期涨星最快",
+      "stars": 465,
+      "language": "Kotlin",
+      "topics": [
+        "android",
+        "android-app",
+        "app-management",
+        "app-monitoring",
+        "appops",
+        "kotlin",
+        "network-monitoring",
+        "privacy",
+        "shizuku",
+        "wireless-debugging"
+      ],
+      "categories": [
+        "安卓"
+      ],
+      "platforms": [
+        "安卓"
+      ],
+      "pick": "growth",
+      "slot": "安卓",
+      "kind": "search",
+      "created_at": "2026-11-13",
+      "first_date": "2026-11-19",
+      "last_date": "2026-11-19",
+      "dates": [
+        "2026-11-19"
+      ],
+      "times": 1
+    },
     {
       "full_name": "team-spotube/spotube",
       "url": "https://github.com/team-spotube/spotube",
@@ -2572,41 +3124,6 @@
       "times": 2
     },
     {
-      "full_name": "openfilm/openfilm",
-      "url": "https://github.com/openfilm/openfilm",
-      "description": "The open source AI video agent: turns any coding agent into a video agent, with an editor to change anything it makes.",
-      "summary": "将任意编码代理转化为视频生成代理，并提供可视化编辑功能\n适合希望利用 AI 自动生成和编辑视频内容的开发者及创作者\n开源 AI 视频生成工具，能将通用编码代理转化为视频代理并支持深度编辑",
-      "stars": 6690,
-      "language": "TypeScript",
-      "topics": [
-        "ai-video",
-        "claude-code",
-        "codex",
-        "coding-agents",
-        "html",
-        "motion-graphics",
-        "video-agent",
-        "video-editor"
-      ],
-      "categories": [
-        "AI神器"
-      ],
-      "platforms": [
-        "AI神器"
-      ],
-      "pick": "ai_tool",
-      "slot": "AI神器",
-      "kind": "search",
-      "created_at": "2026-10-04",
-      "first_date": "2026-11-07",
-      "last_date": "2026-11-14",
-      "dates": [
-        "2026-11-14",
-        "2026-11-07"
-      ],
-      "times": 2
-    },
-    {
       "full_name": "Zitann/HarmonyOS-Haps",
       "url": "https://github.com/Zitann/HarmonyOS-Haps",
       "description": "⚡️鸿蒙Next Hap安装包合集，如果您觉得有帮助，还请点亮一下 Star 🌟 哦~ 万分感谢！",
@@ -3274,42 +3791,6 @@
         "2026-11-01"
       ],
       "times": 2
-    },
-    {
-      "full_name": "helloHub1212/dsh-windows-mcp",
-      "url": "https://github.com/helloHub1212/dsh-windows-mcp",
-      "description": "Windows desktop automation for DeepSeek Harness: the in-box MCP client bridge mounted against CursorTouch/Windows-MCP, with an off-by-default Computer Use switch and an in-app dependency installer.",
-      "summary": "为 DeepSeek Harness 提供 Windows 桌面自动化能力，通过 MCP 协议实现系统操作\n适合需要通过 AI 进行 Windows 桌面自动化操作的开发者或用户\n提供默认关闭的 Computer Use 开关和内置依赖安装器，兼顾安全与便捷",
-      "stars": 766,
-      "language": "JavaScript",
-      "topics": [
-        "computer-use",
-        "deepseek-harness",
-        "desktop-automation",
-        "dsh",
-        "dsh-plugin",
-        "mcp",
-        "windows",
-        "windows-mcp"
-      ],
-      "categories": [
-        "Windows",
-        "AI神器"
-      ],
-      "platforms": [
-        "Windows",
-        "AI神器"
-      ],
-      "pick": "ai_tool",
-      "slot": "AI神器",
-      "kind": "search",
-      "created_at": "2026-10-11",
-      "first_date": "2026-11-12",
-      "last_date": "2026-11-12",
-      "dates": [
-        "2026-11-12"
-      ],
-      "times": 1
     },
     {
       "full_name": "Z4nzu/hackingtool",
@@ -5709,41 +6190,6 @@
       "times": 1
     },
     {
-      "full_name": "wangzan101/Mika",
-      "url": "https://github.com/wangzan101/Mika",
-      "description": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
-      "summary": "这是一个运行在 Android 设备上的本地 AI 代理，能够自动操作应用和网页帮用户完成任务。\n适合 Android 用户、自动化爱好者以及移动端 AI 代理的开发者。\n亮点是利用本地大模型实现移动端应用自动化操作，且基于 Jetpack Compose 构建。",
-      "stars": 6791,
-      "language": "Kotlin",
-      "topics": [
-        "accessibility",
-        "ai-agent",
-        "android",
-        "automation",
-        "jetpack-compose",
-        "kotlin",
-        "llm",
-        "mobile-agent"
-      ],
-      "categories": [
-        "AI"
-      ],
-      "platforms": [
-        "AI"
-      ],
-      "pick": "ai",
-      "slot": "AI",
-      "kind": "search",
-      "created_at": "2026-10-29",
-      "first_date": "2026-11-01",
-      "last_date": "2026-11-05",
-      "dates": [
-        "2026-11-05",
-        "2026-11-01"
-      ],
-      "times": 2
-    },
-    {
       "full_name": "DeltaProviderGuide/auto-auction-bot-wow-forever",
       "url": "https://github.com/DeltaProviderGuide/auto-auction-bot-wow-forever",
       "description": "A free Auction House bot for WoW Forever: buys low, posts high and undercuts for you. Windows app plus in-game panel.",
@@ -5773,52 +6219,6 @@
       "last_date": "2026-11-05",
       "dates": [
         "2026-11-05"
-      ],
-      "times": 1
-    },
-    {
-      "full_name": "simdjson/simdjson",
-      "url": "https://github.com/simdjson/simdjson",
-      "description": "Parsing gigabytes of JSON per second : used by Facebook/Meta Velox, the Node.js runtime, ClickHouse, WatermelonDB, Apache Doris, Milvus, StarRocks",
-      "summary": "学什么：深入理解 SIMD 并行计算在 JSON 解析中的应用，掌握极致的内存访问与底层性能优化手段\n适合谁：适合对性能优化有追求的 C++ 开发者，特别是需要处理海量 JSON 数据或从事底层系统开发的读者\n怎么读：从 jsonioutil 工具类入手，再逐步深入核心的 simdjson.h 解析器实现",
-      "stars": 24498,
-      "language": "C++",
-      "topics": [
-        "aarch64",
-        "arm64",
-        "avx2",
-        "avx512",
-        "c-plus-plus",
-        "clang",
-        "clang-cl",
-        "cpp11",
-        "gcc-compiler",
-        "json",
-        "json-parser",
-        "json-pointer",
-        "loongarch",
-        "loongarch64",
-        "neon",
-        "risc-v",
-        "simd",
-        "sse42",
-        "vs2019",
-        "x64"
-      ],
-      "categories": [
-        "C++"
-      ],
-      "platforms": [
-        "C++"
-      ],
-      "pick": null,
-      "slot": null,
-      "kind": "learn",
-      "created_at": "2018-03-23",
-      "first_date": "2026-11-04",
-      "last_date": "2026-11-04",
-      "dates": [
-        "2026-11-04"
       ],
       "times": 1
     },
@@ -6134,31 +6534,6 @@
         "2026-10-28"
       ],
       "times": 2
-    },
-    {
-      "full_name": "richgel999/miniz",
-      "url": "https://github.com/richgel999/miniz",
-      "description": "miniz: Single C source file zlib-replacement library, originally from code.google.com/p/miniz",
-      "summary": "深入理解 deflate 压缩算法核心逻辑，掌握高效位操作与数据流处理技巧\n适合想要快速掌握 deflate 算法或需要轻量级压缩库的 C/C++ 开发者\n从 `mz_deflate` 入口函数开始，逐步追踪位流操作与哈夫曼编码实现",
-      "stars": 2912,
-      "language": "C++",
-      "topics": [],
-      "categories": [
-        "C"
-      ],
-      "platforms": [
-        "C"
-      ],
-      "pick": null,
-      "slot": null,
-      "kind": "learn",
-      "created_at": "2015-05-21",
-      "first_date": "2026-11-01",
-      "last_date": "2026-11-01",
-      "dates": [
-        "2026-11-01"
-      ],
-      "times": 1
     },
     {
       "full_name": "InukaAsith/TwinDesk",
