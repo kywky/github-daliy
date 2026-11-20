@@ -1,8 +1,614 @@
 {
-  "generated_at": "2026-11-19T07:07:06.042057+00:00",
-  "total": 212,
-  "occurrences": 382,
+  "generated_at": "2026-11-20T06:57:37.350046+00:00",
+  "total": 219,
+  "occurrences": 397,
   "projects": [
+    {
+      "full_name": "jeecgboot/JeecgBoot",
+      "url": "https://github.com/jeecgboot/JeecgBoot",
+      "description": "一款免费开源的 AI 低代码平台，也是 AI 时代构建复杂业务系统的开源基座！权限、多租户、工作流、报表、大屏、AI 知识库等通用能力开箱即用，AI 只需生成业务差异部分。AI Skills 一句话生成完整系统——建表、前后端代码、菜单权限、BPM 流程、表单、报表、大屏全自动。内置 AI 应用平台（聊天、知识库、流程编排、MCP），兼容主流大模型",
+      "summary": "解决什么：提供 AI 低代码平台，快速构建复杂业务系统，通用能力开箱即用，AI 生成业务差异部分\n适合谁：需要快速开发业务系统，特别是需要 AI 辅助开发的开发者或企业\n亮点：AI Skills 一句话生成完整系统，内置 AI 应用平台兼容主流大模型",
+      "stars": 48536,
+      "language": "Java",
+      "topics": [
+        "activiti",
+        "agent",
+        "ai",
+        "antd",
+        "claude-code",
+        "cli",
+        "codegenerator",
+        "codex",
+        "flowable",
+        "langchain4j",
+        "llm",
+        "low-code",
+        "mcp",
+        "mybatis-plus",
+        "rag",
+        "skills",
+        "spring-ai",
+        "springboot",
+        "springcloud",
+        "vue3"
+      ],
+      "categories": [
+        "Linux"
+      ],
+      "platforms": [
+        "Linux"
+      ],
+      "pick": "top",
+      "slot": "Linux",
+      "kind": "search",
+      "created_at": "2018-11-26",
+      "first_date": "2026-11-20",
+      "last_date": "2026-11-20",
+      "dates": [
+        "2026-11-20"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "files-community/Files",
+      "url": "https://github.com/files-community/Files",
+      "description": "A modern file manager that helps users organize their files and folders.",
+      "summary": "解决什么：一个现代化的文件管理器，帮助用户组织文件和文件夹\n适合谁：Windows 用户，特别是需要高效文件管理工具的开发者和高级用户\n亮点：基于 Fluent UI 的美观且高度可定制的文件管理器",
+      "stars": 46718,
+      "language": "C#",
+      "topics": [
+        "alternatives",
+        "csharp",
+        "customization",
+        "developer-tools",
+        "dotnet",
+        "file-manager",
+        "files",
+        "fluent",
+        "fluent-design",
+        "git",
+        "good-first-issue",
+        "power-user",
+        "productivity",
+        "utilities",
+        "winappsdk",
+        "windows",
+        "windows-10",
+        "windows-11",
+        "winui",
+        "xaml"
+      ],
+      "categories": [
+        "Windows"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "pick": "top",
+      "slot": "Windows",
+      "kind": "search",
+      "created_at": "2019-01-04",
+      "first_date": "2026-11-20",
+      "last_date": "2026-11-20",
+      "dates": [
+        "2026-11-20"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "DuarteSantos8/openGym",
+      "url": "https://github.com/DuarteSantos8/openGym",
+      "description": "Open-source gym & body-weight tracker, now in the App Store (iPhone + Apple Watch) and as an Android APK. Plan routines, log workouts, see which muscles are trained, import from Strong/Hevy/FitNotes. Self-host it or use it on the phone alone.",
+      "summary": "解决什么：一个开源的健身和自重训练追踪器，帮助用户计划训练、记录锻炼、查看肌肉训练情况，并支持从其他应用导入数据\n适合谁：健身爱好者、自重训练者或需要追踪训练进度的个人，可在手机或自托管环境中使用\n亮点：支持iOS、Apple Watch和安卓平台，可自托管或独立使用，数据可导入导出",
+      "stars": 22954,
+      "language": "JavaScript",
+      "topics": [
+        "apple-watch",
+        "bodyweight",
+        "docker",
+        "fitness",
+        "fitness-tracker",
+        "gym",
+        "health",
+        "ios",
+        "mcp",
+        "nodejs",
+        "passkeys",
+        "progressive-web-applications",
+        "pwa",
+        "react",
+        "self-hosted",
+        "self-hosting",
+        "vite",
+        "webauthn",
+        "weightlifting",
+        "workout-tracker"
+      ],
+      "categories": [
+        "安卓"
+      ],
+      "platforms": [
+        "安卓"
+      ],
+      "pick": "growth",
+      "slot": "安卓",
+      "kind": "search",
+      "created_at": "2026-07-18",
+      "first_date": "2026-10-24",
+      "last_date": "2026-11-20",
+      "dates": [
+        "2026-11-20",
+        "2026-11-14",
+        "2026-11-10",
+        "2026-11-01",
+        "2026-10-28",
+        "2026-10-24"
+      ],
+      "times": 6
+    },
+    {
+      "full_name": "tangency-labs/solidcraft",
+      "url": "https://github.com/tangency-labs/solidcraft",
+      "description": "SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.",
+      "summary": "解决什么：构建了一个基于纯 Rust 的开源参数化 3D CAD 应用，支持桌面、Web 端及自动化\n适合谁：适合需要参数化建模、3D CAD 自动化操作以及 Web 端 CAD 应用的开发者或设计师\n亮点：完全使用 Rust 构建，支持通过 MCP 协议实现自动化，并具备桌面与 Web 跨平台能力",
+      "stars": 17334,
+      "language": "Rust",
+      "topics": [
+        "3d-modeling",
+        "brep",
+        "cad",
+        "egui",
+        "mcp",
+        "parametric-cad",
+        "rust",
+        "step",
+        "wasm"
+      ],
+      "categories": [
+        "AI神器"
+      ],
+      "platforms": [
+        "AI神器"
+      ],
+      "pick": "ai_tool",
+      "slot": "AI神器",
+      "kind": "search",
+      "created_at": "2026-10-07",
+      "first_date": "2026-11-06",
+      "last_date": "2026-11-20",
+      "dates": [
+        "2026-11-20",
+        "2026-11-16",
+        "2026-11-12",
+        "2026-11-06"
+      ],
+      "times": 4
+    },
+    {
+      "full_name": "thunderbird/thunderbird-android",
+      "url": "https://github.com/thunderbird/thunderbird-android",
+      "description": "Thunderbird for Android – Open Source Email App for Android (fka K-9 Mail)",
+      "summary": "为 Android 用户打造一个开源、安全且功能丰富的电子邮件客户端，提供隐私保护和强大的管理功能\n适合重视隐私、开源软件以及需要强大邮件管理功能的 Mozilla 用户\nMozilla 旗下高人气开源邮件应用，由经典 K-9 Mail 演变而来",
+      "stars": 14248,
+      "language": "Kotlin",
+      "topics": [
+        "android",
+        "communication",
+        "email",
+        "mozilla"
+      ],
+      "categories": [
+        "安卓"
+      ],
+      "platforms": [
+        "安卓"
+      ],
+      "pick": "top",
+      "slot": "安卓",
+      "kind": "search",
+      "created_at": "2011-02-04",
+      "first_date": "2026-11-20",
+      "last_date": "2026-11-20",
+      "dates": [
+        "2026-11-20"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "anefzaoui/misterdownloadmanager",
+      "url": "https://github.com/anefzaoui/misterdownloadmanager",
+      "description": "misterdownloadmanager: The ultimate open-source, clean-room download manager written from scratch in pure Rust for Windows, Mac, and Linux",
+      "summary": "解决什么：一款用 Rust 编写的开源下载管理器，支持 BT、磁力链接、网盘提取等多种下载方式，界面基于 egui\n适合谁：需要在 Windows、Mac 或 Linux 系统上使用下载管理器的用户，特别是追求开源和跨平台的用户\n亮点：纯 Rust 开发，界面美观，功能丰富，支持多种下载协议和加速工具",
+      "stars": 13937,
+      "language": "Rust",
+      "topics": [
+        "bittorrent-client",
+        "debrid",
+        "download-accelerator",
+        "download-manager",
+        "downloadmanager",
+        "egui",
+        "file-downloader",
+        "gallery-dl",
+        "idm",
+        "idm-alternative",
+        "internet-download-manager",
+        "m3u8-downloader",
+        "magnet",
+        "playlist-downloader",
+        "real-debrid",
+        "rust",
+        "torrent-client",
+        "video-downloader",
+        "youtube-downloader",
+        "yt-dlp"
+      ],
+      "categories": [
+        "Windows"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "pick": "growth",
+      "slot": "Windows",
+      "kind": "search",
+      "created_at": "2026-10-29",
+      "first_date": "2026-11-11",
+      "last_date": "2026-11-20",
+      "dates": [
+        "2026-11-20",
+        "2026-11-16",
+        "2026-11-11"
+      ],
+      "times": 3
+    },
+    {
+      "full_name": "rddmwmddr/android-ad-cleaner",
+      "url": "https://github.com/rddmwmddr/android-ad-cleaner",
+      "description": "关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。",
+      "summary": "关闭国产安卓手机系统内的广告、热搜、资讯推荐及营销推送\n不需要 root 的安卓用户，希望一键清理系统广告\n支持 AI 智能体一键执行，无需 root 且支持还原",
+      "stars": 8473,
+      "language": "Python",
+      "topics": [
+        "adb",
+        "ai-agent",
+        "android",
+        "coloros",
+        "debloat",
+        "hyperos",
+        "magicos",
+        "originos"
+      ],
+      "categories": [
+        "安卓",
+        "AI神器"
+      ],
+      "platforms": [
+        "安卓",
+        "AI神器"
+      ],
+      "pick": "ai_tool",
+      "slot": "AI神器",
+      "kind": "search",
+      "created_at": "2026-10-24",
+      "first_date": "2026-10-26",
+      "last_date": "2026-11-20",
+      "dates": [
+        "2026-11-20",
+        "2026-11-15",
+        "2026-11-11",
+        "2026-11-02",
+        "2026-10-26"
+      ],
+      "times": 5
+    },
+    {
+      "full_name": "qybaihe/bla",
+      "url": "https://github.com/qybaihe/bla",
+      "description": "🛡️ BLA (bla-agents / Blind LLM Agents) — Open-source Blue Defense MCP server & CLI protecting JS/TS, Electron ASAR, WASM, Python, Native Binaries, SQLite, GGUF/Safetensors & Android DEX against AI reverse-engineering agents (REA).",
+      "summary": "防止 AI 反编译代理对 JS/TS、Electron、WASM、Python 等多种格式的逆向工程攻击\n需要保护代码资产免受 AI 逆向工程攻击的开发者及安全团队\n开源的蓝队防御 MCP 服务器，能有效对抗 AI 反编译代理",
+      "stars": 6233,
+      "language": "TypeScript",
+      "topics": [
+        "adversarial-ai",
+        "ai-security",
+        "android-security",
+        "binary-protection",
+        "claude-code",
+        "codex",
+        "cursor",
+        "electron-security",
+        "gguf",
+        "ghidra",
+        "llm-security",
+        "mcp",
+        "mcp-server",
+        "obfuscation",
+        "python-security",
+        "reverse-engineering",
+        "safetensors",
+        "software-protection",
+        "webassembly"
+      ],
+      "categories": [
+        "AI",
+        "AI神器"
+      ],
+      "platforms": [
+        "AI"
+      ],
+      "pick": "ai",
+      "slot": "AI",
+      "kind": "search",
+      "created_at": "2026-10-25",
+      "first_date": "2026-10-30",
+      "last_date": "2026-11-20",
+      "dates": [
+        "2026-11-20",
+        "2026-11-11",
+        "2026-11-07",
+        "2026-10-30"
+      ],
+      "times": 4
+    },
+    {
+      "full_name": "mdiri-ai/SoduWork",
+      "url": "https://github.com/mdiri-ai/SoduWork",
+      "description": "The AI-native engine for teams and their agents. Multi-harness, multi-agent, self-hosted.",
+      "summary": "解决什么：为团队提供 AI 原生引擎，支持多代理协作、工作流编排及自托管部署\n适合谁：需要自托管、多代理协作及插件扩展的团队或开发者\n亮点：支持多 Harness、多代理架构、插件系统及人机协同工作流",
+      "stars": 4450,
+      "language": "JavaScript",
+      "topics": [
+        "agent-harness",
+        "agent-orchestration",
+        "agent-workflows",
+        "ai-agents",
+        "ai-workflows",
+        "anti-slop",
+        "claude-code",
+        "codex",
+        "deepseek",
+        "electron",
+        "fastapi",
+        "harness",
+        "human-in-the-loop",
+        "llm",
+        "mcp",
+        "multi-agent",
+        "opencode",
+        "plugin-system",
+        "self-hosted",
+        "team-collaboration"
+      ],
+      "categories": [
+        "AI",
+        "AI神器"
+      ],
+      "platforms": [
+        "AI",
+        "AI神器"
+      ],
+      "pick": "ai_tool",
+      "slot": "AI神器",
+      "kind": "search",
+      "created_at": "2026-10-29",
+      "first_date": "2026-11-12",
+      "last_date": "2026-11-20",
+      "dates": [
+        "2026-11-20",
+        "2026-11-16",
+        "2026-11-12"
+      ],
+      "times": 3
+    },
+    {
+      "full_name": "ericniebler/range-v3",
+      "url": "https://github.com/ericniebler/range-v3",
+      "description": "Range library for C++14/17/20, basis for C++20's std::ranges",
+      "summary": "掌握 C++ 泛型编程的高级技巧，理解 STL 的扩展机制及组合子设计模式\n适合希望深入理解 C++ 泛型编程、STL 设计思想以及 C++20 标准演进的中高级开发者\n建议先阅读核心概念定义，再逐步深入视图和算法模块的实现",
+      "stars": 4379,
+      "language": "C++",
+      "topics": [
+        "c-plus-plus",
+        "iterator",
+        "proposal",
+        "range",
+        "range-library"
+      ],
+      "categories": [
+        "C++"
+      ],
+      "platforms": [
+        "C++"
+      ],
+      "pick": null,
+      "slot": null,
+      "kind": "learn",
+      "created_at": "2013-11-11",
+      "first_date": "2026-11-20",
+      "last_date": "2026-11-20",
+      "dates": [
+        "2026-11-20"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "antirez/linenoise",
+      "url": "https://github.com/antirez/linenoise",
+      "description": "A small self-contained alternative to readline and libedit",
+      "summary": "学什么：学习 C 语言终端交互编程，掌握命令行编辑、历史记录及自动补全等核心功能的精简实现\n适合谁：适合 C 语言初学者或系统编程爱好者，用于学习终端 I/O 和命令行交互库的底层原理\n怎么读：从 `linenoise.c` 中的输入处理函数入手，逐步分析光标移动、历史记录和补全逻辑",
+      "stars": 4372,
+      "language": "C",
+      "topics": [],
+      "categories": [
+        "C"
+      ],
+      "platforms": [
+        "C"
+      ],
+      "pick": null,
+      "slot": null,
+      "kind": "learn",
+      "created_at": "2010-03-20",
+      "first_date": "2026-11-02",
+      "last_date": "2026-11-20",
+      "dates": [
+        "2026-11-20",
+        "2026-11-02"
+      ],
+      "times": 2
+    },
+    {
+      "full_name": "jiwoochris/artex-global",
+      "url": "https://github.com/jiwoochris/artex-global",
+      "description": "Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switchable to Korean/Chinese/Spanish/Japanese. For authorized, defensive and detection use only. (upstream: Autumn-27/ARTEX, AGPL-3.0)",
+      "summary": "解决什么：提供基于 LLM 的多智能体自主渗透测试框架，支持多语言切换\n适合谁：适合授权的安全防御、检测工程及蓝队研究人员\n亮点：支持中韩日西四语切换，专注于蓝队防御与检测",
+      "stars": 4192,
+      "language": "Go",
+      "topics": [
+        "ai-agent",
+        "autonomous-agents",
+        "blue-team",
+        "cybersecurity",
+        "detection-engineering",
+        "i18n",
+        "korean",
+        "llm",
+        "penetration-testing",
+        "security",
+        "security-research",
+        "security-tools",
+        "sigma-rules",
+        "threat-detection"
+      ],
+      "categories": [
+        "AI神器"
+      ],
+      "platforms": [
+        "AI神器"
+      ],
+      "pick": "ai_tool",
+      "slot": "AI神器",
+      "kind": "search",
+      "created_at": "2026-10-03",
+      "first_date": "2026-11-20",
+      "last_date": "2026-11-20",
+      "dates": [
+        "2026-11-20"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "metasequoiaime/msime",
+      "url": "https://github.com/metasequoiaime/msime",
+      "description": "下一代跨平台水杉输入法（MSIME）：面向 Android、iOS、macOS、Linux、Windows 与 HarmonyOS 的多平台中文输入法，使用共享输入引擎与各平台原生宿主。",
+      "summary": "解决什么：解决多平台中文输入法统一开发与使用问题，支持 Android、iOS、macOS、Linux、Windows 与 HarmonyOS\n适合谁：适合需要在 Android、iOS、macOS、Linux、Windows 及 HarmonyOS 等多平台使用中文输入法的用户\n亮点：使用 Rust 开发，采用共享输入引擎架构，近期涨星最快",
+      "stars": 1402,
+      "language": "Rust",
+      "topics": [
+        "android",
+        "chinese",
+        "cpp",
+        "harmonyos",
+        "ime",
+        "input-method",
+        "inputmethodkit",
+        "ios",
+        "linux",
+        "macos",
+        "pinyin",
+        "rust",
+        "windows"
+      ],
+      "categories": [
+        "鸿蒙",
+        "Linux",
+        "Windows"
+      ],
+      "platforms": [
+        "鸿蒙"
+      ],
+      "pick": "growth",
+      "slot": "鸿蒙",
+      "kind": "search",
+      "created_at": "2026-09-02",
+      "first_date": "2026-10-25",
+      "last_date": "2026-11-20",
+      "dates": [
+        "2026-11-20",
+        "2026-11-16",
+        "2026-11-11",
+        "2026-11-03",
+        "2026-10-30",
+        "2026-10-25"
+      ],
+      "times": 6
+    },
+    {
+      "full_name": "imxieyi/Kernarium",
+      "url": "https://github.com/imxieyi/Kernarium",
+      "description": "Run real Linux kernel natively on iOS",
+      "summary": "解决什么：在 iOS 设备上原生运行真实的 Linux 内核\n适合谁：开发者或爱好者，希望在移动设备上进行内核开发或虚拟化实验\n亮点：首个在 iOS 上实现原生 Linux 内核运行的项目",
+      "stars": 1396,
+      "language": "C++",
+      "topics": [
+        "android",
+        "emulator",
+        "ios",
+        "linux",
+        "linux-kernel",
+        "user-mode-linux",
+        "virtualization"
+      ],
+      "categories": [
+        "Linux"
+      ],
+      "platforms": [
+        "Linux"
+      ],
+      "pick": "growth",
+      "slot": "Linux",
+      "kind": "search",
+      "created_at": "2026-11-07",
+      "first_date": "2026-11-20",
+      "last_date": "2026-11-20",
+      "dates": [
+        "2026-11-20"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "Yricky/abcde",
+      "url": "https://github.com/Yricky/abcde",
+      "description": "openHarmony逆向工具包，初步支持反编译",
+      "summary": "解决什么：提供 openHarmony 应用的反编译工具包，初步支持反编译功能\n适合谁：开发者用于 openHarmony 应用的逆向工程和分析\n亮点：首个 openHarmony 逆向工具包，支持反编译功能",
+      "stars": 550,
+      "language": "Kotlin",
+      "topics": [
+        "arkts",
+        "compose-multiplatform",
+        "disassembler",
+        "harmony",
+        "harmonyos",
+        "kotlin-multiplatform"
+      ],
+      "categories": [
+        "鸿蒙"
+      ],
+      "platforms": [
+        "鸿蒙"
+      ],
+      "pick": "top",
+      "slot": "鸿蒙",
+      "kind": "search",
+      "created_at": "2024-05-11",
+      "first_date": "2026-11-20",
+      "last_date": "2026-11-20",
+      "dates": [
+        "2026-11-20"
+      ],
+      "times": 1
+    },
     {
       "full_name": "Aider-AI/aider",
       "url": "https://github.com/Aider-AI/aider",
@@ -1825,43 +2431,6 @@
       "times": 2
     },
     {
-      "full_name": "tangency-labs/solidcraft",
-      "url": "https://github.com/tangency-labs/solidcraft",
-      "description": "SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.",
-      "summary": "提供一个基于纯 Rust 的开源参数化 3D CAD 应用，支持桌面、Web 及自动化\n适合需要跨平台 3D 建模、参数化设计及自动化集成的开发者或工程师\n支持 WebAssembly 部署及通过 MCP 协议实现自动化集成",
-      "stars": 16545,
-      "language": "Rust",
-      "topics": [
-        "3d-modeling",
-        "brep",
-        "cad",
-        "egui",
-        "mcp",
-        "parametric-cad",
-        "rust",
-        "step",
-        "wasm"
-      ],
-      "categories": [
-        "AI神器"
-      ],
-      "platforms": [
-        "AI神器"
-      ],
-      "pick": "ai_tool",
-      "slot": "AI神器",
-      "kind": "search",
-      "created_at": "2026-10-07",
-      "first_date": "2026-11-06",
-      "last_date": "2026-11-16",
-      "dates": [
-        "2026-11-16",
-        "2026-11-12",
-        "2026-11-06"
-      ],
-      "times": 3
-    },
-    {
       "full_name": "organicmaps/organicmaps",
       "url": "https://github.com/organicmaps/organicmaps",
       "description": "🍃 Organic Maps is a free Android & iOS offline maps app for more than 12M travelers, tourists, hikers, and cyclists. It uses crowd-sourced OpenStreetMap data and is developed with love by the community. No ads, no tracking, no data collection, no crapware. Please donate to support the development!",
@@ -1943,53 +2512,6 @@
       "dates": [
         "2026-11-16",
         "2026-10-29"
-      ],
-      "times": 2
-    },
-    {
-      "full_name": "anefzaoui/misterdownloadmanager",
-      "url": "https://github.com/anefzaoui/misterdownloadmanager",
-      "description": "misterdownloadmanager: The ultimate open-source, clean-room download manager written from scratch in pure Rust for Windows, Mac, and Linux",
-      "summary": "解决什么：一款用 Rust 编写的开源下载管理器，支持 BT、磁力链接、网盘解析等多种下载方式，提供跨平台支持\n适合谁：需要高效、安全、可定制下载体验的用户，特别是追求 Rust 技术和开源解决方案的 Windows 用户\n亮点：纯 Rust 打造的轻量级下载工具，功能丰富且注重性能与跨平台体验",
-      "stars": 10644,
-      "language": "Rust",
-      "topics": [
-        "bittorrent-client",
-        "debrid",
-        "download-accelerator",
-        "download-manager",
-        "downloadmanager",
-        "egui",
-        "file-downloader",
-        "gallery-dl",
-        "idm",
-        "idm-alternative",
-        "internet-download-manager",
-        "m3u8-downloader",
-        "magnet",
-        "playlist-downloader",
-        "real-debrid",
-        "rust",
-        "torrent-client",
-        "video-downloader",
-        "youtube-downloader",
-        "yt-dlp"
-      ],
-      "categories": [
-        "Windows"
-      ],
-      "platforms": [
-        "Windows"
-      ],
-      "pick": "growth",
-      "slot": "Windows",
-      "kind": "search",
-      "created_at": "2026-10-29",
-      "first_date": "2026-11-11",
-      "last_date": "2026-11-16",
-      "dates": [
-        "2026-11-16",
-        "2026-11-11"
       ],
       "times": 2
     },
@@ -2189,100 +2711,6 @@
         "2026-11-03"
       ],
       "times": 3
-    },
-    {
-      "full_name": "metasequoiaime/msime",
-      "url": "https://github.com/metasequoiaime/msime",
-      "description": "下一代跨平台水杉输入法（MSIME）：面向 Android、iOS、macOS、Linux、Windows 与 HarmonyOS 的多平台中文输入法，使用共享输入引擎与各平台原生宿主。",
-      "summary": "解决什么：解决多平台中文输入法开发与维护难题，提供统一的输入引擎\n适合谁：适合在 Android、iOS、macOS、Linux、Windows 和 HarmonyOS 等多平台使用中文输入法的用户\n亮点：采用 Rust 开发，实现多平台共享输入引擎，近期涨星迅速",
-      "stars": 1324,
-      "language": "Rust",
-      "topics": [
-        "android",
-        "chinese",
-        "cpp",
-        "harmonyos",
-        "ime",
-        "input-method",
-        "inputmethodkit",
-        "ios",
-        "linux",
-        "macos",
-        "pinyin",
-        "rust",
-        "windows"
-      ],
-      "categories": [
-        "鸿蒙",
-        "Linux",
-        "Windows"
-      ],
-      "platforms": [
-        "鸿蒙"
-      ],
-      "pick": "growth",
-      "slot": "鸿蒙",
-      "kind": "search",
-      "created_at": "2026-09-02",
-      "first_date": "2026-10-25",
-      "last_date": "2026-11-16",
-      "dates": [
-        "2026-11-16",
-        "2026-11-11",
-        "2026-11-03",
-        "2026-10-30",
-        "2026-10-25"
-      ],
-      "times": 5
-    },
-    {
-      "full_name": "mdiri-ai/SoduWork",
-      "url": "https://github.com/mdiri-ai/SoduWork",
-      "description": "The AI-native engine for teams and their agents. Multi-harness, multi-agent, self-hosted.",
-      "summary": "解决什么：为团队和其 AI 代理提供原生引擎，支持多框架和多代理协同工作\n适合谁：需要构建和管理复杂 AI 工作流的开发者和团队\n亮点：支持多框架、多代理协同的原生 AI 引擎，可自托管部署",
-      "stars": 992,
-      "language": "JavaScript",
-      "topics": [
-        "agent-harness",
-        "agent-orchestration",
-        "agent-workflows",
-        "ai-agents",
-        "ai-workflows",
-        "anti-slop",
-        "claude-code",
-        "codex",
-        "deepseek",
-        "electron",
-        "fastapi",
-        "harness",
-        "human-in-the-loop",
-        "llm",
-        "mcp",
-        "multi-agent",
-        "opencode",
-        "plugin-system",
-        "self-hosted",
-        "team-collaboration"
-      ],
-      "categories": [
-        "AI",
-        "AI神器"
-      ],
-      "platforms": [
-        "AI",
-        "AI神器"
-      ],
-      "pick": "ai_tool",
-      "slot": "AI神器",
-      "kind": "search",
-      "created_at": "2026-10-29",
-      "first_date": "2026-11-12",
-      "last_date": "2026-11-16",
-      "dates": [
-        "2026-11-16",
-        "2026-11-12"
-      ],
-      "times": 2
     },
     {
       "full_name": "harmony-on-android/HOA",
@@ -2548,44 +2976,6 @@
         "2026-10-29"
       ],
       "times": 3
-    },
-    {
-      "full_name": "rddmwmddr/android-ad-cleaner",
-      "url": "https://github.com/rddmwmddr/android-ad-cleaner",
-      "description": "关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。",
-      "summary": "一键关闭国产安卓手机系统内的广告、推送及资讯推荐\n适合不想 Root 但想净化国产系统的安卓用户\n支持 AI 智能体一键执行，无需 Root 且可一键还原",
-      "stars": 8057,
-      "language": "Python",
-      "topics": [
-        "adb",
-        "ai-agent",
-        "android",
-        "coloros",
-        "debloat",
-        "hyperos",
-        "magicos",
-        "originos"
-      ],
-      "categories": [
-        "安卓",
-        "AI神器"
-      ],
-      "platforms": [
-        "安卓"
-      ],
-      "pick": "growth",
-      "slot": "安卓",
-      "kind": "search",
-      "created_at": "2026-10-24",
-      "first_date": "2026-10-26",
-      "last_date": "2026-11-15",
-      "dates": [
-        "2026-11-15",
-        "2026-11-11",
-        "2026-11-02",
-        "2026-10-26"
-      ],
-      "times": 4
     },
     {
       "full_name": "RoutineMiku/apkstart",
@@ -3038,56 +3428,6 @@
         "2026-11-03"
       ],
       "times": 2
-    },
-    {
-      "full_name": "DuarteSantos8/openGym",
-      "url": "https://github.com/DuarteSantos8/openGym",
-      "description": "Open-source gym & body-weight tracker, now in the App Store (iPhone + Apple Watch) and as an Android APK. Plan routines, log workouts, see which muscles are trained, import from Strong/Hevy/FitNotes. Self-host it or use it on the phone alone.",
-      "summary": "解决什么：这是一个开源的健身房与自重训练追踪应用，支持训练计划制定、锻炼记录及多平台数据导入。\n适合谁：适合健身爱好者、自重训练者，以及需要跨平台（iOS/Android）或自托管健身追踪解决方案的用户。\n亮点：支持自托管、Apple Watch 集成及数据导入，近期涨星迅速。",
-      "stars": 21275,
-      "language": "JavaScript",
-      "topics": [
-        "apple-watch",
-        "bodyweight",
-        "docker",
-        "fitness",
-        "fitness-tracker",
-        "gym",
-        "health",
-        "ios",
-        "mcp",
-        "nodejs",
-        "passkeys",
-        "progressive-web-applications",
-        "pwa",
-        "react",
-        "self-hosted",
-        "self-hosting",
-        "vite",
-        "webauthn",
-        "weightlifting",
-        "workout-tracker"
-      ],
-      "categories": [
-        "安卓"
-      ],
-      "platforms": [
-        "安卓"
-      ],
-      "pick": "growth",
-      "slot": "安卓",
-      "kind": "search",
-      "created_at": "2026-07-18",
-      "first_date": "2026-10-24",
-      "last_date": "2026-11-14",
-      "dates": [
-        "2026-11-14",
-        "2026-11-10",
-        "2026-11-01",
-        "2026-10-28",
-        "2026-10-24"
-      ],
-      "times": 5
     },
     {
       "full_name": "Cyan4973/xxHash",
@@ -4006,46 +4346,6 @@
         "2026-10-30"
       ],
       "times": 2
-    },
-    {
-      "full_name": "qybaihe/bla",
-      "url": "https://github.com/qybaihe/bla",
-      "description": "🛡️ BLA (Blind LLM Agents) — Adversarial defense shield that protects binaries, Electron apps, JS bundles, Python, and WebAssembly against AI reverse-engineering agents like REA. Poison -> Exhaust -> Hallucinate.",
-      "summary": "解决什么：保护二进制文件、Electron 应用、JS 打包文件、Python 和 WebAssembly 免受 AI 反向工程代理攻击\n适合谁：需要保护代码免受 AI 窥探的开发者\n亮点：采用“毒化、疲劳、幻觉”策略对抗 AI 反编译",
-      "stars": 5093,
-      "language": "TypeScript",
-      "topics": [
-        "adversarial-ai",
-        "claude-code",
-        "cursor",
-        "electron-security",
-        "llm-security",
-        "mcp",
-        "mcp-server",
-        "obfuscation",
-        "reverse-engineering",
-        "webassembly"
-      ],
-      "categories": [
-        "AI",
-        "AI神器"
-      ],
-      "platforms": [
-        "AI",
-        "AI神器"
-      ],
-      "pick": "ai_tool",
-      "slot": "AI神器",
-      "kind": "search",
-      "created_at": "2026-10-25",
-      "first_date": "2026-10-30",
-      "last_date": "2026-11-11",
-      "dates": [
-        "2026-11-11",
-        "2026-11-07",
-        "2026-10-30"
-      ],
-      "times": 3
     },
     {
       "full_name": "shinshin86/mesh-avatar-studio",
@@ -6430,31 +6730,6 @@
         "2026-10-27"
       ],
       "times": 2
-    },
-    {
-      "full_name": "antirez/linenoise",
-      "url": "https://github.com/antirez/linenoise",
-      "description": "A small self-contained alternative to readline and libedit",
-      "summary": "学什么：深入理解终端 I/O 原理，学习如何用极简代码实现类似 readline 的行编辑功能\n适合谁：适合想学习终端交互、命令行工具开发以及 C 语言底层实现的开发者\n怎么读：建议先阅读 `linenoise.c` 中的 `linenoiseEdit` 函数，理解终端输入处理与光标移动逻辑",
-      "stars": 4370,
-      "language": "C",
-      "topics": [],
-      "categories": [
-        "C"
-      ],
-      "platforms": [
-        "C"
-      ],
-      "pick": null,
-      "slot": null,
-      "kind": "learn",
-      "created_at": "2010-03-20",
-      "first_date": "2026-11-02",
-      "last_date": "2026-11-02",
-      "dates": [
-        "2026-11-02"
-      ],
-      "times": 1
     },
     {
       "full_name": "CharonChui/FullStack-Notes",
