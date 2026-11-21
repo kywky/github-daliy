@@ -1,8 +1,654 @@
 {
-  "generated_at": "2026-11-20T06:57:37.350046+00:00",
-  "total": 219,
-  "occurrences": 397,
+  "generated_at": "2026-11-21T06:57:37.177124+00:00",
+  "total": 227,
+  "occurrences": 412,
   "projects": [
+    {
+      "full_name": "Gathin23/cleanyourtv",
+      "url": "https://github.com/Gathin23/cleanyourtv",
+      "description": "Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
+      "summary": "通过 Wi-Fi 远程清理安卓或谷歌电视上的预装软件，打造类似 Apple TV 的纯净体验\n适合拥有 Android TV、Google TV 或 Fire TV 等智能设备，希望移除预装应用的用户\n近期涨星迅猛，支持远程 Wi-Fi 清理，能将安卓电视改造成类似 Apple TV 的界面",
+      "stars": 59889,
+      "language": "Python",
+      "topics": [
+        "adb",
+        "adblock",
+        "android-tv",
+        "android-tv-launcher",
+        "apple-tv",
+        "bloatware-removal",
+        "claude-code",
+        "debloat",
+        "fire-tv",
+        "google-tv",
+        "launcher",
+        "privacy",
+        "smart-tv",
+        "sony-bravia",
+        "tcl",
+        "vibe-coding",
+        "xiaomi"
+      ],
+      "categories": [
+        "安卓"
+      ],
+      "platforms": [
+        "安卓"
+      ],
+      "pick": "growth",
+      "slot": "安卓",
+      "kind": "search",
+      "created_at": "2026-10-17",
+      "first_date": "2026-10-22",
+      "last_date": "2026-11-21",
+      "dates": [
+        "2026-11-21",
+        "2026-11-17",
+        "2026-11-13",
+        "2026-11-09",
+        "2026-11-04",
+        "2026-10-31",
+        "2026-10-27",
+        "2026-10-22"
+      ],
+      "times": 8
+    },
+    {
+      "full_name": "GitHubDaily/GitHubDaily",
+      "url": "https://github.com/GitHubDaily/GitHubDaily",
+      "description": "坚持分享 GitHub 上高质量、有趣实用的开源技术教程、开发者工具、编程网站、技术资讯。A list cool, interesting projects of GitHub.",
+      "summary": "解决什么：每日分享 GitHub 上高质量、有趣实用的开源技术教程、开发者工具、编程网站、技术资讯\n适合谁：开发者、技术爱好者、希望了解最新开源项目和技术资讯的人\n亮点：每日精选 GitHub 开源项目，提供实用技术教程和资讯分享",
+      "stars": 48514,
+      "language": "",
+      "topics": [
+        "ai",
+        "algorithms-and-data-structures",
+        "backend",
+        "developer-tools",
+        "development",
+        "frontend",
+        "github",
+        "java",
+        "javascript",
+        "kubernetes",
+        "linux",
+        "markdown",
+        "open-source",
+        "python",
+        "tutorials",
+        "web"
+      ],
+      "categories": [
+        "Linux"
+      ],
+      "platforms": [
+        "Linux"
+      ],
+      "pick": "top",
+      "slot": "Linux",
+      "kind": "search",
+      "created_at": "2018-12-30",
+      "first_date": "2026-11-21",
+      "last_date": "2026-11-21",
+      "dates": [
+        "2026-11-21"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "sxyazi/yazi",
+      "url": "https://github.com/sxyazi/yazi",
+      "description": "💥 Blazing fast terminal file manager written in Rust, based on async I/O.",
+      "summary": "解决什么：基于异步 I/O 的极速终端文件管理器\n适合谁：需要在终端高效管理文件的 Linux 和 Windows 用户\n亮点：用 Rust 编写的跨平台终端文件管理器",
+      "stars": 43551,
+      "language": "Rust",
+      "topics": [
+        "android",
+        "asyncio",
+        "cli",
+        "command-line",
+        "concurrency",
+        "cross-platform",
+        "developer-tools",
+        "file-explorer",
+        "file-manager",
+        "filesystem",
+        "linux",
+        "macos",
+        "neovim",
+        "productivity",
+        "rust",
+        "terminal",
+        "tui",
+        "vim",
+        "windows"
+      ],
+      "categories": [
+        "Linux",
+        "Windows"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "pick": "top",
+      "slot": "Windows",
+      "kind": "search",
+      "created_at": "2023-07-08",
+      "first_date": "2026-11-21",
+      "last_date": "2026-11-21",
+      "dates": [
+        "2026-11-21"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "pystardust/ani-cli",
+      "url": "https://github.com/pystardust/ani-cli",
+      "description": "A cli tool to browse and play anime",
+      "summary": "提供了一个命令行工具，用于浏览和播放动漫内容\n适合在 Linux、Mac、Windows 或 Android 终端环境中使用命令行的动漫爱好者\n支持多种终端模拟器（如 FZF 和 Rofi），提供便捷的搜索和播放体验",
+      "stars": 14143,
+      "language": "Shell",
+      "topics": [
+        "anime",
+        "cli",
+        "fzf",
+        "linux",
+        "mac",
+        "posix",
+        "rofi",
+        "shell",
+        "steamdeck",
+        "syncplay",
+        "terminal",
+        "termux",
+        "webscraping",
+        "windows"
+      ],
+      "categories": [
+        "安卓"
+      ],
+      "platforms": [
+        "安卓"
+      ],
+      "pick": "top",
+      "slot": "安卓",
+      "kind": "search",
+      "created_at": "2021-06-09",
+      "first_date": "2026-11-21",
+      "last_date": "2026-11-21",
+      "dates": [
+        "2026-11-21"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "BaaRai/ARTEX",
+      "url": "https://github.com/BaaRai/ARTEX",
+      "description": "ARTEX - AI autonomous penetration testing system (English translation; upstream: Autumn-27/ARTEX, AGPL-3.0)",
+      "summary": "解决什么：一个基于 AI 的自动化渗透测试系统，能够自主执行安全评估和漏洞发现\n适合谁：网络安全专家、渗透测试人员、红队演练参与者\n亮点：利用 LLM 技术实现智能化的安全测试自动化",
+      "stars": 13995,
+      "language": "Go",
+      "topics": [
+        "ai",
+        "ai-agents",
+        "autonomous-agents",
+        "bug-bounty",
+        "docker",
+        "golang",
+        "linux",
+        "llm",
+        "mcp",
+        "nextjs",
+        "penetration-testing",
+        "pentest",
+        "postgresql",
+        "rea",
+        "react",
+        "red-team",
+        "security",
+        "security-automation",
+        "sqlite",
+        "typescript"
+      ],
+      "categories": [
+        "Linux",
+        "AI神器"
+      ],
+      "platforms": [
+        "Linux"
+      ],
+      "pick": "growth",
+      "slot": "Linux",
+      "kind": "search",
+      "created_at": "2026-10-08",
+      "first_date": "2026-11-21",
+      "last_date": "2026-11-21",
+      "dates": [
+        "2026-11-21"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "Kludex/starlette",
+      "url": "https://github.com/Kludex/starlette",
+      "description": "The little ASGI framework that shines. 🌟",
+      "summary": "学什么：掌握 ASGI 协议规范、中间件设计模式以及异步路由分发机制\n适合谁：适合有一定 Python 基础，希望掌握 ASGI 协议及异步 Web 开发进阶技巧的开发者\n怎么读：建议从 `routing.py` 和 `middleware.py` 入手，理解 ASGI 请求处理流程",
+      "stars": 12742,
+      "language": "Python",
+      "topics": [
+        "asgi",
+        "async",
+        "http",
+        "python",
+        "websockets"
+      ],
+      "categories": [
+        "Python"
+      ],
+      "platforms": [
+        "Python"
+      ],
+      "pick": null,
+      "slot": null,
+      "kind": "learn",
+      "created_at": "2018-06-25",
+      "first_date": "2026-10-23",
+      "last_date": "2026-11-21",
+      "dates": [
+        "2026-11-21",
+        "2026-11-18",
+        "2026-11-15",
+        "2026-11-14",
+        "2026-11-13",
+        "2026-11-12",
+        "2026-11-11",
+        "2026-11-08",
+        "2026-11-07",
+        "2026-11-06",
+        "2026-11-05",
+        "2026-11-03",
+        "2026-10-30",
+        "2026-10-26",
+        "2026-10-25",
+        "2026-10-24",
+        "2026-10-23"
+      ],
+      "times": 17
+    },
+    {
+      "full_name": "antirez/sds",
+      "url": "https://github.com/antirez/sds",
+      "description": "Simple Dynamic Strings library for C",
+      "summary": "学什么：学习 C 语言底层内存管理机制，掌握动态字符串的扩容策略及防止缓冲区溢出的技巧\n适合谁：适合有一定 C 语言基础，想深入理解 Redis 内部实现原理或学习高性能字符串库设计的开发者\n怎么读：建议先看结构体定义，再按初始化、追加、截断等核心功能的顺序阅读实现代码",
+      "stars": 5595,
+      "language": "C",
+      "topics": [],
+      "categories": [
+        "C"
+      ],
+      "platforms": [
+        "C"
+      ],
+      "pick": null,
+      "slot": null,
+      "kind": "learn",
+      "created_at": "2014-02-06",
+      "first_date": "2026-10-21",
+      "last_date": "2026-11-21",
+      "dates": [
+        "2026-11-21",
+        "2026-11-03",
+        "2026-10-21"
+      ],
+      "times": 3
+    },
+    {
+      "full_name": "jhaizhou-ops/d2r-mobile",
+      "url": "https://github.com/jhaizhou-ops/d2r-mobile",
+      "description": "Open-source compatibility layer for Diablo II: Resurrected with the Reign of the Warlock expansion. Runs your own Switch copy natively on iPhone, iPad, Mac, Android and HarmonyOS — full touch controls, 60 fps, new endgame modes. Bring your own game files. 开源的《暗黑破坏神 II：狱火重生》术士君临 iOS / macOS / 安卓 / 鸿蒙兼容层",
+      "summary": "为《暗黑破坏神 II：狱火重生》提供跨平台兼容层，支持在移动设备上运行 Switch 版游戏文件\n适合拥有 Switch 版游戏文件的玩家，希望在 iPhone、iPad、Mac 或安卓设备上流畅游玩《暗黑破坏神 II》\n支持鸿蒙系统，提供原生性能、触控操作及 60 帧流畅体验",
+      "stars": 5355,
+      "language": "C",
+      "topics": [
+        "android",
+        "compatibility-layer",
+        "diablo-2-resurrected",
+        "diablo2",
+        "game-port",
+        "harmonyos",
+        "ios",
+        "ipad",
+        "iphone",
+        "mac",
+        "macos",
+        "metal",
+        "reign-of-the-warlock",
+        "vulkan"
+      ],
+      "categories": [
+        "鸿蒙"
+      ],
+      "platforms": [
+        "鸿蒙"
+      ],
+      "pick": "growth",
+      "slot": "鸿蒙",
+      "kind": "search",
+      "created_at": "2026-10-12",
+      "first_date": "2026-10-27",
+      "last_date": "2026-11-21",
+      "dates": [
+        "2026-11-21",
+        "2026-11-17",
+        "2026-11-13",
+        "2026-11-09",
+        "2026-11-04",
+        "2026-10-31",
+        "2026-10-27"
+      ],
+      "times": 7
+    },
+    {
+      "full_name": "modelflare-ai/AnyModelBot",
+      "url": "https://github.com/modelflare-ai/AnyModelBot",
+      "description": "🤖 Open-source, local-first alternative to Grok Bot, OpenAI dots and Claude Duet. Your own AI bots on any model: GPT, Claude, Gemini, Grok, DeepSeek, Kimi, GLM and 70+ more through one Modelflare key. Reach them in the app, WeChat or Feishu; they remember you, work in the background, run commands and use your computer. Pay per use.",
+      "summary": "解决什么：提供一个开源的本地优先 AI 代理，可以运行在多种大型语言模型上，实现类似 Grok Bot、OpenAI 和 Claude Duet 的功能\n适合谁：需要使用多种 AI 模型并希望在自己的设备上运行 AI 助手的开发者或个人用户\n亮点：支持 70 多种 AI 模型，可在本地运行，并通过 Modelflare 平台统一管理",
+      "stars": 4912,
+      "language": "Python",
+      "topics": [
+        "ai-agent",
+        "ai-assistant",
+        "chatbot",
+        "claude",
+        "computer-use",
+        "deepseek",
+        "desktop-app",
+        "dsh",
+        "electron",
+        "feishu",
+        "gemini",
+        "gpt",
+        "grok",
+        "llm",
+        "local-first",
+        "modelflare",
+        "multi-model",
+        "openai-compatible",
+        "personal-ai-agent",
+        "wechat"
+      ],
+      "categories": [
+        "AI",
+        "AI神器"
+      ],
+      "platforms": [
+        "AI",
+        "AI神器"
+      ],
+      "pick": "ai_tool",
+      "slot": "AI神器",
+      "kind": "search",
+      "created_at": "2026-10-27",
+      "first_date": "2026-11-03",
+      "last_date": "2026-11-21",
+      "dates": [
+        "2026-11-21",
+        "2026-11-16",
+        "2026-11-12",
+        "2026-11-03"
+      ],
+      "times": 4
+    },
+    {
+      "full_name": "ersinkoc/phonebox",
+      "url": "https://github.com/ersinkoc/phonebox",
+      "description": "Turn an old Android phone into a customizable desk panel and touch control deck for Windows, Linux and macOS. 124 widgets and 30 templates for system stats, AI coding, media and automation, in 13 languages. USB or paired Wi-Fi. No cloud required.",
+      "summary": "解决什么：将旧安卓手机变成可定制的桌面面板和触控控制台，用于Windows、Linux和macOS系统，提供系统状态、AI编码、媒体和自动化等功能\n适合谁：需要桌面增强或远程控制的用户，特别是希望利用旧设备提升工作效率或智能家居体验的人\n亮点：提供丰富的系统监控、AI编程、媒体控制和自动化功能，无需云服务即可本地运行",
+      "stars": 4313,
+      "language": "C#",
+      "topics": [
+        "android",
+        "claude-code",
+        "codex",
+        "dashboard",
+        "desk-panel",
+        "dotnet",
+        "home-assistant",
+        "linux",
+        "macos",
+        "old-phone",
+        "smart-stack",
+        "stream-deck",
+        "system-monitor",
+        "tailscale",
+        "webhooks",
+        "widgets",
+        "windows"
+      ],
+      "categories": [
+        "Linux",
+        "Windows"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "pick": "growth",
+      "slot": "Windows",
+      "kind": "search",
+      "created_at": "2026-11-07",
+      "first_date": "2026-11-17",
+      "last_date": "2026-11-21",
+      "dates": [
+        "2026-11-21",
+        "2026-11-17"
+      ],
+      "times": 2
+    },
+    {
+      "full_name": "Folkbench/folkbench",
+      "url": "https://github.com/Folkbench/folkbench",
+      "description": "AI API 中转站推荐与评测：中转站排行榜、中转站检测、Claude / GPT / Gemini 中转站对比 · AI API relay rankings · Folkbench Switch for Claude Code, Codex & Gemini CLI",
+      "summary": "解决什么：提供 AI API 中转站的评测和排行榜，帮助开发者选择和对比不同的 AI 服务\n适合谁：需要使用或评估 AI API 中转站的开发者，特别是使用 Claude、GPT 或 Gemini 的用户\n亮点：集成多种 AI 服务的中转站评测平台，方便用户进行服务选择和性能比较",
+      "stars": 3249,
+      "language": "TypeScript",
+      "topics": [
+        "ai-coding",
+        "aider",
+        "api-gateway",
+        "api-relay",
+        "benchmark",
+        "claude",
+        "claude-code",
+        "codex",
+        "data-security",
+        "deepseek",
+        "developer-tools",
+        "gemini",
+        "gemini-cli",
+        "llm",
+        "llm-benchmark",
+        "model-evaluation",
+        "openai-api",
+        "opencode",
+        "rust",
+        "tauri"
+      ],
+      "categories": [
+        "AI神器"
+      ],
+      "platforms": [
+        "AI神器"
+      ],
+      "pick": "ai_tool",
+      "slot": "AI神器",
+      "kind": "search",
+      "created_at": "2026-10-02",
+      "first_date": "2026-11-21",
+      "last_date": "2026-11-21",
+      "dates": [
+        "2026-11-21"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "n8n-io/nod",
+      "url": "https://github.com/n8n-io/nod",
+      "description": "Open source personal agent with its own computer. It chases invoices, preps your calls and cancels trials on real websites, and asks before it acts. Runs on your machine with the model you choose. By n8n.",
+      "summary": "提供拥有自主操作能力的开源个人 AI 代理，能自动处理账单、取消试用等网页任务\n适合希望自托管、保护隐私，并利用本地模型控制电脑执行自动化任务的个人用户\n本地运行且支持自定义模型，具备浏览器自动化能力，且行动前会询问确认",
+      "stars": 2868,
+      "language": "TypeScript",
+      "topics": [
+        "agents",
+        "ai-agent",
+        "ai-assistant",
+        "anthropic",
+        "automation",
+        "browser-automation",
+        "computer-use",
+        "electron",
+        "llm",
+        "local-first",
+        "mcp",
+        "n8n",
+        "openai",
+        "personal-agent",
+        "personal-assistant",
+        "privacy",
+        "self-hosted",
+        "telegram-bot",
+        "typescript",
+        "whatsapp-bot"
+      ],
+      "categories": [
+        "AI神器"
+      ],
+      "platforms": [
+        "AI神器"
+      ],
+      "pick": "ai_tool",
+      "slot": "AI神器",
+      "kind": "search",
+      "created_at": "2026-09-25",
+      "first_date": "2026-11-13",
+      "last_date": "2026-11-21",
+      "dates": [
+        "2026-11-21",
+        "2026-11-17",
+        "2026-11-13"
+      ],
+      "times": 3
+    },
+    {
+      "full_name": "bookwjitchieni1986/blender-ai-mcp-addon",
+      "url": "https://github.com/bookwjitchieni1986/blender-ai-mcp-addon",
+      "description": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration.",
+      "summary": "解决什么：为 Blender 提供基于 AI 的辅助工具和场景工具，支持多智能体工作流，通过视觉聊天与多种 LLM 模型交互\n适合谁：Blender 用户，需要 AI 辅助进行 3D 建模、场景编辑和自动化工作流的开发者\n亮点：集成多种 LLM 模型，实现 Blender 内部 AI 聊天和场景工具自动化",
+      "stars": 1854,
+      "language": "",
+      "topics": [
+        "ai-agents",
+        "ai-assistant",
+        "blender",
+        "blender-addon",
+        "blender-ai",
+        "blender-automation",
+        "blender-mcp",
+        "blender-plugin",
+        "blender-scripting",
+        "bpy",
+        "chatgpt",
+        "claude",
+        "gemini",
+        "llm",
+        "mcp",
+        "mcp-for-blender",
+        "mcp-server",
+        "model-context-protocol",
+        "ollama",
+        "opencode"
+      ],
+      "categories": [
+        "AI",
+        "AI神器"
+      ],
+      "platforms": [
+        "AI",
+        "AI神器"
+      ],
+      "pick": "ai_tool",
+      "slot": "AI神器",
+      "kind": "search",
+      "created_at": "2026-11-19",
+      "first_date": "2026-11-21",
+      "last_date": "2026-11-21",
+      "dates": [
+        "2026-11-21"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "iamajmeena/neonclipping",
+      "url": "https://github.com/iamajmeena/neonclipping",
+      "description": "Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM).",
+      "summary": "解决将视频链接自动生成带字幕的 9:16 竖屏短视频片段的问题\n适合需要快速剪辑 YouTube 视频并生成字幕短视频的内容创作者\n亮点是完全本地化运行、开源免费，并利用 Whisper 自动生成字幕",
+      "stars": 1350,
+      "language": "Python",
+      "topics": [
+        "clipping",
+        "ffmpeg",
+        "shorts",
+        "video",
+        "whisper",
+        "yt-dlp"
+      ],
+      "categories": [
+        "AI"
+      ],
+      "platforms": [
+        "AI"
+      ],
+      "pick": "ai",
+      "slot": "AI",
+      "kind": "search",
+      "created_at": "2026-11-19",
+      "first_date": "2026-11-21",
+      "last_date": "2026-11-21",
+      "dates": [
+        "2026-11-21"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "OpenBMB/MiniCPM-V-Apps",
+      "url": "https://github.com/OpenBMB/MiniCPM-V-Apps",
+      "description": "MiniCPM-V apps — fully offline multimodal chat on iOS / Android / HarmonyOS",
+      "summary": "解决什么：在 iOS、Android 和 HarmonyOS 上实现完全离线的多模态聊天\n适合谁：需要在移动端部署 MiniCPM-V 模型的开发者\n亮点：支持三大移动平台且完全离线运行",
+      "stars": 532,
+      "language": "Swift",
+      "topics": [
+        "android",
+        "harmonyos",
+        "ios",
+        "minicpm",
+        "minicpm-v"
+      ],
+      "categories": [
+        "鸿蒙"
+      ],
+      "platforms": [
+        "鸿蒙"
+      ],
+      "pick": "top",
+      "slot": "鸿蒙",
+      "kind": "search",
+      "created_at": "2025-08-05",
+      "first_date": "2026-11-21",
+      "last_date": "2026-11-21",
+      "dates": [
+        "2026-11-21"
+      ],
+      "times": 1
+    },
     {
       "full_name": "jeecgboot/JeecgBoot",
       "url": "https://github.com/jeecgboot/JeecgBoot",
@@ -1388,52 +2034,6 @@
       "times": 2
     },
     {
-      "full_name": "Kludex/starlette",
-      "url": "https://github.com/Kludex/starlette",
-      "description": "The little ASGI framework that shines. 🌟",
-      "summary": "掌握 ASGI 协议规范、中间件链式处理机制以及优雅的依赖注入设计\n适合希望深入理解 ASGI 协议、中间件模式及高性能异步 Web 服务架构的进阶开发者\n先阅读核心应用类 `Starlette`，再深入路由模块和中间件实现",
-      "stars": 12727,
-      "language": "Python",
-      "topics": [
-        "asgi",
-        "async",
-        "http",
-        "python",
-        "websockets"
-      ],
-      "categories": [
-        "Python"
-      ],
-      "platforms": [
-        "Python"
-      ],
-      "pick": null,
-      "slot": null,
-      "kind": "learn",
-      "created_at": "2018-06-25",
-      "first_date": "2026-10-23",
-      "last_date": "2026-11-18",
-      "dates": [
-        "2026-11-18",
-        "2026-11-15",
-        "2026-11-14",
-        "2026-11-13",
-        "2026-11-12",
-        "2026-11-11",
-        "2026-11-08",
-        "2026-11-07",
-        "2026-11-06",
-        "2026-11-05",
-        "2026-11-03",
-        "2026-10-30",
-        "2026-10-26",
-        "2026-10-25",
-        "2026-10-24",
-        "2026-10-23"
-      ],
-      "times": 16
-    },
-    {
       "full_name": "libracoder/kiri",
       "url": "https://github.com/libracoder/kiri",
       "description": "A small, fast container runtime for macOS, Windows and Linux with free Ngrok alternative",
@@ -1753,55 +2353,6 @@
       "times": 6
     },
     {
-      "full_name": "Gathin23/cleanyourtv",
-      "url": "https://github.com/Gathin23/cleanyourtv",
-      "description": "Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
-      "summary": "通过 Wi-Fi 远程清理安卓或 Google TV 上的预装软件，并打造类似 Apple TV 的界面\n拥有安卓电视、Google TV 或 Fire TV 设备，希望移除预装软件并优化隐私的用户\n支持远程 Wi-Fi 清理，界面风格酷似 Apple TV，近期涨星极快",
-      "stars": 58762,
-      "language": "Python",
-      "topics": [
-        "adb",
-        "adblock",
-        "android-tv",
-        "android-tv-launcher",
-        "apple-tv",
-        "bloatware-removal",
-        "claude-code",
-        "debloat",
-        "fire-tv",
-        "google-tv",
-        "launcher",
-        "privacy",
-        "smart-tv",
-        "sony-bravia",
-        "tcl",
-        "vibe-coding",
-        "xiaomi"
-      ],
-      "categories": [
-        "安卓"
-      ],
-      "platforms": [
-        "安卓"
-      ],
-      "pick": "growth",
-      "slot": "安卓",
-      "kind": "search",
-      "created_at": "2026-10-17",
-      "first_date": "2026-10-22",
-      "last_date": "2026-11-17",
-      "dates": [
-        "2026-11-17",
-        "2026-11-13",
-        "2026-11-09",
-        "2026-11-04",
-        "2026-10-31",
-        "2026-10-27",
-        "2026-10-22"
-      ],
-      "times": 7
-    },
-    {
       "full_name": "dockur/windows",
       "url": "https://github.com/dockur/windows",
       "description": "Windows inside a Docker container.",
@@ -2056,141 +2607,6 @@
         "2026-11-05"
       ],
       "times": 4
-    },
-    {
-      "full_name": "jhaizhou-ops/d2r-mobile",
-      "url": "https://github.com/jhaizhou-ops/d2r-mobile",
-      "description": "Open-source compatibility layer for Diablo II: Resurrected with the Reign of the Warlock expansion. Runs your own Switch copy natively on iPhone, iPad, Mac, Android and HarmonyOS — full touch controls, 60 fps, new endgame modes. Bring your own game files. 开源的《暗黑破坏神 II：狱火重生》术士君临 iOS / macOS / 安卓 / 鸿蒙兼容层",
-      "summary": "为《暗黑破坏神 II：狱火重生》提供跨平台兼容层，让 Switch 版游戏能在 iPhone、iPad、Mac、Android 和 HarmonyOS 上运行\n适合拥有 Switch 版游戏文件，希望在这些设备上获得触控操作和 60 帧流畅体验的玩家\n支持触控操作、60 帧运行及术士君临扩展，近期涨星迅速",
-      "stars": 5329,
-      "language": "C",
-      "topics": [
-        "android",
-        "compatibility-layer",
-        "diablo-2-resurrected",
-        "diablo2",
-        "game-port",
-        "harmonyos",
-        "ios",
-        "ipad",
-        "iphone",
-        "mac",
-        "macos",
-        "metal",
-        "reign-of-the-warlock",
-        "vulkan"
-      ],
-      "categories": [
-        "鸿蒙"
-      ],
-      "platforms": [
-        "鸿蒙"
-      ],
-      "pick": "growth",
-      "slot": "鸿蒙",
-      "kind": "search",
-      "created_at": "2026-10-12",
-      "first_date": "2026-10-27",
-      "last_date": "2026-11-17",
-      "dates": [
-        "2026-11-17",
-        "2026-11-13",
-        "2026-11-09",
-        "2026-11-04",
-        "2026-10-31",
-        "2026-10-27"
-      ],
-      "times": 6
-    },
-    {
-      "full_name": "n8n-io/nod",
-      "url": "https://github.com/n8n-io/nod",
-      "description": "Open source personal agent with its own computer. It chases invoices, preps your calls and cancels trials on real websites, and asks before it acts. Runs on your machine with the model you choose. By n8n.",
-      "summary": "解决个人自动化任务，如追踪发票、准备通话及取消试用\n适合希望利用 AI 自动化日常杂务并拥有完全控制权的个人用户\n自托管运行，具备浏览器自动化能力，能在真实网站上执行任务并行动前征询许可",
-      "stars": 2131,
-      "language": "TypeScript",
-      "topics": [
-        "agents",
-        "ai-agent",
-        "ai-assistant",
-        "anthropic",
-        "automation",
-        "browser-automation",
-        "computer-use",
-        "electron",
-        "llm",
-        "local-first",
-        "mcp",
-        "n8n",
-        "openai",
-        "personal-agent",
-        "personal-assistant",
-        "privacy",
-        "self-hosted",
-        "telegram-bot",
-        "typescript",
-        "whatsapp-bot"
-      ],
-      "categories": [
-        "AI神器"
-      ],
-      "platforms": [
-        "AI神器"
-      ],
-      "pick": "ai_tool",
-      "slot": "AI神器",
-      "kind": "search",
-      "created_at": "2026-09-25",
-      "first_date": "2026-11-13",
-      "last_date": "2026-11-17",
-      "dates": [
-        "2026-11-17",
-        "2026-11-13"
-      ],
-      "times": 2
-    },
-    {
-      "full_name": "ersinkoc/phonebox",
-      "url": "https://github.com/ersinkoc/phonebox",
-      "description": "Turn an old Android phone into a customizable desk panel and touch control deck for Windows, Linux and macOS. 115 widgets for system stats, AI coding, media and automation. USB or paired Wi-Fi. No cloud required.",
-      "summary": "将旧安卓手机转化为跨平台的桌面控制面板与仪表盘，提供系统监控、AI 编码及媒体控制等功能\n适合希望在 Windows、Linux 或 macOS 上利用旧安卓手机打造个性化桌面控制面板的用户\n支持 USB 或 Wi-Fi 连接且无需云端，提供 115 种功能丰富的小部件",
-      "stars": 2081,
-      "language": "C#",
-      "topics": [
-        "android",
-        "claude-code",
-        "codex",
-        "dashboard",
-        "desk-panel",
-        "dotnet",
-        "linux",
-        "macos",
-        "old-phone",
-        "smart-stack",
-        "stream-deck",
-        "system-monitor",
-        "tailscale",
-        "webhooks",
-        "widgets",
-        "windows"
-      ],
-      "categories": [
-        "Linux",
-        "Windows"
-      ],
-      "platforms": [
-        "Windows"
-      ],
-      "pick": "growth",
-      "slot": "Windows",
-      "kind": "search",
-      "created_at": "2026-11-07",
-      "first_date": "2026-11-17",
-      "last_date": "2026-11-17",
-      "dates": [
-        "2026-11-17"
-      ],
-      "times": 1
     },
     {
       "full_name": "FrigadeHQ/yogurt",
@@ -2661,56 +3077,6 @@
         "2026-11-12"
       ],
       "times": 2
-    },
-    {
-      "full_name": "modelflare-ai/AnyModelBot",
-      "url": "https://github.com/modelflare-ai/AnyModelBot",
-      "description": "🤖 Open-source, local-first alternative to Grok Bot, OpenAI dots and Claude Duet. Your own AI bots on any model: GPT, Claude, Gemini, Grok, DeepSeek, Kimi, GLM and 70+ more through one Modelflare key. Reach them in the app, WeChat or Feishu; they remember you, work in the background, run commands and use your computer. Pay per use.",
-      "summary": "解决什么：提供一个开源的本地优先 AI 代理，支持在本地运行多种 AI 模型，并能与用户在应用、微信或飞书等平台交互\n适合谁：需要使用多种 AI 模型并希望本地化运行的开发者或个人用户\n亮点：支持 70+ 种 AI 模型，可在本地运行并通过多种方式与 AI 代理交互",
-      "stars": 4141,
-      "language": "Python",
-      "topics": [
-        "ai-agent",
-        "ai-assistant",
-        "chatbot",
-        "claude",
-        "computer-use",
-        "deepseek",
-        "desktop-app",
-        "dsh",
-        "electron",
-        "feishu",
-        "gemini",
-        "gpt",
-        "grok",
-        "llm",
-        "local-first",
-        "modelflare",
-        "multi-model",
-        "openai-compatible",
-        "personal-ai-agent",
-        "wechat"
-      ],
-      "categories": [
-        "AI",
-        "AI神器"
-      ],
-      "platforms": [
-        "AI",
-        "AI神器"
-      ],
-      "pick": "ai_tool",
-      "slot": "AI神器",
-      "kind": "search",
-      "created_at": "2026-10-27",
-      "first_date": "2026-11-03",
-      "last_date": "2026-11-16",
-      "dates": [
-        "2026-11-16",
-        "2026-11-12",
-        "2026-11-03"
-      ],
-      "times": 3
     },
     {
       "full_name": "harmony-on-android/HOA",
@@ -6571,32 +6937,6 @@
         "2026-11-04"
       ],
       "times": 1
-    },
-    {
-      "full_name": "antirez/sds",
-      "url": "https://github.com/antirez/sds",
-      "description": "Simple Dynamic Strings library for C",
-      "summary": "掌握 C 语言动态字符串的实现原理，深入理解内存预分配与惰性释放策略\n适合有一定 C 语言基础，想深入理解 Redis 底层数据结构或 C 语言内存管理的开发者\n先阅读 `sds.h` 中的结构体定义，再逐行分析 `sds.c` 中的内存管理核心逻辑",
-      "stars": 5588,
-      "language": "C",
-      "topics": [],
-      "categories": [
-        "C"
-      ],
-      "platforms": [
-        "C"
-      ],
-      "pick": null,
-      "slot": null,
-      "kind": "learn",
-      "created_at": "2014-02-06",
-      "first_date": "2026-10-21",
-      "last_date": "2026-11-03",
-      "dates": [
-        "2026-11-03",
-        "2026-10-21"
-      ],
-      "times": 2
     },
     {
       "full_name": "l0ng-ai/openidea",
