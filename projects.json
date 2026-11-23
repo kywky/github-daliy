@@ -1,8 +1,625 @@
 {
-  "generated_at": "2026-11-22T06:20:13.723945+00:00",
-  "total": 233,
-  "occurrences": 427,
+  "generated_at": "2026-11-23T07:09:49.634458+00:00",
+  "total": 241,
+  "occurrences": 442,
   "projects": [
+    {
+      "full_name": "Niko1221/Strata",
+      "url": "https://github.com/Niko1221/Strata",
+      "description": "Qwen3.8-Flash-Next on any consumer hardware: one-click install for Windows / Linux. Strata inference engine, OpenAI/Anthropic API on localhost, optional image input.",
+      "summary": "解决什么：在普通消费级硬件上快速运行 Qwen3.8-Flash-Next 模型，提供 Windows/Linux 一键安装方案\n适合谁：需要本地快速部署和运行大型语言模型的开发者或研究人员\n亮点：专为消费级硬件优化，实现 Qwen3.8-Flash-Next 的一键安装和本地推理",
+      "stars": 47178,
+      "language": "C++",
+      "topics": [],
+      "categories": [
+        "Windows"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "pick": "growth",
+      "slot": "Windows",
+      "kind": "search",
+      "created_at": "2026-09-24",
+      "first_date": "2026-10-25",
+      "last_date": "2026-11-23",
+      "dates": [
+        "2026-11-23",
+        "2026-11-09",
+        "2026-11-02",
+        "2026-10-29",
+        "2026-10-25"
+      ],
+      "times": 5
+    },
+    {
+      "full_name": "ifixai-ai/iFixAi",
+      "url": "https://github.com/ifixai-ai/iFixAi",
+      "description": "Independent Auditing of AI Agents. Run by human or the agent itself, to answer the most crucial question in the AI Agent Economy. Is the agent doing what is supposed to do? With iFixAi you can have this answer in less than 120 seconds.",
+      "summary": "解决什么：独立审计 AI 代理，快速判断代理是否按预期执行任务\n适合谁：AI 代理开发者、研究人员，需要评估代理行为是否符合要求\n亮点：在 120 秒内提供 AI 代理行为的独立审计结果",
+      "stars": 46889,
+      "language": "Python",
+      "topics": [
+        "agent-evaluation",
+        "ai",
+        "ai-alignment",
+        "ai-evaluation",
+        "ai-governance",
+        "ai-safety",
+        "cli",
+        "diagnostic-tool",
+        "eu-ai-act",
+        "hallucination-detection",
+        "iso-42001",
+        "llm-evaluation",
+        "llm-security",
+        "nist-ai-rmf",
+        "owasp-llm",
+        "prompt-injection",
+        "python",
+        "responsible-ai",
+        "risk-assessment",
+        "risk-management"
+      ],
+      "categories": [
+        "Linux"
+      ],
+      "platforms": [
+        "Linux"
+      ],
+      "pick": "top",
+      "slot": "Linux",
+      "kind": "search",
+      "created_at": "2026-04-27",
+      "first_date": "2026-10-28",
+      "last_date": "2026-11-23",
+      "dates": [
+        "2026-11-23",
+        "2026-11-01",
+        "2026-10-28"
+      ],
+      "times": 3
+    },
+    {
+      "full_name": "GyulyVGC/sniffnet",
+      "url": "https://github.com/GyulyVGC/sniffnet",
+      "description": "Comfortably monitor your network traffic 🕵️‍♂️",
+      "summary": "提供直观的图形化界面，帮助用户轻松监控本地网络流量及上传下载速度\n适合需要实时了解网络带宽使用情况、排查网络问题或单纯监控流量的普通用户\n基于开源 Rust 语言开发，拥有极简美观的图形界面，且无需安装驱动即可在多平台流畅运行",
+      "stars": 43247,
+      "language": "Rust",
+      "topics": [
+        "app",
+        "application",
+        "cybersecurity",
+        "gui",
+        "iced",
+        "ip-geolocation",
+        "ipfix",
+        "linux",
+        "macos",
+        "network",
+        "network-monitoring",
+        "networking",
+        "packet-capture",
+        "packet-sniffer",
+        "pcap",
+        "rust",
+        "security",
+        "tool",
+        "utility",
+        "windows"
+      ],
+      "categories": [
+        "Linux",
+        "Windows"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "pick": "top",
+      "slot": "Windows",
+      "kind": "search",
+      "created_at": "2022-07-31",
+      "first_date": "2026-11-23",
+      "last_date": "2026-11-23",
+      "dates": [
+        "2026-11-23"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "beemdevelopment/Aegis",
+      "url": "https://github.com/beemdevelopment/Aegis",
+      "description": "A free, secure and open source app for Android to manage your 2-step verification tokens.",
+      "summary": "解决什么：为安卓用户提供一个免费、安全、开源的应用，用于管理两步验证令牌\n适合谁：需要使用两步验证进行账户安全认证的安卓用户\n亮点：集成了多种验证方式，支持指纹和密码解锁，安全便捷",
+      "stars": 13605,
+      "language": "Java",
+      "topics": [
+        "2fa",
+        "android",
+        "authenticator",
+        "encryption",
+        "fingerprint",
+        "hotp",
+        "otp",
+        "secure",
+        "totp"
+      ],
+      "categories": [
+        "安卓"
+      ],
+      "platforms": [
+        "安卓"
+      ],
+      "pick": "top",
+      "slot": "安卓",
+      "kind": "search",
+      "created_at": "2016-08-15",
+      "first_date": "2026-11-23",
+      "last_date": "2026-11-23",
+      "dates": [
+        "2026-11-23"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "DaveGamble/cJSON",
+      "url": "https://github.com/DaveGamble/cJSON",
+      "description": "Ultralightweight JSON parser in ANSI C",
+      "summary": "掌握 C 语言指针操作、递归下降解析算法及内存管理技巧\n适合有一定 C 语言基础，希望深入理解解析器原理或从事嵌入式开发的读者\n建议从主函数入口开始，按解析、打印等核心函数顺序阅读",
+      "stars": 13104,
+      "language": "C",
+      "topics": [],
+      "categories": [
+        "C"
+      ],
+      "platforms": [
+        "C"
+      ],
+      "pick": null,
+      "slot": null,
+      "kind": "learn",
+      "created_at": "2016-03-19",
+      "first_date": "2026-11-04",
+      "last_date": "2026-11-23",
+      "dates": [
+        "2026-11-23",
+        "2026-11-04"
+      ],
+      "times": 2
+    },
+    {
+      "full_name": "Kludex/starlette",
+      "url": "https://github.com/Kludex/starlette",
+      "description": "The little ASGI framework that shines. 🌟",
+      "summary": "学什么：掌握 ASGI 协议实现、中间件洋葱模型及依赖注入机制\n适合谁：适合希望深入理解 ASGI 协议、中间件机制及异步 Web 开发的 Python 开发者\n怎么读：建议从核心路由模块入手，依次阅读中间件、依赖注入及测试客户端",
+      "stars": 12755,
+      "language": "Python",
+      "topics": [
+        "asgi",
+        "async",
+        "http",
+        "python",
+        "websockets"
+      ],
+      "categories": [
+        "Python"
+      ],
+      "platforms": [
+        "Python"
+      ],
+      "pick": null,
+      "slot": null,
+      "kind": "learn",
+      "created_at": "2018-06-25",
+      "first_date": "2026-10-23",
+      "last_date": "2026-11-23",
+      "dates": [
+        "2026-11-23",
+        "2026-11-22",
+        "2026-11-21",
+        "2026-11-18",
+        "2026-11-15",
+        "2026-11-14",
+        "2026-11-13",
+        "2026-11-12",
+        "2026-11-11",
+        "2026-11-08",
+        "2026-11-07",
+        "2026-11-06",
+        "2026-11-05",
+        "2026-11-03",
+        "2026-10-30",
+        "2026-10-26",
+        "2026-10-25",
+        "2026-10-24",
+        "2026-10-23"
+      ],
+      "times": 19
+    },
+    {
+      "full_name": "erkamyaman/rust-anything",
+      "url": "https://github.com/erkamyaman/rust-anything",
+      "description": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.",
+      "summary": "解决什么：帮助开发者将 TypeScript、Python 等语言的现有应用逐步重写为 Rust，并确保每一步行为与原版一致\n适合谁：适合需要将旧语言（Java、Go、Python 等）项目迁移到 Rust 以提升性能的开发者\n亮点：利用 AI 逐块重写代码并实时验证行为一致性",
+      "stars": 8180,
+      "language": "Rust",
+      "topics": [
+        "agent-skills",
+        "claude-code",
+        "cli",
+        "code-migration",
+        "codex",
+        "ffi",
+        "golang",
+        "java",
+        "javascript",
+        "mcp",
+        "migration",
+        "napi",
+        "performance",
+        "porting",
+        "pyo3",
+        "python",
+        "rewrite",
+        "ruby",
+        "rust",
+        "typescript"
+      ],
+      "categories": [
+        "Linux",
+        "AI神器"
+      ],
+      "platforms": [
+        "Linux",
+        "AI神器"
+      ],
+      "pick": "ai_tool",
+      "slot": "AI神器",
+      "kind": "search",
+      "created_at": "2026-11-16",
+      "first_date": "2026-11-19",
+      "last_date": "2026-11-23",
+      "dates": [
+        "2026-11-23",
+        "2026-11-19"
+      ],
+      "times": 2
+    },
+    {
+      "full_name": "shinyobjectz/raea",
+      "url": "https://github.com/shinyobjectz/raea",
+      "description": "Render Anything Engine: tell your AI what to make. Videos, motion graphics, 3D and games as React and TypeScript, rendered on your own GPU. Rust + Bevy, macOS, Linux and Windows.",
+      "summary": "它是一个基于 AI 的本地渲染引擎，支持通过文本描述生成视频、3D 和游戏内容\n适合需要本地视频、3D 渲染及游戏开发的开发者与设计师\n结合 AI、React 和 Rust，在本地 GPU 上高效渲染视频、3D 和游戏",
+      "stars": 4456,
+      "language": "TypeScript",
+      "topics": [
+        "3d",
+        "agent-skills",
+        "ai-agents",
+        "ai-video",
+        "bevy",
+        "claude-code",
+        "game-engine",
+        "gpu",
+        "linux",
+        "macos",
+        "motion-design",
+        "motion-graphics",
+        "react",
+        "rust",
+        "typescript",
+        "video-editing",
+        "video-rendering",
+        "wgpu",
+        "windows"
+      ],
+      "categories": [
+        "Linux",
+        "Windows"
+      ],
+      "platforms": [
+        "Linux"
+      ],
+      "pick": "growth",
+      "slot": "Linux",
+      "kind": "search",
+      "created_at": "2026-10-18",
+      "first_date": "2026-11-09",
+      "last_date": "2026-11-23",
+      "dates": [
+        "2026-11-23",
+        "2026-11-09"
+      ],
+      "times": 2
+    },
+    {
+      "full_name": "XinaTian/MROffice",
+      "url": "https://github.com/XinaTian/MROffice",
+      "description": "MR Office — the open-source editors of the AI office suite closest to Microsoft Office: documents, spreadsheets, presentations, PDF and code in the browser. Copilot in every editor edits real Word, Excel and PowerPoint files with you; an MCP server lets Claude, ChatGPT, Cursor and Codex create and edit them; embed it in your app with one line.",
+      "summary": "解决什么：提供基于浏览器的 AI 办公套件，支持文档、表格、演示文稿及 PDF 编辑，并允许 AI 直接编辑真实文件\n适合谁：适合需要 AI 辅助办公、集成到应用中，或使用 Claude、ChatGPT、Cursor 等工具的用户\n亮点：支持真实 Word/Excel/PPT 编辑，集成 MCP 服务器，可一行代码嵌入应用",
+      "stars": 2461,
+      "language": "TypeScript",
+      "topics": [
+        "ai",
+        "ai-agent",
+        "claude-code",
+        "codex",
+        "copilot",
+        "cursor",
+        "document-editor",
+        "docx",
+        "embed",
+        "excel",
+        "mcp",
+        "mcp-server",
+        "microsoft-office-alternative",
+        "office-suite",
+        "pdf-editor",
+        "powerpoint",
+        "pptx",
+        "spreadsheet",
+        "word",
+        "xlsx"
+      ],
+      "categories": [
+        "AI神器"
+      ],
+      "platforms": [
+        "AI神器"
+      ],
+      "pick": "ai_tool",
+      "slot": "AI神器",
+      "kind": "search",
+      "created_at": "2026-11-10",
+      "first_date": "2026-11-23",
+      "last_date": "2026-11-23",
+      "dates": [
+        "2026-11-23"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "Pilipala9919/MarcoMovie",
+      "url": "https://github.com/Pilipala9919/MarcoMovie",
+      "description": "由 Pilipala 开发的多端自适应播放器（支持 Android 电视/手机/平板、Apple TV、HarmonyOS NEXT、iOS/iPadOS、Windows、macOS）。仅提供工具，不含影视资源；内容和配置由用户自行合法获取。",
+      "summary": "提供跨平台通用播放工具，解决多设备适配问题\n适合需要在 HarmonyOS NEXT、iOS、Android 等多系统设备上播放资源的用户\n支持鸿蒙 NEXT 等多平台，近期涨星最快",
+      "stars": 1089,
+      "language": "Java",
+      "topics": [],
+      "categories": [
+        "鸿蒙"
+      ],
+      "platforms": [
+        "鸿蒙"
+      ],
+      "pick": "growth",
+      "slot": "鸿蒙",
+      "kind": "search",
+      "created_at": "2026-10-26",
+      "first_date": "2026-11-19",
+      "last_date": "2026-11-23",
+      "dates": [
+        "2026-11-23",
+        "2026-11-19"
+      ],
+      "times": 2
+    },
+    {
+      "full_name": "INK-Q/agy-fast",
+      "url": "https://github.com/INK-Q/agy-fast",
+      "description": "Non-invasive MCP accelerator plugin for Google Antigravity (CLI/Desktop/IDE): cuts LLM turns (-34%), token quota (-31%), and upload traffic (-40%) without affecting native UI or diffs.",
+      "summary": "针对谷歌 Antigravity 的非侵入式 MCP 加速插件，旨在大幅降低 LLM 调用轮次、Token 消耗及上传流量\n适合使用 Google Antigravity CLI、Desktop 或 IDE 的开发者，旨在提升 AI 编码效率并降低成本\n无需修改原生 UI 即可减少 34% LLM 轮次、31% Token 消耗及 40% 上传流量，性能提升显著",
+      "stars": 625,
+      "language": "TypeScript",
+      "topics": [
+        "ai-agent",
+        "ai-coding",
+        "antigravity",
+        "antigravity-cli",
+        "antigravity-ide",
+        "antigravity-plugins",
+        "coding-agent",
+        "context-optimization",
+        "developer-productivity",
+        "developer-tools",
+        "gemini",
+        "google-antigravity",
+        "latency-optimization",
+        "mcp",
+        "mcp-plugin",
+        "mcp-server",
+        "model-context-protocol",
+        "performance",
+        "plugin",
+        "token-optimization"
+      ],
+      "categories": [
+        "AI",
+        "AI神器"
+      ],
+      "platforms": [
+        "AI",
+        "AI神器"
+      ],
+      "pick": "ai_tool",
+      "slot": "AI神器",
+      "kind": "search",
+      "created_at": "2026-11-19",
+      "first_date": "2026-11-23",
+      "last_date": "2026-11-23",
+      "dates": [
+        "2026-11-23"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "ausboyue/Wechat_HarmonyOS",
+      "url": "https://github.com/ausboyue/Wechat_HarmonyOS",
+      "description": "A highly imitated WeChat app developed based on HarmonyOS NEXT |  基于鸿蒙OS NEXT开发的高仿微信APP",
+      "summary": "解决什么：基于鸿蒙OS NEXT开发的高仿微信应用，解决了鸿蒙生态下使用微信的需求\n适合谁：适合鸿蒙开发者学习源码，或鸿蒙生态爱好者体验高仿微信应用\n亮点：基于鸿蒙OS NEXT开发的高保真微信复刻版，且在鸿蒙社区拥有较高人气",
+      "stars": 493,
+      "language": "TypeScript",
+      "topics": [
+        "harmony",
+        "harmony-wechat",
+        "wechat",
+        "wechat-harmony"
+      ],
+      "categories": [
+        "鸿蒙"
+      ],
+      "platforms": [
+        "鸿蒙"
+      ],
+      "pick": "top",
+      "slot": "鸿蒙",
+      "kind": "search",
+      "created_at": "2024-03-09",
+      "first_date": "2026-11-23",
+      "last_date": "2026-11-23",
+      "dates": [
+        "2026-11-23"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "w01fb0ss/PiBot",
+      "url": "https://github.com/w01fb0ss/PiBot",
+      "description": "Open-source, local-first AI agent team for your desktop: multi-agent group chats, computer use, browser, MCP, routines and approvals. macOS, Windows, Linux + Android. Built on pi.",
+      "summary": "为桌面端提供本地优先的多智能体 AI 团队，支持自动化任务、多智能体协作及计算机操作\n需要隐私保护、本地部署 AI 助手或自动化复杂任务的用户\n支持多智能体协作、计算机操作及本地模型，跨平台（桌面+Android）且注重隐私",
+      "stars": 441,
+      "language": "TypeScript",
+      "topics": [
+        "agent",
+        "ai-agent",
+        "ai-agents",
+        "ai-assistant",
+        "android",
+        "automation",
+        "chatgpt",
+        "coding-agent",
+        "computer-use",
+        "desktop-app",
+        "electron",
+        "llm",
+        "local-first",
+        "mcp",
+        "multi-agent",
+        "ollama",
+        "openai",
+        "privacy",
+        "self-hosted",
+        "typescript"
+      ],
+      "categories": [
+        "AI",
+        "AI神器"
+      ],
+      "platforms": [
+        "AI"
+      ],
+      "pick": "ai",
+      "slot": "AI",
+      "kind": "search",
+      "created_at": "2026-11-21",
+      "first_date": "2026-11-23",
+      "last_date": "2026-11-23",
+      "dates": [
+        "2026-11-23"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "pilpay29/izotope-nectar-4-win",
+      "url": "https://github.com/pilpay29/izotope-nectar-4-win",
+      "description": "iZotope Nectar 4 - vocal production plugin for AI-assisted vocal chains, pitch correction and harmony generation on Windows 10/11",
+      "summary": "提供适用于 Windows 10/11 的 AI 辅助人声制作插件，用于构建人声链、进行音高修正及生成和声。\n适合需要专业人声处理、音高修正及和声生成的音频工程师和音乐制作人。\n集成 iZotope Nectar 4，提供 Windows 平台上一站式 AI 辅助人声处理方案。",
+      "stars": 414,
+      "language": "",
+      "topics": [
+        "harmony-plugin",
+        "izotope-config",
+        "izotope-download",
+        "izotope-install",
+        "izotope-integration",
+        "izotope-key",
+        "izotope-latest",
+        "izotope-nectar",
+        "izotope-nectar-key",
+        "izotope-ozone",
+        "izotope-rx",
+        "izotope-rx-free",
+        "izotope-rx-latest",
+        "izotope-software",
+        "izotope-trial",
+        "nectar-cloud",
+        "pitch-correction",
+        "vocal-assistant",
+        "vocal-plugin",
+        "vocal-production"
+      ],
+      "categories": [
+        "AI神器"
+      ],
+      "platforms": [
+        "AI神器"
+      ],
+      "pick": "ai_tool",
+      "slot": "AI神器",
+      "kind": "search",
+      "created_at": "2026-11-21",
+      "first_date": "2026-11-23",
+      "last_date": "2026-11-23",
+      "dates": [
+        "2026-11-23"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "himeshsuthar91-eng/samsung-android-mtp-samfw-tool-v5-mtp-safalen",
+      "url": "https://github.com/himeshsuthar91-eng/samsung-android-mtp-samfw-tool-v5-mtp-safalen",
+      "description": "Samsung Android Mtp Samfw Tool V5 Mtp Safalen enables Android MTP device file transfer.",
+      "summary": "解决什么：在安卓设备上实现 MTP 文件传输功能\n适合谁：需要使用 Samsung 安卓设备进行文件传输的用户\n亮点：专为 Samsung 设备设计的 MTP 工具",
+      "stars": 250,
+      "language": "HTML",
+      "topics": [
+        "changer",
+        "csc",
+        "hyperos-bootloader",
+        "knox",
+        "mtk-helper",
+        "mtp",
+        "mtp-helper",
+        "oneui",
+        "qualcomm-edl",
+        "samfw",
+        "samfw-tool",
+        "samsung-changer",
+        "samsung-csc",
+        "samsung-knox",
+        "samsung-mtp",
+        "samsung-samfw",
+        "samsung-tool",
+        "tool"
+      ],
+      "categories": [
+        "安卓"
+      ],
+      "platforms": [
+        "安卓"
+      ],
+      "pick": "growth",
+      "slot": "安卓",
+      "kind": "search",
+      "created_at": "2026-11-23",
+      "first_date": "2026-11-23",
+      "last_date": "2026-11-23",
+      "dates": [
+        "2026-11-23"
+      ],
+      "times": 1
+    },
     {
       "full_name": "morluto/rea",
       "url": "https://github.com/morluto/rea",
@@ -271,54 +888,6 @@
         "2026-11-07"
       ],
       "times": 2
-    },
-    {
-      "full_name": "Kludex/starlette",
-      "url": "https://github.com/Kludex/starlette",
-      "description": "The little ASGI framework that shines. 🌟",
-      "summary": "掌握 ASGI 协议下的异步路由分发机制与中间件链式处理模式\n适合希望深入理解 ASGI 标准及高性能 Web 框架架构设计的 Python 开发者\n建议先阅读 `Starlette` 类的初始化与 `Router` 的路由分发实现",
-      "stars": 12751,
-      "language": "Python",
-      "topics": [
-        "asgi",
-        "async",
-        "http",
-        "python",
-        "websockets"
-      ],
-      "categories": [
-        "Python"
-      ],
-      "platforms": [
-        "Python"
-      ],
-      "pick": null,
-      "slot": null,
-      "kind": "learn",
-      "created_at": "2018-06-25",
-      "first_date": "2026-10-23",
-      "last_date": "2026-11-22",
-      "dates": [
-        "2026-11-22",
-        "2026-11-21",
-        "2026-11-18",
-        "2026-11-15",
-        "2026-11-14",
-        "2026-11-13",
-        "2026-11-12",
-        "2026-11-11",
-        "2026-11-08",
-        "2026-11-07",
-        "2026-11-06",
-        "2026-11-05",
-        "2026-11-03",
-        "2026-10-30",
-        "2026-10-26",
-        "2026-10-25",
-        "2026-10-24",
-        "2026-10-23"
-      ],
-      "times": 18
     },
     {
       "full_name": "Minireel/HGhub",
@@ -2041,53 +2610,6 @@
       "times": 3
     },
     {
-      "full_name": "erkamyaman/rust-anything",
-      "url": "https://github.com/erkamyaman/rust-anything",
-      "description": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.",
-      "summary": "逐步将现有应用重写为 Rust，并确保每一步都符合原始行为\n适合需要将 CLI、HTTP 服务器及各类库从 TypeScript、Python、Go 等语言迁移至 Rust 的开发者\n支持多语言迁移，确保每一步重写都符合原始行为",
-      "stars": 3799,
-      "language": "Rust",
-      "topics": [
-        "agent-skills",
-        "claude-code",
-        "cli",
-        "code-migration",
-        "codex",
-        "ffi",
-        "golang",
-        "java",
-        "javascript",
-        "mcp",
-        "migration",
-        "napi",
-        "performance",
-        "porting",
-        "pyo3",
-        "python",
-        "rewrite",
-        "ruby",
-        "rust",
-        "typescript"
-      ],
-      "categories": [
-        "Linux",
-        "AI神器"
-      ],
-      "platforms": [
-        "Linux"
-      ],
-      "pick": "growth",
-      "slot": "Linux",
-      "kind": "search",
-      "created_at": "2026-11-16",
-      "first_date": "2026-11-19",
-      "last_date": "2026-11-19",
-      "dates": [
-        "2026-11-19"
-      ],
-      "times": 1
-    },
-    {
       "full_name": "Likely7/Veyra-NRVideo",
       "url": "https://github.com/Likely7/Veyra-NRVideo",
       "description": "Bring PS5 GTA6 to 120FPS with DLSS 5. An advanced Windows video player and capture enhancement tool featuring real-time preview for videos, images, and capture card sources. Combine AI-powered Super Resolution, DLSS5 image enhancement, and Frame Generation to deliver a next-generation visual experience.",
@@ -2207,31 +2729,6 @@
       "slot": "AI神器",
       "kind": "search",
       "created_at": "2026-10-22",
-      "first_date": "2026-11-19",
-      "last_date": "2026-11-19",
-      "dates": [
-        "2026-11-19"
-      ],
-      "times": 1
-    },
-    {
-      "full_name": "Pilipala9919/MarcoMovie",
-      "url": "https://github.com/Pilipala9919/MarcoMovie",
-      "description": "由 Pilipala 开发的多端自适应播放器（支持 Android 电视/手机/平板、Apple TV、HarmonyOS NEXT、iOS/iPadOS、Windows、macOS）。仅提供工具，不含影视资源；内容和配置由用户自行合法获取。",
-      "summary": "解决什么：解决跨平台视频播放需求，支持多系统多设备统一播放\n适合谁：适合需要在鸿蒙、iOS、Android及桌面端播放个人影视资源的用户\n亮点：近期涨星最快，支持鸿蒙 NEXT 等多系统多端播放",
-      "stars": 986,
-      "language": "Java",
-      "topics": [],
-      "categories": [
-        "鸿蒙"
-      ],
-      "platforms": [
-        "鸿蒙"
-      ],
-      "pick": "growth",
-      "slot": "鸿蒙",
-      "kind": "search",
-      "created_at": "2026-10-26",
       "first_date": "2026-11-19",
       "last_date": "2026-11-19",
       "dates": [
@@ -5476,34 +5973,6 @@
       "times": 2
     },
     {
-      "full_name": "Niko1221/Strata",
-      "url": "https://github.com/Niko1221/Strata",
-      "description": "Qwen3.8-Flash-Next on any consumer hardware: one-click install for Windows / Linux. Strata inference engine, OpenAI/Anthropic API on localhost, optional image input.",
-      "summary": "在消费级硬件上本地运行 Qwen3.8-Flash-Next 模型，并提供兼容 OpenAI/Anthropic 的 API 接口\n希望通过一键安装于本地运行大模型并调用 API 的用户\n支持图像输入的本地推理引擎，兼容 OpenAI/Anthropic API，且近期涨星极快",
-      "stars": 42126,
-      "language": "C++",
-      "topics": [],
-      "categories": [
-        "Windows"
-      ],
-      "platforms": [
-        "Windows"
-      ],
-      "pick": "growth",
-      "slot": "Windows",
-      "kind": "search",
-      "created_at": "2026-09-24",
-      "first_date": "2026-10-25",
-      "last_date": "2026-11-09",
-      "dates": [
-        "2026-11-09",
-        "2026-11-02",
-        "2026-10-29",
-        "2026-10-25"
-      ],
-      "times": 4
-    },
-    {
       "full_name": "HunxByts/GhostTrack",
       "url": "https://github.com/HunxByts/GhostTrack",
       "description": "Useful tool to track location or mobile number",
@@ -5699,52 +6168,6 @@
       "slot": "AI神器",
       "kind": "search",
       "created_at": "2026-11-03",
-      "first_date": "2026-11-09",
-      "last_date": "2026-11-09",
-      "dates": [
-        "2026-11-09"
-      ],
-      "times": 1
-    },
-    {
-      "full_name": "shinyobjectz/raea",
-      "url": "https://github.com/shinyobjectz/raea",
-      "description": "Render Anything Engine: tell your AI what to make. Videos, motion graphics, 3D and games as React and TypeScript, rendered on your own GPU. Rust + Bevy, macOS, Linux and Windows.",
-      "summary": "解决什么：让 AI 根据指令创作视频、动效、3D 和游戏，支持 React 和 TypeScript，利用本地 GPU 渲染\n适合谁：需要 AI 生成视觉内容的开发者，适合在 macOS、Linux 和 Windows 系统上使用\n亮点：基于 Rust 和 Bevy，支持 React 和 TypeScript 进行 AI 视觉内容创作",
-      "stars": 746,
-      "language": "Rust",
-      "topics": [
-        "3d",
-        "agent-skills",
-        "ai-agents",
-        "ai-video",
-        "bevy",
-        "claude-code",
-        "game-engine",
-        "gpu",
-        "linux",
-        "macos",
-        "motion-design",
-        "motion-graphics",
-        "react",
-        "rust",
-        "typescript",
-        "video-editing",
-        "video-rendering",
-        "wgpu",
-        "windows"
-      ],
-      "categories": [
-        "Linux",
-        "AI"
-      ],
-      "platforms": [
-        "AI"
-      ],
-      "pick": "ai",
-      "slot": "AI",
-      "kind": "search",
-      "created_at": "2026-10-18",
       "first_date": "2026-11-09",
       "last_date": "2026-11-09",
       "dates": [
@@ -7121,31 +7544,6 @@
       "times": 1
     },
     {
-      "full_name": "DaveGamble/cJSON",
-      "url": "https://github.com/DaveGamble/cJSON",
-      "description": "Ultralightweight JSON parser in ANSI C",
-      "summary": "掌握手写 JSON 解析器的核心逻辑，理解 C 语言中指针、递归与内存管理的实战应用\n适合 C 语言开发者，特别是想通过经典开源项目学习解析器实现原理或优化代码结构的读者\n先从 `cJSON_Parse` 入口函数入手，逐步追踪解析逻辑与内存管理实现",
-      "stars": 13065,
-      "language": "C",
-      "topics": [],
-      "categories": [
-        "C"
-      ],
-      "platforms": [
-        "C"
-      ],
-      "pick": null,
-      "slot": null,
-      "kind": "learn",
-      "created_at": "2016-03-19",
-      "first_date": "2026-11-04",
-      "last_date": "2026-11-04",
-      "dates": [
-        "2026-11-04"
-      ],
-      "times": 1
-    },
-    {
       "full_name": "RikiyaT/lm_understand-logs",
       "url": "https://github.com/RikiyaT/lm_understand-logs",
       "description": "Complete logs of the experiments in the blog post 'LLMs can understand and write neural network weights'",
@@ -7334,53 +7732,6 @@
         "2026-11-02"
       ],
       "times": 1
-    },
-    {
-      "full_name": "ifixai-ai/iFixAi",
-      "url": "https://github.com/ifixai-ai/iFixAi",
-      "description": "Independent Auditing of AI Agents. Run by human or the agent itself, to answer the most crucial question in the AI Agent Economy. Is the agent doing what is supposed to do? With iFixAi you can have this answer in less than 120 seconds.",
-      "summary": "解决什么：独立审计 AI 代理，快速判断代理是否按预期工作\n适合谁：AI 代理开发者、研究人员，需要评估代理行为和安全性\n亮点：快速审计 AI 代理行为，保障 AI 经济中的信任和合规",
-      "stars": 41658,
-      "language": "Python",
-      "topics": [
-        "agent-evaluation",
-        "ai",
-        "ai-alignment",
-        "ai-evaluation",
-        "ai-governance",
-        "ai-safety",
-        "cli",
-        "diagnostic-tool",
-        "eu-ai-act",
-        "hallucination-detection",
-        "iso-42001",
-        "llm-evaluation",
-        "llm-security",
-        "nist-ai-rmf",
-        "owasp-llm",
-        "prompt-injection",
-        "python",
-        "responsible-ai",
-        "risk-assessment",
-        "risk-management"
-      ],
-      "categories": [
-        "Linux"
-      ],
-      "platforms": [
-        "Linux"
-      ],
-      "pick": "growth",
-      "slot": "Linux",
-      "kind": "search",
-      "created_at": "2026-04-27",
-      "first_date": "2026-10-28",
-      "last_date": "2026-11-01",
-      "dates": [
-        "2026-11-01",
-        "2026-10-28"
-      ],
-      "times": 2
     },
     {
       "full_name": "InukaAsith/TwinDesk",
