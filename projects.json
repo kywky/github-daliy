@@ -1,8 +1,634 @@
 {
-  "generated_at": "2026-11-24T09:41:13.636069+00:00",
-  "total": 249,
-  "occurrences": 457,
+  "generated_at": "2026-11-25T08:11:37.558754+00:00",
+  "total": 256,
+  "occurrences": 472,
   "projects": [
+    {
+      "full_name": "Gathin23/cleanyourtv",
+      "url": "https://github.com/Gathin23/cleanyourtv",
+      "description": "Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
+      "summary": "解决什么：通过无线方式精简安卓或谷歌电视上的冗余软件，打造类似苹果电视的首页\n适合谁：安卓电视或谷歌电视用户，希望移除预装应用和广告，优化使用体验\n亮点：无需连接线即可移除冗余软件，快速打造简洁的电视界面",
+      "stars": 60873,
+      "language": "Python",
+      "topics": [
+        "adb",
+        "adblock",
+        "android-tv",
+        "android-tv-launcher",
+        "apple-tv",
+        "bloatware-removal",
+        "claude-code",
+        "debloat",
+        "fire-tv",
+        "google-tv",
+        "launcher",
+        "privacy",
+        "smart-tv",
+        "sony-bravia",
+        "tcl",
+        "vibe-coding",
+        "xiaomi"
+      ],
+      "categories": [
+        "安卓"
+      ],
+      "platforms": [
+        "安卓"
+      ],
+      "pick": "growth",
+      "slot": "安卓",
+      "kind": "search",
+      "created_at": "2026-10-17",
+      "first_date": "2026-10-22",
+      "last_date": "2026-11-25",
+      "dates": [
+        "2026-11-25",
+        "2026-11-21",
+        "2026-11-17",
+        "2026-11-13",
+        "2026-11-09",
+        "2026-11-04",
+        "2026-10-31",
+        "2026-10-27",
+        "2026-10-22"
+      ],
+      "times": 9
+    },
+    {
+      "full_name": "sharkdp/fd",
+      "url": "https://github.com/sharkdp/fd",
+      "description": "A simple, fast and user-friendly alternative to 'find'",
+      "summary": "提供比传统 find 命令更简单、快速且用户友好的文件搜索替代方案\n适合追求高效文件检索体验的 Linux 终端用户及开发者\n使用 Rust 编写，兼具高性能与简洁易用的特性，深受终端用户喜爱",
+      "stars": 45191,
+      "language": "Rust",
+      "topics": [
+        "cli",
+        "command-line",
+        "filesystem",
+        "hacktoberfest",
+        "regex",
+        "rust",
+        "search",
+        "terminal",
+        "tool"
+      ],
+      "categories": [
+        "Linux"
+      ],
+      "platforms": [
+        "Linux"
+      ],
+      "pick": "top",
+      "slot": "Linux",
+      "kind": "search",
+      "created_at": "2017-05-09",
+      "first_date": "2026-11-25",
+      "last_date": "2026-11-25",
+      "dates": [
+        "2026-11-25"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "pbatard/rufus",
+      "url": "https://github.com/pbatard/rufus",
+      "description": "The Reliable USB Formatting Utility",
+      "summary": "解决什么：提供一个可靠的 USB 格式化工具，用于创建可启动的 USB 驱动器\n适合谁：系统管理员、开发者或需要创建可启动 USB 的普通用户\n亮点：功能强大且易于使用的 USB 创建工具",
+      "stars": 38488,
+      "language": "C",
+      "topics": [
+        "bios",
+        "boot",
+        "bootable-drives",
+        "freedos",
+        "gpt",
+        "grub",
+        "grub4dos",
+        "iso",
+        "mbr",
+        "md5",
+        "persistence",
+        "rufus",
+        "secure-boot",
+        "sha1",
+        "sha256",
+        "syslinux",
+        "uefi",
+        "usb",
+        "windows",
+        "windows-to-go"
+      ],
+      "categories": [
+        "Windows"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "pick": "top",
+      "slot": "Windows",
+      "kind": "search",
+      "created_at": "2011-11-19",
+      "first_date": "2026-11-25",
+      "last_date": "2026-11-25",
+      "dates": [
+        "2026-11-25"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "BaaRai/ARTEX",
+      "url": "https://github.com/BaaRai/ARTEX",
+      "description": "Actively maintained ARTEX: AI autonomous penetration testing system. Self-hosted, model-agnostic, evidence-backed findings. Community continuation of Autumn-27/ARTEX, AGPL-3.0.",
+      "summary": "利用 AI 实现自主渗透测试，自动发现漏洞并提供证据支持\n适合安全研究人员、红队成员或需要自动化渗透测试工具的团队\n开源自托管、模型无关且活跃维护的 AI 渗透测试系统",
+      "stars": 19652,
+      "language": "Go",
+      "topics": [
+        "ai",
+        "ai-agents",
+        "autonomous-agents",
+        "bug-bounty",
+        "docker",
+        "golang",
+        "linux",
+        "llm",
+        "mcp",
+        "nextjs",
+        "penetration-testing",
+        "pentest",
+        "postgresql",
+        "rea",
+        "react",
+        "red-team",
+        "security",
+        "security-automation",
+        "sqlite",
+        "typescript"
+      ],
+      "categories": [
+        "Linux",
+        "AI神器"
+      ],
+      "platforms": [
+        "Linux"
+      ],
+      "pick": "growth",
+      "slot": "Linux",
+      "kind": "search",
+      "created_at": "2026-10-08",
+      "first_date": "2026-11-21",
+      "last_date": "2026-11-25",
+      "dates": [
+        "2026-11-25",
+        "2026-11-21"
+      ],
+      "times": 2
+    },
+    {
+      "full_name": "tangency-labs/solidcraft",
+      "url": "https://github.com/tangency-labs/solidcraft",
+      "description": "SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.",
+      "summary": "提供一个用纯 Rust 构建的参数化 3D CAD 应用程序，支持桌面、Web 及自动化\n适合需要参数化 CAD 设计及自动化工作流的开发者或工程师\n纯 Rust 实现，支持 WebAssembly 和 MCP 自动化",
+      "stars": 18145,
+      "language": "Rust",
+      "topics": [
+        "3d-modeling",
+        "brep",
+        "cad",
+        "egui",
+        "mcp",
+        "parametric-cad",
+        "rust",
+        "step",
+        "wasm"
+      ],
+      "categories": [
+        "AI神器"
+      ],
+      "platforms": [
+        "AI神器"
+      ],
+      "pick": "ai_tool",
+      "slot": "AI神器",
+      "kind": "search",
+      "created_at": "2026-10-07",
+      "first_date": "2026-11-06",
+      "last_date": "2026-11-25",
+      "dates": [
+        "2026-11-25",
+        "2026-11-20",
+        "2026-11-16",
+        "2026-11-12",
+        "2026-11-06"
+      ],
+      "times": 5
+    },
+    {
+      "full_name": "altic-dev/FluidVoice",
+      "url": "https://github.com/altic-dev/FluidVoice",
+      "description": "Fastest and only macOS Dictation app with on-device STT and custom trained AI enhancement model. Windows, iOS testflight!  Android, Linux waitlist open! A local Wispr Flow alternative. Follow https://x.com/fluidvoiceapp for more",
+      "summary": "解决什么：提供 macOS 平台上的快速语音转文字功能，并支持本地设备上的自定义 AI 增强模型\n适合谁：macOS 用户寻求高效、私密的语音识别工具，或开发者希望测试本地 AI 模型\n亮点：唯一支持 macOS 本地 STT 和自定义 AI 增强模型的语音转文字应用",
+      "stars": 13263,
+      "language": "Swift",
+      "topics": [
+        "ai",
+        "dictation",
+        "ios",
+        "llama-cpp",
+        "macos",
+        "swift"
+      ],
+      "categories": [
+        "安卓",
+        "Linux",
+        "Windows"
+      ],
+      "platforms": [
+        "安卓"
+      ],
+      "pick": "top",
+      "slot": "安卓",
+      "kind": "search",
+      "created_at": "2025-09-21",
+      "first_date": "2026-11-25",
+      "last_date": "2026-11-25",
+      "dates": [
+        "2026-11-25"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "Kludex/starlette",
+      "url": "https://github.com/Kludex/starlette",
+      "description": "The little ASGI framework that shines. 🌟",
+      "summary": "原始描述：The little ASGI framework that shines. 🌟\n\n（摘要生成失败，本次展示原文）",
+      "stars": 12766,
+      "language": "Python",
+      "topics": [
+        "asgi",
+        "async",
+        "http",
+        "python",
+        "websockets"
+      ],
+      "categories": [
+        "Python"
+      ],
+      "platforms": [
+        "Python"
+      ],
+      "pick": null,
+      "slot": null,
+      "kind": "learn",
+      "created_at": "2018-06-25",
+      "first_date": "2026-10-23",
+      "last_date": "2026-11-25",
+      "dates": [
+        "2026-11-25",
+        "2026-11-23",
+        "2026-11-22",
+        "2026-11-21",
+        "2026-11-18",
+        "2026-11-15",
+        "2026-11-14",
+        "2026-11-13",
+        "2026-11-12",
+        "2026-11-11",
+        "2026-11-08",
+        "2026-11-07",
+        "2026-11-06",
+        "2026-11-05",
+        "2026-11-03",
+        "2026-10-30",
+        "2026-10-26",
+        "2026-10-25",
+        "2026-10-24",
+        "2026-10-23"
+      ],
+      "times": 20
+    },
+    {
+      "full_name": "munificent/craftinginterpreters",
+      "url": "https://github.com/munificent/craftinginterpreters",
+      "description": "Repository for the book \"Crafting Interpreters\"",
+      "summary": "学习如何从零构建一个完整的解释器，掌握词法分析、语法分析及代码生成等编译原理核心实现\n适合对编译器底层原理感兴趣，希望通过 C 语言实战项目提升系统架构能力的进阶开发者\n按照书籍章节顺序，从 Scanner 模块入手，逐步理解 Token 流到 AST 的转换过程",
+      "stars": 11183,
+      "language": "HTML",
+      "topics": [
+        "book",
+        "bytecode",
+        "c",
+        "compiler",
+        "interpreter",
+        "java",
+        "language",
+        "lox",
+        "markdown",
+        "parser",
+        "scripting-language"
+      ],
+      "categories": [
+        "C"
+      ],
+      "platforms": [
+        "C"
+      ],
+      "pick": null,
+      "slot": null,
+      "kind": "learn",
+      "created_at": "2017-01-15",
+      "first_date": "2026-11-25",
+      "last_date": "2026-11-25",
+      "dates": [
+        "2026-11-25"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "openfilm/openfilm",
+      "url": "https://github.com/openfilm/openfilm",
+      "description": "The open source AI video agent: turns any coding agent into a video agent, with editors to change anything it makes.",
+      "summary": "解决什么：将编程代理转换为视频代理，并提供编辑器修改生成的视频内容\n适合谁：开发者或创意人员，用于自动化视频制作和编辑\n亮点：开源AI视频代理，可将编程代理功能扩展至视频制作领域",
+      "stars": 9345,
+      "language": "TypeScript",
+      "topics": [
+        "ai-video",
+        "claude-code",
+        "codex",
+        "coding-agents",
+        "html",
+        "motion-graphics",
+        "video-agent",
+        "video-editor"
+      ],
+      "categories": [
+        "AI神器"
+      ],
+      "platforms": [
+        "AI神器"
+      ],
+      "pick": "ai_tool",
+      "slot": "AI神器",
+      "kind": "search",
+      "created_at": "2026-10-04",
+      "first_date": "2026-11-07",
+      "last_date": "2026-11-25",
+      "dates": [
+        "2026-11-25",
+        "2026-11-19",
+        "2026-11-14",
+        "2026-11-07"
+      ],
+      "times": 4
+    },
+    {
+      "full_name": "xcl-dev/xcl",
+      "url": "https://github.com/xcl-dev/xcl",
+      "description": "Xbox Series compatibility layer for Windows - runs console game code natively, reimplements the console system libraries and recompiles RDNA2 shaders to DXIL",
+      "summary": "在 Windows 上实现 Xbox Series 游戏兼容层，支持原生运行\n想在 Windows 上运行 Xbox Series 游戏的玩家及开发者\n用 Rust 重写系统库并将 RDNA2 着色器编译为 DXIL，近期涨星最快",
+      "stars": 8025,
+      "language": "Rust",
+      "topics": [
+        "d3d12",
+        "gdk",
+        "rdna2",
+        "xbox"
+      ],
+      "categories": [
+        "Windows"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "pick": "growth",
+      "slot": "Windows",
+      "kind": "search",
+      "created_at": "2026-11-20",
+      "first_date": "2026-11-25",
+      "last_date": "2026-11-25",
+      "dates": [
+        "2026-11-25"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "jiwoochris/artex-global",
+      "url": "https://github.com/jiwoochris/artex-global",
+      "description": "Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switchable to Korean/Chinese/Spanish/Japanese. For authorized, defensive and detection use only. (upstream: Autumn-27/ARTEX, AGPL-3.0)",
+      "summary": "解决什么：基于 LLM 的多智能体自主渗透测试框架\n适合谁：适合安全研究人员及蓝队人员用于授权的防御与检测\n亮点：支持中韩日西等多语言切换，是 ARTEX 的国际化版本",
+      "stars": 4904,
+      "language": "Go",
+      "topics": [
+        "ai-agent",
+        "autonomous-agents",
+        "blue-team",
+        "cybersecurity",
+        "detection-engineering",
+        "i18n",
+        "korean",
+        "llm",
+        "penetration-testing",
+        "security",
+        "security-research",
+        "security-tools",
+        "sigma-rules",
+        "threat-detection"
+      ],
+      "categories": [
+        "AI神器"
+      ],
+      "platforms": [
+        "AI神器"
+      ],
+      "pick": "ai_tool",
+      "slot": "AI神器",
+      "kind": "search",
+      "created_at": "2026-10-03",
+      "first_date": "2026-11-20",
+      "last_date": "2026-11-25",
+      "dates": [
+        "2026-11-25",
+        "2026-11-20"
+      ],
+      "times": 2
+    },
+    {
+      "full_name": "FrigadeHQ/yogurt",
+      "url": "https://github.com/FrigadeHQ/yogurt",
+      "description": "Private AI meeting notes that stay on your computer. No meeting bot. Free and open source for Mac, Windows and Linux. An alternative to Granola, Otter and Fireflies.",
+      "summary": "解决本地私有 AI 会议记录问题，无需会议机器人，替代 Granola 等工具\n适合 Mac、Windows 和 Linux 用户，重视隐私且希望本地运行的会议记录者\n亮点是本地 Whisper 转录，完全开源免费，强调隐私保护",
+      "stars": 3420,
+      "language": "TypeScript",
+      "topics": [
+        "ai-meeting-assistant",
+        "ai-notetaker",
+        "electron",
+        "granola-alternative",
+        "linux",
+        "llama-cpp",
+        "local-ai",
+        "local-first",
+        "macos",
+        "mcp",
+        "meeting-minutes",
+        "meeting-notes",
+        "offline-first",
+        "open-source",
+        "privacy",
+        "speech-to-text",
+        "transcription",
+        "whisper",
+        "whisper-cpp",
+        "windows"
+      ],
+      "categories": [
+        "Linux",
+        "Windows",
+        "AI神器"
+      ],
+      "platforms": [
+        "Linux",
+        "Windows",
+        "AI神器"
+      ],
+      "pick": "ai_tool",
+      "slot": "AI神器",
+      "kind": "search",
+      "created_at": "2026-11-10",
+      "first_date": "2026-11-13",
+      "last_date": "2026-11-25",
+      "dates": [
+        "2026-11-25",
+        "2026-11-17",
+        "2026-11-13"
+      ],
+      "times": 3
+    },
+    {
+      "full_name": "iamajmeena/neonclipping",
+      "url": "https://github.com/iamajmeena/neonclipping",
+      "description": "Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM).",
+      "summary": "解决什么：解决从视频链接快速生成带字幕的 9:16 竖屏短视频剪辑需求\n适合谁：适合想要本地化、免费制作短视频（如 YouTube Shorts）的内容创作者\n亮点：结合本地 LLM 和 Whisper，能在 2 分钟内免费生成带字幕的竖屏剪辑",
+      "stars": 2532,
+      "language": "Python",
+      "topics": [
+        "ai-video-clipper",
+        "clipping",
+        "faster-whisper",
+        "ffmpeg",
+        "gameplay-clipper",
+        "local-llm",
+        "ollama",
+        "open-source-video-editor",
+        "opusclip-alternative",
+        "shorts",
+        "twitch-clips",
+        "vertical-video",
+        "video",
+        "whisper",
+        "youtube-shorts-generator",
+        "yt-dlp"
+      ],
+      "categories": [
+        "AI"
+      ],
+      "platforms": [
+        "AI"
+      ],
+      "pick": "ai",
+      "slot": "AI",
+      "kind": "search",
+      "created_at": "2026-11-19",
+      "first_date": "2026-11-21",
+      "last_date": "2026-11-25",
+      "dates": [
+        "2026-11-25",
+        "2026-11-21"
+      ],
+      "times": 2
+    },
+    {
+      "full_name": "ecnusse/Kea2",
+      "url": "https://github.com/ecnusse/Kea2",
+      "description": "Fusing automated UI testing with scripts (property-based testing) for effectively fuzzing Android apps",
+      "summary": "结合自动化 UI 测试与脚本，实现对 Android 应用的有效模糊测试\n适合需要自动化测试及发现崩溃和逻辑 Bug 的 Android 开发者与测试人员\n融合 UI 测试与脚本属性测试，高效发现应用崩溃和逻辑 Bug",
+      "stars": 303,
+      "language": "HTML",
+      "topics": [
+        "android",
+        "auto-assertions",
+        "crashing-bugs",
+        "fastbot",
+        "harmonyos",
+        "kea",
+        "logic-bugs",
+        "openharmony",
+        "property-based-testing",
+        "scripted-based-testing",
+        "uiautomator2"
+      ],
+      "categories": [
+        "鸿蒙"
+      ],
+      "platforms": [
+        "鸿蒙"
+      ],
+      "pick": "top",
+      "slot": "鸿蒙",
+      "kind": "search",
+      "created_at": "2025-04-02",
+      "first_date": "2026-11-25",
+      "last_date": "2026-11-25",
+      "dates": [
+        "2026-11-25"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "Jun-ramos-1987/antares-harmony-engine",
+      "url": "https://github.com/Jun-ramos-1987/antares-harmony-engine",
+      "description": "Antares Harmony Engine for Windows 10/11. Generates layered vocal harmonies from a single melody line, letting producers and songwriters build chord stacks, doubling and choral arrangements directly in their DAW.",
+      "summary": "解决什么：为音乐制作人和词曲作者提供一种在 DAW 中从单旋律生成分层人声和声的工具，支持构建和弦堆叠、双声部和合唱编排\n适合谁：需要创作和声效果的音乐制作人、词曲作者以及在 DAW 工作室进行音乐创作的用户\n亮点：在 Windows 平台上实现高效的人声和声生成与编排功能",
+      "stars": 102,
+      "language": "",
+      "topics": [
+        "antares",
+        "antares-auto",
+        "engine",
+        "engine-dj",
+        "engine-os",
+        "engine-prime",
+        "engine-reconstruction",
+        "engine3d",
+        "engineer",
+        "engineercms",
+        "engineering",
+        "engineering-agents",
+        "engineering-design",
+        "engineering-drawing",
+        "engineering-drawings",
+        "engineering-software",
+        "engineering-tools",
+        "harmony-plugin",
+        "harmonyos",
+        "harmonyx"
+      ],
+      "categories": [
+        "鸿蒙"
+      ],
+      "platforms": [
+        "鸿蒙"
+      ],
+      "pick": "growth",
+      "slot": "鸿蒙",
+      "kind": "search",
+      "created_at": "2026-11-24",
+      "first_date": "2026-11-25",
+      "last_date": "2026-11-25",
+      "dates": [
+        "2026-11-25"
+      ],
+      "times": 1
+    },
     {
       "full_name": "sherlock-project/sherlock",
       "url": "https://github.com/sherlock-project/sherlock",
@@ -787,55 +1413,6 @@
         "2026-11-04"
       ],
       "times": 2
-    },
-    {
-      "full_name": "Kludex/starlette",
-      "url": "https://github.com/Kludex/starlette",
-      "description": "The little ASGI framework that shines. 🌟",
-      "summary": "学什么：掌握 ASGI 协议实现、中间件洋葱模型及依赖注入机制\n适合谁：适合希望深入理解 ASGI 协议、中间件机制及异步 Web 开发的 Python 开发者\n怎么读：建议从核心路由模块入手，依次阅读中间件、依赖注入及测试客户端",
-      "stars": 12755,
-      "language": "Python",
-      "topics": [
-        "asgi",
-        "async",
-        "http",
-        "python",
-        "websockets"
-      ],
-      "categories": [
-        "Python"
-      ],
-      "platforms": [
-        "Python"
-      ],
-      "pick": null,
-      "slot": null,
-      "kind": "learn",
-      "created_at": "2018-06-25",
-      "first_date": "2026-10-23",
-      "last_date": "2026-11-23",
-      "dates": [
-        "2026-11-23",
-        "2026-11-22",
-        "2026-11-21",
-        "2026-11-18",
-        "2026-11-15",
-        "2026-11-14",
-        "2026-11-13",
-        "2026-11-12",
-        "2026-11-11",
-        "2026-11-08",
-        "2026-11-07",
-        "2026-11-06",
-        "2026-11-05",
-        "2026-11-03",
-        "2026-10-30",
-        "2026-10-26",
-        "2026-10-25",
-        "2026-10-24",
-        "2026-10-23"
-      ],
-      "times": 19
     },
     {
       "full_name": "erkamyaman/rust-anything",
@@ -1765,56 +2342,6 @@
       "times": 1
     },
     {
-      "full_name": "Gathin23/cleanyourtv",
-      "url": "https://github.com/Gathin23/cleanyourtv",
-      "description": "Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
-      "summary": "通过 Wi-Fi 远程清理安卓或谷歌电视上的预装软件，打造类似 Apple TV 的纯净体验\n适合拥有 Android TV、Google TV 或 Fire TV 等智能设备，希望移除预装应用的用户\n近期涨星迅猛，支持远程 Wi-Fi 清理，能将安卓电视改造成类似 Apple TV 的界面",
-      "stars": 59889,
-      "language": "Python",
-      "topics": [
-        "adb",
-        "adblock",
-        "android-tv",
-        "android-tv-launcher",
-        "apple-tv",
-        "bloatware-removal",
-        "claude-code",
-        "debloat",
-        "fire-tv",
-        "google-tv",
-        "launcher",
-        "privacy",
-        "smart-tv",
-        "sony-bravia",
-        "tcl",
-        "vibe-coding",
-        "xiaomi"
-      ],
-      "categories": [
-        "安卓"
-      ],
-      "platforms": [
-        "安卓"
-      ],
-      "pick": "growth",
-      "slot": "安卓",
-      "kind": "search",
-      "created_at": "2026-10-17",
-      "first_date": "2026-10-22",
-      "last_date": "2026-11-21",
-      "dates": [
-        "2026-11-21",
-        "2026-11-17",
-        "2026-11-13",
-        "2026-11-09",
-        "2026-11-04",
-        "2026-10-31",
-        "2026-10-27",
-        "2026-10-22"
-      ],
-      "times": 8
-    },
-    {
       "full_name": "GitHubDaily/GitHubDaily",
       "url": "https://github.com/GitHubDaily/GitHubDaily",
       "description": "坚持分享 GitHub 上高质量、有趣实用的开源技术教程、开发者工具、编程网站、技术资讯。A list cool, interesting projects of GitHub.",
@@ -1935,53 +2462,6 @@
       "slot": "安卓",
       "kind": "search",
       "created_at": "2021-06-09",
-      "first_date": "2026-11-21",
-      "last_date": "2026-11-21",
-      "dates": [
-        "2026-11-21"
-      ],
-      "times": 1
-    },
-    {
-      "full_name": "BaaRai/ARTEX",
-      "url": "https://github.com/BaaRai/ARTEX",
-      "description": "ARTEX - AI autonomous penetration testing system (English translation; upstream: Autumn-27/ARTEX, AGPL-3.0)",
-      "summary": "解决什么：一个基于 AI 的自动化渗透测试系统，能够自主执行安全评估和漏洞发现\n适合谁：网络安全专家、渗透测试人员、红队演练参与者\n亮点：利用 LLM 技术实现智能化的安全测试自动化",
-      "stars": 13995,
-      "language": "Go",
-      "topics": [
-        "ai",
-        "ai-agents",
-        "autonomous-agents",
-        "bug-bounty",
-        "docker",
-        "golang",
-        "linux",
-        "llm",
-        "mcp",
-        "nextjs",
-        "penetration-testing",
-        "pentest",
-        "postgresql",
-        "rea",
-        "react",
-        "red-team",
-        "security",
-        "security-automation",
-        "sqlite",
-        "typescript"
-      ],
-      "categories": [
-        "Linux",
-        "AI神器"
-      ],
-      "platforms": [
-        "Linux"
-      ],
-      "pick": "growth",
-      "slot": "Linux",
-      "kind": "search",
-      "created_at": "2026-10-08",
       "first_date": "2026-11-21",
       "last_date": "2026-11-21",
       "dates": [
@@ -2301,38 +2781,6 @@
       "times": 1
     },
     {
-      "full_name": "iamajmeena/neonclipping",
-      "url": "https://github.com/iamajmeena/neonclipping",
-      "description": "Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM).",
-      "summary": "解决将视频链接自动生成带字幕的 9:16 竖屏短视频片段的问题\n适合需要快速剪辑 YouTube 视频并生成字幕短视频的内容创作者\n亮点是完全本地化运行、开源免费，并利用 Whisper 自动生成字幕",
-      "stars": 1350,
-      "language": "Python",
-      "topics": [
-        "clipping",
-        "ffmpeg",
-        "shorts",
-        "video",
-        "whisper",
-        "yt-dlp"
-      ],
-      "categories": [
-        "AI"
-      ],
-      "platforms": [
-        "AI"
-      ],
-      "pick": "ai",
-      "slot": "AI",
-      "kind": "search",
-      "created_at": "2026-11-19",
-      "first_date": "2026-11-21",
-      "last_date": "2026-11-21",
-      "dates": [
-        "2026-11-21"
-      ],
-      "times": 1
-    },
-    {
       "full_name": "OpenBMB/MiniCPM-V-Apps",
       "url": "https://github.com/OpenBMB/MiniCPM-V-Apps",
       "description": "MiniCPM-V apps — fully offline multimodal chat on iOS / Android / HarmonyOS",
@@ -2454,44 +2902,6 @@
         "2026-11-20"
       ],
       "times": 1
-    },
-    {
-      "full_name": "tangency-labs/solidcraft",
-      "url": "https://github.com/tangency-labs/solidcraft",
-      "description": "SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.",
-      "summary": "解决什么：构建了一个基于纯 Rust 的开源参数化 3D CAD 应用，支持桌面、Web 端及自动化\n适合谁：适合需要参数化建模、3D CAD 自动化操作以及 Web 端 CAD 应用的开发者或设计师\n亮点：完全使用 Rust 构建，支持通过 MCP 协议实现自动化，并具备桌面与 Web 跨平台能力",
-      "stars": 17334,
-      "language": "Rust",
-      "topics": [
-        "3d-modeling",
-        "brep",
-        "cad",
-        "egui",
-        "mcp",
-        "parametric-cad",
-        "rust",
-        "step",
-        "wasm"
-      ],
-      "categories": [
-        "AI神器"
-      ],
-      "platforms": [
-        "AI神器"
-      ],
-      "pick": "ai_tool",
-      "slot": "AI神器",
-      "kind": "search",
-      "created_at": "2026-10-07",
-      "first_date": "2026-11-06",
-      "last_date": "2026-11-20",
-      "dates": [
-        "2026-11-20",
-        "2026-11-16",
-        "2026-11-12",
-        "2026-11-06"
-      ],
-      "times": 4
     },
     {
       "full_name": "thunderbird/thunderbird-android",
@@ -2716,46 +3126,6 @@
         "2026-11-02"
       ],
       "times": 2
-    },
-    {
-      "full_name": "jiwoochris/artex-global",
-      "url": "https://github.com/jiwoochris/artex-global",
-      "description": "Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing framework. English default, switchable to Korean/Chinese/Spanish/Japanese. For authorized, defensive and detection use only. (upstream: Autumn-27/ARTEX, AGPL-3.0)",
-      "summary": "解决什么：提供基于 LLM 的多智能体自主渗透测试框架，支持多语言切换\n适合谁：适合授权的安全防御、检测工程及蓝队研究人员\n亮点：支持中韩日西四语切换，专注于蓝队防御与检测",
-      "stars": 4192,
-      "language": "Go",
-      "topics": [
-        "ai-agent",
-        "autonomous-agents",
-        "blue-team",
-        "cybersecurity",
-        "detection-engineering",
-        "i18n",
-        "korean",
-        "llm",
-        "penetration-testing",
-        "security",
-        "security-research",
-        "security-tools",
-        "sigma-rules",
-        "threat-detection"
-      ],
-      "categories": [
-        "AI神器"
-      ],
-      "platforms": [
-        "AI神器"
-      ],
-      "pick": "ai_tool",
-      "slot": "AI神器",
-      "kind": "search",
-      "created_at": "2026-10-03",
-      "first_date": "2026-11-20",
-      "last_date": "2026-11-20",
-      "dates": [
-        "2026-11-20"
-      ],
-      "times": 1
     },
     {
       "full_name": "metasequoiaime/msime",
@@ -3034,42 +3404,6 @@
         "2026-11-19"
       ],
       "times": 1
-    },
-    {
-      "full_name": "openfilm/openfilm",
-      "url": "https://github.com/openfilm/openfilm",
-      "description": "The open source AI video agent: turns any coding agent into a video agent, with editors to change anything it makes.",
-      "summary": "将任意编码代理转化为视频代理，并提供编辑器修改生成内容\n适合需要视频创作能力或使用编码代理的开发者\n开源 AI 视频代理，通用性强且支持深度编辑",
-      "stars": 8368,
-      "language": "TypeScript",
-      "topics": [
-        "ai-video",
-        "claude-code",
-        "codex",
-        "coding-agents",
-        "html",
-        "motion-graphics",
-        "video-agent",
-        "video-editor"
-      ],
-      "categories": [
-        "AI神器"
-      ],
-      "platforms": [
-        "AI神器"
-      ],
-      "pick": "ai_tool",
-      "slot": "AI神器",
-      "kind": "search",
-      "created_at": "2026-10-04",
-      "first_date": "2026-11-07",
-      "last_date": "2026-11-19",
-      "dates": [
-        "2026-11-19",
-        "2026-11-14",
-        "2026-11-07"
-      ],
-      "times": 3
     },
     {
       "full_name": "Likely7/Veyra-NRVideo",
@@ -3874,57 +4208,6 @@
         "2026-11-05"
       ],
       "times": 4
-    },
-    {
-      "full_name": "FrigadeHQ/yogurt",
-      "url": "https://github.com/FrigadeHQ/yogurt",
-      "description": "Private AI meeting notes that stay on your computer. A free, open-source alternative to Granola for Mac, Windows and Linux.",
-      "summary": "提供本地运行的 AI 会议笔记功能，保护隐私并替代 Granola\n适合注重隐私、需要在离线环境下记录会议内容的专业人士\n结合 Whisper 和 Llama.cpp 纯本地运行，提供完全离线且免费的会议转录体验",
-      "stars": 1916,
-      "language": "TypeScript",
-      "topics": [
-        "ai-meeting-assistant",
-        "ai-notetaker",
-        "electron",
-        "granola-alternative",
-        "linux",
-        "llama-cpp",
-        "local-ai",
-        "local-first",
-        "macos",
-        "mcp",
-        "meeting-minutes",
-        "meeting-notes",
-        "offline-first",
-        "open-source",
-        "privacy",
-        "speech-to-text",
-        "transcription",
-        "whisper",
-        "whisper-cpp",
-        "windows"
-      ],
-      "categories": [
-        "Linux",
-        "Windows",
-        "AI神器"
-      ],
-      "platforms": [
-        "Linux",
-        "Windows",
-        "AI神器"
-      ],
-      "pick": "ai_tool",
-      "slot": "AI神器",
-      "kind": "search",
-      "created_at": "2026-11-10",
-      "first_date": "2026-11-13",
-      "last_date": "2026-11-17",
-      "dates": [
-        "2026-11-17",
-        "2026-11-13"
-      ],
-      "times": 2
     },
     {
       "full_name": "EL4CTEO/blender-skills",
