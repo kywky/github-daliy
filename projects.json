@@ -1,8 +1,609 @@
 {
-  "generated_at": "2026-11-25T08:11:37.558754+00:00",
-  "total": 256,
-  "occurrences": 472,
+  "generated_at": "2026-11-26T08:04:42.711277+00:00",
+  "total": 262,
+  "occurrences": 487,
   "projects": [
+    {
+      "full_name": "morluto/rea",
+      "url": "https://github.com/morluto/rea",
+      "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+      "summary": "解决什么：使用智能体逆向分析应用程序行为和原生二进制文件\n适合谁：开发者、安全研究人员、需要深入理解软件行为的人\n亮点：通过智能体自动化逆向工程过程",
+      "stars": 478870,
+      "language": "TypeScript",
+      "topics": [
+        "agent-skills",
+        "ai",
+        "android",
+        "claude-code",
+        "cli",
+        "cpp",
+        "dsh-plugin",
+        "html",
+        "java",
+        "javascript",
+        "linux",
+        "mcp",
+        "nodejs",
+        "python",
+        "rea",
+        "react",
+        "rust",
+        "security",
+        "touhou",
+        "typescript"
+      ],
+      "categories": [
+        "Linux"
+      ],
+      "platforms": [
+        "Linux"
+      ],
+      "pick": "growth",
+      "slot": "Linux",
+      "kind": "search",
+      "created_at": "2026-04-14",
+      "first_date": "2026-10-27",
+      "last_date": "2026-11-26",
+      "dates": [
+        "2026-11-26",
+        "2026-11-22",
+        "2026-11-17",
+        "2026-11-13",
+        "2026-11-09",
+        "2026-11-04",
+        "2026-10-31",
+        "2026-10-27"
+      ],
+      "times": 8
+    },
+    {
+      "full_name": "spf13/cobra",
+      "url": "https://github.com/spf13/cobra",
+      "description": "A Commander for modern Go CLI interactions",
+      "summary": "为 Go 语言开发者提供构建现代化、功能丰富的命令行应用程序的解决方案，支持子命令和自动补全\n适合需要开发复杂命令行工具的 Go 开发者及项目团队\n作为 Go 生态中最流行的 CLI 库，它是构建命令行应用的事实标准，功能强大且维护活跃",
+      "stars": 44835,
+      "language": "Go",
+      "topics": [
+        "cli",
+        "cli-app",
+        "cobra",
+        "cobra-generator",
+        "cobra-library",
+        "command",
+        "command-cobra",
+        "command-line",
+        "commandline",
+        "go",
+        "golang",
+        "golang-application",
+        "golang-library",
+        "posix",
+        "posix-compliant-flags",
+        "subcommands"
+      ],
+      "categories": [
+        "Linux"
+      ],
+      "platforms": [
+        "Linux"
+      ],
+      "pick": "top",
+      "slot": "Linux",
+      "kind": "search",
+      "created_at": "2013-09-03",
+      "first_date": "2026-11-26",
+      "last_date": "2026-11-26",
+      "dates": [
+        "2026-11-26"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "webadderallorg/Recordly",
+      "url": "https://github.com/webadderallorg/Recordly",
+      "description": "Create polished demo videos without editing skills. Mac/Windows/Linux",
+      "summary": "帮助用户轻松制作高质量演示视频，无需复杂的后期剪辑\n适合需要在 Mac、Windows 和 Linux 上制作演示视频的用户\n免费开源的跨平台屏幕录制工具，支持一键生成专业演示视频",
+      "stars": 37489,
+      "language": "TypeScript",
+      "topics": [
+        "electron",
+        "free",
+        "linux",
+        "macos",
+        "open-source",
+        "screen-recorder",
+        "screen-studio",
+        "windows"
+      ],
+      "categories": [
+        "Linux",
+        "Windows"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "pick": "top",
+      "slot": "Windows",
+      "kind": "search",
+      "created_at": "2026-03-12",
+      "first_date": "2026-10-23",
+      "last_date": "2026-11-26",
+      "dates": [
+        "2026-11-26",
+        "2026-10-23"
+      ],
+      "times": 2
+    },
+    {
+      "full_name": "ccch1mneyyy/dsh-Go",
+      "url": "https://github.com/ccch1mneyyy/dsh-Go",
+      "description": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
+      "summary": "解决在手机本地运行 DeepSeek 并远程控制电脑的需求\n适合需要在安卓设备上使用 AI 编程助手或远程控制电脑的用户\n基于 Flutter 开发，近期涨星最快，将 DeepSeek 装进口袋",
+      "stars": 32256,
+      "language": "Dart",
+      "topics": [
+        "ai-agent",
+        "android",
+        "android-app",
+        "coding-agent",
+        "deepseek",
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin",
+        "dsh-tui",
+        "flutter",
+        "llm"
+      ],
+      "categories": [
+        "安卓",
+        "AI神器"
+      ],
+      "platforms": [
+        "安卓"
+      ],
+      "pick": "growth",
+      "slot": "安卓",
+      "kind": "search",
+      "created_at": "2026-10-25",
+      "first_date": "2026-10-30",
+      "last_date": "2026-11-26",
+      "dates": [
+        "2026-11-26",
+        "2026-11-22",
+        "2026-11-18",
+        "2026-11-14",
+        "2026-11-10",
+        "2026-11-05",
+        "2026-11-01",
+        "2026-10-30"
+      ],
+      "times": 8
+    },
+    {
+      "full_name": "heydamir/unslop",
+      "url": "https://github.com/heydamir/unslop",
+      "description": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
+      "summary": "解决什么：将随意编码的、看起来像 AI 生成的人机界面转换为专业设计的界面\n适合谁：前端开发者或设计师，用于快速提升非设计背景人员编写的 UI 界面视觉效果\n亮点：基于 Claude 的技能，能自动将业余 UI 设计转化为更符合设计规范的界面",
+      "stars": 21848,
+      "language": "JavaScript",
+      "topics": [],
+      "categories": [
+        "AI神器"
+      ],
+      "platforms": [
+        "AI神器"
+      ],
+      "pick": "ai_tool",
+      "slot": "AI神器",
+      "kind": "search",
+      "created_at": "2026-10-29",
+      "first_date": "2026-11-10",
+      "last_date": "2026-11-26",
+      "dates": [
+        "2026-11-26",
+        "2026-11-22",
+        "2026-11-18",
+        "2026-11-14",
+        "2026-11-10"
+      ],
+      "times": 5
+    },
+    {
+      "full_name": "yhirose/cpp-httplib",
+      "url": "https://github.com/yhirose/cpp-httplib",
+      "description": "A C++ header-only HTTP/HTTPS server and client library",
+      "summary": "学什么：能学到 C++ 网络编程基础，特别是线程和 socket 的使用\n适合谁：适合有一定 C++ 基础，想深入理解网络编程的读者\n怎么读：先从 httplib 的基础接口和单文件结构入手",
+      "stars": 17010,
+      "language": "C++",
+      "topics": [
+        "cpp",
+        "cpp11",
+        "header-only",
+        "http",
+        "https"
+      ],
+      "categories": [
+        "C++"
+      ],
+      "platforms": [
+        "C++"
+      ],
+      "pick": null,
+      "slot": null,
+      "kind": "learn",
+      "created_at": "2012-09-22",
+      "first_date": "2026-10-25",
+      "last_date": "2026-11-26",
+      "dates": [
+        "2026-11-26",
+        "2026-11-08",
+        "2026-10-25"
+      ],
+      "times": 3
+    },
+    {
+      "full_name": "offa/android-foss",
+      "url": "https://github.com/offa/android-foss",
+      "description": "A list of Free and Open Source Software (FOSS) for Android – saving Freedom and Privacy.",
+      "summary": "提供一份精选的安卓免费开源软件列表，帮助用户摆脱专有软件，保护隐私与自由。\n适合希望替换手机中非开源应用、追求隐私保护或寻找 F-Droid 上好用的开源替代品的用户。\n汇集了众多高质量的安卓 FOSS 应用，是 F-Droid 生态中的权威推荐清单。",
+      "stars": 11791,
+      "language": "Python",
+      "topics": [
+        "android",
+        "android-apps",
+        "f-droid",
+        "foss",
+        "free-and-op",
+        "free-and-open-source",
+        "izzyondroid",
+        "open-source",
+        "opensource"
+      ],
+      "categories": [
+        "安卓"
+      ],
+      "platforms": [
+        "安卓"
+      ],
+      "pick": "top",
+      "slot": "安卓",
+      "kind": "search",
+      "created_at": "2017-03-20",
+      "first_date": "2026-11-26",
+      "last_date": "2026-11-26",
+      "dates": [
+        "2026-11-26"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "lua/lua",
+      "url": "https://github.com/lua/lua",
+      "description": "A copy of the Lua development repository, as seen by the Lua team. Mirrored irregularly. All communication should be through the Lua mailing list https://www.lua.org/lua-l.html",
+      "summary": "学什么：深入理解解释器设计原理，掌握 C 语言底层优化技巧\n适合谁：有一定 C 语言基础，想提升代码能力和设计思维的程序员\n怎么读：从解释器主循环和词法分析模块入手，逐步扩展到语法分析和执行引擎",
+      "stars": 10485,
+      "language": "C",
+      "topics": [],
+      "categories": [
+        "C"
+      ],
+      "platforms": [
+        "C"
+      ],
+      "pick": null,
+      "slot": null,
+      "kind": "learn",
+      "created_at": "2012-09-14",
+      "first_date": "2026-11-06",
+      "last_date": "2026-11-26",
+      "dates": [
+        "2026-11-26",
+        "2026-11-06"
+      ],
+      "times": 2
+    },
+    {
+      "full_name": "vercel-labs/ui",
+      "url": "https://github.com/vercel-labs/ui",
+      "description": "A library of behaviors for agents to build and drive the next generation of user interfaces.",
+      "summary": "解决什么：为智能体构建和驱动下一代用户界面提供行为库\n适合谁：开发者用于创建具有高级交互功能的现代化 Web 应用\n亮点：专注于智能体驱动的用户界面行为，支持多种前端框架",
+      "stars": 7549,
+      "language": "TypeScript",
+      "topics": [
+        "accessibility",
+        "agent",
+        "agents",
+        "ai",
+        "aria",
+        "behaviors",
+        "component",
+        "component-library",
+        "headless",
+        "mcp",
+        "react",
+        "solid",
+        "svelte",
+        "vue",
+        "web-components",
+        "webmcp"
+      ],
+      "categories": [
+        "AI神器"
+      ],
+      "platforms": [
+        "AI神器"
+      ],
+      "pick": "ai_tool",
+      "slot": "AI神器",
+      "kind": "search",
+      "created_at": "2026-10-26",
+      "first_date": "2026-11-14",
+      "last_date": "2026-11-26",
+      "dates": [
+        "2026-11-26",
+        "2026-11-22",
+        "2026-11-18",
+        "2026-11-14"
+      ],
+      "times": 4
+    },
+    {
+      "full_name": "ersinkoc/phonebox",
+      "url": "https://github.com/ersinkoc/phonebox",
+      "description": "Turn an old Android phone into a customizable desk panel and touch control deck for Windows, Linux and macOS. 124 widgets and 30 templates for system stats, AI coding, media and automation, in 13 languages. USB or paired Wi-Fi. No cloud required.",
+      "summary": "解决什么：将旧安卓手机变成可定制的桌面面板和触摸控制台，用于Windows、Linux和macOS系统，提供系统状态、AI编程、媒体和自动化等功能\n适合谁：需要桌面增强或远程控制的用户，特别是希望利用旧设备提升工作效率或智能家居体验的人\n亮点：提供124个组件和30个模板，支持多语言，无需云服务即可实现本地化控制",
+      "stars": 6651,
+      "language": "JavaScript",
+      "topics": [
+        "android",
+        "claude-code",
+        "codex",
+        "dashboard",
+        "desk-panel",
+        "dotnet",
+        "home-assistant",
+        "linux",
+        "macos",
+        "old-phone",
+        "smart-stack",
+        "stream-deck",
+        "system-monitor",
+        "tailscale",
+        "webhooks",
+        "widgets",
+        "windows"
+      ],
+      "categories": [
+        "Linux",
+        "Windows"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "pick": "growth",
+      "slot": "Windows",
+      "kind": "search",
+      "created_at": "2026-11-07",
+      "first_date": "2026-11-17",
+      "last_date": "2026-11-26",
+      "dates": [
+        "2026-11-26",
+        "2026-11-21",
+        "2026-11-17"
+      ],
+      "times": 3
+    },
+    {
+      "full_name": "Chevey339/kelivo",
+      "url": "https://github.com/Chevey339/kelivo",
+      "description": "A Flutter LLM Chat Client. Support Mobile & Desktop.",
+      "summary": "提供一个跨平台的LLM聊天客户端，解决用户在移动端和桌面端与大语言模型进行交互的需求\n适合需要在鸿蒙、Android、iOS及桌面端使用AI聊天机器人的用户，以及Flutter开发者\n支持多平台且近期涨星最快",
+      "stars": 4787,
+      "language": "Dart",
+      "topics": [
+        "ai",
+        "android",
+        "chatbot",
+        "chatbox",
+        "flutter",
+        "flutter-apps",
+        "harmony",
+        "harmonyos",
+        "ios",
+        "llm",
+        "openharmony"
+      ],
+      "categories": [
+        "鸿蒙"
+      ],
+      "platforms": [
+        "鸿蒙"
+      ],
+      "pick": "growth",
+      "slot": "鸿蒙",
+      "kind": "search",
+      "created_at": "2025-08-29",
+      "first_date": "2026-10-28",
+      "last_date": "2026-11-26",
+      "dates": [
+        "2026-11-26",
+        "2026-11-22",
+        "2026-11-18",
+        "2026-11-14",
+        "2026-11-10",
+        "2026-10-28"
+      ],
+      "times": 6
+    },
+    {
+      "full_name": "JosssphZhou/poki",
+      "url": "https://github.com/JosssphZhou/poki",
+      "description": "Poki uses your iPhone like you do. An open-source agent app that runs on your iPhone, reads the screen, and taps, types and swipes in real apps with your own model account.",
+      "summary": "解决什么：通过读取屏幕和模拟用户操作，在 iPhone 上实现自动化任务和 AI 代理功能\n适合谁：需要自动化手机操作、希望使用 AI 辅助完成日常任务的 iPhone 用户\n亮点：开源的 AI 代理应用，可使用自己的模型账户在真实应用中自动交互",
+      "stars": 2112,
+      "language": "Swift",
+      "topics": [
+        "ai-agents",
+        "ai-assistant",
+        "automation",
+        "claude-code",
+        "computer-use",
+        "gui-agent",
+        "ios",
+        "ios-app",
+        "iphone",
+        "llm",
+        "mcp",
+        "mobile-agent",
+        "model-context-protocol",
+        "open-source",
+        "phone-agent",
+        "swift",
+        "voice-assistant"
+      ],
+      "categories": [
+        "AI",
+        "AI神器"
+      ],
+      "platforms": [
+        "AI",
+        "AI神器"
+      ],
+      "pick": "ai_tool",
+      "slot": "AI神器",
+      "kind": "search",
+      "created_at": "2026-11-05",
+      "first_date": "2026-11-26",
+      "last_date": "2026-11-26",
+      "dates": [
+        "2026-11-26"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "qianyiai/kurocat",
+      "url": "https://github.com/qianyiai/kurocat",
+      "description": "KuroCat — Free open-source 3D/2D desktop typing cat & AI coding companion (Bongo Cat alternative · Tauri v2 + Rust + MCP · Claude/Codex/DeepSeek/OBS · Win/Mac/Linux/Android)｜开源3D桌面打字小黑猫与AI伴侣",
+      "summary": "解决什么：为开发者提供一款3D/2D桌面打字猫，作为AI编程助手，增强工作环境趣味性和效率\n适合谁：程序员、设计师等需要AI辅助和桌面宠物娱乐的用户，支持多平台Windows、Mac、Linux及Android\n亮点：开源跨平台AI打字猫，集成多种AI模型和桌面应用支持",
+      "stars": 1165,
+      "language": "TypeScript",
+      "topics": [
+        "3d",
+        "ai-companion",
+        "android",
+        "bongo-cat",
+        "bongocat",
+        "claude-code",
+        "codex",
+        "cross-platform",
+        "desktop-pet",
+        "keyboard-visualizer",
+        "kurocat",
+        "linux",
+        "macos",
+        "mcp",
+        "obs-studio",
+        "open-source",
+        "rust",
+        "tauri",
+        "typing-cat",
+        "windows"
+      ],
+      "categories": [
+        "Linux",
+        "Windows",
+        "AI神器"
+      ],
+      "platforms": [
+        "Linux",
+        "Windows",
+        "AI神器"
+      ],
+      "pick": "ai_tool",
+      "slot": "AI神器",
+      "kind": "search",
+      "created_at": "2026-11-21",
+      "first_date": "2026-11-26",
+      "last_date": "2026-11-26",
+      "dates": [
+        "2026-11-26"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "sous-labs/songe",
+      "url": "https://github.com/sous-labs/songe",
+      "description": "A training engine for your local model, using your idle compute",
+      "summary": "解决什么：为本地模型提供训练引擎，利用闲置计算资源进行高效训练\n适合谁：需要使用本地大模型进行训练的开发者或研究人员\n亮点：通过闲置计算资源实现本地大模型的便捷高效训练",
+      "stars": 882,
+      "language": "Python",
+      "topics": [
+        "coding-agents",
+        "distillation",
+        "fine-tuning",
+        "llm",
+        "local-llm",
+        "lora",
+        "mlx"
+      ],
+      "categories": [
+        "AI"
+      ],
+      "platforms": [
+        "AI"
+      ],
+      "pick": "ai",
+      "slot": "AI",
+      "kind": "search",
+      "created_at": "2026-11-20",
+      "first_date": "2026-11-26",
+      "last_date": "2026-11-26",
+      "dates": [
+        "2026-11-26"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "DengShiyingA/harmonyos-ai-skill",
+      "url": "https://github.com/DengShiyingA/harmonyos-ai-skill",
+      "description": "鸿蒙(HarmonyOS NEXT)开发知识包,一份源文件自动产出 Claude Code / Cursor / Copilot / Codex / Gemini CLI / Windsurf / ChatGPT 等 11+ AI 工具的配置文件,让 AI 像熟读华为文档的工程师一样帮你写 ArkTS / ArkUI。",
+      "summary": "解决什么：为鸿蒙开发提供知识库，自动生成多款AI编程助手的配置文件\n适合谁：适合使用各类AI编程助手（如Cursor、Claude Code）进行鸿蒙NEXT应用开发的开发者\n亮点：支持多款主流AI工具，一键生成配置，让AI像熟读华为文档的工程师一样写代码",
+      "stars": 296,
+      "language": "Shell",
+      "topics": [
+        "agents-md",
+        "ai-coding-assistant",
+        "arkts",
+        "arkui",
+        "claude-code",
+        "cline",
+        "continue-dev",
+        "copilot",
+        "cursor",
+        "gemini-cli",
+        "harmonyos",
+        "harmonyos-next",
+        "llm-prompts",
+        "skill",
+        "windsurf"
+      ],
+      "categories": [
+        "鸿蒙"
+      ],
+      "platforms": [
+        "鸿蒙"
+      ],
+      "pick": "top",
+      "slot": "鸿蒙",
+      "kind": "search",
+      "created_at": "2026-04-05",
+      "first_date": "2026-11-26",
+      "last_date": "2026-11-26",
+      "dates": [
+        "2026-11-26"
+      ],
+      "times": 1
+    },
     {
       "full_name": "Gathin23/cleanyourtv",
       "url": "https://github.com/Gathin23/cleanyourtv",
@@ -1798,58 +2399,6 @@
       "times": 1
     },
     {
-      "full_name": "morluto/rea",
-      "url": "https://github.com/morluto/rea",
-      "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
-      "summary": "利用 AI 代理对从应用行为到底层原生二进制文件进行逆向工程\n面向安全研究人员、逆向工程师及需要自动化分析软件的开发者\n近期涨星最快的 AI 逆向工程工具，利用智能代理深入分析软件",
-      "stars": 473048,
-      "language": "TypeScript",
-      "topics": [
-        "agent-skills",
-        "ai",
-        "android",
-        "claude-code",
-        "cli",
-        "cpp",
-        "dsh-plugin",
-        "html",
-        "java",
-        "javascript",
-        "linux",
-        "mcp",
-        "nodejs",
-        "python",
-        "rea",
-        "react",
-        "rust",
-        "security",
-        "touhou",
-        "typescript"
-      ],
-      "categories": [
-        "Linux"
-      ],
-      "platforms": [
-        "Linux"
-      ],
-      "pick": "growth",
-      "slot": "Linux",
-      "kind": "search",
-      "created_at": "2026-04-14",
-      "first_date": "2026-10-27",
-      "last_date": "2026-11-22",
-      "dates": [
-        "2026-11-22",
-        "2026-11-17",
-        "2026-11-13",
-        "2026-11-09",
-        "2026-11-04",
-        "2026-10-31",
-        "2026-10-27"
-      ],
-      "times": 7
-    },
-    {
       "full_name": "cli/cli",
       "url": "https://github.com/cli/cli",
       "description": "GitHub’s official command line tool",
@@ -1912,79 +2461,6 @@
         "2026-11-22"
       ],
       "times": 1
-    },
-    {
-      "full_name": "ccch1mneyyy/dsh-Go",
-      "url": "https://github.com/ccch1mneyyy/dsh-Go",
-      "description": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
-      "summary": "让用户在手机本地运行 DeepSeek 模型，同时远程控制电脑进行编码\n适合需要随时随地通过手机控制电脑进行 AI 编码的开发者\n利用 Flutter 实现手机本地运行大模型并远程操控电脑",
-      "stars": 29766,
-      "language": "Dart",
-      "topics": [
-        "ai-agent",
-        "android",
-        "android-app",
-        "coding-agent",
-        "deepseek",
-        "deepseek-harness",
-        "dsh",
-        "dsh-plugin",
-        "dsh-tui",
-        "flutter",
-        "llm"
-      ],
-      "categories": [
-        "安卓",
-        "AI",
-        "AI神器"
-      ],
-      "platforms": [
-        "安卓"
-      ],
-      "pick": "growth",
-      "slot": "安卓",
-      "kind": "search",
-      "created_at": "2026-10-25",
-      "first_date": "2026-10-30",
-      "last_date": "2026-11-22",
-      "dates": [
-        "2026-11-22",
-        "2026-11-18",
-        "2026-11-14",
-        "2026-11-10",
-        "2026-11-05",
-        "2026-11-01",
-        "2026-10-30"
-      ],
-      "times": 7
-    },
-    {
-      "full_name": "heydamir/unslop",
-      "url": "https://github.com/heydamir/unslop",
-      "description": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
-      "summary": "将 Claude 生成的粗糙、缺乏设计感的 UI 转化为美观的界面\n适用于希望 Claude 输出结果具有专业视觉效果的 AI 用户或开发者\n将 Claude 生成的粗糙“vibecoded”界面瞬间转化为设计好的界面",
-      "stars": 19858,
-      "language": "JavaScript",
-      "topics": [],
-      "categories": [
-        "AI神器"
-      ],
-      "platforms": [
-        "AI神器"
-      ],
-      "pick": "ai_tool",
-      "slot": "AI神器",
-      "kind": "search",
-      "created_at": "2026-10-29",
-      "first_date": "2026-11-10",
-      "last_date": "2026-11-22",
-      "dates": [
-        "2026-11-22",
-        "2026-11-18",
-        "2026-11-14",
-        "2026-11-10"
-      ],
-      "times": 4
     },
     {
       "full_name": "wolfpld/tracy",
@@ -2098,91 +2574,6 @@
         "2026-11-10"
       ],
       "times": 2
-    },
-    {
-      "full_name": "vercel-labs/ui",
-      "url": "https://github.com/vercel-labs/ui",
-      "description": "A library of behaviors for agents to build the next generation of user interfaces.",
-      "summary": "解决什么：为 AI 代理提供构建下一代用户界面的行为库\n适合谁：适合使用 React、Vue 等框架开发 AI 交互应用的开发者\n亮点：无头组件库，支持多框架并专注于无障碍访问",
-      "stars": 6475,
-      "language": "TypeScript",
-      "topics": [
-        "accessibility",
-        "agent",
-        "agents",
-        "ai",
-        "aria",
-        "behaviors",
-        "component",
-        "component-library",
-        "headless",
-        "mcp",
-        "react",
-        "solid",
-        "svelte",
-        "vue",
-        "web-components",
-        "webmcp"
-      ],
-      "categories": [
-        "AI神器"
-      ],
-      "platforms": [
-        "AI神器"
-      ],
-      "pick": "ai_tool",
-      "slot": "AI神器",
-      "kind": "search",
-      "created_at": "2026-10-26",
-      "first_date": "2026-11-14",
-      "last_date": "2026-11-22",
-      "dates": [
-        "2026-11-22",
-        "2026-11-18",
-        "2026-11-14"
-      ],
-      "times": 3
-    },
-    {
-      "full_name": "Chevey339/kelivo",
-      "url": "https://github.com/Chevey339/kelivo",
-      "description": "A Flutter LLM Chat Client. Support Mobile & Desktop.",
-      "summary": "提供支持移动端和桌面端的 Flutter LLM 聊天客户端应用\n适合 Flutter 开发者或 HarmonyOS 用户体验 AI 聊天功能\n近期涨星最快的 Flutter LLM 聊天客户端，支持多平台",
-      "stars": 4724,
-      "language": "Dart",
-      "topics": [
-        "ai",
-        "android",
-        "chatbot",
-        "chatbox",
-        "flutter",
-        "flutter-apps",
-        "harmony",
-        "harmonyos",
-        "ios",
-        "llm",
-        "openharmony"
-      ],
-      "categories": [
-        "鸿蒙"
-      ],
-      "platforms": [
-        "鸿蒙"
-      ],
-      "pick": "growth",
-      "slot": "鸿蒙",
-      "kind": "search",
-      "created_at": "2025-08-29",
-      "first_date": "2026-10-28",
-      "last_date": "2026-11-22",
-      "dates": [
-        "2026-11-22",
-        "2026-11-18",
-        "2026-11-14",
-        "2026-11-10",
-        "2026-10-28"
-      ],
-      "times": 5
     },
     {
       "full_name": "oil-oil/oil-ui",
@@ -2592,51 +2983,6 @@
         "2026-11-03"
       ],
       "times": 4
-    },
-    {
-      "full_name": "ersinkoc/phonebox",
-      "url": "https://github.com/ersinkoc/phonebox",
-      "description": "Turn an old Android phone into a customizable desk panel and touch control deck for Windows, Linux and macOS. 124 widgets and 30 templates for system stats, AI coding, media and automation, in 13 languages. USB or paired Wi-Fi. No cloud required.",
-      "summary": "解决什么：将旧安卓手机变成可定制的桌面面板和触控控制台，用于Windows、Linux和macOS系统，提供系统状态、AI编码、媒体和自动化等功能\n适合谁：需要桌面增强或远程控制的用户，特别是希望利用旧设备提升工作效率或智能家居体验的人\n亮点：提供丰富的系统监控、AI编程、媒体控制和自动化功能，无需云服务即可本地运行",
-      "stars": 4313,
-      "language": "C#",
-      "topics": [
-        "android",
-        "claude-code",
-        "codex",
-        "dashboard",
-        "desk-panel",
-        "dotnet",
-        "home-assistant",
-        "linux",
-        "macos",
-        "old-phone",
-        "smart-stack",
-        "stream-deck",
-        "system-monitor",
-        "tailscale",
-        "webhooks",
-        "widgets",
-        "windows"
-      ],
-      "categories": [
-        "Linux",
-        "Windows"
-      ],
-      "platforms": [
-        "Windows"
-      ],
-      "pick": "growth",
-      "slot": "Windows",
-      "kind": "search",
-      "created_at": "2026-11-07",
-      "first_date": "2026-11-17",
-      "last_date": "2026-11-21",
-      "dates": [
-        "2026-11-21",
-        "2026-11-17"
-      ],
-      "times": 2
     },
     {
       "full_name": "Folkbench/folkbench",
@@ -6946,38 +7292,6 @@
       "times": 2
     },
     {
-      "full_name": "yhirose/cpp-httplib",
-      "url": "https://github.com/yhirose/cpp-httplib",
-      "description": "A C++ header-only HTTP/HTTPS server and client library",
-      "summary": "掌握 HTTP 协议在 C++ 中的底层实现细节，以及零依赖库的架构设计思路\n适合有一定 C++ 基础，希望深入理解 Socket 通信、多线程模型及 HTTP 协议栈的开发者\n建议从 Server 的启动与路由注册入手，深入理解 Socket 通信与线程池的实现机制",
-      "stars": 16974,
-      "language": "C++",
-      "topics": [
-        "cpp",
-        "cpp11",
-        "header-only",
-        "http",
-        "https"
-      ],
-      "categories": [
-        "C++"
-      ],
-      "platforms": [
-        "C++"
-      ],
-      "pick": null,
-      "slot": null,
-      "kind": "learn",
-      "created_at": "2012-09-22",
-      "first_date": "2026-10-25",
-      "last_date": "2026-11-08",
-      "dates": [
-        "2026-11-08",
-        "2026-10-25"
-      ],
-      "times": 2
-    },
-    {
       "full_name": "valentderah/totk-pc-recomp",
       "url": "https://github.com/valentderah/totk-pc-recomp",
       "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
@@ -7804,31 +8118,6 @@
       "slot": "AI神器",
       "kind": "search",
       "created_at": "2026-09-13",
-      "first_date": "2026-11-06",
-      "last_date": "2026-11-06",
-      "dates": [
-        "2026-11-06"
-      ],
-      "times": 1
-    },
-    {
-      "full_name": "lua/lua",
-      "url": "https://github.com/lua/lua",
-      "description": "A copy of the Lua development repository, as seen by the Lua team. Mirrored irregularly. All communication should be through the Lua mailing list https://www.lua.org/lua-l.html",
-      "summary": "掌握 C 语言虚拟机核心架构、内存管理策略及解释器执行流程\n适合有一定 C 语言基础，希望深入理解解释器或虚拟机底层实现的学习者\n建议从 lstate.c 入手理解全局状态，再依次阅读 lapi.c 和 lvm.c",
-      "stars": 10423,
-      "language": "C",
-      "topics": [],
-      "categories": [
-        "C"
-      ],
-      "platforms": [
-        "C"
-      ],
-      "pick": null,
-      "slot": null,
-      "kind": "learn",
-      "created_at": "2012-09-14",
       "first_date": "2026-11-06",
       "last_date": "2026-11-06",
       "dates": [
@@ -9370,41 +9659,6 @@
       "slot": "安卓",
       "kind": "search",
       "created_at": "2023-07-04",
-      "first_date": "2026-10-23",
-      "last_date": "2026-10-23",
-      "dates": [
-        "2026-10-23"
-      ],
-      "times": 1
-    },
-    {
-      "full_name": "webadderallorg/Recordly",
-      "url": "https://github.com/webadderallorg/Recordly",
-      "description": "Create polished demo videos without editing skills. Mac/Windows/Linux",
-      "summary": "解决无需专业剪辑技能即可制作精美演示视频的问题\n适合 Mac、Windows 和 Linux 用户制作演示视频\n近期涨星迅速，无需编辑技能即可生成精美视频",
-      "stars": 34873,
-      "language": "TypeScript",
-      "topics": [
-        "electron",
-        "free",
-        "linux",
-        "macos",
-        "open-source",
-        "screen-recorder",
-        "screen-studio",
-        "windows"
-      ],
-      "categories": [
-        "Linux",
-        "Windows"
-      ],
-      "platforms": [
-        "Windows"
-      ],
-      "pick": "growth",
-      "slot": "Windows",
-      "kind": "search",
-      "created_at": "2026-03-12",
       "first_date": "2026-10-23",
       "last_date": "2026-10-23",
       "dates": [
