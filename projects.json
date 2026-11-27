@@ -1,8 +1,620 @@
 {
-  "generated_at": "2026-11-26T08:04:42.711277+00:00",
-  "total": 262,
-  "occurrences": 487,
+  "generated_at": "2026-11-27T08:02:00.449868+00:00",
+  "total": 269,
+  "occurrences": 502,
   "projects": [
+    {
+      "full_name": "yetone/magpie",
+      "url": "https://github.com/yetone/magpie",
+      "description": "Pool every plan you pay for — Claude, ChatGPT, Copilot, GLM Coding Plan, Kimi Code and more — and use them in any agent: Claude Code, Codex, Claude Desktop… When one runs out, the next takes over.",
+      "summary": "解决什么：聚合多个 AI 模型服务，实现按需切换无缝使用\n适合谁：需要同时使用多个 AI 模型的开发者或团队\n亮点：一站式管理多种 AI 服务并自动切换",
+      "stars": 42252,
+      "language": "Go",
+      "topics": [
+        "ai-agents",
+        "chatgpt",
+        "claude",
+        "claude-code",
+        "codex",
+        "deepseek",
+        "gemini-cli",
+        "github-copilot",
+        "glm",
+        "kimi",
+        "linux",
+        "llm",
+        "llm-gateway",
+        "macos",
+        "windows"
+      ],
+      "categories": [
+        "Linux",
+        "Windows"
+      ],
+      "platforms": [
+        "Linux"
+      ],
+      "pick": "top",
+      "slot": "Linux",
+      "kind": "search",
+      "created_at": "2026-09-23",
+      "first_date": "2026-10-21",
+      "last_date": "2026-11-27",
+      "dates": [
+        "2026-11-27",
+        "2026-11-18",
+        "2026-11-14",
+        "2026-11-10",
+        "2026-10-21"
+      ],
+      "times": 5
+    },
+    {
+      "full_name": "wailsapp/wails",
+      "url": "https://github.com/wailsapp/wails",
+      "description": "Create beautiful applications using Go",
+      "summary": "解决什么：使用 Go 语言和 Web 前端技术（如 Angular, React, Vue 等）创建桌面应用程序\n适合谁：想要用 Go 构建跨平台桌面应用的开发者\n亮点：将 Go 后端与 Web 前端无缝结合的框架",
+      "stars": 37213,
+      "language": "Go",
+      "topics": [
+        "angular",
+        "desktop-application",
+        "go",
+        "golang",
+        "javascript",
+        "linux",
+        "macos",
+        "react",
+        "svelte",
+        "vuejs",
+        "windows"
+      ],
+      "categories": [
+        "Linux",
+        "Windows"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "pick": "top",
+      "slot": "Windows",
+      "kind": "search",
+      "created_at": "2018-12-15",
+      "first_date": "2026-11-27",
+      "last_date": "2026-11-27",
+      "dates": [
+        "2026-11-27"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "skywind3000/kcp",
+      "url": "https://github.com/skywind3000/kcp",
+      "description": ":zap: KCP - A Fast and Reliable ARQ Protocol",
+      "summary": "学什么：理解可靠 UDP 协议的实现原理，掌握 C 语言网络编程技巧\n适合谁：网络编程初学者，对 UDP 协议和可靠性机制感兴趣的开发者\n怎么读：先阅读核心的 ARQ 发送和接收模块，再逐步理解数据结构和状态机逻辑",
+      "stars": 16974,
+      "language": "C",
+      "topics": [
+        "accelerator",
+        "ack",
+        "arq",
+        "c",
+        "kcp",
+        "kcptun",
+        "low-latency",
+        "protocol",
+        "quic",
+        "rtc",
+        "rtt",
+        "socket",
+        "srt",
+        "tunnel",
+        "udp"
+      ],
+      "categories": [
+        "C"
+      ],
+      "platforms": [
+        "C"
+      ],
+      "pick": null,
+      "slot": null,
+      "kind": "learn",
+      "created_at": "2014-12-26",
+      "first_date": "2026-10-23",
+      "last_date": "2026-11-27",
+      "dates": [
+        "2026-11-27",
+        "2026-11-09",
+        "2026-10-23"
+      ],
+      "times": 3
+    },
+    {
+      "full_name": "Kludex/starlette",
+      "url": "https://github.com/Kludex/starlette",
+      "description": "The little ASGI framework that shines. 🌟",
+      "summary": "学什么：掌握 ASGI 协议规范、异步路由机制及中间件设计模式\n适合谁：适合希望深入理解 Web 框架底层原理及异步编程模型的 Python 开发者\n怎么读：从核心路由模块入手，再深入 ASGI 应用实现与中间件机制",
+      "stars": 12776,
+      "language": "Python",
+      "topics": [
+        "asgi",
+        "async",
+        "http",
+        "python",
+        "websockets"
+      ],
+      "categories": [
+        "Python"
+      ],
+      "platforms": [
+        "Python"
+      ],
+      "pick": null,
+      "slot": null,
+      "kind": "learn",
+      "created_at": "2018-06-25",
+      "first_date": "2026-10-23",
+      "last_date": "2026-11-27",
+      "dates": [
+        "2026-11-27",
+        "2026-11-25",
+        "2026-11-23",
+        "2026-11-22",
+        "2026-11-21",
+        "2026-11-18",
+        "2026-11-15",
+        "2026-11-14",
+        "2026-11-13",
+        "2026-11-12",
+        "2026-11-11",
+        "2026-11-08",
+        "2026-11-07",
+        "2026-11-06",
+        "2026-11-05",
+        "2026-11-03",
+        "2026-10-30",
+        "2026-10-26",
+        "2026-10-25",
+        "2026-10-24",
+        "2026-10-23"
+      ],
+      "times": 21
+    },
+    {
+      "full_name": "recloudstream/cloudstream",
+      "url": "https://github.com/recloudstream/cloudstream",
+      "description": "Android app for streaming and downloading media.",
+      "summary": "提供在安卓设备上流媒体传输和下载各种媒体内容的功能\n适合希望在安卓设备上构建或使用家庭影院系统的媒体爱好者\n作为安卓上最受欢迎的媒体流应用之一，拥有活跃的开源社区",
+      "stars": 11429,
+      "language": "Kotlin",
+      "topics": [
+        "android",
+        "good-first-issue",
+        "home-theater",
+        "media-center",
+        "multimedia",
+        "video-streaming"
+      ],
+      "categories": [
+        "安卓"
+      ],
+      "platforms": [
+        "安卓"
+      ],
+      "pick": "top",
+      "slot": "安卓",
+      "kind": "search",
+      "created_at": "2022-08-04",
+      "first_date": "2026-11-27",
+      "last_date": "2026-11-27",
+      "dates": [
+        "2026-11-27"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "erkamyaman/rust-anything",
+      "url": "https://github.com/erkamyaman/rust-anything",
+      "description": "Rewrite your app in Rust, piece by piece, checked against the original at every step. Works with TypeScript, JavaScript, Python, Go, Ruby, Java, C, PHP, C#, Kotlin and PowerShell.",
+      "summary": "将多种编程语言编写的应用程序逐块迁移至 Rust，并在每一步验证正确性\n适合需要将现有项目（如 Python、JS、Go 等）迁移至 Rust 以提升性能的开发者\n支持多语言，采用逐块重写并实时对比验证的方式",
+      "stars": 10419,
+      "language": "Rust",
+      "topics": [
+        "agent-skills",
+        "claude-code",
+        "cli",
+        "code-migration",
+        "codex",
+        "ffi",
+        "golang",
+        "java",
+        "javascript",
+        "mcp",
+        "migration",
+        "napi",
+        "performance",
+        "porting",
+        "pyo3",
+        "python",
+        "rewrite",
+        "ruby",
+        "rust",
+        "typescript"
+      ],
+      "categories": [
+        "Linux",
+        "AI神器"
+      ],
+      "platforms": [
+        "Linux"
+      ],
+      "pick": "growth",
+      "slot": "Linux",
+      "kind": "search",
+      "created_at": "2026-11-16",
+      "first_date": "2026-11-19",
+      "last_date": "2026-11-27",
+      "dates": [
+        "2026-11-27",
+        "2026-11-23",
+        "2026-11-19"
+      ],
+      "times": 3
+    },
+    {
+      "full_name": "qybaihe/bla",
+      "url": "https://github.com/qybaihe/bla",
+      "description": "🛡️ BLA (bla-agents / Blind LLM Agents) — Open-source Blue Defense MCP server & CLI protecting JS/TS, Electron ASAR, WASM, Python, Native Binaries, SQLite, GGUF/Safetensors & Android DEX against AI reverse-engineering agents (REA).",
+      "summary": "解决什么：开源蓝队防御 MCP 服务器和 CLI，保护 JS/TS、Electron ASAR、WASM、Python、原生二进制、SQLite、GGUF/Safetensors 和 Android DEX 免受 AI 反向工程代理的攻击\n适合谁：安全研究人员、开发者、需要保护软件知识产权和 AI 模型安全的团队\n亮点：开源的盲防御工具，有效对抗 AI 反向工程攻击",
+      "stars": 7031,
+      "language": "TypeScript",
+      "topics": [
+        "adversarial-ai",
+        "ai-security",
+        "android-security",
+        "binary-protection",
+        "claude-code",
+        "codex",
+        "cursor",
+        "electron-security",
+        "gguf",
+        "ghidra",
+        "llm-security",
+        "mcp",
+        "mcp-server",
+        "obfuscation",
+        "python-security",
+        "reverse-engineering",
+        "safetensors",
+        "software-protection",
+        "webassembly"
+      ],
+      "categories": [
+        "AI神器"
+      ],
+      "platforms": [
+        "AI神器"
+      ],
+      "pick": "ai_tool",
+      "slot": "AI神器",
+      "kind": "search",
+      "created_at": "2026-10-25",
+      "first_date": "2026-10-30",
+      "last_date": "2026-11-27",
+      "dates": [
+        "2026-11-27",
+        "2026-11-20",
+        "2026-11-11",
+        "2026-11-07",
+        "2026-10-30"
+      ],
+      "times": 5
+    },
+    {
+      "full_name": "t8y2/motty",
+      "url": "https://github.com/t8y2/motty",
+      "description": "SSH, SFTP, port forwarding, VNC/RDP and an AI assistant、MCP in one native window — a Go desktop app built on Viva, with no webview.",
+      "summary": "将 SSH、SFTP、VNC/RDP 及 AI 助手集成在一个原生窗口中\n适合需要在 Windows 上进行多种远程连接并使用 AI 辅助的开发者\n基于 Go 和 Viva 开发的原生应用，无 WebView，内置 AI 助手",
+      "stars": 2023,
+      "language": "Go",
+      "topics": [
+        "ai-assistant",
+        "golang",
+        "native",
+        "port-forwarding",
+        "rdp",
+        "sftp",
+        "ssh",
+        "ssh-client",
+        "terminal",
+        "viva",
+        "vnc"
+      ],
+      "categories": [
+        "Windows",
+        "AI神器"
+      ],
+      "platforms": [
+        "Windows",
+        "AI神器"
+      ],
+      "pick": "ai_tool",
+      "slot": "AI神器",
+      "kind": "search",
+      "created_at": "2026-10-22",
+      "first_date": "2026-11-19",
+      "last_date": "2026-11-27",
+      "dates": [
+        "2026-11-27",
+        "2026-11-19"
+      ],
+      "times": 2
+    },
+    {
+      "full_name": "INK-Q/agy-fast",
+      "url": "https://github.com/INK-Q/agy-fast",
+      "description": "Non-invasive MCP accelerator plugin for Google Antigravity (CLI/Desktop/IDE): cuts LLM turns (-34%), token quota (-31%), and upload traffic (-40%) without affecting native UI or diffs.",
+      "summary": "解决什么：为 Google Antigravity 提供非侵入式 MCP 加速插件，降低 LLM 轮次、token 配额和上传流量\n适合谁：需要提升 Google Antigravity 效率和使用 LLM 的开发者\n亮点：在不影响原生 UI 或差异的情况下显著优化性能",
+      "stars": 1798,
+      "language": "TypeScript",
+      "topics": [
+        "ai-agent",
+        "ai-coding",
+        "antigravity",
+        "antigravity-cli",
+        "antigravity-ide",
+        "antigravity-plugins",
+        "coding-agent",
+        "context-optimization",
+        "developer-productivity",
+        "developer-tools",
+        "gemini",
+        "google-antigravity",
+        "latency-optimization",
+        "mcp",
+        "mcp-plugin",
+        "mcp-server",
+        "model-context-protocol",
+        "performance",
+        "plugin",
+        "token-optimization"
+      ],
+      "categories": [
+        "AI",
+        "AI神器"
+      ],
+      "platforms": [
+        "AI",
+        "AI神器"
+      ],
+      "pick": "ai_tool",
+      "slot": "AI神器",
+      "kind": "search",
+      "created_at": "2026-11-19",
+      "first_date": "2026-11-23",
+      "last_date": "2026-11-27",
+      "dates": [
+        "2026-11-27",
+        "2026-11-23"
+      ],
+      "times": 2
+    },
+    {
+      "full_name": "alesha-pro/llm.asm",
+      "url": "https://github.com/alesha-pro/llm.asm",
+      "description": "Qwen3-0.6B inference (12 KB), bare-metal bootable OS (22 KB), and from-scratch Mini-GPT trainer with live Braille TUI (32 KB) in 100% pure x86-64 NASM assembly. Zero C, zero libc, zero dependencies.",
+      "summary": "解决什么：使用纯 x86-64 NASM 汇编语言实现 Qwen3-0.6B 推理、裸机可引导操作系统和从头开始的 Mini-GPT 训练器\n适合谁：对底层编程、汇编语言和 AI 硬件加速感兴趣的开发者和研究人员\n亮点：100% 纯汇编实现 AI 模型推理、操作系统和训练器，零依赖且代码体积极小",
+      "stars": 1736,
+      "language": "Assembly",
+      "topics": [
+        "assembly",
+        "avx2",
+        "bare-metal",
+        "llm",
+        "machine-learning",
+        "nasm",
+        "osdev",
+        "qwen",
+        "transformer",
+        "x86-64"
+      ],
+      "categories": [
+        "AI"
+      ],
+      "platforms": [
+        "AI"
+      ],
+      "pick": "ai",
+      "slot": "AI",
+      "kind": "search",
+      "created_at": "2026-11-25",
+      "first_date": "2026-11-27",
+      "last_date": "2026-11-27",
+      "dates": [
+        "2026-11-27"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "Pilipala9919/MarcoMovie",
+      "url": "https://github.com/Pilipala9919/MarcoMovie",
+      "description": "由 Pilipala 开发的多端自适应播放器（支持 Android 电视/手机/平板、Apple TV、HarmonyOS NEXT、iOS/iPadOS、Windows、macOS）。仅提供工具，不含影视资源；内容和配置由用户自行合法获取。",
+      "summary": "解决什么：提供支持多端（含鸿蒙 NEXT）的自适应视频播放工具\n适合谁：需要在鸿蒙、iOS、Android 等多平台播放视频的用户\n亮点：支持鸿蒙 NEXT 等多端，近期涨星最快",
+      "stars": 1341,
+      "language": "Dart",
+      "topics": [],
+      "categories": [
+        "鸿蒙"
+      ],
+      "platforms": [
+        "鸿蒙"
+      ],
+      "pick": "growth",
+      "slot": "鸿蒙",
+      "kind": "search",
+      "created_at": "2026-10-26",
+      "first_date": "2026-11-19",
+      "last_date": "2026-11-27",
+      "dates": [
+        "2026-11-27",
+        "2026-11-23",
+        "2026-11-19"
+      ],
+      "times": 3
+    },
+    {
+      "full_name": "grapedjuice/ytm-rs",
+      "url": "https://github.com/grapedjuice/ytm-rs",
+      "description": "Fast, native YouTube Music desktop app for Windows, macOS and Linux, built in Rust. No Electron, synced karaoke lyrics, 30 themes.",
+      "summary": "解决什么：提供高性能、无 Electron 的 YouTube Music 桌面客户端，解决跨平台原生体验与性能问题\n适合谁：适合追求原生流畅体验的 YouTube Music 用户，特别是需要同步歌词和丰富主题的听众\n亮点：基于 Rust 开发，支持 30+ 主题和同步歌词，近期涨星最快",
+      "stars": 1050,
+      "language": "Rust",
+      "topics": [
+        "cross-platform",
+        "desktop-app",
+        "discord-rich-presence",
+        "egui",
+        "electron-alternative",
+        "lastfm",
+        "linux",
+        "lyrics",
+        "macos",
+        "music-player",
+        "native-app",
+        "rodio",
+        "rust",
+        "rust-gui",
+        "synced-lyrics",
+        "windows",
+        "youtube-music",
+        "youtube-music-client",
+        "youtube-music-desktop"
+      ],
+      "categories": [
+        "Linux",
+        "Windows"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "pick": "growth",
+      "slot": "Windows",
+      "kind": "search",
+      "created_at": "2026-10-06",
+      "first_date": "2026-11-27",
+      "last_date": "2026-11-27",
+      "dates": [
+        "2026-11-27"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "fahniazz/claude-shorts-skills",
+      "url": "https://github.com/fahniazz/claude-shorts-skills",
+      "description": "Claude Code skills that turn your PC into an animation studio: 3D cartoon story Shorts (three.js + Remotion), word-synced green-screen captions, Minecraft short scripts and multi-agent Minecraft story videos. No AI video generator.",
+      "summary": "解决什么：将 PC 变成动画工作室，利用 Claude Code 生成 3D 卡通短片、字幕同步视频及 Minecraft 故事视频，无需依赖 AI 视频生成器\n适合谁：适合想要制作 3D 动画短片、字幕同步视频或 Minecraft 故事视频的内容创作者\n亮点：结合 Three.js 与 Remotion，通过代码而非 AI 视频生成器实现高质量视频制作",
+      "stars": 359,
+      "language": "TypeScript",
+      "topics": [
+        "animation",
+        "claude-code",
+        "claude-skills",
+        "remotion",
+        "threejs",
+        "youtube-shorts"
+      ],
+      "categories": [
+        "AI神器"
+      ],
+      "platforms": [
+        "AI神器"
+      ],
+      "pick": "ai_tool",
+      "slot": "AI神器",
+      "kind": "search",
+      "created_at": "2026-11-18",
+      "first_date": "2026-11-27",
+      "last_date": "2026-11-27",
+      "dates": [
+        "2026-11-27"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "awaLiny2333/LinysBrowser_NEXT",
+      "url": "https://github.com/awaLiny2333/LinysBrowser_NEXT",
+      "description": "A basic browser on HarmonyOS NEXT!",
+      "summary": "解决什么：在 HarmonyOS NEXT 系统上提供一个基础的浏览器功能\n适合谁：开发者或对 HarmonyOS NEXT 开发感兴趣的用户\n亮点：基于 ArkUI 的 HarmonyOS NEXT 基础浏览器框架",
+      "stars": 291,
+      "language": "TypeScript",
+      "topics": [
+        "arkui",
+        "harmonyos",
+        "harmonyos-next",
+        "openharmony"
+      ],
+      "categories": [
+        "鸿蒙"
+      ],
+      "platforms": [
+        "鸿蒙"
+      ],
+      "pick": "top",
+      "slot": "鸿蒙",
+      "kind": "search",
+      "created_at": "2024-09-05",
+      "first_date": "2026-11-27",
+      "last_date": "2026-11-27",
+      "dates": [
+        "2026-11-27"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "joelkreasey-tech/samsung-android-mtp-samfw-tool-v5-mtp-bemaron",
+      "url": "https://github.com/joelkreasey-tech/samsung-android-mtp-samfw-tool-v5-mtp-bemaron",
+      "description": "Connects Samsung Android devices over MTP to transfer files through a guided desktop workflow.",
+      "summary": "解决什么：通过 MTP 协议连接三星安卓设备，解决文件传输及固件管理问题\n适合谁：适合三星手机用户、开发者及刷机爱好者，用于设备文件管理或系统修改\n亮点：近期涨星最快，支持通过桌面端引导流程进行三星固件、Knox 及 CSC 操作",
+      "stars": 269,
+      "language": "HTML",
+      "topics": [
+        "changer",
+        "csc",
+        "hyperos-bootloader",
+        "knox",
+        "mtk-helper",
+        "mtp",
+        "mtp-helper",
+        "oneui",
+        "qualcomm-edl",
+        "samfw",
+        "samfw-tool",
+        "samsung-changer",
+        "samsung-csc",
+        "samsung-knox",
+        "samsung-mtp",
+        "samsung-samfw",
+        "samsung-tool",
+        "tool"
+      ],
+      "categories": [
+        "安卓"
+      ],
+      "platforms": [
+        "安卓"
+      ],
+      "pick": "growth",
+      "slot": "安卓",
+      "kind": "search",
+      "created_at": "2026-11-24",
+      "first_date": "2026-11-27",
+      "last_date": "2026-11-27",
+      "dates": [
+        "2026-11-27"
+      ],
+      "times": 1
+    },
     {
       "full_name": "morluto/rea",
       "url": "https://github.com/morluto/rea",
@@ -856,56 +1468,6 @@
         "2026-11-25"
       ],
       "times": 1
-    },
-    {
-      "full_name": "Kludex/starlette",
-      "url": "https://github.com/Kludex/starlette",
-      "description": "The little ASGI framework that shines. 🌟",
-      "summary": "原始描述：The little ASGI framework that shines. 🌟\n\n（摘要生成失败，本次展示原文）",
-      "stars": 12766,
-      "language": "Python",
-      "topics": [
-        "asgi",
-        "async",
-        "http",
-        "python",
-        "websockets"
-      ],
-      "categories": [
-        "Python"
-      ],
-      "platforms": [
-        "Python"
-      ],
-      "pick": null,
-      "slot": null,
-      "kind": "learn",
-      "created_at": "2018-06-25",
-      "first_date": "2026-10-23",
-      "last_date": "2026-11-25",
-      "dates": [
-        "2026-11-25",
-        "2026-11-23",
-        "2026-11-22",
-        "2026-11-21",
-        "2026-11-18",
-        "2026-11-15",
-        "2026-11-14",
-        "2026-11-13",
-        "2026-11-12",
-        "2026-11-11",
-        "2026-11-08",
-        "2026-11-07",
-        "2026-11-06",
-        "2026-11-05",
-        "2026-11-03",
-        "2026-10-30",
-        "2026-10-26",
-        "2026-10-25",
-        "2026-10-24",
-        "2026-10-23"
-      ],
-      "times": 20
     },
     {
       "full_name": "munificent/craftinginterpreters",
@@ -2016,55 +2578,6 @@
       "times": 2
     },
     {
-      "full_name": "erkamyaman/rust-anything",
-      "url": "https://github.com/erkamyaman/rust-anything",
-      "description": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.",
-      "summary": "解决什么：帮助开发者将 TypeScript、Python 等语言的现有应用逐步重写为 Rust，并确保每一步行为与原版一致\n适合谁：适合需要将旧语言（Java、Go、Python 等）项目迁移到 Rust 以提升性能的开发者\n亮点：利用 AI 逐块重写代码并实时验证行为一致性",
-      "stars": 8180,
-      "language": "Rust",
-      "topics": [
-        "agent-skills",
-        "claude-code",
-        "cli",
-        "code-migration",
-        "codex",
-        "ffi",
-        "golang",
-        "java",
-        "javascript",
-        "mcp",
-        "migration",
-        "napi",
-        "performance",
-        "porting",
-        "pyo3",
-        "python",
-        "rewrite",
-        "ruby",
-        "rust",
-        "typescript"
-      ],
-      "categories": [
-        "Linux",
-        "AI神器"
-      ],
-      "platforms": [
-        "Linux",
-        "AI神器"
-      ],
-      "pick": "ai_tool",
-      "slot": "AI神器",
-      "kind": "search",
-      "created_at": "2026-11-16",
-      "first_date": "2026-11-19",
-      "last_date": "2026-11-23",
-      "dates": [
-        "2026-11-23",
-        "2026-11-19"
-      ],
-      "times": 2
-    },
-    {
       "full_name": "shinyobjectz/raea",
       "url": "https://github.com/shinyobjectz/raea",
       "description": "Render Anything Engine: tell your AI what to make. Videos, motion graphics, 3D and games as React and TypeScript, rendered on your own GPU. Rust + Bevy, macOS, Linux and Windows.",
@@ -2150,80 +2663,6 @@
       "slot": "AI神器",
       "kind": "search",
       "created_at": "2026-11-10",
-      "first_date": "2026-11-23",
-      "last_date": "2026-11-23",
-      "dates": [
-        "2026-11-23"
-      ],
-      "times": 1
-    },
-    {
-      "full_name": "Pilipala9919/MarcoMovie",
-      "url": "https://github.com/Pilipala9919/MarcoMovie",
-      "description": "由 Pilipala 开发的多端自适应播放器（支持 Android 电视/手机/平板、Apple TV、HarmonyOS NEXT、iOS/iPadOS、Windows、macOS）。仅提供工具，不含影视资源；内容和配置由用户自行合法获取。",
-      "summary": "提供跨平台通用播放工具，解决多设备适配问题\n适合需要在 HarmonyOS NEXT、iOS、Android 等多系统设备上播放资源的用户\n支持鸿蒙 NEXT 等多平台，近期涨星最快",
-      "stars": 1089,
-      "language": "Java",
-      "topics": [],
-      "categories": [
-        "鸿蒙"
-      ],
-      "platforms": [
-        "鸿蒙"
-      ],
-      "pick": "growth",
-      "slot": "鸿蒙",
-      "kind": "search",
-      "created_at": "2026-10-26",
-      "first_date": "2026-11-19",
-      "last_date": "2026-11-23",
-      "dates": [
-        "2026-11-23",
-        "2026-11-19"
-      ],
-      "times": 2
-    },
-    {
-      "full_name": "INK-Q/agy-fast",
-      "url": "https://github.com/INK-Q/agy-fast",
-      "description": "Non-invasive MCP accelerator plugin for Google Antigravity (CLI/Desktop/IDE): cuts LLM turns (-34%), token quota (-31%), and upload traffic (-40%) without affecting native UI or diffs.",
-      "summary": "针对谷歌 Antigravity 的非侵入式 MCP 加速插件，旨在大幅降低 LLM 调用轮次、Token 消耗及上传流量\n适合使用 Google Antigravity CLI、Desktop 或 IDE 的开发者，旨在提升 AI 编码效率并降低成本\n无需修改原生 UI 即可减少 34% LLM 轮次、31% Token 消耗及 40% 上传流量，性能提升显著",
-      "stars": 625,
-      "language": "TypeScript",
-      "topics": [
-        "ai-agent",
-        "ai-coding",
-        "antigravity",
-        "antigravity-cli",
-        "antigravity-ide",
-        "antigravity-plugins",
-        "coding-agent",
-        "context-optimization",
-        "developer-productivity",
-        "developer-tools",
-        "gemini",
-        "google-antigravity",
-        "latency-optimization",
-        "mcp",
-        "mcp-plugin",
-        "mcp-server",
-        "model-context-protocol",
-        "performance",
-        "plugin",
-        "token-optimization"
-      ],
-      "categories": [
-        "AI",
-        "AI神器"
-      ],
-      "platforms": [
-        "AI",
-        "AI神器"
-      ],
-      "pick": "ai_tool",
-      "slot": "AI神器",
-      "kind": "search",
-      "created_at": "2026-11-19",
       "first_date": "2026-11-23",
       "last_date": "2026-11-23",
       "dates": [
@@ -3368,55 +3807,6 @@
       "times": 5
     },
     {
-      "full_name": "qybaihe/bla",
-      "url": "https://github.com/qybaihe/bla",
-      "description": "🛡️ BLA (bla-agents / Blind LLM Agents) — Open-source Blue Defense MCP server & CLI protecting JS/TS, Electron ASAR, WASM, Python, Native Binaries, SQLite, GGUF/Safetensors & Android DEX against AI reverse-engineering agents (REA).",
-      "summary": "防止 AI 反编译代理对 JS/TS、Electron、WASM、Python 等多种格式的逆向工程攻击\n需要保护代码资产免受 AI 逆向工程攻击的开发者及安全团队\n开源的蓝队防御 MCP 服务器，能有效对抗 AI 反编译代理",
-      "stars": 6233,
-      "language": "TypeScript",
-      "topics": [
-        "adversarial-ai",
-        "ai-security",
-        "android-security",
-        "binary-protection",
-        "claude-code",
-        "codex",
-        "cursor",
-        "electron-security",
-        "gguf",
-        "ghidra",
-        "llm-security",
-        "mcp",
-        "mcp-server",
-        "obfuscation",
-        "python-security",
-        "reverse-engineering",
-        "safetensors",
-        "software-protection",
-        "webassembly"
-      ],
-      "categories": [
-        "AI",
-        "AI神器"
-      ],
-      "platforms": [
-        "AI"
-      ],
-      "pick": "ai",
-      "slot": "AI",
-      "kind": "search",
-      "created_at": "2026-10-25",
-      "first_date": "2026-10-30",
-      "last_date": "2026-11-20",
-      "dates": [
-        "2026-11-20",
-        "2026-11-11",
-        "2026-11-07",
-        "2026-10-30"
-      ],
-      "times": 4
-    },
-    {
       "full_name": "ericniebler/range-v3",
       "url": "https://github.com/ericniebler/range-v3",
       "description": "Range library for C++14/17/20, basis for C++20's std::ranges",
@@ -3840,45 +4230,6 @@
       "times": 2
     },
     {
-      "full_name": "t8y2/motty",
-      "url": "https://github.com/t8y2/motty",
-      "description": "SSH, SFTP, port forwarding, VNC/RDP and an AI assistant、MCP in one native window — a Go desktop app built on Viva, with no webview.",
-      "summary": "集成SSH、SFTP、端口转发、VNC/RDP及AI助手，提供原生桌面应用体验\n适合需要同时管理远程服务器、终端及AI辅助的开发者与运维人员\n基于Go语言原生构建，无WebView，集成AI助手与多种远程协议",
-      "stars": 1526,
-      "language": "Go",
-      "topics": [
-        "ai-assistant",
-        "golang",
-        "native",
-        "port-forwarding",
-        "rdp",
-        "sftp",
-        "ssh",
-        "ssh-client",
-        "terminal",
-        "viva",
-        "vnc"
-      ],
-      "categories": [
-        "Windows",
-        "AI神器"
-      ],
-      "platforms": [
-        "Windows",
-        "AI神器"
-      ],
-      "pick": "ai_tool",
-      "slot": "AI神器",
-      "kind": "search",
-      "created_at": "2026-10-22",
-      "first_date": "2026-11-19",
-      "last_date": "2026-11-19",
-      "dates": [
-        "2026-11-19"
-      ],
-      "times": 1
-    },
-    {
       "full_name": "Dodaios/ste80-humanizer",
       "url": "https://github.com/Dodaios/ste80-humanizer",
       "description": "STE80 Humanizer: agent skill that removes AI tells and rewrites text 80% of the way to ASD-STE100 (Simplified Technical English), the method Andrej Karpathy shared.",
@@ -4076,41 +4427,6 @@
         "2026-11-18"
       ],
       "times": 1
-    },
-    {
-      "full_name": "yetone/magpie",
-      "url": "https://github.com/yetone/magpie",
-      "description": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
-      "summary": "解决什么：为开发者提供一站式界面，方便管理和使用多种大型语言模型\n适合谁：需要频繁切换和使用不同 AI 模型的开发者\n亮点：集成多种主流 AI 模型，通过菜单栏便捷访问",
-      "stars": 38338,
-      "language": "Go",
-      "topics": [
-        "claude-code",
-        "codex",
-        "deepseek",
-        "gemini-cli",
-        "llm",
-        "macos"
-      ],
-      "categories": [
-        "AI神器"
-      ],
-      "platforms": [
-        "AI神器"
-      ],
-      "pick": "ai_tool",
-      "slot": "AI神器",
-      "kind": "search",
-      "created_at": "2026-09-23",
-      "first_date": "2026-10-21",
-      "last_date": "2026-11-18",
-      "dates": [
-        "2026-11-18",
-        "2026-11-14",
-        "2026-11-10",
-        "2026-10-21"
-      ],
-      "times": 4
     },
     {
       "full_name": "android10/Android-CleanArchitecture",
@@ -7062,48 +7378,6 @@
       "dates": [
         "2026-11-09",
         "2026-10-29"
-      ],
-      "times": 2
-    },
-    {
-      "full_name": "skywind3000/kcp",
-      "url": "https://github.com/skywind3000/kcp",
-      "description": ":zap: KCP - A Fast and Reliable ARQ Protocol",
-      "summary": "深入理解 ARQ 协议与 UDP 的结合，掌握滑动窗口、拥塞控制及数据包重传等底层网络通信原理\n适合对网络协议底层实现感兴趣的开发者，特别是想了解如何在 UDP 上构建可靠传输的初学者\n从核心数据结构入手，重点阅读 `ikcp_send` 和 `ikcp_recv` 的核心逻辑",
-      "stars": 16952,
-      "language": "C",
-      "topics": [
-        "accelerator",
-        "ack",
-        "arq",
-        "c",
-        "kcp",
-        "kcptun",
-        "low-latency",
-        "protocol",
-        "quic",
-        "rtc",
-        "rtt",
-        "socket",
-        "srt",
-        "tunnel",
-        "udp"
-      ],
-      "categories": [
-        "C"
-      ],
-      "platforms": [
-        "C"
-      ],
-      "pick": null,
-      "slot": null,
-      "kind": "learn",
-      "created_at": "2014-12-26",
-      "first_date": "2026-10-23",
-      "last_date": "2026-11-09",
-      "dates": [
-        "2026-11-09",
-        "2026-10-23"
       ],
       "times": 2
     },
