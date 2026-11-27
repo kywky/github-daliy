@@ -35,6 +35,7 @@
   "android10/Android-CleanArchitecture": "2026-11-18",
   "antgroup/FluidMarkdown": "2026-11-18",
   "ausboyue/Wechat_HarmonyOS": "2026-11-23",
+  "awaLiny2333/LinysBrowser_NEXT": "2026-11-27",
   "beemdevelopment/Aegis": "2026-11-23",
   "bluesky-social/social-app": "2026-11-12",
   "ccch1mneyyy/dsh-Go": "2026-11-14",
@@ -83,6 +84,7 @@
   "pppscn/SmsForwarder": "2026-11-06",
   "pystardust/ani-cli": "2026-11-21",
   "reactnativecn/react-native-update": "2026-11-06",
+  "recloudstream/cloudstream": "2026-11-27",
   "rtk-ai/rtk": "2026-11-07",
   "rustdesk/rustdesk": "2026-11-06",
   "sharkdp/bat": "2026-11-15",
@@ -98,9 +100,11 @@
   "tw93/Pake": "2026-11-10",
   "ventoy/Ventoy": "2026-11-06",
   "wagoodman/dive": "2026-11-16",
+  "wailsapp/wails": "2026-11-27",
   "warpdotdev/warp": "2026-11-14",
   "webadderallorg/Recordly": "2026-11-26",
   "x64dbg/x64dbg": "2026-11-18",
   "xiaobaigroup/ClashBox": "2026-11-06",
+  "yetone/magpie": "2026-11-27",
   "yt-dlp/yt-dlp": "2026-11-06"
 }
