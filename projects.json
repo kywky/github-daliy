@@ -1,8 +1,642 @@
 {
-  "generated_at": "2026-11-27T08:02:00.449868+00:00",
-  "total": 269,
-  "occurrences": 502,
+  "generated_at": "2026-11-28T07:26:24.658252+00:00",
+  "total": 278,
+  "occurrences": 517,
   "projects": [
+    {
+      "full_name": "soxoj/maigret",
+      "url": "https://github.com/soxoj/maigret",
+      "description": "🕵️‍♂️ Collect a dossier on a person by username from 6K websites",
+      "summary": "通过单一用户名在全网 6000 多个社交平台上收集目标人物的信息\n适合网络安全研究人员、渗透测试人员及 OSINT 信息搜集爱好者使用\n覆盖范围极广，支持多线程并发搜索",
+      "stars": 41356,
+      "language": "Python",
+      "topics": [
+        "cli",
+        "cybersecurity",
+        "identification",
+        "information-gathering",
+        "infosec",
+        "investigation",
+        "open-source",
+        "osint",
+        "osint-framework",
+        "osint-python",
+        "pentesting",
+        "python",
+        "python3",
+        "reconnaissance",
+        "redteam",
+        "scraping",
+        "sherlock",
+        "social-network",
+        "socmint",
+        "username"
+      ],
+      "categories": [
+        "Linux"
+      ],
+      "platforms": [
+        "Linux"
+      ],
+      "pick": "top",
+      "slot": "Linux",
+      "kind": "search",
+      "created_at": "2020-06-27",
+      "first_date": "2026-11-28",
+      "last_date": "2026-11-28",
+      "dates": [
+        "2026-11-28"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "FreeCAD/FreeCAD",
+      "url": "https://github.com/FreeCAD/FreeCAD",
+      "description": "Official source code of FreeCAD, a free and opensource multiplatform 3D parametric modeler.",
+      "summary": "解决什么：提供免费开源的跨平台 3D 参数化建模解决方案，支持机械、建筑及工程仿真等多种场景\n适合谁：适合机械工程师、建筑师及需要进行 3D 建模、CAM/CAD 设计或工程仿真的开发者\n亮点：依托 OpenCascade 引擎，功能全面且完全免费，是开源 CAD 领域的标杆级项目",
+      "stars": 35846,
+      "language": "C++",
+      "topics": [
+        "3d",
+        "3d-printing",
+        "architecture",
+        "bim",
+        "cad",
+        "cam",
+        "civil-engineering",
+        "coin",
+        "engineering",
+        "fem",
+        "freecad",
+        "linux",
+        "macos",
+        "mechanical-engineering",
+        "opencascade",
+        "windows"
+      ],
+      "categories": [
+        "Linux",
+        "Windows"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "pick": "top",
+      "slot": "Windows",
+      "kind": "search",
+      "created_at": "2012-09-09",
+      "first_date": "2026-11-28",
+      "last_date": "2026-11-28",
+      "dates": [
+        "2026-11-28"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "DuarteSantos8/openGym",
+      "url": "https://github.com/DuarteSantos8/openGym",
+      "description": "Open-source gym & body-weight tracker, now in the App Store (iPhone + Apple Watch) and as an Android APK. Plan routines, log workouts, see which muscles are trained, import from Strong/Hevy/FitNotes. Self-host it or use it on the phone alone.",
+      "summary": "提供开源的健身房与自重训练追踪方案，支持计划制定、训练记录及数据导入\n适合需要自托管健身应用、使用 Apple Watch 或 Android 设备记录训练的用户\n支持从主流健身 App 导入数据，支持 PWA 和 WebAuthn，近期涨星最快",
+      "stars": 24478,
+      "language": "JavaScript",
+      "topics": [
+        "apple-watch",
+        "bodyweight",
+        "docker",
+        "fitness",
+        "fitness-tracker",
+        "gym",
+        "health",
+        "ios",
+        "mcp",
+        "nodejs",
+        "passkeys",
+        "progressive-web-applications",
+        "pwa",
+        "react",
+        "self-hosted",
+        "self-hosting",
+        "vite",
+        "webauthn",
+        "weightlifting",
+        "workout-tracker"
+      ],
+      "categories": [
+        "安卓"
+      ],
+      "platforms": [
+        "安卓"
+      ],
+      "pick": "growth",
+      "slot": "安卓",
+      "kind": "search",
+      "created_at": "2026-07-18",
+      "first_date": "2026-10-24",
+      "last_date": "2026-11-28",
+      "dates": [
+        "2026-11-28",
+        "2026-11-24",
+        "2026-11-20",
+        "2026-11-14",
+        "2026-11-10",
+        "2026-11-01",
+        "2026-10-28",
+        "2026-10-24"
+      ],
+      "times": 8
+    },
+    {
+      "full_name": "Sjj1024/PakePlus-Android",
+      "url": "https://github.com/Sjj1024/PakePlus-Android",
+      "description": "Turn any webpage/HTML/Vue/React and so on into desktop and mobile app under 5M with easy in few minutes. 轻松将任意网站/HTML/Vue/React等项目构建为轻量级(小于5M)多端桌面应用和手机应用仅需几分钟. https://ppofficial.netlify.app",
+      "summary": "解决将任意网页、HTML、Vue 或 React 项目快速转换为轻量级桌面和移动应用的问题\n适合希望几分钟内将前端项目转化为轻量级多端应用的开发者或前端工程师\n亮点是能生成小于 5MB 的轻量级应用，支持 Tauri 框架且构建极其简单",
+      "stars": 11369,
+      "language": "Lua",
+      "topics": [
+        "build",
+        "pacbao",
+        "pack",
+        "pake",
+        "pakeplus",
+        "tauri",
+        "tauri2"
+      ],
+      "categories": [
+        "安卓"
+      ],
+      "platforms": [
+        "安卓"
+      ],
+      "pick": "top",
+      "slot": "安卓",
+      "kind": "search",
+      "created_at": "2025-03-28",
+      "first_date": "2026-11-28",
+      "last_date": "2026-11-28",
+      "dates": [
+        "2026-11-28"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "mdiri-ai/SoduWork",
+      "url": "https://github.com/mdiri-ai/SoduWork",
+      "description": "The AI-native engine for teams and their agents. Multi-harness, multi-agent, self-hosted.",
+      "summary": "为团队提供 AI 原生引擎，支持多代理编排、工作流自动化及自托管部署\n适合需要构建复杂 AI 工作流、进行团队协作且希望自托管的企业或开发者\n支持多 Harness 架构、插件系统及人机协同，提供高度可定制的自托管解决方案",
+      "stars": 8850,
+      "language": "JavaScript",
+      "topics": [
+        "agent-harness",
+        "agent-orchestration",
+        "agent-workflows",
+        "ai-agents",
+        "ai-workflows",
+        "anti-slop",
+        "claude-code",
+        "codex",
+        "deepseek",
+        "electron",
+        "fastapi",
+        "harness",
+        "human-in-the-loop",
+        "llm",
+        "mcp",
+        "multi-agent",
+        "opencode",
+        "plugin-system",
+        "self-hosted",
+        "team-collaboration"
+      ],
+      "categories": [
+        "AI神器"
+      ],
+      "platforms": [
+        "AI神器"
+      ],
+      "pick": "ai_tool",
+      "slot": "AI神器",
+      "kind": "search",
+      "created_at": "2026-10-29",
+      "first_date": "2026-11-12",
+      "last_date": "2026-11-28",
+      "dates": [
+        "2026-11-28",
+        "2026-11-24",
+        "2026-11-20",
+        "2026-11-16",
+        "2026-11-12"
+      ],
+      "times": 5
+    },
+    {
+      "full_name": "Tencent/libco",
+      "url": "https://github.com/Tencent/libco",
+      "description": "libco is a coroutine library which is widely used in wechat  back-end service. It has been running on tens of thousands of machines since 2013.",
+      "summary": "学什么：深入理解协程的上下文切换机制与栈管理，掌握轻量级并发编程的核心技巧\n适合谁：适合有一定 C++ 基础并希望深入理解协程底层实现或提升后端并发能力的开发者\n怎么读：从核心的上下文切换汇编函数入手，逐步分析协程调度与栈管理逻辑",
+      "stars": 8701,
+      "language": "C++",
+      "topics": [],
+      "categories": [
+        "C"
+      ],
+      "platforms": [
+        "C"
+      ],
+      "pick": null,
+      "slot": null,
+      "kind": "learn",
+      "created_at": "2016-10-12",
+      "first_date": "2026-10-24",
+      "last_date": "2026-11-28",
+      "dates": [
+        "2026-11-28",
+        "2026-11-10",
+        "2026-10-24"
+      ],
+      "times": 3
+    },
+    {
+      "full_name": "doctest/doctest",
+      "url": "https://github.com/doctest/doctest",
+      "description": "The fastest feature-rich C++11/14/17/20/23 single-header testing framework",
+      "summary": "掌握 C++ 宏与模板元编程的高级用法，理解单头库的编译优化与接口设计\n适合对 C++ 模板元编程、宏技巧感兴趣，或希望提升代码底层实现能力的进阶开发者\n从核心头文件 `doctest.h` 入手，重点分析断言宏与测试套件注册的实现逻辑",
+      "stars": 6985,
+      "language": "C++",
+      "topics": [
+        "c-plus-plus",
+        "cpp",
+        "cpp11",
+        "cpp14",
+        "cpp17",
+        "cpp20",
+        "cpp23",
+        "doctest",
+        "header-only",
+        "single-file",
+        "tdd",
+        "testing",
+        "testing-framework",
+        "unit-testing"
+      ],
+      "categories": [
+        "C++"
+      ],
+      "platforms": [
+        "C++"
+      ],
+      "pick": null,
+      "slot": null,
+      "kind": "learn",
+      "created_at": "2014-08-05",
+      "first_date": "2026-10-26",
+      "last_date": "2026-11-28",
+      "dates": [
+        "2026-11-28",
+        "2026-11-09",
+        "2026-10-26"
+      ],
+      "times": 3
+    },
+    {
+      "full_name": "XinaTian/MROffice",
+      "url": "https://github.com/XinaTian/MROffice",
+      "description": "MR Office — the open-source editors of the AI office suite closest to Microsoft Office: documents, spreadsheets, presentations, PDF and code in the browser. Copilot in every editor edits real Word, Excel and PowerPoint files with you; an MCP server lets Claude, ChatGPT, Cursor and Codex create and edit them; embed it in your app with one line.",
+      "summary": "解决什么：提供一个开源的 AI 办公套件，允许 AI 助手直接在浏览器中创建和编辑真实的 Word、Excel 和 PPT 文件\n适合谁：适合需要在浏览器端进行文档编辑或希望在应用中集成 AI 办公能力的开发者\n亮点：浏览器中最接近 Microsoft Office 的开源编辑器，支持 MCP 协议和一键嵌入",
+      "stars": 5246,
+      "language": "TypeScript",
+      "topics": [
+        "ai",
+        "ai-agent",
+        "claude-code",
+        "codex",
+        "copilot",
+        "cursor",
+        "document-editor",
+        "docx",
+        "embed",
+        "excel",
+        "mcp",
+        "mcp-server",
+        "microsoft-office-alternative",
+        "office-suite",
+        "pdf-editor",
+        "powerpoint",
+        "pptx",
+        "spreadsheet",
+        "word",
+        "xlsx"
+      ],
+      "categories": [
+        "AI神器"
+      ],
+      "platforms": [
+        "AI神器"
+      ],
+      "pick": "ai_tool",
+      "slot": "AI神器",
+      "kind": "search",
+      "created_at": "2026-11-10",
+      "first_date": "2026-11-23",
+      "last_date": "2026-11-28",
+      "dates": [
+        "2026-11-28",
+        "2026-11-23"
+      ],
+      "times": 2
+    },
+    {
+      "full_name": "Zitann/HarmonyOS-Haps",
+      "url": "https://github.com/Zitann/HarmonyOS-Haps",
+      "description": "⚡️鸿蒙Next Hap安装包合集，如果您觉得有帮助，还请点亮一下 Star 🌟 哦~ 万分感谢！",
+      "summary": "提供鸿蒙Next系统的HAP安装包合集资源\n鸿蒙开发者及需要安装包资源的用户\n收录鸿蒙Next HAP安装包，近期涨星最快",
+      "stars": 4164,
+      "language": "Python",
+      "topics": [
+        "harmonyos",
+        "harmonyos-next"
+      ],
+      "categories": [
+        "鸿蒙"
+      ],
+      "platforms": [
+        "鸿蒙"
+      ],
+      "pick": "growth",
+      "slot": "鸿蒙",
+      "kind": "search",
+      "created_at": "2024-11-15",
+      "first_date": "2026-10-24",
+      "last_date": "2026-11-28",
+      "dates": [
+        "2026-11-28",
+        "2026-11-14",
+        "2026-11-10",
+        "2026-11-02",
+        "2026-10-28",
+        "2026-10-24"
+      ],
+      "times": 6
+    },
+    {
+      "full_name": "nexu-io/opengame",
+      "url": "https://github.com/nexu-io/opengame",
+      "description": "The Super Game Agent — the Unity & Unreal for AI agents, with 100+ viral games to remix. Turn 20+ coding agents (Claude Code, Codex, DeepSeek, etc.) into a full-stack AI game studio. Build and publish 3D & mini-games to WeChat, Douyin, TikTok, Telegram, itch.io, and more.",
+      "summary": "将多个 AI 编程代理整合为全栈 AI 游戏工作室，支持快速构建和发布 3D 及小游戏\n适合希望利用 AI 快速生成游戏并发布到微信、抖音、TikTok 等平台的开发者\n它是 AI 游戏开发的“Unity & Unreal”，支持混音 100+ 病毒式游戏并集成多种 AI 代理",
+      "stars": 2478,
+      "language": "TypeScript",
+      "topics": [
+        "agent-skills",
+        "ai-agents",
+        "ai-game-generator",
+        "claude-code",
+        "codex",
+        "deepseek",
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin",
+        "game-development",
+        "game-engine",
+        "indie-game",
+        "local-first",
+        "mcp",
+        "mini-games",
+        "threejs",
+        "unity",
+        "unreal-engine",
+        "vibe-coding",
+        "wechat-minigame"
+      ],
+      "categories": [
+        "AI",
+        "AI神器"
+      ],
+      "platforms": [
+        "AI",
+        "AI神器"
+      ],
+      "pick": "ai_tool",
+      "slot": "AI神器",
+      "kind": "search",
+      "created_at": "2026-11-25",
+      "first_date": "2026-11-28",
+      "last_date": "2026-11-28",
+      "dates": [
+        "2026-11-28"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "opensetlabs/openset-llm",
+      "url": "https://github.com/opensetlabs/openset-llm",
+      "description": "Fast local LLM inference on plain CPUs. No GPU, 8 GB of RAM. OpenAI-compatible server.",
+      "summary": "解决什么：在普通 CPU 上实现快速本地 LLM 推理，无需 GPU，兼容 OpenAI 接口\n适合谁：需要在没有 GPU 环境下运行本地 LLM 推理的用户\n亮点：支持无 GPU、低内存的本地 OpenAI 兼容 LLM 推理引擎",
+      "stars": 2246,
+      "language": "Python",
+      "topics": [
+        "ai",
+        "avx512",
+        "cpu-inference",
+        "edge-ai",
+        "gguf",
+        "inference-engine",
+        "llama-cpp",
+        "llm",
+        "llm-inference",
+        "local-ai",
+        "local-llm",
+        "no-gpu",
+        "on-device-ai",
+        "openai-api",
+        "openai-compatible",
+        "quantization",
+        "qwen",
+        "self-hosted",
+        "speculative-decoding",
+        "ternary"
+      ],
+      "categories": [
+        "AI"
+      ],
+      "platforms": [
+        "AI"
+      ],
+      "pick": "ai",
+      "slot": "AI",
+      "kind": "search",
+      "created_at": "2026-11-13",
+      "first_date": "2026-11-28",
+      "last_date": "2026-11-28",
+      "dates": [
+        "2026-11-28"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "riveran0226/windows-explorer-blur-mica",
+      "url": "https://github.com/riveran0226/windows-explorer-blur-mica",
+      "description": "Free Windows 10 & 11 Explorer customization tool for Acrylic, Mica, transparency and background blur effects.",
+      "summary": "这是一个免费工具，用于自定义 Windows 10 和 11 资源管理器，解决默认界面单调问题，提供 Acrylic、Mica 和透明模糊效果\n适合追求个性化桌面体验、希望自定义 Windows 资源管理器外观或使用透明毛玻璃效果的 Windows 用户\n近期涨星最快的 Windows 项目，支持 C++ 开发，能实现 Mica 和 Acrylic 等高级透明模糊效果",
+      "stars": 911,
+      "language": "C++",
+      "topics": [
+        "acrylic",
+        "blur",
+        "cpp",
+        "customization",
+        "dark-mode",
+        "desktop",
+        "desktop-customization",
+        "explorer",
+        "mica",
+        "personalization",
+        "shell",
+        "themes",
+        "transparency",
+        "user-interface",
+        "windows",
+        "windows-explorer",
+        "windows10",
+        "windows11"
+      ],
+      "categories": [
+        "Windows"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "pick": "growth",
+      "slot": "Windows",
+      "kind": "search",
+      "created_at": "2026-11-27",
+      "first_date": "2026-11-28",
+      "last_date": "2026-11-28",
+      "dates": [
+        "2026-11-28"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "mist-8659/windows-mouse-keyboard-sharing-kvm",
+      "url": "https://github.com/mist-8659/windows-mouse-keyboard-sharing-kvm",
+      "description": "Free open-source KVM software to share one keyboard and mouse across multiple Windows, macOS and Linux computers.",
+      "summary": "解决多台 Windows、macOS 和 Linux 电脑间共享一套键盘和鼠标的输入设备问题\n适合需要在多台电脑或多显示器间高效切换工作的开发者或办公人员\n免费开源且跨平台，近期涨星最快，支持剪贴板和剪贴板共享",
+      "stars": 903,
+      "language": "C++",
+      "topics": [
+        "c-plus-plus",
+        "clipboard",
+        "cross-platform",
+        "desktop",
+        "desktop-app",
+        "input-sharing",
+        "keyboard",
+        "keyboard-sharing",
+        "kvm",
+        "linux",
+        "macos",
+        "mouse",
+        "mouse-sharing",
+        "multi-monitor",
+        "networking",
+        "open-source",
+        "productivity",
+        "qt",
+        "remote-control",
+        "windows"
+      ],
+      "categories": [
+        "Linux"
+      ],
+      "platforms": [
+        "Linux"
+      ],
+      "pick": "growth",
+      "slot": "Linux",
+      "kind": "search",
+      "created_at": "2026-11-27",
+      "first_date": "2026-11-28",
+      "last_date": "2026-11-28",
+      "dates": [
+        "2026-11-28"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "gary23w/f-ck_data_brokers",
+      "url": "https://github.com/gary23w/f-ck_data_brokers",
+      "description": "fck_data_brokers.py is a free, open-source Python script that sends opt-out and deletion requests to data brokers on your behalf.",
+      "summary": "自动化向数据经纪人发送退出和删除请求，保护个人隐私\n关注个人隐私、希望从数据经纪人处移除个人信息的用户\n免费开源的 Python 工具，支持 MCP 协议，自动化处理隐私请求",
+      "stars": 884,
+      "language": "Python",
+      "topics": [
+        "ccpa",
+        "cli",
+        "data-brokers",
+        "data-deletion",
+        "gdpr",
+        "lgpd",
+        "mcp",
+        "mcp-server",
+        "opt-out",
+        "personal-data",
+        "pipeda",
+        "privacy",
+        "privacy-tools",
+        "python"
+      ],
+      "categories": [
+        "Linux",
+        "AI神器"
+      ],
+      "platforms": [
+        "Linux",
+        "AI神器"
+      ],
+      "pick": "ai_tool",
+      "slot": "AI神器",
+      "kind": "search",
+      "created_at": "2026-11-26",
+      "first_date": "2026-11-28",
+      "last_date": "2026-11-28",
+      "dates": [
+        "2026-11-28"
+      ],
+      "times": 1
+    },
+    {
+      "full_name": "jianjunxiao/wanandroid",
+      "url": "https://github.com/jianjunxiao/wanandroid",
+      "description": "Compose Multipartform实现的Wanandroid跨平台客户端（Android、iOS、HarmonyOS、Web）",
+      "summary": "使用 Compose Multipartform 实现支持 Android、iOS、HarmonyOS 和 Web 的 Wanandroid 跨平台客户端\n适合寻求 HarmonyOS 或 Kotlin Multiplatform 开发参考的开发者\n展示了 Compose Multiplatform 在 HarmonyOS 和 iOS 上的代码复用能力",
+      "stars": 270,
+      "language": "Kotlin",
+      "topics": [
+        "compose-navigation",
+        "composemultiplatform",
+        "harmony",
+        "harmonyos",
+        "harmonyos-next",
+        "ios",
+        "kotlin",
+        "kotlin-multiplatform"
+      ],
+      "categories": [
+        "鸿蒙"
+      ],
+      "platforms": [
+        "鸿蒙"
+      ],
+      "pick": "top",
+      "slot": "鸿蒙",
+      "kind": "search",
+      "created_at": "2019-12-09",
+      "first_date": "2026-11-28",
+      "last_date": "2026-11-28",
+      "dates": [
+        "2026-11-28"
+      ],
+      "times": 1
+    },
     {
       "full_name": "yetone/magpie",
       "url": "https://github.com/yetone/magpie",
@@ -1982,58 +2616,6 @@
       "times": 2
     },
     {
-      "full_name": "DuarteSantos8/openGym",
-      "url": "https://github.com/DuarteSantos8/openGym",
-      "description": "Open-source gym & body-weight tracker, now in the App Store (iPhone + Apple Watch) and as an Android APK. Plan routines, log workouts, see which muscles are trained, import from Strong/Hevy/FitNotes. Self-host it or use it on the phone alone.",
-      "summary": "解决健身爱好者记录训练、追踪肌肉训练情况以及从其他应用导入数据的需求\n适合需要自托管健身追踪应用的用户，同时也支持 iOS 和 Android 平台\n近期涨星最快的开源健身追踪器，支持 Apple Watch 且具备自托管能力",
-      "stars": 23762,
-      "language": "JavaScript",
-      "topics": [
-        "apple-watch",
-        "bodyweight",
-        "docker",
-        "fitness",
-        "fitness-tracker",
-        "gym",
-        "health",
-        "ios",
-        "mcp",
-        "nodejs",
-        "passkeys",
-        "progressive-web-applications",
-        "pwa",
-        "react",
-        "self-hosted",
-        "self-hosting",
-        "vite",
-        "webauthn",
-        "weightlifting",
-        "workout-tracker"
-      ],
-      "categories": [
-        "安卓"
-      ],
-      "platforms": [
-        "安卓"
-      ],
-      "pick": "growth",
-      "slot": "安卓",
-      "kind": "search",
-      "created_at": "2026-07-18",
-      "first_date": "2026-10-24",
-      "last_date": "2026-11-24",
-      "dates": [
-        "2026-11-24",
-        "2026-11-20",
-        "2026-11-14",
-        "2026-11-10",
-        "2026-11-01",
-        "2026-10-28",
-        "2026-10-24"
-      ],
-      "times": 7
-    },
-    {
       "full_name": "electerm/electerm",
       "url": "https://github.com/electerm/electerm",
       "description": "Free and open-sourced terminal/ssh/sftp/ftp/telnet/serialport/RDP/VNC/Spice client(Linux, Mac, Windows, Android, HarmonyOS, iOS)",
@@ -2151,57 +2733,6 @@
         "2026-11-19",
         "2026-11-05",
         "2026-11-01"
-      ],
-      "times": 4
-    },
-    {
-      "full_name": "mdiri-ai/SoduWork",
-      "url": "https://github.com/mdiri-ai/SoduWork",
-      "description": "The AI-native engine for teams and their agents. Multi-harness, multi-agent, self-hosted.",
-      "summary": "为团队提供 AI 原生引擎，支持多代理编排、工作流管理及自托管部署\n面向需要自托管 AI 工作流和多代理协作的团队及开发者\n支持多框架和多代理协作，具备强大的插件系统与人机协同能力",
-      "stars": 7417,
-      "language": "JavaScript",
-      "topics": [
-        "agent-harness",
-        "agent-orchestration",
-        "agent-workflows",
-        "ai-agents",
-        "ai-workflows",
-        "anti-slop",
-        "claude-code",
-        "codex",
-        "deepseek",
-        "electron",
-        "fastapi",
-        "harness",
-        "human-in-the-loop",
-        "llm",
-        "mcp",
-        "multi-agent",
-        "opencode",
-        "plugin-system",
-        "self-hosted",
-        "team-collaboration"
-      ],
-      "categories": [
-        "AI",
-        "AI神器"
-      ],
-      "platforms": [
-        "AI",
-        "AI神器"
-      ],
-      "pick": "ai_tool",
-      "slot": "AI神器",
-      "kind": "search",
-      "created_at": "2026-10-29",
-      "first_date": "2026-11-12",
-      "last_date": "2026-11-24",
-      "dates": [
-        "2026-11-24",
-        "2026-11-20",
-        "2026-11-16",
-        "2026-11-12"
       ],
       "times": 4
     },
@@ -2623,52 +3154,6 @@
         "2026-11-09"
       ],
       "times": 2
-    },
-    {
-      "full_name": "XinaTian/MROffice",
-      "url": "https://github.com/XinaTian/MROffice",
-      "description": "MR Office — the open-source editors of the AI office suite closest to Microsoft Office: documents, spreadsheets, presentations, PDF and code in the browser. Copilot in every editor edits real Word, Excel and PowerPoint files with you; an MCP server lets Claude, ChatGPT, Cursor and Codex create and edit them; embed it in your app with one line.",
-      "summary": "解决什么：提供基于浏览器的 AI 办公套件，支持文档、表格、演示文稿及 PDF 编辑，并允许 AI 直接编辑真实文件\n适合谁：适合需要 AI 辅助办公、集成到应用中，或使用 Claude、ChatGPT、Cursor 等工具的用户\n亮点：支持真实 Word/Excel/PPT 编辑，集成 MCP 服务器，可一行代码嵌入应用",
-      "stars": 2461,
-      "language": "TypeScript",
-      "topics": [
-        "ai",
-        "ai-agent",
-        "claude-code",
-        "codex",
-        "copilot",
-        "cursor",
-        "document-editor",
-        "docx",
-        "embed",
-        "excel",
-        "mcp",
-        "mcp-server",
-        "microsoft-office-alternative",
-        "office-suite",
-        "pdf-editor",
-        "powerpoint",
-        "pptx",
-        "spreadsheet",
-        "word",
-        "xlsx"
-      ],
-      "categories": [
-        "AI神器"
-      ],
-      "platforms": [
-        "AI神器"
-      ],
-      "pick": "ai_tool",
-      "slot": "AI神器",
-      "kind": "search",
-      "created_at": "2026-11-10",
-      "first_date": "2026-11-23",
-      "last_date": "2026-11-23",
-      "dates": [
-        "2026-11-23"
-      ],
-      "times": 1
     },
     {
       "full_name": "ausboyue/Wechat_HarmonyOS",
@@ -5998,38 +6483,6 @@
       "times": 2
     },
     {
-      "full_name": "Zitann/HarmonyOS-Haps",
-      "url": "https://github.com/Zitann/HarmonyOS-Haps",
-      "description": "⚡️鸿蒙Next Hap安装包合集，如果您觉得有帮助，还请点亮一下 Star 🌟 哦~ 万分感谢！",
-      "summary": "解决什么：提供鸿蒙Next Hap安装包合集，方便用户下载和使用\n适合谁：对鸿蒙Next系统感兴趣的开发者或用户\n亮点：汇集了大量鸿蒙Next Hap安装包，资源丰富",
-      "stars": 3958,
-      "language": "Python",
-      "topics": [
-        "harmonyos",
-        "harmonyos-next"
-      ],
-      "categories": [
-        "鸿蒙"
-      ],
-      "platforms": [
-        "鸿蒙"
-      ],
-      "pick": "top",
-      "slot": "鸿蒙",
-      "kind": "search",
-      "created_at": "2024-11-15",
-      "first_date": "2026-10-24",
-      "last_date": "2026-11-14",
-      "dates": [
-        "2026-11-14",
-        "2026-11-10",
-        "2026-11-02",
-        "2026-10-28",
-        "2026-10-24"
-      ],
-      "times": 5
-    },
-    {
       "full_name": "hyperionaidev/smolmaxxing",
       "url": "https://github.com/hyperionaidev/smolmaxxing",
       "description": "maxxing the ability to run different LLMs on the smallest devices possible",
@@ -7114,32 +7567,6 @@
       "times": 1
     },
     {
-      "full_name": "Tencent/libco",
-      "url": "https://github.com/Tencent/libco",
-      "description": "libco is a coroutine library which is widely used in wechat  back-end service. It has been running on tens of thousands of machines since 2013.",
-      "summary": "学什么：理解协程的实现原理，掌握上下文切换的关键技术\n适合谁：有一定 C++ 基础，对并发编程感兴趣的读者\n怎么读：先看协程创建和执行的函数，再深入调度器的设计",
-      "stars": 8693,
-      "language": "C++",
-      "topics": [],
-      "categories": [
-        "C"
-      ],
-      "platforms": [
-        "C"
-      ],
-      "pick": null,
-      "slot": null,
-      "kind": "learn",
-      "created_at": "2016-10-12",
-      "first_date": "2026-10-24",
-      "last_date": "2026-11-10",
-      "dates": [
-        "2026-11-10",
-        "2026-10-24"
-      ],
-      "times": 2
-    },
-    {
       "full_name": "IainKay/ram-altman",
       "url": "https://github.com/IainKay/ram-altman",
       "description": "Monitors your RAM and reports any \"quite terrible\" unused capacity directly to the CEO of OpenAI.",
@@ -7378,47 +7805,6 @@
       "dates": [
         "2026-11-09",
         "2026-10-29"
-      ],
-      "times": 2
-    },
-    {
-      "full_name": "doctest/doctest",
-      "url": "https://github.com/doctest/doctest",
-      "description": "The fastest feature-rich C++11/14/17/20/23 single-header testing framework",
-      "summary": "学什么：通过阅读 doctest 的源码可以深入理解 C++ 宏和模板的高级用法，以及如何设计轻量级、功能丰富的单头库\n适合谁：适合有一定 C++ 基础，希望提升宏和模板编程技巧的开发者，尤其是对单元测试框架设计感兴趣的读者\n怎么读：从 main 函数和宏定义入手，逐步深入到模板元编程和测试用例的组织逻辑",
-      "stars": 6902,
-      "language": "C++",
-      "topics": [
-        "c-plus-plus",
-        "cpp",
-        "cpp11",
-        "cpp14",
-        "cpp17",
-        "cpp20",
-        "cpp23",
-        "doctest",
-        "header-only",
-        "single-file",
-        "tdd",
-        "testing",
-        "testing-framework",
-        "unit-testing"
-      ],
-      "categories": [
-        "C++"
-      ],
-      "platforms": [
-        "C++"
-      ],
-      "pick": null,
-      "slot": null,
-      "kind": "learn",
-      "created_at": "2014-08-05",
-      "first_date": "2026-10-26",
-      "last_date": "2026-11-09",
-      "dates": [
-        "2026-11-09",
-        "2026-10-26"
       ],
       "times": 2
     },
